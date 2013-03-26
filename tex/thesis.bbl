@@ -1,0 +1,21 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Harper} \& {Brown}(2006)}]{harper_2006}
+{\sc {Harper}, G.M. \& {Brown}, A.} (2006). {Electron Density and Turbulence
+  Gradients within the Extended Atmosphere of the M Supergiant Betelgeuse
+  ({$\alpha$} Orionis)}. {\em \apj\/}, {\bf 646}, 1179--1202.
+
+\bibitem[{Prothero \& Buell(2007)}]{prothero2007evolution}
+{\sc Prothero, D. \& Buell, C.} (2007). {\em Evolution: what the fossils say
+  and why it matters\/}. Columbia University Press.
+
+\bibitem[{Sagan(1997)}]{sagan1997demon}
+{\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
+  the Dark\/}. Ballantine Books.
+
+\bibitem[{{Seaquist} \& {Taylor}(1990)}]{seaquist_taylor_1990}
+{\sc {Seaquist}, E.R. \& {Taylor}, A.R.} (1990). {The collective radio
+  properties of symbiotic stars}. {\em \apj\/}, {\bf 349}, 313--327.
+
+\end{thebibliography}

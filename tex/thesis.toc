@@ -1,0 +1,26 @@
+\select@language {english}
+\contentsline {chapter}{List of Publications}{vi}{chapter*.1}
+\contentsline {chapter}{List of Figures}{ix}{section*.4}
+\contentsline {chapter}{List of Tables}{x}{section*.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Sun}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Solar Interior}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Solar Dynamo and Magnetic Field}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Solar Atmosphere}{2}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Solar Wind}{2}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Coronal Mass Ejections and Coronal Shocks}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Observations}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Current understanding}{2}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Open Questions}{2}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {2}Magnetohydrodynamic and \\ Plasma Kinetic Theory}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Magnetohydrodynamics}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Magnetic Reconnection}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Coronal Mass Ejections}{3}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Coronal Shocks}{3}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Plasma Kinetics}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Boltzmann Equation}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Shock Particle Acceleration}{3}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Wave-Particle Interaction}{3}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Electromagnetic Radiation in Plasma Shocks}{3}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{4}{appendix.A}
+\contentsline {chapter}{References}{5}{section*.8}
