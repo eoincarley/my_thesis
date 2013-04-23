@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  22 APR 2013 18:15
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  23 APR 2013 20:39
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -438,6 +438,21 @@ Package: `setspace' 6.7 <2000/12/01>
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/MHD.aux
 
+LaTeX Warning: Label `sec:1' multiply defined.
+
+
+LaTeX Warning: Label `sec:10' multiply defined.
+
+
+LaTeX Warning: Label `sec:11' multiply defined.
+
+
+LaTeX Warning: Label `sec:12' multiply defined.
+
+
+LaTeX Warning: Label `sec:13' multiply defined.
+
+
 LaTeX Warning: Label `sec:2' multiply defined.
 
 
@@ -449,6 +464,7 @@ LaTeX Warning: Label `sec:21' multiply defined.
 
 LaTeX Warning: Label `sec:22' multiply defined.
 
+) (./3/Instrumentation.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
 
@@ -461,10 +477,28 @@ LaTeX Warning: Label `sec:11' multiply defined.
 
 LaTeX Warning: Label `sec:12' multiply defined.
 
-) (./3/Instrumentation.aux
 
-LaTeX Warning: Label `chap:2' multiply defined.
+LaTeX Warning: Label `sec:2' multiply defined.
 
+
+LaTeX Warning: Label `sec:20' multiply defined.
+
+
+LaTeX Warning: Label `sec:21' multiply defined.
+
+
+LaTeX Warning: Label `sec:3' multiply defined.
+
+
+LaTeX Warning: Label `sec:30' multiply defined.
+
+
+LaTeX Warning: Label `sec:31' multiply defined.
+
+
+LaTeX Warning: Label `sec:32' multiply defined.
+
+) (./4/masses.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
 
@@ -483,8 +517,18 @@ LaTeX Warning: Label `sec:20' multiply defined.
 
 LaTeX Warning: Label `sec:21' multiply defined.
 
+) (./5/shocks.aux
 
-LaTeX Warning: Label `sec:22' multiply defined.
+LaTeX Warning: Label `sec:1' multiply defined.
+
+
+LaTeX Warning: Label `sec:10' multiply defined.
+
+
+LaTeX Warning: Label `sec:2' multiply defined.
+
+
+LaTeX Warning: Label `sec:20' multiply defined.
 
 
 LaTeX Warning: Label `sec:3' multiply defined.
@@ -492,9 +536,8 @@ LaTeX Warning: Label `sec:3' multiply defined.
 
 LaTeX Warning: Label `sec:30' multiply defined.
 
-) (./4/masses.aux
 
-LaTeX Warning: Label `sec:4' multiply defined.
+LaTeX Warning: Label `sec:31' multiply defined.
 
 ) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
@@ -549,7 +592,7 @@ LaTeX Info: Redefining \pageref on input line 126.
 Package backref Info: ** backref set up for natbib ** on input line 126.
 \AtBeginShipoutBox=\box56
 
-<images/tcd_crest.jpg, id=202, 949.5475pt x 1207.51125pt>
+<images/tcd_crest.jpg, id=266, 949.5475pt x 1207.51125pt>
 File: images/tcd_crest.jpg Graphic file (type jpg)
 
 <use images/tcd_crest.jpg>
@@ -630,21 +673,21 @@ tes Us-ing \OT1/cmr/m/it/12 STEREO\OT1/cmr/m/n/12 '',
 ] (./thesis.toc [8
 
 
-])
+] [9])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [9] (./thesis.lof)
+ [10] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [10
+ [11
 
 ] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [11
+ [12
 
 ]
 \openout2 = `1/introduction.aux'.
@@ -656,50 +699,62 @@ Chapter 1.
 
 
 
-] [2] <images/solar_atmosphere.jpg, id=335, 154.176pt x 115.632pt>
+] [2] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+ (/usr/local/texlive/2008/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+
+<images/solar_atmosphere.jpg, id=429, 154.176pt x 115.632pt>
 File: images/solar_atmosphere.jpg Graphic file (type jpg)
 
 <use images/solar_atmosphere.jpg>
-<images/Babcock.jpg, id=336, 387.94937pt x 193.72375pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Babcock.jpg, id=430, 387.94937pt x 193.72375pt>
 File: images/Babcock.jpg Graphic file (type jpg)
 
 <use images/Babcock.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./images/solar_atmosphere.jpg>] [4 <./images/Babcock.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
-
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
- [5] [6]) [7]
+[4] [5 <./images/solar_atmosphere.jpg>] [6 <./images/Babcock.jpg>] [7] [8])
+[9]
 \openout2 = `2/MHD.aux'.
 
-
-(./2/MHD.tex
+ (./2/MHD.tex
 Chapter 2.
-) [8
+) [10
 
 
 
-]
+] [11]
 \openout2 = `3/Instrumentation.aux'.
 
  (./3/Instrumentation.tex
 Chapter 3.
-) [9
+) [12
 
 
 
-] [10]
+] [13]
 \openout2 = `4/masses.aux'.
 
  (./4/masses.tex
 Chapter 4.
-) [11
+) [14
+
+
+
+]
+\openout2 = `5/shocks.aux'.
+
+ (./5/shocks.tex
+Chapter 5.
+) [15
 
 
 
@@ -708,7 +763,7 @@ Chapter 4.
 
  (./appendix/app.tex
 Appendix A.
-) [12
+) [16
 
 
 
@@ -716,25 +771,26 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [13
+) [17
 
 
 ] (./thesis.aux (./0/declaration.aux)
 (./0/abstract.aux) (./0/dedication.aux) (./0/acknowledgement.aux)
 (./0/publications.aux) (./1/introduction.aux) (./2/MHD.aux)
-(./3/Instrumentation.aux) (./4/masses.aux) (./appendix/app.aux))
+(./3/Instrumentation.aux) (./4/masses.aux) (./5/shocks.aux) (./appendix/app.aux
+))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8105 strings out of 493876
- 117636 string characters out of 1150568
- 198790 words of memory out of 3000000
- 11020 multiletter control sequences out of 10000+50000
- 18591 words of font info for 64 fonts, out of 3000000 for 5000
+ 8167 strings out of 493876
+ 118429 string characters out of 1150568
+ 200452 words of memory out of 3000000
+ 11044 multiletter control sequences out of 10000+50000
+ 19831 words of font info for 68 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 43i,12n,48p,1450b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,48p,1497b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -742,21 +798,23 @@ st, replaced by a fixed one
 live/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></usr/local/texlive/2008
 /texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></usr/local/texlive/2008/texmf-di
 st/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/local/texlive/2008/texmf-dist/fonts
-/type1/bluesky/cm/cmmi10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bl
-uesky/cm/cmmi12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/
-cmmi7.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb>
-</usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr12.pfb></usr/loca
-l/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></usr/local/texlive/
-2008/texmf-dist/fonts/type1/bluesky/cm/cmr7.pfb></usr/local/texlive/2008/texmf-
-dist/fonts/type1/bluesky/cm/cmr8.pfb></usr/local/texlive/2008/texmf-dist/fonts/
-type1/bluesky/cm/cmsy10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/blu
-esky/cm/cmsy8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cm
-ti10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb>
-</usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb></usr/lo
-cal/texlive/2008/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (25 pages, 376503 bytes).
+/type1/bluesky/cm/cmex10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bl
+uesky/cm/cmmi10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/
+cmmi12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmmi7.pfb
+></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmmi8.pfb></usr/loc
+al/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></usr/local/texlive
+/2008/texmf-dist/fonts/type1/bluesky/cm/cmr12.pfb></usr/local/texlive/2008/texm
+f-dist/fonts/type1/bluesky/cm/cmr17.pfb></usr/local/texlive/2008/texmf-dist/fon
+ts/type1/bluesky/cm/cmr7.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bl
+uesky/cm/cmr8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cm
+sy10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb><
+/usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></usr/loca
+l/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></usr/local/texlive
+/2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb></usr/local/texlive/2008/te
+xmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
+Output written on thesis.pdf (30 pages, 402342 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 131072)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 131072)
+ 548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
