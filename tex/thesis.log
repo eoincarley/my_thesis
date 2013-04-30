@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  30 APR 2013 13:59
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  30 APR 2013 18:09
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -699,53 +699,47 @@ Chapter 1.
 
 
 
-] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
- (/usr/local/texlive/2008/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-
-[4] <images/solar_atmosphere.jpg, id=436, 154.176pt x 115.632pt>
+] [2] [3] [4] [5]
+<images/solar_atmosphere.jpg, id=462, 154.176pt x 115.632pt>
 File: images/solar_atmosphere.jpg Graphic file (type jpg)
 
 <use images/solar_atmosphere.jpg>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/Babcock.jpg, id=437, 387.94937pt x 193.72375pt>
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+ [6 <./images/solar_atmosphere.jpg>] <images/Babcock.jpg, id=470, 387.94937pt x
+ 193.72375pt>
 File: images/Babcock.jpg Graphic file (type jpg)
 
-<use images/Babcock.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <./images/solar_atmosphere.jpg>] [7 <./images/Babcock.jpg>] [8] [9])
-[10]
+<use images/Babcock.jpg> [7 <./images/Babcock.jpg>] [8] [9] [10]) [11]
 \openout2 = `2/MHD.aux'.
 
- (./2/MHD.tex
+
+(./2/MHD.tex
 Chapter 2.
-) [11
+) [12
 
 
 
-] [12]
+] [13]
 \openout2 = `3/Instrumentation.aux'.
 
  (./3/Instrumentation.tex
 Chapter 3.
-) [13
+) [14
 
 
 
-] [14]
+] [15]
 \openout2 = `4/masses.aux'.
 
  (./4/masses.tex
 Chapter 4.
-) [15
+) [16
 
 
 
@@ -754,7 +748,7 @@ Chapter 4.
 
  (./5/shocks.tex
 Chapter 5.
-) [16
+) [17
 
 
 
@@ -763,7 +757,7 @@ Chapter 5.
 
  (./appendix/app.tex
 Appendix A.
-) [17
+) [18
 
 
 
@@ -771,26 +765,26 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [18
+ [19
 
 
-] (./thesis.aux (./0/declaration.aux)
-(./0/abstract.aux) (./0/dedication.aux) (./0/acknowledgement.aux)
-(./0/publications.aux) (./1/introduction.aux) (./2/MHD.aux)
-(./3/Instrumentation.aux) (./4/masses.aux) (./5/shocks.aux) (./appendix/app.aux
-))
+]) [20] (./thesis.aux
+(./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
+(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
+(./2/MHD.aux) (./3/Instrumentation.aux) (./4/masses.aux) (./5/shocks.aux)
+(./appendix/app.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8169 strings out of 493876
- 118450 string characters out of 1150568
- 200450 words of memory out of 3000000
- 11044 multiletter control sequences out of 10000+50000
+ 8214 strings out of 493876
+ 119088 string characters out of 1150568
+ 202041 words of memory out of 3000000
+ 11081 multiletter control sequences out of 10000+50000
  19831 words of font info for 68 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 43i,12n,48p,1497b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,48p,1497b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -812,9 +806,9 @@ sy10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb><
 l/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></usr/local/texlive
 /2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb></usr/local/texlive/2008/te
 xmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (31 pages, 405829 bytes).
+Output written on thesis.pdf (33 pages, 423011 bytes).
 PDF statistics:
- 615 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 131072)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 127 named destinations out of 1000 (max. 131072)
  548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
