@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  23 APR 2013 21:10
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  30 APR 2013 13:59
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -707,18 +707,21 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
 
-<images/solar_atmosphere.jpg, id=429, 154.176pt x 115.632pt>
+[4] <images/solar_atmosphere.jpg, id=436, 154.176pt x 115.632pt>
 File: images/solar_atmosphere.jpg Graphic file (type jpg)
 
-<use images/solar_atmosphere.jpg> [4]
-<images/Babcock.jpg, id=436, 387.94937pt x 193.72375pt>
+<use images/solar_atmosphere.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Babcock.jpg, id=437, 387.94937pt x 193.72375pt>
 File: images/Babcock.jpg Graphic file (type jpg)
 
 <use images/Babcock.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./images/solar_atmosphere.jpg>] [6 <./images/Babcock.jpg>] [7] [8] [9])
+[5] [6 <./images/solar_atmosphere.jpg>] [7 <./images/Babcock.jpg>] [8] [9])
 [10]
 \openout2 = `2/MHD.aux'.
 
@@ -781,8 +784,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8168 strings out of 493876
- 118436 string characters out of 1150568
+ 8169 strings out of 493876
+ 118450 string characters out of 1150568
  200450 words of memory out of 3000000
  11044 multiletter control sequences out of 10000+50000
  19831 words of font info for 68 fonts, out of 3000000 for 5000
@@ -809,9 +812,9 @@ sy10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb><
 l/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></usr/local/texlive
 /2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb></usr/local/texlive/2008/te
 xmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (31 pages, 404167 bytes).
+Output written on thesis.pdf (31 pages, 405829 bytes).
 PDF statistics:
- 614 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 131072)
+ 615 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 131072)
  548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
