@@ -1,66 +1,66 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vii}{chapter*.1}
 \contentsline {chapter}{List of Figures}{xi}{section*.4}
-\contentsline {chapter}{List of Tables}{xii}{section*.6}
+\contentsline {chapter}{List of Tables}{xiii}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Sun}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Solar Interior}{2}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Solar Dynamo and Magnetic Field}{6}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Solar Atmosphere}{8}{subsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.3.1}Photosphere}{8}{subsubsection.1.1.3.1}
-\contentsline {subsubsection}{\numberline {1.1.3.2}Chromosphere}{9}{subsubsection.1.1.3.2}
-\contentsline {subsubsection}{\numberline {1.1.3.3}Corona}{10}{subsubsection.1.1.3.3}
-\contentsline {subsection}{\numberline {1.1.4}Solar Wind}{11}{subsection.1.1.4}
-\contentsline {section}{\numberline {1.2}Coronal Mass Ejections and Coronal Shocks}{11}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}CMEs}{11}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}CMEs and Shocks}{11}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Open Questions}{11}{subsection.1.2.3}
-\contentsline {chapter}{\numberline {2}Coronal Mass Ejection and Plasma Shock Theory}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Plasma Physics and Magnetohydrodynamics}{13}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Maxwell's Equations}{13}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Plasma Physics and Boltzmann Equation}{13}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Magnetohydrodynamics}{13}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Magnetic Reconnection}{13}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}MHD Rankine-Hugoniot Equations}{13}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Bow Shocks}{13}{subsection.2.1.6}
-\contentsline {section}{\numberline {2.2}Coronal Mass Ejections}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{13}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{13}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Drag Models}{13}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Coronal Shocks}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Shock Particle Acceleration}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Wave-Particle Interaction}{13}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Electromagnetic Radiation in Plasma Shocks}{13}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}Observation and Instrumentation}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Thompson Scattering Theory}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The van de Hulst Coefficients}{15}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Thomson Scattering in the Corona}{15}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}White-light observations of CMEs}{15}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Conornagraphs}{15}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SOHO LASCO}{15}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}STEREO CORs}{15}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Radio Spectrometers and Radioheliographs}{15}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}RSTO Callisto}{15}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}STEREO WAVES}{15}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Nancay Decametric Array}{15}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Nancay Radioheliograph}{15}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}EUV imaging}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}SDO AIA}{15}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}Coronal Mass Ejection Masses, Energetics, and Dynamics}{16}{chapter.4}
-\contentsline {section}{\numberline {4.1}Masses}{16}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Evaluation of Uncertainties}{16}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Masses}{16}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Energies and Dynamics}{16}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Mechanical Energy}{16}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Forces acting on CMEs}{16}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}Coronal Mass Ejection Masses, Shocks, and Particle Acceleration}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Radio Bursts}{17}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Type II, Type III, and Herringbones}{17}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}EUV Wave and Radio Source}{17}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Relationship with Radio Spectra}{17}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Role of the CME}{17}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}CME Bow Shock}{17}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Relationship Between CME, CBF, and Radio bursts}{17}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{18}{appendix.A}
-\contentsline {chapter}{References}{19}{section*.10}
+\contentsline {subsection}{\numberline {1.1.2}Solar Magnetic Field and Dynamo}{8}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Solar Atmosphere}{11}{subsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.3.1}Photosphere}{11}{subsubsection.1.1.3.1}
+\contentsline {subsubsection}{\numberline {1.1.3.2}Chromosphere}{14}{subsubsection.1.1.3.2}
+\contentsline {subsubsection}{\numberline {1.1.3.3}Corona}{14}{subsubsection.1.1.3.3}
+\contentsline {subsection}{\numberline {1.1.4}Solar Wind}{15}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Coronal Mass Ejections and Coronal Shocks}{15}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}CMEs}{15}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}CMEs and Shocks}{16}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Open Questions}{16}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {2}Coronal Mass Ejection and Plasma Shock Theory}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Plasma Physics and Magnetohydrodynamics}{18}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Maxwell's Equations}{18}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Plasma Physics and Boltzmann Equation}{18}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Magnetohydrodynamics}{18}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Magnetic Reconnection}{18}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}MHD Rankine-Hugoniot Equations}{18}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Bow Shocks}{18}{subsection.2.1.6}
+\contentsline {section}{\numberline {2.2}Coronal Mass Ejections}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{18}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Drag Models}{18}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Coronal Shocks}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Shock Particle Acceleration}{18}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Wave-Particle Interaction}{18}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Electromagnetic Radiation in Plasma Shocks}{18}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}Observation and Instrumentation}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Thompson Scattering Theory}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The van de Hulst Coefficients}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Thomson Scattering in the Corona}{20}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}White-light observations of CMEs}{20}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Conornagraphs}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SOHO LASCO}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}STEREO CORs}{20}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Radio Spectrometers and Radioheliographs}{20}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}RSTO Callisto}{20}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}STEREO WAVES}{20}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Nancay Decametric Array}{20}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Nancay Radioheliograph}{20}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}EUV imaging}{20}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}SDO AIA}{20}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}Coronal Mass Ejection Masses, Energetics, and Dynamics}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Masses}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Evaluation of Uncertainties}{21}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Masses}{21}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Energies and Dynamics}{21}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Mechanical Energy}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Forces acting on CMEs}{21}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Coronal Mass Ejection Masses, Shocks, and Particle Acceleration}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Radio Bursts}{22}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Type II, Type III, and Herringbones}{22}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}EUV Wave and Radio Source}{22}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Relationship with Radio Spectra}{22}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Role of the CME}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}CME Bow Shock}{22}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Relationship Between CME, CBF, and Radio bursts}{22}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{23}{appendix.A}
+\contentsline {chapter}{References}{24}{section*.13}

@@ -1,9 +1,13 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{17}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Babcock}(1961)}]{babcock1961}
 {\sc {Babcock}, H.W.} (1961). {The Topology of the Sun's Magnetic Field and the
   22-YEAR Cycle.} {\em \apj\/}, {\bf 133}, 572.
+
+\bibitem[{{Charbonneau}(2010)}]{charbon2010}
+{\sc {Charbonneau}, P.} (2010). {Dynamo Models of the Solar Cycle}. {\em Living
+  Reviews in Solar Physics\/}, {\bf 7}, 3.
 
 \bibitem[{{Davis} {\em et~al.\/}(1968){Davis}, {Harmer} \&
   {Hoffman}}]{davis1968}
@@ -11,10 +15,20 @@
   Neutrinos from the Sun}. {\em Physical Review Letters\/}, {\bf 20},
   1205--1209.
 
+\bibitem[{{Fan}(2009)}]{fan2009}
+{\sc {Fan}, Y.} (2009). {Magnetic Fields in the Solar Convection Zone}. {\em
+  Living Reviews in Solar Physics\/}, {\bf 6}, 4.
+
 \bibitem[{{Feldman} \& {Widing}(2003)}]{feldman2003}
 {\sc {Feldman}, U. \& {Widing}, K.G.} (2003). {Elemental Abundances in the
   Solar Upper Atmosphere Derived by Spectroscopic Means}. {\em \ssr\/}, {\bf
   107}, 665--720.
+
+\bibitem[{{Fontenla} {\em et~al.\/}(1988){Fontenla}, {Reichmann} \&
+  {Tandberg-Hanssen}}]{fontenla1988}
+{\sc {Fontenla}, J., {Reichmann}, E.J. \& {Tandberg-Hanssen}, E.} (1988). {The
+  Lyman-alpha line in various solar features. I - Observations}. {\em \apj\/},
+  {\bf 329}, 464--481.
 
 \bibitem[{{Foukal}(2004)}]{foukal2004}
 {\sc {Foukal}, P.V.} (2004). {\em {Solar Astrophysics, 2nd, Revised
@@ -68,6 +82,11 @@
   Super-Kamiokande's First 300 Days}. {\em Physical Review Letters\/}, {\bf
   81}, 1158--1162.
 
+\bibitem[{{Gabriel}(1976)}]{gabriel1976}
+{\sc {Gabriel}, A.H.} (1976). {A magnetic model of the solar transition
+  region}. {\em Royal Society of London Philosophical Transactions Series A\/},
+  {\bf 281}, 339--352.
+
 \bibitem[{{Geiss}(1985)}]{geiss1985}
 {\sc {Geiss}, J.} (1985). {Diagnostics of corona by in-situ composition
   measurements at 1 AU}. In E.~{Rolfe} \& B.~{Battrick}, eds., {\em Future
@@ -89,10 +108,22 @@
   {Ultraviolet and X-ray Spectroscopy of the Solar Atmosphere}\/}. Cambridge
   University Press.
 
+\bibitem[{{Thompson} {\em et~al.\/}(2003){Thompson}, {Christensen-Dalsgaard},
+  {Miesch} \& {Toomre}}]{thompson2003}
+{\sc {Thompson}, M.J., {Christensen-Dalsgaard}, J., {Miesch}, M.S. \& {Toomre},
+  J.} (2003). {The Internal Rotation of the Sun}. {\em \araa\/}, {\bf 41},
+  599--643.
+
 \bibitem[{{Turck-Chi{\`e}ze} \& {Couvidat}(2011)}]{turk2011}
 {\sc {Turck-Chi{\`e}ze}, S. \& {Couvidat}, S.} (2011). {Solar neutrinos,
   helioseismology and the solar internal dynamics}. {\em Reports on Progress in
   Physics\/}, {\bf 74}, 086901.
+
+\bibitem[{{Vernazza} {\em et~al.\/}(1981){Vernazza}, {Avrett} \&
+  {Loeser}}]{vernazza1981}
+{\sc {Vernazza}, J.E., {Avrett}, E.H. \& {Loeser}, R.} (1981). {Structure of
+  the solar chromosphere. III - Models of the EUV brightness components of the
+  quiet-sun}. {\em \apjs\/}, {\bf 45}, 635--725.
 
 \bibitem[{{Wolfenstein}(1978)}]{wolfenstein1978}
 {\sc {Wolfenstein}, L.} (1978). {Neutrino oscillations in matter}. {\em

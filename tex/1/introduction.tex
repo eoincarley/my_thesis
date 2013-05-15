@@ -46,26 +46,15 @@ Beyond $0.25\,R_{\odot}$ the temperature drops to 8 MK, such that fusion stops b
 \begin{equation}
 \frac{dT}{dr} = -\frac{3}{16 \sigma}\frac{\kappa \rho}{T^3}F_{rad}
 \end{equation}
+
+%Note the above equation is actually a diffusion equation for radiation. Take the divergence of both sides and you have $\grad\dotF = \kappa^'\grad^2 T$, with $\kappa^'$ being the diffusion coefficient given by $\kappa^i=\frac{16\pi\sigmaT^3}{3\kappa \rho}$ e.g., the opacity controls to mean free path, and hence the diffusion of photons.
+
+
 where $\sigma$ is the Stefan-Boltzman constant, $\kappa$ is the mass extinction coefficient (opacity per unit mass), $\rho$ is mass density, $T$ is temperature, and $F_{rad}$ is the outward radiative flux. This implies that for a particular outward flux, if the opacity increases, a steeper temperature gradient is required to maintain such a flux. At $0.7\,R_{\odot}$ the temperature drops to 1\,MK allowing protons to capture electrons into a bound orbit. The existence of electrons in atomic orbit results in a dramatic increase in opacity of the plasma \citep{turk2011} and hence the temperature gradient increases. The increased temperature gradient required to sustain the energy flow may lead to the onset of a convective instability beyond $0.7\,R_{\odot}$ toward the solar surface. This instability will occur if the temperature gradient in the star is steeper than the adiabatic temperature gradient
 \begin{equation}
 \Bigg|\frac{dT}{dr}\Bigg|_{star} > \Bigg|\frac{dT}{dr}\Bigg|_{adiabatic}
 \end{equation}
 This is known as the Schwarzchild criterion, and it is fulfilled from $0.7-1\,R_{\odot}$ $-$a region known as the convection zone. The temperature and density drop as height increases and finally reaches T$\sim$$6000$\,K and mass densities of $\rho\sim1\times10^{-5}$\,kg\,m$^{-3}$. Although no complete theoretical treatment of convection exists, mixing length theory and hydrodynamical modeling are used to determine how convection occurs in the solar interior. Convection ceases at $1\,R_{\odot}$, where the environment makes a sudden transition to convectively stability. At this point the opacity drops and energy is released in the form of radiation, demarcating the start of the solar surface, known as the photosphere. 
-
-% Yuhong Fan, Living Reviews. "Because of the rapid decrease of the various scale heights in the top layer of the solar convection zone which demands increasing numerical resolution, it is not yet feasible to perform 3D MHD simulations that extend from the bottom of the convection zone all the way to the photosphere."
-
-Much of what we know about the depth, temperature, and density of the convection zones come from a fine-tuning of the standard solar model, such that the model reproduces observations from neutrino and helioseismology experiments. In fact helioseismology alone can indicate great detail of the internal structure of the Sun. This field makes use of the fact the Sun acts as a resonator for acoustic waves which manifest as detectable oscillations in the doppler shift of photospheric Fraunhofer lines. These acoustic waves are referred to as pressure or p-modes, and a variety of wavelengths exist. Wavelengths that are an integer multiple of of the solar cavity may exist as standing wave modes. Such wave modes have a period of approximately 5 minutes. The shorter wavelengths in the mode propagate into the solar convection zone and experience a total internal reflection at a shallow depth, while longer wavelengths can penetrate into much deeper layers.
-
-\begin{itemize}
-\item Heliosesmology, sound speed, tachocline, differential rotation.
-\end{itemize}
-
-It has revealed that both the core and radiative zone rotate as a rigid body, while the convective zone undergoes differential rotation (REFERENCE), in much the same way as the solar surface does. 
-Hence the boundary between the radiative and convective zones mark a region where the internal dynamics of the Sun change dramatically. This boundary is known as the tachocline, and it is this region that is of much relevance to the generation and cyclic evolution of the Sun's magnetic field.
-
-
-%The source of the Sun's energy is nuclear fusion in the solar core. Temperatures as high as $15\times10^{6}$\,K allow four protons to fuse and become a helium nucleus i.e., $4\,^{1}$H$\rightarrow ^{4}$He\,+\,2e$^{+}+2\nu+2\gamma$, in a process known as the proton-proton or pp-chain. Here e$^+$, $\nu$, and $\gamma$ are a positron, neutrino, and gamma ray photon, respectively, resulting from fusion processes in the pp-chain. The solar core extends to approximately $0.25\,R_{\odot}$ from solar center where hydrogen burning (fusion) stops. Beyond this point, energy transport is dominated by photons scattering off of free particles. The transport of energy via radiation continues up to $\sim0.8\,R_{\odot}$, at which point the temperature is low enough such that neutral atoms form and radiation can no longer propagate freely due to the high opacity. Between $\sim0.8-1\,R_{\odot}$ the temperature gradient is large enough for convection to become the dominant mechanism for the transport of energy to the solar surface
-
 
 \begin{figure}[!t]
 \begin{center}
@@ -75,13 +64,42 @@ Hence the boundary between the radiative and convective zones mark a region wher
 \end{center}
 \end{figure}
 
+% Yuhong Fan, Living Reviews. "Because of the rapid decrease of the various scale heights in the top layer of the solar convection zone which demands increasing numerical resolution, it is not yet feasible to perform 3D MHD simulations that extend from the bottom of the convection zone all the way to the photosphere."
+
+Much of what we know about the depth, temperature, and density of the convection zones come from a fine-tuning of the standard solar model, such that the model reproduces observations from neutrino and helioseismology experiments. In fact helioseismology alone can indicate great detail of the internal structure of the Sun. This field makes use of the fact the Sun acts as a resonator for acoustic waves which manifest as detectable oscillations in the doppler shift of photospheric Fraunhofer lines. These acoustic waves are referred to as pressure or p-modes, and a variety of wavelengths exist. Wavelengths that are an integer multiple of of the solar cavity may exist as standing wave modes. Such wave modes have a period of approximately 5 minutes \citep{turk2011}. 
+
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[trim = 0cm 0.5cm 0cm 0cm, width=1.0\textwidth]{images/differential_rot.png}
+\caption{Helioseismological determination of interior rotation rate in nanoHertz (nHz) as a function solar radius, starting from solar centre ($r=0.0$) to surface ($r=1.0$). The separate symbols show different latitudes, from $0^{\circ}$ to $75^{\circ}$. The data show that the interior rotates differentially down to $\sim$$0.7\,R_{\odot}$. The dashed line demarcates the boundary between solid body rotation and differential rotation \citep{thompson2003}.}
+\label{fig:diff_rot} 
+\end{center}
+\end{figure}
 
 
-\subsection{Solar Dynamo and Magnetic Field}\label{sec:11}
+The shorter wavelengths in the mode propagate into the solar convection zone and experience a total internal reflection at a shallow depth, while longer wavelengths can penetrate into much deeper layers. Hence depending on the period observed, the oscillations provide a probe of the internal thermodynamic properties at a particular level. Once such property closely monitored is the sound speed, which is seen to match the predicted sound speed based on the standard model. However, the observation and prediction show the biggest deviation at a depth of $0.3\,R_{\odot}$, which is the region where the radiative zone transitions to the convective zone. This obviously implies that SSM is lacking in its description of how the solar interior is stratified at this depth. This partly due to the fact the SSM does not take into account differential rotation. The solar surface rotates faster at the equator than it does at the poles i.e., angular velocity is stratified with latitude. Helioseismology has revealed that such differential rotational continues to the bottom of the convection zone. In the deeper radiative zone and core the Sun rotates as a solid body see Figure~\ref{fig:diff_rot}. There is a dramatic change in the internal dynamics when transitioning from convective to radiative zones. 
 
-\begin{itemize}
-\item Cellular pattern in photosphere is very different to the convective structure in deeper layers.
-\end{itemize}
+As predicted by sound speed measurements and differential rotation, the region sandwiched in between radiative and convective zones is and extremely important boundary. It is known as the tachocline, and the dynamics of this thin layer is believed to play and extremely important role in the generation and evolution of the solar magnetic field \citep{thompson2003}.
+
+
+
+
+\subsection{Solar Magnetic Field and Dynamo}\label{sec:11}
+
+The solar magnetic field is the ultimately source of all energetic activity in the its atmosphere. At solar activity minimum the solar magnetic field has a poloidal dipolar structure, with the polar axes generally being coincident with the rotational axes. However as the the activity cycle progresses towards a maximum, the field gains a strong toroidal component, making it far more dynamic and complex. This complex toroidal component manifests at the surface as sunspots, hence the number of sunspots on disk has been used as a proxy for the activity cycle for over 100 years, often showing an approximate 11 year periodicity (Figure~\ref{fig:butterfly}, bottom panel). At the beginning of the cycle sunspots tend to appear on disk with a latitudinal distribution of $\pm30^{\circ}$ of the equator. As the cycle progresses, sunspots appear at lower and lower latitude (known as Sp\"{o}rer's law), until they eventually disappear at the end of a cycle. Sunspot latitude with respect to time is shown in Figure~\ref{fig:butterfly}, top panel, and is known as the butterfly diagram.
+
+Sunspots in there simplest case emerge as a dipole structure, with the leading spot being closer to the equator, such that the dipole is titled relative to the solar equator (Joy's law). In a given hemisphere, the leading sunspot and trailing spot have opposite polarities, with the polarities reversed in the other hemisphere  (Hayle's law). The trailing polarity can often be more fragmented and dispersed that the leading polarity. Despite sunspots generally having a dipolar structure, spot groups can be far more complex, having a multipolar structure (this will be described more later).
+
+Over the course of a solar cycle, the sun changes polarity (at the time of sunspot maximum). For example, an overall dipolar configuration of North-South will become South-North, another cycle will bring it back to N-S once more. While the activity cycle usually last 11 years, one full magnetic cycle has a period of 22 years.
+
+
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.55, trim =1cm 1cm 0cm 3cm]{images/bfly_new.pdf}
+\caption{Top: The latitude of sunspots as a function of time. During the rise phase of each cycle the sunspots have a latitudinal distribution of $\pm30^{\circ}$ from the equator.  As the solar cycle progresses, sunspots emergence takes place at an increasingly lower latitude. Bottom: Sunspot area as a function of time. The approximate 11 year periodicity is clearly shown.}
+\label{fig:butterfly} 
+\end{center}
+\end{figure}
 
 
 \begin{figure}[!h]
@@ -92,35 +110,45 @@ Hence the boundary between the radiative and convective zones mark a region wher
 \end{center}
 \end{figure}
 
-It is widely believed that the Sun's magnetic field is created by a dynamo action in a region between the radiative zone and the convection zone, known as the tachocline. Solar dynamo theory attempts to explain the observed 11 year magnetic activity cycle, where the the Sun's magnetic field starts as a poloidal dipolar structure and evolves to having a strong toroidal component, after which it returns to a poloidal field again. During these 11 years the Sun starts at minimum activity, reaches a maximum and returns to minimum again.
+The complex behavior of the solar magnetic field over an 11 year activity cycle, during which the dipole flips, is generally explained by solar dynamo theory. This involves large-scale flow patterns of the solar interior that act to both induct and diffuse the magnetic field such that it produces the familiar 11 year magnetic activity cycle. Magnetohydrodynamics (MHD) is employed such that the magnetic induction equation and velocity field equation (equation of motion) are solved in numerical models to produce a toroidal field from a poloidal one, a process known as the $\Omega$-effect. The theories must adhere to the constraints provided by observations of the sunspot cycle (Sp\"{o}rer's, Joy's, and Hale's laws), and also helioseismology observations of how the interior is structured.
 
-\citet{babcock1961} first explained this process by a mechanism involving differential rotation of the solar surface and interior. The equatorial rotation rate is faster than the rotation rate at higher latitudes. Because the magnetic field is frozen into the plasma, any flows in the solar interior will tend to drag the magnetic field along. By this effect, differential rotation tends to drag the field and wrap it around the Sun in a toroidal direction, this is known as the omega effect, see Figure~\ref{fig:Babcock}.
 
-As the toroidal field builds up in the solar interior, sections of field lines build up in magnetic pressure resulting in a buoyancy of the field. The field slowly rises through the convection zone and eventually surfaces as a bipolar region that extends into the solar atmosphere. The presence of bipolar fields in the solar atmosphere and their slow build up over time to complex magnetic structures, known as active regions, ultimately leads to a variety of eruptive phenomena.
-
+\citet{babcock1961} first proposed a mechanism whereby the differential rotation of the solar convection zone tends to drag the field from a poloidal position into a toroidal one, eventually winding the field into a a stressed state, see Figure~\ref{fig:Babcock}. The main storage of this wound field is in the region below the convection zone known as the tachocline. This region is known as an 'overshoot' layer, in which descending convective flows are a trapped due the subadiabicity of the region (convectively stable). This stability allows field to be built up and stored into complex magnetic structures. Parts of this structure may form a twisted magnetic 'flux-rope', and due to it's excess magnetic pressure, it becomes convectively unstable and begins to rise. During this rise a Coriolis force has a tendency to tilt into a north-south orientation and eventually penetrate through the solar surface and into the atmosphere, known as the $\alpha$-effect (the tilt from Coriolis effects explains Joy's law). Dynamo theory attempts to explain the $\Omega$-effect wrapping and build up of toroidal flux in the solar interior via inductive plasma flows \citep{charbon2010}, particularly using the observed flow structure from helioseismology. Further MHD of convective instabilities is employed to describe the $\alpha$-effect rise of flux systems into the solar atmosphere from the stably convective tachcline/overshoot layer. This is very much a study in itself, and describes the eventual formation coronal active regions from sub-photospheric flux-systems \citep{fan2009}. 
 
 
 \subsection{Solar Atmosphere}\label{sec:12}
 
+The solar atmosphere begins above the visible surface of the sun, known as the photosphere. At this point, the Sun become optically thin to visible radiation and light escapes from this surface. Beyond this visible surface is the solar chromosphere, the corona, which eventually becomes the solar wind. Each of these layers is home to a complex array of phenomena, and each layer with it's accompanying attributes is described here.
+
+
 \subsubsection{Photosphere}\label{sec:121}
 
-\begin{itemize}
-\item Appearance, Granules, Sunspots.
-\item Black Body Curve. Franhofer lines, H-alpha line, CaII H \& K, H$^{-}$ alines, Sodium D lines. 
-\item Temperature, Density, Opacity.
-\item Magnetic field strength
-\end{itemize}
+As mentioned the photosphere begins where the atmosphere become optically thin. \textquoteleft Visible light' in this instance is usually taken to mean light with a wavelength of 5000\,\AA, hence the emergent light from the photosphere is taken to come from the surface at which $\tau_{5000}=2/3$. This is a consequence of the Eddington-Barbier approximation, and says that emergent flux $F_{\nu}$ from the photosphere is given by
 
-The most spectacular and energetic phenomena in our solar system have their origins in the solar atmosphere. This ever-changing and dynamic environment is a hotbed of activity giving rise to coronal mass ejections (CMEs), solar flares, and a host of plasma processes resulting in emission across the entire electromagnetic spectrum. To make sense of the phenomena we observe we must first have a basic understanding of solar atmospheric structure and the environment these processes take place in. Figure~\ref{fig:solar_atmosphere} is an illustration of the different layers of the solar interior, the solar surface and atmosphere. The visible surface of the Sun is known as the photosphere. It is demarcated where optical depth becomes unity for a wavelength of 5000\,\AA\ or $\tau_{5000}=1$. At such visible wavelengths, the electromagnetic spectrum is well represented by a blackbody of temperature T$\sim$6000\,K. .
+\begin{equation}
+F_\nu = \pi B_\nu(\tau=2/3)
+\end{equation}
+e.g., the emergent flux is given by $\pi$ times blackbody intensity at an optical depth of 2/3, where blackbody intensity $B_\nu$ is given by Planck's law 
+\begin{equation}
+B_\nu = \frac{2h\pi\nu^3}{c^2}\frac{1}{\mathrm{exp}(h\nu/k_BT)-1}
+\end{equation}
+where $h$ is Planck's constant, $\nu$ is frequency, $c$ is the speed of light, $k_B$ is Boltzmann's constant, and $T$ is temperature. Integrated over frequency this results in $F = \sigma T^4(\tau=2/3)$, where the frequency integrated flux is proportional to the temperature at $\tau=2/3$, hence the effective temperature of solar blackbody radiation is $T_{eff}=T(\tau=2/3)=5800$\,K. Solar radiation at visible wavelengths is most closely characterised by a blackbody of temperature 5800 K, although the brightness temperature $T_B$ the solar photosphere can deviate from this value, since not all frequencies emerge from the same optical depth.
 
-\begin{itemize}
-\item Eddington Barbier, $\tau=\mu$, limb darkening.
-\item Effective temperature, $\tau=2/3$, $T=5800$\,K
-\end{itemize}
+The visible appearance of the photosphere reveals a small scale granular structure, with granules of typical size scale of 1000\,km with a lifetime of 5-10 minutes. The granules typically show bright centers surrounded by darker intergranular lanes. Doppler measurements reveal that granule centres have a positive (upward) velocity of up to $\sim1$\,km\,s$^{-1}$, with intergranular lanes having a negative (downward) velocity. Such upward and downward flow reveals that granulation at the photosphere are the surface manifestation of convective activity in the deeper layers of the sun, although the size scales of granules are much smaller than the convective plumes believed to permeate the convection zone. As well as the conspicuous granulation at the photospheric surface there is also a much larger scale \textquoteleft super-granulation' which has much the same mechanism as the granules e.g, upflows at granule centre and downflows at the edges in the granular network. The flow speeds are much slower with typical speeds of $0.1$\,km\,s$^{-1}$. The have a much larger size of $10,000-30,000$\,km and longer lifetimes of several days. They have an important role in the build up and concentration of magnetic flux in the intergranular lanes. Apart from, granules and supergranules, the most conspicuous features of the photosphere are sunspots. As discussed in the previous section, these are the surface manifestation of concentrated magnetic flux that has penetrated from the solar convective zone into the solar atmosphere. The spots have a temperature of $\sim4000$\,K, which is cooler than the typical solar blackbody temperature of $5800$\,K. The spots have typical magnetic field strengths of on the order of kilo-Gauss, and have an important role to play in solar activity.
 
-During periods of increased activity there may also be the presence of sunspots in the photosphere. These are dark features on the solar surface, see Figure~\ref{fig:solar_atmosphere}, and are an indicator of concentrations of magnetic fields that are stronger than elsewhere in the quiet sun, as described above. 
 
-Photospheric abundances have been measured using emission line diagnostics were it is found that helium is the most abundant at 10.89\footnote{Abundances quoted relative to hydrogen on a logarithmic scale, $12.0+log_{10}(A/A_H)$}, with the next most abundant elements being Carbon (8.58), Nitrogen (8.02), and Oxygen (8.8). All other elements have abundances that are 4 orders of magnitude or more less than hydrogen i.e., logarithmic abundances $\lesssim7$ \citep{phillips2008}.
+Although the the intensity of the Sun in the visible may be approximated closely by a blackbody continuum, there are also the presence of dark absorption or Fraunhofer lines in the spectrum. The most notable of which are the H-alpha and Ca\Rmnum{2} H and K lines.  The presence of these lines reveals that cooler part of the photosphere must overly the hotter base at $\tau_{5000}=1$ \citep{phillips2008}. In fact, the variety of lines that are produced in the solar atmosphere (both emission and absorption) are used to determine the temperature and density stratification of the solar atmosphere.  That has most notably been done in the models of \citep{vernazza1981, fontenla1988, gabriel1976}, whereby a temperature and density profile of the solar atmosphere is used to calculate the emergent intensity, using radiative transfer theory. This temperature and density profile is adjusted until the the modeled emergent intensities match the observed ones. The results of this these models is shown in Figure~\ref{fig:val}
+
+%About 15% of photospheric opacity is attributed to absorption features. The rest is H- opacity
+
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.4]{images/VAL.png}
+\caption{Temperature and density variation in the solar atmosphere constructed from the models of \citep{vernazza1981, fontenla1988, gabriel1976}, adopted from \citep{phillips2008}.}
+\label{fig:val} 
+\end{center}
+\end{figure}
+
 
 \subsubsection{Chromosphere}\label{sec:122}
 
