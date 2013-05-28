@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Babcock}(1961)}]{babcock1961}
@@ -8,6 +8,10 @@
 \bibitem[{{Charbonneau}(2010)}]{charbon2010}
 {\sc {Charbonneau}, P.} (2010). {Dynamo Models of the Solar Cycle}. {\em Living
   Reviews in Solar Physics\/}, {\bf 7}, 3.
+
+\bibitem[{{Chen}(1989)}]{chen1989}
+{\sc {Chen}, J.} (1989). {Effects of toroidal forces in current loops embedded
+  in a background plasma}. {\em \apj\/}, {\bf 338}, 453--470.
 
 \bibitem[{{Davis} {\em et~al.\/}(1968){Davis}, {Harmer} \&
   {Hoffman}}]{davis1968}
@@ -124,6 +128,12 @@
 {\sc {Kaiser}, M.L., {Kucera}, T.A., {Davila}, J.M., {St.~Cyr}, O.C.,
   {Guhathakurta}, M. \& {Christian}, E.} (2008). {The STEREO Mission: An
   Introduction}. {\em \ssr\/}, {\bf 136}, 5--16.
+
+\bibitem[{{Krall} {\em et~al.\/}(2001){Krall}, {Chen}, {Duffin}, {Howard} \&
+  {Thompson}}]{krall2001}
+{\sc {Krall}, J., {Chen}, J., {Duffin}, R.T., {Howard}, R.A. \& {Thompson},
+  B.J.} (2001). {Erupting Solar Magnetic Flux Ropes: Theory and Observation}.
+  {\em \apj\/}, {\bf 562}, 1045--1057.
 
 \bibitem[{{Lyot}(1939)}]{lyot1939}
 {\sc {Lyot}, B.} (1939). {The study of the solar corona and prominences without

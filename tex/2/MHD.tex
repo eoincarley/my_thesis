@@ -7,6 +7,15 @@
 
 \subsection{Maxwell's Equations}\label{sec:10}
 
+\begin{eqnarray}
+\nabla \cdot E &=& \frac{\rho}{\epsilon_0} \\
+\nabla \cdot B &=& 0 \\
+\curl{E} &=& - \frac{dB}{dt} \\
+\curl{B} &=& \mu_0 j + \frac{1}{c^2}\frac{dE}{dt} 
+\end{eqnarray}
+
+
+
 \subsection{Plasma Physics and Boltzmann Equation}\label{sec:11}
 
 \subsection{Magnetohydrodynamics}\label{sec:12}
@@ -26,6 +35,23 @@
 \subsection{Magnetic Breakout Model}\label{sec:21}
 
 \subsection{Toroidal Instability}\label{sec:22}
+
+The toroidal instability model incorporates a pre-existing flux rope structure that is built from a torus of magnetic flux, some of which is buried beneath the photosphere \citep{chen1989}. The flux system is can be broken down into a combination of toroidal magnetic, toroidal current and a poloidal magnetic field and current Figure~\ref{fig:chen_model}. This flux rope system is embedded in a surrounding coronal magnetic field $B_{corona}$. The stability of the system depends on the nature of the $J \times B$ force due to the interaction toroidal and poloidal components of both the field and current. The interaction of $J$ and $B$ internal to the flux rope is usually termed the Lorentz self-force or the \textquoteleft hoop' force. An instability may be induced via twisting of the fluxrope footpoints to increases the amount of poloidal flux (effectively increasing the helicity of the system). Once the instability is induced, the fluxrope begins a bulk motion as well as a growth in its semi-minor axis. Hence the motion of the system can be analysed by looking at the central axis or the minor axes (leading and trailing edges. The three axes display slightly different kinematics e.g., the leading edge has a faster velocity than the trailing edge (due to fluxrope expansion). this has proved a useful test of the model when comparing the observations of erupting fluxrope structures as seen in white-light coronagraphs. \citet{krall2001} looked at the leading a trailing edges of erupting flux ropes, as well as the rope aspect ratio, an compared the observations to model expectations. Good agreement is found between the model kinematics and aspect ratio and the observed events.
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.5]{images/chen_model}
+\caption{The flux rope model of \citet{chen1989}, used to to study the toroidal instability of a twisted flux system in the corona.}
+\label{fig:chen_model}
+\end{center}
+\end{figure}
+The equation of motion of the entire system is given by
+\begin{equation}
+M\frac{d^2Z}{dt^2} = \frac{I_t}{c^2R}\times\bigg[ \mathrm{ln}\bigg(\frac{8R}{a}\bigg) -1+ \frac{\xi_i}{2} + \frac{\beta_p}{2} -\frac{B^2_t}{B^2_{pa}}  -\frac{2RB_{\perp c}}{aB_{pa}} \bigg] - F_g - F_{drag}
+\end{equation}
+where $I_t$ is the toroidal current, $R$ is the flux rope major radius, $a$ is the rope minor radius, $\xi_i$ is internal inductance of the flux system, $B_t$ is the toroidal field, $B_{pa}$ is the poloidal field at $a$, $B_{\perp c}$ is the perpendicular component of the ambient coronal field, $F_g$ is the force due to gravity, $F_{drag}$ is the drag force, $M$ is the mass per unit length of the rope, and $Z$ is the rope axis height above the photosphere. The equation of motion shows that an increase in the toroidal current (or poloidal flux) contributes positively to the acceleration. The terms in the square brackets are each unitless and take into account the rope geometry, self-inductance and interplay between poloidal and toroidal flux. The first three terms in the square brackets are what give rise to the hoop-force. If the rope is mass loaded with a prominence, this can contribute to the rope's stability via the gravity term. The drag term only becomes an important contributor to rope dynamics later in the propagation, when the solar wind speed begins to increase i.e., at around 10$R_{\odot}$ reference Sheeley. The eruption is driven by flux-injection, which typically lasts for 4-8 hours, during which time the unstable system loses its equilibrium and begins to rise \citet{krall2001}.
+
+It is significant the fluxrope is already established in the corona before eruption begins i.e., the rope formation is not addressed in the model and it is not a consequence of eruption. Hence magnetic reconnection is not a necessary aspect of the model and the eruption may proceed without employing resistive MHD.
+
 
 \subsection{Drag Models}\label{sec:23}
 
@@ -87,14 +113,5 @@ L + L^{'}\rightarrow T'
 \item The dispersion relations
 \item Source emissivities
 \end{itemize}
-
-
-
-
-
-
-
-
-
 
 
