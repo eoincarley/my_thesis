@@ -1,9 +1,21 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{30}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Antiochos} {\em et~al.\/}(1999){Antiochos}, {DeVore} \&
+  {Klimchuk}}]{antiochos1999}
+{\sc {Antiochos}, S.K., {DeVore}, C.R. \& {Klimchuk}, J.A.} (1999). {A Model
+  for Solar Coronal Mass Ejections}. {\em \apj\/}, {\bf 510}, 485--493.
 
 \bibitem[{{Babcock}(1961)}]{babcock1961}
 {\sc {Babcock}, H.W.} (1961). {The Topology of the Sun's Magnetic Field and the
   22-YEAR Cycle.} {\em \apj\/}, {\bf 133}, 572.
+
+\bibitem[{{Bong} {\em et~al.\/}(2006){Bong}, {Moon}, {Cho}, {Kim}, {Park} \&
+  {Choe}}]{bong2006}
+{\sc {Bong}, S.C., {Moon}, Y.J., {Cho}, K.S., {Kim}, Y.H., {Park}, Y.D. \&
+  {Choe}, G.S.} (2006). {Direct Observation of Low Coronal Breakout: Does
+  Breakout Precede or Follow Solar Eruption?} {\em \apjl\/}, {\bf 636},
+  L169--L172.
 
 \bibitem[{{Charbonneau}(2010)}]{charbon2010}
 {\sc {Charbonneau}, P.} (2010). {Dynamo Models of the Solar Cycle}. {\em Living
@@ -135,9 +147,22 @@
   B.J.} (2001). {Erupting Solar Magnetic Flux Ropes: Theory and Observation}.
   {\em \apj\/}, {\bf 562}, 1045--1057.
 
+\bibitem[{{Lynch} {\em et~al.\/}(2004){Lynch}, {Antiochos}, {MacNeice},
+  {Zurbuchen} \& {Fisk}}]{lynch2004}
+{\sc {Lynch}, B.J., {Antiochos}, S.K., {MacNeice}, P.J., {Zurbuchen}, T.H. \&
+  {Fisk}, L.A.} (2004). {Observable Properties of the Breakout Model for
+  Coronal Mass Ejections}. {\em \apj\/}, {\bf 617}, 589--599.
+
 \bibitem[{{Lyot}(1939)}]{lyot1939}
 {\sc {Lyot}, B.} (1939). {The study of the solar corona and prominences without
   eclipses (George Darwin Lecture, 1939)}. {\em \mnras\/}, {\bf 99}, 580.
+
+\bibitem[{{MacNeice} {\em et~al.\/}(2004){MacNeice}, {Antiochos}, {Phillips},
+  {Spicer}, {DeVore} \& {Olson}}]{macneice2004}
+{\sc {MacNeice}, P., {Antiochos}, S.K., {Phillips}, A., {Spicer}, D.S.,
+  {DeVore}, C.R. \& {Olson}, K.} (2004). {A Numerical Study of the Breakout
+  Model for Coronal Mass Ejection Initiation}. {\em \apj\/}, {\bf 614},
+  1028--1041.
 
 \bibitem[{{Melrose}(1986)}]{melrose1986}
 {\sc {Melrose}, D.B.} (1986). {\em {Instabilities in Space and Laboratory
