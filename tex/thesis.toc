@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vii}{chapter*.1}
-\contentsline {chapter}{List of Figures}{xi}{chapter*.3}
-\contentsline {chapter}{List of Tables}{xiv}{chapter*.4}
+\contentsline {chapter}{List of Figures}{xi}{section*.4}
+\contentsline {chapter}{List of Tables}{xiv}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Sun}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Solar Interior}{2}{subsection.1.1.1}
@@ -27,11 +27,11 @@
 \contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{18}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{18}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{20}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Drag Models}{22}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Coronal Shocks and Plasma Emission}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Shock Particle Acceleration}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Wave-Particle Interaction}{22}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Three-Wave Interaction and Plasma Emission}{22}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.2.4}Drag Models}{23}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Coronal Shocks and Plasma Emission}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Shock Particle Acceleration}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Wave-Particle Interaction}{23}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Three-Wave Interaction and Plasma Emission}{23}{subsection.2.3.3}
 \contentsline {chapter}{\numberline {3}Observation and Instrumentation}{26}{chapter.3}
 \contentsline {section}{\numberline {3.1}Thompson Scattering Theory}{26}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Thomson Scattering in the Corona}{26}{subsection.3.1.1}
@@ -63,4 +63,4 @@
 \contentsline {subsection}{\numberline {5.3.1}CME Bow Shock}{34}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Relationship Between CME, CBF, and Radio bursts}{34}{subsection.5.3.2}
 \contentsline {chapter}{\numberline {A}A Nice Appendix}{35}{appendix.A}
-\contentsline {chapter}{References}{36}{appendix*.17}
+\contentsline {chapter}{References}{36}{section*.20}

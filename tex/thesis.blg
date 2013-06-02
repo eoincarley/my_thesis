@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.7)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 0/declaration.aux
 A level-1 auxiliary file: 0/abstract.aux
@@ -15,44 +14,44 @@ A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 30 entries,
+You've used 35 entries,
             3018 wiz_defined-function locations,
-            826 strings with 12069 characters,
-and the built_in function-call counts, 27428 in all, are:
-= -- 1995
-> -- 2233
-< -- 17
-+ -- 764
-- -- 734
-* -- 2470
-:= -- 4210
-add.period$ -- 90
-call.type$ -- 30
-change.case$ -- 393
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 1605
-empty$ -- 1482
-format.name$ -- 817
-if$ -- 5357
+            853 strings with 12787 characters,
+and the built_in function-call counts, 30499 in all, are:
+= -- 2259
+> -- 2364
+< -- 20
++ -- 811
+- -- 776
+* -- 2728
+:= -- 4680
+add.period$ -- 105
+call.type$ -- 35
+change.case$ -- 432
+chr.to.int$ -- 35
+cite$ -- 35
+duplicate$ -- 1818
+empty$ -- 1709
+format.name$ -- 872
+if$ -- 5974
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 425
-newline$ -- 94
-num.names$ -- 122
-pop$ -- 980
+missing$ -- 469
+newline$ -- 109
+num.names$ -- 142
+pop$ -- 1060
 preamble$ -- 1
-purify$ -- 364
+purify$ -- 398
 quote$ -- 0
-skip$ -- 619
+skip$ -- 693
 stack$ -- 0
-substring$ -- 833
-swap$ -- 1019
+substring$ -- 1005
+swap$ -- 1135
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 261
+type$ -- 306
 warning$ -- 0
-while$ -- 119
+while$ -- 139
 width$ -- 0
-write$ -- 331
+write$ -- 386
