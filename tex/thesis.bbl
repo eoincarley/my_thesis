@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{38}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aly}(1991)}]{aly1991}
@@ -26,6 +26,10 @@
   {Choe}, G.S.} (2006). {Direct Observation of Low Coronal Breakout: Does
   Breakout Precede or Follow Solar Eruption?} {\em \apjl\/}, {\bf 636},
   L169--L172.
+
+\bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
+{\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
+  K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
 
 \bibitem[{{Charbonneau}(2010)}]{charbon2010}
 {\sc {Charbonneau}, P.} (2010). {Dynamo Models of the Solar Cycle}. {\em Living
@@ -185,6 +189,12 @@
   Flaring Region and Associated Coronal Mass Ejection}. {\em \apj\/}, {\bf
   592}, 597--606.
 
+\bibitem[{{McAteer} {\em et~al.\/}(2002){McAteer}, {Gallagher}, {Williams},
+  {Mathioudakis}, {Phillips} \& {Keenan}}]{mcateer2002}
+{\sc {McAteer}, R.T.J., {Gallagher}, P.T., {Williams}, D.R., {Mathioudakis},
+  M., {Phillips}, K.J.H. \& {Keenan}, F.P.} (2002). {Long-Period Chromospheric
+  Oscillations in Network Bright Points}. {\em \apjl\/}, {\bf 567}, L165--L168.
+
 \bibitem[{{Melrose}(1986)}]{melrose1986}
 {\sc {Melrose}, D.B.} (1986). {\em {Instabilities in Space and Laboratory
   Plasmas}\/}. Cambridge University Press.
@@ -209,6 +219,13 @@
 {\sc {Robinson}, P.A., {Cairns}, I.H. \& {Willes}, A.J.} (1994). {Dynamics and
   efficiency of type III solar radio emission}. {\em \apj\/}, {\bf 422},
   870--882.
+
+\bibitem[{{Schrijver} {\em et~al.\/}(2008){Schrijver}, {Elmore}, {Kliem},
+  {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
+{\sc {Schrijver}, C.J., {Elmore}, C., {Kliem}, B., {T{\"o}r{\"o}k}, T. \&
+  {Title}, A.M.} (2008). {Observations and Modeling of the Early Acceleration
+  Phase of Erupting Filaments Involved in Coronal Mass Ejections}. {\em
+  \apj\/}, {\bf 674}, 586--595.
 
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
