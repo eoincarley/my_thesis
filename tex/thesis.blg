@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.7)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 0/declaration.aux
 A level-1 auxiliary file: 0/abstract.aux
@@ -15,44 +14,51 @@ A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 38 entries,
+Warning--can't use both author and editor fields in bil66
+Warning--missing publisher in bil66
+Warning--can't use both author and editor fields in fitz
+Warning--missing publisher in fitz
+Warning--can't use both author and editor fields in priest2000
+Warning--missing publisher in priest2000
+You've used 77 entries,
             3018 wiz_defined-function locations,
-            870 strings with 13349 characters,
-and the built_in function-call counts, 32606 in all, are:
-= -- 2431
-> -- 2484
-< -- 21
-+ -- 853
-- -- 815
-* -- 2918
-:= -- 4999
-add.period$ -- 114
-call.type$ -- 38
-change.case$ -- 460
-chr.to.int$ -- 38
-cite$ -- 38
-duplicate$ -- 1959
-empty$ -- 1847
-format.name$ -- 922
-if$ -- 6390
-int.to.chr$ -- 1
+            1066 strings with 19358 characters,
+and the built_in function-call counts, 58436 in all, are:
+= -- 4551
+> -- 3850
+< -- 40
++ -- 1338
+- -- 1257
+* -- 5196
+:= -- 8934
+add.period$ -- 228
+call.type$ -- 77
+change.case$ -- 801
+chr.to.int$ -- 73
+cite$ -- 83
+duplicate$ -- 3714
+empty$ -- 3605
+format.name$ -- 1489
+if$ -- 11513
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 500
-newline$ -- 118
-num.names$ -- 154
-pop$ -- 1123
+missing$ -- 880
+newline$ -- 235
+num.names$ -- 312
+pop$ -- 1882
 preamble$ -- 1
-purify$ -- 423
+purify$ -- 726
 quote$ -- 0
-skip$ -- 742
+skip$ -- 1362
 stack$ -- 0
-substring$ -- 1095
-swap$ -- 1217
-text.length$ -- 1
+substring$ -- 2228
+swap$ -- 2224
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 333
-warning$ -- 0
-while$ -- 151
+type$ -- 675
+warning$ -- 6
+while$ -- 305
 width$ -- 0
-write$ -- 419
+write$ -- 843
+(There were 6 warnings)
