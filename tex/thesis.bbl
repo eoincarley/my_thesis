@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{89}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aly}(1991)}]{aly1991}
@@ -33,6 +33,12 @@
 \bibitem[{{Babcock}(1961)}]{babcock1961}
 {\sc {Babcock}, H.W.} (1961). {The Topology of the Sun's Magnetic Field and the
   22-YEAR Cycle.} {\em \apj\/}, {\bf 133}, 572.
+
+\bibitem[{{Balfour}(1861)}]{balfour1861}
+{\sc {Balfour}, S.} (1861). {On the Great Magnetic Disturbance Which Extended
+  from August 28 to September 7, 1859, as Recorded by Photography at the Kew
+  Observatory.} {\em Philosophical Transactions of the Royal Society of
+  London\/}, {\bf 151}, 423.
 
 \bibitem[{{Bein} {\em et~al.\/}(2011){Bein}, {Berkebile-Stoiser}, {Veronig},
   {Temmer}, {Muhr}, {Kienreich}, {Utz} \& {Vr{\v s}nak}}]{bein2011}
@@ -70,6 +76,14 @@
 \bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
 {\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
   K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
+
+\bibitem[{{Carrington}(1859)}]{carrington1859}
+{\sc {Carrington}, R.C.} (1859). {Description of a Singular Appearance seen in
+  the Sun on September 1, 1859}. {\em \mnras\/}, {\bf 20}, 13--15.
+
+\bibitem[{{Chapman} \& {Ferraro}(1930)}]{chapman1930}
+{\sc {Chapman}, S. \& {Ferraro}, V.C.A.} (1930). {A New Theory of Magnetic
+  Storms.} {\em \nat\/}, {\bf 126}, 129--130.
 
 \bibitem[{{Charbonneau}(2010)}]{charbon2010}
 {\sc {Charbonneau}, P.} (2010). {Dynamo Models of the Solar Cycle}. {\em Living
@@ -118,11 +132,6 @@
 {\sc {Fan}, Y.} (2009). {Magnetic Fields in the Solar Convection Zone}. {\em
   Living Reviews in Solar Physics\/}, {\bf 6}, 4.
 
-\bibitem[{{Feldman} \& {Widing}(2003)}]{feldman2003}
-{\sc {Feldman}, U. \& {Widing}, K.G.} (2003). {Elemental Abundances in the
-  Solar Upper Atmosphere Derived by Spectroscopic Means}. {\em \ssr\/}, {\bf
-  107}, 665--720.
-
 \bibitem[{{Fitzpatrick}(2000)}]{fitz}
 {\sc {Fitzpatrick}, R.} (2000). {\em {The Physics of Plasmas}\/}.
 
@@ -139,6 +148,11 @@
 \bibitem[{{Forbes} \& {Priest}(1995)}]{forbes1995}
 {\sc {Forbes}, T.G. \& {Priest}, E.R.} (1995). {Photospheric Magnetic Field
   Evolution and Eruptive Flares}. {\em \apj\/}, {\bf 446}, 377--+.
+
+\bibitem[{{Forbush}(1946)}]{forbush1946}
+{\sc {Forbush}, S.E.} (1946). {Three Unusual Cosmic-Ray Increases Possibly Due
+  to Charged Particles from the Sun}. {\em Physical Review\/}, {\bf 70},
+  771--772.
 
 \bibitem[{{Foukal}(2004)}]{foukal2004}
 {\sc {Foukal}, P.V.} (2004). {\em {Solar Astrophysics, 2nd, Revised
@@ -203,11 +217,13 @@
   Acceleration of a Coronal Mass Ejection in the Low Corona and Implications
   for Propagation}. {\em \apjl\/}, {\bf 588}, L53--L56.
 
-\bibitem[{{Geiss}(1985)}]{geiss1985}
-{\sc {Geiss}, J.} (1985). {Diagnostics of corona by in-situ composition
-  measurements at 1 AU}. In E.~{Rolfe} \& B.~{Battrick}, eds., {\em Future
-  Missions in Solar, Heliospheric \& Space Plasma Physics\/}, vol. 235 of {\em
-  ESA Special Publication\/}, 37--50.
+\bibitem[{{Gold}(1962)}]{gold1962}
+{\sc {Gold}, T.} (1962). {Magnetic Storms}. {\em \ssr\/}, {\bf 1}, 100--114.
+
+\bibitem[{{Gopalswamy} \& {Thompson}(2000)}]{gopal2004}
+{\sc {Gopalswamy}, N. \& {Thompson}, B.J.} (2000). {Early life of coronal mass
+  ejections}. {\em Journal of Atmospheric and Solar-Terrestrial Physics\/},
+  {\bf 62}, 1457--1469.
 
 \bibitem[{{Howard} {\em et~al.\/}(2008){Howard}, {Moses}, {Vourlidas},
   {Newmark}, {Socker}, {Plunkett}, {Korendyke}, {Cook}, {Hurley}, {Davila},
@@ -246,6 +262,11 @@
   the Evolution of Coronal Mass Ejections in the Interplanetary Medium}. {\em
   \apj\/}, {\bf 667}, 610--625.
 
+\bibitem[{{Hundhausen}(1999)}]{hundhausen1999}
+{\sc {Hundhausen}, A.} (1999). {Coronal Mass Ejections}. In K.T. {Strong},
+  J.L.R. {Saba}, B.M. {Haisch} \& J.T. {Schmelz}, eds., {\em The many faces of
+  the sun: a summary of the results from NASA's Solar Maximum Mission.\/}, 143.
+
 \bibitem[{{Kabin}(2001)}]{kabin2001}
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
   Journal of Plasma Physics\/}, {\bf 66}, 259--274.
@@ -271,6 +292,11 @@
   B.J.} (2001). {Erupting Solar Magnetic Flux Ropes: Theory and Observation}.
   {\em \apj\/}, {\bf 562}, 1045--1057.
 
+\bibitem[{{Lantos}(1999)}]{lantos1999}
+{\sc {Lantos}, P.} (1999). {Low Frequency Observations of the Quiet Sun: a
+  Review}. In T.S. {Bastian}, N.~{Gopalswamy} \& K.~{Shibasaki}, eds., {\em
+  Proceedings of the Nobeyama Symposium\/}, 11--24.
+
 \bibitem[{{Lin} {\em et~al.\/}(2010){Lin}, {Gallagher} \& {Raftery}}]{lin2010}
 {\sc {Lin}, C.H., {Gallagher}, P.T. \& {Raftery}, C.L.} (2010). {Investigating
   the driving mechanisms of coronal mass ejections}. {\em \aap\/}, {\bf 516},
@@ -279,6 +305,10 @@
 \bibitem[{{Lin} \& {Forbes}(2000)}]{lin2000}
 {\sc {Lin}, J. \& {Forbes}, T.G.} (2000). {Effects of reconnection on the
   coronal mass ejection process}. {\em \jgr\/}, {\bf 105}, 2375--2392.
+
+\bibitem[{{Lindemann}(1919)}]{lindemann1919}
+{\sc {Lindemann}, F.} (1919). {Note on the Theory of Magnetic Storms.} {\em
+  Philosophical Magazine Series 6\/}, {\bf 38}, 669.
 
 \bibitem[{{Lynch} {\em et~al.\/}(2004){Lynch}, {Antiochos}, {MacNeice},
   {Zurbuchen} \& {Fisk}}]{lynch2004}
@@ -302,6 +332,14 @@
   {DeVore}, C.R. \& {Olson}, K.} (2004). {A Numerical Study of the Breakout
   Model for Coronal Mass Ejection Initiation}. {\em \apj\/}, {\bf 614},
   1028--1041.
+
+\bibitem[{{MacQueen} {\em et~al.\/}(1980){MacQueen}, {Csoeke-Poeckh},
+  {Hildner}, {House}, {Reynolds}, {Stanger}, {Tepoel} \&
+  {Wagner}}]{macqueen1980}
+{\sc {MacQueen}, R.M., {Csoeke-Poeckh}, A., {Hildner}, E., {House}, L.,
+  {Reynolds}, R., {Stanger}, A., {Tepoel}, H. \& {Wagner}, W.} (1980). {The
+  High Altitude Observatory Coronagraph/Polarimeter on the Solar Maximum
+  Mission}. {\em \solphys\/}, {\bf 65}, 91--107.
 
 \bibitem[{{Maloney} \& {Gallagher}(2010)}]{malo10}
 {\sc {Maloney}, S.A. \& {Gallagher}, P.T.} (2010). {Solar Wind Drag and the
@@ -390,6 +428,12 @@
   Acceleration Phase of Erupting Filaments Involved in Coronal Mass Ejections}.
   {\em \apj\/}, {\bf 674}, 586--595.
 
+\bibitem[{{Sheeley} {\em et~al.\/}(1980){Sheeley}, {Michels}, {Howard} \&
+  {Koomen}}]{sheeley1980}
+{\sc {Sheeley}, N.R., Jr., {Michels}, D.J., {Howard}, R.A. \& {Koomen}, M.J.}
+  (1980). {Initial observations with the SOLWIND coronagraph}. {\em \apjl\/},
+  {\bf 237}, L99--L101.
+
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
   configurations}. {\em \apj\/}, {\bf 380}, 655--659.
@@ -404,6 +448,11 @@
 {\sc {Thompson}, W.T. \& {Reginald}, N.L.} (2008). {The Radiometric and
   Pointing Calibration of SECCHI COR1 on STEREO}. {\em \solphys\/}, {\bf 250},
   443--454.
+
+\bibitem[{{Tousey}(1973)}]{tousey1971}
+{\sc {Tousey}, R.} (1973). {The solar corona.} In {M.~J.~Rycroft \&
+  S.~K.~Runcorn}, ed., {\em Space Research XIII, Vol. 2, p. 713 - 730\/},
+  713--730.
 
 \bibitem[{{Turck-Chi{\`e}ze} \& {Couvidat}(2011)}]{turk2011}
 {\sc {Turck-Chi{\`e}ze}, S. \& {Couvidat}, S.} (2011). {Solar neutrinos,
@@ -455,6 +504,16 @@
   {Band-splitting of coronal and interplanetary type II bursts. III. Physical
   conditions in the upper corona and interplanetary space}. {\em Astronomy and
   Astrophysics\/}, {\bf 413}, 753--763.
+
+\bibitem[{{Wild} {\em et~al.\/}(1959){Wild}, {Sheridan} \& {Trent}}]{wild1958}
+{\sc {Wild}, J.P., {Sheridan}, K.V. \& {Trent}, G.H.} (1959). {The transverse
+  motions of the sources of solar radio bursts}. In R.N. {Bracewell}, ed., {\em
+  URSI Symp. 1: Paris Symposium on Radio Astronomy\/}, vol.~9 of {\em IAU
+  Symposium\/}, 176.
+
+\bibitem[{{Wild} {\em et~al.\/}(1963){Wild}, {Smerd} \& {Weiss}}]{wild1963}
+{\sc {Wild}, J.P., {Smerd}, S.F. \& {Weiss}, A.A.} (1963). {Solar Bursts}. {\em
+  \araa\/}, {\bf 1}, 291.
 
 \bibitem[{{Wolfenstein}(1978)}]{wolfenstein1978}
 {\sc {Wolfenstein}, L.} (1978). {Neutrino oscillations in matter}. {\em

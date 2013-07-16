@@ -13,6 +13,12 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
+Repeated entry---line 955 of file mybib.bib
+ : @article{dom95
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "pick2006"
+Warning--I didn't find a database entry for "webbHu1987"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in bil66
 Warning--missing publisher in bil66
@@ -20,45 +26,45 @@ Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 77 entries,
+You've used 89 entries,
             3018 wiz_defined-function locations,
-            1066 strings with 19358 characters,
-and the built_in function-call counts, 58436 in all, are:
-= -- 4551
-> -- 3850
-< -- 40
-+ -- 1338
-- -- 1257
-* -- 5196
-:= -- 8934
-add.period$ -- 228
-call.type$ -- 77
-change.case$ -- 801
-chr.to.int$ -- 73
-cite$ -- 83
-duplicate$ -- 3714
-empty$ -- 3605
-format.name$ -- 1489
-if$ -- 11513
+            1142 strings with 21162 characters,
+and the built_in function-call counts, 65514 in all, are:
+= -- 5146
+> -- 4129
+< -- 48
++ -- 1438
+- -- 1345
+* -- 5741
+:= -- 10023
+add.period$ -- 264
+call.type$ -- 89
+change.case$ -- 894
+chr.to.int$ -- 85
+cite$ -- 95
+duplicate$ -- 4250
+empty$ -- 4148
+format.name$ -- 1602
+if$ -- 12953
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 880
-newline$ -- 235
-num.names$ -- 312
-pop$ -- 1882
+missing$ -- 986
+newline$ -- 271
+num.names$ -- 366
+pop$ -- 2077
 preamble$ -- 1
-purify$ -- 726
+purify$ -- 801
 quote$ -- 0
-skip$ -- 1362
+skip$ -- 1567
 stack$ -- 0
-substring$ -- 2228
-swap$ -- 2224
+substring$ -- 2553
+swap$ -- 2513
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 675
+type$ -- 783
 warning$ -- 6
-while$ -- 305
+while$ -- 357
 width$ -- 0
-write$ -- 843
-(There were 6 warnings)
+write$ -- 975
+(There was 1 error message)
