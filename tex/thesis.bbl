@@ -1,4 +1,4 @@
-\begin{thebibliography}{97}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aly}(1991)}]{aly1991}
@@ -445,6 +445,12 @@
 \bibitem[{{Priest} \& {Forbes}(2000)}]{priest2000}
 {\sc {Priest}, E. \& {Forbes}, T.} (2000). {\em {Magnetic Reconnection}\/}.
 
+\bibitem[{{Robbrecht} {\em et~al.\/}(2009){Robbrecht}, {Berghmans} \& {Van der
+  Linden}}]{robb2009}
+{\sc {Robbrecht}, E., {Berghmans}, D. \& {Van der Linden}, R.A.M.} (2009).
+  {Automated LASCO CME Catalog for Solar Cycle 23: Are CMEs Scale Invariant?}
+  {\em \apj\/}, {\bf 691}, 1222--1234.
+
 \bibitem[{{Robinson} {\em et~al.\/}(1994){Robinson}, {Cairns} \&
   {Willes}}]{robinson1994}
 {\sc {Robinson}, P.A., {Cairns}, I.H. \& {Willes}, A.J.} (1994). {Dynamics and
@@ -547,6 +553,10 @@
   conditions in the upper corona and interplanetary space}. {\em Astronomy and
   Astrophysics\/}, {\bf 413}, 753--763.
 
+\bibitem[{{Webb} \& {Howard}(2012)}]{webb2012}
+{\sc {Webb}, D.F. \& {Howard}, T.A.} (2012). {Coronal Mass Ejections:
+  Observations}. {\em Living Reviews in Solar Physics\/}, {\bf 9}, 3.
+
 \bibitem[{{Webb} \& {Hundhausen}(1987)}]{webbHu1987}
 {\sc {Webb}, D.F. \& {Hundhausen}, A.J.} (1987). {Activity associated with the
   solar origin of coronal mass ejections}. {\em \solphys\/}, {\bf 108},
@@ -572,6 +582,12 @@
   {Plunkett}, S.P., {Rich}, N.B. \& {Howard}, R.A.} (2004). {A catalog of white
   light coronal mass ejections observed by the SOHO spacecraft}. {\em Journal
   of Geophysical Research (Space Physics)\/}, {\bf 109}, 7105.
+
+\bibitem[{{Yurchyshyn} {\em et~al.\/}(2005){Yurchyshyn}, {Yashiro},
+  {Abramenko}, {Wang} \& {Gopalswamy}}]{yurch2005}
+{\sc {Yurchyshyn}, V., {Yashiro}, S., {Abramenko}, V., {Wang}, H. \&
+  {Gopalswamy}, N.} (2005). {Statistical Distributions of Speeds of Coronal
+  Mass Ejections}. {\em \apj\/}, {\bf 619}, 599--603.
 
 \bibitem[{{Zhang} {\em et~al.\/}(2001){Zhang}, {Dere}, {Howard}, {Kundu} \&
   {White}}]{zhang2001}
