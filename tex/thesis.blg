@@ -13,12 +13,8 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 955 of file mybib.bib
- : @article{dom95
- :               ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "pick2006"
-Warning--I didn't find a database entry for "webbHu1987"
+Warning--I didn't find a database entry for "byr10"
+Warning--I didn't find a database entry for "mano2003"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in bil66
 Warning--missing publisher in bil66
@@ -26,45 +22,45 @@ Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 89 entries,
+You've used 97 entries,
             3018 wiz_defined-function locations,
-            1142 strings with 21162 characters,
-and the built_in function-call counts, 65514 in all, are:
-= -- 5146
-> -- 4129
-< -- 48
-+ -- 1438
-- -- 1345
-* -- 5741
-:= -- 10023
-add.period$ -- 264
-call.type$ -- 89
-change.case$ -- 894
-chr.to.int$ -- 85
-cite$ -- 95
-duplicate$ -- 4250
-empty$ -- 4148
-format.name$ -- 1602
-if$ -- 12953
-int.to.chr$ -- 5
+            1186 strings with 23151 characters,
+and the built_in function-call counts, 72370 in all, are:
+= -- 5666
+> -- 4641
+< -- 50
++ -- 1613
+- -- 1513
+* -- 6373
+:= -- 11063
+add.period$ -- 288
+call.type$ -- 97
+change.case$ -- 990
+chr.to.int$ -- 94
+cite$ -- 103
+duplicate$ -- 4670
+empty$ -- 4536
+format.name$ -- 1798
+if$ -- 14293
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 986
-newline$ -- 271
-num.names$ -- 366
-pop$ -- 2077
+missing$ -- 1090
+newline$ -- 295
+num.names$ -- 398
+pop$ -- 2309
 preamble$ -- 1
-purify$ -- 801
+purify$ -- 889
 quote$ -- 0
-skip$ -- 1567
+skip$ -- 1722
 stack$ -- 0
-substring$ -- 2553
-swap$ -- 2513
+substring$ -- 2785
+swap$ -- 2773
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 783
+type$ -- 855
 warning$ -- 6
-while$ -- 357
+while$ -- 389
 width$ -- 0
-write$ -- 975
-(There was 1 error message)
+write$ -- 1063
+(There were 8 warnings)

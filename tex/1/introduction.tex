@@ -232,38 +232,47 @@ It is also possible to observe non-thermal source in the solar atmosphere, espec
 
 
 
-\section{Coronal Mass Ejections and Coronal Shocks}\label{sec:2}
+\section{Coronal Mass Ejections}\label{sec:2}
 
 The solar corona is home to a variety of dynamic and highly energetic activity, the cause of which is the build-up and release of magnetic energy. This energy release results in the acceleration of charged particles, emission of electromagnetic radiation across the entire spectrum, the heating of plasma, the ejection of large scale eruptions and the driving of plasma shocks through the corona and heliosphere. Large scale eruptions of plasma and the driving of shocks are the subject of this thesis, the following provides an observational overview and open questions concerning these phenomena.
 
 
-\subsection{Coronal Mass Ejections}\label{sec:20}
+\subsection{A Brief History}\label{sec:20}
 
 The largest flare ever to have been recorded occurred on September 1st 1859, observed by the astronomer Richard Carrington \citep{carrington1859}. Approximately 17 hours after Carrington recorded the event, a powerful geomagnetic storm began at Earth, producing brilliant aurora and damaging telegraph systems on both sides of the Atlantic ocean. The event aroused much speculation on a causal link between the phenomena Carrrington observed on the Sun and the magnetic activity recorded throughout the Earth \citep{balfour1861}. It was not until 1919 that a theory was put forward to suggest plasma transients emitted from the Sun may impact the Earth and cause geomagnetic activity and the aurora \citet{lindemann1919}, a process later elaborated upon by \citet{chapman1930}. Up until 1940s, the only evidence confirming the the plasma transient hypothesis was the correlation between solar and geomagnetic activity. However, following the development of radio receiver technology during World War Two, much interest was given to solar radio bursts and their indication that disturbances travel away from the Sun at speeds of up to 500\,km\,s$^{-1}$\citep{wild1958}. Further evidence came from the fields of cosmic rays studies, when it was suggested the ground level detections of particles at Earth such as those reported by \citep{forbush1946} may be related to a acceleration of particles by a shock moving through the solar atmosphere \citep{wild1963}. Eventually this activity was summarised by \citet{gold1962}, who hypothesised the expulsion of magnetized plasma from the solar atmosphere and the driving of a shock by this expulsion tha accelerates particles into interplanetary space. 
 
 Gold's paper marked over 100 years of indirect evidence for the expulsion of plasma transients from the surface of the Sun toward Earth. However, it was not until December 14th, 1971 (112 years after the Carrington event) that the first direct images of one of these plasma expulsions was made with the coronagraph on board the 7th Orbiting Solar Observatory (OSO-7) satellite \citep{tousey1971}. This marked the beginning of white-light CME studies as we know them today, and it was followed by a number of other instruments, including Skylab \citep{macqueen1980}, P78-1 \citep{sheeley1980}, and the Solar Maximum Mission (SMM) \citep{hundhausen1999}, which provided corongraph observations up until 1989. The modern era of CME observations began 1995 with the launch of the Solar and Heliospheric Observatory \citep[\emph{SOHO};][]{dom95} and it more sophisticated suite of instruments, including the Large Angle Spectrometric Coronagraphs (LASCO). In 2006 LASCO was joined by the COR coronagraphs onboard the Solar Terrestrial Relations Observatory \citep[\emph{STEREO};][]{kai08} and together they provide observations of of CMEs from the low solar atmosphere into interplanetary distances. The past 40 years of coronagraph operations in space have yielded observations of tens of thousands of CMEs, allowing a direct determination of their physical properties and a confirmation of what was first postulated by Carrington and others over 150 years ago.
 
+\subsection{Physical Properties}
+
 A modern understanding of corona mass ejections (CMEs) tells us that they are large-scale eruptions of plasma and magnetic field that propagate from the low solar corona into interplanetary space. They have speeds in the range $10-2500$\,km$\cdot$s$^{-1}$ \citep{gopal2004}, masses of $10^{13}-10^{16}$\,g, and kinetic energies of $10^{22} - 10^{25}$\,J \citep{vour2010}, making them the most energetic explosive events in the solar system and a major cause of adverse space weather in the near-Earth environment. 
 
-Figure~\ref{fig:lasco_c3} shows the typical appearance of a CME in white light coronagraph images, having a three-part structure of bright front, followed by a darker cavity, and a bright core. Although this CME is regarded as \textquoteleft typical' in appearance, many CMEs do not have all of these features and some appear to have more complex morphological structures \citep{pick2006}, with only around 30\% of all CMEs exhibiting the three part structure \citep{webbHu1987}. The varied nature of their appearance and morphology can usually be attributed to projection effects i.e., the CME is a 3-D object projected onto a 2-D image, hence its appearance depends on its orientation in the corona.
-
-\begin{figure}
+CMEs are most often observed using a coronagraph, an instrument that creates an artifical eclipse of the bright solar disk so the much fainter corona can be images. Figure~\ref{fig:lasco_c3} shows the typical appearance of a CME in white light coronagraph images, having a three-part structure of bright front, followed by a darker cavity, and a bright core \citep{illing1985}. Although this CME is regarded as \textquoteleft typical' in appearance, many CMEs do not have all of these features and some appear to have more complex morphological structures \citep{pick2006}, with only around 30\% of all CMEs exhibiting the three part structure \citep{webbHu1987}. The varied nature of their appearance and morphology can usually be attributed to projection effects \citep{burk2004} i.e., the CME is a 3-D object projected onto a 2-D image, hence its appearance depends on its orientation in the corona. With this in mind, a 'plane-of-sky' or limb CME (one that propagates a right angles to the observer-sun lines, erupting from the limb), offer the best measure of their properties i.e., the measured widths, appearance, speeds etc. do not suffer projection effects. Limb CMEs have a typical angular extent of approximately $50^{\circ}$ \citep{burk2004}, and any CME that has width much greater than this ($>120^{\circ}$) is generally regarded as a 'partial halo' CME \citep{yashiro2004}. Halos or partial halos are CMEs that propagate toward the observer and hence appear to have a very wide angular extent (full halos can appear to have a $360^{\circ}$ width), due to projection effects.
+\begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.5]{images/lasco_c3}
+\caption{Large Angle Spectrometric Coronagraph (LASCO) C3 coronagraph image of a \textquoteleft typical' CME, showing  a bright front surrounding a dark cavity, with a bright core at the centre.}
+\label{fig:lasco_c3}
 \end{center}
 \end{figure}
 
+The majority of CME observations rely on a 2-D projection onto the plane of sky, thereby  disguising their true three-dimensional shape an geometry. Despite the majority of CME studies being constrained to 2-D measurements, there have been various studies whereby the full 3D extent of the CME bubble has been reconstructed. \citep{moran2004} used polarimetry measurements from the LASCO coronagraphs to reconstruct the three dimensional extent of the CME using Thomson scattering theory (the degree of polarization of white-light depends on the location of the scattering agent in 3-D space). When the STEREO spacecraft was launched in 2006 a number of stereoscopy techniques were developed that use geometric localization, whereby the CME is constrained to be within a polygon constructed from lines of sight from the two STEREO spacecraft \citep{dekon2009, byrne2010}. Other techniques use a pre-assume 3D construct that is oriented so that a 2-D projection of construct matches the observed 2-D image of the CME. This technique is known as foward-modelling an usually employs a graduated cylindrical shell or 'croissant' model as the pre-assumed shape of the CME \citep{thern2006}. Finally, other techniques employ a number of the above techniques simultaneously or for comparison of which preforms best \citep{mierla2009}. Although each of these studies have derived much more accurate CME properties such as size, shape, and kinematics that do not suffer projection effects, this has only been performed for a handful of cases. Unfortunately the typical CME statistics must suffer the unavoidable uncertainties of 2-D coronagraph observations. Perhaps the most egregious errors brought about by lack of three dimensional CME measurements are CME mass calculations, subject of chapter 4 of this thesis.
+
+
+
+As mentioned above, many properties of CMEs derived from two-dimensional coronagraph images suffer large uncertainties due to lack of knowledge about the true three-dimensional shape of the object. The most striking case of this is in the measurement of CME masses, and consequently their mechanical energies and forces. Due to the huge errors involved in 2-D mass calculations, the study has been lacking with only a few papers in the field addressing CME mass and mechanical energy, and fewer still addressing observed CME force estimates. The uncertainties from the method by which mass of a CME is calcuated. Thomson scattering theory is employed to derived the number of electron in each image pixel contributing to the total brightness in that pixel. This requires knowledge of where the light scattering agent is in the corona. The lack of knowledge of where the scattering agent is in the third-dimension (along the line of sight) leads to large, and often undefinable uncertainties on the mass estimate. Consequently, mechanical energy and force estimates have rarely been attempted; in 2-D calculations the large mass uncertainties, compounded by the kinematical uncertainties have made force calculations untenable. Part of this thesis addresses this issue, and we will return to this discussion in Chapter 4.
+
+
 \begin{itemize}
-\item History
-\item Appearance, white-light Illing, Hundhausen, Vourlidas
-\item Kinematics, velocity, acceleration
+\item Location, kinematics, velocity, acceleration
 \item Dynamics, masses, energies, forces
-\item Association with flares and other activity
-\item Observations at other wavelengths
+\item Association with flares and other activity. Bi-modal distribution?
+\item Observations at other wavelengths, radio
 \item Importance for space weather
+\item Frequency of occurence
 \end{itemize}
 
-\subsection{CMEs and Shocks}\label{sec:21}
+\subsection{Association with Shocks}\label{sec:21}
 
 \begin{itemize}
 \item Radio bursts, Type II, Type III
@@ -273,6 +282,8 @@ Figure~\ref{fig:lasco_c3} shows the typical appearance of a CME in white light c
 
 \subsection{Open Questions}\label{sec:22}
 
+
+\section{Thesis Outline}
 
 
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{89}
+\begin{thebibliography}{97}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aly}(1991)}]{aly1991}
@@ -67,8 +67,15 @@
   \& {Eyles}, C.J.} (1995). {The Large Angle Spectroscopic Coronagraph
   (LASCO)}. {\em \solphys\/}, {\bf 162}, 357--402.
 
+\bibitem[{{Burkepile} {\em et~al.\/}(2004){Burkepile}, {Hundhausen}, {Stanger},
+  {St.~Cyr} \& {Seiden}}]{burk2004}
+{\sc {Burkepile}, J.T., {Hundhausen}, A.J., {Stanger}, A.L., {St.~Cyr}, O.C. \&
+  {Seiden}, J.A.} (2004). {Role of projection effects on solar coronal mass
+  ejection properties: 1. A study of CMEs associated with limb activity}. {\em
+  Journal of Geophysical Research (Space Physics)\/}, {\bf 109}, 3103.
+
 \bibitem[{{Byrne} {\em et~al.\/}(2010){Byrne}, {Maloney}, {McAteer}, {Refojo}
-  \& {Gallagher}}]{byr10}
+  \& {Gallagher}}]{byrne2010}
 {\sc {Byrne}, J.P., {Maloney}, S.A., {McAteer}, R.T.J., {Refojo}, J.M. \&
   {Gallagher}, P.T.} (2010). {Propagation of an Earth-directed coronal mass
   ejection in three dimensions}. {\em Nature Communications\/}, {\bf 1}.
@@ -113,6 +120,12 @@
 {\sc {Davis}, R., {Harmer}, D.S. \& {Hoffman}, K.C.} (1968). {Search for
   Neutrinos from the Sun}. {\em Physical Review Letters\/}, {\bf 20},
   1205--1209.
+
+\bibitem[{{de Koning} {\em et~al.\/}(2009){de Koning}, {Pizzo} \&
+  {Biesecker}}]{dekon2009}
+{\sc {de Koning}, C.A., {Pizzo}, V.J. \& {Biesecker}, D.A.} (2009). {Geometric
+  Localization of CMEs in 3D Space Using STEREO Beacon Data: First Results}.
+  {\em \solphys\/}, {\bf 256}, 167--181.
 
 \bibitem[{{Domingo} {\em et~al.\/}(1995){Domingo}, {Fleck} \& {Poland}}]{dom95}
 {\sc {Domingo}, V., {Fleck}, B. \& {Poland}, A.I.} (1995). {The SOHO Mission:
@@ -267,6 +280,10 @@
   J.L.R. {Saba}, B.M. {Haisch} \& J.T. {Schmelz}, eds., {\em The many faces of
   the sun: a summary of the results from NASA's Solar Maximum Mission.\/}, 143.
 
+\bibitem[{{Illing} \& {Hundhausen}(1985)}]{illing1985}
+{\sc {Illing}, R.M.E. \& {Hundhausen}, A.J.} (1985). {Observation of a coronal
+  transient from 1.2 to 6 solar radii}. {\em \jgr\/}, {\bf 90}, 275--282.
+
 \bibitem[{{Kabin}(2001)}]{kabin2001}
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
   Journal of Plasma Physics\/}, {\bf 66}, 259--274.
@@ -352,15 +369,10 @@
   R.G.} (1999). {A heliospheric density model and type III radio bursts}. {\em
   \aap\/}, {\bf 348}, 614--620.
 
-\bibitem[{{Manoharan} \& {Kundu}(2003{\natexlab{a}})}]{mano2003}
-{\sc {Manoharan}, P.K. \& {Kundu}, M.R.} (2003{\natexlab{a}}). {Coronal
-  Structure of a Flaring Region and Associated Coronal Mass Ejection}. {\em
-  \apj\/}, {\bf 592}, 597--606.
-
-\bibitem[{{Manoharan} \& {Kundu}(2003{\natexlab{b}})}]{manoh2003}
-{\sc {Manoharan}, P.K. \& {Kundu}, M.R.} (2003{\natexlab{b}}). {Coronal
-  Structure of a Flaring Region and Associated Coronal Mass Ejection}. {\em
-  \apj\/}, {\bf 592}, 597--606.
+\bibitem[{{Manoharan} \& {Kundu}(2003)}]{manoh2003}
+{\sc {Manoharan}, P.K. \& {Kundu}, M.R.} (2003). {Coronal Structure of a
+  Flaring Region and Associated Coronal Mass Ejection}. {\em \apj\/}, {\bf
+  592}, 597--606.
 
 \bibitem[{{McAteer} {\em et~al.\/}(2002){McAteer}, {Gallagher}, {Williams},
   {Mathioudakis}, {Phillips} \& {Keenan}}]{mcateer2002}
@@ -371,6 +383,13 @@
 \bibitem[{{Melrose}(1986)}]{melrose1986}
 {\sc {Melrose}, D.B.} (1986). {\em {Instabilities in Space and Laboratory
   Plasmas}\/}. Cambridge University Press.
+
+\bibitem[{{Mierla} {\em et~al.\/}(2009){Mierla}, {Inhester}, {Marqu{\'e}},
+  {Rodriguez}, {Gissot}, {Zhukov}, {Berghmans} \& {Davila}}]{mierla2009}
+{\sc {Mierla}, M., {Inhester}, B., {Marqu{\'e}}, C., {Rodriguez}, L., {Gissot},
+  S., {Zhukov}, A.N., {Berghmans}, D. \& {Davila}, J.} (2009). {On 3D
+  Reconstruction of Coronal Mass Ejections: I. Method Description and
+  Application to SECCHI-COR Data}. {\em \solphys\/}, {\bf 259}, 123--141.
 
 \bibitem[{{Mikheev} \& {Smirnov}(1986)}]{mikheev1986}
 {\sc {Mikheev}, S.P. \& {Smirnov}, A.I.} (1986). {Resonant amplification of
@@ -386,6 +405,10 @@
 {\sc {Mitalas}, R. \& {Sills}, K.R.} (1992). {On the photon diffusion time
   scale for the sun}. {\em \apj\/}, {\bf 401}, 759.
 
+\bibitem[{{Moran} \& {Davila}(2004)}]{moran2004}
+{\sc {Moran}, T.G. \& {Davila}, J.M.} (2004). {Three-Dimensional Polarimetric
+  Imaging of Coronal Mass Ejections}. {\em Science\/}, {\bf 305}, 66--71.
+
 \bibitem[{{Munro} {\em et~al.\/}(1979){Munro}, {Gosling}, {Hildner},
   {MacQueen}, {Poland} \& {Ross}}]{munro1979}
 {\sc {Munro}, R.H., {Gosling}, J.T., {Hildner}, E., {MacQueen}, R.M., {Poland},
@@ -398,6 +421,20 @@
 {\sc {Phillips}, K.J.H., {Feldman}, U. \& {Landi}, E.} (2008). {\em
   {Ultraviolet and X-ray Spectroscopy of the Solar Atmosphere}\/}. Cambridge
   University Press.
+
+\bibitem[{{Pick} {\em et~al.\/}(2006){Pick}, {Forbes}, {Mann}, {Cane}, {Chen},
+  {Ciaravella}, {Cremades}, {Howard}, {Hudson}, {Klassen}, {Klein}, {Lee},
+  {Linker}, {Maia}, {Mikic}, {Raymond}, {Reiner}, {Simnett}, {Srivastava},
+  {Tripathi}, {Vainio}, {Vourlidas}, {Zhang}, {Zurbuchen}, {Sheeley} \&
+  {Marqu{\'e}}}]{pick2006}
+{\sc {Pick}, M., {Forbes}, T.G., {Mann}, G., {Cane}, H.V., {Chen}, J.,
+  {Ciaravella}, A., {Cremades}, H., {Howard}, R.A., {Hudson}, H.S., {Klassen},
+  A., {Klein}, K.L., {Lee}, M.A., {Linker}, J.A., {Maia}, D., {Mikic}, Z.,
+  {Raymond}, J.C., {Reiner}, M.J., {Simnett}, G.M., {Srivastava}, N.,
+  {Tripathi}, D., {Vainio}, R., {Vourlidas}, A., {Zhang}, J., {Zurbuchen},
+  T.H., {Sheeley}, N.R. \& {Marqu{\'e}}, C.} (2006). {Multi-Wavelength
+  Observations of CMEs and Associated Phenomena. Report of Working Group F}.
+  {\em \ssr\/}, {\bf 123}, 341--382.
 
 \bibitem[{{Poland} {\em et~al.\/}(1981){Poland}, {Howard}, {Koomen}, {Michels}
   \& {Sheeley}}]{poland1981}
@@ -437,6 +474,11 @@
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
   configurations}. {\em \apj\/}, {\bf 380}, 655--659.
+
+\bibitem[{{Thernisien} {\em et~al.\/}(2006){Thernisien}, {Howard} \&
+  {Vourlidas}}]{thern2006}
+{\sc {Thernisien}, A.F.R., {Howard}, R.A. \& {Vourlidas}, A.} (2006). {Modeling
+  of Flux Rope Coronal Mass Ejections}. {\em \apj\/}, {\bf 652}, 763--773.
 
 \bibitem[{{Thompson} {\em et~al.\/}(2003){Thompson}, {Christensen-Dalsgaard},
   {Miesch} \& {Toomre}}]{thompson2003}
@@ -505,6 +547,11 @@
   conditions in the upper corona and interplanetary space}. {\em Astronomy and
   Astrophysics\/}, {\bf 413}, 753--763.
 
+\bibitem[{{Webb} \& {Hundhausen}(1987)}]{webbHu1987}
+{\sc {Webb}, D.F. \& {Hundhausen}, A.J.} (1987). {Activity associated with the
+  solar origin of coronal mass ejections}. {\em \solphys\/}, {\bf 108},
+  383--401.
+
 \bibitem[{{Wild} {\em et~al.\/}(1959){Wild}, {Sheridan} \& {Trent}}]{wild1958}
 {\sc {Wild}, J.P., {Sheridan}, K.V. \& {Trent}, G.H.} (1959). {The transverse
   motions of the sources of solar radio bursts}. In R.N. {Bracewell}, ed., {\em
@@ -518,6 +565,13 @@
 \bibitem[{{Wolfenstein}(1978)}]{wolfenstein1978}
 {\sc {Wolfenstein}, L.} (1978). {Neutrino oscillations in matter}. {\em
   Physical Review Letters\/}, {\bf 17}, 2369--2374.
+
+\bibitem[{{Yashiro} {\em et~al.\/}(2004){Yashiro}, {Gopalswamy}, {Michalek},
+  {St.~Cyr}, {Plunkett}, {Rich} \& {Howard}}]{yashiro2004}
+{\sc {Yashiro}, S., {Gopalswamy}, N., {Michalek}, G., {St.~Cyr}, O.C.,
+  {Plunkett}, S.P., {Rich}, N.B. \& {Howard}, R.A.} (2004). {A catalog of white
+  light coronal mass ejections observed by the SOHO spacecraft}. {\em Journal
+  of Geophysical Research (Space Physics)\/}, {\bf 109}, 7105.
 
 \bibitem[{{Zhang} {\em et~al.\/}(2001){Zhang}, {Dere}, {Howard}, {Kundu} \&
   {White}}]{zhang2001}
