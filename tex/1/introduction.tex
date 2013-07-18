@@ -258,24 +258,72 @@ CMEs are most often observed using a coronagraph, an instrument that creates an 
 
 The majority of CME observations rely on a 2-D projection onto the plane of sky, thereby  disguising their true three-dimensional shape an geometry. Despite the majority of CME studies being constrained to 2-D measurements, there have been various studies whereby the full 3D extent of the CME bubble has been reconstructed. \citep{moran2004} used polarimetry measurements from the LASCO coronagraphs to reconstruct the three dimensional extent of the CME using Thomson scattering theory (the degree of polarization of white-light depends on the location of the scattering agent in 3-D space). When the STEREO spacecraft was launched in 2006 a number of stereoscopy techniques were developed that use geometric localization, whereby the CME is constrained to be within a polygon constructed from lines of sight from the two STEREO spacecraft \citep{dekon2009, byrne2010}. Other techniques use a pre-assume 3D construct that is oriented so that a 2-D projection of construct matches the observed 2-D image of the CME. This technique is known as foward-modelling an usually employs a graduated cylindrical shell or 'croissant' model as the pre-assumed shape of the CME \citep{thern2006}. Finally, other techniques employ a number of the above techniques simultaneously or for comparison of which preforms best \citep{mierla2009}. Although each of these studies have derived much more accurate CME properties such as size, shape, and kinematics that do not suffer projection effects, this has only been performed for a handful of cases. Unfortunately the typical CME statistics must suffer the unavoidable uncertainties of 2-D coronagraph observations. Perhaps the most egregious errors brought about by lack of three dimensional CME measurements are CME mass calculations, subject of chapter 4 of this thesis.
 
-Despite the projection effects, reasonable CME kinematic properties may be derived if the CME is located in the limb or the general direction of propagation is accounted for. A number of CME catalogues exist that have tracked analysed thousands of CMEs, most throughout the SOHO mission. Measured properties include, CME launch latitude, speed, acceleration, and, where possible, masses and energies. \footnote{For most statistics that follow, only large 'classical' CMEs are used to calculate the statistical quantities i.e., those ejects that have a large width ($>40^{\circ}$)and generally appear as a bubble are included, but the much smaller and very narrow ejections (widths $<15^{\circ}$) are excluded. However, some studies account for these small ejections and simply consider any mass ejection, no matter how small, as a CME \citep{robb2009}.}The latitudinal distribution of of CME launch latitudes depends on the solar cycle, with the majority of CMEs erupting close the equator at solar minimum, and generally at all latitudes occurring during solar maximum \citep{yashiro2004}.
+Despite the projection effects, reasonable CME kinematic properties may be derived if the CME is located in the limb or the general direction of propagation is accounted for. A number of CME catalogues exist that have tracked analysed thousands of CMEs, most throughout the SOHO mission. Measured properties include, CME launch latitude, speed, acceleration, and, where possible, masses and energies. The latitudinal distribution of of CME launch latitudes depends on the solar cycle, with the majority of CMEs erupting close the equator at solar minimum, and generally at all latitudes occurring during solar maximum \citep{yashiro2004}.
 
-The amount of CMEs observed during the SOHO era (which continues today) has allowed many statistical studies of CME speeds and accelerations. CME speeds can range from 20 to 2500\,km\,s$^{-1}$ \citep{gopal2004}, however average CME speed tends to be on the order of 480\,km\,s$^{-1}$ \citep{yurch2005, webb2012}\footnote{Statistical studies from the era of Solar Maximum Mission and Solwind have found similar average speeds \citep{burk2004}}. The yearly average of CME speeds tends to change with the solar cycle, with an average of 280\,km\,s$^{-1}$ at solar minimum (1996), followed by a year on year increase in speed until an average of 520\,km\,s$^{-1}$ is reached even after solar maximum (2002) i.e., for solar cycle 23 the CME speed continued to rise even during the declining phase of the solar activity cycle \citep{yashiro2004}.
+The amount of CMEs observed during the SOHO era (which continues today) has allowed many statistical studies of CME speeds and accelerations. CME speeds can range from 20 to 2500\,km\,s$^{-1}$ \citep{gopal2004}, however average CME speed tends to be on the order of 480\,km\,s$^{-1}$ \citep{yurch2005, webb2012}\footnote{Statistical studies from the era of Solar Maximum Mission and Solwind have found similar average speeds \citep{burk2004}}. The yearly average of CME speeds tends to change with the solar cycle, with an average of 280\,km\,s$^{-1}$ at solar minimum (1996), followed by a year on year increase in speed until an average of 520\,km\,s$^{-1}$ is reached even after solar maximum (2002) i.e., for solar cycle 23 the CME speed continued to rise even during the declining phase of the solar activity cycle \citep{yashiro2004}. There has been some debate surrounding the possibility of a bimodal distribution of CME speeds, generally considered a distinction between fast and slow CMEs. Slow CMEs with a speed of $400-600$\,km\,s$^{-1}$ and gradual acceleration are usually associated with prominence lift-off, while fast CMEs with speeds in excess of 700\,km\,s$^{-1}$, no acceleration (or small deceleration), and are usually associated with flaring active regions \citep{shee1999, gopal2004, moon2000}. Other statistical studies have suggested that there is no such distinction between the speeds of filament-associated and flare-associated CMEs \citep{vrsna2005, yurch2005}, with all CME having a more continuous distribution in speeds rather than a bimodal one. 
+
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.4]{images/cme_speed_histo}
+\caption{Distribution of speeds of 4315 CMEs observed by SOHO LASCO. The bin widths are 70\,km\,s$^{-1}$. The solid line represents a single lognormal fit to the observed data, while the dashed line is the sum of a Gaussian and a lognormal fit. \citep{yurch2005} }
+\end{center}
+\label{fig:zhang2001}
+\end{figure}
+
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.4, angle=90]{images/gall_kins2003}
+\caption{\citet{gallagher03}}
+\end{center}
+\label{fig:gall2003}
+\end{figure}
+This more continuous distribution is also reflected in statistical studies of CME acceleration magnitudes and timescales in the inner corona. Although typical CME accelerations in the later phases of propagation tend to be centered around zero with a narrow variation of $\pm30$\,m\,s$^{-2}$, CME accelerations in the very early phases of eruption can be considerably larger. \citet{gallagher03} found used TRACE and LASCO data to study the development of CME kinematics from its very early impulsive phase with peak acceleration of $1500$\,km\,s$^{-1}$ to a more gradual phase of zero acceleration (Fig.~\ref{fig:gall2003}). 
 
 
-As mentioned above, many properties of CMEs derived from two-dimensional coronagraph images suffer large uncertainties due to lack of knowledge about the true three-dimensional shape of the object. The most striking case of this is in the measurement of CME masses, and consequently their mechanical energies and forces. Due to the huge errors involved in 2-D mass calculations, the study has been lacking with only a few papers in the field addressing CME mass and mechanical energy, and fewer still addressing observed CME force estimates. The uncertainties from the method by which mass of a CME is calculated. Thomson scattering theory is employed to derived the number of electron in each image pixel contributing to the total brightness in that pixel. This requires knowledge of where the light scattering agent is in the corona. The lack of knowledge of where the scattering agent is in the third-dimension (along the line of sight) leads to large, and often undefinable uncertainties on the mass estimate. Consequently, mechanical energy and force estimates have rarely been attempted; in 2-D calculations the large mass uncertainties, compounded by the kinematical uncertainties have made force calculations untenable. Part of this thesis addresses this issue, and we will return to this discussion in Chapter 4.
+A larger statistical study by \citep{zhang2006} using all three LASCO coronagraphs covering $1.1-30\,R_{\odot}$ found accelerations in the range of $2.8-4464$\,m\,s$^{-2}$ with an average of 330\,m\,s$^{-2}$, with the acceleration timescales ranging $6-1200$\,minutes (average of 180 minutes). An interesting outcome of this study was the discovery that the magnitude of acceleration appears to be inversely proportional to the duration of acceleration (Fig.~\ref{fig:acell_mag_dur}), following the relationship $a=1\times10^4t^{-1}$.
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.3]{images/accel_zhang2006}
+\caption{\citep{zhang2006}}
+\end{center}
+\label{fig:acell_mag_dur}
+\end{figure}
+Unfortunately the innermost coronagraph of LASCO (C1) failed in 1998, making early phase studies of CMEs difficult. Due to the failure of C1, the only observational method to determine the early phase eruption kinematics is in EUV imaging
+Larger statistical studies also show similar results of initial impulsive phase accelerations of $\sim10-4000$\,m\,s$^{-2}$, followed by a residual phase of near zero acceleration \citep{vrsnak2007, temmer2010}. A large acceleration during the impulsive phase followed by a smaller (or zero) acceleration is recognized as being part of three distinct phases of eruption that closely tie the CME process to the flaring process, Fig.~\ref{fig:zhang2001}. \citet{zhang2001, zhang2004} reported that CMEs show a very slow rise phase of coronal loops with a speed of $10-100$\,km\,s$^{-1}$ over tens of minutes. This is followed by a phase of rapid acceleration which is accompanied by a simultaneous rise in soft x-ray (SXR) emission, as seen in a GOES light curve. After the flare and during the decline of SXRs the CME shows a near constant velocity with very little acceleration. The simultaneous rise of SXR emission at the time of maximum CME acceleration is taken to be an effect of the CME and the flare both being manifestations of the same reconnection process.
 
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.4]{images/zhang2001}
+\caption{Correspondence between CME velocity profile and soft x-ray light curve from GOES. The two profiles follow each other closely showing that CME acceleration occurs during the flare rise phase. this is taken to be an effect of the CME and the flare both being manifestations of the same reconnection process \citet{zhang2001}.}
+\end{center}
+\label{fig:zhang2001}
+\end{figure}
 
-\begin{itemize}
-\item Location, kinematics, velocity, acceleration
-\item Dynamics, masses, energies, forces
-\item Association with flares and other activity. Bi-modal distribution?
-\item Observations at other wavelengths, radio
+As mentioned above, many properties of CMEs derived from two-dimensional coronagraph images suffer large uncertainties due to lack of knowledge about the true three-dimensional shape of the object. Despite this, much work has been done on CME kinematics and the general velocity and acceleration evolution is well known known. However, much less work has been done on the observational properties of CME dynamics e.g., calculating their mass, mechanical energies and forces. 
+
+Some of the first measurement of CME mass using scattering theory were carried out by \citet{munro1979} and \citet{poland1981} using space-based  white light coronagraphs on board \emph{SkyLab} and U.S. military satellite\,\emph{P78-1}.  Both the early studies and later statistical investigations determined that the majority of CMEs have masses in the range of 10$^{13}$--10$^{16}$\,g, \citep{vourlidas02, vour2010}. However, due to only a single viewpoint of observation, the longitudinal angle at which the CME propagates outwards was largely unknown in these studies and it is generally assumed that the CME propagates perpendicular to the observers line-of-sight (LOS). There is also the added assumption that all CME mass lies in the two-dimensional plane-of-sky (POS). Such assumptions can lead to a mass underestimation of up to 50\% or more \citep{vou00}. More recent studies have employed the two viewpoint capabilities of the \emph{STEREO} mission to determine the mass of numerous CMEs with much less uncertainty \citep{cola09}. 
+
+Previous studies of CME energies have quantified the magnitude of the kinetic and gravitational potential energy and compared this to a proxy for the magnetic energy from in-situ measurements of magnetic clouds \citep{vou00}. Out of the 11 CMEs that were studies, it was found that the CMEs mechanical energy increases at the expense of magnetic energy; The total energy of the CME (kinetic + potential + magnetic) remains constant, indicating that there is no external driver of the CME between $3-30\,R_{\odot}$. Hence, CMEs much achieve escape velocity to exit the Sun's gravitational potential well, which they do so between $8-10\,R_{\odot}$. For slow to average speed events, the potential energy dominates the kinetic energy by an order of magnitude, the opposite is found for faster events.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.45, angle=90]{images/cme_energies}
+\caption{\citep{vou00}}
+\end{center}
+\label{fig:me_energies}
+\end{figure}
+\clearpage
+\citep{subram2007} investigated the energetic properties of 39 CMEs in an effort to determine of CMEs in the outer corona ($2-20\,R_{\odot}$) are driven by momentum coupling to the solar wind or if internal magnetic energy is a viable source of driving power. They found that in 69\% of the cases the mechanical energy of the CME increased linearly with time, and effect that suggests CMEs have driven by the release of some form of energy. From the rate of change of mechanical energy they estimate the total power delivered to the CME to increase the mechanical energy (1.6\,erg\,hr$^{-1}$). This is then compared to an estimate of the an upper limit to the total power dissipated by the magnetic field in the CME (14.4\,erg\,hr$^{-1}$), more than enough to account for the driving power. This is taken to be a suggestion that the CMEs magnetic field is the ultimate source of energy that drives its propagation, even out to large heliocentric distances distances. However the magnetic field estimates in this study are tenuous at best, and any magnetic power estimated derived from them should be treated with caution. 
+
+Because the mass uncertainties in the past have been so high, there have been few attempts to quantify CME force estimates. Vrsnak 200x used acceleration profiles to determine which of the forces in the CME equation of motion was the more likely candidate to bring about such acceleration. I was found that the Lorentz force is a likely contributor to CME acceleration in the early phases of propagation, an assertion also found by Bein et al. 2011 through a statistical analysis of acceleration magnitudes. Very few, if any, studies managed to quantify the size of the force acting on a CME, and studies in this area have been lacking. Part of this thesis addresses the lack of reliable force estimates, and we will return to this discussion in Chapter 4.
+
+%The most striking case of this is in the measurement of CME masses, and consequently their mechanical energies and forces. Due to the huge errors involved in 2-D mass calculations, the study has been lacking with only a few papers in the field addressing CME mass and mechanical energy, and fewer still addressing observed CME force estimates. The uncertainties from the method by which mass of a CME is calculated. Thomson scattering theory is employed to derived the number of electron in each image pixel contributing to the total brightness in that pixel. This requires knowledge of where the light scattering agent is in the corona. The lack of knowledge of where the scattering agent is in the third-dimension (along the line of sight) leads to large, and often undefinable uncertainties on the mass estimate. Consequently, mechanical energy and force estimates have rarely been attempted; in 2-D calculations the large mass uncertainties, compounded by the kinematical uncertainties have made force calculations untenable. Part of this thesis addresses this issue, and we will return to this discussion in Chapter 4.
+
+\begin{itemize}                                                                                                                                            
 \item Importance for space weather
-\item Frequency of occurence
+\item Frequency of occurrence
 \end{itemize}
 
-\subsection{Association with Shocks}\label{sec:21}
+\subsection{Relationship with Coronal Shocks}\label{sec:21}
 
 \begin{itemize}
 \item Radio bursts, Type II, Type III
@@ -285,6 +333,10 @@ As mentioned above, many properties of CMEs derived from two-dimensional coronag
 
 \subsection{Open Questions}\label{sec:22}
 
+What is the mass of a CME?
+What is the magnitude of the force on CMEs?
+Which forces dominate at the early stages of propagation?
+What is the relationship of CMEs to radio bursts and EUV waves?
 
 \section{Thesis Outline}
 

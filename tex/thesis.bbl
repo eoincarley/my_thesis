@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{107}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aly}(1991)}]{aly1991}
@@ -405,6 +405,12 @@
 {\sc {Mitalas}, R. \& {Sills}, K.R.} (1992). {On the photon diffusion time
   scale for the sun}. {\em \apj\/}, {\bf 401}, 759.
 
+\bibitem[{{Moon} {\em et~al.\/}(2002){Moon}, {Choe}, {Wang}, {Park},
+  {Gopalswamy}, {Yang} \& {Yashiro}}]{moon2000}
+{\sc {Moon}, Y.J., {Choe}, G.S., {Wang}, H., {Park}, Y.D., {Gopalswamy}, N.,
+  {Yang}, G. \& {Yashiro}, S.} (2002). {A Statistical Study of Two Classes of
+  Coronal Mass Ejections}. {\em \apj\/}, {\bf 581}, 694--702.
+
 \bibitem[{{Moran} \& {Davila}(2004)}]{moran2004}
 {\sc {Moran}, T.G. \& {Davila}, J.M.} (2004). {Three-Dimensional Polarimetric
   Imaging of Coronal Mass Ejections}. {\em Science\/}, {\bf 305}, 66--71.
@@ -471,6 +477,12 @@
   Acceleration Phase of Erupting Filaments Involved in Coronal Mass Ejections}.
   {\em \apj\/}, {\bf 674}, 586--595.
 
+\bibitem[{{Sheeley} {\em et~al.\/}(1999){Sheeley}, {Walters}, {Wang} \&
+  {Howard}}]{shee1999}
+{\sc {Sheeley}, N.R., {Walters}, J.H., {Wang}, Y.M. \& {Howard}, R.A.} (1999).
+  {Continuous tracking of coronal outflows: Two kinds of coronal mass
+  ejections}. {\em \jgr\/}, {\bf 104}, 24739--24768.
+
 \bibitem[{{Sheeley} {\em et~al.\/}(1980){Sheeley}, {Michels}, {Howard} \&
   {Koomen}}]{sheeley1980}
 {\sc {Sheeley}, N.R., Jr., {Michels}, D.J., {Howard}, R.A. \& {Koomen}, M.J.}
@@ -480,6 +492,17 @@
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
   configurations}. {\em \apj\/}, {\bf 380}, 655--659.
+
+\bibitem[{{Subramanian} \& {Vourlidas}(2007)}]{subram2007}
+{\sc {Subramanian}, P. \& {Vourlidas}, A.} (2007). {Energetics of solar coronal
+  mass ejections}. {\em \aap\/}, {\bf 467}, 685--693.
+
+\bibitem[{{Temmer} {\em et~al.\/}(2010){Temmer}, {Veronig}, {Kontar}, {Krucker}
+  \& {Vr{\v s}nak}}]{temmer2010}
+{\sc {Temmer}, M., {Veronig}, A.M., {Kontar}, E.P., {Krucker}, S. \& {Vr{\v
+  s}nak}, B.} (2010). {Combined STEREO/RHESSI Study of Coronal Mass Ejection
+  Acceleration and Particle Acceleration in Solar Flares}. {\em \apj\/}, {\bf
+  712}, 1410--1420.
 
 \bibitem[{{Thernisien} {\em et~al.\/}(2006){Thernisien}, {Howard} \&
   {Vourlidas}}]{thern2006}
@@ -553,6 +576,19 @@
   conditions in the upper corona and interplanetary space}. {\em Astronomy and
   Astrophysics\/}, {\bf 413}, 753--763.
 
+\bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2005){Vr{\v s}nak}, {Sudar} \& {Ru{\v
+  z}djak}}]{vrsna2005}
+{\sc {Vr{\v s}nak}, B., {Sudar}, D. \& {Ru{\v z}djak}, D.} (2005). {The
+  CME-flare relationship: Are there really two types of CMEs?} {\em \aap\/},
+  {\bf 435}, 1149--1157.
+
+\bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2007){Vr{\v s}nak}, {Mari{\v c}i{\'c}},
+  {Stanger}, {Veronig}, {Temmer} \& {Ro{\v s}a}}]{vrsnak2007}
+{\sc {Vr{\v s}nak}, B., {Mari{\v c}i{\'c}}, D., {Stanger}, A.L., {Veronig},
+  A.M., {Temmer}, M. \& {Ro{\v s}a}, D.} (2007). {Acceleration Phase of Coronal
+  Mass Ejections: I. Temporal and Spatial Scales}. {\em \solphys\/}, {\bf 241},
+  85--98.
+
 \bibitem[{{Webb} \& {Howard}(2012)}]{webb2012}
 {\sc {Webb}, D.F. \& {Howard}, T.A.} (2012). {Coronal Mass Ejections:
   Observations}. {\em Living Reviews in Solar Physics\/}, {\bf 9}, 3.
@@ -588,6 +624,11 @@
 {\sc {Yurchyshyn}, V., {Yashiro}, S., {Abramenko}, V., {Wang}, H. \&
   {Gopalswamy}, N.} (2005). {Statistical Distributions of Speeds of Coronal
   Mass Ejections}. {\em \apj\/}, {\bf 619}, 599--603.
+
+\bibitem[{{Zhang} \& {Dere}(2006)}]{zhang2006}
+{\sc {Zhang}, J. \& {Dere}, K.P.} (2006). {A Statistical Study of Main and
+  Residual Accelerations of Coronal Mass Ejections}. {\em \apj\/}, {\bf 649},
+  1100--1109.
 
 \bibitem[{{Zhang} {\em et~al.\/}(2001){Zhang}, {Dere}, {Howard}, {Kundu} \&
   {White}}]{zhang2001}

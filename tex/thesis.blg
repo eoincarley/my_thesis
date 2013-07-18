@@ -22,45 +22,45 @@ Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 100 entries,
+You've used 107 entries,
             3018 wiz_defined-function locations,
-            1201 strings with 23571 characters,
-and the built_in function-call counts, 74282 in all, are:
-= -- 5827
-> -- 4734
-< -- 51
-+ -- 1646
-- -- 1543
-* -- 6543
-:= -- 11353
-add.period$ -- 297
-call.type$ -- 100
-change.case$ -- 1015
-chr.to.int$ -- 97
-cite$ -- 106
-duplicate$ -- 4805
-empty$ -- 4669
-format.name$ -- 1839
-if$ -- 14672
+            1235 strings with 24760 characters,
+and the built_in function-call counts, 79243 in all, are:
+= -- 6239
+> -- 5002
+< -- 53
++ -- 1740
+- -- 1630
+* -- 6993
+:= -- 12098
+add.period$ -- 318
+call.type$ -- 107
+change.case$ -- 1079
+chr.to.int$ -- 104
+cite$ -- 113
+duplicate$ -- 5132
+empty$ -- 5003
+format.name$ -- 1951
+if$ -- 15658
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1118
-newline$ -- 304
-num.names$ -- 410
-pop$ -- 2363
+missing$ -- 1189
+newline$ -- 325
+num.names$ -- 438
+pop$ -- 2506
 preamble$ -- 1
-purify$ -- 911
+purify$ -- 968
 quote$ -- 0
-skip$ -- 1768
+skip$ -- 1881
 stack$ -- 0
-substring$ -- 2869
-swap$ -- 2849
+substring$ -- 3117
+swap$ -- 3038
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 882
+type$ -- 945
 warning$ -- 6
-while$ -- 401
+while$ -- 429
 width$ -- 0
-write$ -- 1096
+write$ -- 1173
 (There were 8 warnings)
