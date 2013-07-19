@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  18 JUL 2013 20:55
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  19 JUL 2013 18:51
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -635,7 +635,7 @@ LaTeX Info: Redefining \pageref on input line 136.
 Package backref Info: ** backref set up for natbib ** on input line 136.
 \AtBeginShipoutBox=\box58
 
-<images/tcd_crest.jpg, id=270, 949.5475pt x 1207.51125pt>
+<images/tcd_crest.jpg, id=274, 949.5475pt x 1207.51125pt>
 File: images/tcd_crest.jpg Graphic file (type jpg)
 
 <use images/tcd_crest.jpg>
@@ -735,17 +735,17 @@ Overfull \hbox (1.47397pt too wide) in paragraph at lines 11--11
  []
 
 [12] [13]
-Overfull \hbox (7.00159pt too wide) in paragraph at lines 31--31
+Overfull \hbox (7.00159pt too wide) in paragraph at lines 33--33
  [][] []\OT1/cmr/m/n/12 Schematic show-ing the rel-a-tive ori-en-ta-tion of the
  line-of-sight (LOS), 
  []
 
 [14]
 
-LaTeX Warning: Command \textquoteleft invalid in math mode on input line 32.
+LaTeX Warning: Command \textquoteleft invalid in math mode on input line 34.
 
 
-Package natbib Warning: Citation `byr10' on page xv undefined on input line 33.
+Package natbib Warning: Citation `byr10' on page xv undefined on input line 35.
 
 
 )
@@ -768,11 +768,11 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5]
-<images/solar_atmosphere.jpg, id=585, 154.176pt x 115.632pt>
+<images/solar_atmosphere.jpg, id=600, 154.176pt x 115.632pt>
 File: images/solar_atmosphere.jpg Graphic file (type jpg)
 
 <use images/solar_atmosphere.jpg> [6 <./images/solar_atmosphere.jpg>]
-<images/differential_rot.png, id=594, 1243.64626pt x 651.43375pt>
+<images/differential_rot.png, id=609, 1243.64626pt x 651.43375pt>
 File: images/differential_rot.png Graphic file (type png)
 
 <use images/differential_rot.png>
@@ -782,14 +782,14 @@ de-ter-mi-na-tion of in-te-rior ro-ta-tion rate in
  []
 
 [7 <./images/differential_rot.png (PNG copy)>] [8]
-<images/bfly_new.pdf, id=615, 794.97pt x 614.295pt>
+<images/bfly_new.pdf, id=630, 794.97pt x 614.295pt>
 File: images/bfly_new.pdf Graphic file (type pdf)
  <use images/bfly_new.pdf>
 Overfull \hbox (9.02084pt too wide) in paragraph at lines 98--99
  [] 
  []
 
-<images/Babcock.jpg, id=616, 387.94937pt x 193.72375pt>
+<images/Babcock.jpg, id=631, 387.94937pt x 193.72375pt>
 File: images/Babcock.jpg Graphic file (type jpg)
 
 <use images/Babcock.jpg>
@@ -797,7 +797,7 @@ File: images/Babcock.jpg Graphic file (type jpg)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9 <./images/bfly_new.pdf>] [10 <./images/Babcock.jpg>] [11] [12]
-<images/VAL.png, id=668, 1126.2075pt x 759.83875pt>
+<images/VAL.png, id=683, 1126.2075pt x 759.83875pt>
 File: images/VAL.png Graphic file (type png)
  <use images/VAL.png>
 Overfull \hbox (37.91006pt too wide) in paragraph at lines 146--147
@@ -805,96 +805,113 @@ Overfull \hbox (37.91006pt too wide) in paragraph at lines 146--147
  []
 
 [13] [14 <./images/VAL.png (PNG copy)>]
-<images/aia_171.jpg, id=714, 2055.68pt x 2055.68pt>
+<images/aia_171.jpg, id=729, 2055.68pt x 2055.68pt>
 File: images/aia_171.jpg Graphic file (type jpg)
  <use images/aia_171.jpg>
 [15] [16 <./images/aia_171.jpg>]
 
 LaTeX Warning: Reference `fig:lowfeq' on page 17 undefined on input line 198.
 
-<images/low_freq_obs.png, id=725, 645.41125pt x 616.3025pt>
+<images/low_freq_obs.png, id=740, 645.41125pt x 616.3025pt>
 File: images/low_freq_obs.png Graphic file (type png)
 
 <use images/low_freq_obs.png> [17] [18 <./images/low_freq_obs.png (PNG copy)>]
-[19] [20] <images/lasco_c3.png, id=813, 513.92pt x 513.92pt>
+[19] [20] <images/lasco_c3.png, id=825, 513.92pt x 513.92pt>
 File: images/lasco_c3.png Graphic file (type png)
 
 <use images/lasco_c3.png> [21] [22] [23 <./images/lasco_c3.png (PNG copy)>]
-[24] <images/cme_speed_histo.png, id=887, 791.95876pt x 796.9775pt>
+[24] <images/cme_speed_histo.png, id=904, 791.95876pt x 796.9775pt>
 File: images/cme_speed_histo.png Graphic file (type png)
 
 <use images/cme_speed_histo.png>
-<images/gall_kins2003.png, id=892, 1224.575pt x 880.28876pt>
+<images/gall_kins2003.png, id=909, 1224.575pt x 880.28876pt>
 File: images/gall_kins2003.png Graphic file (type png)
 
 <use images/gall_kins2003.png>
 
-Package caption Warning: \label before \caption on input line 278.
+Package caption Warning: \label before \caption on input line 284.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:gall2003' on page 25 undefined on input line 280.
+LaTeX Warning: Reference `fig:gall2003' on page 25 undefined on input line 285.
 
 
-[25 <./images/cme_speed_histo.png (PNG copy)>] [26 <./images/gall_kins2003.png 
-(PNG copy)>]
 
-Package caption Warning: \label before \caption on input line 289.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `fig:acell_mag_dur' on page 25 undefined on input line
+ 288.
 
-
-LaTeX Warning: Reference `fig:acell_mag_dur' on page 27 undefined on input line
- 283.
-
-<images/accel_zhang2006.png, id=915, 1069.9975pt x 902.37125pt>
+<images/accel_zhang2006.png, id=919, 1069.9975pt x 902.37125pt>
 File: images/accel_zhang2006.png Graphic file (type png)
 
 <use images/accel_zhang2006.png>
 
-Package caption Warning: \label before \caption on input line 299.
+Package caption Warning: \label before \caption on input line 305.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:zhang2001' on page 27 undefined on input line 292
+LaTeX Warning: Reference `fig:zhang2001' on page 25 undefined on input line 297
 .
 
-[27 <./images/accel_zhang2006.png (PNG copy)>]
-<images/zhang2001.png, id=934, 754.82pt x 746.79pt>
+[25 <./images/cme_speed_histo.png (PNG copy)>] [26 <./images/gall_kins2003.png 
+(PNG copy)>] [27 <./images/accel_zhang2006.png (PNG copy)>]
+<images/zhang2001.png, id=948, 754.82pt x 746.79pt>
 File: images/zhang2001.png Graphic file (type png)
  <use images/zhang2001.png>
-[28 <./images/zhang2001.png (PNG copy)>]
-<images/cme_energies.png, id=957, 1279.78125pt x 890.32625pt>
+[28 <./images/zhang2001.png (PNG copy)>] [29]
+<images/cme_energies.png, id=983, 1279.78125pt x 890.32625pt>
 File: images/cme_energies.png Graphic file (type png)
 
 <use images/cme_energies.png>
 
-LaTeX Warning: Float too large for page by 19.54092pt on input line 313.
+LaTeX Warning: Float too large for page by 19.54092pt on input line 323.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30 <./images/cme_energies.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 322.
+[30] [31 <./images/cme_energies.png (PNG copy)>]
+<images/energy_dist.png, id=998, 1476.51625pt x 767.86874pt>
+File: images/energy_dist.png Graphic file (type png)
+
+<use images/energy_dist.png>
+Overfull \hbox (64.38902pt too wide) in paragraph at lines 329--330
+ [] 
+ []
+
+[32
+
+ <./images/energy_dist.png (PNG copy)>]
+<images/vrsnak_lorentz.png, id=1022, 714.67pt x 854.19125pt>
+File: images/vrsnak_lorentz.png Graphic file (type png)
+
+<use images/vrsnak_lorentz.png> [33]
+
+Package caption Warning: \label before \caption on input line 295.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:acellmagdur' on page 34 undefined on input line 3
+52.
+
+[34 <./images/vrsnak_lorentz.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 364.
 
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 322.
- [31
-
-]) [32]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 364.
+) [35]
 \openout2 = `2/MHD.aux'.
 
 
 (./2/MHD.tex
 Chapter 2.
-[33
+[36
 
 
 
-] <images/shock_pic.png, id=992, 497.86pt x 404.51125pt>
+] <images/shock_pic.png, id=1060, 497.86pt x 404.51125pt>
 File: images/shock_pic.png Graphic file (type png)
 
 <use images/shock_pic.png>
@@ -913,20 +930,20 @@ LaTeX Warning: Command \textquoteleft invalid in math mode on input line 49.
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 49.
 
-[34pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+[37pdfTeX warning (ext4): destination with the same identifier (name{equation.2
 .1.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.51 \item
            (4a) is a mass conservation equation whereby the mass flux enteri...
-] [35 <./images/shock_pic.png (PNG copy)>]pdfTeX warning (ext4): destination wi
+] [38 <./images/shock_pic.png (PNG copy)>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{equation.2.1.6}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
 l.61 \begin{subequations}
-                          [36]pdfTeX warning (ext4): destination with the same 
+                          [39]pdfTeX warning (ext4): destination with the same 
 identifier (name{equation.2.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -941,8 +958,8 @@ me{equation.2.1.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.66 \end{align}
-                 [37] [38]
-<images/MHD_vary_mach&thetaBn.pdf, id=1039, 597.23125pt x 845.1575pt>
+                 [40] [41]
+<images/MHD_vary_mach&thetaBn.pdf, id=1107, 597.23125pt x 845.1575pt>
 File: images/MHD_vary_mach&thetaBn.pdf Graphic file (type pdf)
 
 <use images/MHD_vary_mach&thetaBn.pdf>
@@ -953,7 +970,7 @@ Overfull \hbox (10.01276pt too wide) in paragraph at lines 107--108
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39] <images/lynch_breakout.png, id=1057, 768.8725pt x 913.4125pt>
+[42] <images/lynch_breakout.png, id=1125, 768.8725pt x 913.4125pt>
 File: images/lynch_breakout.png Graphic file (type png)
 
 <use images/lynch_breakout.png>
@@ -964,23 +981,23 @@ Overfull \hbox (10.31622pt too wide) in paragraph at lines 129--130
 
 LaTeX Warning: Float too large for page by 28.62314pt on input line 133.
 
-[40 <./images/MHD_vary_mach&thetaBn.pdf>] [41] [42 <./images/lynch_breakout.png
+[43 <./images/MHD_vary_mach&thetaBn.pdf>] [44] [45 <./images/lynch_breakout.png
  (PNG copy)>]
 
-Package natbib Warning: Citation `mano2003' on page 43 undefined on input line 
+Package natbib Warning: Citation `mano2003' on page 46 undefined on input line 
 137.
 
-<images/chen_model.png, id=1106, 677.53125pt x 564.1075pt>
+<images/chen_model.png, id=1175, 677.53125pt x 564.1075pt>
 File: images/chen_model.png Graphic file (type png)
 
-<use images/chen_model.png> [43
+<use images/chen_model.png> [46
 
-] [44]
-<images/Grognard1975.png, id=1129, 1039.885pt x 801.99625pt>
+] [47]
+<images/Grognard1975.png, id=1197, 1039.885pt x 801.99625pt>
 File: images/Grognard1975.png Graphic file (type png)
 
-<use images/Grognard1975.png> [45 <./images/chen_model.png (PNG copy)>]
-[46 <./images/Grognard1975.png (PNG copy)>] [47]) [48]
+<use images/Grognard1975.png> [48 <./images/chen_model.png (PNG copy)>]
+[49 <./images/Grognard1975.png (PNG copy)>] [50]) [51]
 \openout2 = `3/Instrumentation.aux'.
 
  (./3/Instrumentation.tex
@@ -990,21 +1007,21 @@ Package caption Warning: \label before \caption on input line 18.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:eclipse' on page 49 undefined on input line 12.
+LaTeX Warning: Reference `fig:eclipse' on page 52 undefined on input line 12.
 
-<images/solar_eclipse.jpg, id=1165, 903.375pt x 599.23875pt>
+<images/solar_eclipse.jpg, id=1234, 903.375pt x 599.23875pt>
 File: images/solar_eclipse.jpg Graphic file (type jpg)
 
-<use images/solar_eclipse.jpg> [49
+<use images/solar_eclipse.jpg> [52
 
 
 
-] [50 <./images/solar_eclipse.jpg>]
-<images/Omega.png, id=1182, 979.66pt x 764.8575pt>
+] [53 <./images/solar_eclipse.jpg>]
+<images/Omega.png, id=1250, 979.66pt x 764.8575pt>
 File: images/Omega.png Graphic file (type png)
  <use images/Omega.png>
-[51 <./images/Omega.png (PNG copy)>]
-<images/Lyot_coronagraph.png, id=1192, 590.205pt x 304.13625pt>
+[54 <./images/Omega.png (PNG copy)>]
+<images/Lyot_coronagraph.png, id=1260, 590.205pt x 304.13625pt>
 File: images/Lyot_coronagraph.png Graphic file (type png)
 
 <use images/Lyot_coronagraph.png>
@@ -1022,62 +1039,62 @@ Overfull \hbox (1.89899pt too wide) in paragraph at lines 86--87
 /cmr/m/it/12 et al.[]\OT1/cmr/m/n/12 , []2008[]) Ahead
  []
 
-[52] [53 <./images/Lyot_coronagraph.png (PNG copy)>]
-<images/COR1_design.png, id=1210, 1291.82625pt x 825.0825pt>
+[55] [56 <./images/Lyot_coronagraph.png (PNG copy)>]
+<images/COR1_design.png, id=1279, 1291.82625pt x 825.0825pt>
 File: images/COR1_design.png Graphic file (type png)
 
 <use images/COR1_design.png>
-<images/cor2.png, id=1215, 616.704pt x 429.7656pt>
+<images/cor2.png, id=1284, 616.704pt x 429.7656pt>
 File: images/cor2.png Graphic file (type png)
  <use images/cor2.png>)
-[54] [55 <./images/COR1_design.png (PNG copy)>] [56 <./images/cor2.png (PNG cop
+[57] [58 <./images/COR1_design.png (PNG copy)>] [59 <./images/cor2.png (PNG cop
 y)>]
 \openout2 = `4/masses.aux'.
 
  (./4/masses.tex
 Chapter 4.
 
-Package natbib Warning: Citation `byr10' on page 57 undefined on input line 25.
+Package natbib Warning: Citation `byr10' on page 60 undefined on input line 25.
 
 
-[57
+[60
 
 
 
-] [58] <images/COR1AB_plotsfinal.pdf, id=1311, 578.16pt x 939.51pt>
+] [61] <images/COR1AB_plotsfinal.pdf, id=1379, 578.16pt x 939.51pt>
 File: images/COR1AB_plotsfinal.pdf Graphic file (type pdf)
 
 <use images/COR1AB_plotsfinal.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/COR2AB_paperplots.pdf, id=1312, 578.16pt x 939.51pt>
+<images/COR2AB_paperplots.pdf, id=1380, 578.16pt x 939.51pt>
 File: images/COR2AB_paperplots.pdf Graphic file (type pdf)
 
 <use images/COR2AB_paperplots.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59] [60 <./images/COR1AB_plotsfinal.pdf>] [61 <./images/COR2AB_paperplots.pdf>
-] <images/LOS_POS_2.pdf, id=1361, 597.23125pt x 845.1575pt>
+[62] [63 <./images/COR1AB_plotsfinal.pdf>] [64 <./images/COR2AB_paperplots.pdf>
+] <images/LOS_POS_2.pdf, id=1430, 597.23125pt x 845.1575pt>
 File: images/LOS_POS_2.pdf Graphic file (type pdf)
 
 <use images/LOS_POS_2.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62]
+[65]
 
-Package natbib Warning: Citation `byr10' on page 63 undefined on input line 135
+Package natbib Warning: Citation `byr10' on page 66 undefined on input line 135
 .
 
 
-Package natbib Warning: Citation `byr10' on page 63 undefined on input line 148
+Package natbib Warning: Citation `byr10' on page 66 undefined on input line 148
 .
 
-[63 <./images/LOS_POS_2.pdf>] [64]
+[66 <./images/LOS_POS_2.pdf>] [67]
 
-Package natbib Warning: Citation `byr10' on page 65 undefined on input line 187
+Package natbib Warning: Citation `byr10' on page 68 undefined on input line 187
 .
 
 
@@ -1085,10 +1102,10 @@ Package caption Warning: \label before \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 65 undefined on input l
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 68 undefined on input l
 ine 198.
 
-<images/20081212_mass_ht.pdf, id=1411, 469.755pt x 722.7pt>
+<images/20081212_mass_ht.pdf, id=1479, 469.755pt x 722.7pt>
 File: images/20081212_mass_ht.pdf Graphic file (type pdf)
 
 <use images/20081212_mass_ht.pdf>
@@ -1101,7 +1118,7 @@ LaTeX Warning: Command \textquoteleft invalid in math mode on input line 218.
 
 LaTeX Warning: Float too large for page by 58.33127pt on input line 221.
 
-[65] [66] [67 <./images/20081212_mass_ht.pdf>]
+[68] [69] [70 <./images/20081212_mass_ht.pdf>]
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 227.
 
@@ -1113,7 +1130,7 @@ Package caption Warning: \label before \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 68 undefined on input l
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 71 undefined on input l
 ine 237.
 
 
@@ -1121,14 +1138,14 @@ Package caption Warning: \label before \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 68 undefined on input l
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 71 undefined on input l
 ine 247.
 
-[68
+[71
 
 ]
 
-Package natbib Warning: Citation `byr10' on page 69 undefined on input line 258
+Package natbib Warning: Citation `byr10' on page 72 undefined on input line 258
 .
 
 
@@ -1136,19 +1153,19 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 69 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 72 undefined on input lin
 e 260.
 
-<images/20081212_force_v2.pdf, id=1439, 325.215pt x 722.7pt>
+<images/20081212_force_v2.pdf, id=1507, 325.215pt x 722.7pt>
 File: images/20081212_force_v2.pdf Graphic file (type pdf)
 
 <use images/20081212_force_v2.pdf>
 
-Package natbib Warning: Citation `byr10' on page 69 undefined on input line 266
+Package natbib Warning: Citation `byr10' on page 72 undefined on input line 266
 .
 
 
-Package natbib Warning: Citation `byr10' on page 69 undefined on input line 266
+Package natbib Warning: Citation `byr10' on page 72 undefined on input line 266
 .
 
 
@@ -1157,13 +1174,13 @@ LaTeX Warning: Float too large for page by 67.26837pt on input line 269.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[69] [70 <./images/20081212_force_v2.pdf>]
+[72] [73 <./images/20081212_force_v2.pdf>]
 
 Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 71 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 74 undefined on input lin
 e 273.
 
 
@@ -1171,7 +1188,7 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 71 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 74 undefined on input lin
 e 279.
 
 
@@ -1179,11 +1196,11 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 71 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 74 undefined on input lin
 e 287.
 
 
-Package natbib Warning: Citation `byr10' on page 71 undefined on input line 287
+Package natbib Warning: Citation `byr10' on page 74 undefined on input line 287
 .
 
 
@@ -1191,7 +1208,7 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 71 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 74 undefined on input lin
 e 287.
 
 
@@ -1199,7 +1216,7 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 71 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 74 undefined on input lin
 e 287.
 
 
@@ -1207,7 +1224,7 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 71 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 74 undefined on input lin
 e 287.
 
 
@@ -1215,7 +1232,7 @@ Package caption Warning: \label before \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 71 undefined on input l
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 74 undefined on input l
 ine 293.
 
 
@@ -1223,10 +1240,10 @@ Package caption Warning: \label before \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 71 undefined on input l
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 74 undefined on input l
 ine 303.
 
-[71
+[74
 
 ]
 
@@ -1234,29 +1251,29 @@ Package caption Warning: \label before \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 72 undefined on input lin
+LaTeX Warning: Reference `fig:force_20081212' on page 75 undefined on input lin
 e 306.
 
-[72]
+[75]
 
-Package natbib Warning: Citation `byr10' on page 73 undefined on input line 324
+Package natbib Warning: Citation `byr10' on page 76 undefined on input line 324
 .
 
 
-Package natbib Warning: Citation `byr10' on page 73 undefined on input line 347
+Package natbib Warning: Citation `byr10' on page 76 undefined on input line 347
 .
 
-[73]
+[76]
 
-Package natbib Warning: Citation `byr10' on page 74 undefined on input line 354
+Package natbib Warning: Citation `byr10' on page 77 undefined on input line 354
 .
 
-[74]) [75]
+[77]) [78]
 \openout2 = `5/shocks.aux'.
 
  (./5/shocks.tex
 Chapter 5.
-) [76
+) [79
 
 
 
@@ -1265,7 +1282,7 @@ Chapter 5.
 
  (./appendix/app.tex
 Appendix A.
-) [77
+) [80
 
 
 
@@ -1273,14 +1290,14 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [78
+ [81
 
 
-] [79] [80] [81] [82] [83] [84] [85])
+] [82] [83] [84] [85] [86] [87] [88])
 
 Package natbib Warning: There were undefined citations.
 
-[86] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux
+[89] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux
 ) (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/MHD.aux) (./3/Instrumentation.aux) (./4/masses.aux) (./5/shocks.aux)
 (./appendix/app.aux))
@@ -1292,15 +1309,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9714 strings out of 493876
- 138917 string characters out of 1150568
- 229349 words of memory out of 3000000
- 12317 multiletter control sequences out of 10000+50000
+ 9764 strings out of 493876
+ 139736 string characters out of 1150568
+ 231837 words of memory out of 3000000
+ 12354 multiletter control sequences out of 10000+50000
  20177 words of font info for 69 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 43i,12n,50p,2387b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+ 43i,12n,50p,2664b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
 , replaced by a fixed one
@@ -1338,9 +1358,9 @@ dist/fonts/type1/bluesky/cm/cmti10.pfb></usr/local/texlive/2008/texmf-dist/font
 s/type1/bluesky/cm/cmti12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/b
 luesky/ams/msam10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/urw/bookm
 an/ubkd8a.pfb>
-Output written on thesis.pdf (103 pages, 16780658 bytes).
+Output written on thesis.pdf (106 pages, 16949069 bytes).
 PDF statistics:
- 1926 PDF objects out of 2073 (max. 8388607)
- 357 named destinations out of 1000 (max. 131072)
- 686 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2007 PDF objects out of 2073 (max. 8388607)
+ 368 named destinations out of 1000 (max. 131072)
+ 704 words of extra memory for PDF output out of 10000 (max. 10000000)
 

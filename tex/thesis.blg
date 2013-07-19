@@ -13,6 +13,10 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
+Repeated entry---line 109 of file mybib.bib
+ : @article{bein2011
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "byr10"
 Warning--I didn't find a database entry for "mano2003"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -22,45 +26,45 @@ Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 107 entries,
+You've used 111 entries,
             3018 wiz_defined-function locations,
-            1235 strings with 24760 characters,
-and the built_in function-call counts, 79243 in all, are:
-= -- 6239
-> -- 5002
-< -- 53
-+ -- 1740
-- -- 1630
-* -- 6993
-:= -- 12098
-add.period$ -- 318
-call.type$ -- 107
-change.case$ -- 1079
-chr.to.int$ -- 104
-cite$ -- 113
-duplicate$ -- 5132
-empty$ -- 5003
-format.name$ -- 1951
-if$ -- 15658
+            1254 strings with 25708 characters,
+and the built_in function-call counts, 82770 in all, are:
+= -- 6498
+> -- 5285
+< -- 55
++ -- 1837
+- -- 1723
+* -- 7312
+:= -- 12640
+add.period$ -- 330
+call.type$ -- 111
+change.case$ -- 1130
+chr.to.int$ -- 108
+cite$ -- 117
+duplicate$ -- 5344
+empty$ -- 5193
+format.name$ -- 2056
+if$ -- 16344
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1189
-newline$ -- 325
-num.names$ -- 438
-pop$ -- 2506
+missing$ -- 1244
+newline$ -- 337
+num.names$ -- 454
+pop$ -- 2630
 preamble$ -- 1
-purify$ -- 968
+purify$ -- 1015
 quote$ -- 0
-skip$ -- 1881
+skip$ -- 1960
 stack$ -- 0
-substring$ -- 3117
-swap$ -- 3038
+substring$ -- 3218
+swap$ -- 3172
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 945
+type$ -- 981
 warning$ -- 6
-while$ -- 429
+while$ -- 445
 width$ -- 0
-write$ -- 1173
-(There were 8 warnings)
+write$ -- 1217
+(There was 1 error message)

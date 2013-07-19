@@ -1,4 +1,4 @@
-\begin{thebibliography}{107}
+\begin{thebibliography}{111}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aly}(1991)}]{aly1991}
@@ -80,6 +80,11 @@
   {Gallagher}, P.T.} (2010). {Propagation of an Earth-directed coronal mass
   ejection in three dimensions}. {\em Nature Communications\/}, {\bf 1}.
 
+\bibitem[{{Cargill}(2004)}]{cargill2004}
+{\sc {Cargill}, P.J.} (2004). {On the Aerodynamic Drag Force Acting on
+  Interplanetary Coronal Mass Ejections}. {\em \solphys\/}, {\bf 221},
+  135--149.
+
 \bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
 {\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
   K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
@@ -140,6 +145,14 @@
   {Schwartz}, R.A. \& {Zurbuchen}, T.H.} (2004). {Energy partition in two solar
   flare/CME events}. {\em Journal of Geophysical Research (Space Physics)\/},
   {\bf 109}, A10104.
+
+\bibitem[{{Emslie} {\em et~al.\/}(2012){Emslie}, {Dennis}, {Shih},
+  {Chamberlin}, {Mewaldt}, {Moore}, {Share}, {Vourlidas} \&
+  {Welsch}}]{emslie2012}
+{\sc {Emslie}, A.G., {Dennis}, B.R., {Shih}, A.Y., {Chamberlin}, P.C.,
+  {Mewaldt}, R.A., {Moore}, C.S., {Share}, G.H., {Vourlidas}, A. \& {Welsch},
+  B.T.} (2012). {Global Energetics of Thirty-eight Large Solar Eruptive
+  Events}. {\em \apj\/}, {\bf 759}, 71.
 
 \bibitem[{{Fan}(2009)}]{fan2009}
 {\sc {Fan}, Y.} (2009). {Magnetic Fields in the Solar Convection Zone}. {\em
@@ -313,6 +326,10 @@
 {\sc {Lantos}, P.} (1999). {Low Frequency Observations of the Quiet Sun: a
   Review}. In T.S. {Bastian}, N.~{Gopalswamy} \& K.~{Shibasaki}, eds., {\em
   Proceedings of the Nobeyama Symposium\/}, 11--24.
+
+\bibitem[{{Lewis} \& {Simnett}(2002)}]{lewis2002}
+{\sc {Lewis}, D.J. \& {Simnett}, G.M.} (2002). {Bulk flow velocities in the
+  solar corona at solar maximum}. {\em \mnras\/}, {\bf 333}, 969--976.
 
 \bibitem[{{Lin} {\em et~al.\/}(2010){Lin}, {Gallagher} \& {Raftery}}]{lin2010}
 {\sc {Lin}, C.H., {Gallagher}, P.T. \& {Raftery}, C.L.} (2010). {Investigating
@@ -488,6 +505,17 @@
 {\sc {Sheeley}, N.R., Jr., {Michels}, D.J., {Howard}, R.A. \& {Koomen}, M.J.}
   (1980). {Initial observations with the SOLWIND coronagraph}. {\em \apjl\/},
   {\bf 237}, L99--L101.
+
+\bibitem[{{Sheeley} {\em et~al.\/}(1997){Sheeley}, {Wang}, {Hawley},
+  {Brueckner}, {Dere}, {Howard}, {Koomen}, {Korendyke}, {Michels}, {Paswaters},
+  {Socker}, {St.~Cyr}, {Wang}, {Lamy}, {Llebaria}, {Schwenn}, {Simnett},
+  {Plunkett} \& {Biesecker}}]{sheeley1997}
+{\sc {Sheeley}, N.R., Jr., {Wang}, Y.M., {Hawley}, S.H., {Brueckner}, G.E.,
+  {Dere}, K.P., {Howard}, R.A., {Koomen}, M.J., {Korendyke}, C.M., {Michels},
+  D.J., {Paswaters}, S.E., {Socker}, D.G., {St.~Cyr}, O.C., {Wang}, D., {Lamy},
+  P.L., {Llebaria}, A., {Schwenn}, R., {Simnett}, G.M., {Plunkett}, S. \&
+  {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
+  2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
 
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
