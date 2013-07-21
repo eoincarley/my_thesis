@@ -1,5 +1,9 @@
-\begin{thebibliography}{111}
+\begin{thebibliography}{128}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Allen}(1947)}]{allen1947}
+{\sc {Allen}, C.W.} (1947). {Solar Radio-Noise of 200 Mc. /s. and its relation
+  to Solar Observations}. {\em \mnras\/}, {\bf 107}, 386.
 
 \bibitem[{{Aly}(1991)}]{aly1991}
 {\sc {Aly}, J.J.} (1991). {How much energy can be stored in a three-dimensional
@@ -114,6 +118,10 @@
 {\sc {Chen}, J., {Marqu{\'e}}, C., {Vourlidas}, A., {Krall}, J. \& {Schuck},
   P.W.} (2006). {The Flux-Rope Scaling of the Acceleration of Coronal Mass
   Ejections and Eruptive Prominences}. {\em \apj\/}, {\bf 649}, 452--463.
+
+\bibitem[{{Cla{\ss}en} \& {Aurass}(2002)}]{classen2002}
+{\sc {Cla{\ss}en}, H.T. \& {Aurass}, H.} (2002). {On the association between
+  type II radio bursts and CMEs}. {\em \aap\/}, {\bf 384}, 1098--1106.
 
 \bibitem[{{Colaninno} \& {Vourlidas}(2009)}]{cola09}
 {\sc {Colaninno}, R.C. \& {Vourlidas}, A.} (2009). {First Determination of the
@@ -246,10 +254,32 @@
 \bibitem[{{Gold}(1962)}]{gold1962}
 {\sc {Gold}, T.} (1962). {Magnetic Storms}. {\em \ssr\/}, {\bf 1}, 100--114.
 
+\bibitem[{{Gopalswamy} \& {Kundu}(1992)}]{gopalswamy1992}
+{\sc {Gopalswamy}, N. \& {Kundu}, M.R.} (1992). {Estimation of the mass of a
+  coronal mass ejection from radio observations}. {\em \apjl\/}, {\bf 390},
+  L37--L39.
+
 \bibitem[{{Gopalswamy} \& {Thompson}(2000)}]{gopal2004}
 {\sc {Gopalswamy}, N. \& {Thompson}, B.J.} (2000). {Early life of coronal mass
   ejections}. {\em Journal of Atmospheric and Solar-Terrestrial Physics\/},
   {\bf 62}, 1457--1469.
+
+\bibitem[{{Gopalswamy} {\em et~al.\/}(2008){Gopalswamy}, {Yashiro}, {Xie},
+  {Akiyama}, {Aguilar-Rodriguez}, {Kaiser}, {Howard} \& {Bougeret}}]{gopal2008}
+{\sc {Gopalswamy}, N., {Yashiro}, S., {Xie}, H., {Akiyama}, S.,
+  {Aguilar-Rodriguez}, E., {Kaiser}, M.L., {Howard}, R.A. \& {Bougeret}, J.L.}
+  (2008). {Radio-Quiet Fast and Wide Coronal Mass Ejections}. {\em \apj\/},
+  {\bf 674}, 560--569.
+
+\bibitem[{{Gosling} {\em et~al.\/}(1976){Gosling}, {Hildner}, {MacQueen},
+  {Munro}, {Poland} \& {Ross}}]{gosling1976}
+{\sc {Gosling}, J.T., {Hildner}, E., {MacQueen}, R.M., {Munro}, R.H., {Poland},
+  A.I. \& {Ross}, C.L.} (1976). {The speeds of coronal mass ejection events}.
+  {\em \solphys\/}, {\bf 48}, 389--397.
+
+\bibitem[{{Hey}(1946)}]{hey1946}
+{\sc {Hey}, J.S.} (1946). {Solar Radiations in the 4-6 Metre Radio Wave-Length
+  Band}. {\em \nat\/}, {\bf 157}, 47--48.
 
 \bibitem[{{Howard} {\em et~al.\/}(2008){Howard}, {Moses}, {Vourlidas},
   {Newmark}, {Socker}, {Plunkett}, {Korendyke}, {Cook}, {Hurley}, {Davila},
@@ -293,6 +323,10 @@
   J.L.R. {Saba}, B.M. {Haisch} \& J.T. {Schmelz}, eds., {\em The many faces of
   the sun: a summary of the results from NASA's Solar Maximum Mission.\/}, 143.
 
+\bibitem[{{Hundhausen}(1972)}]{hundhausen1972}
+{\sc {Hundhausen}, A.J.} (1972). {Coronal Expansion and Solar Wind}. {\em
+  Physics and Chemistry in Space\/}, {\bf 5}.
+
 \bibitem[{{Illing} \& {Hundhausen}(1985)}]{illing1985}
 {\sc {Illing}, R.M.E. \& {Hundhausen}, A.J.} (1985). {Observation of a coronal
   transient from 1.2 to 6 solar radii}. {\em \jgr\/}, {\bf 90}, 275--282.
@@ -310,6 +344,11 @@
 \bibitem[{{Kliem} \& {T{\"o}r{\"o}k}(2006)}]{kleim2006}
 {\sc {Kliem}, B. \& {T{\"o}r{\"o}k}, T.} (2006). {Torus Instability}. {\em
   Physical Review Letters\/}, {\bf 96}, 255002--+.
+
+\bibitem[{{Kosugi}(1976)}]{kosugi1976}
+{\sc {Kosugi}, T.} (1976). {Type II-IV radio bursts and compact and diffuse
+  white-light clouds in the outer corona of December 14, 1971}. {\em
+  \solphys\/}, {\bf 48}, 339--356.
 
 \bibitem[{{Krall} \& {St.~Cyr}(2006)}]{krall2006}
 {\sc {Krall}, J. \& {St.~Cyr}, O.C.} (2006). {Flux-Rope Coronal Mass Ejection
@@ -375,6 +414,12 @@
   High Altitude Observatory Coronagraph/Polarimeter on the Solar Maximum
   Mission}. {\em \solphys\/}, {\bf 65}, 91--107.
 
+\bibitem[{{Maia} {\em et~al.\/}(2000){Maia}, {Pick}, {Vourlidas} \&
+  {Howard}}]{maia2000}
+{\sc {Maia}, D., {Pick}, M., {Vourlidas}, A. \& {Howard}, R.} (2000).
+  {Development of Coronal Mass Ejections: Radio Shock Signatures}. {\em
+  \apjl\/}, {\bf 528}, L49--L51.
+
 \bibitem[{{Maloney} \& {Gallagher}(2010)}]{malo10}
 {\sc {Maloney}, S.A. \& {Gallagher}, P.T.} (2010). {Solar Wind Drag and the
   Kinematics of Interplanetary Coronal Mass Ejections}. {\em \apjl\/}, {\bf
@@ -390,6 +435,11 @@
 {\sc {Manoharan}, P.K. \& {Kundu}, M.R.} (2003). {Coronal Structure of a
   Flaring Region and Associated Coronal Mass Ejection}. {\em \apj\/}, {\bf
   592}, 597--606.
+
+\bibitem[{{Maxwell} \& {Thompson}(1962)}]{maxwell1962}
+{\sc {Maxwell}, A. \& {Thompson}, A.R.} (1962). {Spectral Observations of Solar
+  Radio Bursts. II. Slow-Drift Bursts and Coronal Streamers.} {\em \apj\/},
+  {\bf 135}, 138.
 
 \bibitem[{{McAteer} {\em et~al.\/}(2002){McAteer}, {Gallagher}, {Williams},
   {Mathioudakis}, {Phillips} \& {Keenan}}]{mcateer2002}
@@ -439,6 +489,12 @@
   transients with other forms of solar activity}. {\em \solphys\/}, {\bf 61},
   201--215.
 
+\bibitem[{{Payne-Scott} {\em et~al.\/}(1947){Payne-Scott}, {Yabsley} \&
+  {Bolton}}]{payne1947}
+{\sc {Payne-Scott}, R., {Yabsley}, D.E. \& {Bolton}, J.G.} (1947). {Relative
+  Times of Arrival of Bursts of Solar Noise on Different Radio Frequencies}.
+  {\em \nat\/}, {\bf 160}, 256--257.
+
 \bibitem[{{Phillips} {\em et~al.\/}(2008){Phillips}, {Feldman} \&
   {Landi}}]{phillips2008}
 {\sc {Phillips}, K.J.H., {Feldman}, U. \& {Landi}, E.} (2008). {\em
@@ -480,6 +536,11 @@
   efficiency of type III solar radio emission}. {\em \apj\/}, {\bf 422},
   870--882.
 
+\bibitem[{{Robinson} \& {Stewart}(1985)}]{robinson1985}
+{\sc {Robinson}, R.D. \& {Stewart}, R.T.} (1985). {A positional comparison
+  between coronal mass ejection events and solar type II bursts}. {\em
+  \solphys\/}, {\bf 97}, 145--157.
+
 \bibitem[{{Schrijver} {\em et~al.\/}(2008{\natexlab{a}}){Schrijver}, {Elmore},
   {Kliem}, {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
 {\sc {Schrijver}, C.J., {Elmore}, C., {Kliem}, B., {T{\"o}r{\"o}k}, T. \&
@@ -506,6 +567,12 @@
   (1980). {Initial observations with the SOLWIND coronagraph}. {\em \apjl\/},
   {\bf 237}, L99--L101.
 
+\bibitem[{{Sheeley} {\em et~al.\/}(1984){Sheeley}, {Howard}, {Michels},
+  {Robinson}, {Koomen} \& {Stewart}}]{sheeley1984}
+{\sc {Sheeley}, N.R., Jr., {Howard}, R.A., {Michels}, D.J., {Robinson}, R.D.,
+  {Koomen}, M.J. \& {Stewart}, R.T.} (1984). {Associations between coronal mass
+  ejections and metric type II bursts}. {\em \apj\/}, {\bf 279}, 839--847.
+
 \bibitem[{{Sheeley} {\em et~al.\/}(1997){Sheeley}, {Wang}, {Hawley},
   {Brueckner}, {Dere}, {Howard}, {Koomen}, {Korendyke}, {Michels}, {Paswaters},
   {Socker}, {St.~Cyr}, {Wang}, {Lamy}, {Llebaria}, {Schwenn}, {Simnett},
@@ -516,6 +583,12 @@
   P.L., {Llebaria}, A., {Schwenn}, R., {Simnett}, G.M., {Plunkett}, S. \&
   {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
   2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
+
+\bibitem[{{Stewart} {\em et~al.\/}(1974){Stewart}, {McCabe}, {Koomen}, {Hansen}
+  \& {Dulk}}]{stewart1974}
+{\sc {Stewart}, R.T., {McCabe}, M.K., {Koomen}, M.J., {Hansen}, R.T. \& {Dulk},
+  G.A.} (1974). {Observations of Coronal Disturbances from 1 to 9 R$_{sun}$. I:
+  First Event of 1973, January 11}. {\em \solphys\/}, {\bf 36}, 203--217.
 
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
@@ -557,6 +630,15 @@
 {\sc {Turck-Chi{\`e}ze}, S. \& {Couvidat}, S.} (2011). {Solar neutrinos,
   helioseismology and the solar internal dynamics}. {\em Reports on Progress in
   Physics\/}, {\bf 74}, 086901.
+
+\bibitem[{{Uchida}(1960)}]{uchida1960}
+{\sc {Uchida}, Y.} (1960). {On the Exciters of Type II and Type III Solar Radio
+  Bursts}. {\em \pasj\/}, {\bf 12}, 376.
+
+\bibitem[{{Uchida}(1974)}]{uchida1974}
+{\sc {Uchida}, Y.} (1974). {Behavior of the flare produced coronal MHD
+  wavefront and the occurrence of type II radio bursts}. {\em \solphys\/}, {\bf
+  39}, 431--449.
 
 \bibitem[{{van de Hulst}(1950)}]{vdeh50}
 {\sc {van de Hulst}, H.C.} (1950). {The electron density of the solar corona}.
@@ -625,6 +707,11 @@
 {\sc {Webb}, D.F. \& {Hundhausen}, A.J.} (1987). {Activity associated with the
   solar origin of coronal mass ejections}. {\em \solphys\/}, {\bf 108},
   383--401.
+
+\bibitem[{{Wild} {\em et~al.\/}(1954){Wild}, {Murray} \& {Rowe}}]{wild1954}
+{\sc {Wild}, J.P., {Murray}, J.D. \& {Rowe}, W.C.} (1954). {Harmonics in the
+  Spectra of Solar Radio Disturbances}. {\em Australian Journal of Physics\/},
+  {\bf 7}, 439.
 
 \bibitem[{{Wild} {\em et~al.\/}(1959){Wild}, {Sheridan} \& {Trent}}]{wild1958}
 {\sc {Wild}, J.P., {Sheridan}, K.V. \& {Trent}, G.H.} (1959). {The transverse

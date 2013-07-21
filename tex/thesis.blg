@@ -13,7 +13,7 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 109 of file mybib.bib
+Repeated entry---line 121 of file mybib.bib
  : @article{bein2011
  :                  ,
 I'm skipping whatever remains of this entry
@@ -26,45 +26,45 @@ Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 111 entries,
+You've used 128 entries,
             3018 wiz_defined-function locations,
-            1254 strings with 25708 characters,
-and the built_in function-call counts, 82770 in all, are:
-= -- 6498
-> -- 5285
-< -- 55
-+ -- 1837
-- -- 1723
-* -- 7312
-:= -- 12640
-add.period$ -- 330
-call.type$ -- 111
-change.case$ -- 1130
-chr.to.int$ -- 108
-cite$ -- 117
-duplicate$ -- 5344
-empty$ -- 5193
-format.name$ -- 2056
-if$ -- 16344
+            1340 strings with 28170 characters,
+and the built_in function-call counts, 92952 in all, are:
+= -- 7362
+> -- 5743
+< -- 65
++ -- 2001
+- -- 1870
+* -- 8165
+:= -- 14213
+add.period$ -- 381
+call.type$ -- 128
+change.case$ -- 1264
+chr.to.int$ -- 125
+cite$ -- 134
+duplicate$ -- 6070
+empty$ -- 5927
+format.name$ -- 2250
+if$ -- 18374
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1244
-newline$ -- 337
-num.names$ -- 454
-pop$ -- 2630
+missing$ -- 1394
+newline$ -- 388
+num.names$ -- 522
+pop$ -- 2907
 preamble$ -- 1
-purify$ -- 1015
+purify$ -- 1132
 quote$ -- 0
-skip$ -- 1960
+skip$ -- 2213
 stack$ -- 0
-substring$ -- 3218
-swap$ -- 3172
+substring$ -- 3693
+swap$ -- 3567
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 981
+type$ -- 1134
 warning$ -- 6
-while$ -- 445
+while$ -- 512
 width$ -- 0
-write$ -- 1217
+write$ -- 1404
 (There was 1 error message)
