@@ -1,4 +1,4 @@
-\begin{thebibliography}{150}
+\begin{thebibliography}{183}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -27,6 +27,12 @@
   {Sandman}, A., {Vourlidas}, A. \& {Colaninno}, R.C.} (2009). {First
   Measurements of the Mass of Coronal Mass Ejections from the EUV Dimming
   Observed with STEREO EUVI A+B Spacecraft}. {\em \apj\/}, {\bf 706}, 376--392.
+
+\bibitem[{{Attrill} {\em et~al.\/}(2007){Attrill}, {Harra}, {van
+  Driel-Gesztelyi} \& {D{\'e}moulin}}]{attrill2007}
+{\sc {Attrill}, G.D.R., {Harra}, L.K., {van Driel-Gesztelyi}, L. \&
+  {D{\'e}moulin}, P.} (2007). {Coronal ``Wave'': Magnetic Footprint of a
+  Coronal Mass Ejection?} {\em \apjl\/}, {\bf 656}, L101--L104.
 
 \bibitem[{{Aulanier} {\em et~al.\/}(2000){Aulanier}, {DeLuca}, {Antiochos},
   {McMullen} \& {Golub}}]{aulan2000}
@@ -69,6 +75,12 @@
   Mass Ejection Source Region Characteristics}. {\em \apj\/}, {\bf 738},
   191--+.
 
+\bibitem[{{Biesecker} {\em et~al.\/}(2002){Biesecker}, {Myers}, {Thompson},
+  {Hammer} \& {Vourlidas}}]{bieseker2002}
+{\sc {Biesecker}, D.A., {Myers}, D.C., {Thompson}, B.J., {Hammer}, D.M. \&
+  {Vourlidas}, A.} (2002). {Solar Phenomena Associated with ``EIT Waves''}.
+  {\em \apj\/}, {\bf 569}, 1009--1015.
+
 \bibitem[{{Billings}(1966)}]{bil66}
 {\sc {Billings}, D.E.} (1966). {\em {A guide to the solar corona}\/}.
 
@@ -78,6 +90,15 @@
   {Choe}, G.S.} (2006). {Direct Observation of Low Coronal Breakout: Does
   Breakout Precede or Follow Solar Eruption?} {\em \apjl\/}, {\bf 636},
   L169--L172.
+
+\bibitem[{{Bougeret} {\em et~al.\/}(1998){Bougeret}, {Zarka}, {Caroubalos},
+  {Karlick{\'y}}, {Leblanc}, {Maroulis}, {Hillaris}, {Moussas},
+  {Alissandrakis}, {Dumas} \& {Perche}}]{bougeret1998}
+{\sc {Bougeret}, J.L., {Zarka}, P., {Caroubalos}, C., {Karlick{\'y}}, M.,
+  {Leblanc}, Y., {Maroulis}, D., {Hillaris}, A., {Moussas}, X.,
+  {Alissandrakis}, C.E., {Dumas}, G. \& {Perche}, C.} (1998). {A shock
+  associated (SA) radio event and related phenomena observed from the base of
+  the solar corona to 1 AU}. {\em \grl\/}, {\bf 25}, 2513--2516.
 
 \bibitem[{{Brueckner} {\em et~al.\/}(1995){Brueckner}, {Howard}, {Koomen},
   {Korendyke}, {Michels}, {Moses}, {Socker}, {Dere}, {Lamy}, {Llebaria},
@@ -149,6 +170,12 @@
   P.W.} (2006). {The Flux-Rope Scaling of the Acceleration of Coronal Mass
   Ejections and Eruptive Prominences}. {\em \apj\/}, {\bf 649}, 452--463.
 
+\bibitem[{{Chen} {\em et~al.\/}(2002){Chen}, {Wu}, {Shibata} \&
+  {Fang}}]{chen2002}
+{\sc {Chen}, P.F., {Wu}, S.T., {Shibata}, K. \& {Fang}, C.} (2002). {Evidence
+  of EIT and Moreton Waves in Numerical Simulations}. {\em \apjl\/}, {\bf 572},
+  L99--L102.
+
 \bibitem[{{Cho} {\em et~al.\/}(2007){Cho}, {Lee}, {Moon}, {Dryer}, {Bong},
   {Kim} \& {Park}}]{cho2007}
 {\sc {Cho}, K.S., {Lee}, J., {Moon}, Y.J., {Dryer}, M., {Bong}, S.C., {Kim},
@@ -182,9 +209,20 @@
   Localization of CMEs in 3D Space Using STEREO Beacon Data: First Results}.
   {\em \solphys\/}, {\bf 256}, 167--181.
 
+\bibitem[{{Delann{\'e}e} {\em et~al.\/}(2008){Delann{\'e}e}, {T{\"o}r{\"o}k},
+  {Aulanier} \& {Hochedez}}]{delannee2008}
+{\sc {Delann{\'e}e}, C., {T{\"o}r{\"o}k}, T., {Aulanier}, G. \& {Hochedez},
+  J.F.} (2008). {A New Model for Propagating Parts of EIT Waves: A Current
+  Shell in a CME}. {\em \solphys\/}, {\bf 247}, 123--150.
+
 \bibitem[{{Domingo} {\em et~al.\/}(1995){Domingo}, {Fleck} \& {Poland}}]{dom95}
 {\sc {Domingo}, V., {Fleck}, B. \& {Poland}, A.I.} (1995). {The SOHO Mission:
   an Overview}. {\em \solphys\/}, {\bf 162}, 1--37.
+
+\bibitem[{{Dulk}(1971)}]{dulk1971}
+{\sc {Dulk}, G.A.} (1971). {80 MHz observations of a harmonic type II solar
+  burst accompanying a limb flare}. {\em Australian Journal of Physics\/}, {\bf
+  24}, 177.
 
 \bibitem[{{Emslie} {\em et~al.\/}(2004){Emslie}, {Kucharek}, {Dennis},
   {Gopalswamy}, {Holman}, {Share}, {Vourlidas}, {Forbes}, {Gallagher}, {Mason},
@@ -306,11 +344,34 @@
   ejections}. {\em Journal of Atmospheric and Solar-Terrestrial Physics\/},
   {\bf 62}, 1457--1469.
 
+\bibitem[{{Gopalswamy} {\em et~al.\/}(2009){Gopalswamy}, {Yashiro}, {Temmer},
+  {Davila}, {Thompson}, {Jones}, {McAteer}, {Wuelser}, {Freeland} \&
+  {Howard}}]{gopal2009}
+{\sc {Gopalswamy}, N., {Yashiro}, S., {Temmer}, M., {Davila}, J., {Thompson},
+  W.T., {Jones}, S., {McAteer}, R.T.J., {Wuelser}, J.P., {Freeland}, S. \&
+  {Howard}, R.A.} (2009). {EUV Wave Reflection from a Coronal Hole}. {\em
+  \apjl\/}, {\bf 691}, L123--L127.
+
+\bibitem[{{Gopalswamy} {\em et~al.\/}(2012){Gopalswamy}, {Nitta}, {Akiyama},
+  {M{\"a}kel{\"a}} \& {Yashiro}}]{gopal2012}
+{\sc {Gopalswamy}, N., {Nitta}, N., {Akiyama}, S., {M{\"a}kel{\"a}}, P. \&
+  {Yashiro}, S.} (2012). {Coronal Magnetic Field Measurement from EUV Images
+  Made by the Solar Dynamics Observatory}. {\em \apj\/}, {\bf 744}, 72.
+
 \bibitem[{{Gosling} {\em et~al.\/}(1976){Gosling}, {Hildner}, {MacQueen},
   {Munro}, {Poland} \& {Ross}}]{gosling1976}
 {\sc {Gosling}, J.T., {Hildner}, E., {MacQueen}, R.M., {Munro}, R.H., {Poland},
   A.I. \& {Ross}, C.L.} (1976). {The speeds of coronal mass ejection events}.
   {\em \solphys\/}, {\bf 48}, 389--397.
+
+\bibitem[{{Grechnev} {\em et~al.\/}(2011){Grechnev}, {Uralov}, {Chertok},
+  {Kuzmenko}, {Afanasyev}, {Meshalkina}, {Kalashnikov} \&
+  {Kubo}}]{grechnev2011}
+{\sc {Grechnev}, V.V., {Uralov}, A.M., {Chertok}, I.M., {Kuzmenko}, I.V.,
+  {Afanasyev}, A.N., {Meshalkina}, N.S., {Kalashnikov}, S.S. \& {Kubo}, Y.}
+  (2011). {Coronal Shock Waves, EUV Waves, and Their Relation to CMEs. I.
+  Reconciliation of ''EIT Waves'', Type II Radio Bursts, and Leading Edges of
+  CMEs}. {\em \solphys\/}, {\bf 273}, 433--460.
 
 \bibitem[{{Guo} \& {Giacalone}(2010)}]{guo2010}
 {\sc {Guo}, F. \& {Giacalone}, J.} (2010). {The Effect of Large-scale Magnetic
@@ -375,11 +436,38 @@
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
   Journal of Plasma Physics\/}, {\bf 66}, 259--274.
 
+\bibitem[{{Kai}(1969)}]{kai1969}
+{\sc {Kai}, K.} (1969). {Radio Evidence of Directive Shock-Wave Propagation in
+  the Solar Corona}. {\em \solphys\/}, {\bf 10}, 460--464.
+
 \bibitem[{{Kaiser} {\em et~al.\/}(2008){Kaiser}, {Kucera}, {Davila}, {St.~Cyr},
   {Guhathakurta} \& {Christian}}]{kai08}
 {\sc {Kaiser}, M.L., {Kucera}, T.A., {Davila}, J.M., {St.~Cyr}, O.C.,
   {Guhathakurta}, M. \& {Christian}, E.} (2008). {The STEREO Mission: An
   Introduction}. {\em \ssr\/}, {\bf 136}, 5--16.
+
+\bibitem[{{Khan} \& {Aurass}(2002)}]{khan2002}
+{\sc {Khan}, J.I. \& {Aurass}, H.} (2002). {X-ray observations of a large-scale
+  solar coronal shock wave}. {\em \aap\/}, {\bf 383}, 1018--1031.
+
+\bibitem[{{Kim} {\em et~al.\/}(2012){Kim}, {Gopalswamy}, {Moon}, {Cho} \&
+  {Yashiro}}]{kim2012}
+{\sc {Kim}, R.S., {Gopalswamy}, N., {Moon}, Y.J., {Cho}, K.S. \& {Yashiro}, S.}
+  (2012). {Magnetic Field Strength in the Upper Solar Corona Using White-light
+  Shock Structures Surrounding Coronal Mass Ejections}. {\em \apj\/}, {\bf
+  746}, 118.
+
+\bibitem[{{Klassen} {\em et~al.\/}(2000){Klassen}, {Aurass}, {Mann} \&
+  {Thompson}}]{klassen2000}
+{\sc {Klassen}, A., {Aurass}, H., {Mann}, G. \& {Thompson}, B.J.} (2000).
+  {Catalogue of the 1997 SOHO-EIT coronal transient waves and associated type
+  II radio burst spectra}. {\em \aaps\/}, {\bf 141}, 357--369.
+
+\bibitem[{{Klassen} {\em et~al.\/}(2002){Klassen}, {Bothmer}, {Mann}, {Reiner},
+  {Krucker}, {Vourlidas} \& {Kunow}}]{klassen2002}
+{\sc {Klassen}, A., {Bothmer}, V., {Mann}, G., {Reiner}, M.J., {Krucker}, S.,
+  {Vourlidas}, A. \& {Kunow}, H.} (2002). {Solar energetic electron events and
+  coronal shocks}. {\em \aap\/}, {\bf 385}, 1078--1088.
 
 \bibitem[{{Klein} {\em et~al.\/}(1999){Klein}, {Khan}, {Vilmer}, {Delouis} \&
   {Aurass}}]{klein1999}
@@ -396,6 +484,13 @@
   white-light clouds in the outer corona of December 14, 1971}. {\em
   \solphys\/}, {\bf 48}, 339--356.
 
+\bibitem[{{Kozarev} {\em et~al.\/}(2011){Kozarev}, {Korreck}, {Lobzin}, {Weber}
+  \& {Schwadron}}]{kozarev2011}
+{\sc {Kozarev}, K.A., {Korreck}, K.E., {Lobzin}, V.V., {Weber}, M.A. \&
+  {Schwadron}, N.A.} (2011). {Off-limb Solar Coronal Wavefronts from SDO/AIA
+  Extreme-ultraviolet Observations - Implications for Particle Production}.
+  {\em \apjl\/}, {\bf 733}, L25.
+
 \bibitem[{{Krall} \& {St.~Cyr}(2006)}]{krall2006}
 {\sc {Krall}, J. \& {St.~Cyr}, O.C.} (2006). {Flux-Rope Coronal Mass Ejection
   Geometry and Its Relation to Observed Morphology}. {\em \apj\/}, {\bf 652},
@@ -406,6 +501,12 @@
 {\sc {Krall}, J., {Chen}, J., {Duffin}, R.T., {Howard}, R.A. \& {Thompson},
   B.J.} (2001). {Erupting Solar Magnetic Flux Ropes: Theory and Observation}.
   {\em \apj\/}, {\bf 562}, 1045--1057.
+
+\bibitem[{{Krucker} {\em et~al.\/}(1999){Krucker}, {Larson}, {Lin} \&
+  {Thompson}}]{krucker1999}
+{\sc {Krucker}, S., {Larson}, D.E., {Lin}, R.P. \& {Thompson}, B.J.} (1999).
+  {On the Origin of Impulsive Electron Events Observed at 1 AU}. {\em \apj\/},
+  {\bf 519}, 864--875.
 
 \bibitem[{{Lantos}(1999)}]{lantos1999}
 {\sc {Lantos}, P.} (1999). {Low Frequency Observations of the Quiet Sun: a
@@ -428,6 +529,12 @@
 \bibitem[{{Lindemann}(1919)}]{lindemann1919}
 {\sc {Lindemann}, F.} (1919). {Note on the Theory of Magnetic Storms.} {\em
   Philosophical Magazine Series 6\/}, {\bf 38}, 669.
+
+\bibitem[{{Long} {\em et~al.\/}(2011){Long}, {Gallagher}, {McAteer} \&
+  {Bloomfield}}]{long2011}
+{\sc {Long}, D.M., {Gallagher}, P.T., {McAteer}, R.T.J. \& {Bloomfield}, D.S.}
+  (2011). {Deceleration and dispersion of large-scale coronal bright fronts}.
+  {\em \aap\/}, {\bf 531}, A42.
 
 \bibitem[{{Lynch} {\em et~al.\/}(2004){Lynch}, {Antiochos}, {MacNeice},
   {Zurbuchen} \& {Fisk}}]{lynch2004}
@@ -472,10 +579,19 @@
   {Development of Coronal Mass Ejections: Radio Shock Signatures}. {\em
   \apjl\/}, {\bf 528}, L49--L51.
 
+\bibitem[{{Maia} \& {Pick}(2004)}]{maia2004}
+{\sc {Maia}, D.J.F. \& {Pick}, M.} (2004). {Revisiting the Origin of Impulsive
+  Electron Events: Coronal Magnetic Restructuring}. {\em \apj\/}, {\bf 609},
+  1082--1097.
+
 \bibitem[{{Maloney} \& {Gallagher}(2010)}]{malo10}
 {\sc {Maloney}, S.A. \& {Gallagher}, P.T.} (2010). {Solar Wind Drag and the
   Kinematics of Interplanetary Coronal Mass Ejections}. {\em \apjl\/}, {\bf
   724}, L127--L132.
+
+\bibitem[{{Maloney} \& {Gallagher}(2011)}]{maloney2011}
+{\sc {Maloney}, S.A. \& {Gallagher}, P.T.} (2011). {STEREO Direct Imaging of a
+  Coronal Mass Ejection-driven Shock to 0.5 AU}. {\em \apjl\/}, {\bf 736}, L5.
 
 \bibitem[{{Mancuso}(2011)}]{mancuso2011}
 {\sc {Mancuso}, S.} (2011). {Combined Analysis of Ultraviolet and Radio
@@ -564,6 +680,23 @@
 {\sc {Moran}, T.G. \& {Davila}, J.M.} (2004). {Three-Dimensional Polarimetric
   Imaging of Coronal Mass Ejections}. {\em Science\/}, {\bf 305}, 66--71.
 
+\bibitem[{{Moses} {\em et~al.\/}(1997){Moses}, {Clette}, {Delaboudini{\`e}re},
+  {Artzner}, {Bougnet}, {Brunaud}, {Carabetian}, {Gabriel}, {Hochedez},
+  {Millier}, {Song}, {Au}, {Dere}, {Howard}, {Kreplin}, {Michels}, {Defise},
+  {Jamar}, {Rochus}, {Chauvineau}, {Marioge}, {Catura}, {Lemen}, {Shing},
+  {Stern}, {Gurman}, {Neupert}, {Newmark}, {Thompson}, {Maucherat},
+  {Portier-Fozzani}, {Berghmans}, {Cugnon}, {van Dessel} \&
+  {Gabryl}}]{moses1997}
+{\sc {Moses}, D., {Clette}, F., {Delaboudini{\`e}re}, J.P., {Artzner}, G.E.,
+  {Bougnet}, M., {Brunaud}, J., {Carabetian}, C., {Gabriel}, A.H., {Hochedez},
+  J.F., {Millier}, F., {Song}, X.Y., {Au}, B., {Dere}, K.P., {Howard}, R.A.,
+  {Kreplin}, R., {Michels}, D.J., {Defise}, J.M., {Jamar}, C., {Rochus}, P.,
+  {Chauvineau}, J.P., {Marioge}, J.P., {Catura}, R.C., {Lemen}, J.R., {Shing},
+  L., {Stern}, R.A., {Gurman}, J.B., {Neupert}, W.M., {Newmark}, J.,
+  {Thompson}, B., {Maucherat}, A., {Portier-Fozzani}, F., {Berghmans}, D.,
+  {Cugnon}, P., {van Dessel}, E.L. \& {Gabryl}, J.R.} (1997). {EIT Observations
+  of the Extreme Ultraviolet Sun}. {\em \solphys\/}, {\bf 175}, 571--599.
+
 \bibitem[{{Munro} {\em et~al.\/}(1979){Munro}, {Gosling}, {Hildner},
   {MacQueen}, {Poland} \& {Ross}}]{munro1979}
 {\sc {Munro}, R.H., {Gosling}, J.T., {Hildner}, E., {MacQueen}, R.M., {Poland},
@@ -574,6 +707,11 @@
 \bibitem[{{Nelson} \& {Melrose}(1985)}]{nelson1985}
 {\sc {Nelson}, G.J. \& {Melrose}, D.B.} (1985). {\em {Type II bursts}\/},
   333--359.
+
+\bibitem[{{Ontiveros} \& {Vourlidas}(2009)}]{ontiveros2009}
+{\sc {Ontiveros}, V. \& {Vourlidas}, A.} (2009). {Quantitative Measurements of
+  Coronal Mass Ejection-Driven Shocks from LASCO Observations}. {\em \apj\/},
+  {\bf 693}, 267--275.
 
 \bibitem[{{Payne-Scott} {\em et~al.\/}(1947){Payne-Scott}, {Yabsley} \&
   {Bolton}}]{payne1947}
@@ -586,6 +724,11 @@
 {\sc {Phillips}, K.J.H., {Feldman}, U. \& {Landi}, E.} (2008). {\em
   {Ultraviolet and X-ray Spectroscopy of the Solar Atmosphere}\/}. Cambridge
   University Press.
+
+\bibitem[{{Pick} \& {Vilmer}(2008)}]{pick2008}
+{\sc {Pick}, M. \& {Vilmer}, N.} (2008). {Sixty-five years of solar
+  radioastronomy: flares, coronal mass ejections and Sun Earth connection}.
+  {\em \aapr\/}, {\bf 16}, 1--153.
 
 \bibitem[{{Pick} {\em et~al.\/}(2006){Pick}, {Forbes}, {Mann}, {Cane}, {Chen},
   {Ciaravella}, {Cremades}, {Howard}, {Hudson}, {Klassen}, {Klein}, {Lee},
@@ -634,19 +777,17 @@
   between coronal mass ejection events and solar type II bursts}. {\em
   \solphys\/}, {\bf 97}, 145--157.
 
-\bibitem[{{Schrijver} {\em et~al.\/}(2008{\natexlab{a}}){Schrijver}, {Elmore},
-  {Kliem}, {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
-{\sc {Schrijver}, C.J., {Elmore}, C., {Kliem}, B., {T{\"o}r{\"o}k}, T. \&
-  {Title}, A.M.} (2008{\natexlab{a}}). {Observations and Modeling of the Early
-  Acceleration Phase of Erupting Filaments Involved in Coronal Mass Ejections}.
-  {\em \apj\/}, {\bf 674}, 586--595.
+\bibitem[{{Russell} \& {Mulligan}(2002)}]{russel2002}
+{\sc {Russell}, C.T. \& {Mulligan}, T.} (2002). {On the magnetosheath
+  thicknesses of interplanetary coronal mass ejections}. {\em \planss\/}, {\bf
+  50}, 527--534.
 
-\bibitem[{{Schrijver} {\em et~al.\/}(2008{\natexlab{b}}){Schrijver}, {Elmore},
-  {Kliem}, {T{\"o}r{\"o}k} \& {Title}}]{Schrij2008}
+\bibitem[{{Schrijver} {\em et~al.\/}(2008){Schrijver}, {Elmore}, {Kliem},
+  {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
 {\sc {Schrijver}, C.J., {Elmore}, C., {Kliem}, B., {T{\"o}r{\"o}k}, T. \&
-  {Title}, A.M.} (2008{\natexlab{b}}). {Observations and Modeling of the Early
-  Acceleration Phase of Erupting Filaments Involved in Coronal Mass Ejections}.
-  {\em \apj\/}, {\bf 674}, 586--595.
+  {Title}, A.M.} (2008). {Observations and Modeling of the Early Acceleration
+  Phase of Erupting Filaments Involved in Coronal Mass Ejections}. {\em
+  \apj\/}, {\bf 674}, 586--595.
 
 \bibitem[{{Sheeley} {\em et~al.\/}(1999){Sheeley}, {Walters}, {Wang} \&
   {Howard}}]{shee1999}
@@ -670,6 +811,17 @@
   P.L., {Llebaria}, A., {Schwenn}, R., {Simnett}, G.M., {Plunkett}, S. \&
   {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
   2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
+
+\bibitem[{{Smerd}(1970)}]{smerd1970}
+{\sc {Smerd}, S.F.} (1970). {Radio evidence for the propagation of
+  magnetohydrodynamic waves along curved paths in the solar corona}. {\em
+  Proceedings of the Astronomical Society of Australia\/}, {\bf 1}, 305.
+
+\bibitem[{{Spreiter} {\em et~al.\/}(1966){Spreiter}, {Summers} \&
+  {Alksne}}]{spreiter1966}
+{\sc {Spreiter}, J.R., {Summers}, A.L. \& {Alksne}, A.Y.} (1966).
+  {Hydromagnetic flow around the magnetosphere}. {\em \planss\/}, {\bf 14},
+  223.
 
 \bibitem[{{Stewart} \& {Magun}(1980)}]{stewart1980}
 {\sc {Stewart}, R.T. \& {Magun}, A.} (1980). {Radio evidence for electron
@@ -702,6 +854,17 @@
   {Vourlidas}}]{thern2006}
 {\sc {Thernisien}, A.F.R., {Howard}, R.A. \& {Vourlidas}, A.} (2006). {Modeling
   of Flux Rope Coronal Mass Ejections}. {\em \apj\/}, {\bf 652}, 763--773.
+
+\bibitem[{{Thompson} \& {Myers}(2009)}]{thompson2009}
+{\sc {Thompson}, B.J. \& {Myers}, D.C.} (2009). {A Catalog of Coronal ''EIT
+  Wave'' Transients}. {\em \apjs\/}, {\bf 183}, 225--243.
+
+\bibitem[{{Thompson} {\em et~al.\/}(1998){Thompson}, {Plunkett}, {Gurman},
+  {Newmark}, {St.~Cyr} \& {Michels}}]{thompson1998}
+{\sc {Thompson}, B.J., {Plunkett}, S.P., {Gurman}, J.B., {Newmark}, J.S.,
+  {St.~Cyr}, O.C. \& {Michels}, D.J.} (1998). {SOHO/EIT observations of an
+  Earth-directed coronal mass ejection on May 12, 1997}. {\em \grl\/}, {\bf
+  25}, 2465--2468.
 
 \bibitem[{{Thompson} {\em et~al.\/}(2003){Thompson}, {Christensen-Dalsgaard},
   {Miesch} \& {Toomre}}]{thompson2003}
@@ -747,6 +910,19 @@
   the solar chromosphere. III - Models of the EUV brightness components of the
   quiet-sun}. {\em \apjs\/}, {\bf 45}, 635--725.
 
+\bibitem[{{Veronig} {\em et~al.\/}(2010){Veronig}, {Muhr}, {Kienreich},
+  {Temmer} \& {Vr{\v s}nak}}]{veronig2010}
+{\sc {Veronig}, A.M., {Muhr}, N., {Kienreich}, I.W., {Temmer}, M. \& {Vr{\v
+  s}nak}, B.} (2010). {First Observations of a Dome-shaped Large-scale Coronal
+  Extreme-ultraviolet Wave}. {\em \apjl\/}, {\bf 716}, L57--L62.
+
+\bibitem[{{Vourlidas} \& {Bemporad}(2012)}]{vourlidas2012}
+{\sc {Vourlidas}, A. \& {Bemporad}, A.} (2012). {A decade of coronagraphic and
+  spectroscopic studies of CME-driven shocks}. In J.~{Heerikhuisen}, G.~{Li},
+  N.~{Pogorelov} \& G.~{Zank}, eds., {\em American Institute of Physics
+  Conference Series\/}, vol. 1436 of {\em American Institute of Physics
+  Conference Series\/}, 279--284.
+
 \bibitem[{{Vourlidas} {\em et~al.\/}(2000){Vourlidas}, {Subramanian}, {Dere} \&
   {Howard}}]{vou00}
 {\sc {Vourlidas}, A., {Subramanian}, P., {Dere}, K.P. \& {Howard}, R.A.}
@@ -760,12 +936,26 @@
   Variability: From Core to Outer Frontiers\/}, vol. 506 of {\em ESA Special
   Publication\/}, 91--94.
 
+\bibitem[{{Vourlidas} {\em et~al.\/}(2003){Vourlidas}, {Wu}, {Wang},
+  {Subramanian} \& {Howard}}]{vourlidas2003}
+{\sc {Vourlidas}, A., {Wu}, S.T., {Wang}, A.H., {Subramanian}, P. \& {Howard},
+  R.A.} (2003). {Direct Detection of a Coronal Mass Ejection-Associated Shock
+  in Large Angle and Spectrometric Coronagraph Experiment White-Light Images}.
+  {\em \apj\/}, {\bf 598}, 1392--1402.
+
 \bibitem[{{Vourlidas} {\em et~al.\/}(2010){Vourlidas}, {Howard}, {Esfandiari},
   {Patsourakos}, {Yashiro} \& {Michalek}}]{vour2010}
 {\sc {Vourlidas}, A., {Howard}, R.A., {Esfandiari}, E., {Patsourakos}, S.,
   {Yashiro}, S. \& {Michalek}, G.} (2010). {Comprehensive Analysis of Coronal
   Mass Ejection Mass and Energy Properties Over a Full Solar Cycle}. {\em
   \apj\/}, {\bf 722}, 1522--1538.
+
+\bibitem[{{Vourlidas} {\em et~al.\/}(2013){Vourlidas}, {Lynch}, {Howard} \&
+  {Li}}]{vourlidas2013}
+{\sc {Vourlidas}, A., {Lynch}, B.J., {Howard}, R.A. \& {Li}, Y.} (2013). {How
+  Many CMEs Have Flux Ropes? Deciphering the Signatures of Shocks, Flux Ropes,
+  and Prominences in Coronagraph Observations of CMEs}. {\em \solphys\/}, {\bf
+  284}, 179--201.
 
 \bibitem[{{Vr{\v s}nak}(2006)}]{vrs06}
 {\sc {Vr{\v s}nak}, B.} (2006). {Forces governing coronal mass ejections}. {\em
@@ -799,6 +989,17 @@
   A.M., {Temmer}, M. \& {Ro{\v s}a}, D.} (2007). {Acceleration Phase of Coronal
   Mass Ejections: I. Temporal and Spatial Scales}. {\em \solphys\/}, {\bf 241},
   85--98.
+
+\bibitem[{{Wang}(2000)}]{wang2000}
+{\sc {Wang}, Y.M.} (2000). {EIT Waves and Fast-Mode Propagation in the Solar
+  Corona}. {\em \apjl\/}, {\bf 543}, L89--L93.
+
+\bibitem[{{Warmuth} {\em et~al.\/}(2004){Warmuth}, {Vr{\v s}nak},
+  {Magdaleni{\'c}}, {Hanslmeier} \& {Otruba}}]{warmuth2004b}
+{\sc {Warmuth}, A., {Vr{\v s}nak}, B., {Magdaleni{\'c}}, J., {Hanslmeier}, A.
+  \& {Otruba}, W.} (2004). {A multiwavelength study of solar flare waves. II.
+  Perturbation characteristics and physical interpretation}. {\em \aap\/}, {\bf
+  418}, 1117--1129.
 
 \bibitem[{{Webb} \& {Howard}(2012)}]{webb2012}
 {\sc {Webb}, D.F. \& {Howard}, T.A.} (2012). {Coronal Mass Ejections:
@@ -867,5 +1068,11 @@
 {\sc {Zlobec}, P., {Messerotti}, M., {Karlicky}, M. \& {Urbarz}, H.} (1993).
   {Fine structures in time profiles of type II bursts at frequencies above 200
   MHz}. {\em \solphys\/}, {\bf 144}, 373--384.
+
+\bibitem[{{Zlotnik} {\em et~al.\/}(1998){Zlotnik}, {Klassen}, {Klein}, {Aurass}
+  \& {Mann}}]{zlotnik1998}
+{\sc {Zlotnik}, E.Y., {Klassen}, A., {Klein}, K.L., {Aurass}, H. \& {Mann}, G.}
+  (1998). {Third harmonic plasma emission in solar type II radio bursts}. {\em
+  \aap\/}, {\bf 331}, 1087--1098.
 
 \end{thebibliography}

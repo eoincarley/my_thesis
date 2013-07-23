@@ -13,12 +13,13 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 150 of file mybib.bib
+Repeated entry---line 174 of file mybib.bib
  : @article{bein2011
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "byr10"
 Warning--I didn't find a database entry for "mano2003"
+Warning--I didn't find a database entry for "Schrij2008"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in bil66
 Warning--missing publisher in bil66
@@ -28,45 +29,45 @@ Warning--can't use both author and editor fields in nelson1985
 Warning--missing publisher in nelson1985
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 150 entries,
+You've used 183 entries,
             3018 wiz_defined-function locations,
-            1452 strings with 31441 characters,
-and the built_in function-call counts, 106378 in all, are:
-= -- 8524
-> -- 6323
-< -- 80
-+ -- 2209
-- -- 2056
-* -- 9297
-:= -- 16252
-add.period$ -- 446
-call.type$ -- 150
-change.case$ -- 1435
-chr.to.int$ -- 147
-cite$ -- 158
-duplicate$ -- 7023
-empty$ -- 6895
-format.name$ -- 2524
-if$ -- 21068
-int.to.chr$ -- 4
+            1620 strings with 38100 characters,
+and the built_in function-call counts, 130979 in all, are:
+= -- 10484
+> -- 7836
+< -- 93
++ -- 2734
+- -- 2549
+* -- 11502
+:= -- 19976
+add.period$ -- 545
+call.type$ -- 183
+change.case$ -- 1765
+chr.to.int$ -- 181
+cite$ -- 191
+duplicate$ -- 8630
+empty$ -- 8460
+format.name$ -- 3125
+if$ -- 25929
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 1588
-newline$ -- 454
-num.names$ -- 610
-pop$ -- 3273
+missing$ -- 1955
+newline$ -- 553
+num.names$ -- 744
+pop$ -- 4033
 preamble$ -- 1
-purify$ -- 1282
+purify$ -- 1577
 quote$ -- 0
-skip$ -- 2551
+skip$ -- 3127
 stack$ -- 0
-substring$ -- 4347
-swap$ -- 4095
-text.length$ -- 2
+substring$ -- 5371
+swap$ -- 5050
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1329
+type$ -- 1626
 warning$ -- 8
-while$ -- 601
+while$ -- 735
 width$ -- 0
-write$ -- 1645
+write$ -- 2009
 (There was 1 error message)
