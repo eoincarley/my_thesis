@@ -1,4 +1,4 @@
-\begin{thebibliography}{183}
+\begin{thebibliography}{197}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -125,6 +125,12 @@
 \bibitem[{{Cairns} \& {Robinson}(1987)}]{cairns1987}
 {\sc {Cairns}, I.H. \& {Robinson}, R.D.} (1987). {Herringbone bursts associated
   with type II solar radio emission}. {\em \solphys\/}, {\bf 111}, 365--383.
+
+\bibitem[{{Cairns} {\em et~al.\/}(2003){Cairns}, {Knock}, {Robinson} \&
+  {Kuncic}}]{cairns2003}
+{\sc {Cairns}, I.H., {Knock}, S.A., {Robinson}, P.A. \& {Kuncic}, Z.} (2003).
+  {Type II Solar Radio Bursts: Theory and Space Weather Implications}. {\em
+  \ssr\/}, {\bf 107}, 27--34.
 
 \bibitem[{{Cane} \& {Erickson}(2005)}]{cane2005}
 {\sc {Cane}, H.V. \& {Erickson}, W.C.} (2005). {Solar Type II Radio Bursts and
@@ -331,6 +337,11 @@
   Acceleration of a Coronal Mass Ejection in the Low Corona and Implications
   for Propagation}. {\em \apjl\/}, {\bf 588}, L53--L56.
 
+\bibitem[{{Ginzburg} \& {Zhelezniakov}(1958)}]{ginzburg1958}
+{\sc {Ginzburg}, V.L. \& {Zhelezniakov}, V.V.} (1958). {On the Possible
+  Mechanisms of Sporadic Solar Radio Emission (Radiation in an Isotropic
+  Plasma)}. {\em \sovast\/}, {\bf 2}, 653.
+
 \bibitem[{{Gold}(1962)}]{gold1962}
 {\sc {Gold}, T.} (1962). {Magnetic Storms}. {\em \ssr\/}, {\bf 1}, 100--114.
 
@@ -364,14 +375,28 @@
   A.I. \& {Ross}, C.L.} (1976). {The speeds of coronal mass ejection events}.
   {\em \solphys\/}, {\bf 48}, 389--397.
 
-\bibitem[{{Grechnev} {\em et~al.\/}(2011){Grechnev}, {Uralov}, {Chertok},
-  {Kuzmenko}, {Afanasyev}, {Meshalkina}, {Kalashnikov} \&
+\bibitem[{{Grechnev} {\em et~al.\/}(2011{\natexlab{a}}){Grechnev}, {Afanasyev},
+  {Uralov}, {Chertok}, {Eselevich}, {Eselevich}, {Rudenko} \&
+  {Kubo}}]{grechnev2011a}
+{\sc {Grechnev}, V.V., {Afanasyev}, A.N., {Uralov}, A.M., {Chertok}, I.M.,
+  {Eselevich}, M.V., {Eselevich}, V.G., {Rudenko}, G.V. \& {Kubo}, Y.}
+  (2011{\natexlab{a}}). {Coronal Shock Waves, EUV Waves, and Their Relation to
+  CMEs. III. Shock-Associated CME/EUV Wave in an Event with a Two-Component EUV
+  Transient}. {\em \solphys\/}, {\bf 273}, 461--477.
+
+\bibitem[{{Grechnev} {\em et~al.\/}(2011{\natexlab{b}}){Grechnev}, {Uralov},
+  {Chertok}, {Kuzmenko}, {Afanasyev}, {Meshalkina}, {Kalashnikov} \&
   {Kubo}}]{grechnev2011}
 {\sc {Grechnev}, V.V., {Uralov}, A.M., {Chertok}, I.M., {Kuzmenko}, I.V.,
   {Afanasyev}, A.N., {Meshalkina}, N.S., {Kalashnikov}, S.S. \& {Kubo}, Y.}
-  (2011). {Coronal Shock Waves, EUV Waves, and Their Relation to CMEs. I.
-  Reconciliation of ''EIT Waves'', Type II Radio Bursts, and Leading Edges of
-  CMEs}. {\em \solphys\/}, {\bf 273}, 433--460.
+  (2011{\natexlab{b}}). {Coronal Shock Waves, EUV Waves, and Their Relation to
+  CMEs. I. Reconciliation of ''EIT Waves'', Type II Radio Bursts, and Leading
+  Edges of CMEs}. {\em \solphys\/}, {\bf 273}, 433--460.
+
+\bibitem[{{Grognard}(1975)}]{grognard1975}
+{\sc {Grognard}, R.J.M.} (1975). {Deficiencies of the asymptotic solutions
+  commonly found in the quasilinear relaxation theory}. {\em Australian Journal
+  of Physics\/}, {\bf 28}, 731.
 
 \bibitem[{{Guo} \& {Giacalone}(2010)}]{guo2010}
 {\sc {Guo}, F. \& {Giacalone}, J.} (2010). {The Effect of Large-scale Magnetic
@@ -479,6 +504,19 @@
 {\sc {Kliem}, B. \& {T{\"o}r{\"o}k}, T.} (2006). {Torus Instability}. {\em
   Physical Review Letters\/}, {\bf 96}, 255002--+.
 
+\bibitem[{{Knock} {\em et~al.\/}(2001){Knock}, {Cairns}, {Robinson} \&
+  {Kuncic}}]{knock2001}
+{\sc {Knock}, S.A., {Cairns}, I.H., {Robinson}, P.A. \& {Kuncic}, Z.} (2001).
+  {Theory of type II radio emission from the foreshock of an interplanetary
+  shock}. {\em \jgr\/}, {\bf 106}, 25041--25052.
+
+\bibitem[{{Knock} {\em et~al.\/}(2003){Knock}, {Cairns}, {Robinson} \&
+  {Kuncic}}]{knock2003}
+{\sc {Knock}, S.A., {Cairns}, I.H., {Robinson}, P.A. \& {Kuncic}, Z.} (2003).
+  {Theoretically predicted properties of type II radio emission from an
+  interplanetary foreshock}. {\em Journal of Geophysical Research (Space
+  Physics)\/}, {\bf 108}, 1126.
+
 \bibitem[{{Kosugi}(1976)}]{kosugi1976}
 {\sc {Kosugi}, T.} (1976). {Type II-IV radio bursts and compact and diffuse
   white-light clouds in the outer corona of December 14, 1971}. {\em
@@ -525,6 +563,12 @@
 \bibitem[{{Lin} \& {Forbes}(2000)}]{lin2000}
 {\sc {Lin}, J. \& {Forbes}, T.G.} (2000). {Effects of reconnection on the
   coronal mass ejection process}. {\em \jgr\/}, {\bf 105}, 2375--2392.
+
+\bibitem[{{Lin} {\em et~al.\/}(1986){Lin}, {Levedahl}, {Lotko}, {Gurnett} \&
+  {Scarf}}]{lin1986}
+{\sc {Lin}, R.P., {Levedahl}, W.K., {Lotko}, W., {Gurnett}, D.A. \& {Scarf},
+  F.L.} (1986). {Evidence for nonlinear wave-wave interactions in solar type
+  III radio bursts}. {\em \apj\/}, {\bf 308}, 954--965.
 
 \bibitem[{{Lindemann}(1919)}]{lindemann1919}
 {\sc {Lindemann}, F.} (1919). {Note on the Theory of Magnetic Storms.} {\em
@@ -766,6 +810,25 @@
   {Automated LASCO CME Catalog for Solar Cycle 23: Are CMEs Scale Invariant?}
   {\em \apj\/}, {\bf 691}, 1222--1234.
 
+\bibitem[{{Robinson}(1992)}]{robinson1992}
+{\sc {Robinson}, P.A.} (1992). {Clumpy Langmuir waves in type III radio
+  sources}. {\em \solphys\/}, {\bf 139}, 147--163.
+
+\bibitem[{{Robinson} \& {Cairns}(1993)}]{robinson1993a}
+{\sc {Robinson}, P.A. \& {Cairns}, I.H.} (1993). {Stochastic Growth Theory of
+  Type III Solar Radio Emission}. {\em \apj\/}, {\bf 418}, 506.
+
+\bibitem[{{Robinson} \& {Cairns}(1998)}]{robinson1998}
+{\sc {Robinson}, P.A. \& {Cairns}, I.H.} (1998). {Fundamental and Harmonic
+  Emission in Type III Solar Radio Bursts - II. Dominant Modes and Dynamic
+  Spectra}. {\em \solphys\/}, {\bf 181}, 395--428.
+
+\bibitem[{{Robinson} {\em et~al.\/}(1993){Robinson}, {Willes} \&
+  {Cairns}}]{robinson1993}
+{\sc {Robinson}, P.A., {Willes}, A.J. \& {Cairns}, I.H.} (1993). {Dynamics of
+  Langmuir and ion-sound waves in type III solar radio sources}. {\em \apj\/},
+  {\bf 408}, 720--734.
+
 \bibitem[{{Robinson} {\em et~al.\/}(1994){Robinson}, {Cairns} \&
   {Willes}}]{robinson1994}
 {\sc {Robinson}, P.A., {Cairns}, I.H. \& {Willes}, A.J.} (1994). {Dynamics and
@@ -781,6 +844,12 @@
 {\sc {Russell}, C.T. \& {Mulligan}, T.} (2002). {On the magnetosheath
   thicknesses of interplanetary coronal mass ejections}. {\em \planss\/}, {\bf
   50}, 527--534.
+
+\bibitem[{{Schmidt} \& {Cairns}(2012)}]{schmidt2012}
+{\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012). {Type II radio bursts: 1. New
+  entirely analytic formalism for the electron beams, Langmuir waves, and radio
+  emission}. {\em Journal of Geophysical Research (Space Physics)\/}, {\bf
+  117}, 4106.
 
 \bibitem[{{Schrijver} {\em et~al.\/}(2008){Schrijver}, {Elmore}, {Kliem},
   {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
@@ -817,6 +886,10 @@
   magnetohydrodynamic waves along curved paths in the solar corona}. {\em
   Proceedings of the Astronomical Society of Australia\/}, {\bf 1}, 305.
 
+\bibitem[{{Smith} \& {Sime}(1979)}]{smith1979}
+{\sc {Smith}, D.F. \& {Sime}, D.} (1979). {Origin of plasma-wave clumping in
+  type III solar radio burst sources}. {\em \apj\/}, {\bf 233}, 998--1004.
+
 \bibitem[{{Spreiter} {\em et~al.\/}(1966){Spreiter}, {Summers} \&
   {Alksne}}]{spreiter1966}
 {\sc {Spreiter}, J.R., {Summers}, A.L. \& {Alksne}, A.Y.} (1966).
@@ -834,6 +907,10 @@
 {\sc {Stewart}, R.T., {McCabe}, M.K., {Koomen}, M.J., {Hansen}, R.T. \& {Dulk},
   G.A.} (1974). {Observations of Coronal Disturbances from 1 to 9 R$_{sun}$. I:
   First Event of 1973, January 11}. {\em \solphys\/}, {\bf 36}, 203--217.
+
+\bibitem[{{Sturrock}(1964)}]{sturrock1964}
+{\sc {Sturrock}, P.A.} (1964). {Type III Solar Radio Bursts}. {\em NASA Special
+  Publication\/}, {\bf 50}, 357.
 
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field

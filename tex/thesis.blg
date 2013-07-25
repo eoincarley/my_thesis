@@ -19,6 +19,9 @@ Repeated entry---line 174 of file mybib.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "byr10"
 Warning--I didn't find a database entry for "mano2003"
+Warning--I didn't find a database entry for "aschbook"
+Warning--I didn't find a database entry for "gol2011"
+Warning--I didn't find a database entry for "melrose1989"
 Warning--I didn't find a database entry for "Schrij2008"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in bil66
@@ -29,45 +32,45 @@ Warning--can't use both author and editor fields in nelson1985
 Warning--missing publisher in nelson1985
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 183 entries,
+You've used 197 entries,
             3018 wiz_defined-function locations,
-            1620 strings with 38100 characters,
-and the built_in function-call counts, 130979 in all, are:
-= -- 10484
-> -- 7836
-< -- 93
-+ -- 2734
-- -- 2549
-* -- 11502
-:= -- 19976
-add.period$ -- 545
-call.type$ -- 183
-change.case$ -- 1765
-chr.to.int$ -- 181
-cite$ -- 191
-duplicate$ -- 8630
-empty$ -- 8460
-format.name$ -- 3125
-if$ -- 25929
-int.to.chr$ -- 3
+            1685 strings with 40186 characters,
+and the built_in function-call counts, 139466 in all, are:
+= -- 11205
+> -- 8219
+< -- 101
++ -- 2872
+- -- 2672
+* -- 12227
+:= -- 21278
+add.period$ -- 587
+call.type$ -- 197
+change.case$ -- 1876
+chr.to.int$ -- 194
+cite$ -- 205
+duplicate$ -- 9236
+empty$ -- 9068
+format.name$ -- 3294
+if$ -- 27617
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1955
-newline$ -- 553
-num.names$ -- 744
-pop$ -- 4033
+missing$ -- 2080
+newline$ -- 595
+num.names$ -- 800
+pop$ -- 4265
 preamble$ -- 1
-purify$ -- 1577
+purify$ -- 1674
 quote$ -- 0
-skip$ -- 3127
+skip$ -- 3333
 stack$ -- 0
-substring$ -- 5371
-swap$ -- 5050
+substring$ -- 5762
+swap$ -- 5386
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1626
+type$ -- 1752
 warning$ -- 8
-while$ -- 735
+while$ -- 791
 width$ -- 0
-write$ -- 2009
+write$ -- 2163
 (There was 1 error message)
