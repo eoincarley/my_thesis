@@ -19,58 +19,59 @@ Repeated entry---line 174 of file mybib.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "byr10"
 Warning--I didn't find a database entry for "mano2003"
-Warning--I didn't find a database entry for "aschbook"
-Warning--I didn't find a database entry for "gol2011"
-Warning--I didn't find a database entry for "melrose1989"
 Warning--I didn't find a database entry for "Schrij2008"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in bil66
 Warning--missing publisher in bil66
 Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
+Warning--can't use both author and editor fields in inan2011
+Warning--missing publisher in inan2011
+Warning--can't use both author and editor fields in melrose1989
+Warning--missing publisher in melrose1989
 Warning--can't use both author and editor fields in nelson1985
 Warning--missing publisher in nelson1985
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 197 entries,
+You've used 199 entries,
             3018 wiz_defined-function locations,
-            1685 strings with 40186 characters,
-and the built_in function-call counts, 139466 in all, are:
-= -- 11205
-> -- 8219
-< -- 101
-+ -- 2872
-- -- 2672
-* -- 12227
-:= -- 21278
-add.period$ -- 587
-call.type$ -- 197
-change.case$ -- 1876
-chr.to.int$ -- 194
-cite$ -- 205
-duplicate$ -- 9236
-empty$ -- 9068
-format.name$ -- 3294
-if$ -- 27617
+            1690 strings with 40496 characters,
+and the built_in function-call counts, 140312 in all, are:
+= -- 11271
+> -- 8248
+< -- 103
++ -- 2883
+- -- 2681
+* -- 12293
+:= -- 21417
+add.period$ -- 591
+call.type$ -- 199
+change.case$ -- 1887
+chr.to.int$ -- 196
+cite$ -- 211
+duplicate$ -- 9298
+empty$ -- 9137
+format.name$ -- 3309
+if$ -- 27781
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 2080
-newline$ -- 595
-num.names$ -- 800
-pop$ -- 4265
+missing$ -- 2093
+newline$ -- 601
+num.names$ -- 808
+pop$ -- 4293
 preamble$ -- 1
-purify$ -- 1674
+purify$ -- 1685
 quote$ -- 0
-skip$ -- 3333
+skip$ -- 3364
 stack$ -- 0
-substring$ -- 5762
-swap$ -- 5386
+substring$ -- 5784
+swap$ -- 5416
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1752
-warning$ -- 8
-while$ -- 791
+type$ -- 1764
+warning$ -- 12
+while$ -- 797
 width$ -- 0
-write$ -- 2163
+write$ -- 2181
 (There was 1 error message)

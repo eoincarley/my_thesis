@@ -1,4 +1,4 @@
-\begin{thebibliography}{197}
+\begin{thebibliography}{199}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -457,6 +457,10 @@
 {\sc {Illing}, R.M.E. \& {Hundhausen}, A.J.} (1985). {Observation of a coronal
   transient from 1.2 to 6 solar radii}. {\em \jgr\/}, {\bf 90}, 275--282.
 
+\bibitem[{{Inan} \& {Golkowski}(2011)}]{inan2011}
+{\sc {Inan}, U. \& {Golkowski}, M.} (2011). {\em {Principles of Plasma Physics
+  for Engineers and Scientists}\/}.
+
 \bibitem[{{Kabin}(2001)}]{kabin2001}
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
   Journal of Plasma Physics\/}, {\bf 66}, 259--274.
@@ -688,6 +692,10 @@
 \bibitem[{{Melrose}(1986)}]{melrose1986}
 {\sc {Melrose}, D.B.} (1986). {\em {Instabilities in Space and Laboratory
   Plasmas}\/}. Cambridge University Press.
+
+\bibitem[{{Melrose}(1989)}]{melrose1989}
+{\sc {Melrose}, D.B.} (1989). {\em {Instabilities in Space and Laboratory
+  Plasmas}\/}.
 
 \bibitem[{{Mierla} {\em et~al.\/}(2009){Mierla}, {Inhester}, {Marqu{\'e}},
   {Rodriguez}, {Gissot}, {Zhukov}, {Berghmans} \& {Davila}}]{mierla2009}
