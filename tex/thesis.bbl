@@ -1,4 +1,4 @@
-\begin{thebibliography}{199}
+\begin{thebibliography}{205}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -176,6 +176,10 @@
   P.W.} (2006). {The Flux-Rope Scaling of the Acceleration of Coronal Mass
   Ejections and Eruptive Prominences}. {\em \apj\/}, {\bf 649}, 452--463.
 
+\bibitem[{{Chen}(2011)}]{chen2011}
+{\sc {Chen}, P.F.} (2011). {Coronal Mass Ejections: Models and Their
+  Observational Basis}. {\em Living Reviews in Solar Physics\/}, {\bf 8}, 1.
+
 \bibitem[{{Chen} {\em et~al.\/}(2002){Chen}, {Wu}, {Shibata} \&
   {Fang}}]{chen2002}
 {\sc {Chen}, P.F., {Wu}, S.T., {Shibata}, K. \& {Fang}, C.} (2002). {Evidence
@@ -248,6 +252,10 @@
   B.T.} (2012). {Global Energetics of Thirty-eight Large Solar Eruptive
   Events}. {\em \apj\/}, {\bf 759}, 71.
 
+\bibitem[{{Fan}(2005)}]{fan2005}
+{\sc {Fan}, Y.} (2005). {Coronal Mass Ejections as Loss of Confinement of
+  Kinked Magnetic Flux Ropes}. {\em \apj\/}, {\bf 630}, 543--551.
+
 \bibitem[{{Fan}(2009)}]{fan2009}
 {\sc {Fan}, Y.} (2009). {Magnetic Fields in the Solar Convection Zone}. {\em
   Living Reviews in Solar Physics\/}, {\bf 6}, 4.
@@ -267,7 +275,7 @@
 
 \bibitem[{{Forbes} \& {Priest}(1995)}]{forbes1995}
 {\sc {Forbes}, T.G. \& {Priest}, E.R.} (1995). {Photospheric Magnetic Field
-  Evolution and Eruptive Flares}. {\em \apj\/}, {\bf 446}, 377--+.
+  Evolution and Eruptive Flares}. {\em \apj\/}, {\bf 446}, 377.
 
 \bibitem[{{Forbush}(1946)}]{forbush1946}
 {\sc {Forbush}, S.E.} (1946). {Three Unusual Cosmic-Ray Increases Possibly Due
@@ -368,6 +376,10 @@
 {\sc {Gopalswamy}, N., {Nitta}, N., {Akiyama}, S., {M{\"a}kel{\"a}}, P. \&
   {Yashiro}, S.} (2012). {Coronal Magnetic Field Measurement from EUV Images
   Made by the Solar Dynamics Observatory}. {\em \apj\/}, {\bf 744}, 72.
+
+\bibitem[{{Gosling}(1993)}]{gosling1993}
+{\sc {Gosling}, J.T.} (1993). {The solar flare myth}. {\em \jgr\/}, {\bf 98},
+  18937--18950.
 
 \bibitem[{{Gosling} {\em et~al.\/}(1976){Gosling}, {Hildner}, {MacQueen},
   {Munro}, {Poland} \& {Ross}}]{gosling1976}
@@ -853,6 +865,10 @@
   thicknesses of interplanetary coronal mass ejections}. {\em \planss\/}, {\bf
   50}, 527--534.
 
+\bibitem[{{Rust}(1972)}]{rust1972}
+{\sc {Rust}, D.M.} (1972). {Flares and Changing Magnetic Fields}. {\em
+  \solphys\/}, {\bf 25}, 141--157.
+
 \bibitem[{{Schmidt} \& {Cairns}(2012)}]{schmidt2012}
 {\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012). {Type II radio bursts: 1. New
   entirely analytic formalism for the electron beams, Langmuir waves, and radio
@@ -903,6 +919,12 @@
 {\sc {Spreiter}, J.R., {Summers}, A.L. \& {Alksne}, A.Y.} (1966).
   {Hydromagnetic flow around the magnetosphere}. {\em \planss\/}, {\bf 14},
   223.
+
+\bibitem[{{Steele} {\em et~al.\/}(1989){Steele}, {Hood}, {Priest} \&
+  {Amari}}]{steele1989}
+{\sc {Steele}, C.D.C., {Hood}, A.W., {Priest}, E.R. \& {Amari}, T.} (1989).
+  {Non-equilibrium of a cylindrical magnetic arcade}. {\em \solphys\/}, {\bf
+  123}, 127--141.
 
 \bibitem[{{Stewart} \& {Magun}(1980)}]{stewart1980}
 {\sc {Stewart}, R.T. \& {Magun}, A.} (1980). {Radio evidence for electron
@@ -1117,6 +1139,10 @@
 \bibitem[{{Wolfenstein}(1978)}]{wolfenstein1978}
 {\sc {Wolfenstein}, L.} (1978). {Neutrino oscillations in matter}. {\em
   Physical Review Letters\/}, {\bf 17}, 2369--2374.
+
+\bibitem[{{Wolfson} \& {Saran}(1998)}]{wolfson1998}
+{\sc {Wolfson}, R. \& {Saran}, S.} (1998). {Energetics of Coronal Mass
+  Ejections: Role of the Streamer Cavity}. {\em \apj\/}, {\bf 499}, 496.
 
 \bibitem[{{Yashiro} {\em et~al.\/}(2004){Yashiro}, {Gopalswamy}, {Michalek},
   {St.~Cyr}, {Plunkett}, {Rich} \& {Howard}}]{yashiro2004}
