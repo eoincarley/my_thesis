@@ -41,45 +41,45 @@ Warning--can't use both author and editor fields in nelson1985
 Warning--missing publisher in nelson1985
 Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
-You've used 205 entries,
+You've used 206 entries,
             3018 wiz_defined-function locations,
-            1715 strings with 41050 characters,
-and the built_in function-call counts, 143422 in all, are:
-= -- 11545
-> -- 8344
-< -- 108
-+ -- 2919
-- -- 2711
-* -- 12531
-:= -- 21907
-add.period$ -- 609
-call.type$ -- 205
-change.case$ -- 1927
-chr.to.int$ -- 202
-cite$ -- 217
-duplicate$ -- 9534
-empty$ -- 9387
-format.name$ -- 3351
-if$ -- 28407
+            1720 strings with 41182 characters,
+and the built_in function-call counts, 143841 in all, are:
+= -- 11576
+> -- 8355
+< -- 110
++ -- 2923
+- -- 2714
+* -- 12564
+:= -- 21972
+add.period$ -- 611
+call.type$ -- 206
+change.case$ -- 1932
+chr.to.int$ -- 203
+cite$ -- 218
+duplicate$ -- 9570
+empty$ -- 9425
+format.name$ -- 3355
+if$ -- 28489
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 2139
-newline$ -- 619
-num.names$ -- 832
-pop$ -- 4367
+missing$ -- 2145
+newline$ -- 622
+num.names$ -- 837
+pop$ -- 4381
 preamble$ -- 1
-purify$ -- 1719
+purify$ -- 1724
 quote$ -- 0
-skip$ -- 3446
+skip$ -- 3460
 stack$ -- 0
-substring$ -- 5952
-swap$ -- 5537
-text.length$ -- 3
+substring$ -- 5963
+swap$ -- 5556
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1818
+type$ -- 1827
 warning$ -- 12
-while$ -- 821
+while$ -- 824
 width$ -- 0
-write$ -- 2247
+write$ -- 2257
 (There were 3 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{205}
+\begin{thebibliography}{206}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -352,6 +352,11 @@
 
 \bibitem[{{Gold}(1962)}]{gold1962}
 {\sc {Gold}, T.} (1962). {Magnetic Storms}. {\em \ssr\/}, {\bf 1}, 100--114.
+
+\bibitem[{{Goossens}(2003)}]{goossens2003}
+{\sc {Goossens}, M.}, ed. (2003). {\em {An introduction to plasma astrophysics
+  and magnetohydrodynamics}\/}, vol. 294 of {\em Astrophysics and Space Science
+  Library\/}.
 
 \bibitem[{{Gopalswamy} \& {Kundu}(1992)}]{gopalswamy1992}
 {\sc {Gopalswamy}, N. \& {Kundu}, M.R.} (1992). {Estimation of the mass of a

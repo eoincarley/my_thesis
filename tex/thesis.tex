@@ -9,7 +9,7 @@
 %: Style file for Latex
 % Most style definitions are in the external file PhDthesisPSnPDF.
 % In this template package, it can be found in ./Latex/Classes/
-\documentclass[a4paper, oneside,12pt]{Latex/Classes/PhDthesisPSnPDF}
+\documentclass[a4paper, oneside, 12pt]{Latex/Classes/PhDthesisPSnPDF}
 
 %Change "oneside" to "twoside" for final submission-grade thesis after viva/corrections
 
@@ -33,6 +33,8 @@
 \usepackage{epstopdf}
 \usepackage{fancyhdr}
 \usepackage{amsmath}
+\usepackage{float}
+\usepackage{afterpage}
 
 %Added by SM 13 Sep 2011 to get backref to read ''Cited on page''
    \usepackage{Latex/StyleFiles/backrefx}
@@ -130,11 +132,11 @@
 %: --------------------------------------------------------------
 %:                  FRONT MATTER: dedications, abstract,..
 % --------------------------------------------------------------
-
 \usepackage{setspace}
-\singlespacing
+
 
 \begin{document}
+
 
 \renewcommand\baselinestretch{1.2}
 \baselineskip=18pt plus1pt
@@ -174,6 +176,7 @@ for the degree of \emph{Philosophi\ae\,Doctor (PhD)} %Doctor of Philosophy
 \vspace*{\fill}
 \begin{flushright}
 {\authorfont {Eoin P. Carley} \\[1mm]
+Supervisor: Dr. Peter T. Gallagher\\[.5mm]
 {\othertitlefont {Trinity College Dublin}, December 2013}\\[.5mm]
 \rule{0.9\textwidth}{0.5mm}\\[4mm]
 
@@ -191,7 +194,6 @@ Trinity College\\
  \end{flushright}
 
 %: ----------------------- tie in front matter ------------------------
-
 
 \frontmatter
 
@@ -222,8 +224,15 @@ Trinity College\\
 % --------------------------------------------------------------
 
 \mainmatter
+\topmargin = 3mm
+\marginparwidth = 35pt
+\textheight = 630pt
+\textwidth = 500pt
+\footskip = 10mm
+
 
 \pagestyle{fancy}
+\doublespacing
 \include{1/introduction}	
 \include{2/MHD}
 \include{3/Instrumentation}
