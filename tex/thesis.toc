@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vii}{chapter*.1}
 \contentsline {chapter}{List of Figures}{xi}{section*.4}
-\contentsline {chapter}{List of Tables}{xxii}{section*.6}
+\contentsline {chapter}{List of Tables}{xiii}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Sun}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Solar Interior}{3}{subsection.1.1.1}
@@ -34,8 +34,8 @@
 \contentsline {subsection}{\numberline {2.3.1}Alfv\'{e}n Speed in the Corona}{74}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}MHD Shocks}{76}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Shock Particle Acceleration}{80}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Wave-Particle Interaction}{84}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Three-Wave Interaction and Plasma Emission}{87}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.4}Wave-Particle Interaction}{85}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Three-Wave Interaction and Plasma Emission}{88}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Frequency Drift of Radio Bursts}{92}{subsection.2.3.6}
 \contentsline {chapter}{\numberline {3}Observation and Instrumentation}{95}{chapter.3}
 \contentsline {section}{\numberline {3.1}Thompson Scattering Theory}{95}{section.3.1}

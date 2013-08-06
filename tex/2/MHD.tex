@@ -128,7 +128,7 @@ As an order of magnetiude estimate for the derivatives we replace $\partial/\par
 \tau_D = \frac{L^2}{\eta}
 \label{eqn:diff_time}
 \end{equation}
-The typical length scales for a coronal active region are $10^7$\,m, and assuming a Spitzer magnetic diffusivity $\eta = 10^9T^{-3/2} = 1$\,m$^2$\,s$^{-1}$, which gives a diffusive timescale of 3.1 million years.
+The typical length scales for a coronal active region are $10^7$\,m, and assuming a Spitzer magnetic diffusivity $\eta = 10^9T^{-3/2} = 1$\,m$^2$\,s$^{-1}$ \citep{spitzer1962}, which gives a diffusive timescale of 3.1 million years.
 Given that active regions evolve quasi-statically over weeks and evolve dynamical over timescales of minutes during a flares and CMEs, there must be an evolution process other than a large scale diffusion in the solar atmosphere. Equation~\ref{eqn:diff_time} indicates that there may be two different ways in which the evolution of magnetic fields may occur over a much shorter times scale: either typical length scale $L$ is much shorter, or magnetic diffusivity $\eta$ is much larger.
 
 Magnetic reconnection is the dynamical process that describes the short timescale evolution of magnetic fields in the corona (and other astrophysical and laboratory systems). It involves a change in magnetic topology that converts magnetic energy in kinetic and thermal energy of the bulk plasma and accelerates particles to high speeds. Magnetic reconnection typically occurs in a boundary between two oppositely directed magnetic field regions. At the very center of the boundary layer the magnetic field must go to zero to account for a continuous change from positive to negative magnetic field. The total pressure balance in the boundary layer and on either side is 
@@ -141,11 +141,11 @@ where $p_{1,2}$ and $B_{1,2}$ represent thermal and magnetic pressure on either 
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.7]{reconnection.pdf}
-\caption{The reconnection models of Swee-Parker (top) and Petscheck (bottom). The Sweet-Parker mechanism employs a long and thin ($L>>\delta$) current sheet as the diffusion region. It produces reconnection rates that are much too slow to describe flare and CME energy dissipations rates. Petscheck proposed a similar model but with a diffusion region that is much smaller, with $L\approx\delta$, resulting in reconnection rates that are consistent with flare and CME timescales. The dissipation of energy in this model is partly controlled by the presence of two slow-mode shocks which separate the sub-Alfv\'{e}nic inflow region and the super-Alfv\'{e}nic outflow region.}
+\caption[Sweet-Parker and Petscheck reconnection models]{The reconnection models of Swee-Parker (top) and Petscheck (bottom). The Sweet-Parker mechanism employs a long and thin ($L>>\delta$) current sheet as the diffusion region. It produces reconnection rates that are much too slow to describe flare and CME energy dissipations rates. Petscheck proposed a similar model but with a diffusion region that is much smaller, with $L\approx\delta$, resulting in reconnection rates that are consistent with flare and CME timescales. The dissipation of energy in this model is partly controlled by the presence of two slow-mode shocks which separate the sub-Alfv\'{e}nic inflow region and the super-Alfv\'{e}nic outflow region \citep{asch2004}.}
 \label{fig:recconection}
 \end{center}
 \end{figure}
-The existence of inflows into the neutral layer at right angles to the magnetic field creates an electric field in this later that is perpendicular to the inflow plane. This creates a current in this boundary layer, hence this boundary layer is often called a current sheet. The diffusion of magnetic fields occurs within this current sheet. Sweet and Parker were the first devise a mechanism by which magnetic reconnection occurs in such a current sheet. Although no complete analytical theory exists for the process, the MHD conservation equations may be applied to derive the reconnection rate. The application of resistive MHD only applies within the thin current sheet, while ideal MHD applies everywhere else.
+The existence of inflows into the neutral layer at right angles to the magnetic field creates an electric field in this later that is perpendicular to the inflow plane. This creates a current in this boundary layer, hence this boundary layer is often called a current sheet. The diffusion of magnetic fields occurs within this current sheet. Sweet and Parker were the first devise a mechanism by which magnetic reconnection occurs in such a current sheet \cite{sweet1958, parker1963}. Although no complete analytical theory exists for the process, the MHD conservation equations may be applied to derive the reconnection rate. The application of resistive MHD only applies within the thin current sheet, while ideal MHD applies everywhere else.
 
 The Sweet-Parker reconnection model consists of a current sheet (diffusion region) that is much longer than it is wide i.e., $L>>\delta$ where is current sheet half-length and $\delta$ is current sheet half-thickness. The reconnection rate depends on in the ratio of the inflow speed $v_{in}$ to $v_{out}$ in the form of the Mach number
 \begin{equation}
@@ -153,15 +153,15 @@ M = \frac{v_{in}}{v_{out}} = \frac{1}{\sqrt{S}}
 \end{equation}
 where $S=v_AL/\eta$ is the Lundquist number (equivalent to the magnetic Reynold's number at the Alfv\'{e}n speed. The rate of reconnection depends on the length scale and magnetic diffusivity in the current sheet. Despite the fact that the Sweet-Parker mechanism provides a rate of magnetic energy dissipation that is faster than the global process, it is much too slow to explain the process of magnetic energy release in solar flares. The Sweet-Parker model is known as slow reconnection. PUT IN SOME NUMBERS
 
-To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $L\approx\delta$. With this smaller diffusion region, the boundary between inflow and outflow regions are separated by slow mode magnetoacoustic shocks. Alongside the diffusion region, these shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Again, no analytical solution to the model exists but Ptescheck found that when the diffusion regions is allowed to be small, the recconection rate is given as
+To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $L\approx\delta$ \citep{petschek1964} . With this smaller diffusion region, the boundary between inflow and outflow regions are separated by slow mode magnetoacoustic shocks. Alongside the diffusion region, these shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Again, no analytical solution to the model exists but Petscheck found that when the diffusion regions is allowed to be small, the reconnection rate is given as
 \begin{equation}
 M \approx \frac{\pi}{8\,\mathrm{ln}(S)}
 \end{equation}
-This gives a much faster reconnection rate of X (hence it is known as fast reconnection), which is comparable to solar flares. When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as
+This gives a much faster reconnection rate of X (hence it is known as fast reconnection), which is comparable to solar flares. When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as \citep{priest1986}
 \begin{equation}
 \bigg(\frac{M_e}{M_e}\bigg)^2 \approx \frac{4M_e(1-b)}{\pi}\bigg[ 0.834 -\mathrm{ln \, tan}\bigg( \frac {4S\sqrt{M_eM_i}} {\pi}  \bigg)^{-1}\bigg]
 \end{equation}
-This contains the Sweet-Parker, the Petscheck ($b=0$) and Sonnerup ($b=1$) reconnection rates.
+This contains the Sweet-Parker, the Petscheck ($b=0$) and Sonnerup \citep{sonnerup1970}($b=1$) reconnection rates.
 
 %While these solutions show that 2D reconnection may be explained well by MHD, describing 3D reconnection remains big theoretical and computational challenge, and remains at the forefront of reconnection theory research. Both 
 2D reconnection, an the more complicated 3D models, play a role in many theoretical models describing the eruption of coronal mass ejections and flares. Although some CME models have no need for reconnection to occur, there is a growing consensus that it is an integral part of the solar eruptive process.
@@ -180,7 +180,7 @@ The main goal of every model is to induce a loss of equilibrium of the structure
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.4, trim=1cm 1cm 0cm 1.5cm]{images/catastrophe}
-\caption{The catastrophe model of \citep{forbes1995}. The model consists of a 2D pre-existing flux rope with foot points rooted in the photosphere. The fluxrope is driven toward instability by motions of the photospheric footpoints, in this case the distance between the footpoints $\lambda$ decreases slowly (timescales much longer than the Alfv\'{e}n crossing time $\tau=L/v_A$). As the foot points converge the fluxrope initially contracts indicated by a decreasing height in panel (a). Eventually this convergence brings the system to critical point where magnetic pressure outwards dominates inward magnetic tension. The system rises, reaches a new equilibrium position, and forms a current sheet. The evolution of the system after it reaches this new equilibrium largely depends on whether or not magnetic reconnection occurs in the sheet. the rate of reconnection may also bring about different evolutions in kinematics \citep{priest2000}.}
+\caption[The catastrophe CME model]{The catastrophe model of \citep{forbes1995}. The model consists of a 2D pre-existing flux rope with foot points rooted in the photosphere. The fluxrope is driven toward instability by motions of the photospheric footpoints, in this case the distance between the footpoints $\lambda$ decreases slowly (timescales much longer than the Alfv\'{e}n crossing time $\tau=L/v_A$). As the foot points converge the fluxrope initially contracts indicated by a decreasing height in panel (a). Eventually this convergence brings the system to critical point where magnetic pressure outwards dominates inward magnetic tension. The system rises, reaches a new equilibrium position, and forms a current sheet. The evolution of the system after it reaches this new equilibrium largely depends on whether or not magnetic reconnection occurs in the sheet. the rate of reconnection may also bring about different evolutions in kinematics \citep{priest2000}.}
 \label{fig:catastrophe}
 \end{center}
 \end{figure}
@@ -215,7 +215,7 @@ The magnetic breakout model was first proposed by \citep{antiochos1999} and invo
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.45, trim=0cm 0cm 0cm 1cm]{images/lynch_breakout}
-\caption{The breakout model, consisting of a quadrupolar flux system in which the central flux (blue) is flanked by to side lobe flux systems (green), with the entire system kept in stability by the tension of the overlying red field. Shearing and/or twisting on the underlying flux causes it to grow slowly. Eventually a current sheet forms at the magnetic null above the central flux, causing reconnection. This reconnection transfers overlying field to the side-lobes, effectively creating a conduit for the central flux to escape as a CME \citep{lynch2008}.}
+\caption[The breakout CME model]{The breakout model, consisting of a quadrupolar flux system in which the central flux (blue) is flanked by to side lobe flux systems (green), with the entire system kept in stability by the tension of the overlying red field. Shearing and/or twisting on the underlying flux causes it to grow slowly. Eventually a current sheet forms at the magnetic null above the central flux, causing reconnection. This reconnection transfers overlying field to the side-lobes, effectively creating a conduit for the central flux to escape as a CME \citep{lynch2008}.}
 \label{fig:breakout_model}
 \end{center}
 \end{figure}
@@ -231,7 +231,7 @@ The toroidal instability model incorporates a pre-existing flux rope structure t
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.4, trim=0cm 1cm 0cm 1cm]{images/chen_model}
-\caption{The flux rope model of \citet{chen1989}, used to to study the toroidal instability of a twisted flux system in the corona.}
+\caption[The toroidal instability CME model]{The flux rope model of \citet{chen1989}, used to to study the toroidal instability of a twisted flux system in the corona.}
 \label{fig:chen_model}
 \end{center}
 \end{figure}
@@ -255,7 +255,7 @@ where $B_{0}$ is the unperturbed (equilibrium) magnetic field, $\mu_{0}$ is the 
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.25, trim=0cm 2cm 0cm 2cm]{alfven_speed.png}
-\caption{Alfv\'{e}n speed of the corona as a function of heliocentric distance. The dotted line is the quite sun, with only the Sun's global dipole field. The solid line is the Alfv\'{e}n speed calculated from a combination of te global dipole field and a smaller active region dipole field oriented parallel to the global dipole. The dashed line is the the speed when the active region dipole is anti-parallel to the global field. The two profiles from the active region show a distinct minimum in the coronal Alfv\'{e}n speed at $\sim1.5\,R_{\odot}$}
+\caption[Model of the Aflv\'{e}n speed as a function of height in the corona]{Alfv\'{e}n speed of the corona as a function of heliocentric distance. The dotted line is the quite sun, with only the Sun's global dipole field. The solid line is the Alfv\'{e}n speed calculated from a combination of te global dipole field and a smaller active region dipole field oriented parallel to the global dipole. The dashed line is the the speed when the active region dipole is anti-parallel to the global field. The two profiles from the active region show a distinct minimum in the coronal Alfv\'{e}n speed at $\sim1.5\,R_{\odot}$}
 \label{fig:alfven_speed}
 \end{center}
 \end{figure}
@@ -270,7 +270,7 @@ When the gas is ionized and a magnetic field is present, the jump conditions mus
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.5, angle=0]{images/shock_pic}
-\caption{Orientation of magnetic field and velocity field with respect to shock plane, in the rest frame of the shock. Shock normal in this case would be along the $-x$ direction i.e., into upstream region 1. \citep{fitz}}
+\caption[MHD shock framework]{Orientation of magnetic field and velocity field with respect to shock plane, in the rest frame of the shock. Shock normal in this case would be along the $-x$ direction i.e., into upstream region 1. \citep{fitz}}
 \label{fig:shock_pic}
 \end{center}
 \end{figure}
@@ -326,7 +326,7 @@ There are two important frames of reference through which SDA is studied. In the
 \begin{figure}[!t] 
 \begin{center}
 \includegraphics[scale=0.45]{nif_dht}
-\caption{(Left) Normal incidence frame (NIF) where the shock is at rest and the upstream plamsa approaches the shock head-on at velocity $\mathbf{u}_1$. The magnetic field makes some arbitrary angle $\theta_{Bn}$ with the shock normal. (Right) Transformation to a de Hoffman-Teller frame ensures that the plasma velocity and magnetic field are in the same direction on both sides of the shock.}
+\caption[Normal incidence and de Hoffman-Teller reference frames]{(Left) Normal incidence frame (NIF) where the shock is at rest and the upstream plamsa approaches the shock head-on at velocity $\mathbf{u}_1$. The magnetic field makes some arbitrary angle $\theta_{Bn}$ with the shock normal. (Right) Transformation to a de Hoffman-Teller frame ensures that the plasma velocity and magnetic field are in the same direction on both sides of the shock.}
 \label{fig:nif_dht}
 \end{center}
 \end{figure}
@@ -344,14 +344,14 @@ where the subscripts [1,2] represent pre an post-encounter shock values respecti
 \begin{equation}
 \alpha > \alpha_c~~~~\mathrm{where}~~~~\mathrm{sin}^2\alpha_c = \frac{B_1}{B_2}
 \end{equation}
-will be reflected at the shock. This pitch angle $\alpha_c$ defines a \textquoteleft loss-cone' in velocity space $f(v_{\perp}, v_{||})$, whereby any particle within the cone (large $v_{||}$) will be lost downstream, while particles outside the loss cone will be reflected at the shock. This is known as a \textquoteleft magnetic mirroring' process. Inside the dHT reference frame, the particles energy (whether reflected or transmitted) is completely conserved and there is no energy gain. Conceptually, the best way to see where the acceleration takes place is in the normal indicidence frame (NIF).
+will be reflected at the shock. This pitch angle $\alpha_c$ defines a \textquoteleft loss-cone' in velocity space $f(v_{\perp}, v_{||})$, whereby any particle within the cone (large $v_{||}$) will be lost downstream, while particles outside the loss cone will be reflected at the shock. This is known as a \textquoteleft magnetic mirroring', a process that shocks are known to exhibit \citep{feldman1983}. Inside the dHT reference frame, the particles energy (whether reflected or transmitted) is completely conserved and there is no energy gain. Conceptually, the best way to see where the acceleration takes place is in the normal indicidence frame (NIF).
 
 In the NIF, the particles gyrate about the upstream magnetic field $\mathbf{B}_1$, while there is a convective electric causes a small drift of magnitude $\mathbf{v}_E = \mathbf{E}\times \mathbf{B}/B^2$ towards the shock. If the particle speed is much greater than the shock speed $v>>u$, the particle undergoes many Larmor gyrations while in contact with the shock. The difference between the Larmor radius of the orbit ahead of and behind the shock front (due to the increased downstream magnetic field) will cause the particle to drift parallel to the shock surface, Figure~\ref{fig:sda}. This is equivalent to a \textquoteleft grad-B' drift in an inhomogeneous magnetic field. This drift allows a charged particle to move parallel to the convective electric field, allowing the E-field to do positive work on the particle and produce an energy increase. Overall, a grad-B drift at the shock surface gives the particle a component of velocity that may interact with the convective electric field, hence the process is known as \textquoteleft drift-acceleration'.
 
 \begin{figure}[!t] 
 \begin{center}
 \includegraphics[scale=0.3]{sda_original}
-\caption{Particle drift paths due during both a transmitted (a) and reflected (b) motion. The increased magnetic field in the downstream region caused a drift along the surface. This drift occurs in the presence of a convective electric field (which will have a component parallel to the drift), allowing the field to do work on the particle and hence increase its energy.}
+\caption[Shock drift acceleration]{Particle drift paths due during both a transmitted (a) and reflected (b) motion. The increased magnetic field in the downstream region caused a drift along the surface. This drift occurs in the presence of a convective electric field (which will have a component parallel to the drift), allowing the field to do work on the particle and hence increase its energy.}
 \label{fig:sda}
 \end{center}
 \end{figure}
@@ -366,7 +366,9 @@ The energy gain is limited to the magnetic field strength jump across the shock,
 \begin{equation}
 v^r_{||} = 2u_1\mathrm{sec}\theta_1 - v^i_{||}
 \end{equation}
- More sophisticated models involve multiple reflections at the shock that increase the energy gain each time, thereby producing energies that are observed in the vicinity of shocks. This multiple reflection process plays an important role in some theoretical treatments of herringbone emission; we will return to this point in Chapter 5.
+
+shock drift acceleration has been used to explain the presence of $1-100$\,keV electron at Earth's magnetospheric bow shock \citep{wu1984}, in the context of radio bursts have used it to explain the acceleration of electrons during type II and herringbone bursts \citep{holman1983, mann2005, schmidt2012b}
+More sophisticated models involve multiple reflections at the shock that increase the energy gain each time, thereby producing energies that are observed in the vicinity of shocks. This multiple reflection process plays an important role in some theoretical treatments of herringbone emission; we will return to this point in Chapter 5.
 
 
 
@@ -483,7 +485,7 @@ here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=1.1, trim=0cm 0cm 0cm 0.5cm]{images/Cairns2003.pdf}
-\caption{Theoretical flux of the fundamental and harmonic emission bands of a type II radio burst using three wave interaction and stochastic growth theory \citet{cairns2003}.}
+\caption[Theoretically predicted radio burst fluxes]{Theoretical flux of the fundamental and harmonic emission bands of a type II radio burst using three wave interaction and stochastic growth theory \citet{cairns2003}.}
 \label{fig:cairns_emissivity}
 \end{center}
 \end{figure}
@@ -497,7 +499,7 @@ As the exciter of the plasma emission moves to greater heights in the corona it 
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.35, trim=2cm 0cm 0cm 2cm]{radiobursts.png}
-\caption{The characteristic shapes of various solar radio bursts seen in dynamic spectra. Type II radio burst are a signature of shock transit from high number density into low number density, as indicated by their drift from high to low frequency. The presence of two distinct bands is indicative of radio emission at the plasma frequency (fundamental) and its second harmonic. These two bands may also be further split themselves, a feature known as band-splitting.}
+\caption[Solar radio burst morphologies]{The characteristic shapes of various solar radio bursts seen in dynamic spectra. Type II radio burst are a signature of shock transit from high number density into low number density, as indicated by their drift from high to low frequency. The presence of two distinct bands is indicative of radio emission at the plasma frequency (fundamental) and its second harmonic. These two bands may also be further split themselves, a feature known as band-splitting.}
 \label{fig:radiobursts}
 \end{center}
 \end{figure}
@@ -514,7 +516,7 @@ Now, in general the number density of the corona is inversely proportional to he
 \begin{minipage}[]{0.3\linewidth}
 \includegraphics[scale=0.4, trim= 0cm 0.0cm 0.0cm 2.0cm]{1st_harmonic.pdf}
 \end{minipage}
-\caption{(Left)\,Electron number density as a function of height as defined by each of the models listed. The Newkirk, Baumbach Allen, and Saito models each describe an equatorial quiet corona electron density profile. The Saito Eq Hole and Pol Hol describe equatorial and polar hole profiles, respectively. These models are generally used to specify the height of a radio burst in the corona, and the choice of model is often arbitrary. (Right) The first harmonic of the plasma frequency as a function of height defined by the models.}% Added text here to elaborate differences between models
+\caption[Various models for electron number density in the corona]{(Left)\,Electron number density as a function of height as defined by each of the models listed. The Newkirk, Baumbach Allen, and Saito models each describe an equatorial quiet corona electron density profile. The Saito Eq Hole and Pol Hol describe equatorial and polar hole profiles, respectively. These models are generally used to specify the height of a radio burst in the corona, and the choice of model is often arbitrary. (Right) The first harmonic of the plasma frequency as a function of height defined by the models.}% Added text here to elaborate differences between models
 \label{fig:frequency_model}
 \end{figure}
 where $r$ is distance from sun center, and $H$ is the scale height given by $H = kT/mg$, where $k$ is Boltzman's constant, $T$ is the coronal temperature, $m$ is proton mass and $g$ is gravity. Generally using this $n(r)$, the set of values $(n_i,t_i)$ can be converted to as set of $(r_i,t_i)$

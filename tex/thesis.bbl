@@ -1,4 +1,4 @@
-\begin{thebibliography}{206}
+\begin{thebibliography}{208}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -20,6 +20,10 @@
 {\sc {Antiochos}, S.K., {DeVore}, C.R. \& {Klimchuk}, J.A.}
   (1999{\natexlab{b}}). {A Model for Solar Coronal Mass Ejections}. {\em
   \apj\/}, {\bf 510}, 485--493.
+
+\bibitem[{{Aschwanden}(2004)}]{asch2004}
+{\sc {Aschwanden}, M.J.} (2004). {\em {Physics of the Solar Corona. An
+  Introduction}\/}. Praxis Publishing Ltd.
 
 \bibitem[{{Aschwanden} {\em et~al.\/}(2009){Aschwanden}, {Nitta}, {Wuelser},
   {Lemen}, {Sandman}, {Vourlidas} \& {Colaninno}}]{aschw09}
@@ -146,10 +150,6 @@
   Interplanetary Coronal Mass Ejections}. {\em \solphys\/}, {\bf 221},
   135--149.
 
-\bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
-{\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
-  K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
-
 \bibitem[{{Carrington}(1859)}]{carrington1859}
 {\sc {Carrington}, R.C.} (1859). {Description of a Singular Appearance seen in
   the Sun on September 1, 1859}. {\em \mnras\/}, {\bf 20}, 13--15.
@@ -229,11 +229,6 @@
 {\sc {Domingo}, V., {Fleck}, B. \& {Poland}, A.I.} (1995). {The SOHO Mission:
   an Overview}. {\em \solphys\/}, {\bf 162}, 1--37.
 
-\bibitem[{{Dulk}(1971)}]{dulk1971}
-{\sc {Dulk}, G.A.} (1971). {80 MHz observations of a harmonic type II solar
-  burst accompanying a limb flare}. {\em Australian Journal of Physics\/}, {\bf
-  24}, 177.
-
 \bibitem[{{Emslie} {\em et~al.\/}(2004){Emslie}, {Kucharek}, {Dennis},
   {Gopalswamy}, {Holman}, {Share}, {Vourlidas}, {Forbes}, {Gallagher}, {Mason},
   {Metcalf}, {Mewaldt}, {Murphy}, {Schwartz} \& {Zurbuchen}}]{emslie2004}
@@ -259,6 +254,13 @@
 \bibitem[{{Fan}(2009)}]{fan2009}
 {\sc {Fan}, Y.} (2009). {Magnetic Fields in the Solar Convection Zone}. {\em
   Living Reviews in Solar Physics\/}, {\bf 6}, 4.
+
+\bibitem[{{Feldman} {\em et~al.\/}(1983){Feldman}, {Anderson}, {Bame}, {Gary},
+  {Gosling}, {McComas}, {Thomsen}, {Paschmann} \& {Hoppe}}]{feldman1983}
+{\sc {Feldman}, W.C., {Anderson}, R.C., {Bame}, S.J., {Gary}, S.P., {Gosling},
+  J.T., {McComas}, D.J., {Thomsen}, M.F., {Paschmann}, G. \& {Hoppe}, M.M.}
+  (1983). {Electron velocity distributions near the earth's bow shock}. {\em
+  \jgr\/}, {\bf 88}, 96--110.
 
 \bibitem[{{Fitzpatrick}(2000)}]{fitz}
 {\sc {Fitzpatrick}, R.} (2000). {\em {The Physics of Plasmas}\/}.
@@ -410,11 +412,6 @@
   CMEs. I. Reconciliation of ''EIT Waves'', Type II Radio Bursts, and Leading
   Edges of CMEs}. {\em \solphys\/}, {\bf 273}, 433--460.
 
-\bibitem[{{Grognard}(1975)}]{grognard1975}
-{\sc {Grognard}, R.J.M.} (1975). {Deficiencies of the asymptotic solutions
-  commonly found in the quasilinear relaxation theory}. {\em Australian Journal
-  of Physics\/}, {\bf 28}, 731.
-
 \bibitem[{{Guo} \& {Giacalone}(2010)}]{guo2010}
 {\sc {Guo}, F. \& {Giacalone}, J.} (2010). {The Effect of Large-scale Magnetic
   Turbulence on the Acceleration of Electrons by Perpendicular Collisionless
@@ -423,6 +420,11 @@
 \bibitem[{{Hey}(1946)}]{hey1946}
 {\sc {Hey}, J.S.} (1946). {Solar Radiations in the 4-6 Metre Radio Wave-Length
   Band}. {\em \nat\/}, {\bf 157}, 47--48.
+
+\bibitem[{{Holman} \& {Pesses}(1983)}]{holman1983}
+{\sc {Holman}, G.D. \& {Pesses}, M.E.} (1983). {Solar type II radio emission
+  and the shock drift acceleration of electrons}. {\em \apj\/}, {\bf 267},
+  837--843.
 
 \bibitem[{{Howard} {\em et~al.\/}(2008){Howard}, {Moses}, {Vourlidas},
   {Newmark}, {Socker}, {Plunkett}, {Korendyke}, {Cook}, {Hurley}, {Davila},
@@ -481,10 +483,6 @@
 \bibitem[{{Kabin}(2001)}]{kabin2001}
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
   Journal of Plasma Physics\/}, {\bf 66}, 259--274.
-
-\bibitem[{{Kai}(1969)}]{kai1969}
-{\sc {Kai}, K.} (1969). {Radio Evidence of Directive Shock-Wave Propagation in
-  the Solar Corona}. {\em \solphys\/}, {\bf 10}, 460--464.
 
 \bibitem[{{Kaiser} {\em et~al.\/}(2008){Kaiser}, {Kucera}, {Davila}, {St.~Cyr},
   {Guhathakurta} \& {Christian}}]{kai08}
@@ -700,12 +698,6 @@
   Radio Bursts. II. Slow-Drift Bursts and Coronal Streamers.} {\em \apj\/},
   {\bf 135}, 138.
 
-\bibitem[{{McAteer} {\em et~al.\/}(2002){McAteer}, {Gallagher}, {Williams},
-  {Mathioudakis}, {Phillips} \& {Keenan}}]{mcateer2002}
-{\sc {McAteer}, R.T.J., {Gallagher}, P.T., {Williams}, D.R., {Mathioudakis},
-  M., {Phillips}, K.J.H. \& {Keenan}, F.P.} (2002). {Long-Period Chromospheric
-  Oscillations in Network Bright Points}. {\em \apjl\/}, {\bf 567}, L165--L168.
-
 \bibitem[{{Melrose}(1986)}]{melrose1986}
 {\sc {Melrose}, D.B.} (1986). {\em {Instabilities in Space and Laboratory
   Plasmas}\/}. Cambridge University Press.
@@ -782,11 +774,20 @@
   Coronal Mass Ejection-Driven Shocks from LASCO Observations}. {\em \apj\/},
   {\bf 693}, 267--275.
 
+\bibitem[{{Parker}(1963)}]{parker1963}
+{\sc {Parker}, E.N.} (1963). {The Solar-Flare Phenomenon and the Theory of
+  Reconnection and Annihiliation of Magnetic Fields.} {\em \apjs\/}, {\bf 8},
+  177.
+
 \bibitem[{{Payne-Scott} {\em et~al.\/}(1947){Payne-Scott}, {Yabsley} \&
   {Bolton}}]{payne1947}
 {\sc {Payne-Scott}, R., {Yabsley}, D.E. \& {Bolton}, J.G.} (1947). {Relative
   Times of Arrival of Bursts of Solar Noise on Different Radio Frequencies}.
   {\em \nat\/}, {\bf 160}, 256--257.
+
+\bibitem[{{Petschek}(1964)}]{petschek1964}
+{\sc {Petschek}, H.E.} (1964). {Magnetic Field Annihilation}. {\em NASA Special
+  Publication\/}, {\bf 50}, 425.
 
 \bibitem[{{Phillips} {\em et~al.\/}(2008){Phillips}, {Feldman} \&
   {Landi}}]{phillips2008}
@@ -822,6 +823,10 @@
 \bibitem[{{Priest} \& {Forbes}(2000)}]{priest2000}
 {\sc {Priest}, E. \& {Forbes}, T.} (2000). {\em {Magnetic Reconnection}\/}.
 
+\bibitem[{{Priest} \& {Forbes}(1986)}]{priest1986}
+{\sc {Priest}, E.R. \& {Forbes}, T.G.} (1986). {New models for fast steady
+  state magnetic reconnection}. {\em \jgr\/}, {\bf 91}, 5579--5588.
+
 \bibitem[{{Reiner} {\em et~al.\/}(2001){Reiner}, {Kaiser}, {Gopalswamy},
   {Aurass}, {Mann}, {Vourlidas} \& {Maksimovic}}]{reiner2001}
 {\sc {Reiner}, M.J., {Kaiser}, M.L., {Gopalswamy}, N., {Aurass}, H., {Mann},
@@ -834,10 +839,6 @@
 {\sc {Robbrecht}, E., {Berghmans}, D. \& {Van der Linden}, R.A.M.} (2009).
   {Automated LASCO CME Catalog for Solar Cycle 23: Are CMEs Scale Invariant?}
   {\em \apj\/}, {\bf 691}, 1222--1234.
-
-\bibitem[{{Robinson}(1992)}]{robinson1992}
-{\sc {Robinson}, P.A.} (1992). {Clumpy Langmuir waves in type III radio
-  sources}. {\em \solphys\/}, {\bf 139}, 147--163.
 
 \bibitem[{{Robinson} \& {Cairns}(1993)}]{robinson1993a}
 {\sc {Robinson}, P.A. \& {Cairns}, I.H.} (1993). {Stochastic Growth Theory of
@@ -874,11 +875,16 @@
 {\sc {Rust}, D.M.} (1972). {Flares and Changing Magnetic Fields}. {\em
   \solphys\/}, {\bf 25}, 141--157.
 
-\bibitem[{{Schmidt} \& {Cairns}(2012)}]{schmidt2012}
-{\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012). {Type II radio bursts: 1. New
-  entirely analytic formalism for the electron beams, Langmuir waves, and radio
-  emission}. {\em Journal of Geophysical Research (Space Physics)\/}, {\bf
-  117}, 4106.
+\bibitem[{{Schmidt} \& {Cairns}(2012{\natexlab{a}})}]{schmidt2012}
+{\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012{\natexlab{a}}). {Type II radio
+  bursts: 1. New entirely analytic formalism for the electron beams, Langmuir
+  waves, and radio emission}. {\em Journal of Geophysical Research (Space
+  Physics)\/}, {\bf 117}, 4106.
+
+\bibitem[{{Schmidt} \& {Cairns}(2012{\natexlab{b}})}]{schmidt2012b}
+{\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012{\natexlab{b}}). {Type II radio
+  bursts: 2. Application of the new analytic formalism}. {\em Journal of
+  Geophysical Research (Space Physics)\/}, {\bf 117}, 11104.
 
 \bibitem[{{Schrijver} {\em et~al.\/}(2008){Schrijver}, {Elmore}, {Kliem},
   {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
@@ -910,14 +916,13 @@
   {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
   2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
 
-\bibitem[{{Smerd}(1970)}]{smerd1970}
-{\sc {Smerd}, S.F.} (1970). {Radio evidence for the propagation of
-  magnetohydrodynamic waves along curved paths in the solar corona}. {\em
-  Proceedings of the Astronomical Society of Australia\/}, {\bf 1}, 305.
+\bibitem[{{Sonnerup}(1970)}]{sonnerup1970}
+{\sc {Sonnerup}, B.U.{\"O}.} (1970). {Magnetic-field re-connexion in a highly
+  conducting incompressible fluid}. {\em Journal of Plasma Physics\/}, {\bf 4},
+  161.
 
-\bibitem[{{Smith} \& {Sime}(1979)}]{smith1979}
-{\sc {Smith}, D.F. \& {Sime}, D.} (1979). {Origin of plasma-wave clumping in
-  type III solar radio burst sources}. {\em \apj\/}, {\bf 233}, 998--1004.
+\bibitem[{{Spitzer}(1962)}]{spitzer1962}
+{\sc {Spitzer}, L.} (1962). {\em {Physics of Fully Ionized Gases}\/}.
 
 \bibitem[{{Spreiter} {\em et~al.\/}(1966){Spreiter}, {Summers} \&
   {Alksne}}]{spreiter1966}
@@ -954,6 +959,11 @@
 \bibitem[{{Subramanian} \& {Vourlidas}(2007)}]{subram2007}
 {\sc {Subramanian}, P. \& {Vourlidas}, A.} (2007). {Energetics of solar coronal
   mass ejections}. {\em \aap\/}, {\bf 467}, 685--693.
+
+\bibitem[{{Sweet}(1958)}]{sweet1958}
+{\sc {Sweet}, P.A.} (1958). {The Neutral Point Theory of Solar Flares}. In
+  B.~{Lehnert}, ed., {\em Electromagnetic Phenomena in Cosmical Physics\/},
+  vol.~6 of {\em IAU Symposium\/}, 123.
 
 \bibitem[{{Temmer} {\em et~al.\/}(2010){Temmer}, {Veronig}, {Kontar}, {Krucker}
   \& {Vr{\v s}nak}}]{temmer2010}
@@ -1149,6 +1159,11 @@
 {\sc {Wolfson}, R. \& {Saran}, S.} (1998). {Energetics of Coronal Mass
   Ejections: Role of the Streamer Cavity}. {\em \apj\/}, {\bf 499}, 496.
 
+\bibitem[{{Wu}(1984)}]{wu1984}
+{\sc {Wu}, C.S.} (1984). {A fast Fermi process - Energetic electrons
+  accelerated by a nearly perpendicular bow shock}. {\em \jgr\/}, {\bf 89},
+  8857--8862.
+
 \bibitem[{{Yashiro} {\em et~al.\/}(2004){Yashiro}, {Gopalswamy}, {Michalek},
   {St.~Cyr}, {Plunkett}, {Rich} \& {Howard}}]{yashiro2004}
 {\sc {Yashiro}, S., {Gopalswamy}, N., {Michalek}, G., {St.~Cyr}, O.C.,
@@ -1184,11 +1199,5 @@
 {\sc {Zlobec}, P., {Messerotti}, M., {Karlicky}, M. \& {Urbarz}, H.} (1993).
   {Fine structures in time profiles of type II bursts at frequencies above 200
   MHz}. {\em \solphys\/}, {\bf 144}, 373--384.
-
-\bibitem[{{Zlotnik} {\em et~al.\/}(1998){Zlotnik}, {Klassen}, {Klein}, {Aurass}
-  \& {Mann}}]{zlotnik1998}
-{\sc {Zlotnik}, E.Y., {Klassen}, A., {Klein}, K.L., {Aurass}, H. \& {Mann}, G.}
-  (1998). {Third harmonic plasma emission in solar type II radio bursts}. {\em
-  \aap\/}, {\bf 331}, 1087--1098.
 
 \end{thebibliography}
