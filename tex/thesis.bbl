@@ -1,4 +1,4 @@
-\begin{thebibliography}{208}
+\begin{thebibliography}{214}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -55,6 +55,12 @@
   radio burst from reconnection outflow jet?} {\em \aap\/}, {\bf 384},
   273--281.
 
+\bibitem[{{Avignon} {\em et~al.\/}(1989){Avignon}, {Bonmartin}, {Bouteille},
+  {Clavelier} \& {Hulot}}]{avignon1989}
+{\sc {Avignon}, Y., {Bonmartin}, J., {Bouteille}, A., {Clavelier}, B. \&
+  {Hulot}, E.} (1989). {The mark IV Nancay Radioheliograph}. {\em \solphys\/},
+  {\bf 120}, 193--204.
+
 \bibitem[{{Babcock}(1961)}]{babcock1961}
 {\sc {Babcock}, H.W.} (1961). {The Topology of the Sun's Magnetic Field and the
   22-YEAR Cycle.} {\em \apj\/}, {\bf 133}, 572.
@@ -76,8 +82,7 @@
 {\sc {Bein}, B.M., {Berkebile-Stoiser}, S., {Veronig}, A.M., {Temmer}, M.,
   {Muhr}, N., {Kienreich}, I., {Utz}, D. \& {Vr{\v s}nak}, B.} (2011).
   {Impulsive Acceleration of Coronal Mass Ejections. I. Statistics and Coronal
-  Mass Ejection Source Region Characteristics}. {\em \apj\/}, {\bf 738},
-  191--+.
+  Mass Ejection Source Region Characteristics}. {\em \apj\/}, {\bf 738}, 191.
 
 \bibitem[{{Biesecker} {\em et~al.\/}(2002){Biesecker}, {Myers}, {Thompson},
   {Hammer} \& {Vourlidas}}]{bieseker2002}
@@ -88,12 +93,28 @@
 \bibitem[{{Billings}(1966)}]{bil66}
 {\sc {Billings}, D.E.} (1966). {\em {A guide to the solar corona}\/}.
 
+\bibitem[{{Boischot} {\em et~al.\/}(1980){Boischot}, {Rosolen}, {Aubier},
+  {Daigne}, {Genova}, {Leblanc}, {Lecacheux}, {de La Noe} \&
+  {Moller-Pedersen}}]{boischot1980}
+{\sc {Boischot}, A., {Rosolen}, C., {Aubier}, M.G., {Daigne}, G., {Genova}, F.,
+  {Leblanc}, Y., {Lecacheux}, A., {de La Noe}, J. \& {Moller-Pedersen}, B.}
+  (1980). {A new high-gain, broadband, steerable array to study Jovian
+  decametric emission}. {\em ICARUS\/}, {\bf 43}, 399--407.
+
 \bibitem[{{Bong} {\em et~al.\/}(2006){Bong}, {Moon}, {Cho}, {Kim}, {Park} \&
   {Choe}}]{bong2006}
 {\sc {Bong}, S.C., {Moon}, Y.J., {Cho}, K.S., {Kim}, Y.H., {Park}, Y.D. \&
   {Choe}, G.S.} (2006). {Direct Observation of Low Coronal Breakout: Does
   Breakout Precede or Follow Solar Eruption?} {\em \apjl\/}, {\bf 636},
   L169--L172.
+
+\bibitem[{{Bonmartin} {\em et~al.\/}(1983){Bonmartin}, {Bouteille},
+  {Clavelier}, {Issartel}, {Kerdraon}, {Lantos}, {Lantos}, {Mercier}, {Pick} \&
+  {Raoult}}]{bonmartin1983}
+{\sc {Bonmartin}, J., {Bouteille}, A., {Clavelier}, B., {Issartel}, M.P.,
+  {Kerdraon}, A., {Lantos}, M.F., {Lantos}, P., {Mercier}, C., {Pick}, M. \&
+  {Raoult}, A.} (1983). {The Mark III Nancay Radioheliograph}. {\em
+  \solphys\/}, {\bf 88}, 383--390.
 
 \bibitem[{{Bougeret} {\em et~al.\/}(1998){Bougeret}, {Zarka}, {Caroubalos},
   {Karlick{\'y}}, {Leblanc}, {Maroulis}, {Hillaris}, {Moussas},
@@ -490,6 +511,12 @@
   {Guhathakurta}, M. \& {Christian}, E.} (2008). {The STEREO Mission: An
   Introduction}. {\em \ssr\/}, {\bf 136}, 5--16.
 
+\bibitem[{{Kerdraon} \& {Delouis}(1997)}]{kerdraon1997}
+{\sc {Kerdraon}, A. \& {Delouis}, J.M.} (1997). {The Nan{\c c}ay
+  Radioheliograph}. In G.~{Trottet}, ed., {\em Coronal Physics from Radio and
+  Space Observations\/}, vol. 483 of {\em Lecture Notes in Physics, Berlin
+  Springer Verlag\/}, 192.
+
 \bibitem[{{Khan} \& {Aurass}(2002)}]{khan2002}
 {\sc {Khan}, J.I. \& {Aurass}, H.} (2002). {X-ray observations of a large-scale
   solar coronal shock wave}. {\em \aap\/}, {\bf 383}, 1018--1031.
@@ -569,6 +596,12 @@
 {\sc {Lantos}, P.} (1999). {Low Frequency Observations of the Quiet Sun: a
   Review}. In T.S. {Bastian}, N.~{Gopalswamy} \& K.~{Shibasaki}, eds., {\em
   Proceedings of the Nobeyama Symposium\/}, 11--24.
+
+\bibitem[{{Lecacheux}(2000)}]{lecacheux2000}
+{\sc {Lecacheux}, A.} (2000). {The Nan{\c c}ay Decameter Array: A Useful Step
+  Towards Giant, New Generation Radio Telescopes for Long Wavelength Radio
+  Astronomy}. {\em Washington DC American Geophysical Union Geophysical
+  Monograph Series\/}, {\bf 119}, 321.
 
 \bibitem[{{Lewis} \& {Simnett}(2002)}]{lewis2002}
 {\sc {Lewis}, D.J. \& {Simnett}, G.M.} (2002). {Bulk flow velocities in the
@@ -971,6 +1004,11 @@
   s}nak}, B.} (2010). {Combined STEREO/RHESSI Study of Coronal Mass Ejection
   Acceleration and Particle Acceleration in Solar Flares}. {\em \apj\/}, {\bf
   712}, 1410--1420.
+
+\bibitem[{{The Radioheliograph Group}(1993)}]{nrh1993}
+{\sc {The Radioheliograph Group}} (1993). {The Nan{\c c}ay multifrequency
+  radioheliograph: New developments and data acquisition for the solar physics
+  community}. {\em Advances in Space Research\/}, {\bf 13}, 411--414.
 
 \bibitem[{{Thernisien} {\em et~al.\/}(2006){Thernisien}, {Howard} \&
   {Vourlidas}}]{thern2006}

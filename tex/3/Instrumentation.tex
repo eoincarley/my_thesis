@@ -105,7 +105,7 @@ These white light imagers of the corona allow for a stereoscopic view of CMEs in
 \end{center}
 \end{figure}
 
-
+\clearpage
 \subsection{SOHO LASCO}\label{sec:23}
 
 
@@ -117,13 +117,24 @@ These white light imagers of the corona allow for a stereoscopic view of CMEs in
 
 \subsection{STEREO WAVES}\label{sec:31}
 
-\subsection{Nancay Decametric Array}\label{sec:32}
-\clearpage
+\subsection{Nan\c{c}ay Decametric Array}\label{sec:32}
+
+The Nan\c{c}ay Decametric Array consists of 72 ($6\,\mathrm{east} \times12\,\mathrm{west}$)conical antennas consisting of a left-handed helically wound component and a right handed helical component -- this makes the array contain 144 antennas in total, comprising 8000\,m$^2$ effective aperture at 30\,MHz \citep{lecacheux2000}. Each helix antenna is made of eight copper-steel wires wound on the surface of a cone and connected to the output coaxial cable by diode switches; only six wires are used at a time to form the antenna; the other two, diametrically opposite, are left disconnected. By changing the connections through the diode switches, the antenna can be electrically rotated around the cone axis, corresponding to a phase change of the antenna by steps of 45$^{\circ}$. The antennas are broadband (20--120\,MHz), low gain (low directivity) with a half power beam width of 90$^{\circ}$ centered on the cone axis \citep{boischot1980}. The entire array is steerable by phase delays withtin the 90$^{\circ}$  beam width of the individual antennas resulting in a possible tracking time of $\pm$4\,hr around the meridian, within a declination range of $-20^{\circ}$ to $+50^{\circ}$ .
+
+The backend of the array consists of three possible receivers. The decametric activity consists of a wide-band swept-frequency analyzer which operates 400 channels between 20-90\,MHz. Left and right hand circular polarization are alternately sampled every 0.5 seconds from the left and right hand helical feeds of the antennas. The nominal operations for solar radio burst monitoring use this swept frequency receiver but there are other more sophisticated receivers available such as spectro-polarimeter with 1\,ms time sampling over providing 1024 channels and with a 60\,dB dynamic range. However, it has only a 12.5\,MHz instantaneous band, which is not so useful for solar radio burst monitoring.
+
 \subsection{Nancay Radioheliograph}\label{sec:33}
 
-Radio images of the solar corona are important to probe both quiet activity and also flaring an eruptive activity. As described in Section 2.X, flaring and eruptive activity may often result in high speed electrons which can excite plasma emission and gyrosynchrotron emission. The Nan\c{c}ay Radioheliograph is a solar-dedicated radio interferometer located at Nan\c{c}ay, central France ($47^{\circ}$N~$2^{\circ}$E), that observed such activity at ten frequencies between 150 and 450\,MHz.
+Radio images of the solar corona are important to probe both quiet activity and also flaring an eruptive activity. As described in Section 2.X, flaring and eruptive activity may often result in high speed electrons which can excite plasma emission and gyrosynchrotron emission. The Nan\c{c}ay Radioheliograph is a solar-dedicated radio interferometer located at Nan\c{c}ay, central France ($47^{\circ}$N~$2^{\circ}$E), that observed such activity at ten frequencies between 150 and 450\,MHz \citep{kerdraon1997}.
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.55, angle=90]{nrh_layout}
+\caption[The Nancay Radioheliograph layout]{The Nancay Radioheliograph layout}
+\end{center}
+\label{fig:eclipse}
+\end{figure}
 
-The array antennas are arranged in a perpendicular \textquoteleft T' shape. The east west array consisting 19 antennas providing baselines in the range of 50\,m to 3200\,m. Four these antennas have parabolic collectors with four orthogonal thick dipole feeds at the focus providing two orthogonal polarizations in the 150-450\,MHz band. The remaining 15 have no collectors (no dishes) and consist only of thick dipole antennas providing linear polarization only. The north-south array consists of 24 five meter dishes with wide band feeds, covering baselines between 54 to 1248\,m. The antenna front end electronics include low noise high dynamic range (XdB) pre-amplifiers, band filters for frequency switching and a local oscillator which mixes the signal 113\,MHz before it is sent to the receiver \citep{avignon1989}. At the receiver the signal is further mixed down to 10.7\,MHz and fed through a bandpass filter of 700\,kHz width (final bandwidth of each observed frequency), digitized and sent to the correlator.
+The array antennas are arranged in a perpendicular \textquoteleft T' shape. The east west array consisting 19 antennas providing baselines in the range of 50\,m to 3200\,m. Four these antennas have parabolic collectors with four orthogonal thick dipole feeds at the focus providing two orthogonal polarizations in the 150-450\,MHz band. The remaining 15 have no collectors (no dishes) and consist only of thick dipole antennas providing linear polarization only. The north-south array consists of 24 five meter dishes with wide band feeds, covering baselines between 54 to 1248\,m. The antenna front end electronics include low noise high dynamic range (45\,dB) pre-amplifiers, band filters for frequency switching and a local oscillator which mixes the signal 113\,MHz before it is sent to the receiver \citep{avignon1989}. At the receiver the signal is further mixed down to 10.7\,MHz and fed through a bandpass filter of 700\,kHz width (final bandwidth of each observed frequency), digitized and sent to the correlator.
 
 %Mark II: monofrequency east-west (169 MHz)
 %Mark III: monofrequency east-west and north-south (169 MHz), receiver has 45 dB dynamic range (Bonmartin 1983)
@@ -131,19 +142,26 @@ The array antennas are arranged in a perpendicular \textquoteleft T' shape. The 
 % Multifrequency (5) on north-south and east-west baslines (150-450 MHz) (1993 AdSpR)
 %Present: multifreqquency (10) on north-south and east-west baselines (150-450 MHz), digital correlator added (Kerdraon 1997)
 
-The original array consisted of only the east-west baselines, with the north-south being added later in the early 1980s \citep{bonmartin1983}, hence the two separate arrays operate off different correlators. The visibility outputs of each correlator are digitized by sampling every 5\,ms, resulting in 4 images every 5\,ms (Stokes I and V for the east-west and north south arrays), with a down sampling of by integrating at least 4 successive images in order to ease storage loads \citep{avignon1989}. However, these images are only 1D, offering intensity profiles along east-west or north-south direction. Originally, full 2D maps were created by Earth rotation synthesis using the standard 1D observations over one entire day \citep{nrh1993}. A more modern operation provides 2D images using the most westerly 17 antennas of the east-west baseline \citep{kerdraon1997}. This means there is only a maximum baseline of 100\,m for 2D imaging, resulting in a spatial resolution that is 4 times lower than the 1D images. 
+The original array consisted of only the east-west baselines, with the north-south being added later in the early 1980s \citep{bonmartin1983}, hence the two separate arrays operate off different correlators. The visibility outputs of each correlator are digitized by sampling every 5\,ms, resulting in 4 images every 5\,ms (Stokes I and V for the east-west and north south arrays), with a down sampling of by integrating at least 4 successive images in order to ease storage loads \citep{avignon1989}. These images are only 1D, offering projected intensity profiles along two axes. Originally, full 2D maps were created by Earth rotation synthesis using the standard 1D observations over one entire day \citep{nrh1993}. Such limitations were mainly due to the use of an analog correlator. However, a digital correlator installed in 1997 now provides fast 2D images using the most westerly 17 antennas of the east-west baseline \citep{kerdraon1997}, resulting in a spatial resolution that is 4 times lower than the 1D east-west images. Systematic daily observations of 2D images are usually performed at between 0.1 and 1 image per second.
 
-Instrument phase and gain calibration calibration is performed by observing Cygnus A. Phase and gain accuracy for these measurements are $5^{\circ}$ and 5\%, respectively, with 1 calibration per week being performed \citep{avignon1989}
+Instrument phase and gain calibration is performed by observing Cygnus A. Phase and gain accuracy for these measurements are $5^{\circ}$ and 5\%, respectively, with only 1 calibration per week necessary because of good system stability \citep{avignon1989}
+
+\begin{tabular}{ |l|l| }
+  \hline
+  \multicolumn{2}{|c|}{Nancay Radioheliograph properties} \\
+  \hline
+  Time resolution & 5\,ms (integrated to 0.1 -- 1\,s for 2D images) \\
+  Spatial Resolution & 0.3 -- 6\,arcmin, depending on frequency and direction \\
+  Observing frequencies & 10 frequencies between 100 -- 450\,MHz \\
+  Bandwidth & 700\,kHz \\
+  Polarization & Stokes I and V \\
+  Observing time & 7.5\,hr centered around 12 UT \\
+  \hline
+\end{tabular}
 %The Mark IV Nancay Radioheliograph Solar Physics 120 p193) 
 %Correlation is performed independently for the EW and NS baselines
 
-\begin{figure}[t!]
-\begin{center}
-\includegraphics[scale=0.6, angle=90]{nrh_layout}
-\caption[The Nancay Radioheliograph layout]{The Nancay Radioheliograph layout}
-\end{center}
-\label{fig:eclipse}
-\end{figure}
+
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.1)  7 AUG 2013 16:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.1)  7 AUG 2013 21:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1189,7 +1189,7 @@ t_harmonic.pdf>]
  (./3/Instrumentation.tex
 Chapter 3.
 
-Package caption Warning: \label without proper \caption on input line 139.
+Package caption Warning: \label without proper \caption on input line 136.
 See the caption package documentation for explanation.
 
 
@@ -1260,50 +1260,42 @@ Overfull \hbox (37.43199pt too wide) in paragraph at lines 102--103
  []
 
 [101] [102 <./images/COR1_design.png>] [103 <./images/cor2.png (PNG copy)>]
-
-Package natbib Warning: Citation `avignon1989' on page 104 undefined on input l
-ine 126.
-
-
-Package natbib Warning: Citation `bonmartin1983' on page 104 undefined on input
- line 133.
-
-
-Package natbib Warning: Citation `avignon1989' on page 104 undefined on input l
-ine 133.
-
-
-Package natbib Warning: Citation `avignon1989' on page 104 undefined on input l
-ine 135.
-
 [104
 
-] <images/nrh_layout.png, id=2066, 987.69pt x 659.46375pt>
+] <images/nrh_layout.png, id=2074, 987.69pt x 659.46375pt>
 File: images/nrh_layout.png Graphic file (type png)
 
 <use images/nrh_layout.png>
-Package pdftex.def Info: images/nrh_layout.png used on input line 141.
-(pdftex.def)             Requested size: 592.61858pt x 395.68129pt.
-) [105] [106 <./images/nrh_layout.png>]
+Package pdftex.def Info: images/nrh_layout.png used on input line 131.
+(pdftex.def)             Requested size: 543.23119pt x 362.70618pt.
+ [105]
+
+LaTeX Warning: Text page 106 contains only floats.
+
+[106 <./images/nrh_layout.png>]
+Overfull \hbox (13.99936pt too wide) in paragraph at lines 149--163
+[][] 
+ []
+
+[107]) [108]
 \openout2 = `4/masses.aux'.
 
-
-(./4/masses.tex
+ (./4/masses.tex
 Chapter 4.
-[107
+[109
 
 
 
 ]
 
-Package natbib Warning: Citation `Schrij2008' on page 108 undefined on input li
+Package natbib Warning: Citation `Schrij2008' on page 110 undefined on input li
 ne 24.
 
 
-Package natbib Warning: Citation `byr10' on page 108 undefined on input line 25
+Package natbib Warning: Citation `byr10' on page 110 undefined on input line 25
 .
 
-[108] [109] <images/COR1AB_plotsfinal.pdf, id=2155, 578.16pt x 939.51pt>
+[110] [111] <images/COR1AB_plotsfinal.pdf, id=2189, 578.16pt x 939.51pt>
 File: images/COR1AB_plotsfinal.pdf Graphic file (type pdf)
 
 <use images/COR1AB_plotsfinal.pdf>
@@ -1313,7 +1305,7 @@ Package pdftex.def Info: images/COR1AB_plotsfinal.pdf used on input line 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/COR2AB_paperplots.pdf, id=2156, 578.16pt x 939.51pt>
+<images/COR2AB_paperplots.pdf, id=2190, 578.16pt x 939.51pt>
 File: images/COR2AB_paperplots.pdf Graphic file (type pdf)
 
 <use images/COR2AB_paperplots.pdf>
@@ -1323,8 +1315,8 @@ Package pdftex.def Info: images/COR2AB_paperplots.pdf used on input line 67.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[110] [111 <./images/COR1AB_plotsfinal.pdf>] [112 <./images/COR2AB_paperplots.p
-df>] <images/LOS_POS_2.pdf, id=2204, 597.23125pt x 845.1575pt>
+[112] [113 <./images/COR1AB_plotsfinal.pdf>] [114 <./images/COR2AB_paperplots.p
+df>] <images/LOS_POS_2.pdf, id=2239, 597.23125pt x 845.1575pt>
 File: images/LOS_POS_2.pdf Graphic file (type pdf)
 
 <use images/LOS_POS_2.pdf>
@@ -1334,18 +1326,18 @@ Package pdftex.def Info: images/LOS_POS_2.pdf used on input line 121.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[113]
+[115]
 
-Package natbib Warning: Citation `byr10' on page 114 undefined on input line 13
+Package natbib Warning: Citation `byr10' on page 116 undefined on input line 13
 5.
 
 
-Package natbib Warning: Citation `byr10' on page 114 undefined on input line 14
+Package natbib Warning: Citation `byr10' on page 116 undefined on input line 14
 8.
 
-[114 <./images/LOS_POS_2.pdf>] [115] [116]
+[116 <./images/LOS_POS_2.pdf>] [117] [118]
 
-Package natbib Warning: Citation `byr10' on page 117 undefined on input line 18
+Package natbib Warning: Citation `byr10' on page 119 undefined on input line 18
 7.
 
 
@@ -1353,10 +1345,10 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 117 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 119 undefined on input 
 line 198.
 
-<images/20081212_mass_ht.pdf, id=2260, 469.755pt x 722.7pt>
+<images/20081212_mass_ht.pdf, id=2294, 469.755pt x 722.7pt>
 File: images/20081212_mass_ht.pdf Graphic file (type pdf)
 
 <use images/20081212_mass_ht.pdf>
@@ -1372,7 +1364,7 @@ LaTeX Warning: Command \textquoteleft invalid in math mode on input line 218.
 
 LaTeX Warning: Float too large for page by 21.28659pt on input line 221.
 
-[117] [118] [119 <./images/20081212_mass_ht.pdf>]
+[119] [120] [121 <./images/20081212_mass_ht.pdf>]
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 227.
 
@@ -1384,10 +1376,10 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 120 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 122 undefined on input 
 line 237.
 
-[120
+[122
 
 ]
 
@@ -1395,11 +1387,11 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 121 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 123 undefined on input 
 line 247.
 
 
-Package natbib Warning: Citation `byr10' on page 121 undefined on input line 25
+Package natbib Warning: Citation `byr10' on page 123 undefined on input line 25
 8.
 
 
@@ -1407,10 +1399,10 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 121 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 123 undefined on input li
 ne 260.
 
-[121] <images/20081212_force_v2.pdf, id=2292, 325.215pt x 722.7pt>
+[123] <images/20081212_force_v2.pdf, id=2326, 325.215pt x 722.7pt>
 File: images/20081212_force_v2.pdf Graphic file (type pdf)
 
 <use images/20081212_force_v2.pdf>
@@ -1418,11 +1410,11 @@ Package pdftex.def Info: images/20081212_force_v2.pdf used on input line 264.
 (pdftex.def)             Requested size: 243.91064pt x 542.02367pt.
 
 
-Package natbib Warning: Citation `byr10' on page 122 undefined on input line 26
+Package natbib Warning: Citation `byr10' on page 124 undefined on input line 26
 6.
 
 
-Package natbib Warning: Citation `byr10' on page 122 undefined on input line 26
+Package natbib Warning: Citation `byr10' on page 124 undefined on input line 26
 6.
 
 
@@ -1431,13 +1423,13 @@ LaTeX Warning: Float too large for page by 30.2237pt on input line 269.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[122] [123 <./images/20081212_force_v2.pdf>]
+[124] [125 <./images/20081212_force_v2.pdf>]
 
 Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 124 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
 ne 273.
 
 
@@ -1445,7 +1437,7 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 124 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
 ne 279.
 
 
@@ -1453,11 +1445,11 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 124 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
 ne 287.
 
 
-Package natbib Warning: Citation `byr10' on page 124 undefined on input line 28
+Package natbib Warning: Citation `byr10' on page 126 undefined on input line 28
 7.
 
 
@@ -1465,7 +1457,7 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 124 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
 ne 287.
 
 
@@ -1473,7 +1465,7 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 124 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
 ne 287.
 
 
@@ -1481,10 +1473,10 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 124 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
 ne 287.
 
-[124
+[126
 
 ]
 
@@ -1492,7 +1484,7 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 125 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 127 undefined on input 
 line 293.
 
 
@@ -1500,52 +1492,52 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 125 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 127 undefined on input 
 line 303.
 
-[125]
+[127]
 
 Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 126 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
 ne 306.
 
 
-Package natbib Warning: Citation `byr10' on page 126 undefined on input line 32
+Package natbib Warning: Citation `byr10' on page 128 undefined on input line 32
 4.
 
-[126]
+[128]
 
-Package natbib Warning: Citation `byr10' on page 127 undefined on input line 34
+Package natbib Warning: Citation `byr10' on page 129 undefined on input line 34
 7.
 
-[127]
+[129]
 
-Package natbib Warning: Citation `byr10' on page 128 undefined on input line 35
+Package natbib Warning: Citation `byr10' on page 130 undefined on input line 35
 4.
 
-[128]) [129]
+[130]) [131]
 \openout2 = `5/shocks.aux'.
 
  (./5/shocks.tex
 Chapter 5.
-) [130
+) [132
 
 
 
-] [131]
+] [133]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-[132
+[134
 
 
 
-] [133] [134] [135]
-<images/MHD_vary_mach&thetaBn.pdf, id=2450, 597.23125pt x 845.1575pt>
+] [135] [136] [137]
+<images/MHD_vary_mach&thetaBn.pdf, id=2486, 597.23125pt x 845.1575pt>
 File: images/MHD_vary_mach&thetaBn.pdf Graphic file (type pdf)
 
 <use images/MHD_vary_mach&thetaBn.pdf>
@@ -1560,21 +1552,21 @@ Overfull \hbox (10.01276pt too wide) in paragraph at lines 77--78
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[136]) [137 <./images/MHD_vary_mach&thetaBn.pdf>] (./thesis.bbl (./thesis.brf)
+[138]) [139 <./images/MHD_vary_mach&thetaBn.pdf>] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
 
-[138
+[140
 
 
-] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
-[150] [151] [152] [153] [154] [155] [156] [157] [158])
+] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
+[152] [153] [154] [155] [156] [157] [158] [159] [160] [161])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
-[159]
+[162]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./thesis.aux (./0/declaration.aux) (./0/abstract.aux)
 (./0/dedication.aux) (./0/acknowledgement.aux) (./0/publications.aux)
@@ -1583,10 +1575,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2C9E1D5382A33E9D8E9EB636181E12CA;5510.
-Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 64BABA363CF025E65E85C0284743F14C;17306.
+(rerunfilecheck)             Checksum: 5E6801C8983D2CC1BCBFD0781074E0F5;5513.
 
+
+Package rerunfilecheck Warning: File `thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis.brf':
+(rerunfilecheck)             Before: 5050F98985011662666559696703B001;17819
+(rerunfilecheck)             After:  D8945BA70D8D723F54D070721FF2C09E;17819.
 
 LaTeX Warning: There were undefined references.
 
@@ -1596,13 +1593,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
- 12239 strings out of 493488
- 179943 string characters out of 3141327
- 282490 words of memory out of 3000000
- 14617 multiletter control sequences out of 15000+200000
+ 12294 strings out of 493488
+ 180851 string characters out of 3141327
+ 284440 words of memory out of 3000000
+ 14663 multiletter control sequences out of 15000+200000
  20168 words of font info for 69 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,12n,50p,1907b,1134s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,50p,1907b,1164s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1654,10 +1651,10 @@ public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (173 pages, 21740863 bytes).
+Output written on thesis.pdf (176 pages, 21748272 bytes).
 PDF statistics:
- 3090 PDF objects out of 3580 (max. 8388607)
- 2705 compressed objects within 28 object streams
- 602 named destinations out of 1000 (max. 500000)
+ 3138 PDF objects out of 3580 (max. 8388607)
+ 2750 compressed objects within 28 object streams
+ 611 named destinations out of 1000 (max. 500000)
  840 words of extra memory for PDF output out of 10000 (max. 10000000)
 
