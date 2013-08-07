@@ -118,8 +118,32 @@ These white light imagers of the corona allow for a stereoscopic view of CMEs in
 \subsection{STEREO WAVES}\label{sec:31}
 
 \subsection{Nancay Decametric Array}\label{sec:32}
-
+\clearpage
 \subsection{Nancay Radioheliograph}\label{sec:33}
+
+Radio images of the solar corona are important to probe both quiet activity and also flaring an eruptive activity. As described in Section 2.X, flaring and eruptive activity may often result in high speed electrons which can excite plasma emission and gyrosynchrotron emission. The Nan\c{c}ay Radioheliograph is a solar-dedicated radio interferometer located at Nan\c{c}ay, central France ($47^{\circ}$N~$2^{\circ}$E), that observed such activity at ten frequencies between 150 and 450\,MHz.
+
+The array antennas are arranged in a perpendicular \textquoteleft T' shape. The east west array consisting 19 antennas providing baselines in the range of 50\,m to 3200\,m. Four these antennas have parabolic collectors with four orthogonal thick dipole feeds at the focus providing two orthogonal polarizations in the 150-450\,MHz band. The remaining 15 have no collectors (no dishes) and consist only of thick dipole antennas providing linear polarization only. The north-south array consists of 24 five meter dishes with wide band feeds, covering baselines between 54 to 1248\,m. The antenna front end electronics include low noise high dynamic range (XdB) pre-amplifiers, band filters for frequency switching and a local oscillator which mixes the signal 113\,MHz before it is sent to the receiver \citep{avignon1989}. At the receiver the signal is further mixed down to 10.7\,MHz and fed through a bandpass filter of 700\,kHz width (final bandwidth of each observed frequency), digitized and sent to the correlator.
+
+%Mark II: monofrequency east-west (169 MHz)
+%Mark III: monofrequency east-west and north-south (169 MHz), receiver has 45 dB dynamic range (Bonmartin 1983)
+%Mark IV: multifrequency (5) on north-south (150-450 MHz), monofrequency on the east-west (164 MHz) (Avignon 1989)
+% Multifrequency (5) on north-south and east-west baslines (150-450 MHz) (1993 AdSpR)
+%Present: multifreqquency (10) on north-south and east-west baselines (150-450 MHz), digital correlator added (Kerdraon 1997)
+
+The original array consisted of only the east-west baselines, with the north-south being added later in the early 1980s \citep{bonmartin1983}, hence the two separate arrays operate off different correlators. The visibility outputs of each correlator are digitized by sampling every 5\,ms, resulting in 4 images every 5\,ms (Stokes I and V for the east-west and north south arrays), with a down sampling of by integrating at least 4 successive images in order to ease storage loads \citep{avignon1989}. However, these images are only 1D, offering intensity profiles along east-west or north-south direction. Originally, full 2D maps were created by Earth rotation synthesis using the standard 1D observations over one entire day \citep{nrh1993}. A more modern operation provides 2D images using the most westerly 17 antennas of the east-west baseline \citep{kerdraon1997}. This means there is only a maximum baseline of 100\,m for 2D imaging, resulting in a spatial resolution that is 4 times lower than the 1D images. 
+
+Instrument phase and gain calibration calibration is performed by observing Cygnus A. Phase and gain accuracy for these measurements are $5^{\circ}$ and 5\%, respectively, with 1 calibration per week being performed \citep{avignon1989}
+%The Mark IV Nancay Radioheliograph Solar Physics 120 p193) 
+%Correlation is performed independently for the EW and NS baselines
+
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.6, angle=90]{nrh_layout}
+\caption[The Nancay Radioheliograph layout]{The Nancay Radioheliograph layout}
+\end{center}
+\label{fig:eclipse}
+\end{figure}
 
 
 

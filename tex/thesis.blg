@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.7)
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 0/declaration.aux
 A level-1 auxiliary file: 0/abstract.aux
@@ -27,11 +28,12 @@ Repeated entry---line 979 of file mybib.bib
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
 --line 2581 of file mybib.bib
-Warning--I didn't find a database entry for "byr10"
 Warning--I didn't find a database entry for "mano2003"
 Warning--I didn't find a database entry for "newkirk1961"
 Warning--I didn't find a database entry for "saito1977"
+Warning--I didn't find a database entry for "bonmartin1983"
 Warning--I didn't find a database entry for "Schrij2008"
+Warning--I didn't find a database entry for "byr10"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in bil66
 Warning--missing publisher in bil66
@@ -48,7 +50,7 @@ Warning--missing publisher in priest2000
 Warning--missing publisher in spitzer1962
 You've used 208 entries,
             3018 wiz_defined-function locations,
-            1726 strings with 41410 characters,
+            1727 strings with 41423 characters,
 and the built_in function-call counts, 144702 in all, are:
 = -- 11640
 > -- 8379
