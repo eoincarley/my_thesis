@@ -71,10 +71,7 @@ Before the early 20th century the only way to view the corona was for a short pe
 
 \subsection{Lyot Coronagraph}\label{sec:22}
 The Lyot Coronagraph is the name given to the first optical design of a coronagraph developed by Bernard Lyot. A basic schematic of the instrument is given in Figure~\ref{fig:lyot}. The optical element O1 is a lens that is extremely polished to prevent scattering and reflections of incident light. O1 creates an image of the Sun onto its focal plane at F1 where the occulting disk, D1, reflects away the unwanted solar disk image. F1 then images the objective lens and the occulting disk onto the plane of O2. Lyot's key invention was the Lyot stop and Lyot spot. These are devices onto which light diffracted at the occulting disk is directed and subsequently blocked from being imaged by the final lens O2. O2 then images the faint corona and occulting disk onto the detector plane. 
-
-The Lyot coronagraph is described as internally occulting due to the placement of the occulting disk behind the first objective lens. This is to distinguish it from a externally occulted system in which the disk is placed in front of the objective lens. Modern coronagraphs follow the same basic design of Lyot's but contain extra features such as baffles to stop any scattered light in the telescope. 
-
-\begin{figure}[!h]
+\begin{figure}[!t]
 \begin{center}
 \includegraphics[trim=0cm 1.0cm 0cm 0cm, scale=0.8]{images/Lyot_coronagraph}
 \caption[The Lyot coronagraph]{A schematic of the basic optical design of the Lyot coronagraph. Lyot's key inventions where the placement of a Lyot stop and Lyot spot at the positions where diffracted light would contaminate the image and obscure the faint corona.}
@@ -82,34 +79,60 @@ The Lyot coronagraph is described as internally occulting due to the placement o
 \end{center}
 \end{figure}
 
+The Lyot coronagraph is described as internally occulting due to the placement of the occulting disk behind the first objective lens. This is to distinguish it from a externally occulted system in which the disk is placed in front of the objective lens. Modern coronagraphs follow the same basic design of Lyot's but contain extra features such as baffles to stop any scattered light in the telescope. 
+
 \subsection{STEREO COR1 and COR2}\label{sec:22}
 The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai08} Ahead and Behind are two nearly identical spacecraft traveling ahead and behind Earth in its orbit. Each spacecraft is receding from Earth at a rate of $\pm22^{\circ}$ per year, such that they are effectively traveling around the Sun in opposite directions. They carry an identical set of instruments known as the Sun Earth Coronal Connection and Heliospheric Investigation (SECCHI) suite, including in situ detectors and a variety of imagers. On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
-
-COR1 is an internally occulted Lyot coronagraph, see Figure~\ref{fig:COR1_design}. It images the inner corona with a field of view from $1.4 - 4.5\,R_{\odot}$ in a waveband 22.5\,nm wide centered on the H$\alpha$ line at 656\,nm. It has an internal polarizer that takes three images at $0^{\circ}$, $120^{\circ}$, and $240^{\circ}$, so that polarized or total brightness images of the inner corona may be produced. It nominally produces $1024\times1024$ pixel images with platescale of 3.75 arcsec per pixel \citep{thomp2008}. A typical observing sequence will give an image cadence of 10 minutes.
-
-COR2 is an externally occulted Lyot coronagraph. Externally occulted coronagraphs have an extra occulting disk in front of the objective lens, see Figure~\ref{fig:cor2}. This is to prevent direct sunlight scattering off of the objective lens, making internally scattered light less of a problem for this type of coronagraph. A downside to this design is that the external occulter does not allow the inner corona to be imaged, hence such coronagraphs are usually used to observe the extended corona to larger heights. COR2 observes the corona in a field of view from $2.5 - 15\,R_{\odot}$ and in a wavelength range of $650 - 750$\,nm. It nominally produces $2048\times2048$ images, with 14.7 arsec per pixel. Like COR1 it has an internal polarizer producing three linearly polarized images per observing sequence (30 minutes).
-
-These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[width=0.95\textwidth]{images/COR1_design}
+\includegraphics[width=0.8\textwidth]{images/COR1_design}
 \caption[The COR1 coronagraph]{A schematic of the basic optical design of the the COR1 coronagraph. There are two such identical instruments, one on the Ahead and one on the Behind spacecraft. It is the same basic design as the Lyot coronagraph with the addition of baffles to prevent scattered light and a polarizer behind the Lyot stop \citep{thomp2008}.}
 \label{fig:COR1_design}
 \end{center}
 \end{figure}
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[width=0.9\textwidth]{images/cor2}
+\includegraphics[width=0.8\textwidth]{images/cor2}
 \caption[The COR2 coronagraph]{A schematic of the basic optical design of the COR2 coronagraph. This is an externally occulted coronagraph, meaning it has an extra occultation disk in front of the objective lens. This results in less internally scattered light, but also results in an obscuration of the inner corona. As with COR1, there are two such identical instruments, one on the Ahead and one on the Behind spacecraft \citep{how08}.}
 \label{fig:cor2}
 \end{center}
 \end{figure}
 
-\clearpage
+
+COR1 is an internally occulted Lyot coronagraph, see Figure~\ref{fig:COR1_design}. It images the inner corona with a field of view from $1.4 - 4.5\,R_{\odot}$ in a waveband 22.5\,nm wide centered on the H$\alpha$ line at 656\,nm. It has an internal polarizer that takes three images at $0^{\circ}$, $120^{\circ}$, and $240^{\circ}$, so that polarized or total brightness images of the inner corona may be produced. It nominally produces $1024\times1024$ pixel images with platescale of 3.75 arcsec per pixel \citep{thomp2008}. A typical observing sequence will give an image cadence of 10 minutes.
+
+COR2 is an externally occulted Lyot coronagraph. Externally occulted coronagraphs have an extra occulting disk in front of the objective lens, see Figure~\ref{fig:cor2}. This is to prevent direct sunlight scattering off of the objective lens, making internally scattered light less of a problem for this type of coronagraph. A downside to this design is that the external occulter does not allow the inner corona to be imaged, hence such coronagraphs are usually used to observe the extended corona to larger heights. COR2 observes the corona in a field of view from $2.5 - 15\,R_{\odot}$ and in a wavelength range of $650 - 750$\,nm. It nominally produces $2048\times2048$ images, with 14.7 arsec per pixel. Like COR1 it has an internal polarizer producing three linearly polarized images per observing sequence (30 minutes).
+
+These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
+
 \subsection{SOHO LASCO}\label{sec:23}
 
+The Large Angle Spectroscopic Coronagraph (LASCO) on board the Solar and Heliospheric Observatory (SOHO) comprises three different coronagraphs, C1, C2, and C3, that were built to observe the corona over heliocentric distance range of 1.1--30\,$R_{\odot}$ \citep{bru95}. 
+
+C1 is a mirror version of the internally occulted Lyot coronagraph that images the corona over a distance range of $1.1- 3\,R_{\odot}$. A tunable Fabrey-Perot interferometer is placed after the Lyot stop to allow narrow passband images of the solar corona at the lines of Fe\rmnum{14}, Ca\rmnum{15}, Na\rmnum{1}, Fe\rmnum{10}, and H$\alpha$,
+C1 operates a $1024\times1024$ CCD with a pixel size of $5.6"$, giving a spatial resolution of $\sim11"$. The Rayleigh diffraction limited resolution of the telescope if $3.3"$ at $530.3$\,nm. Unfortunately C1 failed in 1997 and is no longer in operation. 
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.4]{c2_concept.png}
+\caption[The LASCO C2 coronagraph optics]{Conceptual optical layout of the LASCO C2 corongraph. The top ray-tracing diagram shows the image formation, while the bottom diagram demonstrates the stray light supression and occultation \citep{bru95}.}
+\label{fig:c2_concept}
+\end{center}
+\end{figure}
+
+C2 is an externally occulted, broadband, lens coronagraph that images the corona from $1.5-6\,R_{\odot}$\footnote{The levels of stray-light just beyond the occulter mean that in practice the C2 inner field of view limit is $2.2\,R_{\odot}$}. The conceptual diagram for its optical layout is shown in Figure~\ref{fig:c2_concept}. The front aperture A0 is on the left of the diagram and includes the external occulter D1, consisting of three consecutive circular disks on a common spindle, these disks completely shadow the entrance aperture A1 from direct sunlight. The disks also successively intercept diffracted sunlight from the one before to minimize the total diffracted light from the solar disk falling on the object lens O1. 
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.5, angle=90]{c2_detail.png}
+\caption[The LASCO C2 coronagraph detail]{A detailed layout of the C2 coronagraph optics and mechanical construct \citep{bru95}.}
+\label{fig:c2_detail}
+\end{center}
+\end{figure}
+The disks have fine threads on their edges that have been diamond machined, and have a cone opening angle that is slightly bigger than the solar disk at L1 ($32.31^"$). This ensures a very high level of light rejection at the external occulter. The objective lens O1 images the corona at the field stop, which sets the outer limit to the field of view of the telescope ($5\,R_{\odot}$ for C2). O1 also images D1 onto the D2 internal occulter, which also serves to intercept any residual stray light diffracted at D1. The lens O2 collimates the coronal image and also images the entrance aperture A1 onto the Lyot stop A3. Finally the lens O3 images the corona onto the focal plane F. The combination of the internal and external occulters, the aperture stops, and a heat rejection mirror at the entrance aperture (Figure~\ref{fig:c2_detail}), mean that the the coronagraph has stray light levels that are an order of magnitude improvement over previous space based coronagraphs e.g., stray light levels are typically an order of magnitude or more lower than the coronal brightness, allowing the detection of features in the range of $2\times10^{-7} - 15\times0^{-10}\,\mathrm{B}_{\odot}$ where $\mathrm{B}_{\odot}$ is mean solar brightness (MSB) unit \citep{bru95}.
+
+The light focused onto the focal plane by the O3 lens first pases through colour filter and polarizer wheel, which selects the band pass and takes three polarization images at $0^{\circ}$, $-60^{\circ}$ and $+60^{\circ}$ such that total or polarized brightness images of the corona may be taken. Mounted at the focal plane is a front-side illuminated $1024\times1024$ CCD, with $21\mu$ square pixels (equivalent angular size if 11.4"),  operating in a nominal spectral range of $500-700$\,nm, at a temperature of $-80^{\circ}$\,C. CCD readout takes approximately 22 seconds, after which the image may be compressed by a number of algorithms before being sent to the ground station. Among the observing nominal modes are routine flat-field exposures and dark current exposures to be used in calibration. At current operations the C2 coronagraph offers a total brightness image of the corona every 15 minutes.  
 
 
+Finally, C3 is an externally occulted broadband lens coronagraph that images the corona from $3.7-30\,R_{\odot}$, with a pixel size of $56"$ and brightness range of $3\times10^{-9} - 1\times10^{-11}$. It has the same optical design as C2 (Figure~\ref{fig:c2_concept}).
 
 \section{Radio Spectrometers and Radioheliographs}\label{sec:3}
 

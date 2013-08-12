@@ -43,32 +43,32 @@
 \contentsline {subsection}{\numberline {3.1.2}White-light observations of CMEs}{98}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Coronagraphs}{98}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Lyot Coronagraph}{99}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}STEREO COR1 and COR2}{99}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}SOHO LASCO}{104}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Radio Spectrometers and Radioheliographs}{104}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}RSTO Callisto}{104}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}STEREO WAVES}{104}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Nan\c {c}ay Decametric Array}{104}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Nancay Radioheliograph}{105}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}EUV imaging}{108}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}SDO AIA}{108}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}Coronal Mass Ejection Masses, Energetics, and Dynamics}{109}{chapter.4}
-\contentsline {section}{\numberline {4.1}Masses}{109}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Observations}{112}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Evaluation of Uncertainties}{115}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Masses}{119}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Energies and Dynamics}{123}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Forces acting on CMEs}{127}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Conclusion}{130}{section.4.3}
-\contentsline {chapter}{\numberline {5}Coronal Mass Ejection Masses, Shocks, and Particle Acceleration}{132}{chapter.5}
-\contentsline {section}{\numberline {5.1}Radio Bursts}{133}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Type II, Type III, and Herringbones}{133}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}EUV Wave and Radio Source}{133}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Relationship with Radio Spectra}{133}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Role of the CME}{133}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}CME Bow Shock}{133}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Relationship Between CME, CBF, and Radio bursts}{133}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{134}{appendix.A}
-\contentsline {section}{\numberline {A.1}Radio burst intensity}{135}{section.A.1}
-\contentsline {section}{\numberline {A.2}Band-splitting}{136}{section.A.2}
-\contentsline {chapter}{References}{140}{appendix*.54}
+\contentsline {subsection}{\numberline {3.2.2}STEREO COR1 and COR2}{100}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}SOHO LASCO}{102}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Radio Spectrometers and Radioheliographs}{106}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}RSTO Callisto}{106}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}STEREO WAVES}{106}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Nan\c {c}ay Decametric Array}{106}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Nancay Radioheliograph}{107}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}EUV imaging}{110}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}SDO AIA}{110}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}Coronal Mass Ejection Masses, Energetics, and Dynamics}{111}{chapter.4}
+\contentsline {section}{\numberline {4.1}Masses}{111}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Observations}{114}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Evaluation of Uncertainties}{117}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Masses}{121}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Energies and Dynamics}{125}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Forces acting on CMEs}{129}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Conclusion}{132}{section.4.3}
+\contentsline {chapter}{\numberline {5}Coronal Mass Ejection Masses, Shocks, and Particle Acceleration}{134}{chapter.5}
+\contentsline {section}{\numberline {5.1}Radio Bursts}{135}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Type II, Type III, and Herringbones}{135}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}EUV Wave and Radio Source}{135}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Relationship with Radio Spectra}{135}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Role of the CME}{135}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}CME Bow Shock}{135}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Relationship Between CME, CBF, and Radio bursts}{135}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{136}{appendix.A}
+\contentsline {section}{\numberline {A.1}Radio burst intensity}{137}{section.A.1}
+\contentsline {section}{\numberline {A.2}Band-splitting}{138}{section.A.2}
+\contentsline {chapter}{References}{142}{appendix*.56}
