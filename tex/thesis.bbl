@@ -1,4 +1,4 @@
-\begin{thebibliography}{214}
+\begin{thebibliography}{219}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -71,6 +71,14 @@
   Imaging of Shock-accelerated Electrons Associated with an Erupting Plasmoid
   on 2010 November 3}. {\em \apj\/}, {\bf 750}, 44.
 
+\bibitem[{{Bale} {\em et~al.\/}(2008){Bale}, {Ullrich}, {Goetz}, {Alster},
+  {Cecconi}, {Dekkali}, {Lingner}, {Macher}, {Manning}, {McCauley}, {Monson},
+  {Oswald} \& {Pulupa}}]{bale2008}
+{\sc {Bale}, S.D., {Ullrich}, R., {Goetz}, K., {Alster}, N., {Cecconi}, B.,
+  {Dekkali}, M., {Lingner}, N.R., {Macher}, W., {Manning}, R.E., {McCauley},
+  J., {Monson}, S.J., {Oswald}, T.H. \& {Pulupa}, M.} (2008). {The Electric
+  Antennas for the STEREO/WAVES Experiment}. {\em \ssr\/}, {\bf 136}, 529--547.
+
 \bibitem[{{Balfour}(1861)}]{balfour1861}
 {\sc {Balfour}, S.} (1861). {On the Great Magnetic Disturbance Which Extended
   from August 28 to September 7, 1859, as Recorded by Photography at the Kew
@@ -116,6 +124,14 @@
   {Raoult}, A.} (1983). {The Mark III Nancay Radioheliograph}. {\em
   \solphys\/}, {\bf 88}, 383--390.
 
+\bibitem[{{Bougeret} {\em et~al.\/}(1995){Bougeret}, {Kaiser}, {Kellogg},
+  {Manning}, {Goetz}, {Monson}, {Monge}, {Friel}, {Meetre}, {Perche}, {Sitruk}
+  \& {Hoang}}]{bougeret1995}
+{\sc {Bougeret}, J.L., {Kaiser}, M.L., {Kellogg}, P.J., {Manning}, R., {Goetz},
+  K., {Monson}, S.J., {Monge}, N., {Friel}, L., {Meetre}, C.A., {Perche}, C.,
+  {Sitruk}, L. \& {Hoang}, S.} (1995). {Waves: The Radio and Plasma Wave
+  Investigation on the Wind Spacecraft}. {\em \ssr\/}, {\bf 71}, 231--263.
+
 \bibitem[{{Bougeret} {\em et~al.\/}(1998){Bougeret}, {Zarka}, {Caroubalos},
   {Karlick{\'y}}, {Leblanc}, {Maroulis}, {Hillaris}, {Moussas},
   {Alissandrakis}, {Dumas} \& {Perche}}]{bougeret1998}
@@ -124,6 +140,26 @@
   {Alissandrakis}, C.E., {Dumas}, G. \& {Perche}, C.} (1998). {A shock
   associated (SA) radio event and related phenomena observed from the base of
   the solar corona to 1 AU}. {\em \grl\/}, {\bf 25}, 2513--2516.
+
+\bibitem[{{Bougeret} {\em et~al.\/}(2008){Bougeret}, {Goetz}, {Kaiser}, {Bale},
+  {Kellogg}, {Maksimovic}, {Monge}, {Monson}, {Astier}, {Davy}, {Dekkali},
+  {Hinze}, {Manning}, {Aguilar-Rodriguez}, {Bonnin}, {Briand}, {Cairns},
+  {Cattell}, {Cecconi}, {Eastwood}, {Ergun}, {Fainberg}, {Hoang}, {Huttunen},
+  {Krucker}, {Lecacheux}, {MacDowall}, {Macher}, {Mangeney}, {Meetre},
+  {Moussas}, {Nguyen}, {Oswald}, {Pulupa}, {Reiner}, {Robinson}, {Rucker},
+  {Salem}, {Santolik}, {Silvis}, {Ullrich}, {Zarka} \&
+  {Zouganelis}}]{bougeret2008}
+{\sc {Bougeret}, J.L., {Goetz}, K., {Kaiser}, M.L., {Bale}, S.D., {Kellogg},
+  P.J., {Maksimovic}, M., {Monge}, N., {Monson}, S.J., {Astier}, P.L., {Davy},
+  S., {Dekkali}, M., {Hinze}, J.J., {Manning}, R.E., {Aguilar-Rodriguez}, E.,
+  {Bonnin}, X., {Briand}, C., {Cairns}, I.H., {Cattell}, C.A., {Cecconi}, B.,
+  {Eastwood}, J., {Ergun}, R.E., {Fainberg}, J., {Hoang}, S., {Huttunen},
+  K.E.J., {Krucker}, S., {Lecacheux}, A., {MacDowall}, R.J., {Macher}, W.,
+  {Mangeney}, A., {Meetre}, C.A., {Moussas}, X., {Nguyen}, Q.N., {Oswald},
+  T.H., {Pulupa}, M., {Reiner}, M.J., {Robinson}, P.A., {Rucker}, H., {Salem},
+  C., {Santolik}, O., {Silvis}, J.M., {Ullrich}, R., {Zarka}, P. \&
+  {Zouganelis}, I.} (2008). {S/WAVES: The Radio and Plasma Wave Investigation
+  on the STEREO Mission}. {\em \ssr\/}, {\bf 136}, 487--528.
 
 \bibitem[{{Brueckner} {\em et~al.\/}(1995){Brueckner}, {Howard}, {Koomen},
   {Korendyke}, {Michels}, {Moses}, {Socker}, {Dere}, {Lamy}, {Llebaria},
@@ -437,6 +473,22 @@
 {\sc {Guo}, F. \& {Giacalone}, J.} (2010). {The Effect of Large-scale Magnetic
   Turbulence on the Acceleration of Electrons by Perpendicular Collisionless
   Shocks}. {\em \apj\/}, {\bf 715}, 406--411.
+
+\bibitem[{{Gurnett} {\em et~al.\/}(2004){Gurnett}, {Kurth}, {Kirchner},
+  {Hospodarsky}, {Averkamp}, {Zarka}, {Lecacheux}, {Manning}, {Roux}, {Canu},
+  {Cornilleau-Wehrlin}, {Galopeau}, {Meyer}, {Bostr{\"o}m}, {Gustafsson},
+  {Wahlund}, {{\AA}hlen}, {Rucker}, {Ladreiter}, {Macher}, {Woolliscroft},
+  {Alleyne}, {Kaiser}, {Desch}, {Farrell}, {Harvey}, {Louarn}, {Kellogg},
+  {Goetz} \& {Pedersen}}]{gurnett2004}
+{\sc {Gurnett}, D.A., {Kurth}, W.S., {Kirchner}, D.L., {Hospodarsky}, G.B.,
+  {Averkamp}, T.F., {Zarka}, P., {Lecacheux}, A., {Manning}, R., {Roux}, A.,
+  {Canu}, P., {Cornilleau-Wehrlin}, N., {Galopeau}, P., {Meyer}, A.,
+  {Bostr{\"o}m}, R., {Gustafsson}, G., {Wahlund}, J.E., {{\AA}hlen}, L.,
+  {Rucker}, H.O., {Ladreiter}, H.P., {Macher}, W., {Woolliscroft}, L.J.C.,
+  {Alleyne}, H., {Kaiser}, M.L., {Desch}, M.D., {Farrell}, W.M., {Harvey},
+  C.C., {Louarn}, P., {Kellogg}, P.J., {Goetz}, K. \& {Pedersen}, A.} (2004).
+  {The Cassini Radio and Plasma Wave Investigation}. {\em \ssr\/}, {\bf 114},
+  395--463.
 
 \bibitem[{{Hey}(1946)}]{hey1946}
 {\sc {Hey}, J.S.} (1946). {Solar Radiations in the 4-6 Metre Radio Wave-Length
@@ -980,6 +1032,14 @@
 {\sc {Stewart}, R.T., {McCabe}, M.K., {Koomen}, M.J., {Hansen}, R.T. \& {Dulk},
   G.A.} (1974). {Observations of Coronal Disturbances from 1 to 9 R$_{sun}$. I:
   First Event of 1973, January 11}. {\em \solphys\/}, {\bf 36}, 203--217.
+
+\bibitem[{{Stone} {\em et~al.\/}(1992){Stone}, {Bougeret}, {Caldwell}, {Canu},
+  {de Conchy}, {Cornilleau-Wehrlin}, {Desch}, {Fainberg}, {Goetz} \&
+  {Goldstein}}]{stone1992}
+{\sc {Stone}, R.G., {Bougeret}, J.L., {Caldwell}, J., {Canu}, P., {de Conchy},
+  Y., {Cornilleau-Wehrlin}, N., {Desch}, M.D., {Fainberg}, J., {Goetz}, K. \&
+  {Goldstein}, M.L.} (1992). {The Unified Radio and Plasma wave investigation}.
+  {\em \aaps\/}, {\bf 92}, 291--316.
 
 \bibitem[{{Sturrock}(1964)}]{sturrock1964}
 {\sc {Sturrock}, P.A.} (1964). {Type III Solar Radio Bursts}. {\em NASA Special

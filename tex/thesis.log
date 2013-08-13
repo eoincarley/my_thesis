@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.1)  12 AUG 2013 22:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.1)  13 AUG 2013 22:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -788,14 +788,14 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5]
-<images/solar_atmosphere.jpg, id=598, 154.176pt x 115.632pt>
+<images/solar_atmosphere.jpg, id=600, 154.176pt x 115.632pt>
 File: images/solar_atmosphere.jpg Graphic file (type jpg)
 
 <use images/solar_atmosphere.jpg>
 Package pdftex.def Info: images/solar_atmosphere.jpg used on input line 61.
 (pdftex.def)             Requested size: 400.00153pt x 263.1239pt.
  [6]
-<images/differential_rot.png, id=610, 1243.64626pt x 651.43375pt>
+<images/differential_rot.png, id=612, 1243.64626pt x 651.43375pt>
 File: images/differential_rot.png Graphic file (type png)
 
 <use images/differential_rot.png>
@@ -808,7 +808,7 @@ de-ter-mi-na-tion of in-te-rior ro-ta-tion rate in
  []
 
 [7 <./images/solar_atmosphere.jpg>] [8 <./images/differential_rot.png>]
-[9] <images/bfly_new.pdf, id=639, 794.97pt x 614.295pt>
+[9] <images/bfly_new.pdf, id=641, 794.97pt x 614.295pt>
 File: images/bfly_new.pdf Graphic file (type pdf)
 
 <use images/bfly_new.pdf>
@@ -819,7 +819,7 @@ Overfull \hbox (9.02084pt too wide) in paragraph at lines 100--101
  [] 
  []
 
-<images/Babcock.jpg, id=640, 387.94937pt x 193.72375pt>
+<images/Babcock.jpg, id=642, 387.94937pt x 193.72375pt>
 File: images/Babcock.jpg Graphic file (type jpg)
 
 <use images/Babcock.jpg>
@@ -830,14 +830,14 @@ Package pdftex.def Info: images/Babcock.jpg used on input line 107.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./images/bfly_new.pdf>] [11 <./images/Babcock.jpg>] [12] [13]
-<images/VAL.png, id=692, 1126.2075pt x 759.83875pt>
+<images/VAL.png, id=694, 1126.2075pt x 759.83875pt>
 File: images/VAL.png Graphic file (type png)
  <use images/VAL.png>
 Package pdftex.def Info: images/VAL.png used on input line 150.
 (pdftex.def)             Requested size: 337.86487pt x 227.95337pt.
 
 [14] [15 <./images/VAL.png>]
-<images/aia_171.jpg, id=737, 2055.68pt x 2055.68pt>
+<images/aia_171.jpg, id=739, 2055.68pt x 2055.68pt>
 File: images/aia_171.jpg Graphic file (type jpg)
  <use images/aia_171.jpg>
 Package pdftex.def Info: images/aia_171.jpg used on input line 195.
@@ -847,56 +847,56 @@ Package pdftex.def Info: images/aia_171.jpg used on input line 195.
 
 LaTeX Warning: Reference `fig:lowfeq' on page 17 undefined on input line 203.
 
-<images/low_freq_obs.png, id=742, 645.41125pt x 616.3025pt>
+<images/low_freq_obs.png, id=744, 645.41125pt x 616.3025pt>
 File: images/low_freq_obs.png Graphic file (type png)
 
 <use images/low_freq_obs.png>
 Package pdftex.def Info: images/low_freq_obs.png used on input line 206.
 (pdftex.def)             Requested size: 354.9773pt x 307.66931pt.
  [17 <./images/aia_171.jpg>] [18 <./images/low_freq_obs.png>] [19] [20] [21] <i
-mages/lasco_c3.png, id=825, 513.92pt x 513.92pt>
+mages/lasco_c3.png, id=827, 513.92pt x 513.92pt>
 File: images/lasco_c3.png Graphic file (type png)
 
 <use images/lasco_c3.png>
 Package pdftex.def Info: images/lasco_c3.png used on input line 259.
 (pdftex.def)             Requested size: 231.26186pt x 231.26186pt.
  [22] [23 <./images/lasco_c3.png (PNG copy)>] [24]
-<images/cme_speed_histo.png, id=899, 791.95876pt x 796.9775pt>
+<images/cme_speed_histo.png, id=901, 791.95876pt x 796.9775pt>
 File: images/cme_speed_histo.png Graphic file (type png)
 
 <use images/cme_speed_histo.png>
 Package pdftex.def Info: images/cme_speed_histo.png used on input line 278.
 (pdftex.def)             Requested size: 316.7779pt x 296.02356pt.
 
-<images/gall_kins2003.png, id=904, 1224.575pt x 880.28876pt>
+<images/gall_kins2003.png, id=906, 1224.575pt x 880.28876pt>
 File: images/gall_kins2003.png Graphic file (type png)
 
 <use images/gall_kins2003.png>
 Package pdftex.def Info: images/gall_kins2003.png used on input line 285.
 (pdftex.def)             Requested size: 398.73184pt x 288.18846pt.
  [25] [26]
-<images/accel_zhang2006.png, id=936, 1069.9975pt x 902.37125pt>
+<images/accel_zhang2006.png, id=939, 1069.9975pt x 902.37125pt>
 File: images/accel_zhang2006.png Graphic file (type png)
 
 <use images/accel_zhang2006.png>
 Package pdftex.def Info: images/accel_zhang2006.png used on input line 296.
 (pdftex.def)             Requested size: 267.49872pt x 225.59225pt.
  [27 <./images/cme_speed_histo.png>] [28 <./images/gall_kins2003.png>] <images/
-zhang2001.png, id=961, 754.82pt x 746.79pt>
+zhang2001.png, id=963, 754.82pt x 746.79pt>
 File: images/zhang2001.png Graphic file (type png)
 
 <use images/zhang2001.png>
 Package pdftex.def Info: images/zhang2001.png used on input line 306.
 (pdftex.def)             Requested size: 301.92265pt x 275.94891pt.
  [29 <./images/accel_zhang2006.png>] [30 <./images/zhang2001.png>] [31]
-<images/cme_energies.png, id=1006, 1279.78125pt x 890.32625pt>
+<images/cme_energies.png, id=1008, 1279.78125pt x 890.32625pt>
 File: images/cme_energies.png Graphic file (type png)
 
 <use images/cme_energies.png>
 Package pdftex.def Info: images/cme_energies.png used on input line 330.
 (pdftex.def)             Requested size: 477.76074pt x 333.3624pt.
 
-<images/energy_dist.png, id=1013, 1476.51625pt x 767.86874pt>
+<images/energy_dist.png, id=1015, 1476.51625pt x 767.86874pt>
 File: images/energy_dist.png Graphic file (type png)
 
 <use images/energy_dist.png>
@@ -919,7 +919,7 @@ Overfull \vbox (7.56078pt too high) has occurred while \output is active []
 
 
 [33 <./images/cme_energies.png>] [34 <./images/energy_dist.png>]
-<images/vrsnak_lorentz.png, id=1046, 714.67pt x 854.19125pt>
+<images/vrsnak_lorentz.png, id=1048, 714.67pt x 854.19125pt>
 File: images/vrsnak_lorentz.png Graphic file (type png)
 
 <use images/vrsnak_lorentz.png>
@@ -931,35 +931,35 @@ LaTeX Warning: Reference `fig:acellmagdur' on page 36 undefined on input line 3
 65.
 
 [36 <./images/vrsnak_lorentz.png>]
-<images/typeII.png, id=1078, 1447.4075pt x 758.835pt>
+<images/typeII.png, id=1080, 1447.4075pt x 758.835pt>
 File: images/typeII.png Graphic file (type png)
  <use images/typeII.png>
 Package pdftex.def Info: images/typeII.png used on input line 384.
 (pdftex.def)             Requested size: 333.39832pt x 161.2556pt.
 
 [37] [38 <./images/typeII.png>]
-<images/radio_shock.pdf, id=1129, 250.18388pt x 128.93349pt>
+<images/radio_shock.pdf, id=1131, 250.18388pt x 128.93349pt>
 File: images/radio_shock.pdf Graphic file (type pdf)
 
 <use images/radio_shock.pdf>
 Package pdftex.def Info: images/radio_shock.pdf used on input line 419.
 (pdftex.def)             Requested size: 275.20311pt x 126.17822pt.
  [39] [40 <./images/radio_shock.pdf>]
-<images/cho_trim.png, id=1179, 1484.54625pt x 699.61375pt>
+<images/cho_trim.png, id=1181, 1484.54625pt x 699.61375pt>
 File: images/cho_trim.png Graphic file (type png)
 
 <use images/cho_trim.png>
 Package pdftex.def Info: images/cho_trim.png used on input line 431.
 (pdftex.def)             Requested size: 400.83286pt x 173.53354pt.
 
-<images/reiner2001.pdf, id=1184, 713.66624pt x 584.1825pt>
+<images/reiner2001.pdf, id=1186, 713.66624pt x 584.1825pt>
 File: images/reiner2001.pdf Graphic file (type pdf)
 
 <use images/reiner2001.pdf>
 Package pdftex.def Info: images/reiner2001.pdf used on input line 440.
 (pdftex.def)             Requested size: 171.30295pt x 146.04526pt.
 
-<images/mancuso_kins2.png, id=1189, 1037.8775pt x 398.48875pt>
+<images/mancuso_kins2.png, id=1191, 1037.8775pt x 398.48875pt>
 File: images/mancuso_kins2.png Graphic file (type png)
 
 <use images/mancuso_kins2.png>
@@ -973,7 +973,7 @@ Overfull \hbox (2.57869pt too wide) in paragraph at lines 447--448
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/mancuso_uvcs.pdf, id=1194, 794.97pt x 614.295pt>
+<images/mancuso_uvcs.pdf, id=1196, 794.97pt x 614.295pt>
 File: images/mancuso_uvcs.pdf Graphic file (type pdf)
 
 <use images/mancuso_uvcs.pdf>
@@ -985,35 +985,35 @@ Overfull \hbox (87.63329pt too wide) in paragraph at lines 455--456
  []
 
 [41] [42 <./images/cho_trim.png> <./images/reiner2001.pdf>]
-<images/miteva_herbones.pdf, id=1258, 240.9pt x 189.67873pt>
+<images/miteva_herbones.pdf, id=1260, 240.9pt x 189.67873pt>
 File: images/miteva_herbones.pdf Graphic file (type pdf)
 
 <use images/miteva_herbones.pdf>
 Package pdftex.def Info: images/miteva_herbones.pdf used on input line 481.
 (pdftex.def)             Requested size: 337.25768pt x 265.54839pt.
  [43 <./images/mancuso_kins2.png>] [44 <./images/mancuso_uvcs.pdf>]
-<images/eit_19970512_wave.jpg, id=1302, 803.0pt x 275.0275pt>
+<images/eit_19970512_wave.jpg, id=1304, 803.0pt x 275.0275pt>
 File: images/eit_19970512_wave.jpg Graphic file (type jpg)
 
 <use images/eit_19970512_wave.jpg>
 Package pdftex.def Info: images/eit_19970512_wave.jpg used on input line 494.
 (pdftex.def)             Requested size: 401.49902pt x 123.28706pt.
  [45]
-<images/grechnev2011.png, id=1331, 746.79pt x 880.28876pt>
+<images/grechnev2011.png, id=1333, 746.79pt x 880.28876pt>
 File: images/grechnev2011.png Graphic file (type png)
 
 <use images/grechnev2011.png>
 Package pdftex.def Info: images/grechnev2011.png used on input line 503.
 (pdftex.def)             Requested size: 198.43105pt x 247.01688pt.
  [46 <./images/miteva_herbones.pdf>] [47 <./images/eit_19970512_wave.jpg>]
-<images/shock_sim.png, id=1386, 1477.52pt x 549.05125pt>
+<images/shock_sim.png, id=1388, 1477.52pt x 549.05125pt>
 File: images/shock_sim.png Graphic file (type png)
 
 <use images/shock_sim.png>
 Package pdftex.def Info: images/shock_sim.png used on input line 514.
 (pdftex.def)             Requested size: 362.26593pt x 123.03613pt.
  [48 <./images/grechnev2011.png>] [49 <./images/shock_sim.png>] <images/wl_shoc
-k.pdf, id=1422, 308.83379pt x 306.4248pt>
+k.pdf, id=1424, 308.83379pt x 306.4248pt>
 File: images/wl_shock.pdf Graphic file (type pdf)
 
 <use images/wl_shock.pdf>
@@ -1040,21 +1040,21 @@ Overfull \hbox (14.14728pt too wide) in paragraph at lines 134--135
 -scribes the short timescale
  []
 
-[61] <images/reconnection.pdf, id=1546, 582.175pt x 501.875pt>
+[61] <images/reconnection.pdf, id=1548, 582.175pt x 501.875pt>
 File: images/reconnection.pdf Graphic file (type pdf)
 
 <use images/reconnection.pdf>
 Package pdftex.def Info: images/reconnection.pdf used on input line 143.
 (pdftex.def)             Requested size: 407.51973pt x 351.31009pt.
  [62] [63 <./images/reconnection.pdf>] [64]
-[65] <images/catastrophe.png, id=1633, 849.1725pt x 906.38625pt>
+[65] <images/catastrophe.png, id=1635, 849.1725pt x 906.38625pt>
 File: images/catastrophe.png Graphic file (type png)
 
 <use images/catastrophe.png>
 Package pdftex.def Info: images/catastrophe.png used on input line 182.
 (pdftex.def)             Requested size: 328.28209pt x 334.09584pt.
  [66] [67 <./images/catastrophe.png>] [68]
-<images/lynch_breakout.png, id=1693, 768.8725pt x 913.4125pt>
+<images/lynch_breakout.png, id=1695, 768.8725pt x 913.4125pt>
 File: images/lynch_breakout.png Graphic file (type png)
 
 <use images/lynch_breakout.png>
@@ -1065,21 +1065,21 @@ Package pdftex.def Info: images/lynch_breakout.png used on input line 217.
 Package natbib Warning: Citation `mano2003' on page 71 undefined on input line 
 225.
 
-<images/chen_model.png, id=1725, 677.53125pt x 564.1075pt>
+<images/chen_model.png, id=1727, 677.53125pt x 564.1075pt>
 File: images/chen_model.png Graphic file (type png)
 
 <use images/chen_model.png>
 Package pdftex.def Info: images/chen_model.png used on input line 233.
 (pdftex.def)             Requested size: 271.00769pt x 202.87721pt.
  [71] [72] [73 <./images/chen_model.png>]
-<images/alfven_speed.png, id=1751, 1207.51125pt x 846.16125pt>
+<images/alfven_speed.png, id=1754, 1207.51125pt x 846.16125pt>
 File: images/alfven_speed.png Graphic file (type png)
 
 <use images/alfven_speed.png>
 Package pdftex.def Info: images/alfven_speed.png used on input line 257.
 (pdftex.def)             Requested size: 301.87708pt x 183.08711pt.
  [74] [75 <./images/alfven_speed.png>]
-<images/shock_pic.png, id=1762, 497.86pt x 404.51125pt>
+<images/shock_pic.png, id=1764, 497.86pt x 404.51125pt>
 File: images/shock_pic.png Graphic file (type png)
 
 <use images/shock_pic.png>
@@ -1121,7 +1121,7 @@ ame{equation.2.3.3}) has been already used, duplicate ignored
                    \relax 
 l.306 \end{align}
                   [79] [80]
-<images/nif_dht.png, id=1802, 993.7125pt x 378.41376pt>
+<images/nif_dht.png, id=1804, 993.7125pt x 378.41376pt>
 File: images/nif_dht.png Graphic file (type png)
 
 <use images/nif_dht.png>
@@ -1133,7 +1133,7 @@ Overfull \hbox (34.60153pt too wide) in paragraph at lines 328--329
  []
 
 [81 <./images/nif_dht.png>] [82]
-<images/sda_original.png, id=1818, 1026.83624pt x 703.62875pt>
+<images/sda_original.png, id=1820, 1026.83624pt x 703.62875pt>
 File: images/sda_original.png Graphic file (type png)
 
 <use images/sda_original.png>
@@ -1141,28 +1141,28 @@ Package pdftex.def Info: images/sda_original.png used on input line 353.
 (pdftex.def)             Requested size: 308.05325pt x 211.09026pt.
  [83 <./images/sda_original.png>] [84] [85]
 [86] [87] [88] [89] [90]
-<images/Cairns2003.pdf, id=1919, 358.70009pt x 148.3944pt>
+<images/Cairns2003.pdf, id=1921, 358.70009pt x 148.3944pt>
 File: images/Cairns2003.pdf Graphic file (type pdf)
 
 <use images/Cairns2003.pdf>
 Package pdftex.def Info: images/Cairns2003.pdf used on input line 487.
 (pdftex.def)             Requested size: 394.5713pt x 147.58528pt.
 
-<images/radiobursts.png, id=1935, 1229.59375pt x 572.1375pt>
+<images/radiobursts.png, id=1937, 1229.59375pt x 572.1375pt>
 File: images/radiobursts.png Graphic file (type png)
 
 <use images/radiobursts.png>
 Package pdftex.def Info: images/radiobursts.png used on input line 501.
 (pdftex.def)             Requested size: 410.44704pt x 180.3339pt.
  [91]
-<images/density_models.pdf, id=1947, 469.755pt x 505.89pt>
+<images/density_models.pdf, id=1949, 469.755pt x 505.89pt>
 File: images/density_models.pdf Graphic file (type pdf)
 
 <use images/density_models.pdf>
 Package pdftex.def Info: images/density_models.pdf used on input line 513.
 (pdftex.def)             Requested size: 165.13687pt x 179.5906pt.
 
-<images/1st_harmonic.pdf, id=1948, 469.755pt x 505.89pt>
+<images/1st_harmonic.pdf, id=1950, 469.755pt x 505.89pt>
 File: images/1st_harmonic.pdf Graphic file (type pdf)
 
 <use images/1st_harmonic.pdf>
@@ -1189,13 +1189,13 @@ t_harmonic.pdf>]
  (./3/Instrumentation.tex
 Chapter 3.
 
-Package caption Warning: \label without proper \caption on input line 157.
+Package caption Warning: \label without proper \caption on input line 174.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:eclipse' on page 95 undefined on input line 12.
 
-<images/solar_eclipse.jpg, id=1990, 903.375pt x 599.23875pt>
+<images/solar_eclipse.jpg, id=1992, 903.375pt x 599.23875pt>
 File: images/solar_eclipse.jpg Graphic file (type jpg)
 
 <use images/solar_eclipse.jpg>
@@ -1206,7 +1206,7 @@ Package pdftex.def Info: images/solar_eclipse.jpg used on input line 15.
 
 
 ] [96 <./images/solar_eclipse.jpg>]
-<images/Omega.png, id=2007, 979.66pt x 764.8575pt>
+<images/Omega.png, id=2009, 979.66pt x 764.8575pt>
 File: images/Omega.png Graphic file (type png)
  <use images/Omega.png>
 Package pdftex.def Info: images/Omega.png used on input line 59.
@@ -1215,7 +1215,7 @@ Package pdftex.def Info: images/Omega.png used on input line 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97] <images/Lyot_coronagraph.png, id=2018, 590.205pt x 304.13625pt>
+[97] <images/Lyot_coronagraph.png, id=2020, 590.205pt x 304.13625pt>
 File: images/Lyot_coronagraph.png Graphic file (type png)
 
 <use images/Lyot_coronagraph.png>
@@ -1227,14 +1227,14 @@ Overfull \hbox (59.59969pt too wide) in paragraph at lines 76--77
  []
 
 [98 <./images/Omega.png>] [99 <./images/Lyot_coronagraph.png (PNG copy)>]
-<images/COR1_design.png, id=2032, 1291.82625pt x 825.0825pt>
+<images/COR1_design.png, id=2034, 1291.82625pt x 825.0825pt>
 File: images/COR1_design.png Graphic file (type png)
 
 <use images/COR1_design.png>
 Package pdftex.def Info: images/COR1_design.png used on input line 88.
 (pdftex.def)             Requested size: 400.00153pt x 255.47078pt.
 
-<images/cor2.png, id=2037, 616.704pt x 429.7656pt>
+<images/cor2.png, id=2039, 616.704pt x 429.7656pt>
 File: images/cor2.png Graphic file (type png)
  <use images/cor2.png>
 Package pdftex.def Info: images/cor2.png used on input line 95.
@@ -1247,54 +1247,61 @@ Overfull \hbox (1.89899pt too wide) in paragraph at lines 85--100
  []
 
 [100] [101 <./images/COR1_design.png>]
-<images/c2_concept.png, id=2060, 979.66pt x 669.50125pt>
+<images/c2_concept.png, id=2062, 979.66pt x 669.50125pt>
 File: images/c2_concept.png Graphic file (type png)
 
 <use images/c2_concept.png>
 Package pdftex.def Info: images/c2_concept.png used on input line 116.
 (pdftex.def)             Requested size: 391.85706pt x 267.79576pt.
  [102 <./images/cor2.png (PNG copy)>]
-<images/c2_detail.png, id=2072, 919.435pt x 691.58376pt>
+<images/c2_detail.png, id=2074, 919.435pt x 691.58376pt>
 File: images/c2_detail.png Graphic file (type png)
 
 <use images/c2_detail.png>
 Package pdftex.def Info: images/c2_detail.png used on input line 125.
 (pdftex.def)             Requested size: 459.71637pt x 345.79103pt.
- [103 <./images/c2_concept.png>] [104 <./images/c2_detail.png>] [105] [106]
-<images/nrh_layout.png, id=2107, 987.69pt x 659.46375pt>
+ [103 <./images/c2_concept.png>] [104 <./images/c2_detail.png>] [105] <images/S
+tereo-antennas.png, id=2108, 763.1712pt x 361.35pt>
+File: images/Stereo-antennas.png Graphic file (type png)
+
+<use images/Stereo-antennas.png>
+Package pdftex.def Info: images/Stereo-antennas.png used on input line 150.
+(pdftex.def)             Requested size: 381.58467pt x 180.67456pt.
+ [106] [107 <./images/Stereo-antennas.png>]
+[108] <images/nrh_layout.png, id=2136, 987.69pt x 659.46375pt>
 File: images/nrh_layout.png Graphic file (type png)
 
 <use images/nrh_layout.png>
-Package pdftex.def Info: images/nrh_layout.png used on input line 154.
+Package pdftex.def Info: images/nrh_layout.png used on input line 173.
 (pdftex.def)             Requested size: 543.23119pt x 362.70618pt.
- [107]
+ [109]
 
-LaTeX Warning: Text page 108 contains only floats.
+LaTeX Warning: Text page 110 contains only floats.
 
-[108 <./images/nrh_layout.png>]
-Overfull \hbox (13.99936pt too wide) in paragraph at lines 172--186
+[110 <./images/nrh_layout.png>]
+Overfull \hbox (13.99936pt too wide) in paragraph at lines 191--205
 [][] 
  []
 
-) [109] [110]
+) [111] [112]
 \openout2 = `4/masses.aux'.
 
  (./4/masses.tex
 Chapter 4.
-[111
+[113
 
 
 
 ]
 
-Package natbib Warning: Citation `Schrij2008' on page 112 undefined on input li
+Package natbib Warning: Citation `Schrij2008' on page 114 undefined on input li
 ne 24.
 
 
-Package natbib Warning: Citation `byr10' on page 112 undefined on input line 25
+Package natbib Warning: Citation `byr10' on page 114 undefined on input line 25
 .
 
-[112] [113] <images/COR1AB_plotsfinal.pdf, id=2222, 578.16pt x 939.51pt>
+[114] [115] <images/COR1AB_plotsfinal.pdf, id=2250, 578.16pt x 939.51pt>
 File: images/COR1AB_plotsfinal.pdf Graphic file (type pdf)
 
 <use images/COR1AB_plotsfinal.pdf>
@@ -1304,7 +1311,7 @@ Package pdftex.def Info: images/COR1AB_plotsfinal.pdf used on input line 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/COR2AB_paperplots.pdf, id=2223, 578.16pt x 939.51pt>
+<images/COR2AB_paperplots.pdf, id=2251, 578.16pt x 939.51pt>
 File: images/COR2AB_paperplots.pdf Graphic file (type pdf)
 
 <use images/COR2AB_paperplots.pdf>
@@ -1314,8 +1321,8 @@ Package pdftex.def Info: images/COR2AB_paperplots.pdf used on input line 67.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[114] [115 <./images/COR1AB_plotsfinal.pdf>] [116 <./images/COR2AB_paperplots.p
-df>] <images/LOS_POS_2.pdf, id=2272, 597.23125pt x 845.1575pt>
+[116] [117 <./images/COR1AB_plotsfinal.pdf>] [118 <./images/COR2AB_paperplots.p
+df>] <images/LOS_POS_2.pdf, id=2299, 597.23125pt x 845.1575pt>
 File: images/LOS_POS_2.pdf Graphic file (type pdf)
 
 <use images/LOS_POS_2.pdf>
@@ -1325,18 +1332,18 @@ Package pdftex.def Info: images/LOS_POS_2.pdf used on input line 121.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[117]
+[119]
 
-Package natbib Warning: Citation `byr10' on page 118 undefined on input line 13
+Package natbib Warning: Citation `byr10' on page 120 undefined on input line 13
 5.
 
 
-Package natbib Warning: Citation `byr10' on page 118 undefined on input line 14
+Package natbib Warning: Citation `byr10' on page 120 undefined on input line 14
 8.
 
-[118 <./images/LOS_POS_2.pdf>] [119] [120]
+[120 <./images/LOS_POS_2.pdf>] [121] [122]
 
-Package natbib Warning: Citation `byr10' on page 121 undefined on input line 18
+Package natbib Warning: Citation `byr10' on page 123 undefined on input line 18
 7.
 
 
@@ -1344,10 +1351,10 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 121 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 123 undefined on input 
 line 198.
 
-<images/20081212_mass_ht.pdf, id=2327, 469.755pt x 722.7pt>
+<images/20081212_mass_ht.pdf, id=2354, 469.755pt x 722.7pt>
 File: images/20081212_mass_ht.pdf Graphic file (type pdf)
 
 <use images/20081212_mass_ht.pdf>
@@ -1363,7 +1370,7 @@ LaTeX Warning: Command \textquoteleft invalid in math mode on input line 218.
 
 LaTeX Warning: Float too large for page by 21.28659pt on input line 221.
 
-[121] [122] [123 <./images/20081212_mass_ht.pdf>]
+[123] [124] [125 <./images/20081212_mass_ht.pdf>]
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 227.
 
@@ -1375,10 +1382,10 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 124 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 126 undefined on input 
 line 237.
 
-[124
+[126
 
 ]
 
@@ -1386,11 +1393,11 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 125 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 127 undefined on input 
 line 247.
 
 
-Package natbib Warning: Citation `byr10' on page 125 undefined on input line 25
+Package natbib Warning: Citation `byr10' on page 127 undefined on input line 25
 8.
 
 
@@ -1398,10 +1405,10 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 125 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 127 undefined on input li
 ne 260.
 
-[125] <images/20081212_force_v2.pdf, id=2359, 325.215pt x 722.7pt>
+[127] <images/20081212_force_v2.pdf, id=2387, 325.215pt x 722.7pt>
 File: images/20081212_force_v2.pdf Graphic file (type pdf)
 
 <use images/20081212_force_v2.pdf>
@@ -1409,11 +1416,11 @@ Package pdftex.def Info: images/20081212_force_v2.pdf used on input line 264.
 (pdftex.def)             Requested size: 243.91064pt x 542.02367pt.
 
 
-Package natbib Warning: Citation `byr10' on page 126 undefined on input line 26
+Package natbib Warning: Citation `byr10' on page 128 undefined on input line 26
 6.
 
 
-Package natbib Warning: Citation `byr10' on page 126 undefined on input line 26
+Package natbib Warning: Citation `byr10' on page 128 undefined on input line 26
 6.
 
 
@@ -1422,13 +1429,13 @@ LaTeX Warning: Float too large for page by 30.2237pt on input line 269.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[126] [127 <./images/20081212_force_v2.pdf>]
+[128] [129 <./images/20081212_force_v2.pdf>]
 
 Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
 ne 273.
 
 
@@ -1436,7 +1443,7 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
 ne 279.
 
 
@@ -1444,11 +1451,11 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
 ne 287.
 
 
-Package natbib Warning: Citation `byr10' on page 128 undefined on input line 28
+Package natbib Warning: Citation `byr10' on page 130 undefined on input line 28
 7.
 
 
@@ -1456,7 +1463,7 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
 ne 287.
 
 
@@ -1464,7 +1471,7 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
 ne 287.
 
 
@@ -1472,10 +1479,10 @@ Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 128 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
 ne 287.
 
-[128
+[130
 
 ]
 
@@ -1483,7 +1490,7 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 129 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 131 undefined on input 
 line 293.
 
 
@@ -1491,52 +1498,52 @@ Package caption Warning: \label without proper \caption on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:20081212_mass_ht' on page 129 undefined on input 
+LaTeX Warning: Reference `fig:20081212_mass_ht' on page 131 undefined on input 
 line 303.
 
-[129]
+[131]
 
 Package caption Warning: \label without proper \caption on input line 268.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:force_20081212' on page 130 undefined on input li
+LaTeX Warning: Reference `fig:force_20081212' on page 132 undefined on input li
 ne 306.
 
 
-Package natbib Warning: Citation `byr10' on page 130 undefined on input line 32
+Package natbib Warning: Citation `byr10' on page 132 undefined on input line 32
 4.
 
-[130]
+[132]
 
-Package natbib Warning: Citation `byr10' on page 131 undefined on input line 34
+Package natbib Warning: Citation `byr10' on page 133 undefined on input line 34
 7.
 
-[131]
+[133]
 
-Package natbib Warning: Citation `byr10' on page 132 undefined on input line 35
+Package natbib Warning: Citation `byr10' on page 134 undefined on input line 35
 4.
 
-[132]) [133]
+[134]) [135]
 \openout2 = `5/shocks.aux'.
 
  (./5/shocks.tex
 Chapter 5.
-) [134
+) [136
 
 
 
-] [135]
+] [137]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-[136
+[138
 
 
 
-] [137] [138] [139]
-<images/MHD_vary_mach&thetaBn.pdf, id=2518, 597.23125pt x 845.1575pt>
+] [139] [140] [141]
+<images/MHD_vary_mach&thetaBn.pdf, id=2545, 597.23125pt x 845.1575pt>
 File: images/MHD_vary_mach&thetaBn.pdf Graphic file (type pdf)
 
 <use images/MHD_vary_mach&thetaBn.pdf>
@@ -1551,21 +1558,21 @@ Overfull \hbox (10.01276pt too wide) in paragraph at lines 77--78
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[140]) [141 <./images/MHD_vary_mach&thetaBn.pdf>] (./thesis.bbl (./thesis.brf)
+[142]) [143 <./images/MHD_vary_mach&thetaBn.pdf>] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
 
-[142
+[144
 
 
-] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153]
-[154] [155] [156] [157] [158] [159] [160] [161] [162] [163])
+] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
-[164]
+[167]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./thesis.aux (./0/declaration.aux) (./0/abstract.aux)
 (./0/dedication.aux) (./0/acknowledgement.aux) (./0/publications.aux)
@@ -1574,15 +1581,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FEA36E942759344D6350C574313CAAA0;5513.
+(rerunfilecheck)             Checksum: 1C78BB86FFA50851C068F02558A81589;5513.
 
 
 Package rerunfilecheck Warning: File `thesis.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `thesis.brf':
-(rerunfilecheck)             Before: 8221A1753995D6C7CFD432CFF59DB278;17969
-(rerunfilecheck)             After:  F6E1E1F460454FE5D636A5816EC2E1A3;18020.
+(rerunfilecheck)             Before: A97BDF5090AD0C11312A2F559516D298;18297
+(rerunfilecheck)             After:  954BE3E0EE767F06BE0DB6766C00DFC5;18297.
 
 LaTeX Warning: There were undefined references.
 
@@ -1592,13 +1599,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
- 12312 strings out of 493488
- 181186 string characters out of 3141327
- 285050 words of memory out of 3000000
- 14674 multiletter control sequences out of 15000+200000
+ 12367 strings out of 493488
+ 182108 string characters out of 3141327
+ 286052 words of memory out of 3000000
+ 14719 multiletter control sequences out of 15000+200000
  20168 words of font info for 69 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,12n,50p,1907b,1164s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,50p,1907b,1189s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1654,10 +1661,10 @@ blic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
 urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (178 pages, 21892832 bytes).
+Output written on thesis.pdf (181 pages, 21984773 bytes).
 PDF statistics:
- 3178 PDF objects out of 3580 (max. 8388607)
- 2781 compressed objects within 28 object streams
- 616 named destinations out of 1000 (max. 500000)
- 850 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3220 PDF objects out of 3580 (max. 8388607)
+ 2818 compressed objects within 29 object streams
+ 625 named destinations out of 1000 (max. 500000)
+ 855 words of extra memory for PDF output out of 10000 (max. 10000000)
 
