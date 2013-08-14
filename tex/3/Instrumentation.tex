@@ -105,6 +105,8 @@ COR2 is an externally occulted Lyot coronagraph. Externally occulted coronagraph
 
 These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
 
+DATA REDUCTION AND TELEMETRY!!!
+
 \subsection{SOHO LASCO}\label{sec:23}
 
 The Large Angle Spectroscopic Coronagraph (LASCO) on board the Solar and Heliospheric Observatory (SOHO) comprises three different coronagraphs, C1, C2, and C3, that were built to observe the corona over heliocentric distance range of 1.1--30\,$R_{\odot}$ \citep{bru95}. 
@@ -134,10 +136,23 @@ The light focused onto the focal plane by the O3 lens first pases through colour
 
 Finally, C3 is an externally occulted broadband lens coronagraph that images the corona from $3.7-30\,R_{\odot}$, with a pixel size of $56"$ and brightness range of $3\times10^{-9} - 1\times10^{-11}$. It has the same optical design as C2 (Figure~\ref{fig:c2_concept}).
 
+DATA REDUCTION AND TELEMETRY!!!
+
+\subsection{White-light image calibration}
 
 \section{Ultraviolet Imaging}\label{sec:4}
 
-\subsection{The Atmospheric Imaging Assembley}\label{sec:40}
+\subsection{The Atmospheric Imaging Assembly}\label{sec:40}
+
+The Atmospheric Imaging Assembly (AIA), on board NASA's Solar Dynamics Observatory (SDO), consists of four telescopes that provide visible, ultraviolet (UV), and extreme ultraviolet (EUV) full-disk images of the transition region and corona up to $0.5\,R_{\odot}$/ with 1.5" spatial resolution and 12-second temporal resolution. The telescopes provide imaging in seven extreme ultraviolet passbands centered on the lines Fe\Rmnum{18}\,(94\,\AA), Fe\Rmnum{8}, \Rmnum{21}\,(131\,\AA), Fe\Rmnum{9} \,(171\,\AA), Fe\Rmnum{12}, \Rmnum{24}\,(193\,\AA), Fe\Rmnum{14}\,(211\,\AA), He\Rmnum{2}\,(304\,\AA), Fe\Rmnum{16}\,(335\,\AA). One of the telescopes observes longer wavelengths at C\Rmnum{4}\,(1600\,\AA), the nearby continuum ay (1700\,\AA) and a broadband visible filter centered on (4500\,\AA)  giving a full temperature coverage of $6\times10^4$\,K to $2\times10^7$\,K.
+
+Each telescope has a field of view is 41' circular diameter, a 20\,cm primary mirror and an active secondary mirror that is pointed in response to signals from a guide telescope. Each mirror is polished to a roughness of $<5\,\AA$~rms in the spatial frequency range $10^{-3}-5\times10^{-1}$\,nm$^{-1}$. The telescopes are dual channel i.e., the mirrors in each telescope have two different multi-layer coatings on either half so as to be reflective at a single desired central wavelength on one half. For example, half of mirror 2 has a peak reflectance at 195.5\,\AA with the other half reflects at 211.3\,\AA. These two-channel combinations for each mirror in all four telescopes is shown in Figure X. Half of mirror 3 provides the broadband UV and visible channel, with a coating that gives the ability to reflect at 1600, 1700, and 4500\,\AA, while the other half of the mirror provides the optics for the 171\,\AA channel. Hence telescope 3 provides the optics for four different bandpasses. 
+
+Metal entrance filters at the aperture of each telescope, combined with a filter wheel located in front of each focal plane, suppress unwanted UV, visible, and IR radiation. The filters are either made of aluminium, used for wavelengths of 171\,\AA~or longer, and zirconium used for the shorter 94\,\AA and 131\,\AA wavelengths. Telescope 3 has an aluminium (for 171\,\AA)and MgF$-2$ (for the UV broadband)entrance window and 3 different filters on the filter wheel that cater for observation in 171\,\AA~(aluminium), 1600\,\AA~(MgF$-2$), 1700\,\AA~and 4500\,\AA~(fused silica). A mechanical shutter regulates exposure time to nominal short exposure times of 5\,ms and nominal long exposure times of 80\,ms. Flight software can also select any custom exposure time.
+
+The focal plane of each telescope contains a back-illuminated $4096\times4096$ pixel CCD, with each square pixel having a 12\,$\mu$m size. Each CCD is read out in 4 quadrants, via an amplifier, into a camera box with four interfaces (one for each quadrant). Each quadrant is read out at a rate of 2\,Mpixels\,s$^{-1}$ and data transmission to the on-board computer occurs at a rate of 100\,Mb\,s$^{-1}$
+
+DATA REDUCTION AND TELEMETRY
 
 \section{Radioheliographs and Radiospectrometers}\label{sec:3}
 
@@ -179,6 +194,11 @@ Instrument phase and gain calibration is performed by observing Cygnus A. Phase 
 %The Mark IV Nancay Radioheliograph Solar Physics 120 p193) 
 %Correlation is performed independently for the EW and NS baselines
 
+!!!Radioheliograph data reduction:
+Visiblities
+Calibration
+Dirty map
+Deconvolution - Multiscale CLEAN
 
 \subsection{Nan\c{c}ay Decametric Array}\label{sec:32}
 
@@ -205,6 +225,7 @@ The HFR is a dual sweeping receiver operating in the frequency range 125 kHz--16
 
 The time domain resolution for both the LFR and HFR is determined by the DPU. Nominal time resolution of the dynamic spectra produced by both receivers is 1\,minute.
 
+DATA REDUCTION AND TELEMETRY
 
 \subsection{Rosse Solar Terrestrial Observatory}\label{sec:30}
 
@@ -250,5 +271,6 @@ RSTO is part of the e-Callisto network\footnote{www.e-callisto.org}. The network
 
 To compare RSTO to other radio observing sites, an survey of RFI at RSTO was performed in June 2009. The detected spectrum is shown in Figure~\ref{fig:rfi_survey}.  A commercial DVB-T antenna covering the range from 20~MHz up to 900~MHz was used for the survey, which was directly connected via a low-loss coaxial cable to a Callisto receiver with a sensitivity of 25~mV/dB. The channel resolution was 62.5~kHz, while the radiometric bandwidth was about 300 kHz. The sampling time was 1.25 ms per frequency interval, while the integration time was about 1~ms.  Figure \ref{radiosurvey} shows the RFI radio surveys of RSTO, Bleien Observatory in Switzerland, and the Potsdam LOFAR station in Germany. There is an high level of interference at 20--200~MHz for the Bleien and Potsdam sites, while the RSTO site has a low level of RFI.
 
+\subsection{Dynamic Spectra Data Reduction}
 
 
