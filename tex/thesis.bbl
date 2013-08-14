@@ -1,4 +1,4 @@
-\begin{thebibliography}{219}
+\begin{thebibliography}{222}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -91,6 +91,18 @@
   {Muhr}, N., {Kienreich}, I., {Utz}, D. \& {Vr{\v s}nak}, B.} (2011).
   {Impulsive Acceleration of Coronal Mass Ejections. I. Statistics and Coronal
   Mass Ejection Source Region Characteristics}. {\em \apj\/}, {\bf 738}, 191.
+
+\bibitem[{{Benz} {\em et~al.\/}(2005){Benz}, {Monstein} \& {Meyer}}]{Benz2005}
+{\sc {Benz}, A.O., {Monstein}, C. \& {Meyer}, H.} (2005). {Callisto A New
+  Concept for Solar Radio Spectrometers}. {\em \textit{\textit{Solar
+  Physics}}\/}, {\bf 226}, 143--151.
+
+\bibitem[{{Benz} {\em et~al.\/}(2009){Benz}, {Monstein}, {Meyer}, {Manoharan},
+  {Ramesh}, {Altyntsev}, {Lara}, {Paez} \& {Cho}}]{Benz2009}
+{\sc {Benz}, A.O., {Monstein}, C., {Meyer}, H., {Manoharan}, P.K., {Ramesh},
+  R., {Altyntsev}, A., {Lara}, A., {Paez}, J. \& {Cho}, K.S.} (2009). {A
+  World-Wide Net of Solar Radio Spectrometers: e-CALLISTO}. {\em Earth Moon and
+  Planets\/}, {\bf 104}, 277--285.
 
 \bibitem[{{Biesecker} {\em et~al.\/}(2002){Biesecker}, {Myers}, {Thompson},
   {Hammer} \& {Vourlidas}}]{bieseker2002}
@@ -1297,5 +1309,12 @@
 {\sc {Zlobec}, P., {Messerotti}, M., {Karlicky}, M. \& {Urbarz}, H.} (1993).
   {Fine structures in time profiles of type II bursts at frequencies above 200
   MHz}. {\em \solphys\/}, {\bf 144}, 373--384.
+
+\bibitem[{{Zucca} {\em et~al.\/}(2012){Zucca}, {Carley}, {McCauley},
+  {Gallagher}, {Monstein} \& {McAteer}}]{zucca2012}
+{\sc {Zucca}, P., {Carley}, E.P., {McCauley}, J., {Gallagher}, P.T.,
+  {Monstein}, C. \& {McAteer}, R.T.J.} (2012). {Observations of Low Frequency
+  Solar Radio Bursts from the Rosse Solar-Terrestrial Observatory}. {\em
+  \solphys\/}, {\bf 280}, 591--602.
 
 \end{thebibliography}
