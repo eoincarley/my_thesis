@@ -72,6 +72,7 @@ where $\rho$ is mass density, $\mathbf{v}$ is bulk flow velocity, $t$ is time, a
 The momentum conservation equation is
 \begin{equation}
 \rho\frac{D\mathbf{v}}{Dt}=-\nabla p + \mathbf{j}\times \mathbf{B} + \mathbf{f} +\nabla \cdot \mathbf{S}
+\label{eqn:mhd_momentum}
 \end{equation}
 where $p$ is thermal pressure, $\mathbf{j}$ is the current density, $\mathbf{B}$ is the magnetic field, $\mathbf{f}$ are all body forces (gravity), and $\mathbf{S}$ is a stress tensor. This equation shows that the change in momentum of a fluid may be due to a pressure gradient, the \textquoteleft j cross B' or Lorentz force, gravity, and any stresses in the plasma e.g., kinematic viscosity $\nu$. Note that with $\nabla \cdot \mathbf{S}=\rho\nu\nabla^2\mathbf{v} $, and setting gravity and the Lorentz term to zero gives the Navier-Stokes equation of motion of a viscous fluid. Note that all terms in this equation have the form of a body force (force per unit volume), and integration of volume would render this equation an explicit version of Newton's second law ($m\mathbf{a}=\mathbf{F}$)
 

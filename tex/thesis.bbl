@@ -1,4 +1,4 @@
-\begin{thebibliography}{222}
+\begin{thebibliography}{228}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -173,6 +173,11 @@
   {Zouganelis}, I.} (2008). {S/WAVES: The Radio and Plasma Wave Investigation
   on the STEREO Mission}. {\em \ssr\/}, {\bf 136}, 487--528.
 
+\bibitem[{{Bouvier} \& {Wadhwa}(2010)}]{bouvier2010}
+{\sc {Bouvier}, A. \& {Wadhwa}, M.} (2010). {The age of the Solar System
+  redefined by the oldest Pb-Pb age of a meteoritic inclusion}. {\em Nature
+  Geoscience\/}, {\bf 3}, 637--641.
+
 \bibitem[{{Brueckner} {\em et~al.\/}(1995){Brueckner}, {Howard}, {Koomen},
   {Korendyke}, {Michels}, {Moses}, {Socker}, {Dere}, {Lamy}, {Llebaria},
   {Bout}, {Schwenn}, {Simnett}, {Bedford} \& {Eyles}}]{bru95}
@@ -218,6 +223,10 @@
 {\sc {Cargill}, P.J.} (2004). {On the Aerodynamic Drag Force Acting on
   Interplanetary Coronal Mass Ejections}. {\em \solphys\/}, {\bf 221},
   135--149.
+
+\bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
+{\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
+  K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
 
 \bibitem[{{Carrington}(1859)}]{carrington1859}
 {\sc {Carrington}, R.C.} (1859). {Description of a Singular Appearance seen in
@@ -828,6 +837,14 @@
 {\sc {Miteva}, R. \& {Mann}, G.} (2007). {The electron acceleration at shock
   waves in the solar corona}. {\em \aap\/}, {\bf 474}, 617--625.
 
+\bibitem[{{Montmerle} {\em et~al.\/}(2006){Montmerle}, {Augereau},
+  {Chaussidon}, {Gounelle}, {Marty} \& {Morbidelli}}]{montmerle2006}
+{\sc {Montmerle}, T., {Augereau}, J.C., {Chaussidon}, M., {Gounelle}, M.,
+  {Marty}, B. \& {Morbidelli}, A.} (2006). {From Suns to Life: A Chronological
+  Approach to the History of Life on Earth 3. Solar System Formation and Early
+  Evolution: the First 100 Million Years}. {\em Earth Moon and Planets\/}, {\bf
+  98}, 39--95.
+
 \bibitem[{{Moon} {\em et~al.\/}(2002){Moon}, {Choe}, {Wang}, {Park},
   {Gopalswamy}, {Yang} \& {Yashiro}}]{moon2000}
 {\sc {Moon}, Y.J., {Choe}, G.S., {Wang}, H., {Park}, Y.D., {Gopalswamy}, N.,
@@ -972,6 +989,11 @@
 {\sc {Rust}, D.M.} (1972). {Flares and Changing Magnetic Fields}. {\em
   \solphys\/}, {\bf 25}, 141--157.
 
+\bibitem[{{Sackmann} {\em et~al.\/}(1993){Sackmann}, {Boothroyd} \&
+  {Kraemer}}]{sackmann1993}
+{\sc {Sackmann}, I.J., {Boothroyd}, A.I. \& {Kraemer}, K.E.} (1993). {Our Sun.
+  III. Present and Future}. {\em \apj\/}, {\bf 418}, 457.
+
 \bibitem[{{Schmidt} \& {Cairns}(2012{\natexlab{a}})}]{schmidt2012}
 {\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012{\natexlab{a}}). {Type II radio
   bursts: 1. New entirely analytic formalism for the electron beams, Langmuir
@@ -982,6 +1004,10 @@
 {\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012{\natexlab{b}}). {Type II radio
   bursts: 2. Application of the new analytic formalism}. {\em Journal of
   Geophysical Research (Space Physics)\/}, {\bf 117}, 11104.
+
+\bibitem[{{Schrijver} \& {Zwaan}(2008)}]{schrijver2008b}
+{\sc {Schrijver}, C.J. \& {Zwaan}, C.} (2008). {\em {Solar and Stellar Magnetic
+  Activity}\/}.
 
 \bibitem[{{Schrijver} {\em et~al.\/}(2008){Schrijver}, {Elmore}, {Kliem},
   {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
@@ -1012,6 +1038,11 @@
   P.L., {Llebaria}, A., {Schwenn}, R., {Simnett}, G.M., {Plunkett}, S. \&
   {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
   2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
+
+\bibitem[{{Shipley}(2001)}]{shipley2001}
+{\sc {Shipley}, B.C.} (2001). {'Had Lord Kelvin a right?': John Perry, natural
+  selection and the age of the Earth, 1894-1895}. {\em Geological Society of
+  London Special Publications\/}, {\bf 190}, 91--105.
 
 \bibitem[{{Sonnerup}(1970)}]{sonnerup1970}
 {\sc {Sonnerup}, B.U.{\"O}.} (1970). {Magnetic-field re-connexion in a highly

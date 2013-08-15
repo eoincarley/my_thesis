@@ -1,63 +1,64 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The solar interior and atmosphere}}{7}{figure.caption.5}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Differential rotation rate as a function of latitude and depth}}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces The solar butterfly diagram}}{10}{figure.caption.7}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces The Babcock model of magnetic field evolution in the Sun}}{11}{figure.caption.8}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces The temperature and density as a function of height above the photosphere}}{15}{figure.caption.9}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 171 Angstrom image of the corona}}{17}{figure.caption.10}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Comparison of soft X-ray and low frequency radio observations of the corona}}{18}{figure.caption.11}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces LASCO C3 image of a CME}}{23}{figure.caption.12}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Distribution of CME speeds}}{27}{figure.caption.13}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces CME height, speed, and acceleration as function of time}}{28}{figure.caption.14}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces CME acceleration as a function of acceleration duration}}{29}{figure.caption.15}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces CME speed profile along side flare X-ray light curve}}{30}{figure.caption.16}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces CME energies and masses as a function of height}}{33}{figure.caption.17}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Distribution of CME masses, kinetic and total mechanical energies}}{34}{figure.caption.18}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Acceleration due to all forces acting on CME}}{36}{figure.caption.19}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Type II radio burst}}{38}{figure.caption.20}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Low frequency image of a radio shock}}{40}{figure.caption.21}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Comparison of CME and type II height-time kinematics}}{42}{figure.caption.22}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Statistical comparison of CME and type II height-time kinematics}}{42}{figure.caption.23}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Comparison of CME and type II height-time kinematics, corrected for CME flank shock assumption}}{43}{figure.caption.24}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces CME flank shock observed by the UVCS spectrometer}}{44}{figure.caption.25}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Herringbone radio bursts}}{46}{figure.caption.26}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces First observation of an \textquoteleft EIT wave'}}{47}{figure.caption.27}
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Comparison of EUV wave and type II height-time}}{48}{figure.caption.28}
-\contentsline {figure}{\numberline {1.25}{\ignorespaces Model of EUV wave and coronal shock}}{49}{figure.caption.29}
-\contentsline {figure}{\numberline {1.26}{\ignorespaces White-light image of shocks}}{50}{figure.caption.30}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The solar interior and atmosphere}}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Differential rotation rate as a function of latitude and depth}}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The solar butterfly diagram}}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces The Babcock model of magnetic field evolution in the Sun}}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The temperature and density as a function of height above the photosphere}}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces AIA image of the corona}}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Comparison of soft X-ray and low frequency radio observations of the corona}}{19}{figure.caption.13}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Comparison of soft X-ray and low frequency radio observations of the corona}}{21}{figure.caption.14}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces LASCO C3 image of a CME}}{25}{figure.caption.15}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Distribution of CME speeds}}{28}{figure.caption.16}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces CME height, speed, and acceleration as function of time}}{29}{figure.caption.17}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces CME acceleration as a function of acceleration duration}}{30}{figure.caption.18}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces CME speed profile along side flare X-ray light curve}}{31}{figure.caption.19}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces CME energies and masses as a function of height}}{34}{figure.caption.20}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Distribution of CME masses, kinetic and total mechanical energies}}{36}{figure.caption.21}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Acceleration due to all forces acting on CME}}{38}{figure.caption.22}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Type II radio burst}}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Low frequency image of a radio shock}}{42}{figure.caption.24}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Comparison of CME and type II height-time kinematics}}{43}{figure.caption.25}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Statistical comparison of CME and type II height-time kinematics}}{44}{figure.caption.26}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Comparison of CME and type II height-time kinematics, corrected for CME flank shock assumption}}{45}{figure.caption.27}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces CME flank shock observed by the UVCS spectrometer}}{46}{figure.caption.28}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Herringbone radio bursts}}{48}{figure.caption.29}
+\contentsline {figure}{\numberline {1.24}{\ignorespaces First observation of an \textquoteleft EIT wave'}}{50}{figure.caption.30}
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Comparison of EUV wave and type II height-time}}{50}{figure.caption.31}
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Model of EUV wave and coronal shock}}{52}{figure.caption.32}
+\contentsline {figure}{\numberline {1.27}{\ignorespaces White-light image of shocks}}{53}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Sweet-Parker and Petscheck reconnection models}}{63}{figure.caption.31}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The catastrophe CME model}}{67}{figure.caption.32}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The breakout CME model}}{70}{figure.caption.33}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The toroidal instability CME model}}{73}{figure.caption.34}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Model of the Aflv\'{e}n speed as a function of height in the corona}}{75}{figure.caption.35}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces MHD shock framework}}{77}{figure.caption.36}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Normal incidence and de Hoffman-Teller reference frames}}{81}{figure.caption.37}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Shock drift acceleration}}{83}{figure.caption.38}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Theoretically predicted radio burst fluxes}}{92}{figure.caption.39}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Solar radio burst morphologies}}{93}{figure.caption.40}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Various models for electron number density in the corona}}{94}{figure.caption.41}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sweet-Parker and Petscheck reconnection models}}{67}{figure.caption.34}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The catastrophe CME model}}{71}{figure.caption.35}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The breakout CME model}}{74}{figure.caption.36}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The toroidal instability CME model}}{77}{figure.caption.37}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Model of the Aflv\'{e}n speed as a function of height in the corona}}{79}{figure.caption.38}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces MHD shock framework}}{81}{figure.caption.39}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Normal incidence and de Hoffman-Teller reference frames}}{85}{figure.caption.40}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Shock drift acceleration}}{87}{figure.caption.41}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Theoretically predicted radio burst fluxes}}{96}{figure.caption.42}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Solar radio burst morphologies}}{97}{figure.caption.43}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Various models for electron number density in the corona}}{98}{figure.caption.44}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces White-light corona during an eclipse}}{96}{figure.caption.42}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Coronal Thomson scattering geometry}}{98}{figure.caption.43}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The Lyot coronagraph}}{99}{figure.caption.44}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The COR1 coronagraph}}{101}{figure.caption.45}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The COR2 coronagraph}}{102}{figure.caption.46}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The LASCO C2 coronagraph optics}}{103}{figure.caption.47}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The LASCO C2 coronagraph detail}}{104}{figure.caption.48}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The Nancay Radioheliograph layout}}{109}{figure.caption.49}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The SWAVES antennas}}{112}{figure.caption.50}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces RSTO Instrumental Setup}}{115}{figure.caption.51}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Callisto Worlwide}}{118}{figure.caption.52}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces RSTO RFI Survey}}{118}{figure.caption.53}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces White-light corona during an eclipse}}{100}{figure.caption.45}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Coronal Thomson scattering geometry}}{102}{figure.caption.46}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The Lyot coronagraph}}{103}{figure.caption.47}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The COR1 coronagraph}}{105}{figure.caption.48}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The COR2 coronagraph}}{106}{figure.caption.49}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The LASCO C2 coronagraph optics}}{107}{figure.caption.50}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The LASCO C2 coronagraph detail}}{108}{figure.caption.51}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The Nancay Radioheliograph layout}}{113}{figure.caption.52}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The SWAVES antennas}}{116}{figure.caption.53}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces RSTO Instrumental Setup}}{119}{figure.caption.54}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Callisto Worlwide}}{122}{figure.caption.55}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces RSTO RFI Survey}}{122}{figure.caption.56}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 2008-December-12 CMe observed by COR1}}{124}{figure.caption.54}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 2008-December-12 CMe observed by COR2}}{125}{figure.caption.55}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Line-of-sight and plane-of-sky orientations}}{127}{figure.caption.56}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CME mass as a function of height and time}}{132}{figure.caption.57}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces CME kinematics and energetics as a function of height}}{136}{figure.caption.58}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 2008-December-12 CMe observed by COR1}}{128}{figure.caption.57}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 2008-December-12 CMe observed by COR2}}{129}{figure.caption.58}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Line-of-sight and plane-of-sky orientations}}{131}{figure.caption.59}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CME mass as a function of height and time}}{136}{figure.caption.60}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces CME kinematics and energetics as a function of height}}{140}{figure.caption.61}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Band-splitting as a function of Mach number}}{150}{figure.caption.59}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Band-splitting as a function of Mach number}}{154}{figure.caption.62}
