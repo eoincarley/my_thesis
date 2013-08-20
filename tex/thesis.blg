@@ -8,34 +8,26 @@ A level-1 auxiliary file: 0/publications.aux
 A level-1 auxiliary file: 1/introduction.aux
 A level-1 auxiliary file: 2/MHD.aux
 A level-1 auxiliary file: 3/Instrumentation.aux
-A level-1 auxiliary file: 4/masses.aux
-A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 10359 items from 5000.
+Reallocated field_info (elt_size=4) to 10083 items from 5000.
 Database file #1: mybib.bib
-Repeated entry---line 712 of file mybib.bib
+Repeated entry---line 726 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1105 of file mybib.bib
+Repeated entry---line 1133 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1119 of file mybib.bib
+Repeated entry---line 1147 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 2812 of file mybib.bib
+--line 2896 of file mybib.bib
 Warning--I didn't find a database entry for "mano2003"
-Warning--I didn't find a database entry for "newkirk1961"
-Warning--I didn't find a database entry for "saito1977"
-Warning--I didn't find a database entry for "Schrij2008"
-Warning--I didn't find a database entry for "byr10"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--can't use both author and editor fields in bil66
-Warning--missing publisher in bil66
 Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in inan2011
@@ -48,45 +40,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 228 entries,
+You've used 220 entries,
             3018 wiz_defined-function locations,
-            1826 strings with 46786 characters,
-and the built_in function-call counts, 163556 in all, are:
-= -- 13008
-> -- 9933
-< -- 122
-+ -- 3464
-- -- 3232
-* -- 14352
-:= -- 24981
-add.period$ -- 675
-call.type$ -- 228
-change.case$ -- 2215
-chr.to.int$ -- 224
-cite$ -- 242
-duplicate$ -- 10753
-empty$ -- 10501
-format.name$ -- 3939
-if$ -- 32339
-int.to.chr$ -- 5
+            1791 strings with 46793 characters,
+and the built_in function-call counts, 161361 in all, are:
+= -- 12732
+> -- 10123
+< -- 117
++ -- 3520
+- -- 3298
+* -- 14202
+:= -- 24644
+add.period$ -- 652
+call.type$ -- 220
+change.case$ -- 2198
+chr.to.int$ -- 218
+cite$ -- 232
+duplicate$ -- 10507
+empty$ -- 10194
+format.name$ -- 3979
+if$ -- 31868
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 2452
-newline$ -- 688
-num.names$ -- 929
-pop$ -- 5093
+missing$ -- 2427
+newline$ -- 664
+num.names$ -- 897
+pop$ -- 5095
 preamble$ -- 1
-purify$ -- 1984
+purify$ -- 1974
 quote$ -- 0
-skip$ -- 3918
+skip$ -- 3848
 stack$ -- 0
-substring$ -- 6523
-swap$ -- 6311
+substring$ -- 6279
+swap$ -- 6213
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2016
-warning$ -- 14
-while$ -- 911
+type$ -- 1947
+warning$ -- 12
+while$ -- 880
 width$ -- 0
-write$ -- 2496
+write$ -- 2410
 (There were 3 error messages)

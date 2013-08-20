@@ -11,29 +11,29 @@ This chapter introduces the theory used to study coronal mass ejections and coro
 \doublespacing
 \subsection{Maxwell's Equations}\label{sec:10}
 
-Maxwell's equations forma closed set of four unknowns and four equations describing relationships between the electric field $\mathbf{E}$, the magnetic field $\mathbf{B}$, the current density $j$, and the charge density $\rho_q$
+Since plasmas are an electrically conducting fluid which may interact with electromagnetic fields, Maxwell's equations are an essential starting point for all plasma theory. Maxwell's equations form a closed set of four unknowns and four equations describing relationships between the electric field $\mathbf{E}$, the magnetic field $\mathbf{B}$, the current density $\mathbf{j}$, and the charge density $\rho_q$
 \begin{eqnarray}
 \nabla \cdot \mathbf{E} &=& \frac{\rho_q}{\epsilon_0} \\
 \nabla \cdot \mathbf{B} &=& 0 \\
 \curl{\mathbf{E}} &=& - \frac{d\mathbf{B}}{dt} \\
 \curl{\mathbf{B}} &=& \mu_0 \mathbf{j} + \frac{1}{c^2}\frac{d\mathbf{E}}{dt} 
 \end{eqnarray}
-$\mu_0$ and $\epsilon_0$ are the magnetic permeability and electric permittivity of free space, respectively, and all bold face quantities represent vector variables. At velocities typically found in a plasma (2.4) (Amp\'{e}re's law) reduces to
+$\mu_0$ and $\epsilon_0$ are the magnetic permeability and electric permittivity of free space, respectively, and all bold face quantities represent vector variables. At velocities typically found in a plasma equation (2.4), Amp\'{e}re's law, reduces to
 \begin{equation}
 \curl{\mathbf{B}} = \mu_0 \mathbf{j}
 \end{equation}
-where the displacement current is no longer included. Maxwell's equations describe electromagnetic beahviour and they constitute an important part of the fluid description of plasmas. Before we define this fluid description a brief discussion of plasma kinetic theory, from which the fluid theory is derived, is provided here.
+where the displacement current is no longer included. Maxwell's equations describe electromagnetic behaviour and they constitute an important part of the fluid description of plasmas. Before we define this fluid description a brief discussion of plasma kinetic theory, from which the fluid theory is derived, is provided here.
 
 \subsection{Plasma Kinetic Theory}\label{sec:11}
 
-The general approach to the majority of plasma phenomenon is in a collective description using particle distribution functions and the use of differential equations to describe the evolution of these distribution functions. This is known as plasma kinetic theory, and the distribution functions can be of the form of the Maxwell velocity distribution, while the differential equation used to describe its evolution is the Boltzmann equation. Many non-equilibrium or unstable states of a plasma, such as those that produce radio bursts described in section X,Y, Z, require a kinetic theory description of plasma. A brief overview of kinetic theory is therefore given here before describing specifically its application to plasma emission and radio bursts.
+The general approach to the majority of plasma phenomenon is in a collective description using particle distribution functions and the use of differential equations to describe the evolution of these distribution functions. This is known as plasma kinetic theory, and the distribution functions can be of the form of the Maxwell-Boltzmann velocity distribution, while the differential equation used to describe its evolution is the Boltzmann equation. Many non-equilibrium or unstable states of a plasma, such as those that produce radio bursts described in sections~\ref{sec:wave_particle}--\ref{sec:three_wave} require a kinetic theory description of plasma. A brief overview of kinetic theory is therefore given here before describing specifically its application to plasma emission and radio bursts.
 
-As with a neutral gas, the particle distribution function $f(\mathbf{r}, \mathbf{v}, t)d\mathbf{v}d\mathbf{r}$ described the number of particles having positions between $\mathbf{r}$ and $\mathbf{r}+d\mathbf{r}$ and velocities between $\mathbf{v}$ and $\mathbf{v}+d\mathbf{v}$, at time $t$. This ditribution function can be used derive a number of useful physical properties of the plasma, such as the particle number density at position $r$ and time $t$ is then
+As with a neutral gas, the particle distribution function $f(\mathbf{r}, \mathbf{v}, t)d\mathbf{v}d\mathbf{r}$ described the number of particles having positions between $\mathbf{r}$ and $\mathbf{r}+d\mathbf{r}$ and velocities between $\mathbf{v}$ and $\mathbf{v}+d\mathbf{v}$, at time $t$. This distribution function can be used derive a number of useful physical properties of the plasma, such as the particle number density at position $\mathbf{r}$ and time $t$ 
 \begin{equation}
 n(\mathbf{r},t) = \int f(\mathbf{r}, \mathbf{v},t) d \mathbf{v}
 \label{eqn:num_density}
 \end{equation}
-as well as the bulk velocity particle velocity is given by
+as well as the bulk velocity particle velocity, given by
 \begin{equation}
  \mathbf{v}(\mathbf{r},t) = \frac{1}{n(\mathbf{r},t)}\int  \mathbf{v} f(\mathbf{r}, \mathbf{v},t) d \mathbf{v}
 \label{eqn:bulk_flow}
@@ -41,42 +41,43 @@ as well as the bulk velocity particle velocity is given by
 The evolution of this distribution function in time and space is described by the Boltzmann equation, given by
 \begin{equation}
 \frac{\partial f(\mathbf{r}, \mathbf{v},t)}{\partial t}  +     ( \mathbf{v}\cdot\nabla_r)f(\mathbf{r}, \mathbf{v},t)    + (\mathbf{a}\cdot\nabla_v)f(\mathbf{r}, \mathbf{v},t) = \bigg(\frac{\partial f(\mathbf{r}, \mathbf{v},t)}{\partial t}\bigg)_{coll}
+\label{eqn:boltzmann}
 \end{equation}
-This equation describes the changes in occupation number of particles at positions (r,v,t) is phase space due to a configuration space flux $\mathbf{v}\cdot\nabla_rf$, a velocity space flux $ \mathbf{a}\cdot\nabla_vf$, as well as collisions experienced by the particles. It is the fundamental basis of all plasma and neutral gas kinetic theory and provides a very powerful tool for describing the time and space evolution of equilibrium and, more importantly, non-equilibrium distribution of particles. It is the most general description of the behavior of an ensemble of particles and all other macroscopic fluid dynamical equations may be derived from it.
+This equation describes the changes in occupation number of particles at positions ($\mathbf{r}, \mathbf{v}$, t) in phase space due to a configuration space flux $\mathbf{v}\cdot\nabla_rf$, a velocity space flux $ \mathbf{a}\cdot\nabla_vf$, as well as collisions experienced by the particles (last term in the right). Equation~\ref{eqn:boltzmann} is the fundamental basis of all plasma and neutral gas kinetic theory and provides a very powerful tool for describing the time and space evolution of equilibrium and, more importantly, non-equilibrium distributions of particles. It is the most general description of the behavior of an ensemble of particles, and all other macroscopic fluid dynamical equations may be derived from it.
 
-Assuming  the plasma to be collisionless and stating the accelerations in the plasma in terms of the electric field $E$ and magnetic field $B$, the Boltzmann may be reduced to the Vlasov equation for a plasma interacting with electromagnetic fields.
+Assuming  the plasma to be collisionless and stating the accelerations in the plasma in terms of the electric field $\mathbf{E}$ and magnetic field $\mathbf{B}$, Equation~\ref{eqn:boltzmann} may be reduced to the Vlasov equation for a plasma interacting with electromagnetic fields.
 \begin{equation}
 \frac{\partial f}{\partial t}  +(\mathbf{v}\cdot\nabla_r)f + (\frac{q}{m}[\mathbf{E} + \mathbf{v}\times \mathbf{B}]\cdot\nabla_v)f = 0
 \end{equation}
-where $q$ is Coulomb charge, $m$ is particle mass, and $f(\mathbf{r}, \mathbf{v},t)$ is reduced to $f$ for simplicity of notation. This form of the Vlasov equation is used in the formulation of wave-particle interactions, and wave growth in plasmas, that ultimately lead to plasma emission in solar radio bursts, this will be described in further detail section X.
+where $q$ is Coulomb charge, $m$ is particle mass, and $f(\mathbf{r}, \mathbf{v},t)$ is reduced to $f$ for simplicity of notation. This form of the Vlasov equation is used in the formulation of wave-particle interactions, and wave growth in plasmas, that ultimately lead to plasma emission in solar radio bursts, this will be described in further detail sections~\ref{sec:wave_particle}--\ref{sec:three_wave}.
 
-In equations \ref{eqn:num_density} and \ref{eqn:bulk_flow}, the number density and bulk velocity of the plasma were obtained by taking appropriate weighted integrals of the distribution function. This is done to obtain information on the macroscopic properties of the plasma when the specific details of the particle distribution are not needed. A behaviour of the plasma on a macroscopic or fluid scale may be obtained by taking the appropriate integrals of the the Boltzmann equation in a procedure known as \textquoteleft taking the moments of the Boltzmann equation'. The moments of a function are given by 
+In equations \ref{eqn:num_density} and \ref{eqn:bulk_flow}, the number density and bulk velocity of the plasma were obtained by taking appropriate weighted integrals of the distribution function. This is done to obtain information on the macroscopic properties of the plasma when the specific details of the particle distribution are not needed. A behaviour of the plasma on a macroscopic or fluid scale may be obtained by taking the appropriate integrals of the the Boltzmann equation in a procedure known as `taking the moments of the Boltzmann equation'. The moments of a function are given by 
 \begin{equation}
 \mu_n = \int x^n f(x) dx
 \end{equation}
-where the $n$ describe the moments e.g., $n=0$ is the {\it zeroth moment},  $n=1$ is the {\it first moment} etc. Taking the moments of the Boltzmann equation lead to a set of fluid conservation equations that describe the dynamics of a plasma on a continuum scale (no particle motion available). The moments are as follows
+where the $n$ describe the moments e.g., $n=0$ is the {\it zeroth moment},  $n=1$ is the {\it first moment} etc. Taking the moments of the Boltzmann equation lead to a set of fluid conservation equations that describe the dynamics of a plasma on a continuum scale (no individual particle motion available). The moments are as follows
 \begin{eqnarray*}
 \int [\mathrm{Boltzmann~ eq.}]\times v^0 dv &\rightarrow& \mathrm{conservation~of~mass} \\
 \int [\mathrm{Boltzmann~eq.}]\times v^1 dv &\rightarrow& \mathrm{conservation~of~momentum} \\
 \int [\mathrm{Boltzmann~eq.}]\times \frac{v^2}{m} dv &\rightarrow& \mathrm{conservation~of~energy}
 \end{eqnarray*}
-In its most fundamental form, these conservation equations are used in what is known as a multi-fluid description of the plasma, where the dynamics and conservations of the various properties are treated seperately for each particle species e.g., electrons and protons will have different conservation equations and described separately as an \textquoteleft electron fluid' and \textquoteleft proton fluid'. However, combining these separate fluids into one \textquoteleft single fluid' framework constitutes a description of plasmas known as magnetohydrodynamics\footnote{The moments of the distribution function and the reduction of multi-fluid to single fluid conservation equations involve lengthy derivations that are not provided here but can be found in many texts \citep{goossens2003, inan2011}.}.
+In their most fundamental form, these conservation equations are used in what is known as a multi-fluid description of the plasma, where the dynamics and conservations of the various properties are treated seperately for each particle species e.g., electrons and protons will have different conservation equations and described separately as an \textquoteleft electron fluid' and \textquoteleft proton fluid'. However, combining these separate fluids into one \textquoteleft single fluid' framework constitutes a description of plasmas known as magnetohydrodynamics\footnote{The moments of the distribution function and the reduction of multi-fluid to single fluid conservation equations involve lengthy derivations that are not provided here but can be found in many texts \citep{goossens2003, inan2011}.}.
 
 \subsection{Magnetohydrodynamics}\label{sec:12}
 The conservation principles  derived from moments of the Boltzmann equation are firstly the mass conservation equation
 \begin{equation}
 \frac{D\rho}{Dt} = -\rho\nabla\cdot \mathbf{v}
 \end{equation}
-where $\rho$ is mass density, $\mathbf{v}$ is bulk flow velocity, $t$ is time, and $D$ represents a Lagrangian derivative. This expression simply states that the rate of change of particle into or out of a volume is controlled by the fluid flow into and out of the volume.
+where $\rho$ is mass density, $\mathbf{v}$ is bulk flow velocity, $t$ is time, and $D$ represents a Lagrangian derivative. This expression simply states that the rate of change of particles into or out of a volume is controlled by the fluid flow into and out of the volume. It has units of kg\,m$^{-3}$\,s$^{-1}$.
 
-The momentum conservation equation is
+Secondly, the momentum conservation equation is
 \begin{equation}
 \rho\frac{D\mathbf{v}}{Dt}=-\nabla p + \mathbf{j}\times \mathbf{B} + \mathbf{f} +\nabla \cdot \mathbf{S}
 \label{eqn:mhd_momentum}
 \end{equation}
-where $p$ is thermal pressure, $\mathbf{j}$ is the current density, $\mathbf{B}$ is the magnetic field, $\mathbf{f}$ are all body forces (gravity), and $\mathbf{S}$ is a stress tensor. This equation shows that the change in momentum of a fluid may be due to a pressure gradient, the \textquoteleft j cross B' or Lorentz force, gravity, and any stresses in the plasma e.g., kinematic viscosity $\nu$. Note that with $\nabla \cdot \mathbf{S}=\rho\nu\nabla^2\mathbf{v} $, and setting gravity and the Lorentz term to zero gives the Navier-Stokes equation of motion of a viscous fluid. Note that all terms in this equation have the form of a body force (force per unit volume), and integration of volume would render this equation an explicit version of Newton's second law ($m\mathbf{a}=\mathbf{F}$)
+where $p$ is thermal pressure, $\mathbf{j}$ is the current density, $\mathbf{B}$ is the magnetic field, $\mathbf{f}$ are all body forces e.g., gravity, and $\mathbf{S}$ is a stress tensor. This equation shows that the change in momentum of a fluid may be due to a pressure gradient, the \textquoteleft j cross B' or Lorentz force, gravity, and any stresses in the plasma e.g., kinematic viscosity $\nu$. Note that with $\nabla \cdot \mathbf{S}=\rho\nu\nabla^2\mathbf{v} $, and setting gravity and the Lorentz term to zero gives the Navier-Stokes equation of motion of a viscous fluid. Note that all terms in this equation have the form of a body force (force per unit volume), and integration over volume would render this equation an explicit version of Newton's second law ($m\mathbf{a}=\mathbf{F}$).
 
-The third conservation equation is is the internal energy conservation
+The third conservation equation is the energy conservation equation
 \begin{equation}
 \rho\frac{De}{Dt} + p\nabla\cdot \mathbf{v}=\nabla\cdot(\kappa\cdot\nabla T) +  \eta_e\mathbf{j}^2 + Q_{\nu} - Q_r
 \end{equation}
@@ -90,15 +91,15 @@ The fluid momentum equations can be used to formulate Ohm's law for a plasma whi
 \begin{equation}
 \mathbf{j} = \sigma(\mathbf{E} + \mathbf{v}\times \mathbf{B})
 \end{equation}
-This is a reduced version of the generalised Ohm's law which contains terms for the Hall effect, ambipolar diffusion, and electron intertia. The set of equations (2.11 - 2.15), combined with an equation of state 
+This is a reduced version of the generalised Ohm's law and does not contains terms for the Hall effect, ambipolar diffusion, and electron intertia. The set of equations (2.11 - 2.15), combined with an equation of state 
 \begin{equation}
 p = nk_BT
 \end{equation}
-results in a fully closed set of variables and equations which can be solved for any fluid or electromagnetic property. In order to further simplify these set of equations the electric field $\mathbf{E}$ and current $\mathbf{j}$ are often eliminated by using Faraday's law in combinations with Amp\'{e}re's and Ohm's law to produce the induction equation
+results in a fully closed set of variables and equations, which can be solved for any fluid or electromagnetic property. In order to further simplify these set of equations the electric field $\mathbf{E}$ and current $\mathbf{j}$ are often eliminated by using Faraday's law in combinations with Amp\'{e}re's and Ohm's law to produce the induction equation
 \begin{equation}
 \frac{\partial \mathbf{B}}{\partial t} = \nabla \times(\mathbf{v}\times \mathbf{B}) + \eta\nabla^2 \mathbf{B}
 \end{equation}
-which describes the evolution of the field in terms of the plasma flow and the magnetic diffusivity $\eta = \eta_e/\mu_0$.  The mass, momentum, internal energy equation, the induction equation, and the solinoidal constraint then define  a fully closed system of resistive MHD equations in terms of the variables ($\mathbf{B}, \mathbf{v}, p, \rho$)
+which describes the evolution of the magnetic field in terms of the plasma flow and the magnetic diffusivity $\eta = \eta_e/\mu_0$.  The mass, momentum, internal energy equation, the induction equation, and the solinoidal constraint then define  a fully closed system of resistive MHD equations in terms of the variables ($\mathbf{B}, \mathbf{v}, p, \rho$)
 \begin{eqnarray}
 \frac{D\rho}{Dt} = -\rho\nabla\cdot \mathbf{v} \\
 \rho\frac{D\mathbf{v}}{Dt}=-\nabla p + \frac{1}{\mu_0}(\nabla \times \mathbf{B})\times \mathbf{B} + \mathbf{f} \\
@@ -110,7 +111,7 @@ It is also assumed here that the fluid is inviscid and not subject to any conduc
 \begin{equation}
 \frac{\partial \mathbf{B}}{\partial t} = \nabla \times(\mathbf{v}\times \mathbf{B})
 \end{equation}
-may be used to show the \textquoteleft frozen flux' condition. This shows that when $\eta = 0$ the field is advected with the plasma or the field is \textquoteleft frozen-in' into the plasma and follows the flow velocity. On the other hand, a finite $\eta$ leads to a variety of important diffusive effects for the magnetic field. The most important of these diffusive processes is magnetic reconnection.
+may be used to show the \textquoteleft frozen flux' condition. This shows that when $\eta = 0$ the field is advected with the plasma or the field is \textquoteleft frozen-in' into the plasma and follows the flow velocity i.e., there is no `slipping' of the magnetic field with respect to the fluid flow.  On the other hand, a finite $\eta$ leads to a variety of important diffusive effects for the magnetic field. The most important of these diffusive processes is magnetic reconnection, which plays an extremely important role in solar flares and CMEs.
 
 
 
@@ -119,20 +120,20 @@ may be used to show the \textquoteleft frozen flux' condition. This shows that w
 %-----------------------------------------------------------%
 \subsection{Magnetic Reconnection}\label{sec:13}
 
-If the dissipation of concentrations of magnetic flux are due to diffusion processes only, a timescale for this diffusion process may be estimated from the magnetic induction equation. Assuming the diffusion term dominates over advection term
+If the dissipation of concentrations of magnetic flux in the solar corona are due to diffusion processes only, a timescale for this diffusion process may be estimated from the magnetic induction equation. Assuming the diffusion term dominates over advection term
 \begin{equation}
 \frac{\partial B}{\partial t} = \eta\nabla^2\mathbf{B}
 \label{egn:diff}
 \end{equation}
-As an order of magnetiude estimate for the derivatives we replace $\partial/\partial t \rightarrow 1/\tau_D$ and $\nabla^2 \rightarrow 1/L^2$. Equation~\ref{egn:diff} then gives
+As an order of magnitiude estimate for the derivatives we replace $\partial/\partial t \rightarrow 1/\tau_D$ and $\nabla^2 \rightarrow 1/L^2$. Equation~\ref{egn:diff} then gives
 \begin{equation}
 \tau_D = \frac{L^2}{\eta}
 \label{eqn:diff_time}
 \end{equation}
-The typical length scales for a coronal active region are $10^7$\,m, and assuming a Spitzer magnetic diffusivity $\eta = 10^9T^{-3/2} = 1$\,m$^2$\,s$^{-1}$ \citep{spitzer1962}, which gives a diffusive timescale of 3.1 million years.
-Given that active regions evolve quasi-statically over weeks and evolve dynamical over timescales of minutes during a flares and CMEs, there must be an evolution process other than a large scale diffusion in the solar atmosphere. Equation~\ref{eqn:diff_time} indicates that there may be two different ways in which the evolution of magnetic fields may occur over a much shorter times scale: either typical length scale $L$ is much shorter, or magnetic diffusivity $\eta$ is much larger.
+The typical length scales for a coronal active region are $10^7$\,m, and assuming a Spitzer magnetic diffusivity $\eta = 10^9T^{-3/2} = 1$\,m$^2$\,s$^{-1}$ \citep{spitzer1962}, equation~\ref{eqn:diff_time} gives a diffusive timescale of 3.1 million years.
+Given that active regions evolve quasi-statically over weeks and evolve dynamically over timescales of seconds and minutes during a flares and CMEs, there must be an evolution process other than a large scale diffusion in the solar atmosphere. Equation~\ref{eqn:diff_time} indicates that there may be two different ways in which the evolution of magnetic fields may occur over a much shorter times scale: either the typical length scale $L$ is much shorter, or magnetic diffusivity $\eta$ is much larger.
 
-Magnetic reconnection is the dynamical process that describes the short timescale evolution of magnetic fields in the corona (and other astrophysical and laboratory systems). It involves a change in magnetic topology that converts magnetic energy in kinetic and thermal energy of the bulk plasma and accelerates particles to high speeds. Magnetic reconnection typically occurs in a boundary between two oppositely directed magnetic field regions. At the very center of the boundary layer the magnetic field must go to zero to account for a continuous change from positive to negative magnetic field. The total pressure balance in the boundary layer and on either side is 
+Magnetic reconnection is the dynamical process that describes the short timescale evolution of magnetic fields in the corona (and other astrophysical and laboratory systems). It involves a change in magnetic topology that converts magnetic energy in kinetic and thermal energy of the bulk plasma and accelerates particles to high speeds. Magnetic reconnection typically occurs in a boundary between two oppositely directed magnetic field regions. At the very center of the boundary layer the magnetic field must go to zero to account for a continuous change from positive to negative magnetic field. The total pressure balance in the boundary layer and on either side is \citep{asch2004}
 \begin{equation}
 B_1 + p_1 = p_{dr} = B_2 + p_2
 \end{equation}
@@ -142,23 +143,33 @@ where $p_{1,2}$ and $B_{1,2}$ represent thermal and magnetic pressure on either 
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.7]{reconnection.pdf}
-\caption[Sweet-Parker and Petscheck reconnection models]{The reconnection models of Swee-Parker (top) and Petscheck (bottom). The Sweet-Parker mechanism employs a long and thin ($L>>\delta$) current sheet as the diffusion region. It produces reconnection rates that are much too slow to describe flare and CME energy dissipations rates. Petscheck proposed a similar model but with a diffusion region that is much smaller, with $L\approx\delta$, resulting in reconnection rates that are consistent with flare and CME timescales. The dissipation of energy in this model is partly controlled by the presence of two slow-mode shocks which separate the sub-Alfv\'{e}nic inflow region and the super-Alfv\'{e}nic outflow region \citep{asch2004}.}
+\caption[Sweet-Parker and Petscheck reconnection models]{The reconnection models of Swee-Parker (top) and Petscheck (bottom). The Sweet-Parker mechanism employs a long and thin ($\Delta>>\delta$) current sheet as the diffusion region. It produces reconnection rates that are much too slow to describe flare and CME energy dissipations rates. Petscheck proposed a similar model but with a diffusion region that is much smaller, with $\Delta\approx\delta$, resulting in reconnection rates that are consistent with flare and CME timescales. The dissipation of energy in this model is partly controlled by the presence of two slow-mode shocks which separate the sub-Alfv\'{e}nic inflow region and the super-Alfv\'{e}nic outflow region \citep{asch2004}.}
 \label{fig:recconection}
 \end{center}
 \end{figure}
-The existence of inflows into the neutral layer at right angles to the magnetic field creates an electric field in this later that is perpendicular to the inflow plane. This creates a current in this boundary layer, hence this boundary layer is often called a current sheet. The diffusion of magnetic fields occurs within this current sheet. Sweet and Parker were the first devise a mechanism by which magnetic reconnection occurs in such a current sheet \cite{sweet1958, parker1963}. Although no complete analytical theory exists for the process, the MHD conservation equations may be applied to derive the reconnection rate. The application of resistive MHD only applies within the thin current sheet, while ideal MHD applies everywhere else.
+The existence of inflows into the diffusion region at right angles to the magnetic field creates an electric field in this layer that is perpendicular to the inflow plane. This creates a current in the diffusion region, hence this ayer is often called a `current sheet'. The diffusion of magnetic fields occurs within this current sheet. Sweet and Parker were the first devise a mechanism by which magnetic reconnection occurs in such a current sheet \cite{sweet1958, parker1963}. 
+%Although no complete analytical theory exists for the process, the MHD conservation equations may be applied to derive the reconnection rate. The application of resistive MHD only applies within the thin current sheet, while ideal MHD applies everywhere else.
 
-The Sweet-Parker reconnection model consists of a current sheet (diffusion region) that is much longer than it is wide i.e., $L>>\delta$ where is current sheet half-length and $\delta$ is current sheet half-thickness. The reconnection rate depends on in the ratio of the inflow speed $v_{in}$ to $v_{out}$ in the form of the Mach number
+The Sweet-Parker were the first to devise a model whereby the diffusive time scale of the field (equation~\ref{eqn:diff_time}) could be made much faster by considering a diffusion region much smaller than the size scales of active regions. The model consists of a current sheet (diffusion region) that is much longer than it is wide i.e., in the top panel of Figure~\ref{fig:recconection} $\Delta>>\delta$, where $\Delta$ is current sheet half-length and $\delta$ is current sheet half-thickness. Conservation of mass implies that the rate at which mass enters the sheet must equal the rate that mass exits the sheet
+\begin{equation}
+\rho \Delta v_{in} = \rho \delta v_{out}
+\label{eqn:in_out}
+\end{equation}
+where $v_{in}$ and $v_{out}$ are the inflow and outflow speeds respectively. Using equations~\ref{eqn:diff_time} and \ref{eqn:in_out} the inflow speed may be written as
+\begin{equation}
+v_{in}^2 = \frac{\eta v_{out}}{L}
+\end{equation}
+The reconnection rate depends on in the ratio of the inflow speed $v_{in}$ to the outflow speed $v_{out}$ in the form of the Mach number
 \begin{equation}
 M = \frac{v_{in}}{v_{out}} = \frac{1}{\sqrt{S}}
 \end{equation}
-where $S=v_AL/\eta$ is the Lundquist number (equivalent to the magnetic Reynold's number at the Alfv\'{e}n speed. The rate of reconnection depends on the length scale and magnetic diffusivity in the current sheet. Despite the fact that the Sweet-Parker mechanism provides a rate of magnetic energy dissipation that is faster than the global process, it is much too slow to explain the process of magnetic energy release in solar flares. The Sweet-Parker model is known as slow reconnection. PUT IN SOME NUMBERS
+where $S=v_AL/\eta$ is the Lundquist number (equivalent to the magnetic Reynold's number at the Alfv\'{e}n speed). The rate of reconnection depends on the length scale and magnetic diffusivity in the current sheet. Despite the fact that the Sweet-Parker mechanism provides a rate of magnetic energy dissipation that is faster than the global process, it is much too slow to explain the process of magnetic energy release in solar flares. For example for typical Lundquist numbers of $10^{12}$, the Sweet-Parker model produces a reconnection rate of $10^{-6}$ of the Alfv\'{e}n speed.
 
 To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $L\approx\delta$ \citep{petschek1964} . With this smaller diffusion region, the boundary between inflow and outflow regions are separated by slow mode magnetoacoustic shocks. Alongside the diffusion region, these shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Again, no analytical solution to the model exists but Petscheck found that when the diffusion regions is allowed to be small, the reconnection rate is given as
 \begin{equation}
 M \approx \frac{\pi}{8\,\mathrm{ln}(S)}
 \end{equation}
-This gives a much faster reconnection rate of X (hence it is known as fast reconnection), which is comparable to solar flares. When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as \citep{priest1986}
+This gives a much faster reconnection rate of 0.01 of the Alfv\'{e}n speed (hence it is known as fast reconnection), which is comparable to solar flares. When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as \citep{priest1986}
 \begin{equation}
 \bigg(\frac{M_e}{M_e}\bigg)^2 \approx \frac{4M_e(1-b)}{\pi}\bigg[ 0.834 -\mathrm{ln \, tan}\bigg( \frac {4S\sqrt{M_eM_i}} {\pi}  \bigg)^{-1}\bigg]
 \end{equation}
@@ -173,7 +184,7 @@ This contains the Sweet-Parker, the Petscheck ($b=0$) and Sonnerup \citep{sonner
 
 \section{Coronal Mass Ejections}\label{sec:2}
 
-Magnetohydrodynamic models of eruptive coronal mass ejections use either ideal or resistive MHD to bring about a loss of equilibrium of some complex magnetic structure in the corona. The magnetic structure usually takes the form of a flux rope, a helical or twisted magnetic structure embedded in the coronal magnetic field. The main goal of every model is to induce a loss of equilibrium of the structure, but the mechanism by which this is done varies greatly amongst the models. {\it Storage models} assume a slow build up of magnetic stress in a non-potential field that may store free energy over long time scales before some loss of equilibrium occurs and the stored magnetic energy is rapidly converted to mechanical energy and the expulsion of a magnetic structure \citep{wolfson1998, forbes1995, antiochos1999}. {\it Dynamo models} involve a rapid generation of magnetic flux by either stressing of the field or flux-injection into the system. As the name suggests, these models usually consider the interplay between current and magnetic field in the system that may bring about a Lorentz force which provides an expulsion of the flux rope from the low corona \citep{chen1989, krall2001, schrijver2008, fan2005}. Finally there are the {\it thermal blast models}, which produce an expulsion of the CME into interplanetary space by an enhanced pressure gradient due to the rapid heating of a flare i.e., an explosive ejection of plasma from the corona.  This model is somewhat out-dated now since CMEs are no longer thought to be the result of flares, with some CMEs preceding flare onset and some occurring without ay flare \citep{gosling1993}.
+Magnetohydrodynamic models of eruptive coronal mass ejections use either ideal or resistive MHD (without and with reconnection, respectively) to bring about a loss of equilibrium of some complex magnetic structure in the corona. The magnetic structure usually takes the form of a flux rope, a helical or twisted magnetic structure embedded in the coronal magnetic field. The main goal of every model is to induce a loss of equilibrium of the structure, but the mechanism by which this is done varies greatly amongst the models. {\it Storage models} assume a slow build up of magnetic stress in a non-potential field that may store free energy over long time scales before some loss of equilibrium occurs and the stored magnetic energy is rapidly converted to mechanical energy and the expulsion of a magnetic structure \citep{wolfson1998, forbes1995, antiochos1999}. {\it Dynamo models} involve a rapid generation of magnetic flux by either stressing of the field or flux-injection into the system. As the name suggests, these models usually consider the interplay between current and magnetic field in the system that may bring about a Lorentz force which provides an expulsion of the flux rope from the low corona \citep{chen1989, krall2001, schrijver2008, fan2005}. Finally there are the {\it thermal blast models}, which produce an expulsion of the CME into interplanetary space by an enhanced pressure gradient due to the rapid heating of a flare i.e., an explosive ejection of plasma from the corona.  This model is somewhat out-dated now since CMEs are no longer thought to be the result of flares, with some CMEs preceding flare onset and some occurring without any flare \citep{gosling1993}.
 
 The main goal of every model is to induce a loss of equilibrium of the structure, but the mechanism by which this is done varies greatly amongst the models e.g., there is still some debate on whether the flux rope is formed as a result of eruption or it is a pre-existing structure. The need for reconnection is also a source of contention, with some models inducing eruption using only ideal MHD and other models employing resistive MHD \citep{chen2011}. The most prominent of these models are discussed here.
 
@@ -187,7 +198,7 @@ The main goal of every model is to induce a loss of equilibrium of the structure
 \end{figure}
 
 The catastrophe model assumes a flux-rope is formed in the corona prior to eruption and considers the balance between magnetic tension holding the flux rope in position, and magnetic pressure (from compression of field lines under the rope) that supply an outward directed force \citep{forbes1991, lin2000, priest2000}. A loss of equilibrium is brought about by photospheric motions, either convergence or shearing of the foot points, which are well-known precursors to eruptive activity in the corona \citep{rust1972}. the reduction of the distances between the foot points, $2\lambda$, decreases and this initially 
-causes an increase int the magnetic tension which makes the rope contract and reduce its height Fig.~\ref{fig:catastrophe}. However, continued contraction results in a magnetic compression that  dominates tension, resulting in a flux rope rise. As the rope rises it forms a current sheet behind it, and its evolution after this point depends on whether or not reconnection occurs in the current sheet. If no reconnection is present then the flux rope simply rises and finds a new equilibrium position at a greater height, in this case the net release of magnetic energy is less than 1\% of the energy stored in the pre-field configuration \citep{forbes1991}. If reconnection occurs, then the eruption proceeds uninhibited and up to 95\% of the stored magnetic energy is released \citep{forbes1995}.
+causes an increase in the magnetic tension which makes the rope contract and reduce its height Fig.~\ref{fig:catastrophe}. However, continued contraction results in a magnetic compression that  dominates tension, resulting in a flux rope rise. As the rope rises it forms a current sheet behind it, and its evolution after this point depends on whether or not reconnection occurs in the current sheet. If no reconnection is present then the flux rope simply rises and finds a new equilibrium position at a greater height, in this case the net release of magnetic energy is less than 1\% of the energy stored in the pre-field configuration \citep{forbes1991}. If reconnection occurs, then the eruption proceeds uninhibited and up to 95\% of the stored magnetic energy is released \citep{forbes1995}.
 
 \citet{forbes1995} provided expressions for the development of current in the flux rope with respect to height which was used to estimate the free magnetic energy in the system. By assuming a rapid reconnection rate, and that all of this free energy was converted to the rope's kinetic energy they were able to derive velocity-time kinematics, and under the constraint of the flux rope radius $a\rightarrow 0$ an analytical expression for the rope velocity may be derived as \citep{priest2000}
 \begin{equation}
@@ -203,7 +214,7 @@ where $h\sim t + t^{5/2}$ and $v\sim t^{3/2}$ i.e., the initial power output gro
 \end{equation}
 so the growth in power output occurs approximately 100 times quicker than the decay in power output.
 
-A later study by \citet{priest2000} analysed how reconnection in the underlying current sheet may influence the eruption of the flux rope. The kinematics of the rope after equilibrium is lost depend on the rate of reconnection in the sheet, parameterised by the Alfv\'{e}n Mach number of the inflow into the reconnection site. If $M_A=0$ then the fluxrope does not escape but oscillates around an equilbrium height like a yo-yo. If $0<M_A<0.005$ then escape is possible but the rope may show a number of oscillations in height before escape, this behaviour has never been directly observed so reconnection must occur at a rate $M_A>0.005$ to produce eruption.  For $0.005<M_A<0.041$ to rope escape but undergoes a period of deceleration between 20 and 100 Alfv\'{e}n crossing times, while for $M_A > 0.041$ no deceleration occurs and the fluxrope escapes and approaches an asymptotic velocity.
+A later study by \citet{priest2000} analysed how reconnection in the underlying current sheet may influence the eruption of the flux rope. The kinematics of the rope after equilibrium is lost depend on the rate of reconnection in the sheet, parameterised by the Alfv\'{e}n Mach number of the inflow into the reconnection site. If $M_A=0$ then the fluxrope does not escape but oscillates around an equilbrium height like a yo-yo. If $0<M_A<0.005$, escape is possible but the rope may show a number of oscillations in height before escape, this behaviour has never been directly observed so reconnection must occur at a rate $M_A>0.005$ to produce eruption.  For $0.005<M_A<0.041$ to rope escapes but undergoes a period of deceleration between 20 and 100 Alfv\'{e}n crossing times, while for $M_A > 0.041$ no deceleration occurs and the fluxrope escapes and approaches an asymptotic velocity.
 
 The catastrophe model provides a successful way of evolving a flux system to the point of catastrophic loss of equilibrium and consequent eruption. However, a major limitation is that it is a 2D model and does not take into account that the ends of the flux rope will be anchored in the photosphere. This would produce a curvature in the rope that would increase its tension and hence change the dynamics, but it is unlikely that it would prevent eruption \citep{steele1989}
 
@@ -228,7 +239,7 @@ There has been observational tests of the magnetic-breakout model, showing it to
 
 \subsection{Toroidal Instability}\label{sec:22}
 
-The toroidal instability model incorporates a pre-existing flux rope structure that is built from a torus of magnetic flux, some of which is buried beneath the photosphere \citep{chen1989}. The flux system is can be broken down into a combination of toroidal magnetic, toroidal current and a poloidal magnetic field and current Figure~\ref{fig:chen_model}. This flux rope system is embedded in a surrounding coronal magnetic field $B_{corona}$. The stability of the system depends on the nature of the $J \times B$ force due to the interaction toroidal and poloidal components of both the field and current. The interaction of $J$ and $B$ internal to the flux rope is usually termed the Lorentz self-force or the \textquoteleft hoop' force. An instability may be induced via twisting of the fluxrope footpoints to increases the amount of poloidal flux (effectively increasing the helicity of the system). The instability arrises when the outward hoop force decreses more slowly within the ring radius than the opposing Lorentz force due to an external magnetic field. Once the instability is induced, the fluxrope begins a bulk motion as well as a growth in its semi-minor axis. Hence the motion of the system can be analysed by looking at the central axis or the minor axes (leading and trailing edges. The three axes display slightly different kinematics e.g., the leading edge has a faster velocity than the trailing edge (due to fluxrope expansion). this has proved a useful test of the model when comparing the observations of erupting fluxrope structures as seen in white-light coronagraphs. \citet{krall2001} looked at the leading a trailing edges of erupting flux ropes, as well as the rope aspect ratio, an compared the observations to model expectations. Good agreement is found between the model kinematics and aspect ratio and the observed events.
+The toroidal instability model incorporates a pre-existing flux rope structure that is built from a torus of magnetic flux, some of which is buried beneath the photosphere \citep{chen1989}. The flux system is can be broken down into a combination of toroidal magnetic field, toroidal current , poloidal magnetic field and poloidal current Figure~\ref{fig:chen_model}. This flux rope system is embedded in a surrounding coronal magnetic field $\mathbf{B}_{corona}$. The stability of the system depends on the nature of the $\mathbf{J} \times \mathbf{B}$ force due to the interaction toroidal and poloidal components of both the field and current. The interaction of $\mathbf{J}$ and $\mathbf{B}$ internal to the flux rope is usually termed the Lorentz self-force or the \textquoteleft hoop' force. An instability may be induced via twisting of the fluxrope footpoints to increases the amount of poloidal flux (effectively increasing the helicity of the system). The instability arrises when the outward hoop force decreses more slowly within the ring radius than the opposing Lorentz force due to an external magnetic field. Once the instability is induced, the fluxrope begins a bulk motion as well as a growth in its semi-minor axis. Hence the motion of the system can be analysed by looking at the central axis or the minor axes (leading and trailing edges). The three axes display slightly different kinematics e.g., the leading edge has a faster velocity than the trailing edge (due to fluxrope expansion). This has proved a useful test of the model when comparing the observations of erupting fluxrope structures as seen in white-light coronagraphs. \citet{krall2001} analysed the leading and trailing edges of erupting flux rope, as well as the rope aspect ratio, and compared the observations to model expectations. Good agreement is found between the model kinematics and aspect ratio and the observed events.
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.4, trim=0cm 1cm 0cm 1cm]{images/chen_model}
@@ -240,7 +251,7 @@ The equation of motion of the entire system is given by
 \begin{equation}
 M\frac{d^2Z}{dt^2} = \frac{I_t}{c^2R}\times\bigg[ \mathrm{ln}\bigg(\frac{8R}{a}\bigg) -1+ \frac{\xi_i}{2} + \frac{\beta_p}{2} -\frac{B^2_t}{B^2_{pa}}  -\frac{2RB_{\perp c}}{aB_{pa}} \bigg] - F_g - F_{drag}
 \end{equation}
-where $I_t$ is the toroidal current, $R$ is the flux rope major radius, $a$ is the rope minor radius, $\xi_i$ is internal inductance of the flux system, $B_t$ is the toroidal field, $B_{pa}$ is the poloidal field at $a$, $B_{\perp c}$ is the perpendicular component of the ambient coronal field, $F_g$ is the force due to gravity, $F_{drag}$ is the drag force, $M$ is the mass per unit length of the rope, and $Z$ is the rope axis height above the photosphere. The equation of motion shows that an increase in the toroidal current (or poloidal flux) contributes positively to the acceleration. The terms in the square brackets are each unitless and take into account the rope geometry, self-inductance and interplay between poloidal and toroidal flux. The first three terms in the square brackets are what give rise to the hoop-force. If the rope is mass loaded with a prominence, this can contribute to the rope's stability via the gravity term. The drag term only becomes an important contributor to rope dynamics later in the propagation, when the solar wind speed begins to increase i.e., at around 10$R_{\odot}$ reference Sheeley. The eruption is driven by flux-injection, which typically lasts for 4-8 hours, during which time the unstable system loses its equilibrium and begins to rise \citet{krall2001}.
+where $I_t$ is the toroidal current, $R$ is the flux rope major radius, $a$ is the rope minor radius, $\xi_i$ is internal inductance of the flux system, $B_t$ is the toroidal field, $B_{pa}$ is the poloidal field at $a$, $B_{\perp c}$ is the perpendicular component of the ambient coronal field, $F_g$ is the force due to gravity, $F_{drag}$ is the drag force, $M$ is the mass per unit length of the rope, and $Z$ is the rope axis height above the photosphere. The equation of motion shows that an increase in the toroidal current (or poloidal flux) contributes positively to the acceleration. The terms in the square brackets are each unitless and take into account the rope geometry, self-inductance and interplay between poloidal and toroidal flux. The first three terms in the square brackets are what give rise to the hoop-force. If the rope is mass loaded with a prominence, this can contribute to the rope's stability via the gravity term. The drag term only becomes an important contributor to rope dynamics later in the propagation, when the solar wind speed begins to increase i.e., at around 10$R_{\odot}$ \citep{sheeley1997}. The eruption is driven by flux-injection, which typically lasts for 4-8 hours, during which time the unstable system loses its equilibrium and begins to rise \citet{krall2001}.
 
 It is significant the fluxrope is already established in the corona before eruption begins i.e., the rope formation is not addressed in the model and it is not a consequence of eruption. Hence magnetic reconnection is not a necessary aspect of the model and the eruption may proceed without employing resistive MHD. The model has been tested against observations and found to provide consistent result with the acceleration and jerk profiles of destabilized filaments during eruption \citep{schrijver2008}
 
@@ -263,7 +274,7 @@ where $B_{0}$ is the unperturbed (equilibrium) magnetic field, $\mu_{0}$ is the 
 Mann et al. produced a 1D model of the variation of Alv\'{e}n speeds in the quiet and active region corona as a function of height Figure. Warmuth then improved this to a 2D model. It shows that CMEs are well capable of producing plasma hocks in the corona, since they may travel far in excess of the Alfv\'{e}n speed. The theory of plasma shocks and the resulting effects of particle acceleration and plasma emission are discussed in the following sections.
 
 
-\subsection{MHD Shocks}\label{sec:14}
+\subsection{MHD Shocks}\label{sec:mhd_shocks}
 
 For acoustic shock waves there are a number of conservation equations that quantify the strength of a shock by relating the upstream gas pressure, density, flow speed, and temperature to their downstream counterparts. Such conservation equations are known as the jump conditions and the shock is considered a surface at which the fluid properties change discontinuously. The shock thickness is usually of the order of a few mean free paths of the particles in the gas, in such a case the processes in the shock surface itself are inconsequential and the relationship between upstream and downstream parameters provide a sufficient description of the shock. 
 
@@ -316,27 +327,27 @@ Equation (6) has one positive real root such that
 1< \chi < \frac{\gamma+1}{\gamma-1}
 \label{eqn:compression}
 \end{equation}
-Using a ploytropic index of $\gamma=5/3$ (monatomic) means the shock compression can be no more than a factor of 4. Another extremely important fact arising from this is that magnetic compression can also be no greater than 4 i.e., from equation 4(b) $B_{2}/B_{1}=\chi$. $\chi<4$ has consequences for the shock drift acceleration mechanism and provides an upper limit to the particle energy gain (Section 2.X)
+Using a ploytropic index of $\gamma=5/3$ (monatomic) means the shock compression can be no more than a factor of 4. Another extremely important fact arising from this is that magnetic compression can also be no greater than 4 i.e., from equation 4(b) $B_{2}/B_{1}=\chi$. $\chi<4$ has consequences for the shock drift acceleration mechanism and provides an upper limit to the particle energy gain.
 
 \subsection{Shock Particle Acceleration}\label{sec:30}
 
-The framework of shock particle acceleration for solar type II radio bursts is called the shock drift acceleration (SDA) mechanism. The mechanism involves a gyrating particle encountering the magnetic gradient caused by the shock, resulting in a guide center drift and an energy gain due to the presence of a convective electric field at the shock. 
+The framework of shock particle acceleration for solar type II radio bursts is called the shock drift acceleration (SDA) mechanism \citep{holman1983}. The mechanism involves a gyrating particle encountering the magnetic gradient caused by the shock, resulting in a guide center drift and an energy gain due to the presence of a convective electric field at the shock. 
 
 There are two important frames of reference through which SDA is studied. In the rest frame of the shock, known as the \textquoteleft normal incidence frame' (NIF), the upstream plasma has velocity $\mathbf{u}_1$ along the normal $\hat{n}$ to the shock front. The upstream magnetic field $\mathbf{B}_1$ creates an angle $\theta_{Bn}$ with the shock normal $\hat{n}$, and the downstream counterparts have values $\mathbf{u}_2$ and $\mathbf{B}_2$, Figure~\ref{fig:nif_dht}(left). 
 
 \begin{figure}[!t] 
 \begin{center}
 \includegraphics[scale=0.45]{nif_dht}
-\caption[Normal incidence and de Hoffman-Teller reference frames]{(Left) Normal incidence frame (NIF) where the shock is at rest and the upstream plamsa approaches the shock head-on at velocity $\mathbf{u}_1$. The magnetic field makes some arbitrary angle $\theta_{Bn}$ with the shock normal. (Right) Transformation to a de Hoffman-Teller frame ensures that the plasma velocity and magnetic field are in the same direction on both sides of the shock.}
+\caption[Normal incidence and de Hoffman-Teller reference frames]{(Left) Normal incidence frame (NIF) where the shock is at rest and the upstream plamsa approaches the shock head-on at velocity $\mathbf{u}_1$. The magnetic field makes some arbitrary angle $\theta_{Bn}$ with the shock normal. (Right) Transformation to a de Hoffman-Teller frame ensures that the plasma velocity and magnetic field are in the same direction on both sides of the shock \citep{ball2001}.}
 \label{fig:nif_dht}
 \end{center}
 \end{figure}
 
-Due to the motion of the plasma across the magnetic field, there is a convective electric field given by $\mathbf{E} = \mathbf{v}\times \mathbf{B}$, which causes a drift of the particles with speed $\mathbf{v}_E = \mathbf{E}\times \mathbf{B}/B^2$. The kinematics of the particle in the shock drift acceleration mechanism are best treated in a frame where there the convective electric field vanishes such that $\mathbf{E} = |\mathbf{v}\times \mathbf{B}|=v_x B_y - v_yB_x = 0$. The frame where this criterion is fulfilled is known as the de Hoffmann-Teller frame (dHTf) and has a frame velocity with respect to the NIF frame given by. 
+Due to the motion of the plasma across the magnetic field, there is a convective electric field given by $\mathbf{E} = \mathbf{v}\times \mathbf{B}$, which causes a drift of the particles with speed $\mathbf{v}_E = \mathbf{E}\times \mathbf{B}/B^2$. The kinematics of the particle in the shock drift acceleration mechanism are best treated in a frame where there the convective electric field vanishes such that $\mathbf{E} = |\mathbf{v}\times \mathbf{B}|=v_x B_y - v_yB_x = 0$. The frame where this criterion is fulfilled is known as the de Hoffmann-Teller frame (dHTf) \citep{dehoffmann1950} and has a frame velocity with respect to the NIF frame given by. 
 \begin{equation}
 v_{HT} = v_y = u_1\mathrm{tan}\theta_{Bn}
 \end{equation}
-This frame guarantees the plasma motion is in the same direction as the magnetic field on both sides of the shock. Given the absence of any electric fields in this frame, the particle motions may be treated as having a conserved magnetic moment
+This frame guarantees the plasma motion is in the same direction as the magnetic field on both sides of the shock. Given the absence of any electric fields in this frame, the particle motions may be treated as having a conserved magnetic moment \citep{ball2001}
 \begin{equation}
 \mu = \frac{mv^2_{1\perp}}{B_1} = \frac{mv^2_{2\perp}}{B_2} = \mathrm{const}
 \label{eqn:ad_in}
@@ -345,14 +356,14 @@ where the subscripts [1,2] represent pre an post-encounter shock values respecti
 \begin{equation}
 \alpha > \alpha_c~~~~\mathrm{where}~~~~\mathrm{sin}^2\alpha_c = \frac{B_1}{B_2}
 \end{equation}
-will be reflected at the shock. This pitch angle $\alpha_c$ defines a \textquoteleft loss-cone' in velocity space $f(v_{\perp}, v_{||})$, whereby any particle within the cone (large $v_{||}$) will be lost downstream, while particles outside the loss cone will be reflected at the shock. This is known as a \textquoteleft magnetic mirroring', a process that shocks are known to exhibit \citep{feldman1983}. Inside the dHT reference frame, the particles energy (whether reflected or transmitted) is completely conserved and there is no energy gain. Conceptually, the best way to see where the acceleration takes place is in the normal indicidence frame (NIF).
+will be reflected at the shock. This pitch angle $\alpha_c$ defines a \textquoteleft loss-cone' in velocity space $f(v_{\perp}, v_{||})$, whereby any particle within the cone (large $v_{||}$) will be lost downstream, while particles outside the loss cone will be reflected at the shock. This is known as a \textquoteleft magnetic mirroring', a process that shocks are known to exhibit \citep{feldman1983}. Inside the dHT reference frame, the particles energy (whether reflected or transmitted) is completely conserved and there is no energy gain. Conceptually, the best way to see where the acceleration takes place is in the normal indcidence frame (NIF).
 
-In the NIF, the particles gyrate about the upstream magnetic field $\mathbf{B}_1$, while there is a convective electric causes a small drift of magnitude $\mathbf{v}_E = \mathbf{E}\times \mathbf{B}/B^2$ towards the shock. If the particle speed is much greater than the shock speed $v>>u$, the particle undergoes many Larmor gyrations while in contact with the shock. The difference between the Larmor radius of the orbit ahead of and behind the shock front (due to the increased downstream magnetic field) will cause the particle to drift parallel to the shock surface, Figure~\ref{fig:sda}. This is equivalent to a \textquoteleft grad-B' drift in an inhomogeneous magnetic field. This drift allows a charged particle to move parallel to the convective electric field, allowing the E-field to do positive work on the particle and produce an energy increase. Overall, a grad-B drift at the shock surface gives the particle a component of velocity that may interact with the convective electric field, hence the process is known as \textquoteleft drift-acceleration'.
+In the NIF, the particles gyrate about the upstream magnetic field $\mathbf{B}_1$, while there is a convective electric causes a small drift of magnitude $\mathbf{v}_E = \mathbf{E}\times \mathbf{B}/B^2$ towards the shock. If the particle speed is much greater than the shock speed $v>>u$, the particle undergoes many Larmor gyrations while in contact with the shock. The difference between the Larmor radius of the orbit ahead of and behind the shock front (due to the increased downstream magnetic field) will cause the particle to drift parallel to the shock surface \citep{ball2001, toptychin1980}, Figure~\ref{fig:sda}. This is equivalent to a \textquoteleft grad-B' drift in an inhomogeneous magnetic field. This drift allows a charged particle to move parallel to the convective electric field, allowing the E-field to do positive work on the particle and produce an energy increase. Overall, a grad-B drift at the shock surface gives the particle a component of velocity that may interact with the convective electric field, hence the process is known as \textquoteleft drift-acceleration'.
 
 \begin{figure}[!t] 
 \begin{center}
 \includegraphics[scale=0.3]{sda_original}
-\caption[Shock drift acceleration]{Particle drift paths due during both a transmitted (a) and reflected (b) motion. The increased magnetic field in the downstream region caused a drift along the surface. This drift occurs in the presence of a convective electric field (which will have a component parallel to the drift), allowing the field to do work on the particle and hence increase its energy.}
+\caption[Shock drift acceleration]{Particle drift paths due during both a transmitted (a) and reflected (b) motion. The increased magnetic field in the downstream region caused a drift along the surface. This drift occurs in the presence of a convective electric field (which will have a component parallel to the drift), allowing the field to do work on the particle and hence increase its energy \citep{ball2001}.}
 \label{fig:sda}
 \end{center}
 \end{figure}
@@ -363,17 +374,16 @@ While the energy gain is most apparent in the NIF frame, particle reflection and
 \frac{E_r}{E_i} = \frac{1+\sqrt{1-B_1/B_2}}{1-\sqrt{1-B_1/B_2}}
 %v^r_{||} = 2u_1\mathrm{sec}\theta_1 - v^i_{||}
 \end{equation}
-The energy gain is limited to the magnetic field strength jump across the shock, and since this field strength is limited by equation~\ref{eqn:compression}, the energy gain is limited to a factor of 13.93. A similar treatment may also give the reflected velocity in terms of the incident velocity.
+The energy gain is limited to the magnetic field strength jump across the shock, and since this field strength is limited by equation~\ref{eqn:compression}, the energy gain is limited to a factor of 13.93 \citep{ball2001}. A similar treatment may also give the reflected velocity in terms of the incident velocity \citep{holman1983}
 \begin{equation}
 v^r_{||} = 2u_1\mathrm{sec}\theta_1 - v^i_{||}
 \end{equation}
-
 shock drift acceleration has been used to explain the presence of $1-100$\,keV electron at Earth's magnetospheric bow shock \citep{wu1984}, in the context of radio bursts have used it to explain the acceleration of electrons during type II and herringbone bursts \citep{holman1983, mann2005, schmidt2012b}
 More sophisticated models involve multiple reflections at the shock that increase the energy gain each time, thereby producing energies that are observed in the vicinity of shocks. This multiple reflection process plays an important role in some theoretical treatments of herringbone emission; we will return to this point in Chapter 5.
 
 
 
-\subsection{Wave-Particle Interaction}\label{sec:31}
+\subsection{Wave-Particle Interaction}\label{sec:wave_particle}
 
 %Distributions of particles in a plasma can give rise to resonances in various wave modes. In general we may relate a particle distribution function in velocity space $f(v_{\|})$ with a distribution function of wave modes in wave-number or $\textquoteleft\mathbf{k}$-space' $N(\mathbf{k})$
 %\begin{equation}
@@ -388,7 +398,8 @@ To see how $f(\mathbf{r}, \mathbf{v}, t)$ evolves in time we insert it into the 
 \begin{equation}
 \frac{\partial f_1}{\partial t} + (\mathbf{v}\cdot \nabla)f_1 +\frac{q_e}{m_e}(\mathbf{E} + \mathbf{v}\times \mathbf{B})\cdot\nabla_vf_0=0
 \end{equation}
-Assuming an isotropic $f_0$ then $(\mathbf{v}\times \mathbf{B})\cdot\nabla_vf_0=0$. Then using Poisson's equation (Maxwell 1) and noting that the perturbation solutions are oscillatory, the perturbed Vlasov equation may be rearranged to give
+%Assuming an isotropic $f_0$ it can be shown that $(\mathbf{v}\times \mathbf{B})\cdot\nabla_vf_0=0$, and 
+Using Poisson's equation (Maxwell first equation) and replacing the time and space derivatives with their oscillatory operators ($\partial/\partial t \rightarrow -i\omega$, $\nabla \rightarrow i\mathbf{k}$), the perturbed Vlasov equation may be rearranged to give
 \begin{equation}
 f_1=\frac{q_e}{m_e}\frac{j}{\omega-\mathbf{k\cdot v}}\mathbf{E}\cdot\nabla_vf_0
 \label{eqn:f_pert}
@@ -397,20 +408,33 @@ This equation relates the perturbed quantity $f_1$ to the unperturbed distributi
 %using (19) the general form of the dispersion relation of the oscillations $(\omega,\mathbf{k})$ in perturbations $f_1$ and $E$ is derived
 \begin{equation}
 1+\frac{q_e}{\epsilon_0m_e}\frac{1}{k^2}\mathbf{k}\cdot\int_v\frac{\nabla_v f_0}{\omega-\mathbf{k\cdot v}}d^3v=0
+\label{eqn:dispersion}
 \end{equation}
-Any electrostatic normal mode oscillations satisfy this relationship and integrating over all space will result in a dispersion relation for the oscillations of the plasma property $f_1$. The equation effectively tells how oscillations and velocity distributions interact in a plasma. However, as mentioned, there is the possibility of resonances in this equation and the integral is non-trivial at $v \rightarrow \frac{\omega}{k}$ i.e., there is a singularity at the point $v = \frac{\omega}{k}$. If there are electrons in the particle distribution function that match the phase speed of oscillations in the plasma then the integral become non-trivial with a singularity or 'pole'. To avoid the singularity producing unphysical results, the integration is performed in complex space using a method called contour integration  \citep{melrose1989}. The use of contour integration means there will be complex solutions of the dispersion relation of the form $\omega = \omega_r + i\gamma$.
+Any electrostatic normal mode oscillations satisfy this relationship and integrating over all velocity space will result in a dispersion relation for the oscillations of the plasma property $f_1$. The equation effectively gives the oscillatory response $\omega = g(\mathbf{k})$ of the perturbation $f_1$ of the plasma, given a particular velocity distribution function $f_0$. For example, a cold plasma distribution function where $f_0 = N_0\delta(\mathbf{v})$, where $\delta$ is a dirac-delta, in equation~\ref{eqn:dispersion} will result in a dispersion relation of
+\begin{equation}
+1 - \frac{N_0q_e^2}{\epsilon_0 m_e \omega^2} = 0 
+\end{equation}
+The perturbed Vlasov equation with a cold plasma model (no thermal motions) produces the expression for a plasma oscillation. The integral over velocity space in this case can be performed because the delta function guarantees that there is no velocity with the property of $v = \frac{\omega}{\mathbf{k}}$. If this were to be fulfilled, there is the possibility of resonances equation~\ref{eqn:dispersion} i.e., the integral is non-trivial as $v \rightarrow \frac{\omega}{k}$. This states that if there are electrons in the particle distribution function that match the phase speed of oscillations in the plasma then the integral will have a singularity or 'pole'. To avoid the singularity producing unphysical results, the integration is performed in complex space using a method called contour integration \citep{melrose1989}. The use of contour integration means there will be complex solutions of the dispersion relation of the form $\omega = \omega_r + i\gamma$.
 The real part of the solution applies as normal where the integral is well behaved, far from the singularity. However, integration over the singularity necessitates a complex solution (from the contour integration), hence the $\omega$ consists of both real and imaginary parts.
 The complex $i\gamma$ means that a time dependency of the periodic solutions to the perturbations $f_1$ will be 
 \begin{equation}
 e^{j\omega t}=e^{(i[\omega_r + i\gamma])}=e^{i\omega_rt}e^{-\gamma t}
 \end{equation}
-This solution is a damped wave with damping factor $\gamma$, meaning the solutions to (equation!!!) in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping. However, the damping term is dependent on the negative of the velocity space gradient at $v=\frac{\omega}{k}$ \citep{melrose1989}
+This solution is a damped wave with damping factor $\gamma$, meaning the solution to equation~\ref{eqn:dispersion} in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping. However, the damping term is dependent on the negative of the velocity space gradient at $v=\frac{\omega}{k}$ \citep{melrose1989}
 \begin{equation}
 \gamma \sim -\nabla_v f_0|_{v=\frac{\omega}{k}}
 \end{equation}
 If there are a group of electrons that have the same speed of a particular wave in the plasma they may exchange energy with this wave efficiently. If there is a negative gradient on the velocity distribution at $v=\frac{\omega}{k}$, this will lead to wave damping. However, a positive gradient in the velocity distribution will result in $\gamma <0$ and a wave growth term that increases exponentially. Effectively, %if a group of electrons is promoted to a speed that matches the phase speed of Langmuir waves in the plasma, and their velocity space gradient at the phase speed is positive, then Langmuir waves will grow exponential. This group of electrons is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell distribution function. The growth of Langmuir waves in a resonant response to this beam is called the bump-on-tail instability.
 a group of electrons is promoted to a velocity range that closely matches the phase speed of some type of waves in a medium $v \sim \omega/k$. In such a speed range the integrand of (equation) approaches the point at which there is a singularity in the solution. Such a point necessitates a complex solution to the integral, thus providing an imaginary part to the dispersion relation that gives an $e^{-\gamma t}$ term. If the promotion of electrons to a range $v \sim \omega/k$ is combined with a positive gradient of the distribution function in this velocity range, it results in $\gamma < 0$ and $e^{-\gamma t}>0$, leading to wave growth. This is why $v - \omega/k=0$
-is known as the resonance condition \citep{melrose1989}. Since electron beams in the corona match the phase speed of Langmuir waves, the beam results in the generation of Langmuir waves. This group of electrons in the beam is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell distribution function. The growth of Langmuir waves in a resonant response to this beam is called the bump-on-tail instability. Once these Langmuir waves are generated they may undergo decay or coalescence with other waves to produce electromagnetic radiation. 
+is known as the resonance condition \citep{melrose1989}. Since electron beams in the corona match the phase speed of Langmuir waves, the beam results in the generation of Langmuir waves. This group of electrons in the beam is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell-Boltzmann velocity distribution function (Figure~\ref{fig:bot}). 
+\begin{figure}[!t] 
+\begin{center}
+\includegraphics[scale=0.2]{bump_on_tail}
+\caption[Shock drift acceleration]{Maxwell-Boltzmann velocity distribution with a Guassian `bump-on-tail' representing the beam. The shaded region are those electrons that will produce a bump-on-tail instability due to the presence of a positive slope in the distribution function.}
+\label{fig:bot}
+\end{center}
+\end{figure}
+The growth of Langmuir waves in a resonant response to this beam is called the bump-on-tail instability. Once these Langmuir waves are generated they may undergo decay or coalescence with other waves to produce electromagnetic radiation. 
 
 %\begin{figure}[!t]
 %\begin{center}
@@ -419,7 +443,7 @@ is known as the resonance condition \citep{melrose1989}. Since electron beams in
 %\end{figure}
 
 
-\subsection{Three-Wave Interaction and Plasma Emission}\label{sec:32}
+\subsection{Three-Wave Interaction and Plasma Emission}\label{sec:three_wave}
 
 Once the Langmuir waves are produced from the bump-on-tail instability a number of wave interaction processes occur in order to bring about plasma emission. This involves the interaction of various wave modes in the plasma described by a mathematical formalism called the three-wave interaction \citep{robinson1993, robinson1994}. In this process three wave modes in a plasma M, P, and Q are described by their distribution functions in a wave-number space ($k$-space). the distribution functions are given by $N_M(k_M)$, $N_P(k_P)$, $N_Q(k_Q)$, where the $N$ describe the occupation number of wave quanta between $k$ and $k+dk$ in the wave-number space. Waves in P and Q mode may interact to such that wave quanta are removed from the P and Q k-space and added to the M k-space. This is essentially an emission of an energy packet from the P and Q -space to the M k-space. The rate of change of occupation numbers in the three k-spaces are given by
 \begin{eqnarray}
@@ -464,7 +488,7 @@ In the case of these three interacting waves then
 \end{eqnarray}
 where the relevant dispersion relations are 
 \begin{eqnarray}
-\omega_L = \omega_p + \frac{3V^2}{2\omega_p}k_L^2 \\
+\omega_L = \omega_p + \frac{3v_{th}^2}{2\omega_p}k_L^2 \\
 \omega_T = (\omega_p^2 +k_T^2c^2)^{1/2} \\
 \omega_S = k_s\sqrt{\frac{\gamma k_B T_e}{m_i}}
 \end{eqnarray}
@@ -473,16 +497,18 @@ where
 \omega_p = \bigg(\frac{n_e e^2}{m_e \epsilon_0}\bigg)^\frac{1}{2}
 \label{eqn:plasma_frequency}
 \end{equation}
+These equations imply that when a Langmuir wave decays to an electromagnetic wave and an ion sound wave (equation 2.58), the frequency of the electromagnetic wave will be equal to that of the Langmuir wave such that $\omega_T = \omega_L \approx \omega_p$. This is why plasma emission occurs at the local plasma frequency. Similarly the production of $T^{'}$ via equation (2.59) results in the first harmonic $\omega_T \approx 2\omega_p$. 
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+%
+%PROVE THE ABOVE MORE CLEARLY!!!!!!!!!!!!!!!!!!!!!!
+%
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 In order to investigate the amount of energy emitted by the electromagnetic wave, elements of the three wave interaction theory need to be combined with what is known as stochastic growth theory \citep{robinson1993a}(SGT). Stochastic growth theory was first developed in response to a number of criticisms of the theory of a beam-driven Langmuir wave hypothesis of type III radio bursts first proposed by \citet{ginzburg1958}. It was pointed out that if the beam was to remain in instability continuously over space and time in the absence of saturation mechanism, then it would quickly lose all of its energy to the Langmuir waves and consequently the beam electrons would stop propagating after a short distance \citep{sturrock1964}. This is clearly not the case, since type III electrons are observed to propagate over distances of 1\,A.U or more. 
 %Secondly, if the instability continues uninhibited the Langmuir wave with grow to levels far beyond what is observed \citep{smith1979}. 
 %It was concluded that the beam cannot remain in a state of instability for the duration of its propagation. One suggestion to over come this was quasi-linear relaxation \citep{grognard1975}, as described above. However, this may not be enough to guarantee a lone lifetime of the beam. 
 SGT overcomes this by describing an electron beam propagation in a state of marginal stability. The beam propagates in an inhomogeneous medium whereby it encounters pockets of localised density enhancement where it is unstable intermittently. As the beam propagates through this localised clump, it is unstable to the growth of Langmuir wave, giving up some of its energy to the wave, diminishing the beam slightly. Once it exits the clump it becomes stable again, allowing the beam to reform until it reaches another localised clump to give up some energy again. The Langmuir waves would then experience a growth at intermittent regions in space and time (which is actually observed \citep{lin1986}), while the beam would be unstable for only small fractions of its lifetime. Overall, the beam energy loss is on average low enough to allow its continued propagation, but instantaneous and finite enough to allow the growth of waves. 
 %In this mechanism the Langmuir waves experience a a growth in energy that is a random (stochastic) walk through energy phase space \citep{robinson1992}.  The Langmuir wave send up with an energy distribution given by $P(E)\sim E^{-1}$ \citep{robinson1993a}.  
-Combining elements of the stochastic growth model and the three-wave interaction process allows a calculation of the mount of energy that ends up in the electromagnetic waves, and consequently the volume emissivity of the emission \citep{robinson1993a, robinson1998}
-\begin{equation}
-j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\Delta v_b}{v_b}
-\end{equation}
-here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta\Omega_M$ is the solid angle over which the  emission is spread, $n_b$ is the electron beam number density, $v_b$ is the beam speed, $l(r)$ is the distance from emission point to observer, $\Delta v_b$ is the width of the beam in velocity space. $\Phi_M$ are known as the conversion efficiencies and are different for fundamental and harmonic emission, see Appendix X.
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=1.1, trim=0cm 0cm 0cm 0.5cm]{images/Cairns2003.pdf}
@@ -490,7 +516,31 @@ here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta
 \label{fig:cairns_emissivity}
 \end{center}
 \end{figure}
+Combining elements of the stochastic growth model and the three-wave interaction process allows a calculation of the mount of energy that ends up in the electromagnetic waves, and consequently the volume emissivity of the emission \citep{robinson1993a, robinson1998}
+\begin{equation}
+j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\Delta v_b}{v_b}
+\end{equation}
+here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta\Omega_M$ is the solid angle over which the  emission is spread, $n_b$ is the electron beam number density, $v_b$ is the beam speed, $l(r)$ is the distance from emission point to observer, $\Delta v_b$ is the width of the beam in velocity space. $\Phi_M$ are known as the conversion efficiencies and are different for fundamental and harmonic emission, see Appendix X.
+
 These expressions have been used to simulate radio burst flux resulting in $\sim10^{-17}$\,W\,m$^{-2}$\,Hz$^{-1}$, which have been compared to type II and III radio bursts \citep{schmidt2012, knock2001}. \citet{knock2003} and \citet{cairns2003} used the theory to predict interplanetary type II burst flux as a function of a variety of shock parameters e.g., shocks speed Fig.~\ref{fig:cairns_emissivity}.
+
+The theory outlined in section~\ref{sec:mhd_shocks} -- \ref{sec:three_wave} was employed in a model developed by \citet{schmidt2012b}, completely describing the generation of radio bursts from CME driven shocks. It involves the eruption of a flux rope into a background corona, the driving of a shock as described by the MHD Rankine-Hugoniot relations, the generation of electron beams via SDA, the growth of the bump-on-tail instability, and the generation of electromagnetic emission via the three-wave process and stochastic growth theory. The model finds that that radio emission is generated on the expanding flanks of a CME. The model also shows that when the shock is rippled, there will be spatially intermittent regions of electron beam generation, which could be possible explanation of herringbone emission (Figure~\ref{fig:herbone_model}).
+% as shown in Figure~\ref{fig:schmidt_model}
+%\begin{figure}[t!]
+%\begin{center}
+%\includegraphics[scale=0.7]{schmidt_model}
+%\caption[Model of radio burst driven by expanding CME flanks]{Complete model of radio burst driven by expanding CME flanks}
+%\label{fig:schmidt_model}
+%\end{center}
+%\end{figure}
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=1.2]{herbone_model}
+\caption[Model of radio burst driven by expanding CME flanks]{Model of the radio emission driven by electron beams on the flank of a CME. Each arrow marks the trajectory of the electron beams accelerated at the rippled shock surface. The red and blue lines outline the shock ramp. The green-red colours show radio emission intensity.}
+\label{fig:herbone_model}
+\end{center}
+\end{figure}
+
 
 \subsection{Frequency Drift of Radio Bursts}
 

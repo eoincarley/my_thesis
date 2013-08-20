@@ -5,11 +5,11 @@
 \chapter{Observation and Instrumentation} 
 \label{chap:3}
 
-\section{Thompson Scattering Theory}\label{sec:1}
+\section{White-Light Observations}\label{sec:1}
 
 \subsection{Thomson Scattering in the Corona}\label{sec:10}
 
-The first evidence for the existence of the corona was through observations during solar eclipses. The occultation of the solar disk by the moon revealed a visible outer atmosphere structured into streamers and plumes and extending far from the solar surface (Fig.~\ref{fig:eclipse}). This is known as the white-light corona and is due to Thomson scattering of photospheric light by free electrons in the corona.
+The first evidence for the existence of the corona was through observations during solar eclipses. The occultation of the solar disk by the moon revealed a visible outer atmosphere structured into streamers and plumes and extending far from the solar surface (Figure~\ref{fig:eclipse}). This is known as the white-light corona and is due to Thomson scattering of photospheric light by free electrons in the corona.
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.45]{images/solar_eclipse}
@@ -61,15 +61,15 @@ where $\Omega$ is the angle between the lines QS and QT. Q is the scattering poi
 \end{center}
 \end{figure}
 
+DESCRIBE THOMSON SPHERE
+%\subsection{White-light observations of CMEs}\label{sec:11}
 
-\subsection{White-light observations of CMEs}\label{sec:11}
 
-
-\section{Coronagraphs}
+\subsection{Coronagraphs}
 Before the early 20th century the only way to view the corona was for a short period during a solar eclipse when the moon blocks direct photospheric light. Under normal conditions direct sunlight overwhelms the faint corona. In 1939 the French Astronomer Bernard Lyot developed a telescope, known as a coronagraph, which allowed observation of the corona at any time \citep{lyot1939}. A coronagraph is an optical system that provides an artificial eclipse of direct photospheric light so the much fainter corona can be imaged.
 %A coronagraph is an optical system that provides an artificial eclipse so the faint corona may be imaged at any time. The first working coronagraph was invented by the French astronomer Bernard Lyot in 1930.
 
-\subsection{Lyot Coronagraph}\label{sec:22}
+\subsubsection{Lyot Coronagraph}\label{sec:22}
 The Lyot Coronagraph is the name given to the first optical design of a coronagraph developed by Bernard Lyot. A basic schematic of the instrument is given in Figure~\ref{fig:lyot}. The optical element O1 is a lens that is extremely polished to prevent scattering and reflections of incident light. O1 creates an image of the Sun onto its focal plane at F1 where the occulting disk, D1, reflects away the unwanted solar disk image. F1 then images the objective lens and the occulting disk onto the plane of O2. Lyot's key invention was the Lyot stop and Lyot spot. These are devices onto which light diffracted at the occulting disk is directed and subsequently blocked from being imaged by the final lens O2. O2 then images the faint corona and occulting disk onto the detector plane. 
 \begin{figure}[!t]
 \begin{center}
@@ -81,7 +81,7 @@ The Lyot Coronagraph is the name given to the first optical design of a coronagr
 
 The Lyot coronagraph is described as internally occulting due to the placement of the occulting disk behind the first objective lens. This is to distinguish it from a externally occulted system in which the disk is placed in front of the objective lens. Modern coronagraphs follow the same basic design of Lyot's but contain extra features such as baffles to stop any scattered light in the telescope. 
 
-\subsection{STEREO COR1 and COR2}\label{sec:22}
+\subsubsection{STEREO COR1 and COR2}\label{sec:22}
 The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai08} Ahead and Behind are two nearly identical spacecraft traveling ahead and behind Earth in its orbit. Each spacecraft is receding from Earth at a rate of $\pm22^{\circ}$ per year, such that they are effectively traveling around the Sun in opposite directions. They carry an identical set of instruments known as the Sun Earth Coronal Connection and Heliospheric Investigation (SECCHI) suite, including in situ detectors and a variety of imagers. On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
 \begin{figure}[!t]
 \begin{center}
@@ -105,9 +105,7 @@ COR2 is an externally occulted Lyot coronagraph. Externally occulted coronagraph
 
 These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
 
-DATA REDUCTION AND TELEMETRY!!!
-
-\subsection{SOHO LASCO}\label{sec:23}
+\subsubsection{SOHO LASCO}\label{sec:23}
 
 The Large Angle Spectroscopic Coronagraph (LASCO) on board the Solar and Heliospheric Observatory (SOHO) comprises three different coronagraphs, C1, C2, and C3, that were built to observe the corona over heliocentric distance range of 1.1--30\,$R_{\odot}$ \citep{bru95}. 
 
@@ -133,28 +131,62 @@ The disks have fine threads on their edges that have been diamond machined, and 
 
 The light focused onto the focal plane by the O3 lens first pases through colour filter and polarizer wheel, which selects the band pass and takes three polarization images at $0^{\circ}$, $-60^{\circ}$ and $+60^{\circ}$ such that total or polarized brightness images of the corona may be taken. Mounted at the focal plane is a front-side illuminated $1024\times1024$ CCD, with $21\mu$ square pixels (equivalent angular size if 11.4"),  operating in a nominal spectral range of $500-700$\,nm, at a temperature of $-80^{\circ}$\,C. CCD readout takes approximately 22 seconds, after which the image may be compressed by a number of algorithms before being sent to the ground station. Among the observing nominal modes are routine flat-field exposures and dark current exposures to be used in calibration. At current operations the C2 coronagraph offers a total brightness image of the corona every 15 minutes.  
 
-
 Finally, C3 is an externally occulted broadband lens coronagraph that images the corona from $3.7-30\,R_{\odot}$, with a pixel size of $56"$ and brightness range of $3\times10^{-9} - 1\times10^{-11}$. It has the same optical design as C2 (Figure~\ref{fig:c2_concept}).
 
-DATA REDUCTION AND TELEMETRY!!!
+The C1, C2 and C3 coronagraph data is processed on-board using a number of steps that may compress the data before transmission to an Earth ground station. Each telescope feeds its compressed data to the same telemetry buffer which can store up to 2\,Mb. The  LASCO telemetry rate is 4.2\,kb\,s$^{-1}$ and communication with the ground is via the Deep Space Network (DPS). The SOHO spacecraft is usually in contact with the DPS for approximately 2 hours per day. Data captured by the DPS is then transmitted to servers at NASA's Goddard Space Flight Centre (GSFC) and the Naval Research Laboratory (NRL).
 
-\subsection{White-light image calibration}
+\subsubsection{Whilte-light Image Data Reduction}
 
-\section{Ultraviolet Imaging}\label{sec:4}
+All coronagraph images, from COR1, COR2, and the LASCO coronagraphs, have a number of basic image processing steps in common. The amount by which the data has been processed is described in terms of `levels', with the most basic raw data product of the telescope being level-0. Level-0 usually comprises the compressed data that comes directly from the spacecraft telemetry stream via the DPS. The data is processed from level-0 to level-0.5 by decompressing the spacecraft data and re-packaged into flexible into flexible image transport system (FITS) files, which is an open standard format for all astronomical images. Level-0.5 data also rotates the image so that solar north points to the top of the image
+
+Calibration of the data into a scientifically usable format results in level-1 data. The steps to produce level-1 data are as follows:
+\begin{itemize}
+\item Darks current image subtraction. Each CCD will carry some level of residual voltage even when the camera shutter is closed. This residual voltage is due to the thermal energy of the electrons in each well of the CCD. The voltage (thermal energy) must be removed from the image since it is not due to light from an observed source. The `dark image' is taken with the camera shutter closed and an exposure performed as normal (exposure time the same as the raw image). The dark image is simply subtracted from the raw image
+\item Bias image. Similar to dark current the CCD will have some charge due systematic defects. These are usually exposed by taking an image with the shutter closed and for the shortest possible exposure times. They bias image is subtracted from the raw image.
+\item Flat field correction. Every CCD will have a non-uniform response across its photon collecting area. One side of the CCD, or any arbitrary grouping of pixels, may naturally be more sensitive than the other pixels. To account for this, the raw image must divided by a `flat-field' in order to normalize the spatially non-uniform response of the CCD. The `flat-field' is an image taken of a uniformly illuminated surface so that the CCD is uniformly illuminated. For space based telescopes this uniformly illuminated image is usually taken by closing the telescope front aperture and lighting a lamp placed near the aperture cover. The LASCO system uses a quartz filter on the telescope cover that disperses exterior light, allowing a uniform illumination of the CCD. THE COR coronagraphs USE THIS METHOD. It is important that the dark current and bias images be subtracted from the flat-field before the raw images (which are also dark and bias image subtracted) is divided by the flat field.
+\end{itemize}
+These three steps are the most fundamental of all CCD imaging calibration routines. They can be summarised as
+\begin{equation}
+I_{cal}(x_i, y_i) = \frac{ I_{raw}(x_i, y_i)  - I_{dark}(x_i, y_i) - I_{bias}(x_i, y_i)  }{ | I_{flat}(x_i, y_i) - I_{dark}(x_i, y_i) - I_{bias}(x_i, y_i)| }
+\end{equation}
+where $I$ are the images, $(x_i, y_i)$ are pixel coordinates, and the $|~|$ in the denominator mean that the dark and bias subtracted flat-field is normalized (divided by itself). Other standard techniques beyond the most basic ones listed above are
+\begin{itemize}
+\item Vignetting. All camera imaging systems suffer from vignetting, a reduction in brightness at the edge of the field of view. In coronagraph systems this is particularly important since a vignette can occur at the inner field of view, due to the occulting disk and also due to the pylon supports of the disk. Special vignetting calibration images are performed to account for this effect; they are used to normalise the image in the same way as the flat-field is performed.
+\item De-warping. The image may appear suffer some geometric distortions due to a deformity in an one of the numerous optical components of a telescope. This may result in the image being warped. Pre-flight experiments completely characterize any optical distortion so that all raw image may be `de-warped'
+\item Brightness calibration. This is the conversion from CCD data numbers (DNs) to physical measures of intensity e.g., mean solar brightness (MSB) units (1 MSB = !!!!). The conversion factors may be calculated in a pre-flight lab, or during inflight via observations of objects with known intensities (Mercury, Venus, or Jupiter serve as calibrators for COR\,1 and 2). This step may be preceded by a division by instrument exposure time to result in the units of DNs\,s$^{-1}$ before conversion to MSB.
+\end{itemize}
+The above steps are the most frequently taken to ensure clean and calibrated astronomical images. They apply to every telescope using a CCD imaging system, every telescope type, including ground and spaced-based systems. 
+
+Anything beyond these calibration steps is termed level-2 and is usually instrument specific. For example the LASCO coronagraphs and COR\,1 and 2 provide an option of polarized brightness output. Since this will usually employ some complex processing using Mueller matrices, it is a level-2 processing steps. Chapter 4 will discuss the production of `mass images' where the pixel values have units of grams, this may also be termed level-2 processing.
+
+
+\section{Ultraviolet Observations}\label{sec:4}
 
 \subsection{The Atmospheric Imaging Assembly}\label{sec:40}
 
-The Atmospheric Imaging Assembly (AIA), on board NASA's Solar Dynamics Observatory (SDO), consists of four telescopes that provide visible, ultraviolet (UV), and extreme ultraviolet (EUV) full-disk images of the transition region and corona up to $0.5\,R_{\odot}$/ with 1.5" spatial resolution and 12-second temporal resolution. The telescopes provide imaging in seven extreme ultraviolet passbands centered on the lines Fe\,\Rmnum{18} \,(94\,\AA), Fe\Rmnum{8}, \Rmnum{21}\,(131\,\AA), Fe\Rmnum{9} \,(171\,\AA), Fe\Rmnum{12}, \Rmnum{24}\,(193\,\AA), Fe\Rmnum{14}\,(211\,\AA), He\Rmnum{2}\,(304\,\AA), Fe\Rmnum{16}\,(335\,\AA). One of the telescopes observes longer wavelengths at C\Rmnum{4}\,(1600\,\AA), the nearby continuum ay (1700\,\AA) and a broadband visible filter centered on (4500\,\AA)  giving a full temperature coverage of $6\times10^4$\,K to $2\times10^7$\,K.
+The Atmospheric Imaging Assembly (AIA), on board NASA's Solar Dynamics Observatory (SDO), consists of four Cassegrain telescopes that provide visible, ultraviolet (UV), and extreme ultraviolet (EUV) full-disk images of the transition region and corona up to $0.5\,R_{\odot}$/ with 1.5" spatial resolution and 12-second temporal resolution \citep{lemen2012}. The telescopes provide imaging in seven extreme ultraviolet passbands centered on the lines Fe\,\Rmnum{18} \,(94\,\AA), Fe\Rmnum{8}, \Rmnum{21}\,(131\,\AA), Fe\Rmnum{9} \,(171\,\AA), Fe\Rmnum{12}, \Rmnum{24}\,(193\,\AA), Fe\Rmnum{14}\,(211\,\AA), He\Rmnum{2}\,(304\,\AA), Fe\Rmnum{16}\,(335\,\AA). One of the telescopes observes longer wavelengths at C\Rmnum{4}\,(1600\,\AA), the nearby continuum ay (1700\,\AA) and a broadband visible filter centered on (4500\,\AA)  giving a full temperature coverage of $6\times10^4$\,K to $2\times10^7$\,K.
 
-Each telescope has a field of view is 41' circular diameter, a 20\,cm primary mirror and an active secondary mirror that is pointed in response to signals from a guide telescope. Each mirror is polished to a roughness of $<5\,\AA$~rms in the spatial frequency range $10^{-3}-5\times10^{-1}$\,nm$^{-1}$. The telescopes are dual channel i.e., the mirrors in each telescope have two different multi-layer coatings on either half so as to be reflective at a single desired central wavelength on one half. For example, half of mirror 2 has a peak reflectance at 195.5\,\AA with the other half reflects at 211.3\,\AA. These two-channel combinations for each mirror in all four telescopes is shown in Figure X. Half of mirror 3 provides the broadband UV and visible channel, with a coating that gives the ability to reflect at 1600, 1700, and 4500\,\AA, while the other half of the mirror provides the optics for the 171\,\AA channel. Hence telescope 3 provides the optics for four different bandpasses. 
+Each telescope has a field of view is 41' circular diameter, a 20\,cm primary mirror and an active secondary mirror that is pointed in response to signals from a guide telescope. 
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=1.1]{aia_telescope.png}
+\caption[The AIA telescope design]{The Atmospheric Imaging Assemly (AIA) telescope design. AIA employs for these Cassegrain type telescopes, with telescope 1, 2 and 4 serving as dual channel passbands, and telescope 3 permitting imaging at three separate passbands \citep{lemen2012}.}
+\end{center}
+\end{figure}
+Each mirror is polished to a roughness of $<5\,\AA$~rms in the spatial frequency range $10^{-3}-5\times10^{-1}$\,nm$^{-1}$. The telescopes are dual channel i.e., the mirrors in each telescope have two different multi-layer coatings on either half so as to be reflective at a single desired central wavelength on one half. For example, half of mirror 2 has a peak reflectance at 195.5\,\AA with the other half reflects at 211.3\,\AA. These two-channel combinations for each mirror in all four telescopes is shown in Figure X. Half of mirror 3 provides the broadband UV and visible channel, with a coating that gives the ability to reflect at 1600, 1700, and 4500\,\AA, while the other half of the mirror provides the optics for the 171\,\AA channel. Hence telescope 3 provides the optics for four different bandpasses. 
 
 Metal entrance filters at the aperture of each telescope, combined with a filter wheel located in front of each focal plane, suppress unwanted UV, visible, and IR radiation. The filters are either made of aluminium, used for wavelengths of 171\,\AA~or longer, and zirconium used for the shorter 94\,\AA and 131\,\AA wavelengths. Telescope 3 has an aluminium (for 171\,\AA)and MgF$-2$ (for the UV broadband)entrance window and 3 different filters on the filter wheel that cater for observation in 171\,\AA~(aluminium), 1600\,\AA~(MgF$-2$), 1700\,\AA~and 4500\,\AA~(fused silica). A mechanical shutter regulates exposure time to nominal short exposure times of 5\,ms and nominal long exposure times of 80\,ms. Flight software can also select any custom exposure time.
-
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=1.2]{aia_4telescopes.png}
+\caption[The four telescopes making up the AIA]{The four telescopes making up the Atmospheric Imaging Assembly (AIA) \citep{lemen2012}.}
+\end{center}
+\end{figure}
 The focal plane of each telescope contains a back-illuminated $4096\times4096$ pixel CCD, with each square pixel having a 12\,$\mu$m size. Each CCD is read out in 4 quadrants, via an amplifier, into a camera box with four interfaces (one for each quadrant). Each quadrant is read out at a rate of 2\,Mpixels\,s$^{-1}$ and data transmission to the on-board computer occurs at a rate of 100\,Mb\,s$^{-1}$
 
-DATA REDUCTION AND TELEMETRY
+All of the steps above described for white-light calibration are relevant for ultraviolet CCD imaging also. The AIA calibration procedure to bring the data from level-0.5 to level-1 include de-biasing, dark subtraction, flat-fielding, de-vignetting, de-warping, and brightness calibration.
 
-\section{Radioheliographs and Radiospectrometers}\label{sec:3}
+\section{Radio Observations}\label{sec:3}
 
 \subsection{Nancay Radioheliograph}\label{sec:33}
 
@@ -194,11 +226,12 @@ Instrument phase and gain calibration is performed by observing Cygnus A. Phase 
 %The Mark IV Nancay Radioheliograph Solar Physics 120 p193) 
 %Correlation is performed independently for the EW and NS baselines
 
-!!!Radioheliograph data reduction:
-Visiblities
-Calibration
-Dirty map
-Deconvolution - Multiscale CLEAN
+\begin{itemize}
+\item Visiblities
+\item Calibration
+\item Dirty map
+\item Deconvolution - Multiscale CLEAN
+\end{itemize}
 
 \subsection{Nan\c{c}ay Decametric Array}\label{sec:32}
 
@@ -224,8 +257,6 @@ The LFR is s direct conversion receiver that performs dynamic spectral analysis 
 The HFR is a dual sweeping receiver operating in the frequency range 125 kHz--16.025 MHz. It uses a super-hetereodyne technique to down-convert the signal frequencies to odd multiples of 25\,kHz that specifically avoid lines of noise that are generated by the spacecraft power supply, which may produce harmonic multiples of 50\,kHz. Due to the down-conversion process the HFR frqeuency range is covered in multiple steps of 50\,kHz increments, thus the highest spectral resolution is 50\,kHz. It has a dynamic range of 80\,dB. Like the LFR, it can receive various combinations of the three antenna elements in dipole or monopole modes. The signal is digitized by the same DPU as the LFR.
 
 The time domain resolution for both the LFR and HFR is determined by the DPU. Nominal time resolution of the dynamic spectra produced by both receivers is 1\,minute.
-
-DATA REDUCTION AND TELEMETRY
 
 \subsection{Rosse Solar Terrestrial Observatory}\label{sec:30}
 
@@ -272,5 +303,8 @@ RSTO is part of the e-Callisto network\footnote{www.e-callisto.org}. The network
 To compare RSTO to other radio observing sites, an survey of RFI at RSTO was performed in June 2009. The detected spectrum is shown in Figure~\ref{fig:rfi_survey}.  A commercial DVB-T antenna covering the range from 20~MHz up to 900~MHz was used for the survey, which was directly connected via a low-loss coaxial cable to a Callisto receiver with a sensitivity of 25~mV/dB. The channel resolution was 62.5~kHz, while the radiometric bandwidth was about 300 kHz. The sampling time was 1.25 ms per frequency interval, while the integration time was about 1~ms.  Figure \ref{radiosurvey} shows the RFI radio surveys of RSTO, Bleien Observatory in Switzerland, and the Potsdam LOFAR station in Germany. There is an high level of interference at 20--200~MHz for the Bleien and Potsdam sites, while the RSTO site has a low level of RFI.
 
 \subsection{Dynamic Spectra Data Reduction}
-
+\begin{itemize}
+\item Background subtraction
+\item RFI Removal
+\end{itemize}
 
