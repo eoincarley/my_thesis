@@ -1,4 +1,4 @@
-\begin{thebibliography}{220}
+\begin{thebibliography}{221}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -107,6 +107,9 @@
 {\sc {Biesecker}, D.A., {Myers}, D.C., {Thompson}, B.J., {Hammer}, D.M. \&
   {Vourlidas}, A.} (2002). {Solar Phenomena Associated with ``EIT Waves''}.
   {\em \apj\/}, {\bf 569}, 1009--1015.
+
+\bibitem[{{Billings}(1966)}]{billings1966}
+{\sc {Billings}, D.E.} (1966). {\em {A guide to the solar corona}\/}.
 
 \bibitem[{{Boischot} {\em et~al.\/}(1980){Boischot}, {Rosolen}, {Aubier},
   {Daigne}, {Genova}, {Leblanc}, {Lecacheux}, {de La Noe} \&

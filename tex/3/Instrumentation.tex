@@ -70,40 +70,16 @@ Before the early 20th century the only way to view the corona was for a short pe
 %A coronagraph is an optical system that provides an artificial eclipse so the faint corona may be imaged at any time. The first working coronagraph was invented by the French astronomer Bernard Lyot in 1930.
 
 \subsubsection{Lyot Coronagraph}\label{sec:22}
-The Lyot Coronagraph is the name given to the first optical design of a coronagraph developed by Bernard Lyot. A basic schematic of the instrument is given in Figure~\ref{fig:lyot}. The optical element O1 is a lens that is extremely polished to prevent scattering and reflections of incident light. O1 creates an image of the Sun onto its focal plane at F1 where the occulting disk, D1, reflects away the unwanted solar disk image. F1 then images the objective lens and the occulting disk onto the plane of O2. Lyot's key invention was the Lyot stop and Lyot spot. These are devices onto which light diffracted at the occulting disk is directed and subsequently blocked from being imaged by the final lens O2. O2 then images the faint corona and occulting disk onto the detector plane. 
+The Lyot coronagraph is the name given to the first optical design of a coronagraph developed by Bernard Lyot. A basic schematic of the instrument is given in Figure~\ref{fig:lyot}. The objective lens O1 forms an image of the solar disk onto
+to the internal occulting disk D1 (a metal cone), where the light is reflected away from the field lens O2. Lyot's key invention was the Lyot stop (A1) and Lyot spot (D2). The field lens O2 images the aperture A0 and its diffraction pattern onto the Lyot stop. If the Lyot stop were not there, this light would reach the focal plane and contaminate the image. The Lyot stop (D2) blocks spurious light caused by multiple reflections in the field lens O2. It also blocks an light diffracted by the occulter D1. In theory the only light that is transmitted through the system is that coming from outside the solar disk. this light is focused onto the image plane F by O3. In practice there may be undesired and excess light that is transmitted through the system and great care is taken to reduce this as much as possible. The Lyot coronagraph is described as internally occulting due to the placement of the occulting disk behind the first objective lens. This is to distinguish it from a externally occulted system in which an extra disk is placed in front of the objective lens.
+
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[trim=0cm 1.0cm 0cm 0cm, scale=0.8]{images/Lyot_coronagraph}
-\caption[The Lyot coronagraph]{A schematic of the basic optical design of the Lyot coronagraph. Lyot's key inventions where the placement of a Lyot stop and Lyot spot at the positions where diffracted light would contaminate the image and obscure the faint corona.}
+\includegraphics[scale=0.35, trim=0.0cm 2cm 0cm 2cm]{lyot.png}
+\caption[The Lyot coronagraph]{A schematic of the basic optical design of the Lyot coronagraph. Lyot's key inventions where the placement of a Lyot stop (A1) and Lyot spot (D2) at the positions where diffracted light would contaminate the image and obscure the faint corona.}
 \label{fig:lyot}
 \end{center}
 \end{figure}
-
-The Lyot coronagraph is described as internally occulting due to the placement of the occulting disk behind the first objective lens. This is to distinguish it from a externally occulted system in which the disk is placed in front of the objective lens. Modern coronagraphs follow the same basic design of Lyot's but contain extra features such as baffles to stop any scattered light in the telescope. 
-
-\subsubsection{STEREO COR1 and COR2}\label{sec:22}
-The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai08} Ahead and Behind are two nearly identical spacecraft traveling ahead and behind Earth in its orbit. Each spacecraft is receding from Earth at a rate of $\pm22^{\circ}$ per year, such that they are effectively traveling around the Sun in opposite directions. They carry an identical set of instruments known as the Sun Earth Coronal Connection and Heliospheric Investigation (SECCHI) suite, including in situ detectors and a variety of imagers. On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[width=0.8\textwidth]{images/COR1_design}
-\caption[The COR1 coronagraph]{A schematic of the basic optical design of the the COR1 coronagraph. There are two such identical instruments, one on the Ahead and one on the Behind spacecraft. It is the same basic design as the Lyot coronagraph with the addition of baffles to prevent scattered light and a polarizer behind the Lyot stop \citep{thomp2008}.}
-\label{fig:COR1_design}
-\end{center}
-\end{figure}
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[width=0.8\textwidth]{images/cor2}
-\caption[The COR2 coronagraph]{A schematic of the basic optical design of the COR2 coronagraph. This is an externally occulted coronagraph, meaning it has an extra occultation disk in front of the objective lens. This results in less internally scattered light, but also results in an obscuration of the inner corona. As with COR1, there are two such identical instruments, one on the Ahead and one on the Behind spacecraft \citep{how08}.}
-\label{fig:cor2}
-\end{center}
-\end{figure}
-
-
-COR1 is an internally occulted Lyot coronagraph, see Figure~\ref{fig:COR1_design}. It images the inner corona with a field of view from $1.4 - 4.5\,R_{\odot}$ in a waveband 22.5\,nm wide centered on the H$\alpha$ line at 656\,nm. It has an internal polarizer that takes three images at $0^{\circ}$, $120^{\circ}$, and $240^{\circ}$, so that polarized or total brightness images of the inner corona may be produced. It nominally produces $1024\times1024$ pixel images with platescale of 3.75 arcsec per pixel \citep{thomp2008}. A typical observing sequence will give an image cadence of 10 minutes.
-
-COR2 is an externally occulted Lyot coronagraph. Externally occulted coronagraphs have an extra occulting disk in front of the objective lens, see Figure~\ref{fig:cor2}. This is to prevent direct sunlight scattering off of the objective lens, making internally scattered light less of a problem for this type of coronagraph. A downside to this design is that the external occulter does not allow the inner corona to be imaged, hence such coronagraphs are usually used to observe the extended corona to larger heights. COR2 observes the corona in a field of view from $2.5 - 15\,R_{\odot}$ and in a wavelength range of $650 - 750$\,nm. It nominally produces $2048\times2048$ images, with 14.7 arsec per pixel. Like COR1 it has an internal polarizer producing three linearly polarized images per observing sequence (30 minutes).
-
-These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
 
 \subsubsection{SOHO LASCO}\label{sec:23}
 
@@ -135,6 +111,35 @@ Finally, C3 is an externally occulted broadband lens coronagraph that images the
 
 The C1, C2 and C3 coronagraph data is processed on-board using a number of steps that may compress the data before transmission to an Earth ground station. Each telescope feeds its compressed data to the same telemetry buffer which can store up to 2\,Mb. The  LASCO telemetry rate is 4.2\,kb\,s$^{-1}$ and communication with the ground is via the Deep Space Network (DPS). The SOHO spacecraft is usually in contact with the DPS for approximately 2 hours per day. Data captured by the DPS is then transmitted to servers at NASA's Goddard Space Flight Centre (GSFC) and the Naval Research Laboratory (NRL).
 
+
+\subsubsection{STEREO COR1 and COR2}\label{sec:22}
+The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai08} Ahead and Behind are two nearly identical spacecraft traveling ahead and behind Earth in its orbit. Each spacecraft is receding from Earth at a rate of $\pm22^{\circ}$ per year, such that they are effectively traveling around the Sun in opposite directions. They carry an identical set of instruments known as the Sun Earth Coronal Connection and Heliospheric Investigation (SECCHI) suite, including in situ detectors and a variety of imagers. On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/COR1_design}
+\caption[The COR1 coronagraph]{A schematic of the basic optical design of the the COR1 coronagraph. There are two such identical instruments, one on the Ahead and one on the Behind spacecraft. It is the same basic design as the Lyot coronagraph with the addition of baffles to prevent scattered light and a polarizer behind the Lyot stop \citep{thomp2008}.}
+\label{fig:COR1_design}
+\end{center}
+\end{figure}
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/cor2}
+\caption[The COR2 coronagraph]{A schematic of the basic optical design of the COR2 coronagraph. This is an externally occulted coronagraph, meaning it has an extra occultation disk in front of the objective lens. This results in less internally scattered light, but also results in an obscuration of the inner corona. As with COR1, there are two such identical instruments, one on the Ahead and one on the Behind spacecraft \citep{how08}.}
+\label{fig:cor2}
+\end{center}
+\end{figure}
+
+
+COR1 is an internally occulted Lyot refractive coronagraph (Figure~\ref{fig:COR1_design}) and derives its basic design from Figure~\ref{fig:lyot}. It images the inner corona with a field of view from 1.4--4.5\,$R_{\odot}$, centered on the H$\alpha$ line at 656\,nm with a 22.5\,nm wide passband. 
+It has an internal polarizer is located after the first doublet lens in the optical system (Figure~\ref{fig:COR1_design}) and takes three images at $0^{\circ}$, $\pm60^{\circ}$, so that polarized or total brightness images of the inner corona may be produced. Stray light levels of both COR1 A and B lie between 0.1--1$\times10^6\,\mathrm{B}_{\odot}$, and some defects in the field lens can cause ring shaped features with 1.4$\times10^6\,\mathrm{B}_{\odot}$ \citep{how08}. The focal plane of the instrument has a $1024\times1024$ pixel CCD, with a platescale of 3.75 arcsec per pixel \citep{thomp2008}. To improve the signal to noise, a $2\times2$ pixel binning may be performed. A typical observing sequence will perform three 1 second exposures (one for each polarization state at 0$^{\circ}$, -60$^{\circ}$, and +60$^{\circ}$); time to complete all three exposures is 11 seconds, typical CCD read-out times result in an image sequence cadence of 8 minutes (time between a three image set and the next three image set).
+
+COR2 is an externally occulted Lyot coronagraph and derives much of its design from the LASCO C2 and C3 coronagraphs. Externally occulted coronagraphs have an extra occulting disk in front of the objective lens, see Figure~\ref{fig:cor2} or Figure~\ref{fig:c2_concept} . This is to prevent direct sunlight scattering off of the objective lens and flooding into the telescope tube, making internally scattered light less of a problem for this type of coronagraph. A downside to this design is that the external occulter does not allow the inner corona to be imaged, hence such coronagraphs are usually used to observe the extended corona to larger heights. The COR2 inner edge of the field of view limit is defined by the internal occulter, while the outer edge is determined by the field stop, resulting in a field of view from $2.5 - 15\,R_{\odot}$. The filter used in the assembly has a bandpass of $650 - 750$\,nm at FWHM. A polarizer allows three polarization states to be imaged in the same manner as COR1.
+
+
+It nominally produces $2048\times2048$ images, with 14.7 arsec per pixel. Like COR1 it has an internal polarizer producing three linearly polarized images per observing sequence (30 minutes).
+
+These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
+
 \subsubsection{Whilte-light Image Data Reduction}
 
 All coronagraph images, from COR1, COR2, and the LASCO coronagraphs, have a number of basic image processing steps in common. The amount by which the data has been processed is described in terms of `levels', with the most basic raw data product of the telescope being level-0. Level-0 usually comprises the compressed data that comes directly from the spacecraft telemetry stream via the DPS. The data is processed from level-0 to level-0.5 by decompressing the spacecraft data and re-packaged into flexible into flexible image transport system (FITS) files, which is an open standard format for all astronomical images. Level-0.5 data also rotates the image so that solar north points to the top of the image
@@ -143,7 +148,7 @@ Calibration of the data into a scientifically usable format results in level-1 d
 \begin{itemize}
 \item Darks current image subtraction. Each CCD will carry some level of residual voltage even when the camera shutter is closed. This residual voltage is due to the thermal energy of the electrons in each well of the CCD. The voltage (thermal energy) must be removed from the image since it is not due to light from an observed source. The `dark image' is taken with the camera shutter closed and an exposure performed as normal (exposure time the same as the raw image). The dark image is simply subtracted from the raw image
 \item Bias image. Similar to dark current the CCD will have some charge due systematic defects. These are usually exposed by taking an image with the shutter closed and for the shortest possible exposure times. They bias image is subtracted from the raw image.
-\item Flat field correction. Every CCD will have a non-uniform response across its photon collecting area. One side of the CCD, or any arbitrary grouping of pixels, may naturally be more sensitive than the other pixels. To account for this, the raw image must divided by a `flat-field' in order to normalize the spatially non-uniform response of the CCD. The `flat-field' is an image taken of a uniformly illuminated surface so that the CCD is uniformly illuminated. For space based telescopes this uniformly illuminated image is usually taken by closing the telescope front aperture and lighting a lamp placed near the aperture cover. The LASCO system uses a quartz filter on the telescope cover that disperses exterior light, allowing a uniform illumination of the CCD. THE COR coronagraphs USE THIS METHOD. It is important that the dark current and bias images be subtracted from the flat-field before the raw images (which are also dark and bias image subtracted) is divided by the flat field.
+\item Flat field correction. Every CCD will have a non-uniform response across its photon collecting area. One side of the CCD, or any arbitrary grouping of pixels, may naturally be more sensitive than the other pixels. As well as this, the optical system itself may produce some brightness variation across the focal plane. To account for this, the raw image must divided by a `flat-field' in order to normalize the spatially non-uniform response of the CCD. The `flat-field' is an image taken of a uniformly illuminated surface so that the CCD is uniformly illuminated. For space based telescopes this uniformly illuminated image is usually taken by closing the telescope front aperture and lighting a lamp placed near the aperture cover. The LASCO system uses a quartz filter on the telescope cover that disperses exterior light, allowing a uniform illumination of the CCD. THE COR coronagraphs USE THIS METHOD. It is important that the dark current and bias images be subtracted from the flat-field before the raw images (which are also dark and bias image subtracted) is divided by the flat field.
 \end{itemize}
 These three steps are the most fundamental of all CCD imaging calibration routines. They can be summarised as
 \begin{equation}
@@ -153,11 +158,16 @@ where $I$ are the images, $(x_i, y_i)$ are pixel coordinates, and the $|~|$ in t
 \begin{itemize}
 \item Vignetting. All camera imaging systems suffer from vignetting, a reduction in brightness at the edge of the field of view. In coronagraph systems this is particularly important since a vignette can occur at the inner field of view, due to the occulting disk and also due to the pylon supports of the disk. Special vignetting calibration images are performed to account for this effect; they are used to normalise the image in the same way as the flat-field is performed.
 \item De-warping. The image may appear suffer some geometric distortions due to a deformity in an one of the numerous optical components of a telescope. This may result in the image being warped. Pre-flight experiments completely characterize any optical distortion so that all raw image may be `de-warped'
-\item Brightness calibration. This is the conversion from CCD data numbers (DNs) to physical measures of intensity e.g., mean solar brightness (MSB) units (1 MSB = !!!!). The conversion factors may be calculated in a pre-flight lab, or during inflight via observations of objects with known intensities (Mercury, Venus, or Jupiter serve as calibrators for COR\,1 and 2). This step may be preceded by a division by instrument exposure time to result in the units of DNs\,s$^{-1}$ before conversion to MSB.
+\item Brightness calibration. This is the conversion from CCD data numbers per second (DN\,s$^{-1}$) to physical measures of intensity e.g., mean solar brightness (MSB) units (1 MSB = $2.01\times10^{10}$\,ergs\,s$^{-1}$\,cm$^{-2}$\, sr$^{-1}$). The conversion factors may be calculated in a pre-flight lab, or during inflight via observations of objects with known intensities (Mercury, Venus, or Jupiter serve as calibrators for COR\,1 and 2).
 \end{itemize}
-The above steps are the most frequently taken to ensure clean and calibrated astronomical images. They apply to every telescope using a CCD imaging system, every telescope type, including ground and spaced-based systems. 
+The above steps are the most frequently taken to ensure clean and calibrated astronomical images. They apply to every telescope using a CCD imaging system, every telescope type, including ground and spaced-based systems. The steps are performed on each polarization image separately before summing to total or polarized brightness using the following equations
+\begin{eqnarray}
+B &=& \frac{2}{3}(I_0 + I_{+60} + I_{-60}) \\
+pB &=& \frac{4}{3}\sqrt{(I_0 + I_{+60} + I_{-60})^2 - 3(I_0I_{+60} + I_0I_{-60} + I_{-60}I_{+60}) )}
+\end{eqnarray}
+adapted from \citet{billings1966}. $I$ are the intensity values in each pixel and the 0, +60, -60, represent the three polarizations states e.g., the polarizations states of COR 1 and 2.
 
-Anything beyond these calibration steps is termed level-2 and is usually instrument specific. For example the LASCO coronagraphs and COR\,1 and 2 provide an option of polarized brightness output. Since this will usually employ some complex processing using Mueller matrices, it is a level-2 processing steps. Chapter 4 will discuss the production of `mass images' where the pixel values have units of grams, this may also be termed level-2 processing.
+Anything beyond the above calibration steps is termed level-2 and is usually instrument specific. For example the LASCO coronagraphs and COR\,1 and 2 provide an option of polarized brightness output. Since this will usually employ some complex processing using Mueller matrices, it is a level-2 processing steps. Chapter 4 will discuss the production of `mass images' where the pixel values have units of grams, this may also be termed level-2 processing.
 
 
 \section{Ultraviolet Observations}\label{sec:4}

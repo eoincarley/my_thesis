@@ -42,21 +42,21 @@
 \contentsline {subsection}{\numberline {3.1.1}Thomson Scattering in the Corona}{101}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Coronagraphs}{103}{subsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.2.1}Lyot Coronagraph}{104}{subsubsection.3.1.2.1}
-\contentsline {subsubsection}{\numberline {3.1.2.2}STEREO COR1 and COR2}{105}{subsubsection.3.1.2.2}
-\contentsline {subsubsection}{\numberline {3.1.2.3}SOHO LASCO}{108}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.2}SOHO LASCO}{105}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}STEREO COR1 and COR2}{109}{subsubsection.3.1.2.3}
 \contentsline {subsubsection}{\numberline {3.1.2.4}Whilte-light Image Data Reduction}{112}{subsubsection.3.1.2.4}
 \contentsline {section}{\numberline {3.2}Ultraviolet Observations}{115}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}The Atmospheric Imaging Assembly}{115}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Radio Observations}{117}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Nancay Radioheliograph}{117}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Nan\c {c}ay Decametric Array}{120}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}STEREO WAVES}{121}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Rosse Solar Terrestrial Observatory}{123}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Antennas and Spectrometers}{123}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Nominal Operations}{126}{subsubsection.3.3.4.2}
+\contentsline {section}{\numberline {3.3}Radio Observations}{118}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nancay Radioheliograph}{118}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Nan\c {c}ay Decametric Array}{121}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}STEREO WAVES}{122}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Rosse Solar Terrestrial Observatory}{124}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Antennas and Spectrometers}{124}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Nominal Operations}{127}{subsubsection.3.3.4.2}
 \contentsline {subsubsection}{\numberline {3.3.4.3}eCallisto Network}{128}{subsubsection.3.3.4.3}
-\contentsline {subsection}{\numberline {3.3.5}Dynamic Spectra Data Reduction}{129}{subsection.3.3.5}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{130}{appendix.A}
-\contentsline {section}{\numberline {A.1}Radio burst intensity}{131}{section.A.1}
-\contentsline {section}{\numberline {A.2}Band-splitting}{132}{section.A.2}
-\contentsline {chapter}{References}{136}{section*.63}
+\contentsline {subsection}{\numberline {3.3.5}Dynamic Spectra Data Reduction}{130}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{131}{appendix.A}
+\contentsline {section}{\numberline {A.1}Radio burst intensity}{132}{section.A.1}
+\contentsline {section}{\numberline {A.2}Band-splitting}{133}{section.A.2}
+\contentsline {chapter}{References}{137}{section*.63}
