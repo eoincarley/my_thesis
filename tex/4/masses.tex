@@ -1,10 +1,10 @@
 %!TEX root = ../thesis.tex
 %Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
 
-
+\singlespacing
 \chapter{Coronal Mass Ejection Masses, Energetics, and Dynamics} 
 \label{chap:4}
-
+\doublespacing
 
 \section{Masses}\label{sec:1}
 
@@ -126,12 +126,27 @@ when $\theta = 0^{\circ}$ ($\chi=90^{\circ})$.}
 \label{fig:LOS_POS_2}
 \end{figure}
 
+
+\begin{figure}[1t]
+\begin{center}
+\includegraphics[scale=0.6, trim=2cm 0cm 0cm 0cm]{pos_angle.pdf}
+\caption[Electron brightness as function of angle]{Normalized 2D CME brightness as a function of elongation.}
+\label{fig:pos_angle}
+\end{center}
+\end{figure}
+
 Studies using single LOS coronagraph data are often hindered by the unknown CME propagation angle from the POS, e.g., unknown $\theta$ (or $\chi$) in 
 Figure~\ref{fig:LOS_POS_2}. This leads to the incorrect angle being used when inverting the van de Hulst coefficients to calculate the number of electrons 
 contributing to the scattered light. 
 Furthermore, because the 3-D extent of the CME is unknown it is also assumed that the CME is confined to the 2-D sky plane, leading to a significant CME 
 mass underestimation \citep{vou00}.
-
+\begin{figure}[1t]
+\begin{center}
+\includegraphics[scale=0.6, trim=2cm 0cm 0cm 0cm]{angular_width.pdf}
+\caption[Uncertainty due to CME angular width]{Uncertainty due to CME angular width}
+\label{fig:ang_width_error}
+\end{center}
+\end{figure}
 The CME of 2008 December 12 was Earth-directed \citep{byr10}, making it roughly the same angular distance from both the \emph{STEREO}\,A
 \,and\,B spacecraft, then located $\pm$45 degrees from Earth. This known angle of propagation was used to convert from pixel values of MSB to 
 grams via the expression
