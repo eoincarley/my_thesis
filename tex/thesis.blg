@@ -12,7 +12,7 @@ A level-1 auxiliary file: 4/masses.aux
 A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 10520 items from 5000.
+Reallocated field_info (elt_size=4) to 10727 items from 5000.
 Database file #1: mybib.bib
 Repeated entry---line 738 of file mybib.bib
  : @article{carlsson1997
@@ -29,8 +29,16 @@ I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
 --line 2919 of file mybib.bib
 Warning--I didn't find a database entry for "mano2003"
-Warning--I didn't find a database entry for "Schrij2008"
 Warning--I didn't find a database entry for "byr10"
+Warning--I didn't find a database entry for "roussev2012"
+Warning--I didn't find a database entry for "vourlidas2010"
+Warning--I didn't find a database entry for "drury2012"
+Warning--I didn't find a database entry for "wild1950"
+Warning--I didn't find a database entry for "gallagher2011"
+Warning--I didn't find a database entry for "vrsnak2005"
+Warning--I didn't find a database entry for "zhukov2009"
+Warning--I didn't find a database entry for "kahler2007"
+Warning--I didn't find a database entry for "presnell2012"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in billings1966
 Warning--can't use both author and editor fields in bil66
@@ -47,45 +55,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 237 entries,
+You've used 238 entries,
             3018 wiz_defined-function locations,
-            1864 strings with 48461 characters,
-and the built_in function-call counts, 170724 in all, are:
-= -- 13539
-> -- 10473
+            1872 strings with 48551 characters,
+and the built_in function-call counts, 171479 in all, are:
+= -- 13599
+> -- 10519
 < -- 129
-+ -- 3652
-- -- 3409
-* -- 14977
-:= -- 26097
-add.period$ -- 701
-call.type$ -- 237
-change.case$ -- 2318
++ -- 3669
+- -- 3424
+* -- 15051
+:= -- 26210
+add.period$ -- 704
+call.type$ -- 238
+change.case$ -- 2328
 chr.to.int$ -- 231
-cite$ -- 252
-duplicate$ -- 11190
-empty$ -- 10910
-format.name$ -- 4137
-if$ -- 33739
-int.to.chr$ -- 7
+cite$ -- 253
+duplicate$ -- 11239
+empty$ -- 10958
+format.name$ -- 4155
+if$ -- 33887
+int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 2564
-newline$ -- 715
-num.names$ -- 965
-pop$ -- 5340
+missing$ -- 2575
+newline$ -- 718
+num.names$ -- 969
+pop$ -- 5363
 preamble$ -- 1
-purify$ -- 2079
+purify$ -- 2088
 quote$ -- 0
-skip$ -- 4081
+skip$ -- 4095
 stack$ -- 0
-substring$ -- 6745
-swap$ -- 6581
+substring$ -- 6777
+swap$ -- 6612
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2094
+type$ -- 2103
 warning$ -- 15
-while$ -- 946
+while$ -- 950
 width$ -- 0
-write$ -- 2593
+write$ -- 2604
 (There were 3 error messages)

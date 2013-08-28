@@ -5,13 +5,11 @@
 \chapter{Observation and Instrumentation} 
 \label{chap:3}
 \doublespacing
-This chapter outlines the instruments used to make observations of coronal mass ejections and the signatures of their shocks. The primary technique for observing CMEs is via white-light observations of the corona. The mechanism of formation of the white-light corona is an important aspect of CME mass calculation, therefore an overview of the essential theory is given first, followed by a description of the coronagraphs used in this work. This is followed by a description of instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory, installed at Birr Castle, Co. Offaly, Ireland in September 2011.
+This chapter outlines the instruments used to make observations of coronal mass ejections and the signatures of their shocks. The primary technique for observing CMEs is via white-light observations of the corona. The mechanism of formation of the white-light corona is an important aspect of CME mass calculation, therefore an overview of the essential theory is given first, followed by a description of the coronagraphs used in this work. This is followed by a description of instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory (RSTO), installed at Birr Castle, Co. Offaly, Ireland in September 2011. The RSTO work was published in Zucca \& Carley, {\it Solar Physics}, 2012.
 \clearpage
 \singlespacing
 \section{White-Light Observations}\label{sec:1}
 
-\subsection{Thomson Scattering in the Corona}\label{sec:10}
-\doublespacing
 The first evidence for the existence of the corona was through observations during solar eclipses. The occultation of the solar disk by the moon revealed a visible outer atmosphere structured into streamers and plumes and extending far from the solar surface (Figure~\ref{fig:seclipse}). 
 \begin{figure}[!t]
 \begin{center}
@@ -20,96 +18,9 @@ The first evidence for the existence of the corona was through observations duri
 \label{fig:seclipse}
 \end{center}
 \end{figure}
-This is known as the white-light corona and is due to scattering of photospheric light by coronal particles. Of particular interest here is the K-corona (as first introduced in Section~\ref{sec:123}); this is the corona that is visible because of Thomson scattering of photospheric light by free electrons. Thomson scattering involves an incident electromagnetic wave exciting an oscillation of an electron such that the electron radiates like a small dipole. In this way some of the incident electromagnetic energy is `scattered' in a variety of directions, given by the radiation pattern of the oscillating electron. Any incident radiation falling on the area
-\begin{equation}
-\sigma_T = \frac{8\pi}{3}\bigg(  \frac{e^2}{4\pi\epsilon_0 m_e c^2}   \bigg)^2 = \frac{8\pi}{3}r_e^2 = 6.65\times10^{-29}\,\mathrm{m}^2
-\end{equation}
-will be scattered by the electron into a dipole radiation pattern. $r_e$ is the classical electron radius and the cross section used in the following analysis will be $\sigma_e = r_e^2$. The area is the Thomson scattering cross-section and is independent of wavelength of the incident wave; all wavelengths are scattered equally. 
-
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[scale=0.35, trim=1cm 0cm 0cm 0cm]{t_scatter}
-\caption[Thomson scattering schematic.]{Thomson scattering schematic \citep{howtap2009}.}
-\label{fig:tscatter}
-\end{center}
-\end{figure}
-Solar photospheric radiation is completely unpolarized, hence the radiation incident on a coronal electron with set it into an oscillation with an amplitude that is equal in all directions. In Figure ~\ref{fig:tscatter}, their are two components to the incoming light, setting the electron into oscillation parallel to the page and perpendicular to it. No matter what the viewing angle, $\chi$, the perpendicular oscillation will always be observed to have the same amplitude. However, the parallel component will be fore-shortened, depending on $\chi$. In this way, the radiation may appear unpolarized, partially polarized, or completely linearly polarized.
-
-\citet{schuster1879} and \citet{minnaert1930} were the first to formalise the Thomson scattering theory for an electron in the solar atmosphere. The electron is set into oscillation by an unpolarized  incident intensity $I_0$.
-The two components of radiation observed are the tangential component, $I_T$ in the plane perpendicular to the page, and radial component, $I_R$ in the plane of the page Figure~\ref{fig:omega}. 
-%The intensity and polarization of the light scattered by the electron is highly dependent on a number of geometric parameters, including $\chi$, and the angle subtended by the Sun $\Omega$. The two components of radiation received by the observer are the tangential component, $I_T$ in the plane perpendicular to the page, and radial component, $I_R$ in the plane of the page Figure~\ref{fig:omega}. T
-These two components are given by the expressions
-\begin{eqnarray}
-I_T &=& I_0\frac{\pi \sigma_e}{2z^2}[(1-u)C +uD] \\
-I_P &=& I_0\frac{\pi \sigma_e}{2z^2}\mathrm{sin}^2\chi[(1-u)A +uB] \\
-I_R &=& I_T-I_P
-\end{eqnarray}
-where $I_0$ is incident intensity, $\sigma_e$ is the electron scattering cross section, $z$ is the distance from scatterer to observer, $u$ is a limb darkening coefficient. $I_R$ is given via a polarization intensity $I_P$ for ease of derivation. These equations describe theoretically the concepts outlines in Figure~\ref{fig:tscatter} e.g, both $I_T$ and $I_R$ are fully observed at $\chi=0^{\circ}$ and $\chi=180^{\circ}$, while only $I_T$ is observed at $\chi=90^{\circ}$. 
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[scale=0.5, trim=0cm 2cm 0cm 0cm]{omega_new.pdf}
-\caption[Thomson scattering geometry in the solar corona]{Thomson scattering geometry in the solar corona. The orientation of $I_R$ and $I_T$ is shown in the inset. $I_R$ is the projection of electron oscillation in the x direction onto a plane perpendicular to the line from Q to observer. $I_R$ is zero when $\chi=90$. $I_T$ is due to electron oscillation out of the plane of the page (z-direction), and is completely unaffected by viewing angle. Figure adapted from Figure 3 of \citep{howtap2009}.}
-\label{fig:omega}
-\end{center}
-\end{figure}
-The main complication for Thomson scattering by a coronal electron is that the Sun is not a point source. The effects of the finite size of the Sun are incorporated into $A$, $B$, $C$, and $D$ in equations X. These are trigonometric expressions known as the van de Hulst coefficients that complete characterise the reception of light by the electron from across the entire solar disk, using only the angle $\Omega$, the angle subtended by the solar disk from point Q \citep{minnaert1930, billings1966, billings1966} 
-\begin{eqnarray}
-A &=& \cos \Omega \sin^2 \Omega \\
-%
-B &=& -\frac{1}{8}\bigg[1 - 3\sin^2\Omega -\frac{\cos^2\Omega}{\sin\Omega}(1+3\sin^2\Omega)\textrm{ln}\bigg(\frac{1+\sin\Omega}{\cos\Omega}\bigg)\bigg] \\
-%
-C &=& \frac{4}{3} - \cos\Omega - \frac{\cos^3\Omega}{3} \\
-D &=& \frac{1}{8}\bigg[5 + \sin^2\Omega -\frac{\cos^2\Omega}{\sin\Omega}(5-\sin^2\Omega)\textrm{ln}\bigg(\frac{1+\sin\Omega}{\cos\Omega}\bigg)\bigg] 
-\end{eqnarray}
-Together with equations Y, they form a complete description of the light scattered by an electron at any position in the solar atmosphere (any $\Omega$), with the observer at viewing angle $\chi$. The intensities given by these equations are for a single electron. If there is a number of electrons $N_e$, then the intensity would simply be $IN_e$; the intensity of scattered light from a point Q depends linearly on the total number of scattering electrons at that point. Hence if we know the intensity of scattered light we may directly infer the total number electrons contributing to this intensity. This allows a calculation of the total electron content of a CME, resulting in a mass calculation.
-
-%set of trigonometric expressions known as the van de Hulst coefficients.
-
-
-%The geometry of the system is quite complex; it was first outlined by~\citet{minnaert1930} and expanded upon by~\citet{billings1966}. However, a few errors in \citet{billings1966} lead to many misconceptions about the scattering process and a full and correct treatment can now be found in \citep{billings1966}. The effects of the finite size of the Sun are incorporated into a set of trigonometric expressions known as the van de Hulst coefficients.
-
-
-%Dealing with these two components of light must take into account that an electron receives light from across the entire solar disk. Therefore, the necessary angles to be taken into account are the angle the solar disk subtends as seen by the electron $\Omega$, and the angle $\chi $ between the sun center-electron line and the line-of-sight (LOS) Figure~\ref{fig:omega}. The geometry of the system is quite complex; it was first outlined by~\citet{minnaert1930} and expanded upon by~\citet{billings1966}. However, a few errors in \citet{billings1966} lead to many misconceptions about the scattering process and a full and correct treatment can now be found in \citep{howtap2009}. The tangential component ($I_T$), radial component ($I_R$), and polarization ($I_P$) of the scattered intensity are given by the expressions
-
-
-
-
-%where $I_0$ is incident intensity, $\sigma_e$ is the electron scattering cross section, $z$ is the distance from scatterer to observer, $u$ is a limb darkening coefficient. $A$, $B$, $C$, and $D$ are the van de Hulst coefficients and are a trigonometric function only of the angle $\Omega$ subtended by the sun at the scattering point. 
-
-%They describe trigonometrically the incident light received by the scattering agent from the entire solar disk. Equations (3.2--3.8) completely describe the light scattered by an electron at any position on the solar atmosphere, with the observer viewing the scattering at any angle. The intensities given by these equations are for a single electron. If there is a number of electrons $N_e$, then the intensity would simply be $I_{tot}N_e$; the intensity of scattered light from a point Q depends linearly on total number of scattering electrons at that point. Hence if we know the intensity of scattered light we may directly infer the total number electrons contributing to this intensity. This is allows a calculation of the total electron content of a CME, resulting in a mass calculation.
-
-As mentioned the above equations have a sensitive dependence of intensity and polarization on scattering angle $\chi$. The total intensity of scattered light is
-\begin{equation}
-I_{tot} =  2I_T - I_p \propto I_0\frac{\pi \sigma_e}{z^2}\bigg(1 - \frac{\mathrm{sin}^2\chi}{2}\bigg)
-\end{equation}
-So at $\chi=90$, $I_p$ is maximum, $I_R$ is minimum, $I_{tot}$ is minimum, and scattering efficiency is minimum. The dependency of each intensity component is shown in Figure~\ref{fig:Ivchi}. The tangential component $I_T$ remains constant at all viewing angles, whereas $I_R$ is maximum at $0^{\circ}$ or $180^{\circ}$ and minimum at $90^{\circ}$. Polarization is maximum at $90^{\circ}$. 
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[scale=0.3]{IT_IR}
-\caption[Thomson scattered intensity as a function of viewing angle]{Thomson scattered intensity as a function of viewing angle.}
-\label{fig:Ivchi}
-\end{center}
-\end{figure}
-
-Along any line of sight through the corona, the point at which $\chi = 90^{\circ}$ will be the point of minimum distance from the Sun. Three effects must be considered at this point; (i) scattering efficiency is a minimum, (ii) the incident intensity ($I_0$) received from the Sun is a maximum, and (iii) the electron density is a maximum. The latter two effects, (ii)--(iii), are a bigger contributor to the scattered light than the former (i). As a result scattered light is maximized at the point of $\chi = 90^{\circ}$ along the line of sight, despite the efficiency of scattering being a minimum at this point. Close to the Sun, the plane making an angle of $\chi = 90^{\circ}$ with the line of sight is known as the plane-of-sky (POS), and is the plane of maximum scattered intensity. Any CME erupting close to the POS will be well observed. However, eruption of a CME at a large angle away from the POS will result in less scattered light from the CME electrons, making the CME appear quite faint. If the angle from the POS is unknown, there is no way of telling the amount by which the intensity is reduced. Observing a smaller intensity will result in the observer calculating a smaller number of electrons contributing to the scattered light. If no correction is made for the diminished intensity, the number of electrons and hence the total CME mass will be underestimated. The correction can only be made when the angle from the POS is known. As if often the case, the angle is unknown and we must assume the CME lies on the plane of sky. If this assumption is false, there will a proportion of the CME that we will go unaccounted for, leading to an underestimation of its mass content by up to a factor of 2 \citep{vou00}.
-
-%the light scattered from this point is a maximum. 
-
-%The scattering efficiency is {\it minimum} at an angle of $\chi = 90^{\circ}$, a fact that is often erroneously quoted in the literature. This is because the total scattered intensity at the locus of the point of $\chi = 90^{\circ}$ in the corona is actually a {\it maximum}. Along any line of sight, the Sun-Q vector is actually at its shortest at the locus of the point where $\chi = 90^{\circ}$. Since the distance from the Sun is minimum at this point, the incident intensity $I_0$ on the scattering electrons is maximum and the electron density is also maximum. These two facts mean that at $\chi=90^{\circ}$ the scattered intensity is a maximum, despite the efficiency of scattering being a minimum. Close to the Sun, the plane making an angle of $\chi = 90^{\circ}$ with the Sun-observer line is known as the plane-of-sky (POS), and is the plane of maximum scattered intensity. Any CME erupting close to the POS will be well observed. However, eruption of a CME at a large angle away from the POS will result in less scattered light from the CME electrons, making the CME appear quite faint. If the angle from the POS is unknown, there is no way of telling the amount by which the intensity is reduced. Observing a smaller intensity will result in us calculating a smaller number of electrons contributing to the scattered light. If no correction is made for the diminished intensity, the number of electrons and hence the total CME mass will be underestimated. The correction can only be made when the angle from the plane of sky is known. As if often the case, the angle is unknown and we must assume the CME lies on the plane of sky. If this is untrue, there will a proportion of the CME that we will not see, leading to an underestimation of its mass content by up to a factor of 2 \citep{vou00}.
-
-
-%describes a sphere is space whose diameter is along the Sun-observer line. This sphere termed the Thomson surface, and its surface represents the points of maximum scattered light towards the observer. When a CME erupts from the Sun, the points in the CME closest to this sphere will have maximum scattered intensity. This makes the interpretation of interplanetary CME observations difficult. However, closer to the Sun, the sphere essentially lies on the plane of sky, the plane perpendicular to the Sun-observer line. If a CME lies close to this plane it will be well observed given that the scattered light from the CME will be a maximum. Hence CMEs that erupt from the limb are the best observed; we can be assured that we are observing the majority of the CMEs since all of its electrons will be scattering the maximum intensity light. Eruption at an angle away from the plane of sky will result in the scattered intensity of the CME diminishing. The CME electrons will scatter less light toward the observe and we observe less of the CME. If the angle from sky-plane is unknown it is impossible to determine how much of the CME is unobserved due to lack of scattered light. This leads to very large uncertainties when calculating CME mass (see Chapter 4).
-
-
-%\begin{figure}[!t]
-%\begin{center}
-%\includegraphics[scale=1.1]{thomson_sphere.pdf}
-%\caption[The Thomson sphere]{The Thomson sphere}
-%\end{center}
-%\end{figure}
-
-
+This is known as the white-light corona and is due to scattering of photospheric light by coronal particles. Of particular interest here is the K-corona (as first introduced in Section~\ref{sec:123}); this is the corona that is visible because of Thomson scattering of photospheric light by free electrons. 
 \subsection{Coronagraphs}
+\doublespacing
 Before the early 20th century the only way to view the corona was for a short period during a solar eclipse when the moon blocks direct photospheric light. Under normal conditions direct sunlight overwhelms the faint corona. In 1939 the French Astronomer Bernard Lyot developed a telescope, known as a coronagraph, which allowed observation of the corona at any time \citep{lyot1939}. A coronagraph is an optical system that provides an artificial eclipse of direct photospheric light so the much fainter corona can be imaged.
 %A coronagraph is an optical system that provides an artificial eclipse so the faint corona may be imaged at any time. The first working coronagraph was invented by the French astronomer Bernard Lyot in 1930.
 
@@ -318,13 +229,12 @@ The time domain resolution for both the LFR and HFR is determined by the DPU. No
 The Rosse Solar Terrestrial Observatory was established in 2010 at Birr Castle, Co. Offaly Ireland (53$^{\circ}$ 05' 38.9'' , 7$^{\circ}$ 55' 12.7'') \citep{zucca2012}. The primary objective of the observatory is to observe low frequency radio bursts occurring in the Solar atmosphere and the ionospheric and geomagnetic response following this radio activity.  To date, three \textit{Compound Astronomical Low-cost Low-frequency Instrument for Spectroscopy and Transportable Observatory} (CALLISTO) spectrometers have been installed, with the capability of observing in the frequency range 10--870~MHz. The receivers are fed simultaneously by biconical and log-periodic antennas. Nominally, frequency spectra in the range 10--400 MHz are obtained with 4 sweeps per second over 600 channels. The instrumental set-up is described here.
 
 RSTO employs three callisto receivers that cover the ranges of $10-100$, $100-200$, $200-400$\,MHz, respectively. The $10-100$\,MHz receiver (Callisto-1), is fed (via frequency up-converter) by a biconical Schwarzbeck antenna, model number VHBD 9134. The antenna elements are 4\,m long allowing a nominal frequency bandwidth of $20-200$\,MHz. Signal feed from the bicone to Callisto-1 is via $70\,\Omega$ coaxial cable, $\sim$20 meters in length Figure~\ref{fig:rsto_layout}. The bicone is mounted on a Yaesu-1 motor that permits solar tracking in the azimuth direction only (the antenna beam is symmetric in elevation). The bicone motor control unit (MCU) is located in the control room and PC communicates with the motor is via RS232 ($\sim20$\,m).
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[scale=0.7, angle=90, trim=0cm 0cm 1cm 2cm]{callisto_layout.pdf}
+\begin{sidewaysfigure}
+    \centering
+\includegraphics[scale=0.8, trim=0cm 3cm 1cm 2cm]{callisto_layout.pdf}
 \caption[RSTO Instrumental Setup]{The Rosse Solar Terrestrial Observatory instrument and communications lay-out.}
 \label{fig:rsto_layout}
-\end{center}
-\end{figure}
+\end{sidewaysfigure}
 
 The $100-200$ and $200-400$\,MHz (Callisto-2 and -3, repsectively) are fed by a Tennadyne T28 log-periodic antenna. The antenna has a frequency band of $50 -1300$\,MHz with a $\sim$50 degree half-power beam width (HPBW). Signal from the antenna is fed into a 10 dB pre-amplifier (custom made by Joe McCauley), and from the preamp into a signal splitter. The splitter then feeds Callisto-2 and Callisto 3, see Fig.~\ref{fig:rsto_layout}. The digitized data for these two receivers is sent to the control PC via four RS422 conversion units (two next to the receivers and two next to the control PC). RS422 because of the high baud-rate and length of the cables ($\sim30$\,m) i.e., there may be interrupts and losses over this path length so the signal is sent differentially. The log-periodic antenna is fixed to an Eigis Alt-Az motor with an EPS-103 control unit, allowing tracking of the Sun thoughout the day. This control by a control unit in the outdoor box and communicates with the motor via a multicore cable $\sim10$\,m in length. The motor control unit is operated by the PC, communications are sent between the two via RS232 ($\sim30$\,m).
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{237}
+\begin{thebibliography}{238}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -859,15 +859,15 @@
   neutrino oscillations in matter and solar-neutrino spectroscopy}. {\em Nuovo
   Cimento C Geophysics Space Physics C\/}, {\bf 9}, 17--26.
 
-\bibitem[{{Minnaert}(1930{\natexlab{a}})}]{minnaert1930}
+\bibitem[{{Minnaert}(1930{\natexlab{a}})}]{min30}
 {\sc {Minnaert}, M.} (1930{\natexlab{a}}). {On the continuous spectrum of the
   corona and its polarisation. With 3 figures. (Received July 30, 1930)}. {\em
-  \zap\/}, {\bf 1}, 209.
+  \zap\/}, {\bf 1}, 209--+.
 
-\bibitem[{{Minnaert}(1930{\natexlab{b}})}]{min30}
+\bibitem[{{Minnaert}(1930{\natexlab{b}})}]{minnaert1930}
 {\sc {Minnaert}, M.} (1930{\natexlab{b}}). {On the continuous spectrum of the
   corona and its polarisation. With 3 figures. (Received July 30, 1930)}. {\em
-  \zap\/}, {\bf 1}, 209--+.
+  \zap\/}, {\bf 1}, 209.
 
 \bibitem[{{Mitalas} \& {Sills}(1992)}]{mitalas1992}
 {\sc {Mitalas}, R. \& {Sills}, K.R.} (1992). {On the photon diffusion time
@@ -1058,12 +1058,19 @@
 {\sc {Schrijver}, C.J. \& {Zwaan}, C.} (2008). {\em {Solar and Stellar Magnetic
   Activity}\/}.
 
-\bibitem[{{Schrijver} {\em et~al.\/}(2008){Schrijver}, {Elmore}, {Kliem},
-  {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
+\bibitem[{{Schrijver} {\em et~al.\/}(2008{\natexlab{a}}){Schrijver}, {Elmore},
+  {Kliem}, {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008}
 {\sc {Schrijver}, C.J., {Elmore}, C., {Kliem}, B., {T{\"o}r{\"o}k}, T. \&
-  {Title}, A.M.} (2008). {Observations and Modeling of the Early Acceleration
-  Phase of Erupting Filaments Involved in Coronal Mass Ejections}. {\em
-  \apj\/}, {\bf 674}, 586--595.
+  {Title}, A.M.} (2008{\natexlab{a}}). {Observations and Modeling of the Early
+  Acceleration Phase of Erupting Filaments Involved in Coronal Mass Ejections}.
+  {\em \apj\/}, {\bf 674}, 586--595.
+
+\bibitem[{{Schrijver} {\em et~al.\/}(2008{\natexlab{b}}){Schrijver}, {Elmore},
+  {Kliem}, {T{\"o}r{\"o}k} \& {Title}}]{schrijver2008c}
+{\sc {Schrijver}, C.J., {Elmore}, C., {Kliem}, B., {T{\"o}r{\"o}k}, T. \&
+  {Title}, A.M.} (2008{\natexlab{b}}). {Observations and Modeling of the Early
+  Acceleration Phase of Erupting Filaments Involved in Coronal Mass Ejections}.
+  {\em \apj\/}, {\bf 674}, 586--595.
 
 \bibitem[{{Schuster}(1879)}]{schuster1879}
 {\sc {Schuster}, A.} (1879). {on the polarisation of the Solar Corona}. {\em
