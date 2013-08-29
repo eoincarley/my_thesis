@@ -1,4 +1,4 @@
-\begin{thebibliography}{238}
+\begin{thebibliography}{237}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -555,15 +555,10 @@
   Connection Coronal and Heliospheric Investigation (SECCHI)}. {\em \ssr\/},
   {\bf 136}, 67--115.
 
-\bibitem[{{Howard} \& {Tappin}(2009{\natexlab{a}})}]{howtap2009}
-{\sc {Howard}, T.A. \& {Tappin}, S.J.} (2009{\natexlab{a}}). {Interplanetary
-  Coronal Mass Ejections Observed in the Heliosphere: 1. Review of Theory}.
-  {\em \ssr\/}, {\bf 147}, 31--54.
-
-\bibitem[{{Howard} \& {Tappin}(2009{\natexlab{b}})}]{how09}
-{\sc {Howard}, T.A. \& {Tappin}, S.J.} (2009{\natexlab{b}}). {Interplanetary
-  Coronal Mass Ejections Observed in the Heliosphere: 1. Review of Theory}.
-  {\em \ssr\/}, {\bf 147}, 31--54.
+\bibitem[{{Howard} \& {Tappin}(2009)}]{howtap2009}
+{\sc {Howard}, T.A. \& {Tappin}, S.J.} (2009). {Interplanetary Coronal Mass
+  Ejections Observed in the Heliosphere: 1. Review of Theory}. {\em \ssr\/},
+  {\bf 147}, 31--54.
 
 \bibitem[{{Howard} {\em et~al.\/}(2007){Howard}, {Fry}, {Johnston} \&
   {Webb}}]{howard2007}

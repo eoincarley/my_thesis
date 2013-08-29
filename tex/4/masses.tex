@@ -119,6 +119,10 @@ Along any line of sight through the corona, the point at which $\chi = 90^{\circ
 %Observing a smaller intensity will result in the observer calculating a smaller number of electrons contributing to the scattered light. If no correction is made for the diminished intensity, the number of electrons and hence the total CME mass will be underestimated. The correction can only be made when the angle from the POS is known. As if often the case, the angle is unknown and we must assume the CME lies on the plane of sky. If this assumption is false, there will a proportion of the CME that we will go unaccounted for, 
 This can lead to an underestimation of its mass content by up to a factor of 2 \citep{vou00}. As described in the next section, unknown viewing angles are the largest contributor to CME mass uncertainty.
 
+
+
+
+
 \subsection{Mass Measurements and Uncertainties}
 \begin{figure}[t!]
 \begin{center}
@@ -130,22 +134,29 @@ when $\theta = 0^{\circ}$ ($\chi=90^{\circ})$.}
 \label{fig:LOS_POS_2}
 \end{center}
 \end{figure}
-Calculating the total mass of a CME first requires an estimation of the total amount of electrons contributing to the light scattered by the CME. This is usually done separately for each pixel. The amount of electrons contributing to a pixel brightness in a CME image is obtained from
+%
+%
+%
+Calculating the total mass of a CME requires an estimate of the total amount of electrons contributing to the light scattered by the CME. Then assuming that the corona is 90\% hydrogen and 10\% helium, each electron will be associated with a mass of $1.97\times10^{-24}$\,g. The mass in each pixel of an image of a CME is then
 \begin{equation}
-n_{e}=\frac{I_{obs}}{I_{e}(\theta)}%\times1.97\times10^{-24}\,\mathrm{g}
+m_{pixel}=\frac{I_{obs}}{I_e(\theta)} \times1.97\times10^{-24}\,\mathrm{g}
 \end{equation}
-where $I_{obs}$ is the observed pixel brightness and $I_e$ is a single electron brightness at the position that the pixel images. 
-The brightness $I_e(\theta)$ may be derived from equations (4.2)--(4.8). However, a number of assumptions must be made about where the electrons are located along the line of sight. Since no information on the angle with respect to the POS is available, we must assume that all electrons lie on the POS. However, if the electrons are actually propagating at $\theta>0$, we observe a diminished brightness from each electron. This diminished brightness is assumed to be the maximum possible electron brightness $I(\theta=0)$. Since we do not account for the fact that each electron is emitting less light than $I_e(\theta=0)$, we overestimate the contribution from each electron, leading to an underestimate of the number of scattering electrons. To quantify this, we plot a single electron brightness at $\theta>0$ divided by the POS electron brightness, $I(\theta=0)$, as a function of $\theta$, shown in Figure~\ref{fig:pos_angle}. For example, an electron located at $\theta=40^{\circ}$ will be $\sim$0.8 times as bright as an electron on the POS. Since the CME is simply a collection of electrons at $\theta=40^{\circ}$ and we are assuming that the CME is at $\theta=0$, we will underestimate its total electron content by 20\%. In this case we are assuming all of the CME electron content lies on the POS i.e., the CME is a 2D object. Since most observed limb CMEs occur within $\sim$$50^{\circ}$ of the POS, we expect that the POS assumption will underestimation total CME mass by up to a factor of 2 \citep{vou00}.
+where $I_{obs}$ is the observed pixel brightness and $I_e$ is a single electron brightness at the position that the pixel images.
+The brightness $I_e(\theta)$ may be derived from the Thomson scattering equations (4.2)--(4.8). However, a number of assumptions must be made about the position of the electrons along the line of sight. These assumptions about electron position are the primary sources of uncertainty on CME mass.
+%------------------------------------------------------------%
+%
+%				   POS assumption 				  %
+%
+%------------------------------------------------------------%
+The first of these assumptions is 
+\begin{description}
+\item[(i)] The CME propagates at right angles to the line-of-sight, along the plane-of-sky at $\theta=0$.
+\end{description}
+This assumption arrises because no information is available on the propagation angle of the CME with respect to the POS. 
+%The assumption also implies the CME is a 2D object located on the POS, propagating at right angle to the observer's line of sight ($\theta=0$ or $\chi=90$). 
+To investigate the effects of this assumption we need only consider the CME to be a group of electrons located at some P located at angle $\theta >0^{\circ}$ from the POS (Figure~\ref{fig:LOS_POS_2}). Since for single viewpoint observations no information on $\theta$ is available, we must assume $\theta=0^{\circ}$ i.e., the electrons are located on the POS. We are assuming that each electron scatters a intensity $I_e(\theta=0^{\circ})$, when in fact it is scattering a smaller intensity of $I_e(\theta>0^{\circ})$. This means we are overestimating the contribution from each electron $I_e$, leading to an underestimate of the number of scattering electrons $n_e = I_{obs}/I_e$. This will give an underestimate of the mass located at point P. 
 
-
-%This essentially means we are assuming the CME is a 2D object on the POS. However, if the CME is actually propagating at $theta>0$, we observe a diminished brightness.
-
-%The method by which mass measurements are derived from white light coronagraph images is based on theory first developed by \citet{min30} in which the scattering geometry of a single electron at a particular point in the solar atmosphere is considered. Further development of the theory by \citet{vdeh50} led to the derivation of what are now known as the van de Hulst coefficients. The coefficients treat each component of the incident electric field vector separately and take into account the finite size of the solar disk \citep{min30, bil66, how09}. An important fact arising from these expressions is the dependence of scattering intensity on the angle, $\chi$, between the radial 
-%vector from sun centre to the scattering electron and a position vector from observer towards the electron--the LOS, see
-%Figure~\ref{fig:LOS_POS_2}. Scattering efficiency is minimized when this angle is $90^{\circ}$. However, along the LOS such an angle occurs at the point of minimum distance from sun centre where the incident intensity (that the electron receives) and electron density are maximized. This means scattered light in the corona is most intense along a plane 
-%perpendicular to the observer's LOS despite the efficiency of scattering being minimized at such viewing angles \citep{how09}. This plane perpendicular to the LOS is known as the plane-of-sky (POS)
-
-
+To quantify this underestimation, we plot a single electron brightness at $\theta>0^{\circ}$ divided by the POS electron brightness, $I(\theta=0^{\circ})$, as a function of $\theta$ (Figure~\ref{fig:pos_angle}). For example, an electron located at $\theta=40^{\circ}$ will be $\sim$0.8 times as bright as an electron on the POS. Although this is for a single electron, it is applicable to assumption (i) above. The CME is simply a collection of electrons at $\theta=40^{\circ}$, but we assume that the CME is at $\theta=0^{\circ}$. In such a case we only observe 80\% of the CMEs maximum brightness, but assume we are observing 100\%. In this way, we underestimate the total mass content of the CME by 20\%. This is the primary source of CME mass underestimation (uncertainty) and it is expected that on average we underestimate total CME mass by up to a factor of 2 \citep{vou00}. For single vantage point observations there is no information about $\theta$, and, realistically, the amount by which the mass is underestimated is completely unknown.
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.4, trim=2cm 0cm 0cm 0cm]{pos_angle.pdf}
@@ -153,18 +164,12 @@ The brightness $I_e(\theta)$ may be derived from equations (4.2)--(4.8). However
 \label{fig:pos_angle}
 \end{center}
 \end{figure}
-
-%Studies using single LOS coronagraph data are often hindered by the unknown CME propagation angle from the POS, e.g., unknown $\theta$ (or $\chi$) in Figure~\ref{fig:LOS_POS_2}. This leads to the incorrect angle being used when inverting the van de Hulst coefficients to calculate the number of electrons contributing to the scattered light. The assumption that is made is that the CME propagates along the POS, and that all the CME material is constrained to this 2D plane. If the CME is propagating at some angle $\theta >0$ from the POS, but we assume that $theta=0$ we will underestimate its mass. Figure~\ref{fig:pos_angle} shows the brightness of a 2D CME propagating at some angle $\theta$, divided by the brightness of a 2D CME on the POS. The larger the angle of propagation, the less of smaller the intensity we observe. If we assume the CME to be on the POS, we attribute a diminished intensity to the maximum possible intensity of the CME.
-
-
-%the POS  The proportion of the CME mass content we actually observe as a function of propagation angle is given in Figure~\ref{fig:pos_angle}. For example, if the CME has a POS angle of 40 degrees we will see its brightness
-
-
-The second biggest contributor to mass underestimation is from assuming the CME is a 2D object when in fact it has a 3D extent.
-
-!!!!!!!!!!!!!!!!
-
-because the 3-D extent of the CME is unknown it is also assumed that the CME is confined to the 2-D sky plane, leading to a significant CME mass underestimation \citep{vou00}.
+%------------------------------------------------------------%
+%
+%				     Finite Width	 				  %
+%
+%------------------------------------------------------------%
+The second most significant assumption is that all CME material lies on a 2D plane. This assumption arrises from the fact that we do not know the distribution of CME material along the line of sight. since the 3D extent of the CME is unknown it is also assumed that the CME is confined to the 2D sky plane. In order to quantify this, we follow the method of \citep{vou00}. This simulates the brightness of a CME with homogeneous density distribution and finite angular width $\phi$ along the LOS. The simulated brightness of the CME is used to calculate a simulated observed mass by assuming that all the brightness is from electrons on the sky plane. This simulated observed mass is then compared to the actually mass as a function of CME height and radius (Figure~\ref{fig:ang_width_error}).
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.4, trim=1cm 1cm 0cm 1cm]{angular_width.pdf}
@@ -172,10 +177,24 @@ because the 3-D extent of the CME is unknown it is also assumed that the CME is 
 \label{fig:ang_width_error}
 \end{center}
 \end{figure}
+For example, our assumption is that all CME material lies on the POS. However, the CME is centered on the sky-plane with angular width of $100^{\circ}$ and a height of $10\,R_{\odot}$. We will derive a mass of $\sim$0.9 of the actual mass. The mass underestimation from unknown angular width is smaller than the unknown plane of sky angle. However it can be significant for large angular widths at small heights.
+
+Finally, we need to take into account that the CME will be propagating at some angle with respect to the POS \emph{and} have a finite angular width. To estimate the effects of this, we need to simulate a CME at central position angle $\theta$ and width $\phi$. We derive the simulated observed mass, given the assumption that the CME is on the sky-plane, and also the assumption that the CME material is in a 2D plane at $\theta$. 
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.9, angle=270, trim=1.5cm 6cm 0.4cm 0cm]{deprojected_pos.eps}
+\caption{Underestimation of CME mass as a function of angle from the plane of sky. The colors correspond to a CME of angular width $\phi$. Three different heights are shown. The dashed lines are mass underestimation assuming the CME has zero width ($\phi=0$) on the POS ($\theta=0$), when in fact it is has finite width of $\phi$ and is located at $\theta$ from POS. The solid lines account for the plane of sky angle $\theta$ (they are deprojected). De-projection improves the mass underestimation up to $\theta=60^{\circ}$, after which it severely overestimates the CME mass.}
+\label{fig:deprojection}
+\end{center}
+\end{figure}
+\clearpage
+
+This simulation is shown in Figure~\ref{fig:deprojection}, where the derived mass is compared to actual CME mass as a function of plane of sky angle. The dashed lines are the derived mass assuming that the CME has no angular width ($\pi=0^{\circ}$) and is on the sky-plane ($\theta=0^{\circ}$), when in fact it has finite width $\phi$ and is located at some $\theta >0$ (x-axis). The solid lines are derived mass assuming the CME lies on a 2D plane at the plane of sky angle $\theta$, this is called a 'de-projection' of the CME from the POS to its propagation plane at $\theta$. For example, if the CME is at a height of $5\,R_{\odot}$, has a position angle of $40^{\circ}$, and an angular width of $120^{\circ}$, but we assume it has no width (2D) and is located on the sky-plane ($theta=0^{\cric}$), then its derived mass will be 0.6 times the actual mass (underestimate of 40\%). If the CME is deprojected (we account for its sky-plane angle), then the derived mass is improved to a factor of 0.8 of the actual mass. Note that de-projection still assumes the CME has no width ($\phi=0$), hence there is still a mass underestimation after de-projection.
+
+There is an interesting point at $\sim$$\theta=55^{\circ}$ for the $5\,R_{\odot}$ and $10\,R_{\odot}$ plots (and all larger heights). For all angular widths $\phi$, a deprojection will derive exactly the actual CME mass. Beyond this point, de-projection starts to over-estimate the CME mass and eventually overestimates it by a severe estimate at sky-plane angle greater than $70^{\circ}$. As we will see, the CME in this study had a POS angle of $45^{\circ}$ and an angular width no greater than $120^{\circ}$ for the height range of 1.4--12$R_{\odot}$. Therefore, as shown in Figure X, it is better to deproject the CME brightness to its propagation plane, as this underestimates the mass by a smaller factor than assuming the CME is on the POS.
 
 
-
-
+%---------------FROM HERE---------------------------%
 
 The CME of 2008 December 12 was Earth-directed \citep{byr10}, making it roughly the same angular distance from both the \emph{STEREO}\,A\,and\,B spacecraft, then located $\pm$45 degrees from Earth. This known angle of propagation was used to convert from pixel values of MSB to grams via the expression
 \begin{equation}
@@ -184,6 +203,9 @@ m_{pixel}=\frac{B_{obs}}{B_{e}}\times1.97\times10^{-24}\,\mathrm{g}
 where $B_{obs}$ is the observed MSB of the pixel, $B_{e}$ is the electron brightness calculated from the van de Hulst coefficients, and 1.97$ \times10^{-24}$\,g is a factor that converts the number of electrons to mass, assuming a completely ionized corona with a composition of 90\% hydrogen and 10\% helium. The known angle of propagation allowed the correct value of $B_{e}$ to be computed resulting in a significant reduction in the uncertainties associated with the propagation angle. The largest remaining uncertainty is the unknown angular width along the LOS. This uncertainty was quantified in a similar approach to the method outlined in \citet{vou00}. This simulates the brightness of a CME with 
 homogeneous density distribution and finite angular width along the LOS--longitudinal angular width $\Delta$$\theta_{long}$, allowing calculation of a simulated observed mass. Comparing this to the actual mass allowed for an evaluation of CME mass underestimation for given values of $\Delta$$\theta_{long}$.  Since the values for $\Delta$$\theta_{long}$ are unknown, the expression derived in \citet{byr10} for the \emph{latitudinal} 
 angular width of this CME as a function of height, $\Delta$$\theta_{lat}$$(r)=25r^{0.22}$, was used to define an upper limit to $\Delta$$\theta_{long}$. It was assumed the CME longitudinal angular width is no more than twice the latitudinal angular width, or $\Delta$$\theta_{long}$$\leqslant$\,2$\times$$\Delta$$\theta_{lat}$. Such an upper limit is in agreement with simulations of flux-rope CMEs which give a typical aspect ratio of broadside to axial angular extents of 1.6\,--\,1.9 \citep{krall2006}. Hence the value for $\Delta$$\theta_{long}$ at each height was used to obtain the simulated mass underestimation estimates described above. The heights and angular widths used in this study produced CME mass underestimation estimates of between 5--10\% for finite angular width uncertainty. An extra mass uncertainty of 6\% was added to account for the assumption of coronal abundance of 90\% hydrogen and 10\% helium which can lead to slight errors while converting from pixel values of MSB to grams \citep{vour2010}. 
+
+%-----------------------------%
+
 
 To calculate the CME mass a user-selected area (the extent of the CME, for example) of the base difference image was chosen and the pixel values within this area were summed to obtain total mass. Figure~\ref{fig:STEREO_COR2A&B} COR2 B images show an example of the sector over which pixels were summed (the smaller sectors indicate a different summing region used at a later stage). The selected area was chosen for each image in the time sequence of CME propagation so as to determine the mass variation with height in COR1 and 2 using both A and B. The selection of an area by a point and click method is of course a subjective identification of the the extent of the CME, 
 so it is susceptible to user-generated uncertainties. To quantify these uncertainties the mass was obtained for each coronagraph image in the time sequence (as described above) and the process was repeated five times in order to obtain the mean CME mass for each image and the standard error on the mean. This standard error was defined as the uncertainty due to user bias in the point and click method of CME identification. The height at each measurement interval was taken to be the heliocentric distance of the CME apex in the image i.e., the apex of the front was chosen 
