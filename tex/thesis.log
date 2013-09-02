@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  1 SEP 2013 14:48
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  2 SEP 2013 19:45
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -821,9 +821,6 @@ LaTeX Warning: Label `sec:20' multiply defined.
 LaTeX Warning: Label `fig:3d_cme' multiply defined.
 
 
-LaTeX Warning: Label `fig:3d_cme' multiply defined.
-
-
 LaTeX Warning: Label `sec:31' multiply defined.
 
 ) (./6/conclusions.aux) (./appendix/app.aux))
@@ -881,7 +878,7 @@ LaTeX Info: Redefining \pageref on input line 139.
 Package backref Info: ** backref set up for natbib ** on input line 139.
 \AtBeginShipoutBox=\box71
 
-<images/tcd_crest.jpg, id=353, 949.5475pt x 1207.51125pt>
+<images/tcd_crest.jpg, id=385, 949.5475pt x 1207.51125pt>
 File: images/tcd_crest.jpg Graphic file (type jpg)
 
 <use images/tcd_crest.jpg>
@@ -1006,41 +1003,44 @@ Package xcolor Warning: Incompatible color definition on input line 5.
 
 
 
-] [2] [3] [4] [5]
-<images/solar_atmosphere.jpg, id=735, 154.176pt x 115.632pt>
+] [2
+
+] [3] [4] [5] [6]
+<images/solar_atmosphere.jpg, id=786, 154.176pt x 115.632pt>
 File: images/solar_atmosphere.jpg Graphic file (type jpg)
 
-<use images/solar_atmosphere.jpg> [6] [7 <./images/solar_atmosphere.jpg>]
-<images/differential_rot.png, id=753, 1243.64626pt x 651.43375pt>
+<use images/solar_atmosphere.jpg>
+<images/differential_rot.png, id=789, 1243.64626pt x 651.43375pt>
 File: images/differential_rot.png Graphic file (type png)
 
 <use images/differential_rot.png>
-Underfull \hbox (badness 1466) in paragraph at lines 74--74
+Underfull \hbox (badness 1466) in paragraph at lines 77--77
 []\OT1/cmr/bx/n/10.95 Figure 1.2: |\OT1/cmr/m/n/10.95 He-lio-seis-mo-log-i-cal 
 de-ter-mi-na-tion of in-te-rior ro-ta-tion rate in
  []
 
-[8 <./images/differential_rot.png (PNG copy)>] [9]
-<images/bfly_new.pdf, id=777, 794.97pt x 614.295pt>
+[7] [8 <./images/solar_atmosphere.jpg>] [9 <./images/differential_rot.png (PNG 
+copy)>] <images/bfly_new.pdf, id=821, 794.97pt x 614.295pt>
 File: images/bfly_new.pdf Graphic file (type pdf)
- <use images/bfly_new.pdf>
-Overfull \hbox (9.02084pt too wide) in paragraph at lines 97--98
+
+<use images/bfly_new.pdf>
+Overfull \hbox (9.02084pt too wide) in paragraph at lines 100--101
  [] 
  []
 
-<images/Babcock.jpg, id=778, 387.94937pt x 193.72375pt>
+<images/Babcock.jpg, id=822, 387.94937pt x 193.72375pt>
 File: images/Babcock.jpg Graphic file (type jpg)
 
 <use images/Babcock.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10] [11 <./images/bfly_new.pdf>] [12 <./images/Babcock.jpg>] [13]
-<images/FAL-C.png, id=833, 1260.71pt x 842.14626pt>
+[10] [11 <./images/bfly_new.pdf>] [12 <./images/Babcock.jpg>] [13] [14]
+<images/FAL-C.png, id=885, 1260.71pt x 842.14626pt>
 File: images/FAL-C.png Graphic file (type png)
  <use images/FAL-C.png>
-[14] [15 <./images/FAL-C.png (PNG copy)>]
-<images/211_193_171.png, id=881, 1027.84pt x 1027.84pt>
+[15 <./images/FAL-C.png (PNG copy)>]
+<images/211_193_171.png, id=924, 1027.84pt x 1027.84pt>
 File: images/211_193_171.png Graphic file (type png)
 
 <use images/211_193_171.png> [16]
@@ -1049,136 +1049,134 @@ Package caption Warning: \label before \caption on input line 164.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:eclipse' on page 17 undefined on input line 199.
+LaTeX Warning: Reference `fig:eclipse' on page 17 undefined on input line 202.
 
-[17 <./images/211_193_171.png (PNG copy)>]
+[17] [18 <./images/211_193_171.png (PNG copy)>]
 
-LaTeX Warning: Reference `fig:lowfeq' on page 18 undefined on input line 201.
+LaTeX Warning: Reference `fig:lowfeq' on page 19 undefined on input line 204.
 
-<images/low_freq_obs.png, id=892, 645.41125pt x 616.3025pt>
+<images/low_freq_obs.png, id=940, 645.41125pt x 616.3025pt>
 File: images/low_freq_obs.png Graphic file (type png)
 
-<use images/low_freq_obs.png> [18] [19 <./images/low_freq_obs.png (PNG copy)>]
-<images/spectral_turnover.png, id=910, 485.815pt x 549.05125pt>
+<use images/low_freq_obs.png> [19] [20 <./images/low_freq_obs.png (PNG copy)>]
+<images/spectral_turnover.png, id=961, 485.815pt x 549.05125pt>
 File: images/spectral_turnover.png Graphic file (type png)
 
-<use images/spectral_turnover.png> [20] [21 <./images/spectral_turnover.png (PN
-G copy)>] [22] [23] <images/lasco_c3.png, id=987, 513.92pt x 513.92pt>
+<use images/spectral_turnover.png> [21] [22 <./images/spectral_turnover.png (PN
+G copy)>] [23] <images/lasco_c3.png, id=1027, 513.92pt x 513.92pt>
 File: images/lasco_c3.png Graphic file (type png)
 
 <use images/lasco_c3.png> [24] [25 <./images/lasco_c3.png (PNG copy)>] [26]
-<images/cme_speed_histo.png, id=1060, 791.95876pt x 796.9775pt>
+<images/cme_speed_histo.png, id=1099, 791.95876pt x 796.9775pt>
 File: images/cme_speed_histo.png Graphic file (type png)
 
 <use images/cme_speed_histo.png>
-<images/gall_kins2003.png, id=1065, 1224.575pt x 880.28876pt>
+<images/gall_kins2003.png, id=1104, 1224.575pt x 880.28876pt>
 File: images/gall_kins2003.png Graphic file (type png)
 
-<use images/gall_kins2003.png> [27] [28 <./images/cme_speed_histo.png (PNG copy
-)>] [29 <./images/gall_kins2003.png (PNG copy)>]
-<images/accel_zhang2006.png, id=1097, 1069.9975pt x 902.37125pt>
+<use images/gall_kins2003.png> [27] [28]
+<images/accel_zhang2006.png, id=1137, 1069.9975pt x 902.37125pt>
 File: images/accel_zhang2006.png Graphic file (type png)
 
-<use images/accel_zhang2006.png> [30 <./images/accel_zhang2006.png (PNG copy)>]
-<images/zhang2001.png, id=1116, 754.82pt x 746.79pt>
+<use images/accel_zhang2006.png> [29 <./images/cme_speed_histo.png (PNG copy)>]
+[30 <./images/gall_kins2003.png (PNG copy)>]
+<images/zhang2001.png, id=1162, 754.82pt x 746.79pt>
 File: images/zhang2001.png Graphic file (type png)
 
-<use images/zhang2001.png> [31 <./images/zhang2001.png (PNG copy)>] [32]
-<images/cme_energies.png, id=1153, 1279.78125pt x 890.32625pt>
+<use images/zhang2001.png> [31 <./images/accel_zhang2006.png (PNG copy)>]
+[32 <./images/zhang2001.png (PNG copy)>] [33]
+<images/cme_energies.png, id=1203, 1279.78125pt x 890.32625pt>
 File: images/cme_energies.png Graphic file (type png)
 
-<use images/cme_energies.png> [33]
+<use images/cme_energies.png> [34]
 
-LaTeX Warning: Text page 34 contains only floats.
+LaTeX Warning: Text page 35 contains only floats.
 
 
 Overfull \vbox (7.56078pt too high) has occurred while \output is active []
 
 
-[34 <./images/cme_energies.png (PNG copy)>]
-<images/energy_dist.png, id=1175, 1476.51625pt x 767.86874pt>
+[35 <./images/cme_energies.png (PNG copy)>]
+<images/energy_dist.png, id=1225, 1476.51625pt x 767.86874pt>
 File: images/energy_dist.png Graphic file (type png)
 
 <use images/energy_dist.png>
-Overfull \hbox (21.85745pt too wide) in paragraph at lines 360--362
+Overfull \hbox (21.85745pt too wide) in paragraph at lines 363--365
  [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35] [36 <./images/energy_dist.png (PNG copy)>]
-<images/vrsnak_lorentz.png, id=1207, 714.67pt x 854.19125pt>
+[36 <./images/energy_dist.png (PNG copy)>]
+<images/vrsnak_lorentz.png, id=1250, 714.67pt x 854.19125pt>
 File: images/vrsnak_lorentz.png Graphic file (type png)
 
 <use images/vrsnak_lorentz.png> [37] [38 <./images/vrsnak_lorentz.png (PNG copy
-)>] [39] <images/typeII.png, id=1247, 1447.4075pt x 758.835pt>
+)>] [39] <images/typeII.png, id=1291, 1447.4075pt x 758.835pt>
 File: images/typeII.png Graphic file (type png)
 
-<use images/typeII.png> [40 <./images/typeII.png (PNG copy)>] [41]
-<images/radio_shock.pdf, id=1289, 250.18388pt x 128.93349pt>
+<use images/typeII.png> [40] [41 <./images/typeII.png (PNG copy)>]
+<images/radio_shock.pdf, id=1331, 250.18388pt x 128.93349pt>
 File: images/radio_shock.pdf Graphic file (type pdf)
 
 <use images/radio_shock.pdf>
-<images/cho_trim.png, id=1304, 1484.54625pt x 699.61375pt>
+<images/cho_trim.png, id=1346, 1484.54625pt x 699.61375pt>
 File: images/cho_trim.png Graphic file (type png)
 
 <use images/cho_trim.png>
-<images/reiner2001.pdf, id=1329, 713.66624pt x 584.1825pt>
+<images/reiner2001.pdf, id=1371, 713.66624pt x 584.1825pt>
 File: images/reiner2001.pdf Graphic file (type pdf)
 
 <use images/reiner2001.pdf>
-<images/mancuso_kins2.png, id=1334, 1037.8775pt x 398.48875pt>
+<images/mancuso_kins2.png, id=1376, 1037.8775pt x 398.48875pt>
 File: images/mancuso_kins2.png Graphic file (type png)
 
 <use images/mancuso_kins2.png>
-Overfull \hbox (2.57869pt too wide) in paragraph at lines 461--462
+Overfull \hbox (2.57869pt too wide) in paragraph at lines 464--465
  [] 
  []
 
-[42 <./images/radio_shock.pdf>] [43 <./images/cho_trim.png (PNG copy)>]
+[42] [43 <./images/radio_shock.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/mancuso_uvcs.pdf, id=1365, 794.97pt x 614.295pt>
+<images/mancuso_uvcs.pdf, id=1408, 794.97pt x 614.295pt>
 File: images/mancuso_uvcs.pdf Graphic file (type pdf)
 
 <use images/mancuso_uvcs.pdf>
-Overfull \hbox (87.63329pt too wide) in paragraph at lines 469--470
+Overfull \hbox (87.63329pt too wide) in paragraph at lines 472--473
  [] 
  []
 
-[44 <./images/reiner2001.pdf>] [45 <./images/mancuso_kins2.png (PNG copy)>]
-[46 <./images/mancuso_uvcs.pdf>]
-<images/miteva_herbones.pdf, id=1455, 240.9pt x 189.67873pt>
+[44 <./images/cho_trim.png (PNG copy)>] [45 <./images/reiner2001.pdf> <./images
+/mancuso_kins2.png (PNG copy)>] [46 <./images/mancuso_uvcs.pdf>] [47]
+<images/miteva_herbones.pdf, id=1503, 240.9pt x 189.67873pt>
 File: images/miteva_herbones.pdf Graphic file (type pdf)
 
-<use images/miteva_herbones.pdf> [47
+<use images/miteva_herbones.pdf> [48
 
-] [48 <./images/miteva_herbones.pdf>]
-<images/eit_19970512_wave.jpg, id=1490, 803.0pt x 275.0275pt>
+] [49 <./images/miteva_herbones.pdf>]
+<images/eit_19970512_wave.jpg, id=1538, 803.0pt x 275.0275pt>
 File: images/eit_19970512_wave.jpg Graphic file (type jpg)
 
 <use images/eit_19970512_wave.jpg>
-<images/grechnev2011.png, id=1509, 746.79pt x 880.28876pt>
+<images/grechnev2011.png, id=1557, 746.79pt x 880.28876pt>
 File: images/grechnev2011.png Graphic file (type png)
 
-<use images/grechnev2011.png> [49]
+<use images/grechnev2011.png> [50]
 
-LaTeX Warning: Text page 50 contains only floats.
+LaTeX Warning: Text page 51 contains only floats.
 
-[50 <./images/eit_19970512_wave.jpg> <./images/grechnev2011.png (PNG copy)>]
-<images/shock_sim.png, id=1556, 1477.52pt x 549.05125pt>
+[51 <./images/eit_19970512_wave.jpg> <./images/grechnev2011.png (PNG copy)>]
+<images/shock_sim.png, id=1604, 1477.52pt x 549.05125pt>
 File: images/shock_sim.png Graphic file (type png)
 
-<use images/shock_sim.png> [51]
-<images/wl_shock.pdf, id=1585, 308.83379pt x 306.4248pt>
+<use images/shock_sim.png> [52]
+<images/wl_shock.pdf, id=1633, 308.83379pt x 306.4248pt>
 File: images/wl_shock.pdf Graphic file (type pdf)
 
-<use images/wl_shock.pdf> [52 <./images/shock_sim.png (PNG copy)>] [53 <./image
-s/wl_shock.pdf>] [54]) [55
+<use images/wl_shock.pdf> [53 <./images/shock_sim.png (PNG copy)>] [54 <./image
+s/wl_shock.pdf>] [55]) [56
 
-] [56]
+] [57]
 \openout2 = `2/MHD.aux'.
 
  (./2/MHD.tex
@@ -1190,40 +1188,40 @@ Package xcolor Warning: Incompatible color definition on input line 4.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 10.
 
-[57
+[58
 
 
 
-] [58] [59] [60] [61] [62] [63] [64]
+] [59] [60] [61] [62] [63] [64] [65]
 Overfull \hbox (14.14728pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/12 Magnetic re-con-nec-tion is the dy-nam-i-cal pro-cess that de
 -scribes the short timescale
  []
 
-[65] <images/reconnection.pdf, id=1728, 582.175pt x 501.875pt>
+[66] <images/reconnection.pdf, id=1776, 582.175pt x 501.875pt>
 File: images/reconnection.pdf Graphic file (type pdf)
 
-<use images/reconnection.pdf> [66] [67 <./images/reconnection.pdf>] [68]
-[69] <images/catastrophe.png, id=1815, 849.1725pt x 906.38625pt>
+<use images/reconnection.pdf> [67] [68 <./images/reconnection.pdf>] [69]
+[70] <images/catastrophe.png, id=1863, 849.1725pt x 906.38625pt>
 File: images/catastrophe.png Graphic file (type png)
 
-<use images/catastrophe.png> [70] [71 <./images/catastrophe.png (PNG copy)>]
-[72] <images/lynch_breakout.png, id=1880, 768.8725pt x 913.4125pt>
+<use images/catastrophe.png> [71] [72 <./images/catastrophe.png (PNG copy)>]
+[73] <images/lynch_breakout.png, id=1928, 768.8725pt x 913.4125pt>
 File: images/lynch_breakout.png Graphic file (type png)
 
-<use images/lynch_breakout.png> [73] [74] [75 <./images/lynch_breakout.png (PNG
- copy)>] <images/chen_model.png, id=1922, 677.53125pt x 564.1075pt>
+<use images/lynch_breakout.png> [74] [75] [76 <./images/lynch_breakout.png (PNG
+ copy)>] <images/chen_model.png, id=1970, 677.53125pt x 564.1075pt>
 File: images/chen_model.png Graphic file (type png)
 
-<use images/chen_model.png> [76] [77 <./images/chen_model.png (PNG copy)>]
-[78] <images/alfven_speed.png, id=1949, 1207.51125pt x 846.16125pt>
+<use images/chen_model.png> [77] [78 <./images/chen_model.png (PNG copy)>]
+[79] <images/alfven_speed.png, id=1997, 1207.51125pt x 846.16125pt>
 File: images/alfven_speed.png Graphic file (type png)
 
-<use images/alfven_speed.png> [79] [80 <./images/alfven_speed.png (PNG copy)>]
-<images/shock_pic.png, id=1960, 497.86pt x 404.51125pt>
+<use images/alfven_speed.png> [80] [81 <./images/alfven_speed.png (PNG copy)>]
+<images/shock_pic.png, id=2008, 497.86pt x 404.51125pt>
 File: images/shock_pic.png Graphic file (type png)
 
-<use images/shock_pic.png> [81 <./images/shock_pic.png (PNG copy)>]
+<use images/shock_pic.png> [82 <./images/shock_pic.png (PNG copy)>]
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 301.
 
@@ -1237,7 +1235,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
- [82] [83]pdfTeX warning (ext4): destination with the same identifier (name{equ
+ [83] [84]pdfTeX warning (ext4): destination with the same identifier (name{equ
 ation.2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1252,7 +1250,7 @@ ame{equation.2.3.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.318 \end{align}
-                  [84] <images/nif_dht.png, id=1996, 993.7125pt x 378.41376pt>
+                  [85] <images/nif_dht.png, id=2044, 993.7125pt x 378.41376pt>
 File: images/nif_dht.png Graphic file (type png)
 
 <use images/nif_dht.png>
@@ -1260,32 +1258,32 @@ Overfull \hbox (34.60153pt too wide) in paragraph at lines 340--341
  [] 
  []
 
-[85] [86 <./images/nif_dht.png (PNG copy)>]
-<images/sda_original.png, id=2028, 1026.83624pt x 703.62875pt>
+[86] [87 <./images/nif_dht.png (PNG copy)>]
+<images/sda_original.png, id=2076, 1026.83624pt x 703.62875pt>
 File: images/sda_original.png Graphic file (type png)
 
-<use images/sda_original.png> [87] [88 <./images/sda_original.png (PNG copy)>]
-[89] [90] <images/bump_on_tail.png, id=2088, 1526.70375pt x 882.29625pt>
+<use images/sda_original.png> [88] [89 <./images/sda_original.png (PNG copy)>]
+[90] [91] <images/bump_on_tail.png, id=2136, 1526.70375pt x 882.29625pt>
 File: images/bump_on_tail.png Graphic file (type png)
 
-<use images/bump_on_tail.png> [91] [92 <./images/bump_on_tail.png (PNG copy)>]
-[93] [94] <images/Cairns2003.pdf, id=2133, 358.70009pt x 148.3944pt>
+<use images/bump_on_tail.png> [92] [93 <./images/bump_on_tail.png (PNG copy)>]
+[94] [95] <images/Cairns2003.pdf, id=2181, 358.70009pt x 148.3944pt>
 File: images/Cairns2003.pdf Graphic file (type pdf)
 
-<use images/Cairns2003.pdf> [95] [96 <./images/Cairns2003.pdf>]
-<images/herbone_model.png, id=2179, 241.22227pt x 154.69164pt>
+<use images/Cairns2003.pdf> [96] [97 <./images/Cairns2003.pdf>]
+<images/herbone_model.png, id=2227, 241.22227pt x 154.69164pt>
 File: images/herbone_model.png Graphic file (type png)
 
 <use images/herbone_model.png>
-<images/radiobursts.png, id=2182, 1229.59375pt x 572.1375pt>
+<images/radiobursts.png, id=2230, 1229.59375pt x 572.1375pt>
 File: images/radiobursts.png Graphic file (type png)
 
-<use images/radiobursts.png> [97]
-<images/density_models.pdf, id=2193, 469.755pt x 505.89pt>
+<use images/radiobursts.png> [98]
+<images/density_models.pdf, id=2242, 469.755pt x 505.89pt>
 File: images/density_models.pdf Graphic file (type pdf)
 
 <use images/density_models.pdf>
-<images/1st_harmonic.pdf, id=2194, 469.755pt x 505.89pt>
+<images/1st_harmonic.pdf, id=2243, 469.755pt x 505.89pt>
 File: images/1st_harmonic.pdf Graphic file (type pdf)
 
 <use images/1st_harmonic.pdf>
@@ -1293,8 +1291,8 @@ Overfull \hbox (64.12793pt too wide) in paragraph at lines 568--569
 [][] 
  []
 
-[98 <./images/herbone_model.png (PNG copy)>] [99 <./images/radiobursts.png (PNG
- copy)>]) [100 <./images/density_models.pdf> <./images/1st_harmonic.pdf>]
+[99 <./images/herbone_model.png (PNG copy)>] [100 <./images/radiobursts.png (PN
+G copy)>]) [101 <./images/density_models.pdf> <./images/1st_harmonic.pdf>]
 \openout2 = `3/Instrumentation.aux'.
 
 
@@ -1303,33 +1301,33 @@ Chapter 3.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-[101
+[102
 
 
 
-] <images/solar_eclipse.jpg, id=2239, 903.375pt x 599.23875pt>
+] <images/solar_eclipse.jpg, id=2287, 903.375pt x 599.23875pt>
 File: images/solar_eclipse.jpg Graphic file (type jpg)
 
-<use images/solar_eclipse.jpg> [102
+<use images/solar_eclipse.jpg> [103
 
  <./images/solar_eclipse.jpg>]
-<images/lyot.png, id=2250, 1153.30875pt x 364.36125pt>
+<images/lyot.png, id=2298, 1153.30875pt x 364.36125pt>
 File: images/lyot.png Graphic file (type png)
  <use images/lyot.png>
-[103] <images/c2_concept.png, id=2258, 979.66pt x 669.50125pt>
+[104] <images/c2_concept.png, id=2307, 979.66pt x 669.50125pt>
 File: images/c2_concept.png Graphic file (type png)
 
 <use images/c2_concept.png>
-<images/c2_detail.png, id=2265, 919.435pt x 691.58376pt>
+<images/c2_detail.png, id=2314, 919.435pt x 691.58376pt>
 File: images/c2_detail.png Graphic file (type png)
 
-<use images/c2_detail.png> [104 <./images/lyot.png (PNG copy)>] [105 <./images/
-c2_concept.png (PNG copy)>] [106 <./images/c2_detail.png (PNG copy)>]
-<images/COR1_design.png, id=2294, 1291.82625pt x 825.0825pt>
+<use images/c2_detail.png> [105 <./images/lyot.png (PNG copy)>] [106 <./images/
+c2_concept.png (PNG copy)>] [107 <./images/c2_detail.png (PNG copy)>]
+<images/COR1_design.png, id=2342, 1291.82625pt x 825.0825pt>
 File: images/COR1_design.png Graphic file (type png)
 
 <use images/COR1_design.png>
-<images/cor2.png, id=2299, 616.704pt x 429.7656pt>
+<images/cor2.png, id=2347, 616.704pt x 429.7656pt>
 File: images/cor2.png Graphic file (type png)
  <use images/cor2.png>
 Overfull \hbox (1.89899pt too wide) in paragraph at lines 71--86
@@ -1338,16 +1336,16 @@ Overfull \hbox (1.89899pt too wide) in paragraph at lines 71--86
 /cmr/m/it/12 et al.[]\OT1/cmr/m/n/12 , []2008[]) Ahead
  []
 
-[107] [108] [109 <./images/COR1_design.png (PNG copy)>] [110 <./images/cor2.png
- (PNG copy)>] [111] [112] [113]
-<images/aia_telescope.png, id=2352, 345.00754pt x 142.36101pt>
+[108] [109] [110 <./images/COR1_design.png (PNG copy)>] [111 <./images/cor2.png
+ (PNG copy)>] [112] [113] [114]
+<images/aia_telescope.png, id=2400, 345.00754pt x 142.36101pt>
 File: images/aia_telescope.png Graphic file (type png)
 
 <use images/aia_telescope.png>
 
 LaTeX Warning: Command \r invalid in math mode on input line 141.
 
-[114] <images/aia_4telescopes.png, id=2362, 344.64438pt x 188.48306pt>
+[115] <images/aia_4telescopes.png, id=2410, 344.64438pt x 188.48306pt>
 File: images/aia_4telescopes.png Graphic file (type png)
 
 <use images/aia_4telescopes.png>
@@ -1355,42 +1353,42 @@ Overfull \hbox (1.00623pt too wide) in paragraph at lines 146--147
  [] 
  []
 
-[115 <./images/aia_telescope.png (PNG copy)>]
-<images/nrh_layout.png, id=2373, 987.69pt x 659.46375pt>
+[116 <./images/aia_telescope.png (PNG copy)>]
+<images/nrh_layout.png, id=2422, 987.69pt x 659.46375pt>
 File: images/nrh_layout.png Graphic file (type png)
 
-<use images/nrh_layout.png> [116 <./images/aia_4telescopes.png (PNG copy)>]
-[117]
+<use images/nrh_layout.png> [117 <./images/aia_4telescopes.png (PNG copy)>]
+[118]
 
-LaTeX Warning: Text page 118 contains only floats.
+LaTeX Warning: Text page 119 contains only floats.
 
-[118 <./images/nrh_layout.png (PNG copy)>]
+[119 <./images/nrh_layout.png (PNG copy)>]
 Overfull \hbox (13.99936pt too wide) in paragraph at lines 179--193
 [][] 
  []
 
-[119] [120] <images/Stereo-antennas.png, id=2430, 763.1712pt x 361.35pt>
+[120] [121] <images/Stereo-antennas.png, id=2478, 763.1712pt x 361.35pt>
 File: images/Stereo-antennas.png Graphic file (type png)
 
-<use images/Stereo-antennas.png> [121] [122 <./images/Stereo-antennas.png (PNG 
-copy)>] <images/callisto_layout.pdf, id=2448, 794.97pt x 614.295pt>
+<use images/Stereo-antennas.png> [122] [123 <./images/Stereo-antennas.png (PNG 
+copy)>] <images/callisto_layout.pdf, id=2496, 794.97pt x 614.295pt>
 File: images/callisto_layout.pdf Graphic file (type pdf)
 
-<use images/callisto_layout.pdf> [123] [124 <./images/callisto_layout.pdf>]
-[125] <images/callisto_worldwide.pdf, id=2486, 845.1575pt x 598.235pt>
+<use images/callisto_layout.pdf> [124] [125 <./images/callisto_layout.pdf>]
+[126] <images/callisto_worldwide.pdf, id=2534, 845.1575pt x 598.235pt>
 File: images/callisto_worldwide.pdf Graphic file (type pdf)
 
 <use images/callisto_worldwide.pdf>
-<images/rfi_survey.pdf, id=2492, 568.1225pt x 352.31625pt>
+<images/rfi_survey.pdf, id=2540, 568.1225pt x 352.31625pt>
 File: images/rfi_survey.pdf Graphic file (type pdf)
 
-<use images/rfi_survey.pdf> [126]
+<use images/rfi_survey.pdf> [127]
 
-LaTeX Warning: Reference `radiosurvey' on page 127 undefined on input line 267.
+LaTeX Warning: Reference `radiosurvey' on page 128 undefined on input line 267.
 
 
-[127 <./images/callisto_worldwide.pdf>] [128 <./images/rfi_survey.pdf>])
-[129]
+[128 <./images/callisto_worldwide.pdf>] [129 <./images/rfi_survey.pdf>])
+[130]
 \openout2 = `4/masses.aux'.
 
  (./4/masses.tex
@@ -1398,16 +1396,16 @@ Chapter 4.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-[130
+[131
 
 
 
-] [131] [132] [133]
-<images/cor1ab_color.pdf, id=2607, 939.51pt x 578.16pt>
+] [132] [133] [134]
+<images/cor1ab_color.pdf, id=2656, 939.51pt x 578.16pt>
 File: images/cor1ab_color.pdf Graphic file (type pdf)
 
 <use images/cor1ab_color.pdf>
-<images/cor2ab_color_test.pdf, id=2608, 794.97pt x 614.295pt>
+<images/cor2ab_color_test.pdf, id=2657, 794.97pt x 614.295pt>
 File: images/cor2ab_color_test.pdf Graphic file (type pdf)
 
 <use images/cor2ab_color_test.pdf>
@@ -1415,28 +1413,28 @@ Overfull \hbox (5.97687pt too wide) in paragraph at lines 43--45
  [][] 
  []
 
-[134] [135 <./images/cor1ab_color.pdf>] [136 <./images/cor2ab_color_test.pdf>]
-[137] <images/t_scatter.png, id=2690, 1044.90375pt x 889.3225pt>
+[135] [136 <./images/cor1ab_color.pdf>] [137 <./images/cor2ab_color_test.pdf>]
+[138] <images/t_scatter.png, id=2738, 1044.90375pt x 889.3225pt>
 File: images/t_scatter.png Graphic file (type png)
 
-<use images/t_scatter.png> [138]
-<images/omega_new.pdf, id=2714, 794.97pt x 614.295pt>
+<use images/t_scatter.png> [139]
+<images/omega_new.pdf, id=2762, 794.97pt x 614.295pt>
 File: images/omega_new.pdf Graphic file (type pdf)
 
-<use images/omega_new.pdf> [139 <./images/t_scatter.png (PNG copy)>] [140 <./im
-ages/omega_new.pdf>] [141]
-<images/LOS_POS_2.pdf, id=2785, 597.23125pt x 845.1575pt>
+<use images/omega_new.pdf> [140 <./images/t_scatter.png (PNG copy)>] [141 <./im
+ages/omega_new.pdf>] [142]
+<images/LOS_POS_2.pdf, id=2833, 597.23125pt x 845.1575pt>
 File: images/LOS_POS_2.pdf Graphic file (type pdf)
 
-<use images/LOS_POS_2.pdf> [142] [143 <./images/LOS_POS_2.pdf>]
-<images/pos_angle.pdf, id=2817, 722.7pt x 578.16pt>
+<use images/LOS_POS_2.pdf> [143] [144 <./images/LOS_POS_2.pdf>]
+<images/pos_angle.pdf, id=2865, 722.7pt x 578.16pt>
 File: images/pos_angle.pdf Graphic file (type pdf)
  <use images/pos_angle.pdf>
-<images/angular_width.pdf, id=2821, 794.97pt x 614.295pt>
+<images/angular_width.pdf, id=2869, 794.97pt x 614.295pt>
 File: images/angular_width.pdf Graphic file (type pdf)
 
-<use images/angular_width.pdf> [144 <./images/pos_angle.pdf>] [145 <./images/an
-gular_width.pdf>] <images/deprojected_pos.pdf, id=2908, 614.295pt x 794.97pt>
+<use images/angular_width.pdf> [145 <./images/pos_angle.pdf>] [146 <./images/an
+gular_width.pdf>] <images/deprojected_pos.pdf, id=2957, 614.295pt x 794.97pt>
 File: images/deprojected_pos.pdf Graphic file (type pdf)
 
 <use images/deprojected_pos.pdf>
@@ -1447,10 +1445,10 @@ Overfull \hbox (7.48022pt too wide) in paragraph at lines 186--187
 
 LaTeX Warning: Float too large for page by 15.80008pt on input line 190.
 
-[146] [147 <./images/deprojected_pos.pdf>] [148
+[147] [148 <./images/deprojected_pos.pdf>] [149
 
-] [149]
-<images/20081212_mass_ht.pdf, id=3002, 469.755pt x 722.7pt>
+] [150]
+<images/20081212_mass_ht.pdf, id=3050, 469.755pt x 722.7pt>
 File: images/20081212_mass_ht.pdf Graphic file (type pdf)
 
 <use images/20081212_mass_ht.pdf>
@@ -1460,12 +1458,12 @@ LaTeX Warning: Command \textquoteleft invalid in math mode on input line 222.
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 222.
 
-[150] [151]
+[151] [152]
 
-LaTeX Warning: Text page 152 contains only floats.
+LaTeX Warning: Text page 153 contains only floats.
 
-[152 <./images/20081212_mass_ht.pdf>] [153]
-<images/20081212_force_v2.pdf, id=3032, 325.215pt x 722.7pt>
+[153 <./images/20081212_mass_ht.pdf>] [154]
+<images/20081212_force_v2.pdf, id=3080, 325.215pt x 722.7pt>
 File: images/20081212_force_v2.pdf Graphic file (type pdf)
 
 <use images/20081212_force_v2.pdf>
@@ -1475,10 +1473,10 @@ LaTeX Warning: Float too large for page by 30.2237pt on input line 253.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[154] [155 <./images/20081212_force_v2.pdf>] [156
+[155] [156 <./images/20081212_force_v2.pdf>] [157
 
-] [157] [158] [159] [160])
-[161]
+] [158] [159] [160] [161])
+[162]
 \openout2 = `5/shocks.aux'.
 
  (./5/shocks.tex
@@ -1486,192 +1484,138 @@ Chapter 5.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-
-Package natbib Warning: Citation `roussev2012' on page 162 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `vourlidas2010' on page 162 undefined on input
- line 13.
-
-
-Package natbib Warning: Citation `drury2012' on page 162 undefined on input lin
-e 13.
-
-[162
+[163
 
 
 
-]
+] [164] [165]
 
-Package natbib Warning: Citation `wild1950' on page 163 undefined on input line
- 16.
-
-
-Package natbib Warning: Citation `gallagher2011' on page 163 undefined on input
- line 17.
+LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 166 undefined on input
+ line 35.
 
 
-Package natbib Warning: Citation `vrsnak2005' on page 163 undefined on input li
-ne 18.
+LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 166 undefined on input
+ line 35.
 
-[163]
-
-Package natbib Warning: Citation `zhukov2009' on page 164 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `kahler2007' on page 164 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `presnell2012' on page 164 undefined on input 
-line 24.
-
-[164]
-
-LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 165 undefined on input
- line 28.
-
-
-LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 165 undefined on input
- line 28.
-
-
-LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 165 undefined on input
- line 28.
-
-
-LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 165 undefined on input
- line 28.
-
-<images/gallagher_figure1_final.pdf, id=3219, 794.97pt x 614.295pt>
+<images/gallagher_figure1_final.pdf, id=3287, 794.97pt x 614.295pt>
 File: images/gallagher_figure1_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_figure1_final.pdf>
-Overfull \hbox (5.97687pt too wide) in paragraph at lines 31--32
+Overfull \hbox (5.97687pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
-[165]
 
-LaTeX Warning: Reference `fig:angle_time' on page 166 undefined on input line 3
-7.
+LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 166 undefined on input
+ line 46.
 
 
-LaTeX Warning: Reference `fig:angle_time' on page 166 undefined on input line 4
-0.
+LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 166 undefined on input
+ line 46.
 
-<images/gallagher_figure2_final.pdf, id=3224, 433.62pt x 505.89pt>
+[166] [167 <./images/gallagher_figure1_final.pdf>] [168]
+
+Package natbib Warning: Citation `asch2013' on page 169 undefined on input line
+ 56.
+
+
+Package natbib Warning: Citation `van1950' on page 169 undefined on input line 
+56.
+
+<images/zucca_density_map.pdf, id=3358, 794.97pt x 614.295pt>
+File: images/zucca_density_map.pdf Graphic file (type pdf)
+
+<use images/zucca_density_map.pdf> [169] [170 <./images/zucca_density_map.pdf>]
+
+Package natbib Warning: Citation `schrijver2003' on page 171 undefined on input
+ line 78.
+
+
+Package natbib Warning: Citation `scherrer2012' on page 171 undefined on input 
+line 78.
+
+<images/gallagher_supplem_fig2_final.pdf, id=3416, 794.97pt x 614.295pt>
+File: images/gallagher_supplem_fig2_final.pdf Graphic file (type pdf)
+
+<use images/gallagher_supplem_fig2_final.pdf>
+Overfull \hbox (47.34895pt too wide) in paragraph at lines 81--82
+ [] 
+ []
+
+[171 <./images/gallagher_supplem_fig2_final.pdf>]
+<images/gallagher_figure2_final.pdf, id=3445, 433.62pt x 505.89pt>
 File: images/gallagher_figure2_final.pdf Graphic file (type pdf)
 
-<use images/gallagher_figure2_final.pdf> [166] [167 <./images/gallagher_figure1
-_final.pdf>]
-<images/gallagher_figure3_final.pdf, id=3286, 794.97pt x 614.295pt>
+<use images/gallagher_figure2_final.pdf> [172]
+
+LaTeX Warning: Reference `fig:dyn_spec' on page 173 undefined on input line 108
+.
+
+
+LaTeX Warning: Reference `fig:dyn_spec' on page 173 undefined on input line 108
+.
+
+[173 <./images/gallagher_figure2_final.pdf>]
+<images/gallagher_figure3_final.pdf, id=3483, 794.97pt x 614.295pt>
 File: images/gallagher_figure3_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_figure3_final.pdf>
 
-Package natbib Warning: Citation `dulk1985' on page 168 undefined on input line
- 63.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[174] [175 <./images/gallagher_figure3_final.pdf>]
+
+Package natbib Warning: Citation `mann1999' on page 176 undefined on input line
+ 126.
+
+[176
+
+] <images/gallagher_supplem_fig3_final.pdf, id=3567, 722.7pt x 722.7pt>
+File: images/gallagher_supplem_fig3_final.pdf Graphic file (type pdf)
+
+<use images/gallagher_supplem_fig3_final.pdf>
+
+Package natbib Warning: Citation `benz2009' on page 177 undefined on input line
+ 141.
 
 
-LaTeX Warning: Reference `fig:dyn_spec' on page 168 undefined on input line 63.
+LaTeX Warning: Reference `fig:dyn_spec' on page 177 undefined on input line 141
+.
 
 
+LaTeX Warning: Reference `fig:dyn_spec' on page 177 undefined on input line 141
+.
 
-LaTeX Warning: Reference `fig:dyn_spec' on page 168 undefined on input line 63.
-
-
-[168]
-
-Package natbib Warning: Citation `benz2009' on page 169 undefined on input line
- 68.
-
-
-LaTeX Warning: Reference `fig:dyn_spec' on page 169 undefined on input line 68.
-
-
-
-LaTeX Warning: Reference `fig:dyn_spec' on page 169 undefined on input line 68.
-
-
-<images/gallagher_supplem_fig1_final.pdf, id=3300, 722.7pt x 722.7pt>
+[177 <./images/gallagher_supplem_fig3_final.pdf>]
+<images/gallagher_supplem_fig1_final.pdf, id=3589, 722.7pt x 722.7pt>
 File: images/gallagher_supplem_fig1_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_supplem_fig1_final.pdf>
-Overfull \hbox (93.3216pt too wide) in paragraph at lines 71--72
+Overfull \hbox (93.3216pt too wide) in paragraph at lines 147--148
  [] 
  []
 
-
-Package natbib Warning: Citation `burgess2006' on page 169 undefined on input l
-ine 76.
-
-<images/gallagher_supplem_fig3_final.pdf, id=3303, 722.7pt x 722.7pt>
-File: images/gallagher_supplem_fig3_final.pdf Graphic file (type pdf)
-
-<use images/gallagher_supplem_fig3_final.pdf> [169 <./images/gallagher_figure2_
-final.pdf>] [170 <./images/gallagher_figure3_final.pdf>] [171] [172 <./images/g
-allagher_supplem_fig1_final.pdf>] [173 <./images/gallagher_supplem_fig3_final.p
-df>] <images/gallagher_figure4_final.pdf, id=3447, 794.97pt x 614.295pt>
+[178] [179 <./images/gallagher_supplem_fig1_final.pdf>] [180]
+<images/gallagher_figure4_final.pdf, id=3628, 794.97pt x 614.295pt>
 File: images/gallagher_figure4_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_figure4_final.pdf>
-Overfull \hbox (74.20149pt too wide) in paragraph at lines 91--92
+Overfull \hbox (74.20149pt too wide) in paragraph at lines 161--162
  [] 
  []
 
 
-LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 174 undefined on input
- line 97.
+LaTeX Warning: Reference `fig:figure_aia_nrh_c2' on page 181 undefined on input
+ line 167.
 
-[174
+[181
 
- <./images/gallagher_figure4_final.pdf>]
+ <./images/gallagher_figure4_final.pdf>] [182] [183]
 
-Package natbib Warning: Citation `gallagher2011' on page 175 undefined on input
- line 104.
-
-
-Package natbib Warning: Citation `feng2012' on page 175 undefined on input line
- 104.
-
-
-Package natbib Warning: Citation `feng2013' on page 175 undefined on input line
- 104.
-
-[175]
-
-Package natbib Warning: Citation `guo2012' on page 176 undefined on input line 
-110.
-
-
-Package natbib Warning: Citation `burgess2006' on page 176 undefined on input l
-ine 110.
-
-
-Package natbib Warning: Citation `lowe2003' on page 176 undefined on input line
- 110.
-
-
-Package natbib Warning: Citation `burgess2006' on page 176 undefined on input l
-ine 112.
-
-
-Package natbib Warning: Citation `burgess2006' on page 176 undefined on input l
-ine 112.
-
-
-LaTeX Warning: Reference `fig:dyn_spec' on page 176 undefined on input line 112
+LaTeX Warning: Reference `fig:dyn_spec' on page 184 undefined on input line 183
 .
 
-[176]
-
-Package natbib Warning: Citation `vanHaarlem2013' on page 177 undefined on inpu
-t line 114.
-
-[177]) [178]
+[184]) [185]
 \openout2 = `6/conclusions.aux'.
 
  (./6/conclusions.tex
@@ -1679,7 +1623,7 @@ Chapter 6.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-) [179
+) [186
 
 
 
@@ -1691,12 +1635,12 @@ Appendix A.
 
 Package xcolor Warning: Incompatible color definition on input line 4.
 
-[180
+[187
 
 
 
-] [181] [182] [183]
-<images/MHD_vary_mach&thetaBn.pdf, id=3608, 597.23125pt x 845.1575pt>
+] [188] [189] [190]
+<images/MHD_vary_mach&thetaBn.pdf, id=3810, 597.23125pt x 845.1575pt>
 File: images/MHD_vary_mach&thetaBn.pdf Graphic file (type pdf)
 
 <use images/MHD_vary_mach&thetaBn.pdf>
@@ -1707,7 +1651,7 @@ Overfull \hbox (10.01276pt too wide) in paragraph at lines 77--78
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[184]) [185 <./images/MHD_vary_mach&thetaBn.pdf>] (./thesis.bbl (./thesis.brf)
+[191]) [192 <./images/MHD_vary_mach&thetaBn.pdf>] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write9
 \openout9 = `thesis.brf'.
 
@@ -1715,16 +1659,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-[186
+[193
 
 
-] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197]
-[198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209]
-[210])
+] [194] [195] [196] [197] [198] [199] [200] [201] [202] [203] [204]
+[205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216]
+[217] [218] [219] [220])
 
 Package natbib Warning: There were undefined citations.
 
-[211] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux)
+[221] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux)
 (./0/dedication.aux) (./0/acknowledgement.aux) (./0/publications.aux)
 (./1/introduction.aux) (./2/MHD.aux) (./3/Instrumentation.aux) (./4/masses.aux)
 (./5/shocks.aux) (./6/conclusions.aux) (./appendix/app.aux))
@@ -1736,13 +1680,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17585 strings out of 493876
- 281693 string characters out of 1150568
- 381515 words of memory out of 3000000
- 19583 multiletter control sequences out of 10000+50000
+ 17719 strings out of 493876
+ 283731 string characters out of 1150568
+ 405557 words of memory out of 3000000
+ 19677 multiletter control sequences out of 10000+50000
  20177 words of font info for 69 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 47i,12n,50p,2270b,1275s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,12n,50p,2427b,1345s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1798,9 +1742,9 @@ type1/bluesky/cm/cmsy8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/blue
 sky/cm/cmti10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cm
 ti12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb
 ></usr/local/texlive/2008/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (228 pages, 31388295 bytes).
+Output written on thesis.pdf (238 pages, 32189077 bytes).
 PDF statistics:
- 4389 PDF objects out of 5155 (max. 8388607)
- 733 named destinations out of 1000 (max. 131072)
- 1073 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4633 PDF objects out of 5155 (max. 8388607)
+ 771 named destinations out of 1000 (max. 131072)
+ 1147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

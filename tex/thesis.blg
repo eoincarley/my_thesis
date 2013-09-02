@@ -10,34 +10,50 @@ A level-1 auxiliary file: 2/MHD.aux
 A level-1 auxiliary file: 3/Instrumentation.aux
 A level-1 auxiliary file: 4/masses.aux
 A level-1 auxiliary file: 5/shocks.aux
+Case mismatch error between cite keys benz2009 and Benz2009
+---line 75 of file 5/shocks.aux
+ : \citation{benz2009
+ :                   }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 10681 items from 5000.
+Reallocated field_info (elt_size=4) to 10773 items from 5000.
 Database file #1: mybib.bib
-Repeated entry---line 738 of file mybib.bib
+Repeated entry---line 768 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1145 of file mybib.bib
+Repeated entry---line 1258 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1159 of file mybib.bib
+Repeated entry---line 1272 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1606 of file mybib.bib
+ : @article{guo2010
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 2919 of file mybib.bib
-Warning--I didn't find a database entry for "byr10"
-Warning--I didn't find a database entry for "roussev2012"
-Warning--I didn't find a database entry for "vourlidas2010"
-Warning--I didn't find a database entry for "drury2012"
-Warning--I didn't find a database entry for "wild1950"
-Warning--I didn't find a database entry for "gallagher2011"
-Warning--I didn't find a database entry for "vrsnak2005"
-Warning--I didn't find a database entry for "zhukov2009"
-Warning--I didn't find a database entry for "kahler2007"
-Warning--I didn't find a database entry for "presnell2012"
+--line 3264 of file mybib.bib
+Repeated entry---line 3472 of file mybib.bib
+ : @article{spreiter1966
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3613 of file mybib.bib
+ : @article{stewart1980
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3937 of file mybib.bib
+ : @article{vandas2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4334 of file mybib.bib
+ : @article{wild1950
+ :                  ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in billings1966
 Warning--can't use both author and editor fields in bil66
@@ -54,45 +70,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 237 entries,
+You've used 251 entries,
             3018 wiz_defined-function locations,
-            1870 strings with 48538 characters,
-and the built_in function-call counts, 170926 in all, are:
-= -- 13549
-> -- 10500
-< -- 128
-+ -- 3661
-- -- 3418
-* -- 15003
-:= -- 26126
-add.period$ -- 701
-call.type$ -- 237
-change.case$ -- 2321
-chr.to.int$ -- 231
-cite$ -- 252
-duplicate$ -- 11198
-empty$ -- 10917
-format.name$ -- 4144
-if$ -- 33776
+            1926 strings with 54282 characters,
+and the built_in function-call counts, 190818 in all, are:
+= -- 14837
+> -- 12647
+< -- 136
++ -- 4386
+- -- 4129
+* -- 16876
+:= -- 29180
+add.period$ -- 743
+call.type$ -- 251
+change.case$ -- 2628
+chr.to.int$ -- 245
+cite$ -- 266
+duplicate$ -- 12192
+empty$ -- 11709
+format.name$ -- 4893
+if$ -- 37588
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 2567
-newline$ -- 715
-num.names$ -- 965
-pop$ -- 5349
+missing$ -- 2888
+newline$ -- 757
+num.names$ -- 1021
+pop$ -- 6167
 preamble$ -- 1
-purify$ -- 2082
+purify$ -- 2375
 quote$ -- 0
-skip$ -- 4084
+skip$ -- 4489
 stack$ -- 0
-substring$ -- 6751
-swap$ -- 6588
+substring$ -- 7106
+swap$ -- 7310
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2094
+type$ -- 2220
 warning$ -- 15
-while$ -- 946
+while$ -- 1002
 width$ -- 0
-write$ -- 2593
-(There were 3 error messages)
+write$ -- 2747
+(There were 9 error messages)

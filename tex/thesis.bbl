@@ -1,4 +1,4 @@
-\begin{thebibliography}{237}
+\begin{thebibliography}{251}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -197,6 +197,11 @@
   \& {Eyles}, C.J.} (1995). {The Large Angle Spectroscopic Coronagraph
   (LASCO)}. {\em \solphys\/}, {\bf 162}, 357--402.
 
+\bibitem[{{Burgess}(2006)}]{burgess2006}
+{\sc {Burgess}, D.} (2006). {Simulations of Electron Acceleration at
+  Collisionless Shocks: The Effects of Surface Fluctuations}. {\em \apj\/},
+  {\bf 653}, 316--324.
+
 \bibitem[{{Burkepile} {\em et~al.\/}(2004){Burkepile}, {Hundhausen}, {Stanger},
   {St.~Cyr} \& {Seiden}}]{burk2004}
 {\sc {Burkepile}, J.T., {Hundhausen}, A.J., {Stanger}, A.L., {St.~Cyr}, O.C. \&
@@ -321,6 +326,14 @@
 {\sc {Domingo}, V., {Fleck}, B. \& {Poland}, A.I.} (1995). {The SOHO Mission:
   an Overview}. {\em \solphys\/}, {\bf 162}, 1--37.
 
+\bibitem[{{Drury}(2012)}]{drury2012}
+{\sc {Drury}, L.O..} (2012). {Origin of cosmic rays}. {\em Astroparticle
+  Physics\/}, {\bf 39}, 52--60.
+
+\bibitem[{{Dulk}(1985)}]{dulk1985}
+{\sc {Dulk}, G.A.} (1985). {Radio emission from the sun and stars}. {\em
+  \araa\/}, {\bf 23}, 169--224.
+
 \bibitem[{{Emslie} {\em et~al.\/}(2004){Emslie}, {Kucharek}, {Dennis},
   {Gopalswamy}, {Holman}, {Share}, {Vourlidas}, {Forbes}, {Gallagher}, {Mason},
   {Metcalf}, {Mewaldt}, {Murphy}, {Schwartz} \& {Zurbuchen}}]{emslie2004}
@@ -353,6 +366,19 @@
   J.T., {McComas}, D.J., {Thomsen}, M.F., {Paschmann}, G. \& {Hoppe}, M.M.}
   (1983). {Electron velocity distributions near the earth's bow shock}. {\em
   \jgr\/}, {\bf 88}, 96--110.
+
+\bibitem[{{Feng} {\em et~al.\/}(2012){Feng}, {Chen}, {Kong}, {Li}, {Song},
+  {Feng} \& {Liu}}]{feng2012}
+{\sc {Feng}, S.W., {Chen}, Y., {Kong}, X.L., {Li}, G., {Song}, H.Q., {Feng},
+  X.S. \& {Liu}, Y.} (2012). {Radio Signatures of
+  Coronal-mass-ejection-Streamer Interaction and Source Diagnostics of Type II
+  Radio Burst}. {\em \apj\/}, {\bf 753}, 21.
+
+\bibitem[{{Feng} {\em et~al.\/}(2013){Feng}, {Chen}, {Kong}, {Li}, {Song},
+  {Feng} \& {Guo}}]{feng2013}
+{\sc {Feng}, S.W., {Chen}, Y., {Kong}, X.L., {Li}, G., {Song}, H.Q., {Feng},
+  X.S. \& {Guo}, F.} (2013). {Diagnostics on the Source Properties of a Type II
+  Radio Burst with Spectral Bumps}. {\em \apj\/}, {\bf 767}, 29.
 
 \bibitem[{{Fitzpatrick}(2000)}]{fitz}
 {\sc {Fitzpatrick}, R.} (2000). {\em {The Physics of Plasmas}\/}.
@@ -433,6 +459,11 @@
   region}. {\em Royal Society of London Philosophical Transactions Series A\/},
   {\bf 281}, 339--352.
 
+\bibitem[{{Gallagher} \& {Long}(2011)}]{gallagher2011}
+{\sc {Gallagher}, P.T. \& {Long}, D.M.} (2011). {Large-scale Bright Fronts in
+  the Solar Corona: A Review of ''EIT waves''}. {\em \ssr\/}, {\bf 158},
+  365--396.
+
 \bibitem[{{Gallagher} {\em et~al.\/}(2003){Gallagher}, {Lawrence} \&
   {Dennis}}]{gallagher03}
 {\sc {Gallagher}, P.T., {Lawrence}, G.R. \& {Dennis}, B.R.} (2003). {Rapid
@@ -508,6 +539,11 @@
 {\sc {Guo}, F. \& {Giacalone}, J.} (2010). {The Effect of Large-scale Magnetic
   Turbulence on the Acceleration of Electrons by Perpendicular Collisionless
   Shocks}. {\em \apj\/}, {\bf 715}, 406--411.
+
+\bibitem[{{Guo} \& {Giacalone}(2012)}]{guo2012}
+{\sc {Guo}, F. \& {Giacalone}, J.} (2012). {Particle Acceleration at a Flare
+  Termination Shock: Effect of Large-scale Magnetic Turbulence}. {\em \apj\/},
+  {\bf 753}, 28.
 
 \bibitem[{{Gurnett} {\em et~al.\/}(2004){Gurnett}, {Kurth}, {Kirchner},
   {Hospodarsky}, {Averkamp}, {Zarka}, {Lecacheux}, {Manning}, {Roux}, {Canu},
@@ -586,6 +622,10 @@
 \bibitem[{{Kabin}(2001)}]{kabin2001}
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
   Journal of Plasma Physics\/}, {\bf 66}, 259--274.
+
+\bibitem[{{Kahler}(2007)}]{kahler2007}
+{\sc {Kahler}, S.W.} (2007). {Solar Sources of Heliospheric Energetic Electron
+  Events - Shocks or Flares?} {\em \ssr\/}, {\bf 129}, 359--390.
 
 \bibitem[{{Kaiser} {\em et~al.\/}(2008){Kaiser}, {Kucera}, {Davila}, {St.~Cyr},
   {Guhathakurta} \& {Christian}}]{kai08}
@@ -734,6 +774,11 @@
 {\sc {Long}, D.M., {Gallagher}, P.T., {McAteer}, R.T.J. \& {Bloomfield}, D.S.}
   (2011). {Deceleration and dispersion of large-scale coronal bright fronts}.
   {\em \aap\/}, {\bf 531}, A42.
+
+\bibitem[{{Lowe} \& {Burgess}(2003)}]{lowe2003}
+{\sc {Lowe}, R.E. \& {Burgess}, D.} (2003). {The properties and causes of
+  rippling in quasi-perpendicular collisionless shock fronts}. {\em Annales
+  Geophysicae\/}, {\bf 21}, 671--679.
 
 \bibitem[{{Lynch} {\em et~al.\/}(2004){Lynch}, {Antiochos}, {MacNeice},
   {Zurbuchen} \& {Fisk}}]{lynch2004}
@@ -939,6 +984,11 @@
   Times of Arrival of Bursts of Solar Noise on Different Radio Frequencies}.
   {\em \nat\/}, {\bf 160}, 256--257.
 
+\bibitem[{{Pesnell} {\em et~al.\/}(2012){Pesnell}, {Thompson} \&
+  {Chamberlin}}]{presnell2012}
+{\sc {Pesnell}, W.D., {Thompson}, B.J. \& {Chamberlin}, P.C.} (2012). {The
+  Solar Dynamics Observatory (SDO)}. {\em \solphys\/}, {\bf 275}, 3--15.
+
 \bibitem[{{Petschek}(1964)}]{petschek1964}
 {\sc {Petschek}, H.E.} (1964). {Magnetic Field Annihilation}. {\em NASA Special
   Publication\/}, {\bf 50}, 425.
@@ -1019,6 +1069,13 @@
 {\sc {Robinson}, R.D. \& {Stewart}, R.T.} (1985). {A positional comparison
   between coronal mass ejection events and solar type II bursts}. {\em
   \solphys\/}, {\bf 97}, 145--157.
+
+\bibitem[{{Roussev} {\em et~al.\/}(2012){Roussev}, {Galsgaard}, {Downs},
+  {Lugaz}, {Sokolov}, {Moise} \& {Lin}}]{roussev2012}
+{\sc {Roussev}, I.I., {Galsgaard}, K., {Downs}, C., {Lugaz}, N., {Sokolov},
+  I.V., {Moise}, E. \& {Lin}, J.} (2012). {Explaining fast ejections of plasma
+  and exotic X-ray emission from the solar corona}. {\em Nature Physics\/},
+  {\bf 8}, 845--849.
 
 \bibitem[{{Russell} \& {Mulligan}(2002)}]{russel2002}
 {\sc {Russell}, C.T. \& {Mulligan}, T.} (2002). {On the magnetosheath
@@ -1222,6 +1279,84 @@
 {\sc {van de Hulst}, H.C.} (1950). {The electron density of the solar corona}.
   {\em \bain\/}, {\bf 11}, 135.
 
+\bibitem[{{van Haarlem} {\em et~al.\/}(2013){van Haarlem}, {Wise}, {Gunst},
+  {Heald}, {McKean}, {Hessels}, {de Bruyn}, {Nijboer}, {Swinbank}, {Fallows},
+  {Brentjens}, {Nelles}, {Beck}, {Falcke}, {Fender}, {H{\"o}randel},
+  {Koopmans}, {Mann}, {Miley}, {R{\"o}ttgering}, {Stappers}, {Wijers},
+  {Zaroubi}, {van den Akker}, {Alexov}, {Anderson}, {Anderson}, {van Ardenne},
+  {Arts}, {Asgekar}, {Avruch}, {Batejat}, {B{\"a}hren}, {Bell}, {Bell}, {van
+  Bemmel}, {Bennema}, {Bentum}, {Bernardi}, {Best}, {B{\^i}rzan}, {Bonafede},
+  {Boonstra}, {Braun}, {Bregman}, {Breitling}, {van de Brink}, {Broderick},
+  {Broekema}, {Brouw}, {Br{\"u}ggen}, {Butcher}, {van Cappellen}, {Ciardi},
+  {Coenen}, {Conway}, {Coolen}, {Corstanje}, {Damstra}, {Davies}, {Deller},
+  {Dettmar}, {van Diepen}, {Dijkstra}, {Donker}, {Doorduin}, {Dromer}, {Drost},
+  {van Duin}, {Eisl{\"o}ffel}, {van Enst}, {Ferrari}, {Frieswijk}, {Gankema},
+  {Garrett}, {de Gasparin}, {Gerbers}, {de Geus}, {Grie{\ss}meier}, {Grit},
+  {Gruppen}, {Hamaker}, {Hassall}, {Hoeft}, {Holties}, {Horneffer}, {van der
+  Horst}, {van Houwelingen}, {Huijgen}, {Iacobelli}, {Intema}, {Jackson},
+  {Jelic}, {de Jong}, {Kant}, {Karastergiou}, {Koers}, {Kollen}, {Kondratiev},
+  {Kooistra}, {Koopman}, {Koster}, {Kuniyoshi}, {Kramer}, {Kuper},
+  {Lambropoulos}, {Law}, {van Leeuwen}, {Lemaitre}, {Loose}, {Maat}, {Macario},
+  {Markoff}, {Masters}, {McFadden}, {McKay-Bukowski}, {Meijering}, {Meulman},
+  {Mevius}, {Millenaar}, {Miller-Jones}, {Mohan}, {Mol}, {Morawietz},
+  {Morganti}, {Mulcahy}, {Mulder}, {Munk}, {Nieuwenhuis}, {van Nieuwpoort},
+  {Noordam}, {Norden}, {Noutsos}, {Offringa}, {Olofsson}, {Omar}, {Orr{\'u}},
+  {Overeem}, {Paas}, {Pandey-Pommier}, {Pandey}, {Pizzo}, {Polatidis},
+  {Rafferty}, {Rawlings}, {Reich}, {de Reijer}, {Reitsma}, {Renting},
+  {Riemers}, {Rol}, {Romein}, {Roosjen}, {Ruiter}, {Scaife}, {van der Schaaf},
+  {Scheers}, {Schellart}, {Schoenmakers}, {Schoonderbeek}, {Serylak},
+  {Shulevski}, {Sluman}, {Smirnov}, {Sobey}, {Spreeuw}, {Steinmetz}, {Sterks},
+  {Stiepel}, {Stuurwold}, {Tagger}, {Tang}, {Tasse}, {Thomas}, {Thoudam},
+  {Toribio}, {van der Tol}, {Usov}, {van Veelen}, {van der Veen}, {ter Veen},
+  {Verbiest}, {Vermeulen}, {Vermaas}, {Vocks}, {Vogt}, {de Vos}, {van der Wal},
+  {van Weeren}, {Weggemans}, {Weltevrede}, {White}, {Wijnholds}, {Wilhelmsson},
+  {Wucknitz}, {Yatawatta}, {Zarka}, {Zensus} \& {van Zwieten}}]{vanHaarlem2013}
+{\sc {van Haarlem}, M.P., {Wise}, M.W., {Gunst}, A.W., {Heald}, G., {McKean},
+  J.P., {Hessels}, J.W.T., {de Bruyn}, A.G., {Nijboer}, R., {Swinbank}, J.,
+  {Fallows}, R., {Brentjens}, M., {Nelles}, A., {Beck}, R., {Falcke}, H.,
+  {Fender}, R., {H{\"o}randel}, J., {Koopmans}, L.V.E., {Mann}, G., {Miley},
+  G., {R{\"o}ttgering}, H., {Stappers}, B.W., {Wijers}, R.A.M.J., {Zaroubi},
+  S., {van den Akker}, M., {Alexov}, A., {Anderson}, J., {Anderson}, K., {van
+  Ardenne}, A., {Arts}, M., {Asgekar}, A., {Avruch}, I.M., {Batejat}, F.,
+  {B{\"a}hren}, L., {Bell}, M.E., {Bell}, M.R., {van Bemmel}, I., {Bennema},
+  P., {Bentum}, M.J., {Bernardi}, G., {Best}, P., {B{\^i}rzan}, L., {Bonafede},
+  A., {Boonstra}, A.J., {Braun}, R., {Bregman}, J., {Breitling}, F., {van de
+  Brink}, R.H., {Broderick}, J., {Broekema}, P.C., {Brouw}, W.N.,
+  {Br{\"u}ggen}, M., {Butcher}, H.R., {van Cappellen}, W., {Ciardi}, B.,
+  {Coenen}, T., {Conway}, J., {Coolen}, A., {Corstanje}, A., {Damstra}, S.,
+  {Davies}, O., {Deller}, A.T., {Dettmar}, R.J., {van Diepen}, G., {Dijkstra},
+  K., {Donker}, P., {Doorduin}, A., {Dromer}, J., {Drost}, M., {van Duin}, A.,
+  {Eisl{\"o}ffel}, J., {van Enst}, J., {Ferrari}, C., {Frieswijk}, W.,
+  {Gankema}, H., {Garrett}, M.A., {de Gasparin}, F., {Gerbers}, M., {de Geus},
+  E., {Grie{\ss}meier}, J.M., {Grit}, T., {Gruppen}, P., {Hamaker}, J.P.,
+  {Hassall}, T., {Hoeft}, M., {Holties}, H.A., {Horneffer}, A., {van der
+  Horst}, A., {van Houwelingen}, A., {Huijgen}, A., {Iacobelli}, M., {Intema},
+  H., {Jackson}, N., {Jelic}, V., {de Jong}, A., {Kant}, D., {Karastergiou},
+  A., {Koers}, A., {Kollen}, H., {Kondratiev}, V.I., {Kooistra}, E., {Koopman},
+  Y., {Koster}, A., {Kuniyoshi}, M., {Kramer}, M., {Kuper}, G., {Lambropoulos},
+  P., {Law}, C., {van Leeuwen}, J., {Lemaitre}, J., {Loose}, M., {Maat}, P.,
+  {Macario}, G., {Markoff}, S., {Masters}, J., {McFadden}, R.A.,
+  {McKay-Bukowski}, D., {Meijering}, H., {Meulman}, H., {Mevius}, M.,
+  {Millenaar}, R., {Miller-Jones}, J.C.A., {Mohan}, R.N., {Mol}, J.D.,
+  {Morawietz}, J., {Morganti}, R., {Mulcahy}, D.D., {Mulder}, E., {Munk}, H.,
+  {Nieuwenhuis}, L., {van Nieuwpoort}, R., {Noordam}, J.E., {Norden}, M.,
+  {Noutsos}, A., {Offringa}, A.R., {Olofsson}, H., {Omar}, A., {Orr{\'u}}, E.,
+  {Overeem}, R., {Paas}, H., {Pandey-Pommier}, M., {Pandey}, V.N., {Pizzo}, R.,
+  {Polatidis}, A., {Rafferty}, D., {Rawlings}, S., {Reich}, W., {de Reijer},
+  J.P., {Reitsma}, J., {Renting}, G.A., {Riemers}, P., {Rol}, E., {Romein},
+  J.W., {Roosjen}, J., {Ruiter}, M., {Scaife}, A., {van der Schaaf}, K.,
+  {Scheers}, B., {Schellart}, P., {Schoenmakers}, A., {Schoonderbeek}, G.,
+  {Serylak}, M., {Shulevski}, A., {Sluman}, J., {Smirnov}, O., {Sobey}, C.,
+  {Spreeuw}, H., {Steinmetz}, M., {Sterks}, C.G.M., {Stiepel}, H.J.,
+  {Stuurwold}, K., {Tagger}, M., {Tang}, Y., {Tasse}, C., {Thomas}, I.,
+  {Thoudam}, S., {Toribio}, M.C., {van der Tol}, B., {Usov}, O., {van Veelen},
+  M., {van der Veen}, A.J., {ter Veen}, S., {Verbiest}, J.P.W., {Vermeulen},
+  R., {Vermaas}, N., {Vocks}, C., {Vogt}, C., {de Vos}, M., {van der Wal}, E.,
+  {van Weeren}, R., {Weggemans}, H., {Weltevrede}, P., {White}, S.,
+  {Wijnholds}, S.J., {Wilhelmsson}, T., {Wucknitz}, O., {Yatawatta}, S.,
+  {Zarka}, P., {Zensus}, A. \& {van Zwieten}, J.} (2013). {LOFAR: The
+  LOw-Frequency ARray}. {\em \aap\/}, {\bf 556}, A2.
+
 \bibitem[{{Vandas} \& {Karlick{\'y}}(2011)}]{vandas2011}
 {\sc {Vandas}, M. \& {Karlick{\'y}}, M.} (2011). {Electron acceleration in a
   wavy shock front}. {\em \aap\/}, {\bf 531}, A55.
@@ -1332,6 +1467,11 @@
   solar origin of coronal mass ejections}. {\em \solphys\/}, {\bf 108},
   383--401.
 
+\bibitem[{{Wild}(1950)}]{wild1950}
+{\sc {Wild}, J.P.} (1950). {Observations of the Spectrum of High-Intensity
+  Solar Radiation at Metre Wavelengths. III. Isolated Bursts}. {\em Australian
+  Journal of Scientific Research A Physical Sciences\/}, {\bf 3}, 541.
+
 \bibitem[{{Wild}(1964)}]{wild1964}
 {\sc {Wild}, J.P.} (1964). {Radio Observations of Solar Flares}. {\em NASA
   Special Publication\/}, {\bf 50}, 161.
@@ -1393,6 +1533,12 @@
 {\sc {Zhang}, J., {Dere}, K.P., {Howard}, R.A. \& {Vourlidas}, A.} (2004). {A
   Study of the Kinematic Evolution of Coronal Mass Ejections}. {\em \apj\/},
   {\bf 604}, 420--432.
+
+\bibitem[{{Zhukov} {\em et~al.\/}(2009){Zhukov}, {Rodriguez} \& {de
+  Patoul}}]{zhukov2009}
+{\sc {Zhukov}, A.N., {Rodriguez}, L. \& {de Patoul}, J.} (2009). {STEREO/SECCHI
+  Observations on 8 December 2007: Evidence Against the Wave Hypothesis of the
+  EIT Wave Origin}. {\em \solphys\/}, {\bf 259}, 73--85.
 
 \bibitem[{{Zlobec} {\em et~al.\/}(1993){Zlobec}, {Messerotti}, {Karlicky} \&
   {Urbarz}}]{zlobec1993}
