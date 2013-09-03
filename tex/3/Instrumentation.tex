@@ -7,7 +7,7 @@
 \doublespacing
 This chapter outlines the instruments used to make observations of coronal mass ejections and the signatures of their shocks. The primary technique for observing CMEs is via white-light observations of the corona. General corona observing techniques used by coronagraphs are firstly decribed, followed by specific details of coronagraphs used in this study. This is followed by a description of instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory (RSTO), installed at Birr Castle, Co. Offaly, Ireland in September 2011. The RSTO work was published in Zucca \& Carley, {\it Solar Physics}, 2012.
 \clearpage
-\singlespacing
+
 \section{White-Light Observations}\label{sec:1}
 
 The first evidence for the existence of the corona was through observations during solar eclipses. The occultation of the solar disk by the moon revealed a visible outer atmosphere structured into streamers and plumes and extending far from the solar surface (Figure~\ref{fig:seclipse}). 
@@ -64,7 +64,14 @@ The light focused onto the focal plane by the O3 lens first pases through colour
 
 Finally, C3 is an externally occulted broadband lens coronagraph that images the corona from $3.7-30\,R_{\odot}$, with a pixel size of $56"$ and brightness range of $3\times10^{-9} - 1\times10^{-11}$. It has the same optical design as C2 (Figure~\ref{fig:c2_concept}).
 
-The C1, C2 and C3 coronagraph data is processed on-board using a number of steps that may compress the data before transmission to an Earth ground station. Each telescope feeds its compressed data to the same telemetry buffer which can store up to 2\,Mb. The  LASCO telemetry rate is 4.2\,kb\,s$^{-1}$ and communication with the ground is via the Deep Space Network (DPS). The SOHO spacecraft is usually in contact with the DPS for approximately 2 hours per day. Data captured by the DPS is then transmitted to servers at NASA's Goddard Space Flight Centre (GSFC) and the Naval Research Laboratory (NRL).
+The C1, C2 and C3 coronagraph data is processed on-board using a number of steps that may compress the data before transmission to an Earth ground station. Each telescope feeds its compressed data to the same telemetry buffer which can store up to 2\,Mb. The  LASCO telemetry rate is 4.2\,kb\,s$^{-1}$ and communication with the ground is via the Deep Space Network (DPS). The SOHO spacecraft is usually in contact with the DPS for approximately 2 hours per day. Data captured by the DPS is then transmitted to servers at NASA's Goddard Space Flight Centre (GSFC) and the Naval Research Laboratory (NRL). Some sample level-1 data for C2 is shown in Figure~\ref{fig:lasco_c2_obs}
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.55, trim=2cm 6cm 1cm 2cm]{images/lasco_c2_thesis.pdf}
+\caption[LASCO C2 Observations]{LASCO C2 Observations of a CME occurring on 22 September 201. The central disk is from the occulter. A heliographic grid is over-layed to show the size of the sun.}
+\label{fig:lasco_c2_obs}
+\end{center}
+\end{figure}
 
 
 \subsubsection{STEREO COR1 and COR2}\label{sec:22}
@@ -174,7 +181,37 @@ The array antennas are arranged in a perpendicular \textquoteleft T' shape. The 
 
 The original array consisted of only the east-west baselines, with the north-south being added later in the early 1980s \citep{bonmartin1983}, hence the two separate arrays operate off different correlators. The visibility outputs of each correlator are digitized by sampling every 5\,ms, resulting in 4 images every 5\,ms (Stokes I and V for the east-west and north south arrays), with a down sampling of by integrating at least 4 successive images in order to ease storage loads \citep{avignon1989}. These images are only 1D, offering projected intensity profiles along two axes. Originally, full 2D maps were created by Earth rotation synthesis using the standard 1D observations over one entire day \citep{nrh1993}. Such limitations were mainly due to the use of an analog correlator. However, a digital correlator installed in 1997 now provides fast 2D images using the most westerly 17 antennas of the east-west baseline \citep{kerdraon1997}, resulting in a spatial resolution that is 4 times lower than the 1D east-west images. Systematic daily observations of 2D images are usually performed at between 0.1 and 1 image per second.
 
-Instrument phase and gain calibration is performed by observing Cygnus A. Phase and gain accuracy for these measurements are $5^{\circ}$ and 5\%, respectively, with only 1 calibration per week necessary because of good system stability \citep{avignon1989}
+All radio interferometers measure a property known as visibility, which is the Fourier transform of the observed sky brightness distribution
+\begin{equation}
+V(u,v)=\int I(l,m)\mathrm{exp}(i2\pi[ul +vm])dldm
+\end{equation}
+where $V$ is the visibility, $(u,v)$ are the spatial frequency of fringes on the sky, corresponding to the angular sky coordinates $(l,m)$. $I(l,m)$ is the brightness distribution across the sky. The inverse of this means that the output of an interferometer may be inverse Fourier transformed to obtain the sky brightness distribution
+\begin{equation}
+I(l,m)=\int V(u,v))\mathrm{exp}(-i2\pi[ul +vm])dldm
+\label{eqn:sky_b}
+\end{equation}
+This equations apply to the ideal case. In reality the visibility function is initially uncalibrated $V^{'}(u,v)$, and sampling of the visibility is discrete in $(u,v)$ space i.e., if an interferometer has $n$ telescopes in the array, then it will have $n(n-1)/2$ baselines (telescope pairs). This means that there is only $n(n-1)/2$ samples of visibility $V$. The sampling of the discrete points in space is represented by a sampling function $S(u,v) = \delta(u-u_k, v-v_k)$, where $\delta$ is a dirac delta function and $(u_k, v_k)$ are the positions in $(u, v)$ space at which there is sampling. Equation~\ref{eqn:sky_b} thus becomes
+\begin{equation}
+I(l,m)=\int S(u,v)V^{'}(u,v))\mathrm{exp}(-i2\pi[ul +vm])dldm
+\label{eqn:VS}
+\end{equation}
+Firstly, the original visualities must be calibrated to obtain $V(u,v)$ from $V^{'}(u,v)$. Calibration usually involves characterising the gain $G$ of an interferometer and any phase corrections $P$ that need to be made. This is done by observing a strong radio point source of known flux (known ideal $V$) such that G and P may be characterised in the equation
+\begin{equation}
+V^{'}(u,v) = G[ P[V(u,v)] ]
+\end{equation}
+NRH instrument phase and gain calibration is performed by observing Cygnus A. Phase and gain accuracy for these measurements are $5^{\circ}$ and 5\%, respectively, with only 1 calibration per week necessary because of good system stability \citep{avignon1989}
+
+Calibrated visibilities are then used in equation~\ref{eqn:VS}. If represent the Fourier transform by $\mathfrak{F}[]$, and using the convolution theorem then equation~\ref{eqn:VS} becomes
+\begin{equation}
+I(l,m)=\mathfrak{F}[S(u,v)V(u,v))] = \mathfrak{F}[S(u,v)]\ast\mathfrak{F}[V(u,v)]
+\label{eqn:VS2}
+\end{equation}
+Given that the Fourier transform of the sampling function is the beam of the instrument $\mathfrak{F}[S(u,v)] = B(l,m)$ i.e., its point spread function, and as shown above $\mathfrak{F}[V(u,v)] = I(l,m)$. This gives
+\begin{equation}
+I_D(l,m) = \mathfrak{F}[S(u,v)]\ast\mathfrak{F}[V(u,v)] = B(l,m) \ast I(l,m)
+\label{eqn:convol}
+\end{equation}
+The result of equation~\ref{eqn:VS} is the sky brightness distribution convolved with the instrument beam, this image $I_D(l,m)$ is known as the dirty map. In order to obtain $I(l,m)$ from we must `deconvolve' the beam from the dirty map. The main deconvolution algorithms used to obtain an clean image $I(l,m)$ is known as CLEAN. CLEAN works best when all sources in the image have the same scale. However, when observing the Sun there are multiple size scales on which sources occur in the image. Hence the NRH uses a custom Multiscale-CLEAN algorithm to deconvolve the instrument beam from the dirty map. Some examples of calibrated and cleaned images from the NRH are given below.
 
 \begin{tabular}{ |l|l| }
   \hline
@@ -190,13 +227,6 @@ Instrument phase and gain calibration is performed by observing Cygnus A. Phase 
 \end{tabular}
 %The Mark IV Nancay Radioheliograph Solar Physics 120 p193) 
 %Correlation is performed independently for the EW and NS baselines
-
-\begin{itemize}
-\item Visiblities
-\item Calibration
-\item Dirty map
-\item Deconvolution - Multiscale CLEAN
-\end{itemize}
 
 \subsection{Nan\c{c}ay Decametric Array}\label{sec:32}
 
@@ -245,6 +275,17 @@ Callisto spectrometers were designed and built in ETH Zurich to monitor solar ra
 The system is controlled by a Dell Vostro, Intel core i5. This control PC allows the system to be completely automated and stand alone, without the need for an on-site observer. Automatic nominal daily operations include (i) commence data recording of all three Callistos at 04:00\,UT, (ii) begin antenna solar tracking at sunrise, (iii) at 10 minutes past every hour the data is processed, background subtracted, and images are produced for online display at www.rosseobservatory.ie, (iv) at mid-day a high frequency resolution (62.5\,kHz) spectrum is taken, (v) stop solar tracking at sunset, (vi) archive the data products of the entire day (archive accessible online). This fully automated system is stable and requires maintenance or check up only every 6 or more months. If the system stops recording data the administrators are alerted by email. The entire automated process is carried out by a combination of Callisto GUIs, dedicated solar tracking GUIs, DOS Shell scripts, and IDL scripts.
 
 The entire system is remotely accessible from Trinity College Dublin via a virtual desktop `VNC' software. The system may be remotely configured and nominal operations changed at any time. Should the system crash, a remote power recycling facility is available using an IP power board with its own web address, accessible from any web browser. Automated steps (i)-(vi) are recovered and begin automatically upon power recycling.
+
+\subsubsection{First Light Dynamic Spectra}
+
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.45]{callisto_worldwide.pdf}
+\caption[Callisto Worlwide]{Worldwide distribution of Callisto sites.}
+\label{fig:callisto_worldwide}
+\end{center}
+\end{figure}
+
 
 \subsubsection{eCallisto Network}
 \begin{figure}[!t]

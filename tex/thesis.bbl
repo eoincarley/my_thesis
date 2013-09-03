@@ -1,4 +1,4 @@
-\begin{thebibliography}{251}
+\begin{thebibliography}{256}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -31,6 +31,14 @@
   {Sandman}, A., {Vourlidas}, A. \& {Colaninno}, R.C.} (2009). {First
   Measurements of the Mass of Coronal Mass Ejections from the EUV Dimming
   Observed with STEREO EUVI A+B Spacecraft}. {\em \apj\/}, {\bf 706}, 376--392.
+
+\bibitem[{{Aschwanden} {\em et~al.\/}(2013){Aschwanden}, {Boerner}, {Schrijver}
+  \& {Malanushenko}}]{asch2013}
+{\sc {Aschwanden}, M.J., {Boerner}, P., {Schrijver}, C.J. \& {Malanushenko},
+  A.} (2013). {Automated Temperature and Emission Measure Analysis of Coronal
+  Loops and Active Regions Observed with the Atmospheric Imaging Assembly on
+  the Solar Dynamics Observatory (SDO/AIA)}. {\em \solphys\/}, {\bf 283},
+  5--30.
 
 \bibitem[{{Attrill} {\em et~al.\/}(2007){Attrill}, {Harra}, {van
   Driel-Gesztelyi} \& {D{\'e}moulin}}]{attrill2007}
@@ -769,11 +777,17 @@
 {\sc {Lindemann}, F.} (1919). {Note on the Theory of Magnetic Storms.} {\em
   Philosophical Magazine Series 6\/}, {\bf 38}, 669.
 
-\bibitem[{{Long} {\em et~al.\/}(2011){Long}, {Gallagher}, {McAteer} \&
-  {Bloomfield}}]{long2011}
+\bibitem[{{Long} {\em et~al.\/}(2011{\natexlab{a}}){Long}, {DeLuca} \&
+  {Gallagher}}]{long2011a}
+{\sc {Long}, D.M., {DeLuca}, E.E. \& {Gallagher}, P.T.} (2011{\natexlab{a}}).
+  {The Wave Properties of Coronal Bright Fronts Observed Using SDO/AIA}. {\em
+  \apjl\/}, {\bf 741}, L21.
+
+\bibitem[{{Long} {\em et~al.\/}(2011{\natexlab{b}}){Long}, {Gallagher},
+  {McAteer} \& {Bloomfield}}]{long2011}
 {\sc {Long}, D.M., {Gallagher}, P.T., {McAteer}, R.T.J. \& {Bloomfield}, D.S.}
-  (2011). {Deceleration and dispersion of large-scale coronal bright fronts}.
-  {\em \aap\/}, {\bf 531}, A42.
+  (2011{\natexlab{b}}). {Deceleration and dispersion of large-scale coronal
+  bright fronts}. {\em \aap\/}, {\bf 531}, A42.
 
 \bibitem[{{Lowe} \& {Burgess}(2003)}]{lowe2003}
 {\sc {Lowe}, R.E. \& {Burgess}, D.} (2003). {The properties and causes of
@@ -1095,6 +1109,15 @@
 {\sc {Saito}, K., {Poland}, A.I. \& {Munro}, R.H.} (1977). {A study of the
   background corona near solar minimum}. {\em \solphys\/}, {\bf 55}, 121--134.
 
+\bibitem[{{Scherrer} {\em et~al.\/}(2012){Scherrer}, {Schou}, {Bush},
+  {Kosovichev}, {Bogart}, {Hoeksema}, {Liu}, {Duvall}, {Zhao}, {Title},
+  {Schrijver}, {Tarbell} \& {Tomczyk}}]{scherrer2012}
+{\sc {Scherrer}, P.H., {Schou}, J., {Bush}, R.I., {Kosovichev}, A.G., {Bogart},
+  R.S., {Hoeksema}, J.T., {Liu}, Y., {Duvall}, T.L., {Zhao}, J., {Title}, A.M.,
+  {Schrijver}, C.J., {Tarbell}, T.D. \& {Tomczyk}, S.} (2012). {The
+  Helioseismic and Magnetic Imager (HMI) Investigation for the Solar Dynamics
+  Observatory (SDO)}. {\em \solphys\/}, {\bf 275}, 207--227.
+
 \bibitem[{{Schmidt} \& {Cairns}(2012{\natexlab{a}})}]{schmidt2012}
 {\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012{\natexlab{a}}). {Type II radio
   bursts: 1. New entirely analytic formalism for the electron beams, Langmuir
@@ -1105,6 +1128,10 @@
 {\sc {Schmidt}, J.M. \& {Cairns}, I.H.} (2012{\natexlab{b}}). {Type II radio
   bursts: 2. Application of the new analytic formalism}. {\em Journal of
   Geophysical Research (Space Physics)\/}, {\bf 117}, 11104.
+
+\bibitem[{{Schrijver} \& {De Rosa}(2003)}]{schrijver2003}
+{\sc {Schrijver}, C.J. \& {De Rosa}, M.L.} (2003). {Photospheric and
+  heliospheric magnetic fields}. {\em \solphys\/}, {\bf 212}, 165--200.
 
 \bibitem[{{Schrijver} \& {Zwaan}(2008)}]{schrijver2008b}
 {\sc {Schrijver}, C.J. \& {Zwaan}, C.} (2008). {\em {Solar and Stellar Magnetic
@@ -1181,6 +1208,11 @@
   acceleration by transverse shock waves in herringbone Type II solar bursts}.
   {\em Proceedings of the Astronomical Society of Australia\/}, {\bf 4},
   53--55.
+
+\bibitem[{{Stewart} \& {McLean}(1982)}]{stewart1982}
+{\sc {Stewart}, R.T. \& {McLean}, D.J.} (1982). {Correcting low-frequency solar
+  radio source positions for ionospheric refraction}. {\em Proceedings of the
+  Astronomical Society of Australia\/}, {\bf 4}, 386--389.
 
 \bibitem[{{Stewart} {\em et~al.\/}(1974){Stewart}, {McCabe}, {Koomen}, {Hansen}
   \& {Dulk}}]{stewart1974}
