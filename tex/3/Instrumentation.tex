@@ -38,7 +38,7 @@ to the internal occulting disk D1 (a metal cone), where the light is reflected a
 
 \subsubsection{SOHO LASCO}\label{sec:23}
 
-The Large Angle Spectroscopic Coronagraph (LASCO) on board the Solar and Heliospheric Observatory (SOHO) comprises three different coronagraphs, C1, C2, and C3, that were built to observe the corona over heliocentric distance range of 1.1--30\,$R_{\odot}$ \citep{bru95}. 
+The Solar and Heliospheric Observatory (SOHO) is located at Lagrangian point 1 and carries a suite of in-situ and remote sensing instruments, including three coronagraphs collectively known as the Large Angle Spectrometric Coronagraph (LASCO). LASCO comprises three different coronagraphs, C1, C2, and C3, that were built to observe the corona over heliocentric distance range of 1.1--30\,$R_{\odot}$ \citep{bru95}. 
 
 C1 is a mirror version of the internally occulted Lyot coronagraph that images the corona over a distance range of $1.1- 3\,R_{\odot}$. A tunable Fabrey-Perot interferometer is placed after the Lyot stop to allow narrow passband images of the solar corona at the lines of Fe\rmnum{14}, Ca\rmnum{15}, Na\rmnum{1}, Fe\rmnum{10}, and H$\alpha$,
 C1 operates a $1024\times1024$ CCD with a pixel size of $5.6"$, giving a spatial resolution of $\sim11"$. The Rayleigh diffraction limited resolution of the telescope if $3.3"$ at $530.3$\,nm. Unfortunately C1 failed in 1997 and is no longer in operation. 
@@ -75,7 +75,14 @@ The C1, C2 and C3 coronagraph data is processed on-board using a number of steps
 
 
 \subsubsection{STEREO COR1 and COR2}\label{sec:22}
-The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai08} Ahead and Behind are two nearly identical spacecraft traveling ahead and behind Earth in its orbit. Each spacecraft is receding from Earth at a rate of $\pm22^{\circ}$ per year, such that they are effectively traveling around the Sun in opposite directions. They carry an identical set of instruments known as the Sun Earth Coronal Connection and Heliospheric Investigation (SECCHI) suite, including in situ detectors and a variety of imagers. On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
+The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai08} Ahead and Behind are two nearly identical spacecraft traveling ahead and behind Earth in its orbit. Each spacecraft is receding from Earth at a rate of $\pm22^{\circ}$ per year, such that they are effectively traveling around the Sun in opposite directions. They carry an identical set of instruments known as the Sun Earth Coronal Connection and Heliospheric Investigation (SECCHI) suite, including in situ detectors and a variety of imagers. For the spacecraft locations at three different times see Figure~\ref{fig:where_str}
+\begin{sidewaysfigure}
+\centering
+\includegraphics[scale=0.9, trim=2cm 7cm 0cm 0cm]{where_stereo_thesis.pdf}
+\caption[STEREO spacecraft positions]{The {\emph STEREO} A and B spacecraft positions with respect to Sun, Earth and inner planets.}
+\label{fig:where_str}
+\end{sidewaysfigure}
+On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{images/COR1_design}
@@ -94,13 +101,19 @@ The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai0
 
 COR1 is an internally occulted Lyot refractive coronagraph (Figure~\ref{fig:COR1_design}) and derives its basic design from Figure~\ref{fig:lyot}. It images the inner corona with a field of view from 1.4--4.5\,$R_{\odot}$, centered on the H$\alpha$ line at 656\,nm with a 22.5\,nm wide passband. 
 It has an internal polarizer is located after the first doublet lens in the optical system (Figure~\ref{fig:COR1_design}) and takes three images at $0^{\circ}$, $\pm60^{\circ}$, so that polarized or total brightness images of the inner corona may be produced. Stray light levels of both COR1 A and B lie between 0.1--1$\times10^6\,\mathrm{B}_{\odot}$, and some defects in the field lens can cause ring shaped features with 1.4$\times10^6\,\mathrm{B}_{\odot}$ \citep{how08}. The focal plane of the instrument has a $1024\times1024$ pixel CCD, with a platescale of 3.75 arcsec per pixel \citep{thomp2008}. To improve the signal to noise, a $2\times2$ pixel binning may be performed. A typical observing sequence will perform three 1 second exposures (one for each polarization state at 0$^{\circ}$, -60$^{\circ}$, and +60$^{\circ}$); time to complete all three exposures is 11 seconds, typical CCD read-out times result in an image sequence cadence of 8 minutes (time between a three image set and the next three image set).
-
-COR2 is an externally occulted Lyot coronagraph and derives much of its design from the LASCO C2 and C3 coronagraphs. Externally occulted coronagraphs have an extra occulting disk in front of the objective lens, see Figure~\ref{fig:cor2} or Figure~\ref{fig:c2_concept} . This is to prevent direct sunlight scattering off of the objective lens and flooding into the telescope tube, making internally scattered light less of a problem for this type of coronagraph. A downside to this design is that the external occulter does not allow the inner corona to be imaged, hence such coronagraphs are usually used to observe the extended corona to larger heights. The COR2 inner edge of the field of view limit is defined by the internal occulter, while the outer edge is determined by the field stop, resulting in a field of view from $2.5 - 15\,R_{\odot}$. The filter used in the assembly has a bandpass of $650 - 750$\,nm at FWHM. A polarizer allows three polarization states to be imaged in the same manner as COR1.
-
-
-It nominally produces $2048\times2048$ images, with 14.7 arsec per pixel. Like COR1 it has an internal polarizer producing three linearly polarized images per observing sequence (30 minutes).
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.4]{euvi_cor1_cor2.png}
+\caption[COR1 and COR2 observations]{Observation of the corona from the COR1 (green), and COR2 (red) coronagraphs on board the STEREO Ahead spacecraft, 01 Sep 2009 23:50 UT. An Extreme Ultraviolet Imaging (EUVI) 304\,\AA~ image of the sun is shown at the center. A CME was observed, erupting to the south-west. {\it Image Courtesy of Alex Young, http://www.thesuntoday.org/.} }
+\label{fig:cor2}
+\end{center}
+\end{figure}
+COR2 is an externally occulted Lyot coronagraph and derives much of its design from the LASCO C2 and C3 coronagraphs. Externally occulted coronagraphs have an extra occulting disk in front of the objective lens, see Figure~\ref{fig:cor2} or Figure~\ref{fig:c2_concept} . This is to prevent direct sunlight scattering off of the objective lens and flooding into the telescope tube, making internally scattered light less of a problem for this type of coronagraph. A downside to this design is that the external occulter does not allow the inner corona to be imaged, hence such coronagraphs are usually used to observe the extended corona to larger heights. The COR2 inner edge of the field of view limit is defined by the internal occulter, while the outer edge is determined by the field stop, resulting in a field of view from $2.5 - 15\,R_{\odot}$. The filter used in the assembly has a bandpass of $650 - 750$\,nm at FWHM. It nominally produces $2048\times2048$ images, with 14.7 arsec per pixel. Like COR1 it has an internal polarizer producing three linearly polarized images per observing sequence (30 minutes).
 
 These white light imagers of the corona allow for a stereoscopic view of CMEs in a total field of view covering $1.4 - 15\,R_{\odot}$. The two viewpoint capabilities of these telescopes offer a more accurate observational estimation of both CME kinematics and CME mass, resulting in a better understanding of CME dynamics.
+
+
+
 
 \subsubsection{Whilte-light Image Data Reduction}
 
@@ -155,8 +168,13 @@ Metal entrance filters at the aperture of each telescope, combined with a filter
 \end{center}
 \end{figure}
 The focal plane of each telescope contains a back-illuminated $4096\times4096$ pixel CCD, with each square pixel having a 12\,$\mu$m size. Each CCD is read out in 4 quadrants, via an amplifier, into a camera box with four interfaces (one for each quadrant). Each quadrant is read out at a rate of 2\,Mpixels\,s$^{-1}$ and data transmission to the on-board computer occurs at a rate of 100\,Mb\,s$^{-1}$
-
-All of the steps above described for white-light calibration are relevant for ultraviolet CCD imaging also. The AIA calibration procedure to bring the data from level-0.5 to level-1 include de-biasing, dark subtraction, flat-fielding, de-vignetting, de-warping, and brightness calibration.
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=1.2]{aia_passbands.png}
+\caption[AIA response]{The Atmospheric Imaging Assembly temperature responses for each of its passbands. The passbands cover temperatures that include the transition region, to quiet corona, to flaring corona. The 4500\,\AA~ passband is not shown here, it's temperature coverage results in photospheric imaging. \citep{lemen2012}.}
+\end{center}
+\end{figure}
+All of the steps above described for white-light calibration are relevant for ultraviolet CCD imaging also. The AIA calibration procedure to bring the data from level-0.5 to level-1 include de-biasing, dark subtraction, flat-fielding, de-vignetting, de-warping, and brightness calibration. Some example images of AIA are shown in Figure~\ref{fig:aia_corona}
 
 \section{Radio Observations}\label{sec:3}
 
@@ -277,15 +295,6 @@ The system is controlled by a Dell Vostro, Intel core i5. This control PC allows
 The entire system is remotely accessible from Trinity College Dublin via a virtual desktop `VNC' software. The system may be remotely configured and nominal operations changed at any time. Should the system crash, a remote power recycling facility is available using an IP power board with its own web address, accessible from any web browser. Automated steps (i)-(vi) are recovered and begin automatically upon power recycling.
 
 \subsubsection{First Light Dynamic Spectra}
-
-\begin{figure}[!t]
-\begin{center}
-\includegraphics[scale=0.45]{callisto_worldwide.pdf}
-\caption[Callisto Worlwide]{Worldwide distribution of Callisto sites.}
-\label{fig:callisto_worldwide}
-\end{center}
-\end{figure}
-
 
 \subsubsection{eCallisto Network}
 \begin{figure}[!t]
