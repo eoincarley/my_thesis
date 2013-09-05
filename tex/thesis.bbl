@@ -1,4 +1,4 @@
-\begin{thebibliography}{256}
+\begin{thebibliography}{260}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -901,6 +901,14 @@
 {\sc {Melrose}, D.B.} (1989). {\em {Instabilities in Space and Laboratory
   Plasmas}\/}.
 
+\bibitem[{{Mercier} {\em et~al.\/}(2006){Mercier}, {Subramanian}, {Kerdraon},
+  {Pick}, {Ananthakrishnan} \& {Janardhan}}]{mercier2006}
+{\sc {Mercier}, C., {Subramanian}, P., {Kerdraon}, A., {Pick}, M.,
+  {Ananthakrishnan}, S. \& {Janardhan}, P.} (2006). {Combining visibilities
+  from the giant meterwave radio telescope and the Nancay radio heliograph.
+  High dynamic range snapshot images of the solar corona at 327 MHz}. {\em
+  \aap\/}, {\bf 447}, 1189--1201.
+
 \bibitem[{{Mierla} {\em et~al.\/}(2009){Mierla}, {Inhester}, {Marqu{\'e}},
   {Rodriguez}, {Gissot}, {Zhukov}, {Berghmans} \& {Davila}}]{mierla2009}
 {\sc {Mierla}, M., {Inhester}, B., {Marqu{\'e}}, C., {Rodriguez}, L., {Gissot},
@@ -981,6 +989,16 @@
 {\sc {Newkirk}, G., Jr.} (1961). {The Solar Corona in Active Regions and the
   Thermal Origin of the Slowly Varying Component of Solar Radio Radiation.}
   {\em \apj\/}, {\bf 133}, 983.
+
+\bibitem[{{Nita} \& {Gary}(2010)}]{nita2010}
+{\sc {Nita}, G.M. \& {Gary}, D.E.} (2010). {The generalized spectral kurtosis
+  estimator}. {\em \mnras\/}, {\bf 406}, L60--L64.
+
+\bibitem[{{Nita} {\em et~al.\/}(2007){Nita}, {Gary}, {Liu}, {Hurford} \&
+  {White}}]{nita2007}
+{\sc {Nita}, G.M., {Gary}, D.E., {Liu}, Z., {Hurford}, G.J. \& {White}, S.M.}
+  (2007). {Radio Frequency Interference Excision Using Spectral-Domain
+  Statistics}. {\em \pasp\/}, {\bf 119}, 805--827.
 
 \bibitem[{{Ontiveros} \& {Vourlidas}(2009)}]{ontiveros2009}
 {\sc {Ontiveros}, V. \& {Vourlidas}, A.} (2009). {Quantitative Measurements of
@@ -1478,6 +1496,11 @@
   A.M., {Temmer}, M. \& {Ro{\v s}a}, D.} (2007). {Acceleration Phase of Coronal
   Mass Ejections: I. Temporal and Spatial Scales}. {\em \solphys\/}, {\bf 241},
   85--98.
+
+\bibitem[{{Wakker} \& {Schwarz}(1988)}]{wakker1998}
+{\sc {Wakker}, B.P. \& {Schwarz}, U.J.} (1988). {The Multi-Resolution CLEAN and
+  its application to the short-spacing problem in interferometry}. {\em
+  \aap\/}, {\bf 200}, 312--322.
 
 \bibitem[{{Wang}(2000)}]{wang2000}
 {\sc {Wang}, Y.M.} (2000). {EIT Waves and Fast-Mode Propagation in the Solar
