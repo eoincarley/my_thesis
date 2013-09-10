@@ -5,50 +5,51 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Sun}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Solar Interior}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Solar Magnetic Field and Dynamo}{8}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Solar Magnetic Field and Dynamo}{9}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Solar Atmosphere}{12}{subsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.3.1}Photosphere}{13}{subsubsection.1.1.3.1}
-\contentsline {subsubsection}{\numberline {1.1.3.2}Chromosphere}{16}{subsubsection.1.1.3.2}
-\contentsline {subsubsection}{\numberline {1.1.3.3}Corona}{17}{subsubsection.1.1.3.3}
+\contentsline {subsubsection}{\numberline {1.1.3.1}Photosphere}{12}{subsubsection.1.1.3.1}
+\contentsline {subsubsection}{\numberline {1.1.3.2}Chromosphere}{14}{subsubsection.1.1.3.2}
+\contentsline {subsubsection}{\numberline {1.1.3.3}Transition Region}{16}{subsubsection.1.1.3.3}
+\contentsline {subsubsection}{\numberline {1.1.3.4}Corona}{16}{subsubsection.1.1.3.4}
 \contentsline {section}{\numberline {1.2}Coronal Mass Ejections}{22}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}A Brief History}{23}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Morphology and Kinematics}{24}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Masses and Dynamics}{31}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}Coronal Shocks}{40}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Type II Radio Bursts}{40}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Type II Radio Bursts}{41}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Herringbones and Type IIIs}{48}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Coronal Bright Fronts}{50}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}White-light Shocks}{54}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}Thesis Outline}{56}{section.1.4}
-\contentsline {chapter}{\numberline {2}Coronal Mass Ejection and Plasma Shock Theory}{58}{chapter.2}
-\contentsline {section}{\numberline {2.1}Plasma Physics and \\ Magnetohydrodynamics}{59}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Maxwell's Equations}{59}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Plasma Kinetic Theory}{60}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Magnetohydrodynamics}{63}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Magnetic Reconnection}{66}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Coronal Mass Ejections}{70}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{71}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{74}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{77}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Coronal Shocks and Plasma Emission}{80}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Alfv\'{e}n Speed in the Corona}{80}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}MHD Shocks}{81}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Shock Particle Acceleration}{86}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Wave-Particle Interaction}{90}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Three-Wave Interaction and Plasma Emission}{94}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Frequency Drift of Radio Bursts}{99}{subsection.2.3.6}
-\contentsline {chapter}{\numberline {3}Observation and Instrumentation}{102}{chapter.3}
-\contentsline {section}{\numberline {3.1}White-Light Observations}{103}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Lyot Coronagraph}{104}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}SOHO LASCO}{105}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}STEREO COR1 and COR2}{109}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}Whilte-light Image Data Reduction}{113}{subsubsection.3.1.1.3}
-\contentsline {section}{\numberline {3.2}Ultraviolet Observations}{117}{section.3.2}
+\contentsline {section}{\numberline {1.4}Thesis Outline}{55}{section.1.4}
+\contentsline {chapter}{\numberline {2}Coronal Mass Ejection and Plasma Shock Theory}{57}{chapter.2}
+\contentsline {section}{\numberline {2.1}Plasma Physics and \\ Magnetohydrodynamics}{58}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Maxwell's Equations}{58}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Plasma Kinetic Theory}{59}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Magnetohydrodynamics}{62}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Magnetic Reconnection}{65}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Coronal Mass Ejections}{69}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{70}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{73}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{76}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Coronal Shocks and Plasma Emission}{79}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Alfv\'{e}n Speed in the Corona}{79}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}MHD Shocks}{80}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Shock Particle Acceleration}{85}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Wave-Particle Interaction}{89}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Three-Wave Interaction and Plasma Emission}{93}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Frequency Drift of Radio Bursts}{98}{subsection.2.3.6}
+\contentsline {chapter}{\numberline {3}Observation and Instrumentation}{101}{chapter.3}
+\contentsline {section}{\numberline {3.1}White-Light Observations}{102}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Lyot Coronagraph}{103}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}SOHO LASCO}{104}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}STEREO COR1 and COR2}{108}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Whilte-light Image Data Reduction}{112}{subsubsection.3.1.1.3}
+\contentsline {section}{\numberline {3.2}Ultraviolet Observations}{116}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}The Atmospheric Imaging Assembly}{117}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Radio Observations}{121}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Nancay Radioheliograph}{121}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Nan\c {c}ay Decametric Array}{126}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}STEREO WAVES}{127}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.3}Radio Observations}{119}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nan\c {c}ay Radioheliograph}{120}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Nan\c {c}ay Decametric Array}{127}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}STEREO WAVES}{128}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Rosse Solar Terrestrial Observatory}{130}{subsection.3.3.4}
 \contentsline {subsubsection}{\numberline {3.3.4.1}Antennas and Spectrometers}{130}{subsubsection.3.3.4.1}
 \contentsline {subsubsection}{\numberline {3.3.4.2}Nominal Operations}{134}{subsubsection.3.3.4.2}
@@ -82,13 +83,17 @@
 \contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{194}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{194}{subsection.5.5.2}
 \contentsline {chapter}{\numberline {6}Conclusions and Future Work}{197}{chapter.6}
-\contentsline {section}{\numberline {6.1}CME Masses and Energies}{197}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Mass and Energy Catalogue}{197}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Mass Measurements with AIA}{197}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Type IIs, Herringbones, and Radio Bursts}{197}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Herringbone Statistics}{197}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Type II Band Splitting}{197}{subsection.6.2.2}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{198}{appendix.A}
-\contentsline {section}{\numberline {A.1}Radio burst intensity}{199}{section.A.1}
-\contentsline {section}{\numberline {A.2}Band-splitting}{200}{section.A.2}
-\contentsline {chapter}{References}{204}{section*.91}
+\contentsline {section}{\numberline {6.1}CME Masses and Energies}{198}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Principle results}{198}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Future Work}{200}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Energy Catalogue}{200}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}EUV Dimming Mass with AIA}{210}{subsubsection.6.1.2.2}
+\contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{210}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Principle results}{210}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Future Work}{210}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Herringbone Statistics and the Hough Transform}{210}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}100 CME Challenge}{210}{subsubsection.6.2.2.2}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{211}{appendix.A}
+\contentsline {section}{\numberline {A.1}Radio burst intensity}{212}{section.A.1}
+\contentsline {section}{\numberline {A.2}Band-splitting}{213}{section.A.2}
+\contentsline {chapter}{References}{217}{section*.98}
