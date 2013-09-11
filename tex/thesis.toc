@@ -87,13 +87,13 @@
 \contentsline {subsection}{\numberline {6.1.1}Principle results}{198}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Future Work}{200}{subsection.6.1.2}
 \contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Energy Catalogue}{200}{subsubsection.6.1.2.1}
-\contentsline {subsubsection}{\numberline {6.1.2.2}EUV Dimming Mass with AIA}{210}{subsubsection.6.1.2.2}
-\contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{210}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Principle results}{210}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Future Work}{210}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Herringbone Statistics and the Hough Transform}{210}{subsubsection.6.2.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2.2}100 CME Challenge}{210}{subsubsection.6.2.2.2}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{211}{appendix.A}
-\contentsline {section}{\numberline {A.1}Radio burst intensity}{212}{section.A.1}
-\contentsline {section}{\numberline {A.2}Band-splitting}{213}{section.A.2}
-\contentsline {chapter}{References}{217}{section*.98}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Mass Estimates with AIA}{210}{subsubsection.6.1.2.2}
+\contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{215}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Principle results}{215}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Future Work}{217}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Herringbone Statistics and the Hough Transform}{217}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}100 CME Challenge}{217}{subsubsection.6.2.2.2}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{218}{appendix.A}
+\contentsline {section}{\numberline {A.1}Radio burst intensity}{219}{section.A.1}
+\contentsline {section}{\numberline {A.2}Band-splitting}{220}{section.A.2}
+\contentsline {chapter}{References}{224}{section*.101}

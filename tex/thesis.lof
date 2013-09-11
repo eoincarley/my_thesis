@@ -94,5 +94,8 @@
 \contentsline {figure}{\numberline {6.3}{\ignorespaces The inverse mask, allows everything \emph {but} the CME to be summed. Black circle is solar limb.\relax }}{204}{figure.caption.93}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Time series of the mass obtained from using no mask and using the inverse mask. The data behave as expected, with the inverse mask being essentially the same as the no-mask but smaller by the CME mass. The drift towards negative values is symptomatic of a pre-event image (for base-difference) that is too bright. The discontinuous values are due to badly prepped images in the NRL archive.\relax }}{205}{figure.caption.94}
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of the mass from masked images (blue) the no\_mask - inverse\_mask images (red) for C2 (upper) and C3 (lower). For both C2 and C3 the blue and red lines are a good match. The most obvious difference is the positive drift of the red line in C2, due to an excess background brightness subtracted in the base-differencing.\relax }}{207}{figure.caption.95}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces EUVI dimming region}}{210}{figure.caption.96}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Mass-temperature distribution}}{212}{figure.caption.97}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Mass evacuation with time}}{213}{figure.caption.98}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Band-splitting as a function of Mach number}}{216}{figure.caption.96}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Band-splitting as a function of Mach number}}{223}{figure.caption.99}

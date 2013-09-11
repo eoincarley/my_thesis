@@ -1,4 +1,4 @@
-\begin{thebibliography}{262}
+\begin{thebibliography}{263}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -1180,6 +1180,11 @@
 {\sc {Steele}, C.D.C., {Hood}, A.W., {Priest}, E.R. \& {Amari}, T.} (1989).
   {Non-equilibrium of a cylindrical magnetic arcade}. {\em \solphys\/}, {\bf
   123}, 127--141.
+
+\bibitem[{{Sterling} \& {Hudson}(1997)}]{sterling1997}
+{\sc {Sterling}, A.C. \& {Hudson}, H.S.} (1997). {YOHKOH SXT Observations of
+  X-Ray ''Dimming'' Associated with a Halo Coronal Mass Ejection}. {\em
+  \apjl\/}, {\bf 491}, L55.
 
 \bibitem[{{Stewart} \& {Magun}(1980)}]{stewart1980}
 {\sc {Stewart}, R.T. \& {Magun}, A.} (1980). {Radio evidence for electron

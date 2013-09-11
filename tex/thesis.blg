@@ -23,7 +23,7 @@ I'm skipping whatever remains of this command
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11049 items from 5000.
+Reallocated field_info (elt_size=4) to 11072 items from 5000.
 Database file #1: mybib.bib
 Repeated entry---line 784 of file mybib.bib
  : @article{carlsson1997
@@ -47,15 +47,15 @@ Repeated entry---line 3599 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3740 of file mybib.bib
+Repeated entry---line 3754 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4064 of file mybib.bib
+Repeated entry---line 4078 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4513 of file mybib.bib
+Repeated entry---line 4527 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
@@ -76,45 +76,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 262 entries,
+You've used 263 entries,
             3018 wiz_defined-function locations,
-            1977 strings with 54166 characters,
-and the built_in function-call counts, 191545 in all, are:
-= -- 15115
-> -- 12019
-< -- 140
-+ -- 4186
-- -- 3916
-* -- 16869
-:= -- 29278
-add.period$ -- 776
-call.type$ -- 262
-change.case$ -- 2612
-chr.to.int$ -- 254
-cite$ -- 277
-duplicate$ -- 12473
-empty$ -- 12092
-format.name$ -- 4725
-if$ -- 37809
+            1982 strings with 54312 characters,
+and the built_in function-call counts, 192073 in all, are:
+= -- 15162
+> -- 12038
+< -- 141
++ -- 4193
+- -- 3922
+* -- 16911
+:= -- 29360
+add.period$ -- 779
+call.type$ -- 263
+change.case$ -- 2619
+chr.to.int$ -- 255
+cite$ -- 278
+duplicate$ -- 12514
+empty$ -- 12131
+format.name$ -- 4736
+if$ -- 37914
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 2883
-newline$ -- 790
-num.names$ -- 1065
-pop$ -- 6043
+missing$ -- 2891
+newline$ -- 793
+num.names$ -- 1069
+pop$ -- 6057
 preamble$ -- 1
-purify$ -- 2348
+purify$ -- 2354
 quote$ -- 0
-skip$ -- 4544
+skip$ -- 4558
 stack$ -- 0
-substring$ -- 7425
-swap$ -- 7379
+substring$ -- 7445
+swap$ -- 7401
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2319
+type$ -- 2328
 warning$ -- 15
-while$ -- 1046
+while$ -- 1050
 width$ -- 0
-write$ -- 2868
+write$ -- 2879
 (There were 10 error messages)

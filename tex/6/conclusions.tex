@@ -136,17 +136,71 @@ Finally, the inherent uncertainties on the CME mass a the most serious threat to
 \end{itemize}
 With such a system you could say there was a \textquoteleft C' mass CME on such a date and time, without having to quote some uncertain mass estimate. The uncertainties might result in the mass transcending two classes, in that case you could then quote \textquoteleft BC' mass. In practice, such large ranges may be the only way in which CME mass values can be presented in a catalogue. Despite such limitations, this may be useful to any user wishing to search for events that have small, intermediate, or large energies.
 
-\subsubsection{EUV Dimming Mass with AIA}
+\subsubsection{Mass Estimates with AIA}
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.35, trim=1cm 0cm 0cm 1cm]{euv_dimming.png}
+\caption[EUVI dimming region]{EUV dimming region observed by EUVI 195\,\AA~channel on 31 December 2007. The dimming is due to evacuation of plasma from the region such that the emission measure drops \citep{aschw09}}
+\end{center}
+\end{figure}
+Despite the fact that there a number of studies that have determined the mass of CMEs with varying degrees of uncertainty, very few studies have investigated where exactly the CME mass comes from. The origin of the mass is difficult to determine since by the very early stages of CME development are obscured by the occulting disk of a coronagraph. This means that EUV imagers of the corona are currently the only viable method of observing the birth of a CME. The presence of a CME in such observations are usually conspicuous by a lack of emission i.e., as the CME erupts it evacuates an active region, leaving behind an emission deficit. This emission deficit is known as an EUV `dimming' region and has been used to calculate the amount of evacuated mass \citep{aschw09}. Dimming regions are also a regular feature of soft X-ray images \citep{sterling1997}.
 
-Read Aschwanden study, compare it to AIA.
+The method of \citet{aschw09} exploits the fact that there are multiple filters in EUV that can be used to measure the amount of evacuated mass in dimming regions. The evacuated mass from the dimming region, $m_d$, may be calculated from
+\begin{equation}
+m_d(t,T) = m_p n_d(t)V_D = m_p n_A\sqrt{\frac{I_d(t)}{I_A}}\frac{\pi}{4}w_d^2\lambda_T
+\end{equation}
+where $m_p$ is proton mass, $n_d$ is dimming number density, $V_D$ is dimming volume, $n_A$ is active region density (pre eruption), $I_d$ is dimming region intensity, $I_A$ is active region intensity (pre-eruption), $w_D$ is the radius of the circular footprint of the dimming region, and $\lambda_T$ is the temperature scale height. Since $m_d$ may be measured in each of the temperature filters of the EUVI imager the total mass may be constructed from a differential emission measure-type mass distribution
+\begin{equation}
+m_{cme}(t)=\int_{T_1}^{T_2}\bigg( \frac{dm_d(t,T)}{dT} \bigg)dT = \int_{T_1}^{T_2}\frac{\Delta m_D}{\Delta T_F}\mathrm{exp}\bigg( -\frac{(T-T_0)^2}{2\sigma_T^2} \bigg)dT
+\label{eqn:tot_euv_mass}
+\end{equation}
+This analysis has been performed for EUVI on STEREO A and B. This imager only has three different passbands at 171\,\AA, 195\,\AA, and 284\,\AA, representing only three data points to which a gaussian is fit to the mass temperature distribution (Figure~\ref{fig:euvi_mass}).
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.56, trim=1cm 0cm 0cm 1cm]{mass_temp_dist.png}
+\caption[Mass-temperature distribution]{Mass-temperature distribution from EUVI/A and B for five different events. The three channels if EUVI, 171\,\AA, 195\,\AA, and 284\,\AA, are used to calculated the mass of the material contributing to emission in each of these channels. A construction of a Gaussian using these three measurements allows integration over temperature to find the total CME mass in the temperature range of 0.5--3.0\,MK. \citep{aschw09}}
+\label{fig:euvi_mass}
+\end{center}
+\end{figure}
+Since this may be done over time for each EUV image in the observation sequence, a mass evacuation curve may be constructed over time (Figure~\ref{fig:mass_dim_time}). The curves correspond to different flares. This kind of analysis has the ability to give information on the eruption rate of the CME and possibly the forces acting on the ejection. However, not much work has been done in this are and the field is relatively under-explored. A number of interesting questions need to be investigated for for mass evacuation rates:
+\begin{itemize}
+\item Does mass evacuation rate depend on flare size?
+\item Does evacuation rate depend on flare rise-time?
+\item Is there any correlation with CME kinematical profiles?
+\item Are the mass evacuation rate and final mass correlated?
+\item Are mass evacuations different for events that have no associated flare?
+\item Ultimately, why are some evacuation rates faster than others?
+\end{itemize}
+These questions need to be investigated if there is to be an advance in understanding the origins of CMEs. However, EUVI observations are limited in this regard.
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.55, trim=1cm 0cm 0cm 1cm]{mass_dim_t.png}
+\caption[Mass evacuation with time]{Mass evacuation from the dimming region with respect for five selected events. The biggest flare has the fastest mass loss rate but not the biggest final mass. \citep{aschw09}}
+\label{fig:mass_dim_time}
+\end{center}
+\end{figure}
+Since there is only three data points to which the Gaussian is fit to this mass-temperature distribution, the results are quite unconstrained and sometimes unreliable. For example, panels 3--8 of Figure~\ref{fig:euvi_mass} are each a bad representation of a Gaussian. This may be due to the CME plasma temperature lying outside the response of the three EUVI channels. Also, the cadence of EUVI may be too slow to capture the very early stages of mass evacuation, which would be needed if a comparison was to be made with an impulsive flare.
 
-This study has never been performed with the superior time and space resolution of AIA. Furthermore, the larger number of passbands with AIA can provide more reliable DEM estimates. Such an analysis may reveal correlations between CME mass evacuation and flare rise time (private commination, Angelos Vorulidas).
-
+The possibility for advancing this kind of study with AIA is very promising. There are at least three main areas in which AIA can advance such research
+\begin{itemize}
+\item AIA has a possible six passbands that may be used in the mass distribution curve. This will enable a better constraint on the Gaussian in Equation~\ref{eqn:tot_euv_mass}, producing a more reliable total mass estimate than the three passbands of EUVI. Another result that may stem from this is investigating the temperature distribution of CME material, leading to a development in and understanding of CME thermal energies, which are not well understood.
+\item The above results could be advanced with the inclusion of UVCS spectroscopy data, which can give CME thermal characteristics from O\,VI, V and C\,III lines out to a height of $4\,R_{\odot}$. A comparison of early and intermediate phase CME temperatures could determine if the CME expands adiabatically, which is another unknown. This is important for investigating how isolated the CME is from the solar wind plasma.
+\item Finally, AIA has a 12 second cadence (EUVI has 10 minutes), enabling a calculation of a mass evacuation curve in the very early stages of CME eruption. As mentioned, this will be particularly important for a comparison with very impulsive flares.
+\end{itemize}
+There are a wealth of physical properties in the early phase of CME eruption that could be answered with AIA. Up until current time, such an analysis has gone relatively unexplored.
 
 \section{Coronal Shocks and Radio Bursts}
 
 \subsection{Principle results}
-The second goal of this thesis was to increase the understanding of CME-driven shocks and show the relationship amongst the various shock observables. A combination of white-light, EUV, and radio imaging showed CBFs and radio bursts have a common origin in a shock, and that this shock was driven by the CME flank. In this chapter, I will summarise and conclude this research and outline the future of this study
+The second goal of this thesis was to increase the understanding of CM-driven shocks and show the relationship amongst the various shock observables. A combination of white-light, EUV, and radio imaging showed CBFs and radio bursts have a common origin in a shock, and that this shock was driven by the CME flank. The principle results of this investigation were
+\begin{itemize}
+\item CBFs are closely associated to particle acceleration radio activity. The temporal correlation between CBFs and radio bursts such as type IIs and type IIIs has been highlighted in the past \citep{klassen2000, maia2004}. However, there are very few, if any, direct observations of an association between radio sources and CBFs. \citet{vrsnak2005a} showed a radio source which propagated around the limb in association with a CBF, however any direct comparison between the two features was hampered by the low cadence of EUV imaging. To date, the Carley {\emph et al.} (2013) observation of a 150\,MHz source closely following a CBF is the most comprehensive presentation of the clear relationship between the two features (Figure~\ref{ig:figure_aia_nrh_c2}). It has confirmed that CBFs are inherently associated with radio activity. This radio activity is plasma emission generated by an instability in the presence of electron beams.
+\item The kinematics of the radio source was analysed giving a measure of the speed of this source. In order to estimate its Alfv\'{e}n Mach number, we performed density and magnetic field diagnostics of the corona. Density diagnostics were taken from six AIA passbands and LASCO C2, while the magnetic field measurements were performed using a PFSS extrapolation. The combined density and magnetic field maps allowed us to produce an Alfv\'{e}n speed map of the corona (Zucca {\emph et al.} (in prep)). To our knowledge, this was the first time such a map was produced from observations. It provided a reliable means of comparing the source speed to the Alfv\'{e}n speed of the corona in order to estimate the source Alfv\'{e}n Mach number.
+\item The density map was also used in the analysis of the radio bursts in the dynamic spectra of S/WAVES, Nan\c{c}ay DA, and RSTO eCallisto. Usually, density models are employed to derive particle kinematics from drift rates in dynamic spectra. However, this can lead to erroneous positions and speeds of the particles producing the radio emission because the density models may be an unreliable description of coronal density profiles. Use of the density diagnostics from observation allowed us to derive much more reliable coronal heights for the radio activity observed in the dynamic spectra
+\item Analysis of the dynamic spectra activity showed there was particle acceleration of up to 0.4\,$c$, which manifests in the spectra as type III radio bursts. These speed of these bursts along the parker spiral were used to estimate an ETA of the electrons at the STEREO -B spacecraft. It was found the ETA matched the observed time of arrival quite accurately. Furthermore, the observations of herringbones were the most striking evidence for particle acceleration in this study. The observations of herringbone fine structure were made possible by the installation of RSTO eCallisto spectrometers, as described in Chapter 3. The dynamic spectra from RSTO produced some of the clearest spectra of these herringbone bursts compared to other dynamic spectra observations. An analysis of these bursts showed that they are produced by electrons at a speed of 0.15\,$c$ and occur with a quasiperiodicity of 2-11 seconds.
+\item Both the radio source imaged by NRH and CBF had a close association with the southern flank of the CME. Since the a thermal analysis of the CBF showed that it was most likely a pressure wave, and the radio source was associated with spectral shock activity, we conclude that a shock driven by the CME flank expansion was the likely driver of CBF and radio activity. Evidence for a shock at the CME flank also came in the form of white-light observations. These observations were used to reconstruct the CME in 3D dimensions and show that the faint feature observed to the south of the CME in LASCO C2 was not part of the CME structure, and therefore must be shock.
+\end{itemize}
+Overall, this work has shown how a combination of radio and EUV imaging can reveal the evolution of plasmoid driven shocks in the solar atmosphere. It has shown that CBFs and radio bursts share a common origin in a shock driven by the expansion of a CME flank.
 
 \subsection{Future Work}
 
