@@ -1,4 +1,4 @@
-\begin{thebibliography}{263}
+\begin{thebibliography}{266}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -338,6 +338,10 @@
 {\sc {Drury}, L.O..} (2012). {Origin of cosmic rays}. {\em Astroparticle
   Physics\/}, {\bf 39}, 52--60.
 
+\bibitem[{Duda \& Hart(1972)}]{duda1972}
+{\sc Duda, R.O. \& Hart, P.E.} (1972). Use of the hough transformation to
+  detect lines and curves in pictures. {\em Commun. ACM\/}, {\bf 15}, 11--15.
+
 \bibitem[{{Dulk}(1985)}]{dulk1985}
 {\sc {Dulk}, G.A.} (1985). {Radio emission from the sun and stars}. {\em
   \araa\/}, {\bf 23}, 169--224.
@@ -529,6 +533,11 @@
 {\sc {Holman}, G.D. \& {Pesses}, M.E.} (1983). {Solar type II radio emission
   and the shock drift acceleration of electrons}. {\em \apj\/}, {\bf 267},
   837--843.
+
+\bibitem[{{Hough}(1961)}]{hough1961}
+{\sc {Hough}, P.V.C.} (1961). {A Method for Faster Analysis of Bubble Chamber
+  Photographs (Hough and Powell)}. In {\em Instrumentation for High-Energy
+  Physics\/}, 242.
 
 \bibitem[{{Howard} {\em et~al.\/}(2008){Howard}, {Moses}, {Vourlidas},
   {Newmark}, {Socker}, {Plunkett}, {Korendyke}, {Cook}, {Hurley}, {Davila},
@@ -1465,11 +1474,19 @@
   conditions in the upper corona and interplanetary space}. {\em Astronomy and
   Astrophysics\/}, {\bf 413}, 753--763.
 
-\bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2005){Vr{\v s}nak}, {Sudar} \& {Ru{\v
-  z}djak}}]{vrsna2005}
-{\sc {Vr{\v s}nak}, B., {Sudar}, D. \& {Ru{\v z}djak}, D.} (2005). {The
-  CME-flare relationship: Are there really two types of CMEs?} {\em \aap\/},
-  {\bf 435}, 1149--1157.
+\bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2005{\natexlab{a}}){Vr{\v s}nak},
+  {Magdaleni{\'c}}, {Temmer}, {Veronig}, {Warmuth}, {Mann}, {Aurass} \&
+  {Otruba}}]{vrsnak2005a}
+{\sc {Vr{\v s}nak}, B., {Magdaleni{\'c}}, J., {Temmer}, M., {Veronig}, A.,
+  {Warmuth}, A., {Mann}, G., {Aurass}, H. \& {Otruba}, W.}
+  (2005{\natexlab{a}}). {Broadband Metric-Range Radio Emission Associated with
+  a Moreton/EIT Wave}. {\em \apjl\/}, {\bf 625}, L67--L70.
+
+\bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2005{\natexlab{b}}){Vr{\v s}nak},
+  {Sudar} \& {Ru{\v z}djak}}]{vrsna2005}
+{\sc {Vr{\v s}nak}, B., {Sudar}, D. \& {Ru{\v z}djak}, D.}
+  (2005{\natexlab{b}}). {The CME-flare relationship: Are there really two types
+  of CMEs?} {\em \aap\/}, {\bf 435}, 1149--1157.
 
 \bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2007){Vr{\v s}nak}, {Mari{\v c}i{\'c}},
   {Stanger}, {Veronig}, {Temmer} \& {Ro{\v s}a}}]{vrsnak2007}

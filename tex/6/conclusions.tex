@@ -204,8 +204,94 @@ Overall, this work has shown how a combination of radio and EUV imaging can reve
 
 \subsection{Future Work}
 
-\subsubsection{Herringbone Statistics and the Hough Transform}
+\subsubsection{Hough Transform and Herringbone Statistics}
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.4, trim=0cm 2cm 3cm 1.5cm]{r_theta_line.pdf}
+\caption[Hough transform herringbones]{Herringbone bursts detected using the Hough transform. Note that interpolation between frequency channels in the dynamic spectrum results in strong levels of vertical lines, which represent the overwhelming majority of detections by the Hough transform. The herringbones are a weaker source of straight line detections, hence not all of them are revealed by the transform.}
+\label{fig:r_theta_line}
+\end{center}
+\end{figure}
+As mentioned in Chapter 5, the frequency drift of herringbones can give information on the particle speeds, whereas there behaviour over time may depend on the shock acceleration characteristics. Also, the emissivity of plasma emission depends on the velocity of the particles inducing the emission (Equation~\ref{eqn:plasma_emiss}). Since there are many bursts in one herringbone sequence, there is an opportunity to statistically investigate the drift rates and intensities of these bursts. To do this we use the Hough transform \citep{hough1961}, a feature recognition algorithm that is used to identify straight lines in images \citep{duda1972}. In the Hough transform any line in an image may be represented in polar coordinates as $r=x\mathrm{cos}\theta +y\mathrm{sin}\theta$ (Figure~\ref{fig:r_theta_line}). Any point in the images space $(x_0, y_0)$ will have many lines described by $(r,\theta)$ that pass through it. In fact, all the values of $(r, \theta)$ which pass through $(x_0, y_0)$ will form a sinusoid in a $(r,\theta)$ parameter space (Figure~\ref{fig:hough_example0}). This parameter space is sometimes referred to as a hough space. The sinusoid in Hough space is unique to the point $(x_0, y_0)$. Now, a second point in the image space, $(x_1, y_1)$, will have its own unique sinusoid in Hough space. The point $(r_i,\theta_i)$ at which these sinusoids intersect represents that line that passes through both points, given by
+\begin{equation}
+y = \bigg(- \frac{\mathrm{cos_i}\theta}{\mathrm{sin}\theta_i}\bigg)x + \bigg(\frac{r_i}{\mathrm{sin}\theta_i}\bigg)
+\end{equation}
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.5, trim=0cm 6cm 0cm 1.5cm]{hough_example_simple}
+\caption[Hough transform herringbones]{Herringbone bursts detected using the Hough transform. Note that interpolation between frequency channels in the dynamic spectrum results in strong levels of vertical lines, which represent the overwhelming majority of detections by the Hough transform. The herringbones are a weaker source of straight line detections, hence not all of them are revealed by the transform.}
+\label{fig:hough0}
+\end{center}
+\end{figure}
+If a number of points (features) in an image that lie along a straight line, each of these points will have its own sinusoid in the Hough space and the point at which these points intersect represents the line that passes through all the points. A `back-projection' of this Hough space to image space then returns the original image. Two examples if this are given in Figure~\ref{fig:hough_example}. The top row shows an image of a number of lines of varying orientation and square. The middle panel shows the $360^{\circ}$ Hough space. Note that the sinusoids intersect at $90^{\circ}$ (horizontal line), $180^{\circ}$ (vertical line), and $135^{\circ}$ diagonal line. 
+\begin{sidewaysfigure}
+\centering
+\includegraphics[scale=0.7, trim=0cm 2.5cm 2cm 1.5cm]{hough_example.pdf}
+\caption[Example Hough Transform]{(a) An image with a number of lines of varying orientation and intensity. (b) The Hough transform of the image in $(r, \theta)$ space. The multiple intersection points at $90^{\circ}$ and a variety of radii correspond to the multiple horizontal lines in the original image. There are also intersection points at $135^{\circ}$ (diagonal line in original image) and $180^{\circ}$ (vertical) line. (c) The back projected Hough transform, recovering all features in the original image. The bottom row (d)-(f) show the same as the top row, expect that the back-projection is chosen over a region in hough space that only contains the vertical line. In this way only the vertical line is recovered and the remaining features are not recovered.}
+\label{fig:hough_example}
+\end{sidewaysfigure}
+The square represents a whole variety of sinusoids in the hough space that intersect at all angles, this is because there are a range of lines that represent this filled square. Back-projection of the whole $360^{\circ}$ space returns all lines in the original image. However, we may only back-project the Hough space in a particular angular range to extract lines of a desired orientation. This is shown in the bottom row of Figure~\ref{fig:hough_example}. For the same original image we may isolate the vertical line, by only back-projecting the range $170^{\circ}-190^{\circ}$. Note the sinusoid intersection at $180^{\circ}$ (vertical line) in the `zoomed' Hough space. The back-projection shown in Figure~\ref{fig:hough_example}e contains the vertical line, and the vertical sections of the square.
+%
+%
+Since the herringbones represent a large number of straight lines in the dynamic spectrum, a number of tests were performed with the Hough transform to investigate it's use as a feature detection algorithm for these bursts. The Hough transform was performed on an RSTO eCallisto dynamic spectrum of herringbone radio bursts shown in Figure~\ref{fig:bibf}a. The $360^{\circ}$ parameter space of the transform is shown in Figure~\ref{fig:hough_hb}. The overwhelming majority of detections are at an angle of $90^{\circ}$ corresponding to vertical lines. This is most likely caused by RFI in the dynamic spectrum. Interpolation amongst frequency channels in the spectrum can also cause broad horizontal lines, this is particularly apparent in Figure~\ref{fig:hough_hb} below.
+%
+% 
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.5, trim=0cm 1cm 0cm 1cm]{hough_herringbones}
+\caption[Hough transform]{The radius-angle parameter space of the hough transform for the herringbones. The overwhelming majority of detections are at an angle of $90^{\circ}$ corresponding to horizontal lines, most likely caused by RFI and interpolation between frequency channels.}
+\label{fig:hough_hb}
+\end{center}
+\end{figure}
+%
+%
+Despite the fact there are strong detections for vertical lines, the multiple threads in the parameter space cross each other at all angles, which means lines of every orientation are detected to some degree. An {\it a priori} choice of angles in the parameter space that the herringbones belong to will allow them to be detected effectively. A range of angles of $180^{\circ}-210^{\circ}$ was chosen for the back-projection, the results of which are shown in Figure~\ref{fig:bibf}b. Although the transform is successful in picking out straight lines, it contains no information on the start and end point of the line. This is the reason why some bursts have a long length in the Hough transform detections, but a short length in the original dynamic spectrum. This mismatch of burst lengths is not a concern since the start and stop frequencies are not under investigation here. The identification of points that the bursts belong to allowed a number of parameters to be analysed and compared for each burst.
+%
+%
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.55, trim=1cm 2.5cm 0cm 1cm]{hough_busrsts2}
+\caption[Hough transform herringbones]{Herringbone bursts detected using the Hough transform. Note that interpolation between frequency channels in the dynamic spectrum results in strong levels of horizontal lines, which represent the overwhelming majority of detections by the Hough transform. The herringbones are a weaker source of straight line detections, hence not all of them are revealed by the transform.}
+\label{fig:hough_hb}
+\end{center}
+\end{figure}
+%
+%
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.7, trim=3.5cm 0cm 0cm 1cm]{herringbone_stats.pdf}
+\caption[Hough transform herringbones]{Herringbone bursts detected using the Hough transform. The transform performs well when the bursts are intense, but performs poorly when they are weak and close to background values.}
+\label{fig:bibf}
+\end{center}
+\end{figure}
 
-\subsubsection{100 CME Challenge}
+
+%
+%
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.7, trim=3.5cm 0cm 0cm 1cm]{herringbone_stats2.pdf}
+\caption[Hough transform herringbones]{(a) Intensity versus time for raw data; (b) intensity versus time for background subtracted data. (c) and (d) show scatter plots of drift rate versus rate of change of intensity along the burst for raw and background subtracted data, respectively.  The two show a good correlation which might suggest that the faster the beam, the faster it loses its energy}
+\label{fig:bibt}
+\end{center}
+\end{figure}
+Figure~\ref{fig:bibf}a and b shows the intensity as a function of frequency for all bursts for both raw data and background subtracted data (colours correspond to the individual bursts in Figure~\ref{fig:hough_hb}). Overall the intensity increases for bursts later in the sequence (increase in intensity form red to purple), which is a general feature of the bursts in the original spectra. The background subtracted data also reveals a peak at $\sim$45\,MHz, which may be interpreted as the start frequency of these features.
+Figure~\ref{fig:bibf}b and c shows the frequency with respect to time for all bursts, with each showing a linear trend and range from $\sim$5--13\,MHz\,s$^{-1}$.
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.5, trim=1.5cm 0cm 0cm 1cm]{hough_maxi.pdf}
+\caption[Hough transform herringbones]{Scatter plot of drift rate and maximum intensity of the burst. They show no correlation despite the fact Equation~\ref{eqn:plasma_emiss} would imply that they should. A larger data set needs to be explored in order to investigate this.}
+\label{fig:maxi}
+\end{center}
+\end{figure}
+The intensity with respect to time is shown in Figure~\ref{fig:fig:bibt}a and b, revealing much of the same characteristics as Figure~\ref{fig:bibf}a and b. An interesting correlation is shown in Figure~\ref{fig:bibt}a and b. The drift rate shows a negative correlation with the rate of change of intensity of the bursts. This may be interpreted as the faster the electron beams travel, the quicker they lose their energy and induce radiation for a shorter amount of time. This would agree with Equation~\ref{eqn:plasma_emiss}, which highlights the relationship between plasma emission emissivity and beam velocity.  Despite the fact that there seems to be a correlation between the two parameters, there are a low number of data points and more bursts need to be included into the statistics if anything meaningful can be extracted from these results. Surprisingly, the maximum intensity and the drift rate do not show any correlation (Figure~\ref{fig:maxi}), which would be expected from Equation~\ref{eqn:plasma_emiss}. Again, this might be a symptom of low number statistics and need to be further investigated.
+%
+%
+
+As can be seen in Figure~\ref{fig:hough_hb}, the Hough transform is not perfect, and may miss some of the weaker or more patchy bursts. A greater effort needs to be made that the transform picks up the burst on the fine scales. One approach could be to use gradients to highlight edges in the image before using the Hough transform. A more sophisticated technique could be through multi-scale filtering using wavelets, this could highlight the only the bursts, allowing the Hough transform to detect the smaller and fainter bursts more easily.
+
+A statistical study of herringbone features has bee lacking in recent times and a modern approach would compliment the herringbone statistical analysis of \citep{cairns1987, mann1995}. Is is still an unknown as to why some type IIs exhibit herringbones and why some do not. Future studies employing multi wavelength analysis, such as Carley {\it et al.}\,(2013), combined with a statistical analysis like the one presented in this section, can reveal both what caused the herringbones and what is the nature of the particle acceleration.
+
+%\subsubsection{100 CME Challenge}
 
 
