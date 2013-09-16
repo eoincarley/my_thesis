@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vii}{chapter*.1}
 \contentsline {chapter}{List of Figures}{xiii}{section*.4}
-\contentsline {chapter}{List of Tables}{xviii}{section*.6}
+\contentsline {chapter}{List of Tables}{xix}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Sun}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Solar Interior}{3}{subsection.1.1.1}
@@ -74,25 +74,27 @@
 \contentsline {subsection}{\numberline {5.2.1}Observations}{176}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Radio Source Height and Speed}{178}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Radio Source Alfv\'{e}n Mach}{182}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}CBF Speeds}{184}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Radio Dynamic Spectra}{185}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Observations}{185}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Particle speeds and in-situ detection}{186}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}White-light CME and Shock}{192}{section.5.4}
-\contentsline {section}{\numberline {5.5}Discussion}{195}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{195}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{195}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{199}{chapter.6}
-\contentsline {section}{\numberline {6.1}CME Masses and Energies}{200}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Principle results}{200}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Future Work}{202}{subsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Energy Catalogue}{202}{subsubsection.6.1.2.1}
-\contentsline {subsubsection}{\numberline {6.1.2.2}Mass Estimates with AIA}{212}{subsubsection.6.1.2.2}
+\contentsline {subsection}{\numberline {5.2.4}CBF Speeds}{185}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}CBF Thermal Properties}{186}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Radio Dynamic Spectra}{187}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Observations}{188}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Particle speeds and in-situ detection}{188}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}White-light CME and Shock}{194}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discussion}{196}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{196}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{197}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{201}{chapter.6}
+\contentsline {section}{\numberline {6.1}CME Masses and Energies}{202}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Principle results}{202}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Future Work}{204}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Forces Catalogue}{204}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Mass Estimates with AIA}{213}{subsubsection.6.1.2.2}
 \contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{217}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Principle results}{217}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Future Work}{219}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Hough Transform and Herringbone Statistics}{219}{subsubsection.6.2.2.1}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{229}{appendix.A}
-\contentsline {section}{\numberline {A.1}Radio burst intensity}{230}{section.A.1}
-\contentsline {section}{\numberline {A.2}Band-splitting}{231}{section.A.2}
-\contentsline {chapter}{References}{235}{section*.110}
+\contentsline {subsection}{\numberline {6.2.2}Future Work}{220}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Hough Transform and Herringbone Statistics}{220}{subsubsection.6.2.2.1}
+\contentsline {chapter}{\numberline {A}Appendix}{230}{appendix.A}
+\contentsline {section}{\numberline {A.1}Radio burst intensity}{231}{section.A.1}
+\contentsline {section}{\numberline {A.2}Band-splitting}{232}{section.A.2}
+\contentsline {section}{\numberline {A.3}EUV and pB Density Measurements}{235}{section.A.3}
+\contentsline {chapter}{References}{238}{section*.112}

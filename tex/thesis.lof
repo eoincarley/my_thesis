@@ -84,27 +84,29 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Radio source and CBF position angle versus time}}{179}{figure.caption.84}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces 2D density map of the corona}}{181}{figure.caption.85}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces A potential field source surface extrapolation of the corona magnetic field}}{183}{figure.caption.86}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 3D CME\relax }}{188}{figure.caption.87}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Type III speeds}}{190}{figure.caption.88}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Herringbone wavelet analysis}}{191}{figure.caption.89}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces 3D reconstruction of CME and white-light shock}}{194}{figure.caption.90}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces CBF and shock orientation}}{196}{figure.caption.91}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Alfv\'{e}n speed map of the solar corona.}}{184}{figure.caption.87}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Tri-color running ratio images of a CBF.}}{186}{figure.caption.88}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Radio dynamic spectra from STEREO-B/WAVES (0.01--16\tmspace +\thinmuskip {.1667em}MHz), Nan\c {c}ay DA (20--90\tmspace +\thinmuskip {.1667em}MHz), and RSTO eCallisto (10--400\tmspace +\thinmuskip {.1667em}MHz). The type II radio burst is indicated in {\bf b}, with both fundamental and harmonic emission observable. This shock signature is characterized by two emission bands drifting slowly ($\sim $-0.2\tmspace +\thinmuskip {.1667em}MHz\tmspace +\thinmuskip {.1667em}s$^{-1}$) toward lower frequency over time. The type III bursts are indicated in {\bf a},{\bf b}, while herringbones are shown in {\bf c}. Each herringbone or is indicative of an electron beam traveling away from the shock. Note that all of the radio activity from {\bf a-c} is indicative of either particle acceleration or a plasma shock in the corona. The start and stop times of this radio activity in these dynamic spectra show good temporal correspondence with the start/stop times of the activity in Figure~\ref {fig:figure_aia_nrh_c2}. This is especially apparent for the features between 100--200\tmspace +\thinmuskip {.1667em}MHz.\relax }}{190}{figure.caption.89}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Type III speeds}}{192}{figure.caption.90}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Herringbone wavelet analysis}}{193}{figure.caption.91}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 3D reconstruction of CME and white-light shock}}{195}{figure.caption.92}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces CBF and shock orientation}}{198}{figure.caption.93}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Sample C2 masks for no-detection (left) and CME-detection (right). The no-detection masks has some spurious blobs, possibly due to cosmic rays and small ejections of plasma. The CME detection covers most of the CME body, but masks the center due to presence of CME core? Circle shows solar limb.\relax }}{203}{figure.caption.92}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces CME Mass automatic detection}}{205}{figure.caption.93}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces The inverse mask, allows everything \emph {but} the CME to be summed. Black circle is solar limb.\relax }}{206}{figure.caption.94}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Time series of the mass obtained from using no mask and using the inverse mask. The data behave as expected, with the inverse mask being essentially the same as the no-mask but smaller by the CME mass. The drift towards negative values is symptomatic of a pre-event image (for base-difference) that is too bright. The discontinuous values are due to badly prepped images in the NRL archive.\relax }}{207}{figure.caption.95}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of the mass from masked images (blue) the no\_mask - inverse\_mask images (red) for C2 (upper) and C3 (lower). For both C2 and C3 the blue and red lines are a good match. The most obvious difference is the positive drift of the red line in C2, due to an excess background brightness subtracted in the base-differencing.\relax }}{209}{figure.caption.96}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces EUVI dimming region}}{212}{figure.caption.97}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Mass-temperature distribution}}{214}{figure.caption.98}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Mass evacuation with time}}{215}{figure.caption.99}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Hough transform herringbones}}{220}{figure.caption.100}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Hough transform herringbones}}{221}{figure.caption.101}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Example Hough Transform}}{222}{figure.caption.102}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Hough transform}}{224}{figure.caption.103}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Hough transform herringbones}}{225}{figure.caption.104}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Hough transform herringbones}}{226}{figure.caption.105}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Hough transform herringbones}}{227}{figure.caption.106}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Hough transform herringbones}}{228}{figure.caption.107}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Sample C2 masks for no-detection (left) and CME-detection (right). Black arrays have a values of 0 and white areas have a value of 1. The no-detection masks has some spurious blobs, possibly due to small ejections of plasma in the solar wind, or cosmic rays on the CCD.\relax }}{205}{figure.caption.94}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces CME Mass automatic detection}}{207}{figure.caption.95}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The inverse mask, allows everything \emph {but} the CME to be summed. Black circle is solar limb.\relax }}{208}{figure.caption.96}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Time series of the mass obtained from using no mask and using the inverse mask. The data behave as expected, with the inverse mask being essentially the same as the no-mask but smaller by the CME mass. The drift towards negative values is symptomatic of a pre-event image (for base-difference) that is too bright. The discontinuous values are due to badly prepped images in the NRL archive.\relax }}{209}{figure.caption.97}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of the mass from masked images (blue) the no\_mask - inverse\_mask images (red) for C2 (upper) and C3 (lower). For both C2 and C3 the blue and red lines are a good match. The most obvious difference is the positive drift of the red line in C2, due to an excess background brightness subtracted in the base-differencing.\relax }}{211}{figure.caption.98}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces EUVI dimming region}}{213}{figure.caption.99}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Mass-temperature distribution}}{214}{figure.caption.100}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Mass evacuation with time}}{216}{figure.caption.101}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Hough transform herringbones}}{220}{figure.caption.102}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hough transform herringbones}}{222}{figure.caption.103}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Example Hough Transform}}{223}{figure.caption.104}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Hough transform}}{224}{figure.caption.105}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Hough transform herringbones}}{225}{figure.caption.106}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Hough transform herringbones}}{226}{figure.caption.107}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Hough transform herringbones}}{227}{figure.caption.108}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Hough transform herringbones}}{228}{figure.caption.109}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Band-splitting as a function of Mach number}}{234}{figure.caption.108}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Band-splitting as a function of Mach number}}{235}{figure.caption.110}

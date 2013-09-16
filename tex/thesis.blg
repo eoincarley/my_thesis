@@ -10,56 +10,45 @@ A level-1 auxiliary file: 2/MHD.aux
 A level-1 auxiliary file: 3/Instrumentation.aux
 A level-1 auxiliary file: 4/masses.aux
 A level-1 auxiliary file: 5/shocks.aux
-Case mismatch error between cite keys mann1999 and Mann1999
----line 102 of file 5/shocks.aux
- : \citation{mann1999
- :                   }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys benz2009 and Benz2009
----line 116 of file 5/shocks.aux
- : \citation{benz2009
- :                   }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11141 items from 5000.
+Reallocated field_info (elt_size=4) to 11302 items from 5000.
 Database file #1: mybib.bib
-Repeated entry---line 784 of file mybib.bib
+Repeated entry---line 859 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1294 of file mybib.bib
+Repeated entry---line 1400 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1308 of file mybib.bib
+Repeated entry---line 1414 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1642 of file mybib.bib
+Repeated entry---line 1763 of file mybib.bib
  : @article{guo2010
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 3408 of file mybib.bib
-Repeated entry---line 3629 of file mybib.bib
+--line 3570 of file mybib.bib
+Repeated entry---line 3791 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3784 of file mybib.bib
+Repeated entry---line 3946 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4108 of file mybib.bib
+Repeated entry---line 4270 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4573 of file mybib.bib
+Repeated entry---line 4750 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "van1950"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in billings1966
 Warning--can't use both author and editor fields in bil66
@@ -76,45 +65,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 266 entries,
+You've used 274 entries,
             3018 wiz_defined-function locations,
-            1999 strings with 54839 characters,
-and the built_in function-call counts, 194072 in all, are:
-= -- 15329
-> -- 12140
-< -- 143
-+ -- 4230
-- -- 3955
-* -- 17073
-:= -- 29661
-add.period$ -- 788
-call.type$ -- 266
-change.case$ -- 2647
-chr.to.int$ -- 257
-cite$ -- 281
-duplicate$ -- 12656
-empty$ -- 12269
-format.name$ -- 4778
-if$ -- 38318
-int.to.chr$ -- 10
+            2035 strings with 56433 characters,
+and the built_in function-call counts, 199633 in all, are:
+= -- 15784
+> -- 12454
+< -- 145
++ -- 4341
+- -- 4057
+* -- 17584
+:= -- 30500
+add.period$ -- 812
+call.type$ -- 274
+change.case$ -- 2721
+chr.to.int$ -- 264
+cite$ -- 289
+duplicate$ -- 13034
+empty$ -- 12632
+format.name$ -- 4912
+if$ -- 39413
+int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 2920
-newline$ -- 802
-num.names$ -- 1081
-pop$ -- 6120
+missing$ -- 3002
+newline$ -- 826
+num.names$ -- 1113
+pop$ -- 6287
 preamble$ -- 1
-purify$ -- 2377
+purify$ -- 2443
 quote$ -- 0
-skip$ -- 4613
+skip$ -- 4740
 stack$ -- 0
-substring$ -- 7524
-swap$ -- 7481
+substring$ -- 7747
+swap$ -- 7703
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2355
+type$ -- 2427
 warning$ -- 15
-while$ -- 1063
+while$ -- 1095
 width$ -- 0
-write$ -- 2912
-(There were 10 error messages)
+write$ -- 3000
+(There were 8 error messages)

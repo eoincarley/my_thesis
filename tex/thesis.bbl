@@ -1,4 +1,4 @@
-\begin{thebibliography}{266}
+\begin{thebibliography}{274}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -191,6 +191,13 @@
   {Zouganelis}, I.} (2008). {S/WAVES: The Radio and Plasma Wave Investigation
   on the STEREO Mission}. {\em \ssr\/}, {\bf 136}, 487--528.
 
+\bibitem[{{Boursier} {\em et~al.\/}(2009){Boursier}, {Lamy}, {Llebaria},
+  {Goudail} \& {Robelus}}]{boursier2009}
+{\sc {Boursier}, Y., {Lamy}, P., {Llebaria}, A., {Goudail}, F. \& {Robelus},
+  S.} (2009). {The ARTEMIS Catalog of LASCO Coronal Mass Ejections. Automatic
+  Recognition of Transient Events and Marseille Inventory from Synoptic maps}.
+  {\em \solphys\/}, {\bf 257}, 125--147.
+
 \bibitem[{{Bouvier} \& {Wadhwa}(2010)}]{bouvier2010}
 {\sc {Bouvier}, A. \& {Wadhwa}, M.} (2010). {The age of the Solar System
   redefined by the oldest Pb-Pb age of a meteoritic inclusion}. {\em Nature
@@ -222,6 +229,12 @@
 {\sc {Byrne}, J.P., {Maloney}, S.A., {McAteer}, R.T.J., {Refojo}, J.M. \&
   {Gallagher}, P.T.} (2010). {Propagation of an Earth-directed coronal mass
   ejection in three dimensions}. {\em Nature Communications\/}, {\bf 1}.
+
+\bibitem[{{Byrne} {\em et~al.\/}(2012){Byrne}, {Morgan}, {Habbal} \&
+  {Gallagher}}]{byrne2012}
+{\sc {Byrne}, J.P., {Morgan}, H., {Habbal}, S.R. \& {Gallagher}, P.T.} (2012).
+  {Automatic Detection and Tracking of Coronal Mass Ejections. II. Multiscale
+  Filtering of Coronagraph Images}. {\em \apj\/}, {\bf 752}, 145.
 
 \bibitem[{{Cairns} \& {Robinson}(1987)}]{cairns1987}
 {\sc {Cairns}, I.H. \& {Robinson}, R.D.} (1987). {Herringbone bursts associated
@@ -287,6 +300,13 @@
   of EIT and Moreton Waves in Numerical Simulations}. {\em \apjl\/}, {\bf 572},
   L99--L102.
 
+\bibitem[{{Cheng} {\em et~al.\/}(2012){Cheng}, {Zhang}, {Olmedo}, {Vourlidas},
+  {Ding} \& {Liu}}]{cheng2012}
+{\sc {Cheng}, X., {Zhang}, J., {Olmedo}, O., {Vourlidas}, A., {Ding}, M.D. \&
+  {Liu}, Y.} (2012). {Investigation of the Formation and Separation of an
+  Extreme-ultraviolet Wave from the Expansion of a Coronal Mass Ejection}. {\em
+  \apjl\/}, {\bf 745}, L5.
+
 \bibitem[{{Cho} {\em et~al.\/}(2007){Cho}, {Lee}, {Moon}, {Dryer}, {Bong},
   {Kim} \& {Park}}]{cho2007}
 {\sc {Cho}, K.S., {Lee}, J., {Moon}, Y.J., {Dryer}, M., {Bong}, S.C., {Kim},
@@ -303,10 +323,21 @@
 {\sc {Cla{\ss}en}, H.T. \& {Aurass}, H.} (2002). {On the association between
   type II radio bursts and CMEs}. {\em \aap\/}, {\bf 384}, 1098--1106.
 
+\bibitem[{{Cohen} {\em et~al.\/}(2009){Cohen}, {Attrill}, {Manchester} \&
+  {Wills-Davey}}]{cohen2009}
+{\sc {Cohen}, O., {Attrill}, G.D.R., {Manchester}, W.B., IV \& {Wills-Davey},
+  M.J.} (2009). {Numerical Simulation of an EUV Coronal Wave Based on the 2009
+  February 13 CME Event Observed by STEREO}. {\em \apj\/}, {\bf 705}, 587--602.
+
 \bibitem[{{Colaninno} \& {Vourlidas}(2009)}]{cola09}
 {\sc {Colaninno}, R.C. \& {Vourlidas}, A.} (2009). {First Determination of the
   True Mass of Coronal Mass Ejections: A Novel Approach to Using the Two STEREO
   Viewpoints}. {\em \apj\/}, {\bf 698}, 852--858.
+
+\bibitem[{{Craig} \& {Brown}(1976)}]{craig1976}
+{\sc {Craig}, I.J.D. \& {Brown}, J.C.} (1976). {Fundamental limitations of
+  X-ray spectra as diagnostics of plasma temperature structure}. {\em \aap\/},
+  {\bf 49}, 239--250.
 
 \bibitem[{{Davis} {\em et~al.\/}(1968){Davis}, {Harmer} \&
   {Hoffman}}]{davis1968}
@@ -334,17 +365,16 @@
 {\sc {Domingo}, V., {Fleck}, B. \& {Poland}, A.I.} (1995). {The SOHO Mission:
   an Overview}. {\em \solphys\/}, {\bf 162}, 1--37.
 
-\bibitem[{{Drury}(2012)}]{drury2012}
-{\sc {Drury}, L.O..} (2012). {Origin of cosmic rays}. {\em Astroparticle
-  Physics\/}, {\bf 39}, 52--60.
+\bibitem[{{Downs} {\em et~al.\/}(2012){Downs}, {Roussev}, {van der Holst},
+  {Lugaz} \& {Sokolov}}]{downs2012}
+{\sc {Downs}, C., {Roussev}, I.I., {van der Holst}, B., {Lugaz}, N. \&
+  {Sokolov}, I.V.} (2012). {Understanding SDO/AIA Observations of the 2010 June
+  13 EUV Wave Event: Direct Insight from a Global Thermodynamic MHD
+  Simulation}. {\em \apj\/}, {\bf 750}, 134.
 
 \bibitem[{Duda \& Hart(1972)}]{duda1972}
 {\sc Duda, R.O. \& Hart, P.E.} (1972). Use of the hough transformation to
   detect lines and curves in pictures. {\em Commun. ACM\/}, {\bf 15}, 11--15.
-
-\bibitem[{{Dulk}(1985)}]{dulk1985}
-{\sc {Dulk}, G.A.} (1985). {Radio emission from the sun and stars}. {\em
-  \araa\/}, {\bf 23}, 169--224.
 
 \bibitem[{{Emslie} {\em et~al.\/}(2004){Emslie}, {Kucharek}, {Dennis},
   {Gopalswamy}, {Holman}, {Share}, {Vourlidas}, {Forbes}, {Gallagher}, {Mason},
@@ -457,13 +487,20 @@
   ejections}. {\em Journal of Atmospheric and Solar-Terrestrial Physics\/},
   {\bf 62}, 1457--1469.
 
-\bibitem[{{Gopalswamy} {\em et~al.\/}(2009){Gopalswamy}, {Yashiro}, {Temmer},
-  {Davila}, {Thompson}, {Jones}, {McAteer}, {Wuelser}, {Freeland} \&
-  {Howard}}]{gopal2009}
+\bibitem[{{Gopalswamy} {\em et~al.\/}(2009{\natexlab{a}}){Gopalswamy},
+  {Yashiro}, {Michalek}, {Stenborg}, {Vourlidas}, {Freeland} \&
+  {Howard}}]{gopal2009b}
+{\sc {Gopalswamy}, N., {Yashiro}, S., {Michalek}, G., {Stenborg}, G.,
+  {Vourlidas}, A., {Freeland}, S. \& {Howard}, R.} (2009{\natexlab{a}}). {The
+  SOHO/LASCO CME Catalog}. {\em Earth Moon and Planets\/}, {\bf 104}, 295--313.
+
+\bibitem[{{Gopalswamy} {\em et~al.\/}(2009{\natexlab{b}}){Gopalswamy},
+  {Yashiro}, {Temmer}, {Davila}, {Thompson}, {Jones}, {McAteer}, {Wuelser},
+  {Freeland} \& {Howard}}]{gopal2009}
 {\sc {Gopalswamy}, N., {Yashiro}, S., {Temmer}, M., {Davila}, J., {Thompson},
   W.T., {Jones}, S., {McAteer}, R.T.J., {Wuelser}, J.P., {Freeland}, S. \&
-  {Howard}, R.A.} (2009). {EUV Wave Reflection from a Coronal Hole}. {\em
-  \apjl\/}, {\bf 691}, L123--L127.
+  {Howard}, R.A.} (2009{\natexlab{b}}). {EUV Wave Reflection from a Coronal
+  Hole}. {\em \apjl\/}, {\bf 691}, L123--L127.
 
 \bibitem[{{Gopalswamy} {\em et~al.\/}(2012){Gopalswamy}, {Nitta}, {Akiyama},
   {M{\"a}kel{\"a}} \& {Yashiro}}]{gopal2012}
@@ -867,6 +904,10 @@
 {\sc {Melrose}, D.B.} (1989). {\em {Instabilities in Space and Laboratory
   Plasmas}\/}.
 
+\bibitem[{{Menzel}(1936)}]{menzel1936}
+{\sc {Menzel}, D.H.} (1936). {The Structure of the Atmosphere of {$\zeta$}
+  Aurigae.} {\em Harvard College Observatory Circular\/}, {\bf 417}, 1--9.
+
 \bibitem[{{Mercier} {\em et~al.\/}(2006){Mercier}, {Subramanian}, {Kerdraon},
   {Pick}, {Ananthakrishnan} \& {Janardhan}}]{mercier2006}
 {\sc {Mercier}, C., {Subramanian}, P., {Kerdraon}, A., {Pick}, M.,
@@ -969,6 +1010,12 @@
   (2007). {Radio Frequency Interference Excision Using Spectral-Domain
   Statistics}. {\em \pasp\/}, {\bf 119}, 805--827.
 
+\bibitem[{{Olmedo} {\em et~al.\/}(2008){Olmedo}, {Zhang}, {Wechsler}, {Poland}
+  \& {Borne}}]{olmedo2008}
+{\sc {Olmedo}, O., {Zhang}, J., {Wechsler}, H., {Poland}, A. \& {Borne}, K.}
+  (2008). {Automatic Detection and Tracking of Coronal Mass Ejections in
+  Coronagraph Time Series}. {\em \solphys\/}, {\bf 248}, 485--499.
+
 \bibitem[{{Ontiveros} \& {Vourlidas}(2009)}]{ontiveros2009}
 {\sc {Ontiveros}, V. \& {Vourlidas}, A.} (2009). {Quantitative Measurements of
   Coronal Mass Ejection-Driven Shocks from LASCO Observations}. {\em \apj\/},
@@ -1039,6 +1086,11 @@
   coronal shock dynamics implied by radio and white-light observations}. {\em
   \jgr\/}, {\bf 106}, 25279--25290.
 
+\bibitem[{{Robbrecht} \& {Berghmans}(2004)}]{robb2004}
+{\sc {Robbrecht}, E. \& {Berghmans}, D.} (2004). {Automated recognition of
+  coronal mass ejections (CMEs) in near-real-time data}. {\em \aap\/}, {\bf
+  425}, 1097--1106.
+
 \bibitem[{{Robbrecht} {\em et~al.\/}(2009){Robbrecht}, {Berghmans} \& {Van der
   Linden}}]{robb2009}
 {\sc {Robbrecht}, E., {Berghmans}, D. \& {Van der Linden}, R.A.M.} (2009).
@@ -1070,13 +1122,6 @@
 {\sc {Robinson}, R.D. \& {Stewart}, R.T.} (1985). {A positional comparison
   between coronal mass ejection events and solar type II bursts}. {\em
   \solphys\/}, {\bf 97}, 145--157.
-
-\bibitem[{{Roussev} {\em et~al.\/}(2012){Roussev}, {Galsgaard}, {Downs},
-  {Lugaz}, {Sokolov}, {Moise} \& {Lin}}]{roussev2012}
-{\sc {Roussev}, I.I., {Galsgaard}, K., {Downs}, C., {Lugaz}, N., {Sokolov},
-  I.V., {Moise}, E. \& {Lin}, J.} (2012). {Explaining fast ejections of plasma
-  and exotic X-ray emission from the solar corona}. {\em Nature Physics\/},
-  {\bf 8}, 845--849.
 
 \bibitem[{{Russell} \& {Mulligan}(2002)}]{russel2002}
 {\sc {Russell}, C.T. \& {Mulligan}, T.} (2002). {On the magnetosheath
@@ -1503,6 +1548,10 @@
 \bibitem[{{Wang}(2000)}]{wang2000}
 {\sc {Wang}, Y.M.} (2000). {EIT Waves and Fast-Mode Propagation in the Solar
   Corona}. {\em \apjl\/}, {\bf 543}, L89--L93.
+
+\bibitem[{{Warmuth} \& {Mann}(2005)}]{warmuth2005}
+{\sc {Warmuth}, A. \& {Mann}, G.} (2005). {A model of the Alfv{\'e}n speed in
+  the solar corona}. {\em \aap\/}, {\bf 435}, 1123--1135.
 
 \bibitem[{{Warmuth} {\em et~al.\/}(2004){Warmuth}, {Vr{\v s}nak},
   {Magdaleni{\'c}}, {Hanslmeier} \& {Otruba}}]{warmuth2004b}

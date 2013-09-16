@@ -74,6 +74,7 @@
 \BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Radio Source Height and Speed}{section.5.2}
 \BOOKMARK [2][]{subsection.5.2.3}{5.2.3 Radio Source Alfv\351n Mach}{section.5.2}
 \BOOKMARK [2][]{subsection.5.2.4}{5.2.4 CBF Speeds}{section.5.2}
+\BOOKMARK [2][]{subsection.5.2.5}{5.2.5 CBF Thermal Properties}{section.5.2}
 \BOOKMARK [1][]{section.5.3}{5.3 Radio Dynamic Spectra}{chapter.5}
 \BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Observations}{section.5.3}
 \BOOKMARK [2][]{subsection.5.3.2}{5.3.2 Particle speeds and in-situ detection}{section.5.3}
@@ -85,13 +86,14 @@
 \BOOKMARK [1][]{section.6.1}{6.1 CME Masses and Energies}{chapter.6}
 \BOOKMARK [2][]{subsection.6.1.1}{6.1.1 Principle results}{section.6.1}
 \BOOKMARK [2][]{subsection.6.1.2}{6.1.2 Future Work}{section.6.1}
-\BOOKMARK [3][]{subsubsection.6.1.2.1}{6.1.2.1 CME Mass and Energy Catalogue}{subsection.6.1.2}
+\BOOKMARK [3][]{subsubsection.6.1.2.1}{6.1.2.1 CME Mass and Forces Catalogue}{subsection.6.1.2}
 \BOOKMARK [3][]{subsubsection.6.1.2.2}{6.1.2.2 Mass Estimates with AIA}{subsection.6.1.2}
 \BOOKMARK [1][]{section.6.2}{6.2 Coronal Shocks and Radio Bursts}{chapter.6}
 \BOOKMARK [2][]{subsection.6.2.1}{6.2.1 Principle results}{section.6.2}
 \BOOKMARK [2][]{subsection.6.2.2}{6.2.2 Future Work}{section.6.2}
 \BOOKMARK [3][]{subsubsection.6.2.2.1}{6.2.2.1 Hough Transform and Herringbone Statistics}{subsection.6.2.2}
-\BOOKMARK [0][]{appendix.A}{A A Nice Appendix}{}
+\BOOKMARK [0][]{appendix.A}{A Appendix}{}
 \BOOKMARK [1][]{section.A.1}{A.1 Radio burst intensity}{appendix.A}
 \BOOKMARK [1][]{section.A.2}{A.2 Band-splitting}{appendix.A}
-\BOOKMARK [0][]{section*.110}{References}{}
+\BOOKMARK [1][]{section.A.3}{A.3 EUV and pB Density Measurements}{appendix.A}
+\BOOKMARK [0][]{section*.112}{References}{}
