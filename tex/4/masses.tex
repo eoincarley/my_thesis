@@ -6,7 +6,7 @@
 \label{chap:4}
 \vspace{-10mm}
 \doublespacing
-In the past, measurement of CME dynamics have been hindered by highly uncertain estimates of the total mass of the ejection. The primary source of uncertainty is the unknown position and geometry of the CME, leading to an erroneous treatment of the Thomson scattering equations which are used to estimate the mass. Geometrical uncertainty on the CMEs position and size has primarily been due to observations of the eruption from a single vantage point. However, with the launch of the {\it Solar Terrestrial Relations Observatory (STEREO)} mission, the two viewpoints can be exploited to derive the CMEs position and size, ultimately resulting in mass uncertainty that is both reliably quantified and much reduced. This then leads to better estimates of the energies and forces. This chapter will first outline the Thomson scattering theory used to compute CME mass, followed by a discussion of the mass uncertainties. This is followed by results showing the smallest uncertainties in the literature on CME mass, and the first estimate CME force magnitude from observations. This chapter is based on work published in Carley, McAteer, \& Gallagher, {\it The Astrophysical Journal}, 2012.
+In the past, measurement of CME dynamics have been hindered by highly uncertain estimates of the total mass of the ejection. The primary source of uncertainty is the unknown position and geometry of the CME, leading to an erroneous treatment of the Thomson scattering equations which are used to estimate the mass. Geometrical uncertainty of the CMEs position and size has primarily been due to observations of the eruption from a single vantage point. However, with the launch of the {\it Solar Terrestrial Relations Observatory (STEREO)} mission, the two viewpoints can be exploited to derive the CMEs position and size, ultimately resulting in mass uncertainty that is both reliably quantified and much reduced. This then leads to better estimates of the energies and forces. In this chapter I will first outline the Thomson scattering theory used to compute CME mass, followed by a discussion of the mass uncertainties. This is followed by results showing the smallest uncertainties in the literature on CME mass, and the first estimate CME force magnitude from observations. This chapter is based on work published in Carley, McAteer, \& Gallagher, {\it The Astrophysical Journal}, 2012.
 
 \section{Introduction}\label{sec:1}
 
@@ -20,7 +20,7 @@ Some of the first measurements of CME mass using scattering theory were carried 
 and it is generally assumed that the CME propagates perpendicular to the observers line-of-sight (LOS). There is also the added assumption that all CME mass lies in the two-dimensional plane-of-sky (POS). Such assumptions can lead to a mass underestimation of up to 50\% or more \citep{vou00}. More recent studies have employed the two viewpoint capabilities of the \emph{STEREO} mission to determine the mass of numerous 
 CMEs with much less uncertainty \citep{cola09}. 
 	
-This Chapter presents an analysis of mass development of the 2008 December 12 CME using the \emph{STEREO} COR1 and COR2 coronagraphs. We use a well constrained angle of propagation to determine the mass and position of the CM, and completely characterise the uncertainties on this mass. Combining the mass measurements with values for CME velocity and acceleration, the kinetic energy and the magnitude of the force influencing propagation is determined for each point in time. The first section described the observations of the event from first appearance of the front in COR1 A and B to the time when the front exits the COR2 A and B fields of view. 
+In this Chapter I will present an analysis of mass development of the 2008 December 12 CME using the \emph{STEREO} COR1 and COR2 coronagraphs. We use a well constrained angle of propagation to determine the mass and position of the CM, and completely characterise the uncertainties on this mass. Combining the mass measurements with values for CME velocity and acceleration, the kinetic energy and the magnitude of the force influencing propagation is determined for each point in time. The first section described the observations of the event from first appearance of the front in COR1 A and B to the time when the front exits the COR2 A and B fields of view. 
 The data analysis section describes the methods by which the masses are calculated with \emph{a priori} knowledge of the propagation angle, as well as a discussion of the primary sources of uncertainty. Following this are the results, including masses, energies and forces on the CME. Finally, a discussion is given of the possible forces attributable to the observed accelerations and whether they are magnetic or aerodynamic in origin. 
 
 \section{Observations}
@@ -34,7 +34,7 @@ of the CME from this line-of-sight (LOS).
 	\includegraphics[scale=0.6]{cor1ab_color.pdf}
 	\caption [2008-December-12 CME observed by COR1] {Selection of base difference images of the CME in COR1\,A  
 	(top row) and COR1\,B (bottom row). The CME is quite faint in the A images and appears not to have as much structure
-	as in B. As indicated by the color bar on the right, this image has units of grams. The method by which pixel units of 		grams are derived is described below.}
+	as in B. As indicated by the color bar on the right, this image has units of grams. The method by which pixel units of grams are derived is described below. Figure adapted from \citep{carley2012}.}
 \label{fig:STEREO_COR1A&B}
 \end{sidewaysfigure}
 
@@ -42,7 +42,7 @@ of the CME from this line-of-sight (LOS).
     \centering
     \includegraphics[scale=0.8, trim=0cm 3cm 0cm 1cm]{cor2ab_color_test.pdf}
 	\caption [2008-December-12 CMe observed by COR2]{Selection of base difference images of the CME in COR2\,A (top 	row) and COR2\,B (bottom row). The CME is 
-	clearly distinguishable in both fields of view. Only the B field view shows clearly the three part structure of core, cavity 	and front. As with the COR1 images these images also have units of grams; the method by which grams are calculated is described below.}
+	clearly distinguishable in both fields of view. Only the B field view shows clearly the three part structure of core, cavity and front. As with the COR1 images these images also have units of grams; the method by which grams are calculated is described below. Figure adapted from \citep{carley2012}.}
 \label{fig:STEREO_COR2A&B}
 \end{sidewaysfigure}    
 
@@ -60,11 +60,19 @@ A conversion from pixel units of mean solar brightness to grams requires a knowl
 
 \subsection{Thomson Scattering in the Corona}\label{sec:10}
 \doublespacing
-Thomson scattering involves an incident electromagnetic wave exciting an oscillation of an electron such that the electron radiates like a small dipole. In this way some of the incident electromagnetic energy is `scattered' in a variety of directions, given by the radiation pattern of the oscillating electron. Any incident radiation falling on the area
+Thomson scattering involves an incident electromagnetic wave exciting an oscillation of an electron such that the electron radiates like a small dipole. In this way some of the incident electromagnetic energy is `scattered' in a variety of directions, given by the radiation pattern of the oscillating electron. The differential scattering cross section is given by 
+\begin{equation}
+\frac{d \sigma}{d \Omega} = \frac{\mathrm{Radiated~Power/unit~solid~angle}}{\mathrm{Incident~Power/unit~area}}
+\end{equation}
+Following \citep{jackson1975}, for completely unpolarized incident energy this equates to 
+\begin{equation}
+\frac{d \sigma}{d \Omega} = \bigg(\frac{e^2}{4\pi \epsilon m_ec^2}\bigg)^2\frac{1}{2}(1+\mathrm{cos}^2\chi)
+\end{equation}
+where $e$ is electron charge, $m_e$ is electron mass, $c$ is the speed of light, $\epsilon_0$ is the electric permittivity of free space, and $\chi$ is the angle between incident and scattered radiation $\mathbf{k}$ vectors. Integrating this over all solid angles we obtain
 \begin{equation}
 \sigma_T = \frac{8\pi}{3}\bigg(  \frac{e^2}{4\pi\epsilon_0 m_e c^2}   \bigg)^2 = \frac{8\pi}{3}r_e^2 = 6.65\times10^{-29}\,\mathrm{m}^2
 \end{equation}
-will be scattered by the electron into a dipole radiation pattern. $r_e$ is the classical electron radius, $e$ is electron charge, $m_e$ is electron mass, $c$ is the speed of light, $\epsilon_0$ os the electric permittivity of free space. The area is the Thomson scattering cross-section and is independent of wavelength of the incident wave; all wavelengths are scattered equally. 
+This is the Thomson scattering cross section and the term in brackets is termed the classical electron radius $r_e$. Classically, any radiation falling on the area defined by $r_e^2$ will be scattered. An important result is that the cross-section is independent of wavelength of the incident wave; all wavelengths are scattered equally. 
 
 \begin{figure}[!t]
 \begin{center}
@@ -87,7 +95,7 @@ where $I_0$ is incident intensity, $\sigma_e$ is the electron scattering cross s
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.5, trim=0cm 2cm 0cm 0cm]{omega_new.pdf}
-\caption[Thomson scattering geometry in the solar corona]{Thomson scattering geometry in the solar corona. The orientation of $I_R$ and $I_T$ is shown in the inset. $I_R$ is the projection of electron oscillation in the x direction onto a plane perpendicular to the line from Q to observer. $I_R$ is zero when $\chi=90$. $I_T$ is due to electron oscillation out of the plane of the page (z-direction), and is completely unaffected by viewing angle. Figure adapted from Figure 3 of \citep{howtap2009}.}
+\caption[Thomson scattering geometry in the solar corona]{Thomson scattering geometry in the solar corona. The orientation of $I_R$ and $I_T$ is shown in the inset. $I_R$ is the projection of electron oscillation in the x direction onto a plane perpendicular to the line from Q to observer. $I_R$ is zero when $\chi=90$. $I_T$ is due to electron oscillation out of the plane of the page (z-direction), and is completely unaffected by viewing angle. Figure adapted from Figure 3 of \citet{howtap2009}.}
 \label{fig:omega}
 \end{center}
 \end{figure}
@@ -135,7 +143,7 @@ when $\theta = 0^{\circ}$ ($\chi=90^{\circ})$.}
 %
 %
 %
-Calculating the total mass of a CME requires an estimate of the total amount of electrons contributing to the light scattered by the CME. Then assuming that the corona is 90\% hydrogen and 10\% helium, each electron will be associated with a mass of $1.97\times10^{-24}$\,g. The mass in each pixel of an image of a CME is then
+Calculating the total mass of a CME requires an estimate of the total amount of electrons contributing to the light scattered by the CME. Then assuming that the corona is 90\% hydrogen and 10\% helium (by number density), each electron will be associated with a mass of $1.97\times10^{-24}$\,g. The mass in each pixel of an image of a CME is then
 \begin{equation}
 m_{pixel}=\frac{I_{obs}}{I_e(\theta)} \times1.97\times10^{-24}\,\mathrm{g}
 \label{eqn:mass_pix}
@@ -209,7 +217,7 @@ Apart from the geometrical uncertainties quoted above there were a number of oth
 %A concise measurement of the CME kinematics, such as velocity and acceleration, were taken from the results of the study of \citet{byr10}. Since these kinematics take into account the true three dimensional surface of the front they provide reliable estimates of CME velocity and acceleration in 3-D space. These velocity and acceleration measurements were used in the calculation of kinetic energy and total force on the CME for each point in time. The CME mass used in all energy and force calculations was the asymptotic mass it approaches at later stages of its evolution beyond 10\,$R_{\odot}$ as observed from the \emph{STEREO B} spacecraft i.e.,\,3.4\,$\pm$\,1.0$\times$10$^{15}$\,g. As will be shown, there is good motivation for the use of constant mass in the magnitude of kinetic energy and force estimates. 
 
 \section{Results}\label{sec:11}
-\subsection{Masses}
+\subsection{Mass vs. Time and Height}
 
 To calculate the total CME mass a user-selected area (the extent of the CME, for example) of the base difference image was chosen and the pixel values within this area were summed to obtain total mass. Figure~\ref{fig:STEREO_COR2A&B} COR2 B images show an example of the sector over which pixels were summed (the smaller sectors indicate a different summing region used at a later stage). In order to obtain a more complete and continuous estimate of CME mass growth, the masses determined from both COR1 and COR2 coronagraphs were summed in those cases where image times of the inner and outer coronagraphs overlapped. This was done for each point and time to produce CME mass development with height and time
 
@@ -219,7 +227,7 @@ diminished. It is probably due to the presence of a prominence which contains a 
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.6, angle=0]{20081212_mass_ht.pdf}
-\caption[CME mass as a function of height and time]{CME mass development with height (a) and time (b), for the 2008 December 12 CME. After $\sim$08:00 UT ($\gtrsim$5\,$R_{\odot}$) the masses from the inner and outer coronagraphs are summed to show uninterrupted mass development from $\sim$2--20\,$R_{\odot}$ over a period of 12 hours. The small bump in the CME mass at $\sim$07:00\,UT ($\sim$4\,$R_{\odot}$) is probably due to an unknown amount of H-$\alpha$ emission from the prominence. Mass of CME front and core are also shown, red $\textquoteleft$$\times$' and blue square, for COR2\,B, panel (b). After 14:52\,UT they share approximately equal mass. The inset of (a) shows mass development with height for COR2\,B only; the red curve represents a fit to the data whereby the mass asymptotically approaches $3.4\,\pm\,1.0\times10^{15}$\,g. }
+\caption[CME mass as a function of height and time]{CME mass development with height (a) and time (b), for the 2008 December 12 CME. After $\sim$08:00 UT ($\gtrsim$5\,$R_{\odot}$) the masses from the inner and outer coronagraphs are summed to show uninterrupted mass development from $\sim$2--20\,$R_{\odot}$ over a period of 12 hours. The small bump in the CME mass at $\sim$07:00\,UT ($\sim$4\,$R_{\odot}$) is probably due to an unknown amount of H-$\alpha$ emission from the prominence. Mass of CME front and core are also shown, red $\textquoteleft$$\times$' and blue square, for COR2\,B, panel (b). After 14:52\,UT they share approximately equal mass. The inset of (a) shows mass development with height for COR2\,B only; the red curve represents a fit to the data whereby the mass asymptotically approaches $3.4\,\pm\,1.0\times10^{15}$\,g \citep{carley2012}. }
 \label{fig:20081212_mass_ht}
 \end{center}
 \end{figure}
@@ -229,7 +237,7 @@ CME mass is caused by the prominence entering and exiting the COR1\,B field of v
 \begin{equation}
 M_{cme}(h)=M_{a}(1-e^{-h/H_a})
 \end{equation}
-where $M_a$ is the final mass the CME approaches asymptotically and $H_a$ is the height at which the CME reaches 0.63$M_a$ \citep{cola09}, with no`bump'~in mass earlier on. The decline in mass after the peak may be explained by the ionization of neutral hydrogen such that H$\alpha$ emission diminishes and simply becomes Thomson scattering of free electrons, as with the rest of the CME material. 
+where $M_a$ is the final mass the CME approaches asymptotically and $H_a$ is the height at which the CME reaches 0.63$M_a$ \citep{cola09}, with no `bump'~in mass earlier on. The decline in mass after the peak may be explained by the ionization of neutral hydrogen such that H$\alpha$ emission diminishes and simply becomes Thomson scattering of free electrons, as with the rest of the CME material. 
 
 In order to produce a fit to the data, the COR2\,B mass results were chosen because its pre-event image was largely free of any bright streamers or other features which introduce unwanted effects in the production of base difference images, as described above. A fit with the above equation resulted in a final asymptotic CME mass of 3.4\,$\pm$\,1.0$\times$10$^{15}$\,g, with a scale height of $h_a=2.9\,R_{\odot}$. This fit is plotted along with the COR2\,B data in the inset panel of Figure~\ref{fig:20081212_mass_ht}(a). Note that the mass increase is due to material coming up from below the occulting disk, and not actual mass gain of the CME. The uncertainty on the above asymptotic mass value was taken to be 30\%, from the largest uncertainty  due to finite width, the conversion factor uncertainty as described above, the standard error user-generated uncertainty, and uncertainty due to streamer interaction.
 
@@ -237,7 +245,7 @@ In each image where the CME core and front are distinguishable, their masses wer
 at 14:45\,UT the core and front share approximately equal mass. 
 
 
-\subsection{Energies}\label{sec:2}
+\subsection{Kinematics and Dynamics}\label{sec:2}
 
 In the following calculations, all measurements of force and kinetic energy use the asymptotic mass of 3.4\,$\pm$\,1.0$\times$10$^{15}$\,g and not the instantaneous mass values calculated from each coronagraph image i.e., the CME is considered to begin its propagation with this mass and does not acquire any mass as it propagates. 
 
@@ -247,7 +255,7 @@ Estimates of the force and kinetic energy use the 3-D velocity and acceleration 
 \begin{center}
 \includegraphics[scale=0.75, angle=0]{images/20081212_force_v2.pdf}
 \caption[CME kinematics and energetics as a function of height]{(a) CME velocity as a function of heliocentric distance, including a fit to the data produced using an aerodynamic drag model beyond $\sim$7\,$R_{\odot}$ \citep{byrne2010}. (b) Acceleration of CME, including fit,  derived from the velocity data and fit. 
-Panel (c) and (d) show the kinetic energy and force, respectively, both calculated using constant CME mass of $3.4\,\pm\,1.0\times10^{15}$\,g and kinematics results from (a) and (b). Also shown are the fits to energy and force produced from fits to velocity and acceleration.}
+Panel (c) and (d) show the kinetic energy and force, respectively, both calculated using constant CME mass of $3.4\,\pm\,1.0\times10^{15}$\,g and kinematics results from (a) and (b). Also shown are the fits to energy and force produced from fits to velocity and acceleration \citep{carley2012}.}
 \label{fig:force_20081212}
 \end{center}
 \end{figure}
@@ -264,7 +272,7 @@ After this early peak, the force drops to an average value of 3.8$\pm$5.4$\times
 
 %\subsection{Mechanical Energy}\label{sec:20}
 
-\subsection{Forces}\label{sec:21}
+\subsection{Evaluation of Forces}\label{sec:21}
 
 It should be noted that Figure~\ref{fig:20081212_mass_ht} shows an overall exponential increase in CME mass with height which could be interpreted as the CME rapidly gaining mass as it propagates. Care should be taken with this interpretation since this apparent exponential mass increase is almost certainly due to the CME moving into the field of view, therefore allowing us to measure more of its mass content; such an interpretation is in agreement with similar assertions made in \citet{vour2010}. It is difficult to distinguish between actual CME mass growth and an apparent growth due to more of the CME being observed. If the initial early rise in CME mass is assumed to be an observational artifact then we can interpret the CME mass to be in the range of (3--3.5)$\times$10$^{15}$\,g for most of its early propagation i.e., the CME already has such a mass before launch and does not acquire more mass (via inflows or otherwise) during propagation.
 Such an interpretation is in agreement with CME mass measurements calculated from dimmings in \emph{STEREO} Extreme Ultraviolet Image(EUVI) images, which show the mass calculated from EUV images to be approximately equal to CME mass in COR2 images,  $m_{EUVI}/m_{COR2} =1.1\pm0.3$  \citep{aschw09}. Once the CME bubble is in the field of view at $\sim$10\,$R_{\odot}$ the mass in its entirety can be measured and the increase beyond this point, if any, is slow and steady, Figure~\ref{fig:20081212_mass_ht}.

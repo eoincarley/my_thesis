@@ -13,39 +13,39 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11302 items from 5000.
+Reallocated field_info (elt_size=4) to 11348 items from 5000.
 Database file #1: mybib.bib
-Repeated entry---line 859 of file mybib.bib
+Repeated entry---line 880 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1400 of file mybib.bib
+Repeated entry---line 1421 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1414 of file mybib.bib
+Repeated entry---line 1435 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1763 of file mybib.bib
+Repeated entry---line 1784 of file mybib.bib
  : @article{guo2010
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 3570 of file mybib.bib
-Repeated entry---line 3791 of file mybib.bib
+--line 3601 of file mybib.bib
+Repeated entry---line 3822 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3946 of file mybib.bib
+Repeated entry---line 3977 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4270 of file mybib.bib
+Repeated entry---line 4301 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4750 of file mybib.bib
+Repeated entry---line 4781 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
@@ -57,6 +57,7 @@ Warning--can't use both author and editor fields in fitz
 Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in inan2011
 Warning--missing publisher in inan2011
+Warning--missing publisher in jackson1975
 Warning--can't use both author and editor fields in melrose1989
 Warning--missing publisher in melrose1989
 Warning--can't use both author and editor fields in nelson1985
@@ -65,45 +66,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 274 entries,
+You've used 276 entries,
             3018 wiz_defined-function locations,
-            2035 strings with 56433 characters,
-and the built_in function-call counts, 199633 in all, are:
-= -- 15784
-> -- 12454
-< -- 145
-+ -- 4341
-- -- 4057
-* -- 17584
-:= -- 30500
-add.period$ -- 812
-call.type$ -- 274
-change.case$ -- 2721
-chr.to.int$ -- 264
-cite$ -- 289
-duplicate$ -- 13034
-empty$ -- 12632
-format.name$ -- 4912
-if$ -- 39413
+            2043 strings with 56673 characters,
+and the built_in function-call counts, 200594 in all, are:
+= -- 15861
+> -- 12492
+< -- 146
++ -- 4355
+- -- 4069
+* -- 17661
+:= -- 30655
+add.period$ -- 817
+call.type$ -- 276
+change.case$ -- 2734
+chr.to.int$ -- 266
+cite$ -- 292
+duplicate$ -- 13108
+empty$ -- 12707
+format.name$ -- 4928
+if$ -- 39601
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 3002
-newline$ -- 826
-num.names$ -- 1113
-pop$ -- 6287
+missing$ -- 3017
+newline$ -- 832
+num.names$ -- 1121
+pop$ -- 6317
 preamble$ -- 1
-purify$ -- 2443
+purify$ -- 2455
 quote$ -- 0
-skip$ -- 4740
+skip$ -- 4770
 stack$ -- 0
-substring$ -- 7747
-swap$ -- 7703
+substring$ -- 7775
+swap$ -- 7740
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2427
-warning$ -- 15
-while$ -- 1095
+type$ -- 2442
+warning$ -- 16
+while$ -- 1102
 width$ -- 0
-write$ -- 3000
+write$ -- 3020
 (There were 8 error messages)

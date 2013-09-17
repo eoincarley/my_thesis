@@ -5,7 +5,7 @@
 \chapter{Observation and Instrumentation} 
 \label{chap:3}
 \doublespacing
-This chapter outlines the instruments used to make observations of coronal mass ejections and the signatures of their shocks. The primary technique for observing CMEs is via white-light observations of the corona. The general corona observing techniques used by coronagraphs are firstly decribed, followed by specific details of coronagraphs used in this study. This is followed by a description of instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory (RSTO), installed at Birr Castle, Co. Offaly, Ireland in September 2011. The RSTO work was published in Zucca \& Carley, {\it Solar Physics}, 2012.
+In this chapter the instruments used to make observations of coronal mass ejections and the signatures of their shocks are outlined. The primary technique for observing CMEs is via white-light observations of the corona. The general corona observing techniques used by coronagraphs are firstly decribed, followed by specific details of coronagraphs used in this study. This is followed by a description of instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory (RSTO), installed at Birr Castle, Co. Offaly, Ireland in September 2011. The RSTO work was published in Zucca \& Carley {\it et al.} {\it Solar Physics}, 2012.
 \clearpage
 
 \section{White-Light Observations}\label{sec:1}
@@ -18,7 +18,14 @@ The first evidence for the existence of the corona was through observations duri
 \label{fig:seclipse}
 \end{center}
 \end{figure}
-This is known as the white-light corona and is due to scattering of photospheric light by coronal particles. Of particular interest here is the K-corona (as first introduced in Section~\ref{sec:123}); this is the corona that is visible because of Thomson scattering of photospheric light by free electrons. 
+This is known as the white-light corona and is due to scattering of photospheric light by coronal particles. Of particular interest here is the K-corona (as first introduced in Section~\ref{sec:123}); this is the corona that is visible because of Thomson scattering of photospheric light by free electrons. As described in Chapter 1, a component of the scattered white-light is the F-corona, which is formed by scattering of light off of dust grains. The F-corona is unpolarized and becomes a significant contributor to the white-light after $\sim$4$R_{\odot}$. Figure~\ref{fig:kandf} shows the radial variation of the K and F corona, along with coronal densities.
+\begin{figure}[!t]
+\begin{center}
+\includegraphics[scale=0.7, trim=3cm 1cm 0cm 1cm]{kandfcorona.pdf}
+\caption[Radial variation of the K and F corona]{The K and F coronal brightness and the number density of electrons as a function of height. Units are in mean solar brightness (1\,MSB = $2.01\times10^{10}$\,ergs\,s$^{-1}$\,cm$^{-2}$\, sr$^{-1}$).}
+\label{fig:kandf}
+\end{center}
+\end{figure}
 Before the early 20th century the only way to view the corona was for a short period during a solar eclipse when the moon blocks direct photospheric light. Under normal conditions direct sunlight overwhelms the faint corona. In 1939 the French astronomer Bernard Lyot developed a telescope, known as a coronagraph, which allowed observation of the corona at any time \citep{lyot1939}. A coronagraph is an optical system that provides an artificial eclipse of direct photospheric light so the much fainter corona can be imaged. a description of Lyot's original design, and the space based instruments based on this design, is given here.
 %A coronagraph is an optical system that provides an artificial eclipse so the faint corona may be imaged at any time. The first working coronagraph was invented by the French astronomer Bernard Lyot in 1930.
 
@@ -50,7 +57,7 @@ C1 operates a $1024\times1024$ CCD with a pixel size of $5.6''$, giving a spatia
 \end{center}
 \end{figure}
 
-C2 is an externally occulted, broadband, refractor coronagraph that images the corona from 1.5--6$\,R_{\odot}$\footnote{The levels of stray-light just beyond the occulter mean that in practice the C2 inner field of view limit is $2.2\,R_{\odot}$}. The conceptual diagram for its optical layout is shown in Figure~\ref{fig:c2_concept}. The front aperture A0 is on the left of the diagram and includes the external occulter D1, consisting of three consecutive circular disks on a common spindle, these disks completely shadow the entrance aperture A1 from direct sunlight. The disks also successively intercept diffracted sunlight from the one before to minimize the total diffracted light from the solar disk falling on the object lens O1. 
+C2 is an externally occulted, broadband, refractor coronagraph that images the corona from 1.5--6$\,R_{\odot}$(see footnote\footnote{The levels of stray-light just beyond the occulter mean that in practice the C2 inner field of view limit is $2.2\,R_{\odot}$}). The conceptual diagram for its optical layout is shown in Figure~\ref{fig:c2_concept}. The front aperture A0 is on the left of the diagram and includes the external occulter D1, consisting of three consecutive circular disks on a common spindle, these disks completely shadow the entrance aperture A1 from direct sunlight. The disks also successively intercept diffracted sunlight from the one before to minimize the total diffracted light from the solar disk falling on the object lens O1. 
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.5, angle=90]{c2_detail.png}
@@ -62,7 +69,7 @@ The disks have fine threads on their edges that have been diamond machined, and 
 
 The light focused onto the focal plane by the O3 lens first passes through a colour filter and polarizer wheel, which selects the band pass and takes three polarization images at $0^{\circ}$, $-60^{\circ}$ and $+60^{\circ}$ such that total or polarized brightness images of the corona may be taken. Mounted at the focal plane is a front-side illuminated $1024\times1024$ CCD, with $21\mu$ square pixels (equivalent angular size if $11.4''$),  operating in a nominal spectral range of $500-700$\,nm, at a temperature of $-80^{\circ}$\,C. CCD readout takes approximately 22 seconds, after which the image may be compressed by a number of algorithms before being sent to the ground station. Among the observing nominal modes are routine flat-field exposures and dark current exposures to be used in calibration. At current operations the C2 coronagraph offers a total brightness image of the corona every 15 minutes.  
 
-Finally, C3 is an externally occulted broadband lens coronagraph that images the corona from 3.7--30$\,R_{\odot}$, with a pixel size of $5'6'$ and brightness range of $3\times10^{-9}$--$1\times10^{-11}$. It has the same optical design as C2 (Figure~\ref{fig:c2_concept}).
+Finally, C3 is an externally occulted broadband lens coronagraph that images the corona from 3.7--30$\,R_{\odot}$, with a pixel size of $5.6'$ and brightness range of $3\times10^{-9}$--$1\times10^{-11}$. It has the same optical design as C2 (Figure~\ref{fig:c2_concept}).
 
 The C1, C2 and C3 coronagraph data is processed on-board using a number of steps that may compress the data before transmission to an Earth ground station. Each telescope feeds its compressed data to the same telemetry buffer which can store up to 2\,Mb. The  LASCO telemetry rate is 4.2\,kb\,s$^{-1}$ and communication with the ground is via the Deep Space Network (DPS). The SOHO spacecraft is usually in contact with the DPS for approximately 2 hours per day. Data captured by the DPS is then transmitted to servers at NASA's Goddard Space Flight Centre (GSFC) and the Naval Research Laboratory (NRL). Only the C2 coronagraph is used in this thesis, and some sample level-2 data for C2 is shown in Figure~\ref{fig:lasco_c2_obs}
 \begin{figure}[!t]
@@ -79,20 +86,20 @@ The \emph{Solar Terrestrial Relations Observatory} \citep[\emph{STEREO};][]{kai0
 \begin{sidewaysfigure}
 \centering
 \includegraphics[scale=0.9, trim=2cm 7cm 0cm 0cm]{where_stereo_thesis.pdf}
-\caption[STEREO spacecraft positions]{The {\emph STEREO} A and B spacecraft positions with respect to Sun, Earth and inner planets.}
+\caption[STEREO spacecraft positions]{The {\emph STEREO} A and B spacecraft positions with respect to Sun, Earth and inner planets on 12 January 2008, 22 September 2011 and 04 September 2013}
 \label{fig:where_str}
 \end{sidewaysfigure}
 On each spacecraft there are two coronagraphs, COR1 and COR2 \citep{how08}. The Ahead COR1 and COR2 combined with Behind COR1 and COR2 offer a stereoscopic view of the corona and any transient event taking place, such as a CME.
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{images/COR1_design}
+\includegraphics[width=0.8\textwidth, trim=0cm 0cm 0cm 1cm]{images/COR1_design}
 \caption[The COR1 coronagraph]{A schematic of the basic optical design of the the COR1 coronagraph. There are two such identical instruments, one on the Ahead and one on the Behind spacecraft. It is the same basic design as the Lyot coronagraph with the addition of baffles to prevent scattered light and a polarizer behind the Lyot stop \citep{thomp2008}.}
 \label{fig:COR1_design}
 \end{center}
 \end{figure}
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{images/cor2}
+\includegraphics[width=0.8\textwidth, trim=0cm 0cm 0cm 1cm]{images/cor2}
 \caption[The COR2 coronagraph]{A schematic of the basic optical design of the COR2 coronagraph. This is an externally occulted coronagraph, meaning it has an extra occultation disk in front of the objective lens. This results in less internally scattered light, but also results in an obscuration of the inner corona. As with COR1, there are two such identical instruments, one on the Ahead and one on the Behind spacecraft \citep{how08}.}
 \label{fig:cor2}
 \end{center}
@@ -103,7 +110,7 @@ COR1 is an internally occulted Lyot refractive coronagraph (Figure~\ref{fig:COR1
 It has an internal polarizer located after the first doublet lens in the optical system (Figure~\ref{fig:COR1_design}) and takes three images at $0^{\circ}$, $\pm60^{\circ}$, so that polarized or total brightness images of the inner corona may be produced. Stray light levels of both COR1 A and B lie between 0.1--1$\times10^{-6}\,\mathrm{B}_{\odot}$, and some defects in the field lens can cause ring shaped features with 1.4$\times10^{-6}\,\mathrm{B}_{\odot}$ \citep{how08}. The focal plane of the instrument has a $1024\times1024$ pixel CCD, with a platescale of 3.75$''$ per pixel \citep{thomp2008}. To improve the signal to noise, a $2\times2$ pixel binning may be performed. A typical observing sequence will perform three 1 second exposures (one for each polarization state at 0$^{\circ}$, -60$^{\circ}$, and +60$^{\circ}$), in total taking 11 seconds. Typical CCD read-out times result in an image sequence cadence of 8 minutes (time between a three image set and the next three image set).
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[scale=0.4]{euvi_cor1_cor2.png}
+\includegraphics[scale=0.3, trim=0cm 0cm 0cm 1cm]{euvi_cor1_cor2.png}
 \caption[COR1 and COR2 observations]{Observation of the corona from the COR1 (green), and COR2 (red) coronagraphs on board the STEREO Ahead spacecraft, 01 Sep 2009 23:50 UT. An Extreme Ultraviolet Imaging (EUVI) 304\,\AA~ image of the sun is shown at the center. A CME was observed, erupting to the south-west. {\it Image Courtesy of Alex Young, http://www.thesuntoday.org/.} }
 \label{fig:cor1cor2}
 \end{center}
@@ -160,7 +167,7 @@ Any imagers that have bandpasses centered on such wavelengths can therefore allo
 
 \subsection{The Atmospheric Imaging Assembly}\label{sec:40}
 
-SDO is located at Lagrangian point 1 and carries onboard the Atmospheric Imaging Assembly (AIA). AIA consists of four Cassegrain telescopes that provide visible, ultraviolet (UV), and extreme ultraviolet (EUV) full-disk images of the transition region and corona up to $0.5\,R_{\odot}$above the photosphere with 0.6$''$ spatial resolution and 12-second temporal resolution \citep{lemen2012}. The telescopes provide imaging in seven extreme ultraviolet passbands centered on the lines Fe\,\Rmnum{18} \,(94\,\AA), Fe\,\Rmnum{8}, \Rmnum{21}\,(131\,\AA), Fe\,\Rmnum{9} \,(171\,\AA), Fe\,\Rmnum{12}, \Rmnum{24}\,(193\,\AA), Fe\,\Rmnum{14}\,(211\,\AA), He\,\Rmnum{2}\,(304\,\AA), Fe\,\Rmnum{16}\,(335\,\AA). One of the telescopes observes longer wavelengths at C\,\Rmnum{4}\,(1600\,\AA), the nearby continuum at (1700\,\AA) and a broadband visible filter centered on (4500\,\AA)  giving a full temperature coverage of $5\times10^3$\,K to $2\times10^7$\,K.
+SDO is in a geosynchronous orbit at 102$^{\odot}$\,W longitude, inclined at 28.5$^{\odot}$. AIA consists of four Cassegrain telescopes that provide visible, ultraviolet (UV), and extreme ultraviolet (EUV) full-disk images of the transition region and corona up to $0.5\,R_{\odot}$above the photosphere with 0.6$''$ spatial resolution and 12-second temporal resolution \citep{lemen2012}. The telescopes provide imaging in seven extreme ultraviolet passbands centered on the lines Fe\,\Rmnum{18} \,(94\,\AA), Fe\,\Rmnum{8}, \Rmnum{21}\,(131\,\AA), Fe\,\Rmnum{9} \,(171\,\AA), Fe\,\Rmnum{12}, \Rmnum{24}\,(193\,\AA), Fe\,\Rmnum{14}\,(211\,\AA), He\,\Rmnum{2}\,(304\,\AA), Fe\,\Rmnum{16}\,(335\,\AA). One of the telescopes observes longer wavelengths at C\,\Rmnum{4}\,(1600\,\AA), the nearby continuum at (1700\,\AA) and a broadband visible filter centered on (4500\,\AA)  giving a full temperature coverage of $5\times10^3$\,K to $2\times10^7$\,K.
 
 Each telescope has a field of view is 41$'$ circular diameter, a 20\,cm primary mirror and an active secondary mirror that is pointed in response to signals from a guide telescope. 
 \begin{figure}[!t]
@@ -220,21 +227,21 @@ V(u,v)=\int I(l,m)\mathrm{exp}(i2\pi[ul +vm])dldm
 \end{equation}
 where $V$ is the visibility, $(u,v)$ are the spatial frequency of fringes on the sky, corresponding to the angular sky coordinates $(l,m)$. $I(l,m)$ is the brightness distribution across the sky. The inverse of this means that the output of an interferometer may be inverse Fourier transformed to obtain the sky brightness distribution
 \begin{equation}
-I(l,m)=\int V(u,v))\mathrm{exp}(-i2\pi[ul +vm])dldm
+I(l,m)=\int V(u,v))\mathrm{exp}(-i2\pi[ul +vm])dudv
 \label{eqn:sky_b}
 \end{equation}
-This equations apply to the ideal case. In reality the visibility function is initially uncalibrated $V^{'}(u,v)$, and sampling of the visibility is discrete in $(u,v)$ space i.e., if an interferometer has $n$ telescopes in the array, then it will have $n(n-1)/2$ baselines (telescope pairs). This means that there is only $n(n-1)/2$ samples of visibility $V$. The sampling of the discrete points in space is represented by a sampling function $S(u,v) = \delta(u-u_k, v-v_k)$, where $\delta$ is a dirac delta function and $(u_k, v_k)$ are the positions in $(u, v)$ space at which there is sampling. Equation~\ref{eqn:sky_b} thus becomes
+This equations apply to the ideal case. In reality the visibility function is initially uncalibrated $V^{'}(u,v)$, and sampling of the visibility is discrete in $(u,v)$ space i.e., if an interferometer has $n$ telescopes in the array, then it will have $n(n-1)/2$ baselines (telescope pairs). This means that there is only $n(n-1)/2$ samples of visibility $V$. The sampling of the discrete points in space is represented by a sampling function $S(u,v) = \delta(u-u_k, v-v_k)$, where $\delta$ is a Dirac delta function and $(u_k, v_k)$ are the positions in $(u, v)$ space at which there is sampling. Equation~\ref{eqn:sky_b} thus becomes
 \begin{equation}
 I(l,m)=\int S(u,v)V^{'}(u,v)\mathrm{exp}(-i2\pi[ul +vm])dldm
 \label{eqn:VS}
 \end{equation}
-Firstly, the original visabilities must be calibrated to obtain $V(u,v)$ from $V^{'}(u,v)$. Calibration usually involves characterising the gain $G$ of an interferometer and any phase corrections $P$ that need to be made. This is done by observing a strong radio point source of known flux (known ideal $V$) such that G and P may be characterised in the equation
+Firstly, the original visibilities must be calibrated to obtain $V(u,v)$ from $V^{'}(u,v)$. Calibration usually involves characterising the gain $G$ of an interferometer and any phase corrections $P$ that need to be made. This is done by observing a strong radio point source of known flux (known ideal $V$) such that G and P may be characterised in the equation
 \begin{equation}
 V^{'}(u,v) = G[ P[V(u,v)] ]
 \end{equation}
 NRH instrument phase and gain calibration is performed by observing Cygnus A. Phase and gain accuracy for these measurements are $5^{\circ}$ and 5\%, respectively, with only 1 calibration per week necessary because of good system stability \citep{avignon1989}
 
-Calibrated visibilities are then used in equation~\ref{eqn:VS}. If we represent the Fourier transform by $\mathfrak{F}[~]$, and using the convolution theorem then equation~\ref{eqn:VS} becomes
+Calibrated visibilities are then used in Equation~\ref{eqn:VS}. If we represent the Fourier transform by $\mathfrak{F}[~]$, and using the convolution theorem then Equation~\ref{eqn:VS} becomes
 \begin{equation}
 I(l,m)=\mathfrak{F}[S(u,v)V(u,v))] = \mathfrak{F}[S(u,v)]\ast\mathfrak{F}[V(u,v)]
 \label{eqn:VS2}
@@ -244,7 +251,7 @@ Given that the Fourier transform of the sampling function is the beam of the ins
 I_D(l,m) = \mathfrak{F}[S(u,v)]\ast\mathfrak{F}[V(u,v)] = B(l,m) \ast I(l,m)
 \label{eqn:convol}
 \end{equation}
-Hence the result of equation~\ref{eqn:VS} is the sky brightness distribution convolved with the instrument beam, this image is known as the dirty map $I_D(l,m)$. The dirty map will contain the sources in the actual sky brightness distribution but they are contaminated with the side lobes of the instrument beam (Figure~\ref{fig:IVSB}). 
+Hence the result of Equation~\ref{eqn:VS} is the sky brightness distribution convolved with the instrument beam, this image is known as the dirty map $I_D(l,m)$. The dirty map will contain the sources in the actual sky brightness distribution but they are contaminated with the side lobes of the instrument beam (Figure~\ref{fig:IVSB}). 
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.5]{image_ft_relation}
@@ -255,7 +262,7 @@ Hence the result of equation~\ref{eqn:VS} is the sky brightness distribution con
 In order to obtain $I(l,m)$ from $I_D(l,m)$ we must `deconvolve' the beam from the dirty map. The main deconvolution algorithm used to obtain $I(l,m)$ from $I_D(l,m)$ is known as CLEAN. CLEAN works by locating the peak emission in the dirty map $I_{D, max}(l_i,m_i)$, subtracting the dirty beam $B(l,m)$ from the peak, and placing a point source at a corresponding location $(l_i,m_i)$ in an `empty' clean image. It then finds the next peak and repeats the process. The result is a clean image of point sources at locations that correspond to the peak locations in the dirty map. The clean image is then convolved with a `clean beam' i.e., a beam without sidelobes (a 2D gaussian in the simplest case). After all sources are subtracted from $I_D(l,m)$, we are left with a `residual' map. This residual map is added to the clean image to take into account that the sources in the image have different intensities. The result is an image of the sky-brightness distribution without contamination from the beam sidelobes
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[scale=0.55, trim=0.5cm 7cm 0cm 2.5cm]{aia_nrh_compare.pdf}
+\includegraphics[scale=0.53, trim=0.1cm 7cm 0cm 3.5cm]{aia_nrh_compare.pdf}
 \caption[NRH observations]{Observations from NRH at 150\,MHz and 432,MHz, with AIA\,171\,\AA~for comparison. All three images were taken at the same time at 14:15 UT on 01 September 2013.}
 \label{fig:nrh_obs}
 \end{center}
@@ -277,8 +284,10 @@ Bandwidth                    & 700\,kHz \\
 Polarization                  & Stokes I and V \\
 Observing time             & 7.5\,hr centered around 12 UT \\
 \hline
-\label{tab:nrh}
+
 \end{tabular}
+\caption {NRH properties compiled from \citep{kerdraon1997}}
+\label{tab:nrh}
 \end{table}
 
 %The Mark IV Nancay Radioheliograph Solar Physics 120 p193) 
@@ -327,7 +336,7 @@ The time domain resolution for both the LFR and HFR is determined by the DPU. No
 \subsection{Rosse Solar Terrestrial Observatory}\label{sec:30}
 
 \subsubsection{Antennas and Spectrometers}
-The Rosse Solar Terrestrial Observatory was established in 2010 at Birr Castle, Co. Offaly, Ireland (53$^{\circ}$ 05' 38.9'' , 7$^{\circ}$ 55' 12.7'') \citep{zucca2012}. The primary objective of the observatory is to observe low frequency radio bursts occurring in the solar atmosphere and the ionospheric and geomagnetic response following this radio activity.  To date, three \textit{Compound Astronomical Low-cost Low-frequency Instrument for Spectroscopy and Transportable Observatory} (CALLISTO) spectrometers have been installed, with the capability of observing in the frequency range 10--870~MHz. The receivers are fed simultaneously by biconical and log-periodic antennas. Nominally, frequency spectra in the range 10--400 MHz are obtained with 4 sweeps per second over 600 channels. The instrumental set-up is described here.
+The Rosse Solar Terrestrial Observatory was established in 2010 at Birr Castle, Co. Offaly, Ireland (53$^{\circ}$ 05' 38.9'' , 7$^{\circ}$ 55' 12.7'') \citep{zucca2012}. The primary objective of the observatory is to observe low frequency radio bursts occurring in the solar atmosphere and the ionospheric and geomagnetic response following this radio activity.  To date, three \textit{Compound Astronomical Low-cost Low-frequency Instrument for Spectroscopy and Transportable Observatory} \citep[CALLISTO;][]{Benz2005} spectrometers have been installed, with the capability of observing in the frequency range 10--870~MHz. The receivers are fed simultaneously by biconical and log-periodic antennas. Nominally, frequency spectra in the range 10--400 MHz are obtained with 4 sweeps per second over 600 channels. The instrumental set-up is described here.
 
 RSTO employs three callisto receivers that cover the ranges of 10--100, 100--200, 200--400\,MHz, respectively. The 10--100\,MHz receiver (Callisto-1), is fed (via frequency up-converter) by a biconical Schwarzbeck antenna, model number VHBD 9134. The antenna elements are 4\,m long allowing a nominal frequency bandwidth of 20--200\,MHz. Signal feed from the bicone to Callisto-1 is via $70\,\Omega$ coaxial cable, $\sim$20 meters in length Figure~\ref{fig:rsto_layout}. The bicone is mounted on a Yaesu-1 motor that permits solar tracking in the azimuth direction only (the antenna beam is symmetric in elevation). 
 %The bicone motor control unit (MCU) is located in the control room and PC communicates with the motor is via RS232 ($\sim20$\,m).
@@ -353,17 +362,16 @@ Since the installation of RSTO in September 2010 there has been a number radio b
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.62, trim=1cm 0cm 0cm 0cm]{20110922_typeII_hb.pdf}
-\caption[Callisto observations type II and herringbones]{A radio burst from 22 September 2011 observed at RSTO. This radio burt was detected by the 10--100\,MHz Callisto fed by the bicone antenna. The radio burst was quite complex, consisting of the fundamental and harmonic of a type II burst followed by herringbone fine structures. The top plot shows the GOES light curves for comparison, with the dashed vertical line indicating start and end times of the dynamic spectra.}
+\caption[Callisto observations type II and herringbones]{A radio burst from 22 September 2011 observed at RSTO. This radio burt was detected by the 10--100\,MHz Callisto fed by the bicone antenna. The radio burst was quite complex, consisting of the fundamental and harmonic of a type II burst followed by herringbone fine structures. The top plot shows the GOES light curves for comparison, with the dashed vertical line indicating start and end times of the dynamic spectra. Adapted from \citep{zucca2012}}
 \label{fig:typeII_hb}
 \end{center}
 
 \end{figure}
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[scale=0.5, trim=1cm 0cm 0cm 0cm]{callisto_instr_paper2.pdf}
-\caption[Callisto observations type II and herringbones]{A zoom of the herringbone structure shown in Figure~\ref{fig:typeII_hb}. The time sampling of the callisto spectrometers (0.25\,s) is fast enough to catch such herringbone features}
+\includegraphics[scale=0.6, trim=1cm 2cm 2.5cm 1cm]{hbone_backsub.pdf}
+\caption[Callisto observations type II and herringbones]{(Top) A zoom of the herringbone structure shown in Figure~\ref{fig:typeII_hb}. The time sampling of the Callisto spectrometers (0.25\,s) is fast enough to catch such herringbone features. (Bottom) Same spectrum but background subtracted, the herringbones have a much better contrast in this spectrum.}
 \label{fig:herringbones}
-
 \end{center}
 \end{figure}
 \begin{figure}[!t]
@@ -397,6 +405,6 @@ To compare RSTO to other radio observing sites, an survey of RFI at RSTO was per
 
 \subsection{Dynamic Spectra Data Reduction}
 
-The Nan\c{c}ay Decametric Array, STEREO WAVES, and the Callisto spectrometers each have basic data reduction techniques in common. The most basic of these is background subtraction. Analogous to the dark current on a CCD, there will be some background signal detected due to the system electronics. This is due to a number of effects including the any DC bias and the noise produce by system thermal properties. This background may be subtracted by a variety of techniques, such as averaging the dynamic spectrum through time and using this as a background, subtracting a spectrum occurring just before a detected radio burst, or automatically detecting a spectra with no radio burst and using this as a background. The last type is the one implemented on the dynamic spectra used in this thesis work. The procedure is implemented in the IDL procedure {\it constbacksub.pro}. This function firstly computes the average of each frequency channel in time and subtracts this from the original spectrogram. It then computes the standard deviation of each time-step. The time-steps containing a radioburst should have the largest standard deviation, while those without a burst will have small standard deviation. By default the smallest  5\% of the standard deviations is averaged and used as a background.
+The Nan\c{c}ay Decametric Array, STEREO WAVES, and the Callisto spectrometers each have basic data reduction techniques in common. The most basic of these is background subtraction. Analogous to the dark current on a CCD, there will be some background signal detected due to the system electronics. This is due to a number of effects including the any DC bias and the noise produce by system thermal properties. This background may be subtracted by a variety of techniques, such as averaging the dynamic spectrum through time and using this as a background, subtracting a spectrum occurring just before a detected radio burst, or automatically detecting a spectra with no radio burst and using this as a background. The last type is the one implemented on the dynamic spectra used in this thesis work. The procedure is implemented in the IDL procedure {\it constbacksub.pro}. This function firstly computes the average of each frequency channel in time and subtracts this from the original spectrogram. It then computes the standard deviation of each time-step. The time-steps containing a radioburst should have the largest standard deviation, while those without a burst will have small standard deviation. By default the smallest  5\% of the standard deviations is averaged and used as a background. Am example of raw and background subtracted data is shown in Figure~\ref{fig:herringbones}
 
 Dynamic spectra may also be contaminated by radio frequency interference (RFI). This may be sporadic, periodic and regular, or continuous in time. RFI is generally very difficult to remove from a dynamic spectra while still maintaining the desired signal (radio burst). The techniques of RFI removal may be a simple smoothing of the data  or convolution with a Gaussian to `average out' the signal. Much more sophisticated RFI identification algorithms are based on multiscale filtering of the dynamic spectra image or using a kurtosis estimator \citep{nita2007, nita2010}(RFI is generally much more `peaked' in either frequency or time). Generally, frequency channels with bad contamination by RFI are avoided if possible.

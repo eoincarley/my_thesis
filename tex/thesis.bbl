@@ -1,4 +1,4 @@
-\begin{thebibliography}{274}
+\begin{thebibliography}{276}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -259,6 +259,12 @@
 {\sc {Cargill}, P.J.} (2004). {On the Aerodynamic Drag Force Acting on
   Interplanetary Coronal Mass Ejections}. {\em \solphys\/}, {\bf 221},
   135--149.
+
+\bibitem[{{Carley} {\em et~al.\/}(2012){Carley}, {McAteer} \&
+  {Gallagher}}]{carley2012}
+{\sc {Carley}, E.P., {McAteer}, R.T.J. \& {Gallagher}, P.T.} (2012). {Coronal
+  Mass Ejection Mass, Energy, and Force Estimates Using STEREO}. {\em \apj\/},
+  {\bf 752}, 36.
 
 \bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
 {\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
@@ -624,6 +630,9 @@
 \bibitem[{{Inan} \& {Golkowski}(2011)}]{inan2011}
 {\sc {Inan}, U. \& {Golkowski}, M.} (2011). {\em {Principles of Plasma Physics
   for Engineers and Scientists}\/}.
+
+\bibitem[{{Jackson}(1975)}]{jackson1975}
+{\sc {Jackson}, J.D.} (1975). {\em {Classical electrodynamics}\/}.
 
 \bibitem[{{Kabin}(2001)}]{kabin2001}
 {\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
