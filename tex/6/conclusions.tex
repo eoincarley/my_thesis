@@ -34,7 +34,7 @@ There are a variety of catalogues that list CME kinematical properties for all e
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.6, trim=2cm 2cm 1cm 1cm]{masks.pdf}
-\caption{Sample C2 masks for no-detection (left) and CME-detection (right). Black arrays have a values of 0 and white areas have a value of 1. The no-detection masks has some spurious blobs, possibly due to small ejections of plasma in the solar wind, or cosmic rays on the CCD.}
+\caption[CORIMP masks]{Sample C2 masks for no-detection (left) and CME-detection (right). Black arrays have a values of 0 and white areas have a value of 1. The no-detection masks has some spurious blobs, possibly due to small ejections of plasma in the solar wind, or cosmic rays on the CCD.}
 \label{fig:masks}
 \end{center}
 \end{figure}
@@ -82,7 +82,7 @@ where $M_{mass}$ is mass calculated with the mask applied as normal, $M_{no\_mas
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.6, trim=0cm 0cm 0cm 0cm]{inverse_masks}
-\caption{The inverse mask, with black indicating pixel values of 0 and white indicating values of 1. This allows everything \emph{but} the CME to be summed. Black circle is solar limb.}
+\caption[Inverse masks]{The inverse mask, with black indicating pixel values of 0 and white indicating values of 1. This allows everything \emph{but} the CME to be summed. Black circle is solar limb.}
 \label{fig:inverse_masks}
 \end{center}
 \end{figure}
@@ -90,7 +90,7 @@ where $M_{mass}$ is mass calculated with the mask applied as normal, $M_{no\_mas
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.3, trim=0cm 2cm 0cm 1cm]{compare_masks_c2c3}
-\caption{Time series of the mass obtained from using no mask and using the inverse mask. The data behave as expected, with the inverse mask being essentially the same as the no-mask but smaller by the CME mass. The drift towards negative values is symptomatic of a pre-event image (for base-difference) that is too bright. The discontinuous values are due to badly prepped images in the NRL archive.}
+\caption[Inverse mass time series]{Time series of the mass obtained from using no mask and using the inverse mask. The data behave as expected, with the inverse mask being essentially the same as the no-mask but smaller by the CME mass. The drift towards negative values is symptomatic of a pre-event image (for base-difference) that is too bright. The discontinuous values are due to badly prepped images in the NRL archive.}
 \label{fig:comparison0}
 \end{center}
 \end{figure}
@@ -100,7 +100,7 @@ To test condition (ii) we compare the difference of the blue and orange time ser
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.3]{mask_nomask_invmask_c2c3}
-\caption{Comparison of the mass from masked images (blue) the no\_mask - inverse\_mask images (red) for C2 (upper) and C3 (lower). For both C2 and C3 the blue and red lines are a good match. The most obvious difference is the positive drift of the red line in C2, due to an excess background brightness subtracted in the base-differencing.}
+\caption[Mass time series error check]{Comparison of the mass from masked images (blue) the no\_mask - inverse\_mask images (red) for C2 (upper) and C3 (lower). For both C2 and C3 the blue and red lines are a good match. The most obvious difference is the positive drift of the red line in C2, due to an excess background brightness subtracted in the base-differencing.}
 \label{fig:comparison}
 \end{center}
 \end{figure}
@@ -286,7 +286,7 @@ Despite the fact there are strong detections for horizontal lines, the multiple 
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.7, trim=3.5cm 0cm 0cm 1cm]{herringbone_stats.pdf}
-\caption[Hough transform herringbones]{Herringbone bursts detected using the Hough transform. The transform performs well when the bursts are intense, but performs poorly when they are weak and close to background values.}
+\caption[Herringbone statistics]{Herringbone bursts detected using the Hough transform. The transform performs well when the bursts are intense, but performs poorly when they are weak and close to background values.}
 \label{fig:bibf}
 \end{center}
 \end{figure}
@@ -297,7 +297,7 @@ Despite the fact there are strong detections for horizontal lines, the multiple 
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.7, trim=3.5cm 0cm 0cm 1cm]{herringbone_stats2.pdf}
-\caption[Hough transform herringbones]{(a) Intensity versus time for raw data; (b) intensity versus time for background subtracted data. (c) and (d) show scatter plots of drift rate versus rate of change of intensity along the burst for raw and background subtracted data, respectively.  The two show a good correlation which might suggest that the faster the beam, the faster it loses its energy}
+\caption[Herringbone statistics 2]{(a) Intensity versus time for raw data; (b) intensity versus time for background subtracted data. (c) and (d) show scatter plots of drift rate versus rate of change of intensity along the burst for raw and background subtracted data, respectively.  The two show a good correlation which might suggest that the faster the beam, the faster it loses its energy}
 \label{fig:bibt}
 \end{center}
 \end{figure}
@@ -306,7 +306,7 @@ Figure~\ref{fig:bibf}b and c shows the frequency with respect to time for all bu
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.5, trim=1.5cm 0cm 0cm 1cm]{hough_maxi.pdf}
-\caption[Hough transform herringbones]{Scatter plot of drift rate and maximum intensity of the burst. They show no correlation despite the fact Equation~\ref{eqn:plasma_emiss} would imply that they should. A larger data set needs to be explored in order to investigate this.}
+\caption[Herringbone intensity vs drift]{Scatter plot of drift rate and maximum intensity of the burst. They show no correlation despite the fact Equation~\ref{eqn:plasma_emiss} would imply that they should. A larger data set needs to be explored in order to investigate this.}
 \label{fig:maxi}
 \end{center}
 \end{figure}

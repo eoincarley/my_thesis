@@ -1,4 +1,4 @@
-\begin{thebibliography}{276}
+\begin{thebibliography}{281}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -700,6 +700,10 @@
   interplanetary foreshock}. {\em Journal of Geophysical Research (Space
   Physics)\/}, {\bf 108}, 1126.
 
+\bibitem[{{Kontar}(2001)}]{kontar2001}
+{\sc {Kontar}, E.P.} (2001). {Dynamics of electron beams in the inhomogeneous
+  solar corona plasma}. {\em \solphys\/}, {\bf 202}, 131--149.
+
 \bibitem[{{Kosugi}(1976)}]{kosugi1976}
 {\sc {Kosugi}, T.} (1976). {Type II-IV radio bursts and compact and diffuse
   white-light clouds in the outer corona of December 14, 1971}. {\em
@@ -1088,6 +1092,17 @@
 {\sc {Priest}, E.R. \& {Forbes}, T.G.} (1986). {New models for fast steady
   state magnetic reconnection}. {\em \jgr\/}, {\bf 91}, 5579--5588.
 
+\bibitem[{{Ratcliffe} {\em et~al.\/}(2012){Ratcliffe}, {Bian} \&
+  {Kontar}}]{ratcliffe2012}
+{\sc {Ratcliffe}, H., {Bian}, N.H. \& {Kontar}, E.P.} (2012). {Density
+  Fluctuations and the Acceleration of Electrons by Beam-generated Langmuir
+  Waves in the Solar Corona}. {\em \apj\/}, {\bf 761}, 176.
+
+\bibitem[{{Reid} \& {Kontar}(2010)}]{reid2010}
+{\sc {Reid}, H.A.S. \& {Kontar}, E.P.} (2010). {Solar Wind Density Turbulence
+  and Solar Flare Electron Transport from the Sun to the Earth}. {\em \apj\/},
+  {\bf 721}, 864--874.
+
 \bibitem[{{Reiner} {\em et~al.\/}(2001){Reiner}, {Kaiser}, {Gopalswamy},
   {Aurass}, {Mann}, {Vourlidas} \& {Maksimovic}}]{reiner2001}
 {\sc {Reiner}, M.J., {Kaiser}, M.L., {Gopalswamy}, N., {Aurass}, H., {Mann},
@@ -1303,6 +1318,11 @@
   radioheliograph: New developments and data acquisition for the solar physics
   community}. {\em Advances in Space Research\/}, {\bf 13}, 411--414.
 
+\bibitem[{{Thejappa} \& {MacDowall}(1998)}]{thejappa1998}
+{\sc {Thejappa}, G. \& {MacDowall}, R.J.} (1998). {Evidence for Strong and Weak
+  Turbulence Processes in the Source Region of a Local Type III Radio Burst}.
+  {\em \apj\/}, {\bf 498}, 465.
+
 \bibitem[{{Thernisien} {\em et~al.\/}(2006){Thernisien}, {Howard} \&
   {Vourlidas}}]{thern2006}
 {\sc {Thernisien}, A.F.R., {Howard}, R.A. \& {Vourlidas}, A.} (2006). {Modeling
@@ -1438,6 +1458,10 @@
 \bibitem[{{Vandas} \& {Karlick{\'y}}(2011)}]{vandas2011}
 {\sc {Vandas}, M. \& {Karlick{\'y}}, M.} (2011). {Electron acceleration in a
   wavy shock front}. {\em \aap\/}, {\bf 531}, A55.
+
+\bibitem[{{Vedenov}(1963)}]{vedenov1963}
+{\sc {Vedenov}, A.A.} (1963). {Quasi-Linear Equations for Quantized Plasma}.
+  {\em Soviet Physics Doklady\/}, {\bf 7}, 1008.
 
 \bibitem[{{Vernazza} {\em et~al.\/}(1981){Vernazza}, {Avrett} \&
   {Loeser}}]{vernazza1981}

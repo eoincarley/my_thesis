@@ -398,42 +398,55 @@ More sophisticated models involve multiple reflections at the shock that increas
 %-\Gamma_{coll}(\mathbf{k}) N(\mathbf{k})
 %\end{equation}
 %where the lefthand side takes the form of a Lagrangian derivative with group speed $v_g$, $\Gamma$ represents a wave growth term given the distribution function $f(v_{\|})$, and $\Gamma_{coll}$ is a term taking into account collisional damping of the wave \citep{aschbook}.
-
-The treatment of the interaction of particles and waves in a plasma is in determining what the oscillatory response of a plasma is to a velocity distribution function \citep{inan2011}. In order to see how the distribution function effects wave growth we start with an equilibrium distribution $f_0$ and impose a perturbation $f_1(\mathbf{r}, \mathbf{v}, t)$, so that the total distribution function is $f(\mathbf{r}, \mathbf{v}, t) = f_0 +f_1(\mathbf{r}, \mathbf{v}, t)$.  The perturbation quantities will take the form $e^{i(\omega t + \mathbf{k}r)}$ i.e., perturbation quantities that are periodic in space and time with eave number $\mathbf{k}$ and angular frequency $\omega$.
+The growth of collective oscillations in a plasma in response to the presence of some distribution of particles $f(\mathbf{r}, \mathbf{v}, t)$ in phase space is treated most simply with `quasi-linear theory' \citep{vedenov1963}. This is essentially a perturbation theory using the Vlasov and Maxwell's equations and successfully described the growth of plasma oscillations in the presence of electron beams. In order to see how a particle distribution function effects wave growth we start with an equilibrium distribution $f_0$ and impose a perturbation $f_1(\mathbf{r}, \mathbf{v}, t)$, so that the total distribution function is $f(\mathbf{r}, \mathbf{v}, t) = f_0 +f_1(\mathbf{r}, \mathbf{v}, t)$, with $f_1<<f_0$.  The perturbation quantities will take the form $e^{i(\omega t + \mathbf{k}r)}$ i.e., perturbation quantities that are periodic in space and time with wave number $\mathbf{k}$ and angular frequency $\omega$.
 
 To see how $f(\mathbf{r}, \mathbf{v}, t)$ evolves in time we insert it into the Vlasov equation and linearize, ignoring any terms higher than second order
 \begin{equation}
 \frac{\partial f_1}{\partial t} + (\mathbf{v}\cdot \nabla)f_1 +\frac{q_e}{m_e}(\mathbf{E} + \mathbf{v}\times \mathbf{B})\cdot\nabla_vf_0=0
 \end{equation}
 %Assuming an isotropic $f_0$ it can be shown that $(\mathbf{v}\times \mathbf{B})\cdot\nabla_vf_0=0$, and 
-Using Poisson's equation (Maxwell first equation) and replacing the time and space derivatives with their oscillatory operators ($\partial/\partial t \rightarrow -i\omega$, $\nabla \rightarrow i\mathbf{k}$), the perturbed Vlasov equation may be rearranged to give
+Replacing the time and space derivatives with their oscillatory operators ($\partial/\partial t \rightarrow -i\omega$, $\nabla \rightarrow i\mathbf{k}$), the perturbed Vlasov equation may be rearranged to give
 \begin{equation}
 f_1=\frac{q_e}{m_e}\frac{j}{\omega-\mathbf{k\cdot v}}\mathbf{E}\cdot\nabla_vf_0
 \label{eqn:f_pert}
 \end{equation}
-This equation relates the perturbed quantity $f_1$ to the unperturbed distribution function and the electric field. The most important aspect of this equation is the $\omega-\mathbf{k\cdot v}$ term in the denominator, implying the possibility of resonance. Now, integrating both sides of \ref{eqn:f_pert} over all velocity space and again using Poisson's equation results in
+This equation relates the perturbed quantity $f_1$ to the unperturbed distribution function and the electric field. The most important aspect of this equation is the $\omega-\mathbf{k\cdot v}$ term in the denominator, implying the possibility of resonance between waves of phase speed $\omega/\mathbf{k}$ and particles of speed $v$. Now, integrating both sides of \ref{eqn:f_pert} over all velocity space and again using Maxwell-1 results in
 %using (19) the general form of the dispersion relation of the oscillations $(\omega,\mathbf{k})$ in perturbations $f_1$ and $E$ is derived
 \begin{equation}
-1+\frac{q_e}{\epsilon_0m_e}\frac{1}{k^2}\mathbf{k}\cdot\int_v\frac{\nabla_v f_0}{\omega-\mathbf{k\cdot v}}d^3v=0
+1+\frac{4\pi q_e}{m_e}\frac{1}{k^2}\mathbf{k}\cdot\int_v\frac{\nabla_v f_0}{\omega-\mathbf{k\cdot v}}d^3v=0
 \label{eqn:dispersion}
 \end{equation}
-Any electrostatic normal mode oscillations satisfy this relationship and integrating over all velocity space will result in a dispersion relation for the oscillations of the plasma property $f_1$. The equation effectively gives the oscillatory response $\omega = g(\mathbf{k})$ of the perturbation $f_1$ of the plasma, given a particular velocity distribution function $f_0$. For example, a cold plasma distribution function where $f_0 = N_0\delta(\mathbf{v})$, where $\delta$ is a Dirac-delta, in equation~\ref{eqn:dispersion} will result in a dispersion relation of
-\begin{equation}
-1 - \frac{N_0q_e^2}{\epsilon_0 m_e \omega^2} = 0 
-\end{equation}
-The perturbed Vlasov equation with a cold plasma model (no thermal motions) produces the expression for a plasma oscillation. The integral over velocity space in this case can be performed because the delta function guarantees that there is no velocity with the property of $v = \frac{\omega}{\mathbf{k}}$. If this were to be fulfilled, there is the possibility of resonances equation~\ref{eqn:dispersion} i.e., the integral is non-trivial as $v \rightarrow \frac{\omega}{k}$. This states that if there are electrons in the particle distribution function that match the phase speed of oscillations in the plasma then the integral will have a singularity or 'pole'. To avoid the singularity producing unphysical results, the integration is performed in complex space using a method called contour integration \citep{melrose1989}. The use of contour integration means there will be complex solutions of the dispersion relation of the form $\omega = \omega_r + i\gamma$.
-The real part of the solution applies as normal where the integral is well behaved, far from the singularity. However, integration over the singularity necessitates a complex solution (from the contour integration), hence the $\omega$ consists of both real and imaginary parts.
+Any electrostatic normal mode oscillations satisfy this relationship and integrating over all velocity space will result in a dispersion relation for the oscillations of the plasma property $f_1$. The equation effectively gives the oscillatory response $\omega = g(\mathbf{k})$ of the perturbation $f_1$ of the plasma, given a particular velocity distribution function $f_0$. 
+
+%For example, a cold plasma distribution function where $f_0 = N_0\delta(\mathbf{v})$, where $\delta$ is a Dirac-delta, in equation~\ref{eqn:dispersion} will result in a dispersion relation of
+%\begin{equation}
+%1 - \frac{N_0q_e^2}{\epsilon_0 m_e \omega^2} = 0 
+%\end{equation}
+%The perturbed Vlasov equation with a cold plasma model (no thermal motions) produces the expression for a plasma oscillation. 
+
+The integral over velocity space in this case can be performed because the delta function guarantees that there is no velocity with the property of $v = \frac{\omega}{\mathbf{k}}$. If this were to be fulfilled, there is the possibility of resonances equation~\ref{eqn:dispersion} i.e., there is a singularity in the integral, requiring a non-trivial as $v \rightarrow \frac{\omega}{k}$. The solution requires integration is performed in complex space using a method called contour integration \citep{melrose1989}. The use of contour integration means there will be complex solutions of the dispersion relation of the form $\omega = \omega_r + i\gamma$.
+%The real part of the solution applies as normal where the integral is well behaved, far from the singularity. However, integration over the singularity necessitates a complex solution (from the contour integration), hence the $\omega$ consists of both real and imaginary parts.
 The complex $i\gamma$ means that a time dependency of the periodic solutions to the perturbations $f_1$ will be 
 \begin{equation}
 e^{j\omega t}=e^{(i[\omega_r + i\gamma])}=e^{i\omega_rt}e^{-\gamma t}
+\label{eqn:growth}
 \end{equation}
-This solution is a damped wave with damping factor $\gamma$, meaning the solution to equation~\ref{eqn:dispersion} in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping. However, the damping term is dependent on the negative of the velocity space gradient at $v=\frac{\omega}{k}$ \citep{melrose1989}
-\begin{equation}
-\gamma \sim -\nabla_v f_0|_{v=\frac{\omega}{k}}
-\end{equation}
-If there are a group of electrons that have the same speed of a particular wave in the plasma they may exchange energy with this wave efficiently. If there is a negative gradient on the velocity distribution at $v=\frac{\omega}{k}$, this will lead to wave damping. However, a positive gradient in the velocity distribution will result in $\gamma <0$ and a wave growth term that increases exponentially. Effectively, %if a group of electrons is promoted to a speed that matches the phase speed of Langmuir waves in the plasma, and their velocity space gradient at the phase speed is positive, then Langmuir waves will grow exponential. This group of electrons is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell distribution function. The growth of Langmuir waves in a resonant response to this beam is called the bump-on-tail instability.
-a group of electrons is promoted to a velocity range that closely matches the phase speed of some type of waves in a medium $v \sim \omega/k$. In such a speed range the integrand of (equation) approaches the point at which there is a singularity in the solution. Such a point necessitates a complex solution to the integral, thus providing an imaginary part to the dispersion relation that gives an $e^{-\gamma t}$ term. If the promotion of electrons to a range $v \sim \omega/k$ is combined with a positive gradient of the distribution function in this velocity range, it results in $\gamma < 0$ and $e^{-\gamma t}>0$, leading to wave growth. This is why $v - \omega/k=0$
-is known as the resonance condition \citep{melrose1989}. Since electron beams in the corona match the phase speed of Langmuir waves, the beam results in the generation of Langmuir waves. This group of electrons in the beam is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell-Boltzmann velocity distribution function (Figure~\ref{fig:bot}). 
+This solution is a damped wave with damping factor $\gamma$, meaning the solution to equation~\ref{eqn:dispersion} in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping.
+
+Quasi-linear theory uses Equation~\ref{eqn:f_pert} and Maxwell's first equation to show that the time evolution of the wave energy density in the electrostatic waves is
+\begin{eqnarray}
+\frac{\partial W(k,t)}{\partial t} &=& -\gamma W(k,t)~,~~~\gamma = -\frac{\pi}{n}\frac{\omega^3}{k^2} \frac{\partial f(v,t)}{\partial v}
+\label{eqn:Wk}
+\end{eqnarray}
+where $W(k,t)$ is the spectral energy density of the electrostatic waves and $\gamma$ is the wave growth term \citep{vedenov1963}.
+Simultaneously, the distribution function is evolves according to 
+\begin{eqnarray}
+\frac{\partial f(v,t)}{\partial t} &=& \frac{\partial }{\partial v} \bigg(D\frac{\partial f(v,t)}{\partial v}\bigg)~,~~~D = \frac{4\pi e^2}{m_e^2}\frac{W(k,t)}{v}
+\label{eqn:Diff}
+\end{eqnarray}
+with $D$ being a diffusion coefficient. Equations~\ref{eqn:Wk}--\ref{eqn:Diff} are the closed set of quasi-linear theory equations describing the interaction of electrostatic waves with energy spectrum $W$ and particle distribution function $f$ \citep{vedenov1963, kontar2001}. The wave growth term $\gamma$ has an important dependence on the velocity space gradient. From Equations~\ref{eqn:Wk}, $\partial f/\partial v >0$ will result in $\gamma <0$ and a wave growth term that increases exponentially; this can also be seen Equation~\ref{eqn:growth}. Effectively, a group of electrons is promoted to a velocity range that closely matches the phase speed of some type of waves in a medium $v \sim \omega/k$. In such a speed range the integrand of Equation~\ref{eqn:dispersion} approaches the point at which there is a singularity in the solution. Such a point necessitates a complex solution to the integral, thus providing an imaginary part to the dispersion relation that gives an $e^{-\gamma t}$ term. If the promotion of electrons to a range $v \sim \omega/k$ is combined with a positive gradient of the distribution function in this velocity range, it results in $\gamma < 0$ and $e^{-\gamma t}>0$, leading to wave growth. This is why $v - \omega/k=0$ is known as the resonance condition \citep{melrose1989}. The exchange of energy between the wave spectral energy distribution and the particle distribution is described by ~\ref{eqn:Wk}--\ref{eqn:Diff}.
+
+For type II and III radio bursts, quasi-linear theory is usually applied to the interaction of electron beams and Langmuir waves. This group of electrons in the beam is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell-Boltzmann velocity distribution function (Figure~\ref{fig:bot}). 
 \begin{figure}[!t] 
 \begin{center}
 \includegraphics[scale=0.2]{bump_on_tail}
@@ -442,12 +455,6 @@ is known as the resonance condition \citep{melrose1989}. Since electron beams in
 \end{center}
 \end{figure}
 The growth of Langmuir waves in a resonant response to this beam is called the bump-on-tail instability. Once these Langmuir waves are generated they may undergo decay or coalescence with other waves to produce electromagnetic radiation. 
-
-%\begin{figure}[!t]
-%\begin{center}
-%\includegraphics[scale=0.35, trim = 4cm 0cm 0cm 0cm]{images/Grognard1975}
-%\end{center}
-%\end{figure}
 
 
 \subsection{Three-Wave Interaction and Plasma Emission}\label{sec:three_wave}
@@ -464,13 +471,8 @@ where $g(\bf{k}_M, \bf{k}_P, \bf{k}_Q)$ is an expression that incorporates a tra
 \begin{equation}
 u_{MPQ}(\mathbf{k}_M, \mathbf{k}_P, \mathbf{k}_Q)  \propto \delta(\omega_M - \omega_P - \omega_Q ) \delta^3(\mathbf{k}_M - \mathbf{k}_P - \mathbf{k}_Q )
 \end{equation}
-where the $\omega$ are the frequency of the corresponding wave and and $\delta$ are delta functions. This is analogous to transition probabilities given by the Einstein coefficients for transferring energy packets from and atomic state to a photon state (photon emission) i.e., whereas the Einstein coefficients are used in atom-wave (atom-photon) energy exchanges, $u_{MPQ}$ describes wave-wave energy exchanges. Given the presence of delta functions in the transition probability expression, we can see that an exchange of energy quanta amongst the wave modes can only occur when 
-\begin{eqnarray}
-\omega_M & = & \omega_P + \omega_Q \\
-\mathbf{k}_M & = & \mathbf{k}_P + \mathbf{k}_Q
-\end{eqnarray}
-Hence for an a conversion wave modes in a plasma such as $M \rightarrow P + Q$ (a decay of mode M into P and Q), or it's reverse process $P + Q \rightarrow M $ (a coupling of P and Q to produce M) is described by equations (2.1) to (2.7). 
-
+where the $\omega$ are the frequency of the corresponding wave and and $\delta$ are delta functions. This is analogous to transition probabilities given by the Einstein coefficients for transferring energy packets from and atomic state to a photon state (photon emission) i.e., whereas the Einstein coefficients are used in atom-wave (atom-photon) energy exchanges, $u_{MPQ}$ describes wave-wave energy exchanges. Given the presence of delta functions in the transition probability expression, we can see that an exchange of energy quanta amongst the wave modes can only occur when $\omega_M =  \omega_P +\omega_Q$ and $\mathbf{k}_M  =  \mathbf{k}_P + \mathbf{k}_Q$.
+%Hence for an a conversion wave modes in a plasma such as $M \rightarrow P + Q$ (a decay of mode M into P and Q), or it's reverse process $P + Q \rightarrow M $ (a coupling of P and Q to produce M) is described by equations (2.1) to (2.7). 
 %\begin{multline}
 %g(\mathbf{k}_M, \mathbf{k}_P, \mathbf{k}_Q) = u_{MPQ}(\mathbf{k}_M, \mathbf{k}_P, \mathbf{k}_Q)   [N_M(\mathbf{k_M}) N_P(\mathbf{k_P})  - \\ 
 %N_P(\mathbf{k_P}) N_Q(\mathbf{k_Q})   +N_Q(\mathbf{k_Q}) N_M(\mathbf{k_M})  ]
@@ -478,22 +480,17 @@ Hence for an a conversion wave modes in a plasma such as $M \rightarrow P + Q$ (
 %where $u_{MPQ}(\bf{k}_M, \bf{k}_P, \bf{k}_Q) $ is the transition probability from states in P and Q  to M, for example \citep{melrose1986}.  The transition probability is given by
 
 %where the $\omega$ are the frequency of the corresponding wave and and $\delta$ are delta functions. 
-The production of plasma emission after a bump-on-tail instability has occurred requires a three wave interaction amongst a Langmuir wave $L$, ion acoustic wave $S$, and electromagnetic wave $T$. Fundamental emission during a radio burst occurs via a decay of Langmuir waves into an electromagnetic and ion sound wave
-\begin{equation}
-L \rightarrow T + S
-\label{eqn:fund}
-\end{equation}
-while second harmonic first requires the decay $L\rightarrow L^{'} + S$, where $L^{'}$ is a product Langmuir wave propagating in the opposite direction to the first. This is followed by a coalescence of the original and product Langmuir waves
-\begin{equation}
-L + L^{'}\rightarrow T'
-\label{eqn:harm}
-\end{equation}
-In the case of these three interacting waves then 
+The production of plasma emission requires a three wave interaction amongst a Langmuir wave $L$, ion acoustic wave $S$, and electromagnetic wave $T$. Fundamental and harmonic emission occur via 
+\begin{eqnarray}
+&L& \rightarrow T + S \\
+&L& + ~L^{'}\rightarrow T'
+\end{eqnarray}
+Fundamental results from the decay of a Langmuir wave to an EM wave and ion acoustic wave. Second harmonic is the product of two Langmuir waves propagating in the opposite directions. The decay and coalescence processes may only occur when
 \begin{eqnarray}
 \omega_T & = & \omega_L + \omega_S \\
 \omega_{T^{'}} & = & \omega_L + \omega_{L^{'}}
 \end{eqnarray}
-where the relevant dispersion relations are 
+where $L'$ represents a product Langmuir wave and $T'$ represents a second harmonic EM wave. The relevant dispersion relations are 
 \begin{eqnarray}
 \omega_L = \omega_p + \frac{3v_{th}^2}{2\omega_p}k_L^2 \\
 \omega_T = (\omega_p^2 +k_T^2c^2)^{1/2} \\
@@ -504,17 +501,19 @@ where
 \omega_p = \bigg(\frac{n_e e^2}{m_e \epsilon_0}\bigg)^\frac{1}{2}
 \label{eqn:plasma_frequency}
 \end{equation}
-These equations imply that when a Langmuir wave decays to an electromagnetic wave and an ion sound wave (equation 2.58), the frequency of the electromagnetic wave will be equal to that of the Langmuir wave such that $\omega_T = \omega_L \approx \omega_p$. This is why plasma emission occurs at the local plasma frequency. Similarly the production of $T^{'}$ via equation (2.59) results in the first harmonic $\omega_T \approx 2\omega_p$. 
+The Langmuir wave has a frequency very close to the plasma frequency, while the ion acoustic frequency will be much smaller than this (due to the larger ion mass in the Equation 2.62). Therefore, Equations 2.58 and 2.59 result in $\omega_T \approx \omega_p$ and $\omega_T\approx 2\omega_p$ i.e., radiobursts often occur at the plasma frequency and its harmonic. Much of the theory is confirmed by in-situ observations have provided insight into the generation of ion acoustic waves from the electrostatic decay of Langmuir waves, followed by the production of radio emissions \citep{thejappa1998}. However, in the low corona the beam generation of Langmuir waves, ion acoustic waves, and ultimately radio emission is still a subject of research \citep{kontar2001, reid2010, ratcliffe2012}
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 %
 %PROVE THE ABOVE MORE CLEARLY!!!!!!!!!!!!!!!!!!!!!!
 %
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-In order to investigate the amount of energy emitted by the electromagnetic wave, elements of the three wave interaction theory need to be combined with what is known as stochastic growth theory \citep{robinson1993a}(SGT). Stochastic growth theory was first developed in response to a number of criticisms of the theory of a beam-driven Langmuir wave hypothesis of type III radio bursts first proposed by \citet{ginzburg1958}. It was pointed out that if the beam was to remain in instability continuously over space and time in the absence of saturation mechanism, then it would quickly lose all of its energy to the Langmuir waves and consequently the beam electrons would stop propagating after a short distance \citep{sturrock1964}. This is clearly not the case, since type III electrons are observed to propagate over distances of 1\,A.U or more. 
+In order to investigate the amount of energy emitted by the electromagnetic wave, elements of the three wave interaction theory need to be combined with what is known as stochastic growth theory \citep{robinson1993a}(SGT). 
+%Stochastic growth theory was first developed in response to a number of criticisms of the theory of a beam-driven Langmuir wave hypothesis of type III radio bursts first proposed by \citet{ginzburg1958}. It was pointed out that if the beam was to remain in instability continuously over space and time in the absence of saturation mechanism, then it would quickly lose all of its energy to the Langmuir waves and consequently the beam electrons would stop propagating after a short distance \citep{sturrock1964}. This is clearly not the case, since type III electrons are observed to propagate over distances of 1\,A.U or more. 
 %Secondly, if the instability continues uninhibited the Langmuir wave with grow to levels far beyond what is observed \citep{smith1979}. 
 %It was concluded that the beam cannot remain in a state of instability for the duration of its propagation. One suggestion to over come this was quasi-linear relaxation \citep{grognard1975}, as described above. However, this may not be enough to guarantee a lone lifetime of the beam. 
-SGT overcomes this by describing an electron beam propagation in a state of marginal stability. The beam propagates in an inhomogeneous medium whereby it encounters pockets of localised density enhancement where it is unstable intermittently. As the beam propagates through this localised clump, it is unstable to the growth of Langmuir wave, giving up some of its energy to the wave, diminishing the beam slightly. Once it exits the clump it becomes stable again, allowing the beam to reform until it reaches another localised clump to give up some energy again. The Langmuir waves would then experience a growth at intermittent regions in space and time (which is actually observed \citep{lin1986}), while the beam would be unstable for only small fractions of its lifetime. Overall, the beam energy loss is on average low enough to allow its continued propagation, but instantaneous and finite enough to allow the growth of waves. 
+%SGT overcomes this by describing an electron beam propagation in a state of marginal stability. The 
+SGT described a beam propagating in an inhomogeneous medium whereby it encounters pockets of localised density enhancement where it is unstable only intermittently, this is to prevent the beam losing all of its energy too quickly \citep{sturrock1964, ginzburg1958}. As the beam propagates through this localised clump, it is unstable to the growth of Langmuir wave, giving up some of its energy to the wave, diminishing the beam slightly. Once it exits the clump it becomes stable again, allowing the beam to reform until it reaches another localised clump to give up some energy again. The Langmuir waves would then experience a growth at intermittent regions in space and time (which is actually observed \citep{lin1986}), while the beam would be unstable for only small fractions of its lifetime. Overall, the beam energy loss is on average low enough to allow its continued propagation, but instantaneous and finite enough to allow the growth of waves. 
 %In this mechanism the Langmuir waves experience a a growth in energy that is a random (stochastic) walk through energy phase space \citep{robinson1992}.  The Langmuir wave send up with an energy distribution given by $P(E)\sim E^{-1}$ \citep{robinson1993a}.  
 \begin{figure}[t!]
 \begin{center}
@@ -523,12 +522,13 @@ SGT overcomes this by describing an electron beam propagation in a state of marg
 \label{fig:cairns_emissivity}
 \end{center}
 \end{figure}
-Combining elements of the stochastic growth model and the three-wave interaction process allows a calculation of the mount of energy that ends up in the electromagnetic waves, and consequently the volume emissivity of the emission \citep{robinson1993a, robinson1998}
+%Combining elements of the stochastic growth model and the three-wave interaction process allows a calculation of the mount of energy that ends up in the electromagnetic waves, and consequently 
+From SGT and the three-wave process, the volume emissivity of the emission \citep{robinson1993a, robinson1998}
 \begin{equation}
 j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\Delta v_b}{v_b}
 \label{eqn:plasma_emiss}
 \end{equation}
-here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta\Omega_M$ is the solid angle over which the  emission is spread, $n_b$ is the electron beam number density, $v_b$ is the beam speed, $l(r)$ is the distance from emission point to observer, $\Delta v_b$ is the width of the beam in velocity space. $\Phi_M$ are known as the conversion efficiencies and are different for fundamental and harmonic emission, see Appendix X.
+here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta\Omega_M$ is the solid angle over which the  emission is spread, $n_b$ is the electron beam number density, $v_b$ is the beam speed, $l(r)$ is the distance from emission point to observer, $\Delta v_b$ is the width of the beam in velocity space. $\Phi_M$ are known as the conversion efficiencies and are different for fundamental and harmonic emission, see Appendix~\ref{app:emissivity}.
 
 These expressions have been used to simulate radio burst flux resulting in $\sim10^{-17}$\,W\,m$^{-2}$\,Hz$^{-1}$, which have been compared to type II and III radio bursts \citep{schmidt2012, knock2001}. \citet{knock2003} and \citet{cairns2003} used the theory to predict interplanetary type II burst flux as a function of a variety of shock parameters e.g., shocks speed Fig.~\ref{fig:cairns_emissivity}.
 
