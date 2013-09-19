@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.7)
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 0/declaration.aux
 A level-1 auxiliary file: 0/abstract.aux
@@ -13,7 +14,7 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11463 items from 5000.
+Reallocated field_info (elt_size=4) to 11325 items from 5000.
 Database file #1: mybib.bib
 Repeated entry---line 880 of file mybib.bib
  : @article{carlsson1997
@@ -66,45 +67,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 281 entries,
+You've used 275 entries,
             3018 wiz_defined-function locations,
-            2066 strings with 57355 characters,
-and the built_in function-call counts, 203219 in all, are:
-= -- 16093
-> -- 12578
-< -- 150
-+ -- 4387
-- -- 4096
-* -- 17868
-:= -- 31065
-add.period$ -- 832
-call.type$ -- 281
-change.case$ -- 2768
-chr.to.int$ -- 271
-cite$ -- 297
-duplicate$ -- 13309
-empty$ -- 12912
-format.name$ -- 4970
-if$ -- 40127
+            2037 strings with 56515 characters,
+and the built_in function-call counts, 200104 in all, are:
+= -- 15812
+> -- 12491
+< -- 145
++ -- 4354
+- -- 4069
+* -- 17626
+:= -- 30580
+add.period$ -- 814
+call.type$ -- 275
+change.case$ -- 2729
+chr.to.int$ -- 265
+cite$ -- 291
+duplicate$ -- 13073
+empty$ -- 12659
+format.name$ -- 4927
+if$ -- 39497
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 3056
-newline$ -- 847
-num.names$ -- 1141
-pop$ -- 6382
+missing$ -- 3011
+newline$ -- 829
+num.names$ -- 1117
+pop$ -- 6310
 preamble$ -- 1
-purify$ -- 2484
+purify$ -- 2451
 quote$ -- 0
-skip$ -- 4839
+skip$ -- 4758
 stack$ -- 0
-substring$ -- 7902
-swap$ -- 7845
+substring$ -- 7722
+swap$ -- 7724
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2487
+type$ -- 2433
 warning$ -- 16
-while$ -- 1122
+while$ -- 1098
 width$ -- 0
-write$ -- 3075
+write$ -- 3009
 (There were 8 error messages)

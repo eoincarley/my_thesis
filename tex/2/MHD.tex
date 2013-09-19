@@ -21,6 +21,7 @@ Since plasmas are an electrically conducting fluid which may interact with elect
 $\mu_0$ and $\epsilon_0$ are the magnetic permeability and electric permittivity of free space, respectively, and all bold face quantities represent vector variables. At velocities typically found in a plasma equation (2.4), Amp\'{e}re's law, reduces to
 \begin{equation}
 \curl{\mathbf{B}} = \mu_0 \mathbf{j}
+\label{eqn:amperes_law}
 \end{equation}
 where the displacement current is no longer included. Maxwell's equations describe electromagnetic behaviour and they constitute an important part of the fluid description of plasmas. Before we define this fluid description a brief discussion of plasma kinetic theory, from which the fluid theory is derived, is provided here.
 
@@ -75,7 +76,11 @@ Secondly, the momentum conservation equation is
 \rho\frac{D\mathbf{v}}{Dt}=-\nabla p + \mathbf{j}\times \mathbf{B} + \mathbf{f} +\nabla \cdot \mathbf{S}
 \label{eqn:mhd_momentum}
 \end{equation}
-where $p$ is thermal pressure, $\mathbf{j}$ is the current density, $\mathbf{B}$ is the magnetic field, $\mathbf{f}$ are all body forces e.g., gravity, and $\mathbf{S}$ is a stress tensor. This equation shows that the change in momentum of a fluid may be due to a pressure gradient, the \textquoteleft j cross B' or Lorentz force, gravity, and any stresses in the plasma e.g., kinematic viscosity $\nu$. Note that with $\nabla \cdot \mathbf{S}=\rho\nu\nabla^2\mathbf{v} $, and setting gravity and the Lorentz term to zero gives the Navier-Stokes equation of motion of a viscous fluid. Note that all terms in this equation have the form of a body force (force per unit volume), and integration over volume would render this equation an explicit version of Newton's second law ($m\mathbf{a}=\mathbf{F}$).
+where $p$ is thermal pressure, $\mathbf{j}$ is the current density, $\mathbf{B}$ is the magnetic field, $\mathbf{f}$ are all body forces e.g., gravity, and $\mathbf{S}$ is a stress tensor. This equation shows that the change in momentum of a fluid may be due to a pressure gradient, the \textquoteleft j cross B' or Lorentz force, gravity, and any stresses in the plasma e.g., kinematic viscosity $\nu$. Note that with $\nabla \cdot \mathbf{S}=\rho\nu\nabla^2\mathbf{v} $, and setting gravity and the Lorentz term to zero gives the Navier-Stokes equation of motion of a viscous fluid. Note that all terms in this equation have the form of a body force (force per unit volume), and integration over volume would render this equation an explicit version of Newton's second law ($m\mathbf{a}=\mathbf{F}$). An important force for the eruption of CMEs is the Lorentz force. Using Equation~\ref{eqn:amperes_law}
+\begin{equation}
+\mathbf{j}\times \mathbf{B} = \frac{1}{\mu_0}(\nabla \times \mathbf{B})\times \mathbf{B} = \frac{1}{\mu_0}(\mathbf{B} \cdot \nabla)\mathbf{B} - \nabla \frac{B^2}{2\mu_0}
+\end{equation}
+The first term on the right is known as magnetic tension, and acts to restore a bent or curved field line to a straight line. The second term is known as the magnetic pressure and, like thermal pressure, any gradient in the field will produce a force. These two components of the Lorentz force play an important role in CME eruption.
 
 The third conservation equation is the energy conservation equation
 \begin{equation}
@@ -165,18 +170,20 @@ M = \frac{v_{in}}{v_{out}} = \frac{1}{\sqrt{S}}
 \end{equation}
 where $S=v_AL/\eta$ is the Lundquist number (equivalent to the magnetic Reynold's number at the Alfv\'{e}n speed). The rate of reconnection depends on the length scale and magnetic diffusivity in the current sheet. Despite the fact that the Sweet-Parker mechanism provides a rate of magnetic energy dissipation that is faster than the global process, it is much too slow to explain the process of magnetic energy release in solar flares. For example for typical Lundquist numbers of $10^{12}$, the Sweet-Parker model produces a reconnection rate of $10^{-6}$ of the Alfv\'{e}n speed.
 
-To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $L\approx\delta$ \citep{petschek1964} . With this smaller diffusion region, the boundary between inflow and outflow regions are separated by slow mode magnetoacoustic shocks. Alongside the diffusion region, these shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Again, no analytical solution to the model exists but Petscheck found that when the diffusion regions is allowed to be small, the reconnection rate is given as
+To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $L\approx\delta$ \citep{petschek1964} . With this smaller diffusion region, the boundary between inflow and outflow regions are separated by slow mode magnetoacoustic shocks. Alongside the diffusion region, these shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Petscheck found the reconnection rate is given as
 \begin{equation}
 M \approx \frac{\pi}{8\,\mathrm{ln}(S)}
 \end{equation}
-This gives a much faster reconnection rate of 0.01 of the Alfv\'{e}n speed (hence it is known as fast reconnection), which is comparable to solar flares. When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as \citep{priest1986}
-\begin{equation}
-\bigg(\frac{M_e}{M_e}\bigg)^2 \approx \frac{4M_e(1-b)}{\pi}\bigg[ 0.834 -\mathrm{ln \, tan}\bigg( \frac {4S\sqrt{M_eM_i}} {\pi}  \bigg)^{-1}\bigg]
-\end{equation}
-This contains the Sweet-Parker, the Petscheck ($b=0$) and Sonnerup \citep{sonnerup1970}($b=1$) reconnection rates.
+producing a much faster rate of 0.1$v_A$, which is comparable to solar flares. 
+%Removed to reduce pages
+%When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as \citep{priest1986}
+%\begin{equation}
+%\bigg(\frac{M_e}{M_e}\bigg)^2 \approx \frac{4M_e(1-b)}{\pi}\bigg[ 0.834 -\mathrm{ln \, tan}\bigg( \frac {4S\sqrt{M_eM_i}} {\pi}  \bigg)^{-1}\bigg]
+%\end{equation}
+%This contains the Sweet-Parker, the Petscheck ($b=0$) and Sonnerup \citep{sonnerup1970}($b=1$) reconnection rates.
 
 %While these solutions show that 2D reconnection may be explained well by MHD, describing 3D reconnection remains big theoretical and computational challenge, and remains at the forefront of reconnection theory research. Both 
-2D reconnection, an the more complicated 3D models, play a role in many theoretical models describing the eruption of coronal mass ejections and flares. Although some CME models have no need for reconnection to occur, there is a growing consensus that it is an integral part of the solar eruptive process.
+%2D reconnection, an the more complicated 3D models, play a role in many theoretical models describing the eruption of coronal mass ejections and flares. Although some CME models have no need for reconnection to occur, there is a growing consensus that it is an integral part of the solar eruptive process.
 
 %-----------------------------------------------------------%
 %		       CME Theory			        % 
@@ -278,14 +285,14 @@ where $B_{0}$ is the unperturbed (equilibrium) magnetic field, $\mu_{0}$ is the 
 \label{fig:alfven_speed}
 \end{center}
 \end{figure}
-Mann et al. produced a 1D model of the variation of Alv\'{e}n speeds in the quiet and active region corona as a function of height Figure. Warmuth then improved this to a 2D model. It shows that CMEs are well capable of producing plasma hocks in the corona, since they may travel far in excess of the Alfv\'{e}n speed. The theory of plasma shocks and the resulting effects of particle acceleration and plasma emission are discussed in the following sections.
+\citet{mann2003} produced a 1D model of the variation of Alv\'{e}n speeds in the quiet and active region corona as a function of height (Figure~\ref{fig:alfven_speed}), this was later extended to a 2D model \citep{warmuth2005}. It shows that CMEs are well capable of producing plasma hocks in the corona, since they may travel far in excess of the Alfv\'{e}n speed. The theory of plasma shocks and the resulting effects of particle acceleration and plasma emission are discussed in the following sections.
 
 
 \subsection{MHD Shocks}\label{sec:mhd_shocks}
 
-For acoustic shock waves there are a number of conservation equations that quantify the strength of a shock by relating the upstream gas pressure, density, flow speed, and temperature to their downstream counterparts. Such conservation equations are known as the jump conditions and the shock is considered a surface at which the fluid properties change discontinuously. The shock thickness is usually of the order of a few mean free paths of the particles in the gas, in such a case the processes in the shock surface itself are inconsequential and the relationship between upstream and downstream parameters provide a sufficient description of the shock. 
+For acoustic shock waves there are a number of conservation equations that quantify the strength of a shock by relating the upstream gas pressure, density, flow speed, and temperature to their downstream counterparts. Such conservation equations are known as the jump conditions and the shock is considered a surface at which the fluid properties change discontinuously. A shock naturally converts kinetic energy to thermal energy by slowing the flow down and heating it i.e. a dissipation of kinetic energy and increase of entropy. This occurs within the extremely narrow shock surface itself by particle collisions and viscous interactions. However, the processes in the shock surface itself are inconsequential and the relationship between upstream and downstream macroscopic parameters provide a sufficient description of the plasma flow. 
 
-When the gas is ionized and a magnetic field is present, the jump conditions must be modified to take into account the magnetic pressure and the field orientation with respect to the flow velocity and shock normal $\hat{n}$ (unit vector normal to the shock plane). In the general case of oblique shock waves where the magnetic field direction has some arbitrary angle with respect to shock normal we may derive a set of conservation equations for the frame of the shock wave. 
+When the gas is ionized and a magnetic field is present, the jump conditions are very much the same and must are modified only by the presence of the magnetic field. In the general case of oblique shock waves where the magnetic field direction has some arbitrary angle with respect to shock normal we may derive a set of conservation equations for the frame of the shock wave. 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.5, angle=0]{images/shock_pic}
@@ -314,7 +321,7 @@ These are the general MHD shock jump conditions where $v$ is the fluid velocity 
 \item (4f) relates the orientations of the upstream and downstream magnetic field to the flow speed tangential and perpendicular to the shock normal. Magnetic field orientation and hence the distribution of low speed amongst the velocity components largely depends on the whether the shock is slow-mode, intermediate, or fast mode. The equation has units of T$\cdot$m$\cdot$s$^{-1}$ = V$\cdot$m$^{-1}\equiv$ electric field.
 \end{itemize}
 
-4(a-f) are the general case of the jump conditions across an MHD shock, they are usually known as the MHD Rankine-Hugoniot (RH) equations. Their generality make the solution of the six unknowns from the six equations quite complicated. However the extreme cases of parallel and perpendicular shocks provide very useful and simplified expressions. It can be shown that parallel shocks i.e., $\hat{v}\parallel\hat{B}\parallel\hat{n}$ reduces to the jump conditions of a hydrodynamic shock in a neutral gas (here parallel and anti-parallel are used synonymously). The more interesting case when considering radiating shockwaves in the low solar corona is the perpendicular (or quasi-perpendicular) MHD shock, in this case the flow speed is parallel to the shock normal, and the magnetic field is perpendicular (or at a high angle) to it i.e., $\hat{v}\,\|\,\hat{n}$ and $\hat{B}\perp\hat{n}$. As will be shown it is this special case of quasi-perpendicular shocks that lead to efficient shock drift particle acceleration, a necessary precursor to the generation of radio emission at a coronal shockwave. 
+4(a-f) are the general case of the jump conditions across an MHD shock, usually known as the MHD Rankine-Hugoniot (RH) equations. Their generality make the solution of the six unknowns from the six equations quite complicated. However the extreme cases of parallel and perpendicular shocks provide very useful and simplified expressions. It can be shown that parallel shocks i.e., $\hat{v}\parallel\hat{B}\parallel\hat{n}$ reduces to the jump conditions of a hydrodynamic shock in a neutral gas (here parallel and anti-parallel are used synonymously). The more interesting case when considering radiating shockwaves in the low solar corona is the perpendicular (or quasi-perpendicular) MHD shock, in this case the flow speed is parallel to the shock normal, and the magnetic field is perpendicular (or at a high angle) to it i.e., $\hat{v}\,\|\,\hat{n}$ and $\hat{B}\perp\hat{n}$. As will be shown it is this special case of quasi-perpendicular shocks that lead to efficient shock drift particle acceleration, a necessary precursor to the generation of radio emission at a coronal shockwave. 
 
 In the case of fully $\perp$ shocks there is no need for the decomposition of the magnetic and velocity vector fields, meaning the $x$ and $y$ subscripts on 4(a) and 4(b) can be dropped. 4(c) is an obsolete jump condition, likewise for 4(e) since no $B_x$ field exists. We can also rid the $B_{x}B_{y}$ terms from the last quotient in the energy conservation 4(d) --replacing it simply with $B^{2}/2\mu\rho$. 4(f) reduces to a simpler form of $[Bv]=0$. Such a reduction in the generalized jump conditions allows us to express the upstream and downstream plasma properties in terms of the shock compression ratio $\chi=\dfrac{\rho_{2}}{\rho_{1}}$ as well as the upstream sonic Mach number $M_{1}=\dfrac{v_{1}}{c_{1}}$ \citep{priest2000} e.g.,
 \begin{subequations}
@@ -324,7 +331,7 @@ In the case of fully $\perp$ shocks there is no need for the decomposition of th
 &\dfrac{p_{2}}{p{1}}=\gamma M_{1}^2\bigg(1-\frac{1}{\chi}\bigg) - \frac{1-\chi^2}{\beta_{1}}
 \end{align}
 \end{subequations}
-where $\beta_{1}=2\mu p/B_{1}^2$ is the upstream plasma beta parameter. The exact value of the compression ratio may be obtained by using 4(b) to eliminate $p$ from the energy flux equation 4(d) and incorporating 4(a,c,e,f) (and a lot of algebra) a quadratic for $\chi$ may be obtained
+where $\beta_{1}=2\mu p/B_{1}^2$ is the upstream plasma beta parameter. The exact value of the compression ratio may be obtained by using 4(b) to eliminate $p$ from the energy flux equation 4(d) and incorporating 4(a,c,e,f) (and a lot of algebra) into a quadratic for $\chi$
 \begin{equation}
 2(2-\gamma)\chi^{2}+[2\beta_{1}+(\gamma-1)\beta_{1}M_{1}^2+2]\gamma\chi - \gamma(\gamma+1)\beta_{1}M_{1}^2=0
 \end{equation}
@@ -334,7 +341,9 @@ Equation (6) has one positive real root such that
 1< \chi < \frac{\gamma+1}{\gamma-1}
 \label{eqn:compression}
 \end{equation}
-Using a ploytropic index of $\gamma=5/3$ (monatomic) means the shock compression can be no more than a factor of 4. Another extremely important fact arising from this is that magnetic compression can also be no greater than 4 i.e., from equation 4(b) $B_{2}/B_{1}=\chi$. $\chi<4$ has consequences for the shock drift acceleration mechanism and provides an upper limit to the particle energy gain.
+Using a ploytropic index of $\gamma=5/3$ (monatomic) means the shock compression can be no more than a factor of 4. Another extremely important fact arising from this is magnetic compression can also be no greater than 4 i.e., from equation 4(b) $B_{2}/B_{1}=\chi$. $\chi<4$. This has consequences for the shock drift acceleration mechanism and provides an upper limit to the particle energy gain.
+
+Despite the fact that the Rankine-Hugoniot equations for neutral gas shocks and plasma shocks are essentially the same, on a microscopic scale they are fundamentally different. For most astrophysical circumstances plasmas shocks are collisionless. This means the mean free path for particle collisions is far larger than the shock thickness and it is not collisions between particles that dissipate flow energy and increase entropy. It is believed that the interactions of particles and the turbulent electromagnetic field of the shock play the role of collisions and produce flow energy dissipation. However, if a plasma shock becomes `supercritical' an extra dissipation mechanism is required, achieved by reflection of ions back to the upstream flow. Supercriticality is achieved when the downstream flow surpasses sonic Mach 1.
 
 \subsection{Shock Particle Acceleration}\label{sec:30}
 

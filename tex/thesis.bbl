@@ -1,4 +1,4 @@
-\begin{thebibliography}{281}
+\begin{thebibliography}{275}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -634,10 +634,6 @@
 \bibitem[{{Jackson}(1975)}]{jackson1975}
 {\sc {Jackson}, J.D.} (1975). {\em {Classical electrodynamics}\/}.
 
-\bibitem[{{Kabin}(2001)}]{kabin2001}
-{\sc {Kabin}, K.} (2001). {A note on the compression ratio in MHD shocks}. {\em
-  Journal of Plasma Physics\/}, {\bf 66}, 259--274.
-
 \bibitem[{{Kahler}(2007)}]{kahler2007}
 {\sc {Kahler}, S.W.} (2007). {Solar Sources of Heliospheric Energetic Electron
   Events - Shocks or Flares?} {\em \ssr\/}, {\bf 129}, 359--390.
@@ -899,6 +895,12 @@
   R.G.} (1999). {A heliospheric density model and type III radio bursts}. {\em
   \aap\/}, {\bf 348}, 614--620.
 
+\bibitem[{{Mann} {\em et~al.\/}(2003){Mann}, {Klassen}, {Aurass} \&
+  {Classen}}]{mann2003}
+{\sc {Mann}, G., {Klassen}, A., {Aurass}, H. \& {Classen}, H.T.} (2003).
+  {Formation and development of shock waves in the solar corona and the
+  near-Sun interplanetary space}. {\em \aap\/}, {\bf 400}, 329--336.
+
 \bibitem[{{Manoharan} \& {Kundu}(2003)}]{manoh2003}
 {\sc {Manoharan}, P.K. \& {Kundu}, M.R.} (2003). {Coronal Structure of a
   Flaring Region and Associated Coronal Mass Ejection}. {\em \apj\/}, {\bf
@@ -1088,10 +1090,6 @@
 \bibitem[{{Priest} \& {Forbes}(2000)}]{priest2000}
 {\sc {Priest}, E. \& {Forbes}, T.} (2000). {\em {Magnetic Reconnection}\/}.
 
-\bibitem[{{Priest} \& {Forbes}(1986)}]{priest1986}
-{\sc {Priest}, E.R. \& {Forbes}, T.G.} (1986). {New models for fast steady
-  state magnetic reconnection}. {\em \jgr\/}, {\bf 91}, 5579--5588.
-
 \bibitem[{{Ratcliffe} {\em et~al.\/}(2012){Ratcliffe}, {Bian} \&
   {Kontar}}]{ratcliffe2012}
 {\sc {Ratcliffe}, H., {Bian}, N.H. \& {Kontar}, E.P.} (2012). {Density
@@ -1114,12 +1112,6 @@
 {\sc {Robbrecht}, E. \& {Berghmans}, D.} (2004). {Automated recognition of
   coronal mass ejections (CMEs) in near-real-time data}. {\em \aap\/}, {\bf
   425}, 1097--1106.
-
-\bibitem[{{Robbrecht} {\em et~al.\/}(2009){Robbrecht}, {Berghmans} \& {Van der
-  Linden}}]{robb2009}
-{\sc {Robbrecht}, E., {Berghmans}, D. \& {Van der Linden}, R.A.M.} (2009).
-  {Automated LASCO CME Catalog for Solar Cycle 23: Are CMEs Scale Invariant?}
-  {\em \apj\/}, {\bf 691}, 1222--1234.
 
 \bibitem[{{Robinson} \& {Cairns}(1993)}]{robinson1993a}
 {\sc {Robinson}, P.A. \& {Cairns}, I.H.} (1993). {Stochastic Growth Theory of
@@ -1233,16 +1225,6 @@
   P.L., {Llebaria}, A., {Schwenn}, R., {Simnett}, G.M., {Plunkett}, S. \&
   {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
   2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
-
-\bibitem[{{Shipley}(2001)}]{shipley2001}
-{\sc {Shipley}, B.C.} (2001). {'Had Lord Kelvin a right?': John Perry, natural
-  selection and the age of the Earth, 1894-1895}. {\em Geological Society of
-  London Special Publications\/}, {\bf 190}, 91--105.
-
-\bibitem[{{Sonnerup}(1970)}]{sonnerup1970}
-{\sc {Sonnerup}, B.U.{\"O}.} (1970). {Magnetic-field re-connexion in a highly
-  conducting incompressible fluid}. {\em Journal of Plasma Physics\/}, {\bf 4},
-  161.
 
 \bibitem[{{Spitzer}(1962)}]{spitzer1962}
 {\sc {Spitzer}, L.} (1962). {\em {Physics of Fully Ionized Gases}\/}.
@@ -1524,11 +1506,6 @@
 {\sc {Vr{\v s}nak}, B. \& {Cliver}, E.W.} (2008). {Origin of Coronal Shock
   Waves. Invited Review}. {\em \solphys\/}, {\bf 253}, 215--235.
 
-\bibitem[{{Vr{\v s}nak} \& {Gopalswamy}(2002)}]{vrsnak2002}
-{\sc {Vr{\v s}nak}, B. \& {Gopalswamy}, N.} (2002). {Influence of the
-  aerodynamic drag on the motion of interplanetary ejecta}. {\em Journal of
-  Geophysical Research (Space Physics)\/}, {\bf 107}, 1019.
-
 \bibitem[{{Vr{\v s}nak} \& {Luli{\'c}}(2000{\natexlab{a}})}]{vrsnak2000a}
 {\sc {Vr{\v s}nak}, B. \& {Luli{\'c}}, S.} (2000{\natexlab{a}}). {Formation Of
   Coronal Mhd Shock Waves - I. The Basic Mechanism}. {\em \solphys\/}, {\bf
@@ -1544,13 +1521,6 @@
 {\sc {Vr{\v s}nak}, B., {Magdaleni{\'c}}, J. \& {Aurass}, H.} (2001).
   {Comparative Analysis of Type ii Bursts and of Thermal and non-Thermal Flare
   Signatures}. {\em \solphys\/}, {\bf 202}, 319--335.
-
-\bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2004){Vr{\v s}nak}, {Magdaleni{\'c}} \&
-  {Zlobec}}]{vrsnak2004}
-{\sc {Vr{\v s}nak}, B., {Magdaleni{\'c}}, J. \& {Zlobec}, P.} (2004).
-  {Band-splitting of coronal and interplanetary type II bursts. III. Physical
-  conditions in the upper corona and interplanetary space}. {\em Astronomy and
-  Astrophysics\/}, {\bf 413}, 753--763.
 
 \bibitem[{{Vr{\v s}nak} {\em et~al.\/}(2005{\natexlab{a}}){Vr{\v s}nak},
   {Magdaleni{\'c}}, {Temmer}, {Veronig}, {Warmuth}, {Mann}, {Aurass} \&
