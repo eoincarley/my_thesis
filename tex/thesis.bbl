@@ -1,4 +1,4 @@
-\begin{thebibliography}{275}
+\begin{thebibliography}{280}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -360,6 +360,12 @@
 {\sc {de Koning}, C.A., {Pizzo}, V.J. \& {Biesecker}, D.A.} (2009). {Geometric
   Localization of CMEs in 3D Space Using STEREO Beacon Data: First Results}.
   {\em \solphys\/}, {\bf 256}, 167--181.
+
+\bibitem[{{De Pontieu} {\em et~al.\/}(2004){De Pontieu}, {Erd{\'e}lyi} \&
+  {James}}]{depont2004}
+{\sc {De Pontieu}, B., {Erd{\'e}lyi}, R. \& {James}, S.P.} (2004). {Solar
+  chromospheric spicules from the leakage of photospheric oscillations and
+  flows}. {\em \nat\/}, {\bf 430}, 536--539.
 
 \bibitem[{{Delann{\'e}e} {\em et~al.\/}(2008){Delann{\'e}e}, {T{\"o}r{\"o}k},
   {Aulanier} \& {Hochedez}}]{delannee2008}
@@ -901,6 +907,11 @@
   {Formation and development of shock waves in the solar corona and the
   near-Sun interplanetary space}. {\em \aap\/}, {\bf 400}, 329--336.
 
+\bibitem[{{Mann} {\em et~al.\/}(2009){Mann}, {Warmuth} \& {Aurass}}]{mann2009}
+{\sc {Mann}, G., {Warmuth}, A. \& {Aurass}, H.} (2009). {Generation of highly
+  energetic electrons at reconnection outflow shocks during solar flares}. {\em
+  \aap\/}, {\bf 494}, 669--675.
+
 \bibitem[{{Manoharan} \& {Kundu}(2003)}]{manoh2003}
 {\sc {Manoharan}, P.K. \& {Kundu}, M.R.} (2003). {Coronal Structure of a
   Flaring Region and Associated Coronal Mass Ejection}. {\em \apj\/}, {\bf
@@ -1056,12 +1067,6 @@
 {\sc {Petschek}, H.E.} (1964). {Magnetic Field Annihilation}. {\em NASA Special
   Publication\/}, {\bf 50}, 425.
 
-\bibitem[{{Phillips} {\em et~al.\/}(2008){Phillips}, {Feldman} \&
-  {Landi}}]{phillips2008}
-{\sc {Phillips}, K.J.H., {Feldman}, U. \& {Landi}, E.} (2008). {\em
-  {Ultraviolet and X-ray Spectroscopy of the Solar Atmosphere}\/}. Cambridge
-  University Press.
-
 \bibitem[{{Pick} \& {Vilmer}(2008)}]{pick2008}
 {\sc {Pick}, M. \& {Vilmer}, N.} (2008). {Sixty-five years of solar
   radioastronomy: flares, coronal mass ejections and Sun Earth connection}.
@@ -1089,6 +1094,10 @@
 
 \bibitem[{{Priest} \& {Forbes}(2000)}]{priest2000}
 {\sc {Priest}, E. \& {Forbes}, T.} (2000). {\em {Magnetic Reconnection}\/}.
+
+\bibitem[{{Priest} \& {Forbes}(1986)}]{priest1986}
+{\sc {Priest}, E.R. \& {Forbes}, T.G.} (1986). {New models for fast steady
+  state magnetic reconnection}. {\em \jgr\/}, {\bf 91}, 5579--5588.
 
 \bibitem[{{Ratcliffe} {\em et~al.\/}(2012){Ratcliffe}, {Bian} \&
   {Kontar}}]{ratcliffe2012}
@@ -1226,6 +1235,11 @@
   {Biesecker}, D.A.} (1997). {Measurements of Flow Speeds in the Corona between
   2 and 30 R sub sun}. {\em \apj\/}, {\bf 484}, 472.
 
+\bibitem[{{Sonnerup}(1970)}]{sonnerup1970}
+{\sc {Sonnerup}, B.U.{\"O}.} (1970). {Magnetic-field re-connexion in a highly
+  conducting incompressible fluid}. {\em Journal of Plasma Physics\/}, {\bf 4},
+  161.
+
 \bibitem[{{Spitzer}(1962)}]{spitzer1962}
 {\sc {Spitzer}, L.} (1962). {\em {Physics of Fully Ionized Gases}\/}.
 
@@ -1278,6 +1292,12 @@
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
   configurations}. {\em \apj\/}, {\bf 380}, 655--659.
+
+\bibitem[{{Su} {\em et~al.\/}(2013){Su}, {Veronig}, {Holman}, {Dennis}, {Wang},
+  {Temmer} \& {Gan}}]{su2013}
+{\sc {Su}, Y., {Veronig}, A.M., {Holman}, G.D., {Dennis}, B.R., {Wang}, T.,
+  {Temmer}, M. \& {Gan}, W.} (2013). {Imaging coronal magnetic-field
+  reconnection in a solar flare}. {\em Nature Physics\/}, {\bf 9}, 489--493.
 
 \bibitem[{{Subramanian} \& {Vourlidas}(2007)}]{subram2007}
 {\sc {Subramanian}, P. \& {Vourlidas}, A.} (2007). {Energetics of solar coronal
@@ -1456,6 +1476,12 @@
 {\sc {Veronig}, A.M., {Muhr}, N., {Kienreich}, I.W., {Temmer}, M. \& {Vr{\v
   s}nak}, B.} (2010). {First Observations of a Dome-shaped Large-scale Coronal
   Extreme-ultraviolet Wave}. {\em \apjl\/}, {\bf 716}, L57--L62.
+
+\bibitem[{{Vilmer} {\em et~al.\/}(2002){Vilmer}, {Krucker}, {Lin} \& {Rhessi
+  Team}}]{vilmer2002}
+{\sc {Vilmer}, N., {Krucker}, S., {Lin}, R.P. \& {Rhessi Team}} (2002). {Hard
+  x-ray and Metric/Decimetric Radio Observations of the 20 February 2002 Solar
+  Flare}. {\em \solphys\/}, {\bf 210}, 261--272.
 
 \bibitem[{{Vourlidas} \& {Bemporad}(2012)}]{vourlidas2012}
 {\sc {Vourlidas}, A. \& {Bemporad}, A.} (2012). {A decade of coronagraphic and

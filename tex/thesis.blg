@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.7)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 0/declaration.aux
 A level-1 auxiliary file: 0/abstract.aux
@@ -14,39 +13,39 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11325 items from 5000.
+Reallocated field_info (elt_size=4) to 11440 items from 5000.
 Database file #1: mybib.bib
 Repeated entry---line 880 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1421 of file mybib.bib
+Repeated entry---line 1436 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1435 of file mybib.bib
+Repeated entry---line 1450 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1784 of file mybib.bib
+Repeated entry---line 1799 of file mybib.bib
  : @article{guo2010
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 3651 of file mybib.bib
-Repeated entry---line 3872 of file mybib.bib
+--line 3681 of file mybib.bib
+Repeated entry---line 3902 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4027 of file mybib.bib
+Repeated entry---line 4057 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4376 of file mybib.bib
+Repeated entry---line 4425 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4856 of file mybib.bib
+Repeated entry---line 4917 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
@@ -67,45 +66,45 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 275 entries,
+You've used 280 entries,
             3018 wiz_defined-function locations,
-            2037 strings with 56515 characters,
-and the built_in function-call counts, 200104 in all, are:
-= -- 15812
-> -- 12491
-< -- 145
-+ -- 4354
-- -- 4069
-* -- 17626
-:= -- 30580
-add.period$ -- 814
-call.type$ -- 275
-change.case$ -- 2729
-chr.to.int$ -- 265
-cite$ -- 291
-duplicate$ -- 13073
-empty$ -- 12659
-format.name$ -- 4927
-if$ -- 39497
+            2064 strings with 57336 characters,
+and the built_in function-call counts, 203422 in all, are:
+= -- 16094
+> -- 12649
+< -- 147
++ -- 4410
+- -- 4120
+* -- 17919
+:= -- 31081
+add.period$ -- 829
+call.type$ -- 280
+change.case$ -- 2772
+chr.to.int$ -- 270
+cite$ -- 296
+duplicate$ -- 13303
+empty$ -- 12890
+format.name$ -- 4993
+if$ -- 40157
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 3011
-newline$ -- 829
-num.names$ -- 1117
-pop$ -- 6310
+missing$ -- 3059
+newline$ -- 844
+num.names$ -- 1137
+pop$ -- 6397
 preamble$ -- 1
-purify$ -- 2451
+purify$ -- 2488
 quote$ -- 0
-skip$ -- 4758
+skip$ -- 4834
 stack$ -- 0
-substring$ -- 7722
-swap$ -- 7724
+substring$ -- 7897
+swap$ -- 7856
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2433
+type$ -- 2481
 warning$ -- 16
-while$ -- 1098
+while$ -- 1119
 width$ -- 0
-write$ -- 3009
+write$ -- 3065
 (There were 8 error messages)

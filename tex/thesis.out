@@ -1,97 +1,97 @@
-\BOOKMARK [0][]{chapter*.1}{List of Publications}{}% 1
-\BOOKMARK [0][]{chapter*.3}{List of Figures}{}% 2
-\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 3
-\BOOKMARK [1][]{section.1.1}{1.1 The Sun}{chapter.1}% 4
-\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Solar Interior}{section.1.1}% 5
-\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Solar Magnetic Field and Dynamo}{section.1.1}% 6
-\BOOKMARK [2][]{subsection.1.1.3}{1.1.3 Solar Atmosphere}{section.1.1}% 7
-\BOOKMARK [3][]{subsubsection.1.1.3.1}{1.1.3.1 Photosphere}{subsection.1.1.3}% 8
-\BOOKMARK [3][]{subsubsection.1.1.3.2}{1.1.3.2 Chromosphere}{subsection.1.1.3}% 9
-\BOOKMARK [3][]{subsubsection.1.1.3.3}{1.1.3.3 Transition Region}{subsection.1.1.3}% 10
-\BOOKMARK [3][]{subsubsection.1.1.3.4}{1.1.3.4 Corona}{subsection.1.1.3}% 11
-\BOOKMARK [1][]{section.1.2}{1.2 Coronal Mass Ejections}{chapter.1}% 12
-\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 A Brief History}{section.1.2}% 13
-\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Morphology and Kinematics}{section.1.2}% 14
-\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 Masses and Dynamics}{section.1.2}% 15
-\BOOKMARK [1][]{section.1.3}{1.3 Coronal Shocks}{chapter.1}% 16
-\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Type II Radio Bursts}{section.1.3}% 17
-\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Herringbones and Type IIIs}{section.1.3}% 18
-\BOOKMARK [2][]{subsection.1.3.3}{1.3.3 Coronal Bright Fronts}{section.1.3}% 19
-\BOOKMARK [2][]{subsection.1.3.4}{1.3.4 White-light Shocks}{section.1.3}% 20
-\BOOKMARK [1][]{section.1.4}{1.4 Thesis Outline}{chapter.1}% 21
-\BOOKMARK [0][]{chapter.2}{2 Coronal Mass Ejection and Plasma Shock Theory}{}% 22
-\BOOKMARK [1][]{section.2.1}{2.1 Plasma Physics and \040Magnetohydrodynamics}{chapter.2}% 23
-\BOOKMARK [2][]{subsection.2.1.1}{2.1.1 Maxwell's Equations}{section.2.1}% 24
-\BOOKMARK [2][]{subsection.2.1.2}{2.1.2 Plasma Kinetic Theory}{section.2.1}% 25
-\BOOKMARK [2][]{subsection.2.1.3}{2.1.3 Magnetohydrodynamics}{section.2.1}% 26
-\BOOKMARK [2][]{subsection.2.1.4}{2.1.4 Magnetic Reconnection}{section.2.1}% 27
-\BOOKMARK [1][]{section.2.2}{2.2 Coronal Mass Ejections}{chapter.2}% 28
-\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 Catastrophe Model}{section.2.2}% 29
-\BOOKMARK [2][]{subsection.2.2.2}{2.2.2 Magnetic Breakout Model}{section.2.2}% 30
-\BOOKMARK [2][]{subsection.2.2.3}{2.2.3 Toroidal Instability}{section.2.2}% 31
-\BOOKMARK [1][]{section.2.3}{2.3 Coronal Shocks and Plasma Emission}{chapter.2}% 32
-\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Alfv\351n Speed in the Corona}{section.2.3}% 33
-\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 MHD Shocks}{section.2.3}% 34
-\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Shock Particle Acceleration}{section.2.3}% 35
-\BOOKMARK [2][]{subsection.2.3.4}{2.3.4 Wave-Particle Interaction}{section.2.3}% 36
-\BOOKMARK [2][]{subsection.2.3.5}{2.3.5 Three-Wave Interaction and Plasma Emission}{section.2.3}% 37
-\BOOKMARK [2][]{subsection.2.3.6}{2.3.6 Frequency Drift of Radio Bursts}{section.2.3}% 38
-\BOOKMARK [0][]{chapter.3}{3 Observation and Instrumentation}{}% 39
-\BOOKMARK [1][]{section.3.1}{3.1 White-Light Observations}{chapter.3}% 40
-\BOOKMARK [2][]{subsection.3.1.1}{3.1.1 Lyot Coronagraph}{section.3.1}% 41
-\BOOKMARK [3][]{subsubsection.3.1.1.1}{3.1.1.1 SOHO LASCO}{subsection.3.1.1}% 42
-\BOOKMARK [3][]{subsubsection.3.1.1.2}{3.1.1.2 STEREO COR1 and COR2}{subsection.3.1.1}% 43
-\BOOKMARK [3][]{subsubsection.3.1.1.3}{3.1.1.3 Whilte-light Image Data Reduction}{subsection.3.1.1}% 44
-\BOOKMARK [1][]{section.3.2}{3.2 Ultraviolet Observations}{chapter.3}% 45
-\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 The Atmospheric Imaging Assembly}{section.3.2}% 46
-\BOOKMARK [1][]{section.3.3}{3.3 Radio Observations}{chapter.3}% 47
-\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Nan\347ay Radioheliograph}{section.3.3}% 48
-\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Nan\347ay Decametric Array}{section.3.3}% 49
-\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 STEREO WAVES}{section.3.3}% 50
-\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Rosse Solar Terrestrial Observatory}{section.3.3}% 51
-\BOOKMARK [3][]{subsubsection.3.3.4.1}{3.3.4.1 Antennas and Spectrometers}{subsection.3.3.4}% 52
-\BOOKMARK [3][]{subsubsection.3.3.4.2}{3.3.4.2 Nominal Operations}{subsection.3.3.4}% 53
-\BOOKMARK [3][]{subsubsection.3.3.4.3}{3.3.4.3 Dynamic spectra from RSTO}{subsection.3.3.4}% 54
-\BOOKMARK [3][]{subsubsection.3.3.4.4}{3.3.4.4 eCallisto Network}{subsection.3.3.4}% 55
-\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 Dynamic Spectra Data Reduction}{section.3.3}% 56
-\BOOKMARK [0][]{chapter.4}{4 Coronal Mass Ejection Masses, Energetics, and Forces}{}% 57
-\BOOKMARK [1][]{section.4.1}{4.1 Introduction}{chapter.4}% 58
-\BOOKMARK [1][]{section.4.2}{4.2 Observations}{chapter.4}% 59
-\BOOKMARK [1][]{section.4.3}{4.3 Data Analysis}{chapter.4}% 60
-\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Thomson Scattering in the Corona}{section.4.3}% 61
-\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Mass Measurement and Geometrical Uncertainties}{section.4.3}% 62
-\BOOKMARK [2][]{subsection.4.3.3}{4.3.3 Evaluation of uncertainties}{section.4.3}% 63
-\BOOKMARK [1][]{section.4.4}{4.4 Results}{chapter.4}% 64
-\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Mass vs. Time and Height}{section.4.4}% 65
-\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 Kinematics and Dynamics}{section.4.4}% 66
-\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 Evaluation of Forces}{section.4.4}% 67
-\BOOKMARK [1][]{section.4.5}{4.5 Conclusion}{chapter.4}% 68
-\BOOKMARK [0][]{chapter.5}{5 Coronal Mass Ejection Shocks and Particle Acceleration}{}% 69
-\BOOKMARK [1][]{section.5.1}{5.1 Introduction}{chapter.5}% 70
-\BOOKMARK [1][]{section.5.2}{5.2 Coronal Bright Front and Radio Source}{chapter.5}% 71
-\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Observations}{section.5.2}% 72
-\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Radio Source Height and Speed}{section.5.2}% 73
-\BOOKMARK [2][]{subsection.5.2.3}{5.2.3 Radio Source Alfv\351n Mach}{section.5.2}% 74
-\BOOKMARK [2][]{subsection.5.2.4}{5.2.4 CBF Speeds}{section.5.2}% 75
-\BOOKMARK [2][]{subsection.5.2.5}{5.2.5 CBF Thermal Properties}{section.5.2}% 76
-\BOOKMARK [1][]{section.5.3}{5.3 Radio Dynamic Spectra}{chapter.5}% 77
-\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Observations}{section.5.3}% 78
-\BOOKMARK [2][]{subsection.5.3.2}{5.3.2 Particle speeds and in-situ detection}{section.5.3}% 79
-\BOOKMARK [1][]{section.5.4}{5.4 White-light CME and Shock}{chapter.5}% 80
-\BOOKMARK [1][]{section.5.5}{5.5 Discussion}{chapter.5}% 81
-\BOOKMARK [2][]{subsection.5.5.1}{5.5.1 Relationship Between CME, CBF, and Radio bursts}{section.5.5}% 82
-\BOOKMARK [2][]{subsection.5.5.2}{5.5.2 Bursty Particle Acceleration}{section.5.5}% 83
-\BOOKMARK [0][]{chapter.6}{6 Conclusions and Future Work}{}% 84
-\BOOKMARK [1][]{section.6.1}{6.1 CME Masses and Energies}{chapter.6}% 85
-\BOOKMARK [2][]{subsection.6.1.1}{6.1.1 Principle results}{section.6.1}% 86
-\BOOKMARK [2][]{subsection.6.1.2}{6.1.2 Future Work}{section.6.1}% 87
-\BOOKMARK [3][]{subsubsection.6.1.2.1}{6.1.2.1 CME Mass and Forces Catalogue}{subsection.6.1.2}% 88
-\BOOKMARK [3][]{subsubsection.6.1.2.2}{6.1.2.2 Mass Estimates with AIA}{subsection.6.1.2}% 89
-\BOOKMARK [1][]{section.6.2}{6.2 Coronal Shocks and Radio Bursts}{chapter.6}% 90
-\BOOKMARK [2][]{subsection.6.2.1}{6.2.1 Principle results}{section.6.2}% 91
-\BOOKMARK [2][]{subsection.6.2.2}{6.2.2 Future Work}{section.6.2}% 92
-\BOOKMARK [3][]{subsubsection.6.2.2.1}{6.2.2.1 Hough Transform and Herringbone Statistics}{subsection.6.2.2}% 93
-\BOOKMARK [0][]{appendix.A}{A Appendix}{}% 94
-\BOOKMARK [1][]{section.A.1}{A.1 Radio Burst Emissivity}{appendix.A}% 95
-\BOOKMARK [1][]{section.A.2}{A.2 EUV and pB Density Measurements}{appendix.A}% 96
-\BOOKMARK [0][]{appendix*.108}{References}{}% 97
+\BOOKMARK [0][]{chapter*.1}{List of Publications}{}
+\BOOKMARK [0][]{section*.4}{List of Figures}{}
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}
+\BOOKMARK [1][]{section.1.1}{1.1 The Sun}{chapter.1}
+\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Solar Interior}{section.1.1}
+\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Solar Magnetic Field and Dynamo}{section.1.1}
+\BOOKMARK [2][]{subsection.1.1.3}{1.1.3 Solar Atmosphere}{section.1.1}
+\BOOKMARK [3][]{subsubsection.1.1.3.1}{1.1.3.1 Photosphere}{subsection.1.1.3}
+\BOOKMARK [3][]{subsubsection.1.1.3.2}{1.1.3.2 Chromosphere}{subsection.1.1.3}
+\BOOKMARK [3][]{subsubsection.1.1.3.3}{1.1.3.3 Transition Region}{subsection.1.1.3}
+\BOOKMARK [3][]{subsubsection.1.1.3.4}{1.1.3.4 Corona}{subsection.1.1.3}
+\BOOKMARK [1][]{section.1.2}{1.2 Coronal Mass Ejections}{chapter.1}
+\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 A Brief History}{section.1.2}
+\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Morphology and Kinematics}{section.1.2}
+\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 Masses and Dynamics}{section.1.2}
+\BOOKMARK [1][]{section.1.3}{1.3 Coronal Shocks}{chapter.1}
+\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Type II Radio Bursts}{section.1.3}
+\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Herringbones and Type IIIs}{section.1.3}
+\BOOKMARK [2][]{subsection.1.3.3}{1.3.3 Coronal Bright Fronts}{section.1.3}
+\BOOKMARK [2][]{subsection.1.3.4}{1.3.4 White-light Shocks}{section.1.3}
+\BOOKMARK [1][]{section.1.4}{1.4 Thesis Outline}{chapter.1}
+\BOOKMARK [0][]{chapter.2}{2 Coronal Mass Ejection and Plasma Shock Theory}{}
+\BOOKMARK [1][]{section.2.1}{2.1 Plasma Physics and \040Magnetohydrodynamics}{chapter.2}
+\BOOKMARK [2][]{subsection.2.1.1}{2.1.1 Maxwell's Equations}{section.2.1}
+\BOOKMARK [2][]{subsection.2.1.2}{2.1.2 Plasma Kinetic Theory}{section.2.1}
+\BOOKMARK [2][]{subsection.2.1.3}{2.1.3 Magnetohydrodynamics}{section.2.1}
+\BOOKMARK [2][]{subsection.2.1.4}{2.1.4 Magnetic Reconnection}{section.2.1}
+\BOOKMARK [1][]{section.2.2}{2.2 Coronal Mass Ejections}{chapter.2}
+\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 Catastrophe Model}{section.2.2}
+\BOOKMARK [2][]{subsection.2.2.2}{2.2.2 Magnetic Breakout Model}{section.2.2}
+\BOOKMARK [2][]{subsection.2.2.3}{2.2.3 Toroidal Instability}{section.2.2}
+\BOOKMARK [1][]{section.2.3}{2.3 Coronal Shocks and Plasma Emission}{chapter.2}
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Alfv\351n Speed in the Corona}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 MHD Shocks}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Shock Particle Acceleration}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.4}{2.3.4 Wave-Particle Interaction}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.5}{2.3.5 Three-Wave Interaction and Plasma Emission}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.6}{2.3.6 Frequency Drift of Radio Bursts}{section.2.3}
+\BOOKMARK [0][]{chapter.3}{3 Observation and Instrumentation}{}
+\BOOKMARK [1][]{section.3.1}{3.1 White-Light Observations}{chapter.3}
+\BOOKMARK [2][]{subsection.3.1.1}{3.1.1 Lyot Coronagraph}{section.3.1}
+\BOOKMARK [3][]{subsubsection.3.1.1.1}{3.1.1.1 SOHO LASCO}{subsection.3.1.1}
+\BOOKMARK [3][]{subsubsection.3.1.1.2}{3.1.1.2 STEREO COR1 and COR2}{subsection.3.1.1}
+\BOOKMARK [3][]{subsubsection.3.1.1.3}{3.1.1.3 Whilte-light Image Data Reduction}{subsection.3.1.1}
+\BOOKMARK [1][]{section.3.2}{3.2 Ultraviolet Observations}{chapter.3}
+\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 The Atmospheric Imaging Assembly}{section.3.2}
+\BOOKMARK [1][]{section.3.3}{3.3 Radio Observations}{chapter.3}
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Nan\347ay Radioheliograph}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Nan\347ay Decametric Array}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 STEREO WAVES}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Rosse Solar Terrestrial Observatory}{section.3.3}
+\BOOKMARK [3][]{subsubsection.3.3.4.1}{3.3.4.1 Antennas and Spectrometers}{subsection.3.3.4}
+\BOOKMARK [3][]{subsubsection.3.3.4.2}{3.3.4.2 Nominal Operations}{subsection.3.3.4}
+\BOOKMARK [3][]{subsubsection.3.3.4.3}{3.3.4.3 Dynamic spectra from RSTO}{subsection.3.3.4}
+\BOOKMARK [3][]{subsubsection.3.3.4.4}{3.3.4.4 eCallisto Network}{subsection.3.3.4}
+\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 Dynamic Spectra Data Reduction}{section.3.3}
+\BOOKMARK [0][]{chapter.4}{4 Coronal Mass Ejection Masses, Energetics, and Forces}{}
+\BOOKMARK [1][]{section.4.1}{4.1 Introduction}{chapter.4}
+\BOOKMARK [1][]{section.4.2}{4.2 Observations}{chapter.4}
+\BOOKMARK [1][]{section.4.3}{4.3 Data Analysis}{chapter.4}
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Thomson Scattering in the Corona}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Mass Measurement and Geometrical Uncertainties}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.3}{4.3.3 Evaluation of uncertainties}{section.4.3}
+\BOOKMARK [1][]{section.4.4}{4.4 Results}{chapter.4}
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Mass vs. Time and Height}{section.4.4}
+\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 Kinematics and Dynamics}{section.4.4}
+\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 Evaluation of Forces}{section.4.4}
+\BOOKMARK [1][]{section.4.5}{4.5 Conclusion}{chapter.4}
+\BOOKMARK [0][]{chapter.5}{5 Coronal Mass Ejection Shocks and Particle Acceleration}{}
+\BOOKMARK [1][]{section.5.1}{5.1 Introduction}{chapter.5}
+\BOOKMARK [1][]{section.5.2}{5.2 Coronal Bright Front and Radio Source}{chapter.5}
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Observations}{section.5.2}
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Radio Source Height and Speed}{section.5.2}
+\BOOKMARK [2][]{subsection.5.2.3}{5.2.3 Radio Source Alfv\351n Mach}{section.5.2}
+\BOOKMARK [2][]{subsection.5.2.4}{5.2.4 CBF Speeds}{section.5.2}
+\BOOKMARK [2][]{subsection.5.2.5}{5.2.5 CBF Thermal Properties}{section.5.2}
+\BOOKMARK [1][]{section.5.3}{5.3 Radio Dynamic Spectra}{chapter.5}
+\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Observations}{section.5.3}
+\BOOKMARK [2][]{subsection.5.3.2}{5.3.2 Particle speeds and in-situ detection}{section.5.3}
+\BOOKMARK [1][]{section.5.4}{5.4 White-light CME and Shock}{chapter.5}
+\BOOKMARK [1][]{section.5.5}{5.5 Discussion}{chapter.5}
+\BOOKMARK [2][]{subsection.5.5.1}{5.5.1 Relationship Between CME, CBF, and Radio bursts}{section.5.5}
+\BOOKMARK [2][]{subsection.5.5.2}{5.5.2 Bursty Particle Acceleration}{section.5.5}
+\BOOKMARK [0][]{chapter.6}{6 Conclusions and Future Work}{}
+\BOOKMARK [1][]{section.6.1}{6.1 CME Masses and Energies}{chapter.6}
+\BOOKMARK [2][]{subsection.6.1.1}{6.1.1 Principle results}{section.6.1}
+\BOOKMARK [2][]{subsection.6.1.2}{6.1.2 Future Work}{section.6.1}
+\BOOKMARK [3][]{subsubsection.6.1.2.1}{6.1.2.1 CME Mass and Forces Catalogue}{subsection.6.1.2}
+\BOOKMARK [3][]{subsubsection.6.1.2.2}{6.1.2.2 Mass Estimates with AIA}{subsection.6.1.2}
+\BOOKMARK [1][]{section.6.2}{6.2 Coronal Shocks and Radio Bursts}{chapter.6}
+\BOOKMARK [2][]{subsection.6.2.1}{6.2.1 Principle results}{section.6.2}
+\BOOKMARK [2][]{subsection.6.2.2}{6.2.2 Future Work}{section.6.2}
+\BOOKMARK [3][]{subsubsection.6.2.2.1}{6.2.2.1 Hough Transform and Herringbone Statistics}{subsection.6.2.2}
+\BOOKMARK [0][]{appendix.A}{A Appendix}{}
+\BOOKMARK [1][]{section.A.1}{A.1 Radio Burst Emissivity}{appendix.A}
+\BOOKMARK [1][]{section.A.2}{A.2 EUV and pB Density Measurements}{appendix.A}
+\BOOKMARK [0][]{section*.111}{References}{}
