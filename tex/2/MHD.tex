@@ -136,30 +136,27 @@ As an order of magnitiude estimate for the derivatives we replace $\partial/\par
 \label{eqn:diff_time}
 \end{equation}
 The typical length scales for a coronal active region are $10^7$\,m, and assuming a Spitzer magnetic diffusivity $\eta = 10^9T^{-3/2} = 1$\,m$^2$\,s$^{-1}$ \citep{spitzer1962}, equation~\ref{eqn:diff_time} gives a diffusive timescale of 3.1 million years.
-Given that active regions evolve quasi-statically over weeks and evolve dynamically over timescales of seconds minutes during an eruptive process, there must be an evolution process other than a large scale diffusion in the solar atmosphere. Equation~\ref{eqn:diff_time} indicates that there may be two different ways in which the evolution of magnetic fields may occur over a much shorter times scale: either the typical length scale $L$ is much shorter, or magnetic diffusivity $\eta$ is much larger. The process by which short timescale field evolution takes place is magnetic reconnection.
+Given that active regions evolve quasi-statically over weeks and evolve dynamically over timescales of seconds and minutes during an eruptive process, there must be a magnetic field evolution process other than a large scale diffusion in the solar atmosphere. Equation~\ref{eqn:diff_time} indicates that there may be two different ways in which the evolution of magnetic fields may occur over a much shorter times scale: either the typical length scale $L$ is much shorter, or magnetic diffusivity $\eta$ is much larger. The process by which short-timescale magnetic field evolution takes place is magnetic reconnection.
 
-Magnetic reconnection is the dynamical process that describes the short timescale evolution of magnetic fields in the corona (and other astrophysical and laboratory systems). It involves a change in magnetic topology that converts magnetic energy in kinetic and thermal energy of the bulk plasma and accelerates particles to high speeds. Magnetic reconnection typically occurs in a boundary between two oppositely directed magnetic field regions (Figure~\ref{fig:recconection}). At the very center of the boundary layer (called the diffusion region) the magnetic field must go to zero to account for a continuous change from positive to negative magnetic field. The total pressure balance in the boundary layer and on either side is \citep{asch2004}
+Magnetic reconnection involves a change in magnetic topology that converts magnetic energy into kinetic and thermal energy of the bulk plasma. \citet{sweet1958} and \citet{parker1963} were the first to devise an MHD mechanism by which this occurs. The typical mechanism involves a thin diffusion region between two oppositely directed magnetic field topologies (Figure~\ref{fig:recconection}, top). The pressure in this region and on either side is
 \begin{equation}
-B_1 + p_1 = p_{dr} = B_2 + p_2
+p_1  + \frac{B^2_1}{2\mu_0} = p_{diff}  = p_2  + \frac{B^2_2}{2\mu_0}
 \end{equation}
-where $p_{1,2}$ and $B_{1,2}$ represent thermal and magnetic pressure on either side of the diffusion region, respectively, and $p_{dr}$ is the pressure inside the diffusion region (no magnetic pressure).
-
-
+where $p_{1,2}$ and $B^2_{1,2}/2\mu$ are the thermal pressure and magnetic pressure, respectively, on either side of the diffusion region, and $p_{diff}$ is the thermal pressure in the diffusion region (no magnetic pressure). The pressure gradients across the diffusion region causes the magnetic field to inflow on side $\Delta$. It reconnects and exits in the field region on side $\delta$. The curvature in the field on side $\delta$ results in a tension force that drags the field away at high speed, this is known as the \emph{sling-shot effect} and is the basic conversion mechanism from magnetic to kinetic energy.
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.7]{reconnection.pdf}
-\caption[Sweet-Parker and Petscheck reconnection models]{The reconnection models of Swee-Parker (top) and Petscheck (bottom). The Sweet-Parker mechanism employs a long and thin ($\Delta>>\delta$) current sheet as the diffusion region. It produces reconnection rates that are much too slow to describe flare and CME energy dissipations rates. Petscheck proposed a similar model but with a diffusion region that is much smaller, with $\Delta\approx\delta$, resulting in reconnection rates that are consistent with flare and CME timescales. The dissipation of energy in this model is partly controlled by the presence of two slow-mode shocks which separate the sub-Alfv\'{e}nic inflow region and the super-Alfv\'{e}nic outflow region \citep{asch2004}.}
+\caption[Sweet-Parker and Petscheck reconnection models]{The reconnection models of Swee-Parker (top) and Petscheck (bottom). The Sweet-Parker mechanism employs a long and thin ($\Delta>>\delta$) diffusion region. It produces reconnection rates that are much too slow to describe flare and CME energy dissipations rates. Petscheck proposed a similar model but with a diffusion region that is much smaller, with $\Delta\approx\delta$, resulting in reconnection rates that are consistent with flare and CME timescales. The dissipation of energy in this model is partly controlled by the presence of two slow-mode shocks which separate the sub-Alfv\'{e}nic inflow region and the super-Alfv\'{e}nic outflow region \citep{asch2004}.}
 \label{fig:recconection}
 \end{center}
 \end{figure}
-The existence of inflows into the diffusion region at right angles to the magnetic field creates an electric field in this layer that is perpendicular to the inflow plane. This creates a current in the diffusion region, hence this ayer is often called a `current sheet'. The diffusion of magnetic fields occurs within this current sheet. Sweet and Parker were the first devise an MHD mechanism by which magnetic reconnection occurs \cite{sweet1958, parker1963}. 
-%Although no complete analytical theory exists for the process, the MHD conservation equations may be applied to derive the reconnection rate. The application of resistive MHD only applies within the thin current sheet, while ideal MHD applies everywhere else.
-They showed that the diffusive time scale of the field (equation~\ref{eqn:diff_time}) could be made much faster by considering a diffusion region much smaller than the size scales of active regions. The model consists of a current sheet (diffusion region) that is much longer than it is wide i.e., in the top panel of Figure~\ref{fig:recconection} $\Delta>>\delta$, where $\Delta$ is current sheet half-length and $\delta$ is current sheet half-thickness. Conservation of mass implies that the rate at which mass enters the sheet must equal the rate that mass exits the sheet
+
+$\delta$ is taken to be very narrow, so the diffusion timescale for the Sweet-Parker mechanism is much shorter than a global diffusive timescale. To define the rate of reconnection, Sweet and Parker employed a number of conservation principles, whereby the rate at which mass enters the region must equal the rate at which mass exits the region
 \begin{equation}
 \rho \Delta v_{in} = \rho \delta v_{out}
-\label{eqn:in_out}
+\label{eqn:inout}
 \end{equation}
-where $v_{in}$ and $v_{out}$ are the inflow and outflow speeds respectively. Using equations~\ref{eqn:diff_time} and \ref{eqn:in_out} the inflow speed may be written as
+where $v_{in}$ and $v_{out}$ are the inflow and outflow speeds respectively. Using equations~\ref{eqn:diff_time} and \ref{eqn:inout} the inflow speed may be written as
 \begin{equation}
 v_{in}^2 = \frac{\eta v_{out}}{L}
 \end{equation}
@@ -167,13 +164,14 @@ The reconnection rate depends on in the ratio of the inflow speed $v_{in}$ to th
 \begin{equation}
 M = \frac{v_{in}}{v_{out}} = \frac{1}{\sqrt{S}}
 \end{equation}
-where $S=v_AL/\eta$ is the Lundquist number (equivalent to the magnetic Reynold's number at the Alfv\'{e}n speed). Hence, the rate of reconnection depends on the length scale and magnetic diffusivity in the current sheet. Despite the fact that the Sweet-Parker mechanism provides a rate of magnetic energy dissipation that is faster than the global process, it is much too slow to explain the process of magnetic energy release in solar flares. For example for typical Lundquist numbers of $10^{12}$, the Sweet-Parker model produces a reconnection rate of $10^{-6}v_a$.
+where $S=v_AL/\eta$ is the Lundquist number (equivalent to the magnetic Reynold's number at the Alfv\'{e}n speed). Hence, the rate of reconnection depends on the length scale (taken to be $L=\Delta$ in this case) and magnetic diffusivity, $\eta$, in the current sheet. Despite the fact that the Sweet-Parker mechanism provides a rate of magnetic energy dissipation that is faster than the global process, it is much too slow to explain the process of magnetic energy release in solar flares. For example for typical Lundquist numbers of $10^{12}$, the Sweet-Parker model produces a reconnection rate of $10^{-6}v_a$.
 
-To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $\Delta\approx\delta$ \citep{petschek1964}, see bottom panel of Figure~\ref{fig:recconection}. With this smaller diffusion region, the boundary between inflow and outflow regions are separated by slow mode magnetoacoustic shocks. Alongside the diffusion region, these shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Petscheck found the reconnection rate is given as
-\begin{equation}
+To over come the problem, Petscheck proposed a model with a much smaller diffusion region where $\Delta\approx\delta$ \citep{petschek1964}, see bottom panel of Figure~\ref{fig:recconection}. With this smaller diffusion region, Petscheck found the rate to be \begin{equation}
 M \approx \frac{\pi}{8\,\mathrm{ln}(S)}
 \end{equation}
-producing a much faster rate of 0.1$v_A$, which is comparable to solar flares. Much work has been done on the generalization of this theory \citep{priest1986, sonnerup1970}, and there is observational evidence for the existence of reconnection in the corona \citep{su2013}
+producing a much faster rate of 0.1$v_A$, which is comparable to solar flares. The mechanism also requires the boundary between inflow and outflow regions to be separated by slow mode magnetoacoustic shocks. These shocks also help to dissipate some of the inflowing kinetic energy into thermal energy. Much work has been done on the generalization of this theory \citep{priest1986, sonnerup1970}, and there is observational evidence for the existence of reconnection in the corona \citep{su2013}.
+
+Finally, given the fact that there is fluid flow across the field in the diffusion region, Ohm's law produces electric field and current in this region. Hence the the diffusion region is known as a `current sheet', in current flows in a 2D surface and particles may experience acceleration to relativistic velocities.
 %Removed to reduce pages
 %When Petscheck presented the model it was thought to be a complete description of 2D magnetic reconnection, however other solutions would soon be discovered, with the Petscheck model being just one of a family of possible 2D reconnection mechanisms. These mechanisms describe steady, uniform, 2D reconnection, the rate of which may be summarised as \citep{priest1986}
 %\begin{equation}
@@ -274,26 +272,23 @@ It is significant the fluxrope is already established in the corona before erupt
 The following is an overview of general coronal shock theory and the mechanisms by which a shock will produce plasma emission and radio busrsts. This includes shock drift acceleration, beam-wave interaction and the three-wave interaction process. 
 
 \subsection{Alfv\'{e}n Speed in the Corona}
-The speed at which perturbations travel in a magnetized plasma is the Alfv\'{e}n speed, given by
-\begin{equation}
-v_A = \frac{B_0}{\sqrt{\mu_0 \rho}}
-\end{equation}
-where $B_{0}$ is the unperturbed (equilibrium) magnetic field, $\mu_{0}$ is the magnetic permeability, and $\rho_{0}$ is the unperturbed mass density of the medium. This is a highly anisotropic wave driven by the restoring force of magnetic tension, with the inertia provided by the plasma mass density. Perturbations in the magnetic field, $B_{1}$, are transverse to the direction of $B_0$ and the group velocity always has a wave $\hat{k}$ vector parallel to the magnetic field direction. The quiet solar corona in the range of $1-3$\,$R_{\odot}$ has typical magnetic field strengths on the order of 1$-$100\,G\,=\,10$^{-2}-$10$^{-3}$\,T, and typical electron number densities of 10$^{6} -$10$^{9}$\,cm$^{-3}$\,=\,10$^{12}-$10$^{15}$\,m$^{-3}$, so for $B_0$=5 G and $n_e$=10$^{8}$\,cm$^{-3}$ the Alfv\'{e}n speed in the corona is $\sim$1000\,km$\cdot$s$^{-1}$. The variation in magnetic field and density in the corona, especially nearby an active region, $v_{A}$ may be on the order of 10$^{2}-$10$^{3}$\,km$\cdot$s$^{-1}$. If displacement components of the wave are perpendicular as well as parallel to the equilibrium magnetic field and non-zero perturbations in plasma thermal pressure and density occur, the result is a wave propagation known as a magnetoacoustic wave, such as the fast and slow mode MHD waves. However, given the corona is a low$-\beta$ plasma, magnetic perturbations are faster than thermal pressure ones, so the Alfv\'{e}n speed is a good estimate of plasma perturbation speeds in the corona.
-\begin{figure}
+\begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.25, trim=0cm 2cm 0cm 2cm]{alfven_speed.png}
 \caption[Model of the Aflv\'{e}n speed as a function of height in the corona]{Alfv\'{e}n speed of the corona as a function of heliocentric distance. The dotted line is the quite sun, with only the Sun's global dipole field. The solid line is the Alfv\'{e}n speed calculated from a combination of te global dipole field and a smaller active region dipole field oriented parallel to the global dipole. The dashed line is the the speed when the active region dipole is anti-parallel to the global field. The two profiles from the active region show a distinct minimum in the coronal Alfv\'{e}n speed at $\sim1.5\,R_{\odot}$}
 \label{fig:alfven_speed}
 \end{center}
 \end{figure}
-\citet{mann2003} produced a 1D model of the variation of Alv\'{e}n speeds in the quiet and active region corona as a function of height (Figure~\ref{fig:alfven_speed}), this was later extended to a 2D model \citep{warmuth2005}. It shows that CMEs are well capable of producing plasma hocks in the corona, since they may travel far in excess of the Alfv\'{e}n speed. The theory of plasma shocks and the resulting effects of particle acceleration and plasma emission are discussed in the following sections.
+The speed at which perturbations travel in a magnetized plasma is the Alfv\'{e}n speed, given by
+\begin{equation}
+v_A = \frac{B_0}{\sqrt{\mu_0 \rho}}
+\end{equation}
+where $B_{0}$ is the unperturbed (equilibrium) magnetic field, $\mu_{0}$ is the magnetic permeability, and $\rho_{0}$ is the unperturbed mass density of the medium. This is a highly anisotropic wave driven by the restoring force of magnetic tension, with the inertia provided by the plasma mass density. Perturbations in the magnetic field, $B_{1}$, are transverse to the direction of $B_0$ and the group velocity always has a wave $\hat{k}$ vector parallel to the magnetic field direction. The quiet solar corona in the range of $1-3$\,$R_{\odot}$ has typical magnetic field strengths on the order of 1$-$100\,G\,=\,10$^{-2}-$10$^{-3}$\,T, and typical electron number densities of 10$^{6} -$10$^{9}$\,cm$^{-3}$\,=\,10$^{12}-$10$^{15}$\,m$^{-3}$, so for $B_0$=5 G and $n_e$=10$^{8}$\,cm$^{-3}$ the Alfv\'{e}n speed in the corona is $\sim$1000\,km$\cdot$s$^{-1}$. The variation in magnetic field and density in the corona, especially nearby an active region, $v_{A}$ may be on the order of 10$^{2}-$10$^{3}$\,km$\cdot$s$^{-1}$. If displacement components of the wave are perpendicular as well as parallel to the equilibrium magnetic field and non-zero perturbations in plasma thermal pressure and density occur, the result is a wave propagation known as a magnetoacoustic wave, such as the fast and slow mode MHD waves. However, given the corona is a low$-\beta$ plasma, magnetic perturbations are faster than thermal pressure ones, so the Alfv\'{e}n speed is a good estimate of plasma perturbation speeds in the corona. \citet{mann2003} produced a 1D model of the variation of Alv\'{e}n speeds in the quiet and active region corona as a function of height (Figure~\ref{fig:alfven_speed}), this was later extended to a 2D model \citep{warmuth2005}. It shows that CMEs are well capable of producing plasma hocks in the corona, since they may travel far in excess of the Alfv\'{e}n speed. The theory of plasma shocks and the resulting effects of particle acceleration and plasma emission are discussed in the following sections.
 
 
 \subsection{MHD Shocks}\label{sec:mhd_shocks}
 
-For acoustic shock waves there are a number of conservation equations that quantify the strength of a shock by relating the upstream gas pressure, density, flow speed, and temperature to their downstream counterparts. Such conservation equations are known as the jump conditions and the shock is considered a surface at which the fluid properties change discontinuously. A shock naturally converts kinetic energy to thermal energy by slowing the flow down and heating it i.e. a dissipation of kinetic energy and increase of entropy. This occurs within the extremely narrow shock surface itself by particle collisions and viscous interactions. However, the processes in the shock surface itself are inconsequential and the relationship between upstream and downstream macroscopic parameters provide a sufficient description of the plasma flow. 
-
-When the gas is ionized and a magnetic field is present, the jump conditions are very much the same and are modified only by the presence of the magnetic field. In the general case of oblique shock waves where the magnetic field direction has some arbitrary angle with respect to shock normal we may derive a set of conservation equations for the frame of the shock wave. 
+For plasma shock waves there are a number of conservation equations that quantify the strength of a shock by relating the upstream gas pressure, magnetic pressure, density, flow speed, and temperature to their downstream counterparts. Such conservation equations are known as the jump conditions and the shock is considered a surface at which these fluid properties change discontinuously. Mathematically, the jump conditions are best treated in the rest frame of the shock, in which the flow approaches the shock from upstream and exits downstream (Figure~\ref{fig:shock_pic}).
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.5, angle=0]{images/shock_pic}
@@ -301,8 +296,9 @@ When the gas is ionized and a magnetic field is present, the jump conditions are
 \label{fig:shock_pic}
 \end{center}
 \end{figure}
-
-The flow velocity $v$ and magnetic field $B$ are considered to be in the xy-plane. The appropriate conservation  equations are
+%A shock naturally converts kinetic energy to thermal energy by slowing the flow down and heating it i.e. a dissipation of kinetic energy and increase of entropy. This occurs within the extremely narrow shock surface itself by particle collisions and viscous interactions. However, the processes in the shock surface itself are inconsequential and the relationship between upstream and downstream macroscopic parameters provide a sufficient description of the plasma flow. 
+%When the gas is ionized and a magnetic field is present, the jump conditions are very much the same and are modified only by the presence of the magnetic field. In the general case of oblique shock waves where the magnetic field direction has some arbitrary angle with respect to shock normal we may derive a set of conservation equations for the frame of the shock wave. 
+The flow velocity $\mathbf{v}$ and magnetic field $\mathbf{B}$ are considered to be in the xy-plane. The appropriate conservation  equations are
 \begin{subequations}
 \begin{align}
 &[\rho v_{x}]=0 \\
@@ -313,7 +309,7 @@ The flow velocity $v$ and magnetic field $B$ are considered to be in the xy-plan
 &[v_{x}B_{y} - v_{y}B_{x}]=0 
 \end{align}
 \end{subequations}
-These are the general MHD shock jump conditions where $v$ is the fluid velocity and $B$ is the magnetic field (with their corresponding components $\textquoteleft$x' or $\textquoteleft$y'), $\rho$ is the mass density, $p$ is the thermal pressure, and $\gamma$ is the ratio of specific heats (or the polytropic index). The meaning of the square brackets is $[F]\equiv F_{1}-F_{2}$, for any quantity F, and the $1$ or $2$ subscripts represent upstream or downstream values of each quantity F, respectively. These set of jump conditions differ only from the purely acoustic ones due the presence of the magnetic field. For example, taking (2.37a), (2.37b), and (2.37d) and setting $B_{x}=B_{y}=0$ we obtain the jump conditions for a neutral gas. Each conservation equation has a specific meaning; 
+In these equations $\mathbf{v}$ and $\mathbf{B}$ are decomposed into their $x$ and $y$ components, $\rho$ is the mass density, $p$ is the thermal pressure, and $\gamma$ is the ratio of specific heats. The meaning of the square brackets is $[F]\equiv F_{1}-F_{2}$, for any quantity F, where the 1 and 2 subscripts represent upstream and downstream values, respectively. The plasma jump conditions differ only from the neutral acoustic ones due the presence of the magnetic field. For example, taking (2.37a), (2.37b), and (2.37d) and setting $B_{x}=B_{y}=0$ we obtain the jump conditions for a neutral gas. Each conservation equation has a specific meaning; 
 \begin{itemize}
 \item (2.37a) is a mass conservation equation whereby the mass flux entering the shock must equal the mass flux leaving. It has units of kg\,m$^{-2}$\,s$^{-1}$.
 \item (2.37b) indicates that if mass flux $\rho_{1} v_{x,1}$ enters the shock with momentum $(\rho_{1} v_{x,1})v_{x,1}$ it leaves the shock with momentum $(\rho_{1} v_{x,1})v_{x,2}$, the difference being equal to the the changing force per unit area across the shock. In this case both thermal and magnetic pressures contribute to change in momentum flux. (4c) implies the same process but relates the $x$ and $y$ components of the $v$ and $B$ vector fields. Both equations have units of momentum flux $\equiv$ (kg\,m$^{-2}$\,s$^{-1}$)(m\,s$^{-1}$) = (kg\,m\,s$^{-2}$m$^{-2}$) = N\,m$^{-2}\equiv$ pressure.
@@ -332,20 +328,23 @@ In the simple case of fully perpendicular shocks there is no need for the decomp
 &\dfrac{B_{2}}{B_{1}}=\chi \\
 &\dfrac{p_{2}}{p{1}}=\gamma M_{1}^2\bigg(1-\frac{1}{\chi}\bigg) - \frac{1-\chi^2}{\beta_{1}}
 \end{align}
+\label{eqn:comp_shock}
 \end{subequations}
-where $\beta_{1}=2\mu p/B_{1}^2$ is the upstream plasma beta parameter. The exact value of the compression ratio may be obtained by using 2.37(b) to eliminate $p$ from the energy flux equation 2.37(d) and incorporating 2.37(a,c,e,f) (and a lot of algebra) into a quadratic for $\chi$
+where $\beta_{1}=2\mu p/B_{1}^2$ is the upstream plasma beta parameter. The magnitude of compression $\chi$ may be quantified in terms of the Mach number by using 2.37(b) to eliminate $p$ from the energy flux equation 2.37(d) and incorporating 2.37(a,c,e,f) (and a lot of algebra) into a quadratic for $\chi$
 \begin{equation}
 2(2-\gamma)\chi^{2}+[2\beta_{1}+(\gamma-1)\beta_{1}M_{1}^2+2]\gamma\chi - \gamma(\gamma+1)\beta_{1}M_{1}^2=0
+\label{eqn:shock_adiabatic}
 \end{equation}
 %where $M_{1}$ is the upstream sonic Mach number, $\beta_{1}$ is the upstream beta parameter and, and $\gamma$ is the ploytropic index. 
-Equation (6) has one positive real root such that 
+Equation~\ref{eqn:shock_adiabatic} has one positive real root such that 
 \begin{equation}
 1< \chi < \frac{\gamma+1}{\gamma-1}
 \label{eqn:compression}
 \end{equation}
-Using a ploytropic index of $\gamma=5/3$ (monatomic) means the shock compression can be no more than a factor of 4. Another extremely important fact arising from this is magnetic compression can also be no greater than 4 i.e., from equation 2.37(b) $B_{2}/B_{1}=\chi<4$. This has consequences for the shock drift acceleration mechanism and provides an upper limit to the particle energy gain.
+Using a ploytropic index of $\gamma=5/3$ (monatomic) means the shock compression can be no more than a factor of 4. Given that $\chi>1$, Equations~\ref{eqn:comp_shock} encapsulate the natural behavior of a shock e.g., the downstream velocity is smaller than the upstream (the flow decreases in kinetic energy), and the downstream pressure is larger than the upstream (flow increases in thermal energy). In other words, the shock dissipates flow energy by slowing it down and heating it. An extremely important fact arising from $1<\chi<4$ is that magnetic field compression is positive, with $B_{2}/B_{1} <4$. This has consequences for the shock drift acceleration mechanism and provides an upper limit to the particle energy gain.
 
-Despite the fact that the Rankine-Hugoniot equations for neutral gas shocks and plasma shocks are essentially the same, on a microscopic scale they are fundamentally different. For most astrophysical circumstances plasmas shocks are collisionless. This means the mean free path for particle collisions is far larger than the shock thickness and it is not collisions between particles that dissipate flow energy and increase entropy. It is believed that the interactions of particles and the turbulent electromagnetic field of the shock play the role of collisions and produce flow energy dissipation. However, if a plasma shock becomes `supercritical' an extra dissipation mechanism is required, achieved by reflection of ions back to the upstream flow. Supercriticality is achieved when the downstream flow surpasses sonic Mach 1.
+As mentioned, a shock naturally converts kinetic energy to thermal energy by slowing the flow down and heating it i.e. a dissipation of kinetic energy and increase of entropy. In a neutral shock, this occurs within the extremely narrow shock surface by particle collisions and viscous interactions. However, for most astrophysical circumstances plasmas shocks are collisionless, meaning the mean free path for particle collisions is far larger than the shock thickness and it is not collisions between particles that dissipate flow energy and increase entropy. It is believed that the interactions of particles and the turbulent electromagnetic field of the shock play the role of collisions and produce flow energy dissipation. However, if a plasma shock becomes `supercritical' an extra dissipation mechanism is required, achieved by reflection of ions back to the upstream flow. Supercriticality is achieved when the downstream flow surpasses sonic Mach 1.
+
 
 \subsection{Shock Particle Acceleration}\label{sec:30}
 
@@ -445,13 +444,13 @@ e^{j\omega t}=e^{(i[\omega_r + i\gamma])}=e^{i\omega_rt}e^{-\gamma t}
 \end{equation}
 This solution is a damped wave with damping factor $\gamma$, meaning the solution to equation~\ref{eqn:dispersion} in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping.
 
-Quasi-linear theory uses Equation~\ref{eqn:f_pert} and Maxwell's first equation to show that the time evolution of the wave energy density in the electrostatic waves is
+Quasi-linear theory uses Equation~\ref{eqn:f_pert} and Maxwell's first equation to show that the time evolution of the wave energy density is
 \begin{eqnarray}
 \frac{\partial W(k,t)}{\partial t} &=& -\gamma W(k,t)~,~~~\gamma = -\frac{\pi}{n}\frac{\omega^3}{k^2} \frac{\partial f(v,t)}{\partial v}
 \label{eqn:Wk}
 \end{eqnarray}
-where $W(k,t)$ is the spectral energy density of the electrostatic waves and $\gamma$ is the wave growth term \citep{vedenov1963}.
-Simultaneously, the distribution function is evolves according to 
+where $W(k,t)$ is the wave spectral energy density and $\gamma$ is the wave growth term \citep{vedenov1963}. In the context of solar radio bursts the waves are Langmuir waves.
+Simultaneously, the distribution function evolves according to 
 \begin{eqnarray}
 \frac{\partial f(v,t)}{\partial t} &=& \frac{\partial }{\partial v} \bigg(D\frac{\partial f(v,t)}{\partial v}\bigg)~,~~~D = \frac{4\pi e^2}{m_e^2}\frac{W(k,t)}{v}
 \label{eqn:Diff}
