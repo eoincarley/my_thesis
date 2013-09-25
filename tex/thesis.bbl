@@ -1,4 +1,4 @@
-\begin{thebibliography}{280}
+\begin{thebibliography}{286}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -46,12 +46,6 @@
   {D{\'e}moulin}, P.} (2007). {Coronal ``Wave'': Magnetic Footprint of a
   Coronal Mass Ejection?} {\em \apjl\/}, {\bf 656}, L101--L104.
 
-\bibitem[{{Aulanier} {\em et~al.\/}(2000){Aulanier}, {DeLuca}, {Antiochos},
-  {McMullen} \& {Golub}}]{aulan2000}
-{\sc {Aulanier}, G., {DeLuca}, E.E., {Antiochos}, S.K., {McMullen}, R.A. \&
-  {Golub}, L.} (2000). {The Topology and Evolution of the Bastille Day Flare}.
-  {\em \apj\/}, {\bf 540}, 1126--1142.
-
 \bibitem[{{Aurass} \& {Mann}(2004)}]{aurass2004}
 {\sc {Aurass}, H. \& {Mann}, G.} (2004). {Radio Observation of Electron
   Acceleration at Solar Flare Reconnection Outflow Termination Shocks}. {\em
@@ -98,12 +92,23 @@
   Electrons}. {\em Publications of the Astronomical Society of Australia\/},
   {\bf 18}, 361--373.
 
+\bibitem[{{Bastian} {\em et~al.\/}(2001){Bastian}, {Pick}, {Kerdraon}, {Maia}
+  \& {Vourlidas}}]{bastian2001}
+{\sc {Bastian}, T.S., {Pick}, M., {Kerdraon}, A., {Maia}, D. \& {Vourlidas},
+  A.} (2001). {The Coronal Mass Ejection of 1998 April 20: Direct Imaging at
+  Radio Wavelengths}. {\em \apjl\/}, {\bf 558}, L65--L69.
+
 \bibitem[{{Bein} {\em et~al.\/}(2011){Bein}, {Berkebile-Stoiser}, {Veronig},
   {Temmer}, {Muhr}, {Kienreich}, {Utz} \& {Vr{\v s}nak}}]{bein2011}
 {\sc {Bein}, B.M., {Berkebile-Stoiser}, S., {Veronig}, A.M., {Temmer}, M.,
   {Muhr}, N., {Kienreich}, I., {Utz}, D. \& {Vr{\v s}nak}, B.} (2011).
   {Impulsive Acceleration of Coronal Mass Ejections. I. Statistics and Coronal
   Mass Ejection Source Region Characteristics}. {\em \apj\/}, {\bf 738}, 191.
+
+\bibitem[{{Bemporad} \& {Mancuso}(2010)}]{bemporad2010}
+{\sc {Bemporad}, A. \& {Mancuso}, S.} (2010). {First Complete Determination of
+  Plasma Physical Parameters Across a Coronal Mass Ejection-driven Shock}. {\em
+  \apj\/}, {\bf 720}, 130--143.
 
 \bibitem[{{Benz} {\em et~al.\/}(2005){Benz}, {Monstein} \& {Meyer}}]{Benz2005}
 {\sc {Benz}, A.O., {Monstein}, C. \& {Meyer}, H.} (2005). {Callisto A New
@@ -138,13 +143,6 @@
   {Leblanc}, Y., {Lecacheux}, A., {de La Noe}, J. \& {Moller-Pedersen}, B.}
   (1980). {A new high-gain, broadband, steerable array to study Jovian
   decametric emission}. {\em ICARUS\/}, {\bf 43}, 399--407.
-
-\bibitem[{{Bong} {\em et~al.\/}(2006){Bong}, {Moon}, {Cho}, {Kim}, {Park} \&
-  {Choe}}]{bong2006}
-{\sc {Bong}, S.C., {Moon}, Y.J., {Cho}, K.S., {Kim}, Y.H., {Park}, Y.D. \&
-  {Choe}, G.S.} (2006). {Direct Observation of Low Coronal Breakout: Does
-  Breakout Precede or Follow Solar Eruption?} {\em \apjl\/}, {\bf 636},
-  L169--L172.
 
 \bibitem[{{Bonmartin} {\em et~al.\/}(1983){Bonmartin}, {Bouteille},
   {Clavelier}, {Issartel}, {Kerdraon}, {Lantos}, {Lantos}, {Mercier}, {Pick} \&
@@ -270,6 +268,10 @@
 {\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
   K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
 
+\bibitem[{{Carmichael}(1964)}]{carmicheal1964}
+{\sc {Carmichael}, H.} (1964). {A Process for Flares}. {\em NASA Special
+  Publication\/}, {\bf 50}, 451.
+
 \bibitem[{{Carrington}(1859)}]{carrington1859}
 {\sc {Carrington}, R.C.} (1859). {Description of a Singular Appearance seen in
   the Sun on September 1, 1859}. {\em \mnras\/}, {\bf 20}, 13--15.
@@ -295,10 +297,6 @@
 {\sc {Chen}, J., {Marqu{\'e}}, C., {Vourlidas}, A., {Krall}, J. \& {Schuck},
   P.W.} (2006). {The Flux-Rope Scaling of the Acceleration of Coronal Mass
   Ejections and Eruptive Prominences}. {\em \apj\/}, {\bf 649}, 452--463.
-
-\bibitem[{{Chen}(2011)}]{chen2011}
-{\sc {Chen}, P.F.} (2011). {Coronal Mass Ejections: Models and Their
-  Observational Basis}. {\em Living Reviews in Solar Physics\/}, {\bf 8}, 1.
 
 \bibitem[{{Chen} {\em et~al.\/}(2002){Chen}, {Wu}, {Shibata} \&
   {Fang}}]{chen2002}
@@ -578,6 +576,10 @@
 {\sc {Hey}, J.S.} (1946). {Solar Radiations in the 4-6 Metre Radio Wave-Length
   Band}. {\em \nat\/}, {\bf 157}, 47--48.
 
+\bibitem[{{Hirayama}(1974)}]{hirayama1974}
+{\sc {Hirayama}, T.} (1974). {Theoretical Model of Flares and Prominences. I:
+  Evaporating Flare Model}. {\em \solphys\/}, {\bf 34}, 323--338.
+
 \bibitem[{{Holman} \& {Pesses}(1983)}]{holman1983}
 {\sc {Holman}, G.D. \& {Pesses}, M.E.} (1983). {Solar type II radio emission
   and the shock drift acceleration of electrons}. {\em \apj\/}, {\bf 267},
@@ -706,6 +708,11 @@
 {\sc {Kontar}, E.P.} (2001). {Dynamics of electron beams in the inhomogeneous
   solar corona plasma}. {\em \solphys\/}, {\bf 202}, 131--149.
 
+\bibitem[{{Kopp} \& {Pneuman}(1976)}]{kopp1976}
+{\sc {Kopp}, R.A. \& {Pneuman}, G.W.} (1976). {Magnetic reconnection in the
+  corona and the loop prominence phenomenon}. {\em \solphys\/}, {\bf 50},
+  85--98.
+
 \bibitem[{{Kosugi}(1976)}]{kosugi1976}
 {\sc {Kosugi}, T.} (1976). {Type II-IV radio bursts and compact and diffuse
   white-light clouds in the outer corona of December 14, 1971}. {\em
@@ -766,6 +773,11 @@
   {Windt}, D.L., {Beardsley}, S., {Clapp}, M., {Lang}, J. \& {Waltham}, N.}
   (2012). {The Atmospheric Imaging Assembly (AIA) on the Solar Dynamics
   Observatory (SDO)}. {\em \solphys\/}, {\bf 275}, 17--40.
+
+\bibitem[{{Lever} {\em et~al.\/}(2001){Lever}, {Quest} \&
+  {Shapiro}}]{lever2001}
+{\sc {Lever}, E.L., {Quest}, K.B. \& {Shapiro}, V.D.} (2001). {Shock surfing
+  vs. shock drift acceleration}. {\em \grl\/}, {\bf 28}, 1367--1370.
 
 \bibitem[{{Lewis} \& {Simnett}(2002)}]{lewis2002}
 {\sc {Lewis}, D.J. \& {Simnett}, G.M.} (2002). {Bulk flow velocities in the
@@ -1067,6 +1079,9 @@
 {\sc {Petschek}, H.E.} (1964). {Magnetic Field Annihilation}. {\em NASA Special
   Publication\/}, {\bf 50}, 425.
 
+\bibitem[{{Phillips}(1995)}]{phillips1995}
+{\sc {Phillips}, K.J.H.} (1995). {\em {Guide to the Sun}\/}.
+
 \bibitem[{{Pick} \& {Vilmer}(2008)}]{pick2008}
 {\sc {Pick}, M. \& {Vilmer}, N.} (2008). {Sixty-five years of solar
   radioastronomy: flares, coronal mass ejections and Sun Earth connection}.
@@ -1116,6 +1131,10 @@
   G., {Vourlidas}, A. \& {Maksimovic}, M.} (2001). {Statistical analysis of
   coronal shock dynamics implied by radio and white-light observations}. {\em
   \jgr\/}, {\bf 106}, 25279--25290.
+
+\bibitem[{{Richardson}(2013)}]{richardson2013}
+{\sc {Richardson}, I.G.} (2013). {Astrophysics: An unexpected shock}. {\em
+  Nature Physics\/}, {\bf 9}, 131--132.
 
 \bibitem[{{Robbrecht} \& {Berghmans}(2004)}]{robb2004}
 {\sc {Robbrecht}, E. \& {Berghmans}, D.} (2004). {Automated recognition of
@@ -1288,6 +1307,10 @@
 \bibitem[{{Sturrock}(1964)}]{sturrock1964}
 {\sc {Sturrock}, P.A.} (1964). {Type III Solar Radio Bursts}. {\em NASA Special
   Publication\/}, {\bf 50}, 357.
+
+\bibitem[{{Sturrock}(1966)}]{sturrock1966}
+{\sc {Sturrock}, P.A.} (1966). {Model of the High-Energy Phase of Solar
+  Flares}. {\em \nat\/}, {\bf 211}, 695--697.
 
 \bibitem[{{Sturrock}(1991)}]{sturrock1991}
 {\sc {Sturrock}, P.A.} (1991). {Maximum energy of semi-infinite magnetic field
