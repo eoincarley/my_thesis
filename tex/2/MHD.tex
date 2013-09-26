@@ -1,4 +1,4 @@
-%!TEX root = ../thesis.tex
+=%!TEX root = ../thesis.tex
 %Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
 \singlespacing
 \chapter{Coronal Mass Ejection and Plasma Shock Theory} 
@@ -432,13 +432,13 @@ Replacing the time and space derivatives with their oscillatory operators ($\par
 f_1=\frac{q_e}{m_e}\frac{j}{\omega-\mathbf{k\cdot v}}\mathbf{E}\cdot\nabla_vf_0
 \label{eqn:f_pert}
 \end{equation}
-This equation relates the perturbed quantity $f_1$ to the unperturbed distribution function and the electric field. The most important aspect of this equation is the $\omega-\mathbf{k\cdot v}$ term in the denominator, implying the possibility of resonance between waves of phase speed $\omega/\mathbf{k}$ and particles of speed $v$. Now, integrating both sides of \ref{eqn:f_pert} over all velocity space and again using Maxwell-1 results in
+This equation relates the perturbed quantity $f_1$ to the unperturbed distribution function and the electric field. The most important aspect of this equation is the $\omega-\mathbf{k\cdot v}$ term in the denominator, implying the possibility of resonance between waves of phase speed $\omega/\mathbf{k}$ and particles of speed $\mathbf{v}$. Now, integrating both sides of \ref{eqn:f_pert} over all velocity space and again using Maxwell's first equation results in
 %using (19) the general form of the dispersion relation of the oscillations $(\omega,\mathbf{k})$ in perturbations $f_1$ and $E$ is derived
 \begin{equation}
 1+\frac{4\pi q_e}{m_e}\frac{1}{k^2}\mathbf{k}\cdot\int_v\frac{\nabla_v f_0}{\omega-\mathbf{k\cdot v}}d^3v=0
 \label{eqn:dispersion}
 \end{equation}
-Any electrostatic normal mode oscillations satisfy this relationship and integrating over all velocity space will result in a dispersion relation for the oscillations of the plasma property $f_1$. The equation effectively gives the oscillatory response $\omega = g(k)$ of the perturbation $f_1$ of the plasma, given a particular velocity distribution function $f_0$. 
+Any electrostatic (longitudinal) normal mode oscillations satisfy this relationship and integrating over all velocity space will result in a dispersion relation for the oscillations of the plasma property $f_1$. The equation effectively gives the oscillatory response $\omega = g(k)$ of the perturbation $f_1$ of the plasma, given a particular velocity distribution function $f_0$. 
 
 %For example, a cold plasma distribution function where $f_0 = N_0\delta(\mathbf{v})$, where $\delta$ is a Dirac-delta, in equation~\ref{eqn:dispersion} will result in a dispersion relation of
 %\begin{equation}
@@ -446,14 +446,14 @@ Any electrostatic normal mode oscillations satisfy this relationship and integra
 %\end{equation}
 %The perturbed Vlasov equation with a cold plasma model (no thermal motions) produces the expression for a plasma oscillation. 
 
-The integral over velocity space in this case can be performed because the delta function guarantees that there is no velocity with the property of $v = \omega/k$. If this were to be fulfilled, there is the possibility of resonances Equation~\ref{eqn:dispersion} i.e., there is a singularity in the integral, requiring a non-trivial as $v \rightarrow \omega/k$. The solution requires integration is performed in complex space using a method called contour integration \citep{melrose1989}. The use of contour integration means there will be complex solutions of the dispersion relation of the form $\omega = \omega_r + i\gamma$.
+As mentioned, there is the possibility of resonances Equation~\ref{eqn:dispersion} i.e., there is a singularity in the integral, requiring a non-trivial as $v \rightarrow \omega/k$. The solution requires that integration is performed in complex space using a method called contour integration \citep{melrose1989}. The use of contour integration means there will be complex solutions of the dispersion relation of the form $\omega = \omega_r + i\gamma$.
 %The real part of the solution applies as normal where the integral is well behaved, far from the singularity. However, integration over the singularity necessitates a complex solution (from the contour integration), hence the $\omega$ consists of both real and imaginary parts.
 The complex $i\gamma$ means that a time dependency of the periodic solutions to the perturbations $f_1$ will be 
 \begin{equation}
 e^{j\omega t}=e^{(i[\omega_r + i\gamma])}=e^{i\omega_rt}e^{-\gamma t}
 \label{eqn:growth}
 \end{equation}
-This solution is a damped wave with damping factor $\gamma$, meaning the solution to Equation~\ref{eqn:dispersion} in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping.
+This solution is a damped wave with damping factor $\gamma$, meaning the solution to Equation~\ref{eqn:dispersion} in the region $v \sim \omega/k$ provides a wave decay term. These are the essential elements of Landau damping e.g., if the phase speed of the waves in a plasma match the speed of electrons in the distribution function then those waves will experience a damping. However, the damping facto may be negative, which results in wave growth.
 
 Quasi-linear theory uses Equation~\ref{eqn:f_pert} and Maxwell's first equation to show that the time evolution of the wave energy density is
 \begin{eqnarray}
@@ -466,7 +466,7 @@ Simultaneously, the distribution function evolves according to
 \frac{\partial f(v,t)}{\partial t} &=& \frac{\partial }{\partial v} \bigg(D\frac{\partial f(v,t)}{\partial v}\bigg)~,~~~D = \frac{4\pi e^2}{m_e^2}\frac{W(k,t)}{v}
 \label{eqn:Diff}
 \end{eqnarray}
-with $D$ being a diffusion coefficient. Equations~\ref{eqn:Wk}--\ref{eqn:Diff} are the closed set of quasi-linear theory equations describing the interaction of electrostatic waves with energy spectrum $W$ and particle distribution function $f$ \citep{vedenov1963, kontar2001}. The wave growth term $\gamma$ has an important dependence on the velocity space gradient. From Equations~\ref{eqn:Wk}, $\partial f/\partial v >0$ will result in $\gamma <0$ and a wave growth term that increases exponentially; this can also be seen Equation~\ref{eqn:growth}. Effectively, a group of electrons is promoted to a velocity range that closely matches the phase speed of some type of waves in a medium $v \sim \omega/k$. In such a speed range the integrand of Equation~\ref{eqn:dispersion} approaches the point at which there is a singularity in the solution. Such a point necessitates a complex solution to the integral, thus providing an imaginary part to the dispersion relation that gives an $e^{-\gamma t}$ term. If the promotion of electrons to a range $v \sim \omega/k$ is combined with a positive gradient of the distribution function in this velocity range, it results in $\gamma < 0$ and $e^{-\gamma t}>0$, leading to wave growth. This is why $v - \omega/k=0$ is known as the resonance condition \citep{melrose1989}. The exchange of energy between the wave spectral energy distribution and the particle distribution is then described by ~\ref{eqn:Wk}--\ref{eqn:Diff}.
+with $D$ being a diffusion coefficient. Equations~\ref{eqn:Wk}--\ref{eqn:Diff} are the closed set of quasi-linear theory equations describing the interaction of electrostatic waves with energy spectrum $W$ and particle distribution function $f$ \citep{vedenov1963, kontar2001}. The wave growth term $\gamma$ has an important dependence on the velocity space gradient. From Equations~\ref{eqn:Wk}, $\partial f/\partial v >0$ will result in $\gamma <0$ and a wave growth term that increases exponentially, as shown by Equation~\ref{eqn:growth}. Effectively, a group of electrons is promoted to a velocity range that closely matches the phase speed of some type of waves in a medium $v = \omega/k$. In such a speed range the integrand of Equation~\ref{eqn:dispersion} approaches the point at which there is a singularity in the solution. Such a point necessitates a complex solution to the integral, thus providing an imaginary part to the dispersion relation that gives an $e^{-\gamma t}$ term. If the promotion of electrons to a range $v = \omega/k$ is combined with a positive gradient of the distribution function in this velocity range, it results in $\gamma < 0$ and $e^{-\gamma t}>0$, leading to wave growth. This is why $\omega - \mathbf{k\cdot v}=0$ is known as the resonance condition \citep{melrose1989}. The exchange of energy between the wave spectral energy distribution and the particle distribution is then described by ~\ref{eqn:Wk}--\ref{eqn:Diff}.
 
 For type II and III radio bursts, quasi-linear theory is usually applied to the interaction of electron beams and Langmuir waves \citep{kontar2001, reid2010, ratcliffe2012}. This group of electrons in the beam is called a bump-on-tail, since it is described by a Gaussian bump on the high velocity tail of a Maxwell-Boltzmann velocity distribution function (Figure~\ref{fig:bot}). 
 \begin{figure}[!t] 
@@ -530,12 +530,12 @@ The Langmuir wave has a frequency very close to the plasma frequency, while the 
 %
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-In order to investigate the amount of energy emitted by the electromagnetic wave, elements of the three wave interaction theory need to be combined with what is known as stochastic growth theory \citep{robinson1993a}(SGT). 
+In order to investigate the amount of energy emitted by the electromagnetic wave, elements of the three wave interaction theory need to be combined with what is known as stochastic growth theory \citep[SGT;][]{robinson1993a}. 
 %Stochastic growth theory was first developed in response to a number of criticisms of the theory of a beam-driven Langmuir wave hypothesis of type III radio bursts first proposed by \citet{ginzburg1958}. It was pointed out that if the beam was to remain in instability continuously over space and time in the absence of saturation mechanism, then it would quickly lose all of its energy to the Langmuir waves and consequently the beam electrons would stop propagating after a short distance \citep{sturrock1964}. This is clearly not the case, since type III electrons are observed to propagate over distances of 1\,A.U or more. 
 %Secondly, if the instability continues uninhibited the Langmuir wave with grow to levels far beyond what is observed \citep{smith1979}. 
 %It was concluded that the beam cannot remain in a state of instability for the duration of its propagation. One suggestion to over come this was quasi-linear relaxation \citep{grognard1975}, as described above. However, this may not be enough to guarantee a lone lifetime of the beam. 
 %SGT overcomes this by describing an electron beam propagation in a state of marginal stability. The 
-SGT described a beam propagating in an inhomogeneous medium whereby it encounters pockets of localised density enhancement where it is unstable only intermittently, this is to prevent the beam losing all of its energy too quickly \citep{sturrock1964, ginzburg1958}. As the beam propagates through this localised clump, it is unstable to the growth of Langmuir wave, giving up some of its energy to the wave, diminishing the beam slightly. Once it exits the clump it becomes stable again, allowing the beam to reform until it reaches another localised clump to give up some energy again. The Langmuir waves would then experience a growth at intermittent regions in space and time (which is actually observed \citep{lin1986}), while the beam would be unstable for only small fractions of its lifetime. Overall, the beam energy loss is on average low enough to allow its continued propagation, but instantaneous and finite enough to allow the growth of waves. 
+SGT described a beam propagating in an inhomogeneous medium whereby it encounters pockets of localised density enhancement where it is unstable only intermittently, this is to prevent the beam losing all of its energy too quickly and coming to a stop \citep{sturrock1964, ginzburg1958}. As the beam propagates through this localised clump, it is unstable to the growth of Langmuir waves, giving up some of its energy to the wave, diminishing the beam slightly. Once it exits the clump it becomes stable again, allowing the beam to reform until it reaches another localised clump to give up some energy again. The Langmuir waves would then experience a growth at intermittent regions in space and time (which is actually observed \citep{lin1986}), while the beam would be unstable for only small fractions of its lifetime. Overall, the beam energy loss is on average low enough to allow its continued propagation, but instantaneous and finite enough to allow the growth of waves. 
 %In this mechanism the Langmuir waves experience a a growth in energy that is a random (stochastic) walk through energy phase space \citep{robinson1992}.  The Langmuir wave send up with an energy distribution given by $P(E)\sim E^{-1}$ \citep{robinson1993a}.  
 \begin{figure}[t!]
 \begin{center}
@@ -545,16 +545,16 @@ SGT described a beam propagating in an inhomogeneous medium whereby it encounter
 \end{center}
 \end{figure}
 %Combining elements of the stochastic growth model and the three-wave interaction process allows a calculation of the mount of energy that ends up in the electromagnetic waves, and consequently 
-From SGT and the three-wave process, the volume emissivity of the emission \citep{robinson1993a, robinson1998}
+From SGT and the three-wave process, the volume emissivity of the emission is given by
 \begin{equation}
 j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\Delta v_b}{v_b}
 \label{eqn:plasma_emiss}
 \end{equation}
-here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta\Omega_M$ is the solid angle over which the  emission is spread, $n_b$ is the electron beam number density, $v_b$ is the beam speed, $l(r)$ is the distance from emission point to observer, $\Delta v_b$ is the width of the beam in velocity space. $\Phi_M$ are known as the conversion efficiencies and are different for fundamental and harmonic emission, see Appendix~\ref{app:emissivity}.
+here the $M$ stands for either fundamental $F$ or harmonic $H$ emission. $\Delta\Omega_M$ is the solid angle over which the  emission is spread, $n_b$ is the electron beam number density, $v_b$ is the beam speed, $l(r)$ is the distance from emission point to observer, $\Delta v_b$ is the width of the beam in velocity space \citep{robinson1993a, robinson1998}. $\Phi_M$ are known as the conversion efficiencies and are different for fundamental and harmonic emission, see Appendix~\ref{app:emissivity}.
 
 These expressions have been used to simulate radio burst flux resulting in $\sim10^{-17}$\,W\,m$^{-2}$\,Hz$^{-1}$, which have been compared to type II and III radio bursts \citep{schmidt2012, knock2001}. \citet{knock2003} and \citet{cairns2003} used the theory to predict interplanetary type II burst flux as a function of a variety of shock parameters e.g., shocks speed Figure~\ref{fig:cairns_emissivity}.
 
-The theory outlined in Section~\ref{sec:mhd_shocks} -- \ref{sec:three_wave} was employed in a model developed by \citet{schmidt2012b}, completely describing the generation of radio bursts from CME driven shocks. It involves the eruption of a flux rope into a background corona, the driving of a shock as described by the MHD Rankine-Hugoniot relations, the generation of electron beams via SDA, the growth of the bump-on-tail instability, and the generation of electromagnetic emission via the three-wave process and stochastic growth theory. The model finds that that radio emission is generated on the expanding flanks of a CME. The model also shows that when the shock is rippled, there will be spatially intermittent regions of electron beam generation, which could be possible explanation of herringbone emission (Figure~\ref{fig:herbone_model}).
+The theory outlined in Section~\ref{sec:mhd_shocks} -- \ref{sec:three_wave} was employed in a model developed by \citet{schmidt2012b}, completely describing the generation of radio bursts from CME driven shocks. It involves the eruption of a flux rope into a background corona, the driving of a shock as described by the MHD Rankine-Hugoniot relations, the generation of electron beams via SDA, the growth of the bump-on-tail instability, and the generation of electromagnetic emission via the three-wave process and SGT. The model finds that radio emission is generated on the expanding flanks of a CME. The model also shows that when the shock is rippled, there will be spatially intermittent regions of electron beam generation, which could be a possible explanation of herringbone emission (Figure~\ref{fig:herbone_model}).
 % as shown in Figure~\ref{fig:schmidt_model}
 %\begin{figure}[t!]
 %\begin{center}
@@ -574,19 +574,28 @@ The theory outlined in Section~\ref{sec:mhd_shocks} -- \ref{sec:three_wave} was 
 
 \subsection{Frequency Drift of Radio Bursts}\label{sec:freq_drift}
 
-In the previous section it was shown that when plasma emission is excited in the corona, the frequency of emission is close to the plasma oscillation frequency given by Equation~\ref{eqn:plasma_frequency}
+In the previous section it was shown that when plasma emission is excited in the corona, the frequency of emission is close to the plasma oscillation frequency given by Equation~\ref{eqn:plasma_frequency}.
 %As mentioned in section X, the frequency of emission allows a direct conversion from frequency to electron density of the environment in which the emission is generated. Since electron number density in the corona generally varies with height, it is then possible to calculate the height from which this frequency of emission came. To do this, a number of density models of the corona may be used, inclduing the Newkirk, the Saito, or the Baumbach-Allen. These provide a general description of the variation of electron density with height in the corona see Fig.~\ref{fig:density_models.}
-As the exciter of the plasma emission moves to greater heights in the corona it will produce plasma emission at continually decreasing frequency due to the dropping density. For example a typical signature of a coronal shock wave in dynamic spectra is two narrow emission lanes (at $f_{plasma}$ and $2f_{plasma}$) drifting toward lower frequency as time passes. A type III radio burst is excited by a much faster source, hence its frequency drift is much faster in dynamic spectra. Generally different types of radio burst have different morphologies when viewed in dynamic spectra owing to their movement (or lack of movement) into regions of different density in the corona. A summary of the burst types is given in Figure~\ref{fig:radiobursts}
+As the exciter of the plasma emission moves to greater heights in the corona it will produce plasma emission at continually decreasing frequency due to the dropping density. For example a typical signature of a coronal shock wave in dynamic spectra is two narrow emission lanes (at $f_{plasma}$ and $2f_{plasma}$) drifting toward lower frequency as time passes. A type III radio burst is excited by a much faster source, hence its frequency drift is much faster in dynamic spectra. Generally different types of radio burst have different morphologies when viewed in dynamic spectra owing the source's movement (or lack of movement) into regions of different density in the corona. A summary of the burst types is given in Figure~\ref{fig:radiobursts}
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.35, trim=2cm 0cm 0cm 2cm]{radiobursts.png}
-\caption[Solar radio burst morphologies]{The characteristic shapes of various solar radio bursts seen in dynamic spectra. Type II radio burst are a signature of shock transit from high number density into low number density, as indicated by their drift from high to low frequency. The presence of two distinct bands is indicative of radio emission at the plasma frequency (fundamental) and its second harmonic. These two bands may also be further split themselves, a feature known as band-splitting.}
+\caption[Solar radio burst morphologies]{The characteristic shapes of various solar radio bursts seen in dynamic spectra. Type II radio burst are a signature of shock transit from high number density into low number density, as indicated by their drift from high to low frequency. The presence of two distinct bands is indicative of radio emission at the plasma frequency (fundamental) and its second harmonic. These two bands may also be further split themselves, a feature known as band-splitting. A more common burst is the type III, produced by beams of electrons propagating along open magnetic field.}
 \label{fig:radiobursts}
 \end{center}
 \end{figure}
 
-Generally, the frequency drift of the radio burst depends on the velocity of the exciter and the density variation in the corona. It is possible to estimate the speed of the exciter from a set of frequency time values $(f_i, t_i)$. Such as set of values are a direct diagnostic of the number density of the environment of emission versus time e.g., using $f \approx 9000\sqrt{n_e}$, frequency versus time gives number density versus time, $(f_i, t_i) \rightarrow (n_i,t_i)$.
-Now, in general the number density of the corona is inversely proportional to height, varying according to some exponential decrease. A very simple model is the hydrostatic case $n(r) = n_0\mathrm{exp}(-r/H)$
+Generally, the frequency drift of the radio burst depends on the velocity of the exciter and the density variation in the corona. 
+%From Equation~\ref{eqn:plasma_frequency}
+%\begin{equation}
+%f_p = C\sqrt{n_e}
+%\end{equation}
+%where $C = 8980$\,Hz\,cm$^{3/2}$. This can be used to show that the velocity of the exciter is related to frequency drift by
+%\begin{equation}
+%v = \frac{2\sqrt{n_e}}{C}\bigg( \frac{dn_e}{dt}\bigg)^{-1}\frac{df_p}{dt}
+%\end{equation}
+It is possible to estimate the speed of the exciter from a set of frequency time values $(f_i, t_i)$. Such as set of values are a direct diagnostic of the number density of the environment of emission versus time e.g., using $f \approx 9000\sqrt{n_e}$; frequency versus time gives number density versus time, $(f_i, t_i) \rightarrow (n_i,t_i)$.
+Now, the electron number density of the corona is inversely proportional to height, varying according to some exponential decrease. A very simple model is the hydrostatic case $n(r) = n_0\mathrm{exp}(-r/H)$
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[scale=0.5, trim=0cm 4cm 0cm 2.2cm]{density_plasma_models.pdf}
