@@ -1,6 +1,6 @@
 %!TEX root = ../thesis.tex
 %Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
-
+\singlespacing
 \chapter{Appendix}
 
 \label{app:1}
@@ -22,6 +22,7 @@
 
 
 \section{Radio Burst Emissivity}\label{app:emissivity}
+\doublespacing
 The full equations for emissivity of EM waves from the stochastic growth theory are
 \begin{equation}
 j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\Delta v_b}{v_b}
@@ -34,7 +35,7 @@ j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\De
 \begin{equation}
 \Phi_H \approx \frac{18\sqrt{3}}{5\gamma_t}   \sqrt{\frac{m_i}{\gamma_t m_e}}  \frac{v_e^3 v_b^3}{c^5} \frac{v_b}{\Delta v_b}\zeta_H
 \end{equation}
-the expression involving $u_c$ represent an \textquoteleft escape factor' for the fundamental taking into account absorption and scattering of the radiation. $ \frac{\gamma_{L^{'}}}{\gamma_S} $ is the ratio of the damping rates of the product waves out of processes in equations~\ref{eqn:harm} and \ref{eqn:fund}. The $\zeta$ terms are the fractions of Langmuir waves that are kinematically able to contribute to the fundamental or harmonic emission, given by
+the expression involving $u_c$ represent an \textquoteleft escape factor' for the fundamental taking into account absorption and scattering of the radiation. $ \frac{\gamma_{L^{'}}}{\gamma_S} $ is the ratio of the damping rates of the product waves. The $\zeta$ terms are the fractions of Langmuir waves that are kinematically able to contribute to the fundamental or harmonic emission, given by
 
 \begin{equation}
 \zeta_F  \approx \mathrm{exp} \bigg[  -\frac{4\gamma_t m_e}{45 m_i}    \bigg(\frac{v_b}{\Delta v_b}\bigg)^2   \bigg(  \frac{3}{2}  \sqrt{\frac{m_i}{\gamma_t m_e}} - \frac{v_b}{v_e}  \bigg)^2    \bigg]
@@ -47,18 +48,25 @@ the expression involving $u_c$ represent an \textquoteleft escape factor' for th
 where erf is the error function \citep{robinson1993a, robinson1998}. 
 
 \section{EUV and pB Density Measurements}\label{app:densities}
-
-Electron densities were calculated from emission measure maps derived using the SDO/AIAÕs six coronal filters and the method of \citep{asch2013}. The method starts by reconstructing the differential emission measure $dEM/dT (DEM)$, using the intensity of the six SDO/AIA filters for each pixel. The DEM is a measure of the amount of plasma along the line-of-sight (LOS) that contributes to the emitted radiation in the temperature range $T$ to $T +dT$ \citep{craig1976}. Once the EM was obtained, the plasma electron density can be calculated estimating an effective length of the LOS of the emitting plasma. The 2D $EM(r, \phi)$ map, which is a function of heliocentric distance $r$ and latitude, can then be written as
+Electron densities were calculated from emission measure maps derived using the SDO/AIAÕs six coronal filters and the method of \citep{asch2013}. The method starts by reconstructing the differential emission measure $dEM/dT (DEM)$, using the intensity of the six SDO/AIA filters for each pixel. The DEM is a measure of the amount of plasma along the line-of-sight (LOS) that contributes to the emitted radiation in the temperature range $T$ to $T +dT$ \citep{craig1976}. Once the EM was obtained, the plasma electron density can be calculated estimating an effective length of the LOS of the emitting plasma. The 2D $EM(r, \phi)$ map, which is a function of heliocentric distance $r$ and latitude (Figure~\ref{fig:pietro_em}), can then be written as
 \begin{eqnarray}
 EM(r, \phi) &=& \int \bigg( \frac{dEM(r,\phi)}{dT} \bigg) dT \\
 			  &=& \int <N_e^2> ds
 \end{eqnarray}
-
 Knowing the line-of-sight length, $s$, the density of the emitting plasma can be obtained from the EM,
 \begin{equation}
 N_e(r, \phi) =\sqrt{  \frac{EM(r, \phi)}{s(r)}  }
 \end{equation}
-The LOS length was calculated using a geometrical method used widely in stellar atmospheres \citep{menzel1936}. The LOS length s changes at different distance $r$ and contributes to the intensity of the emitting plasma measured by the observer. This gives the LOS using an asymptotic series expansion in the form
+%
+%
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[scale=0.5, trim=0cm 3cm 0cm 3.0cm]{pietro_em_schem.pdf}
+\caption[The geometry for the emitting solar atmosphere]{The geometry for the emitting solar atmosphere LOS length. The observer measures the contribution of the plasma emitting along the path $s$, which varies with the heliocentric distance $r$}
+\label{fig:pietro_em}
+\end{center}
+\end{figure}
+The LOS length was calculated using a geometrical method used widely in stellar atmospheres \citep{menzel1936}. The LOS length $s$ changes at different distance $r$ and contributes to the intensity of the emitting plasma measured by the observer. This gives the LOS using an asymptotic series expansion in the form
 \begin{equation}
 S\approx \sqrt{H\pi r}
 \end{equation}
@@ -73,7 +81,7 @@ where $I_t - I_r$ is the polarized brightness, and $x$ is the radial position in
 N(r) = \frac{1}{C\{A(r) - B(r)\}}\sum_s \frac{k_s}{a_{s+1}} r^{-s} \, \,\,\,\,\, \textrm{where} \,\,\,\,\, a_n=\frac{\pi}{2^{n+1}}\frac{n!}{(1/2n!)^2}
 \end{equation}
 here $C$ is constant equal to $\frac{3}{4}\times1R_{\odot}\times \sigma_T$; $\sigma_T$ is the Thomson scattering cross section and $A(r)$ and $B(r)$ are the van de Hulst coefficients (see Chapter 4). Here, the same $k_s$ produced from the polarized brightness fit are used to calculate $N(r)$. 
-\vspace{5cm}
+
 \section{June 7th 2011 Radio Burst from RSTO}\label{app:rsto_busrts}
 
 The event of 7 June 2011 was an extremely complex eruption with a variety of associated radio activity (Figure~\ref{fig:june7}). The Callisto receivers at RSTO observed type II, type III, herringbones, and type IV. Also accompanying this activity was interplanetary type III bursts observed by STEREO WAVES in both Ahead and Behind spacecraft.
