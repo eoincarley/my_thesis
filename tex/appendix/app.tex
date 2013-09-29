@@ -26,7 +26,7 @@
 The full equations for emissivity of EM waves from the stochastic growth theory are
 \begin{equation}
 j_M(r) \approx \frac{\Phi_M}{\Delta\Omega_M}\frac{n_b m_e v_b^3}{3l(r)}\frac{\Delta v_b}{v_b}
-\label{eqn:plasma_emiss}
+\label{eqn:plasma_emiss_app}
 \end{equation}
 
 \begin{equation}
@@ -48,7 +48,7 @@ the expression involving $u_c$ represent an \textquoteleft escape factor' for th
 where erf is the error function \citep{robinson1993a, robinson1998}. 
 
 \section{EUV and pB Density Measurements}\label{app:densities}
-Electron densities were calculated from emission measure maps derived using the SDO/AIAÕs six coronal filters and the method of \citep{asch2013}. The method starts by reconstructing the differential emission measure $dEM/dT (DEM)$, using the intensity of the six SDO/AIA filters for each pixel. The DEM is a measure of the amount of plasma along the line-of-sight (LOS) that contributes to the emitted radiation in the temperature range $T$ to $T +dT$ \citep{craig1976}. Once the EM was obtained, the plasma electron density can be calculated estimating an effective length of the LOS of the emitting plasma. The 2D $EM(r, \phi)$ map, which is a function of heliocentric distance $r$ and latitude (Figure~\ref{fig:pietro_em}), can then be written as
+Electron densities were calculated from emission measure maps derived using the SDO/AIAÕs six coronal filters and the method of \citep{asch2013}. The method starts by reconstructing the differential emission measure (DEM) $dEM/dT$, using the intensity of the six SDO/AIA filters for each pixel. The DEM is a measure of the amount of plasma along the line-of-sight (LOS) that contributes to the emitted radiation in the temperature range $T$ to $T +dT$ \citep{craig1976}. Once the EM was obtained, the plasma electron density can be calculated estimating an effective length of the LOS of the emitting plasma. The 2D $EM(r, \phi)$ map, which is a function of heliocentric distance $r$ and latitude, can then be written as
 \begin{eqnarray}
 EM(r, \phi) &=& \int \bigg( \frac{dEM(r,\phi)}{dT} \bigg) dT \\
 			  &=& \int <N_e^2> ds
@@ -61,18 +61,18 @@ N_e(r, \phi) =\sqrt{  \frac{EM(r, \phi)}{s(r)}  }
 %
 \begin{figure}[t!]
 \begin{center}
-\includegraphics[scale=0.5, trim=0cm 3cm 0cm 3.0cm]{pietro_em_schem.pdf}
+\includegraphics[scale=0.5, trim=0cm 3cm 0cm 2.0cm]{pietro_em_schem.pdf}
 \caption[The geometry for the emitting solar atmosphere]{The geometry for the emitting solar atmosphere LOS length. The observer measures the contribution of the plasma emitting along the path $s$, which varies with the heliocentric distance $r$}
 \label{fig:pietro_em}
 \end{center}
 \end{figure}
-The LOS length was calculated using a geometrical method used widely in stellar atmospheres \citep{menzel1936}. The LOS length $s$ changes at different distance $r$ and contributes to the intensity of the emitting plasma measured by the observer. This gives the LOS using an asymptotic series expansion in the form
+The LOS length was calculated using a geometrical method used widely in stellar atmospheres \citep{menzel1936}. The LOS length $s$ changes at different distance $r$ and contributes to the intensity of the emitting plasma measured by the observer (Figure~\ref{fig:pietro_em}). This gives the LOS using an asymptotic series expansion in the form
 \begin{equation}
 S\approx \sqrt{H\pi r}
 \end{equation}
 where $H$ is the scale height. Using a typical coronal temperature of 2\,MK the scale height $H$ is of the order of $9\times10^9$\,cm and the LOS is in the order of $4\times10^{10}$\,cm. The LOS length does not change significantly in the 1--1.3\,$R_{\odot}$ range. 
 
-As for the polarized brightness measurements, the density diagnostic is through the use of coronagraph images and the Thomson scattering theory outlines in Chaoter. The method involves using the coronagraph data to extract polarized brightness measurements as a function of height i.e., along a radial trace in the coronagraph images. A polynomial is then fit to this data
+As for the polarized brightness measurements, the density diagnostic is through the use of coronagraph images and the Thomson scattering theory outlined in Chapter 4. The method involves using the coronagraph data to extract polarized brightness measurements as a function of height i.e., along a radial trace in the coronagraph images. A polynomial is then fit to this data
 \begin{equation}
 I_t - I_r =\sum_s k_s x^{-s}
 \end{equation} 
@@ -88,7 +88,7 @@ The event of 7 June 2011 was an extremely complex eruption with a variety of ass
 \begin{sidewaysfigure}[t!]
 \centering
 \includegraphics[scale=0.7, trim=0cm 1cm 0cm 1cm]{june7th_radio.pdf}
-\caption{Radio activity detected by STEREO WAVES A and B and RSTO callisto spectrometers, observed on 7 June 2011. The radio activity was complex, with interplanetary type IIIs (a), a possible type II (inset of b), herringbones (c), and type IV (b).}
+\caption[The June 7th 2011 radio burst]{Radio activity detected by STEREO WAVES A and B and RSTO callisto spectrometers, observed on 7 June 2011. The radio activity was complex, with interplanetary type IIIs (a), a possible type II (inset of b), herringbones (c), and type IV (b).}
 \label{fig:june7}
 \end{sidewaysfigure}
 
