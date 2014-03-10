@@ -13,39 +13,39 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11578 items from 5000.
+Reallocated field_info (elt_size=4) to 11739 items from 5000.
 Database file #1: mybib.bib
-Repeated entry---line 907 of file mybib.bib
+Repeated entry---line 922 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1463 of file mybib.bib
+Repeated entry---line 1507 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1477 of file mybib.bib
+Repeated entry---line 1521 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1826 of file mybib.bib
+Repeated entry---line 1870 of file mybib.bib
  : @article{guo2010
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 3778 of file mybib.bib
-Repeated entry---line 3999 of file mybib.bib
+--line 3864 of file mybib.bib
+Repeated entry---line 4085 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4168 of file mybib.bib
+Repeated entry---line 4254 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4536 of file mybib.bib
+Repeated entry---line 4637 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5028 of file mybib.bib
+Repeated entry---line 5129 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
@@ -53,8 +53,6 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in billings1966
 Warning--can't use both author and editor fields in bil66
 Warning--missing publisher in bil66
-Warning--can't use both author and editor fields in fitz
-Warning--missing publisher in fitz
 Warning--can't use both author and editor fields in inan2011
 Warning--missing publisher in inan2011
 Warning--missing publisher in jackson1975
@@ -67,45 +65,46 @@ Warning--can't use both author and editor fields in priest2000
 Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
-You've used 286 entries,
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+You've used 293 entries,
             3018 wiz_defined-function locations,
-            2089 strings with 57927 characters,
-and the built_in function-call counts, 206186 in all, are:
-= -- 16348
-> -- 12700
-< -- 153
-+ -- 4431
-- -- 4135
-* -- 18117
-:= -- 31520
-add.period$ -- 846
-call.type$ -- 286
-change.case$ -- 2806
-chr.to.int$ -- 276
-cite$ -- 303
-duplicate$ -- 13519
-empty$ -- 13131
-format.name$ -- 5022
-if$ -- 40721
+            2118 strings with 59016 characters,
+and the built_in function-call counts, 210701 in all, are:
+= -- 16733
+> -- 12914
+< -- 156
++ -- 4507
+- -- 4204
+* -- 18509
+:= -- 32206
+add.period$ -- 868
+call.type$ -- 293
+change.case$ -- 2865
+chr.to.int$ -- 283
+cite$ -- 308
+duplicate$ -- 13838
+empty$ -- 13448
+format.name$ -- 5114
+if$ -- 41621
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 3099
-newline$ -- 862
-num.names$ -- 1161
-pop$ -- 6459
+missing$ -- 3165
+newline$ -- 883
+num.names$ -- 1189
+pop$ -- 6581
 preamble$ -- 1
-purify$ -- 2517
+purify$ -- 2568
 quote$ -- 0
-skip$ -- 4913
+skip$ -- 5018
 stack$ -- 0
-substring$ -- 8062
-swap$ -- 7960
+substring$ -- 8280
+swap$ -- 8139
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2532
-warning$ -- 17
-while$ -- 1142
+type$ -- 2598
+warning$ -- 15
+while$ -- 1171
 width$ -- 0
-write$ -- 3129
+write$ -- 3208
 (There were 8 error messages)

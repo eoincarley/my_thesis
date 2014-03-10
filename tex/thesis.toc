@@ -6,94 +6,94 @@
 \contentsline {subsection}{\numberline {1.1.1}Solar Interior}{3}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Solar Magnetic Field and Dynamo}{7}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Solar Atmosphere}{10}{subsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.3.1}Photosphere}{10}{subsubsection.1.1.3.1}
-\contentsline {subsubsection}{\numberline {1.1.3.2}Chromosphere}{12}{subsubsection.1.1.3.2}
+\contentsline {subsubsection}{\numberline {1.1.3.1}Photosphere}{11}{subsubsection.1.1.3.1}
+\contentsline {subsubsection}{\numberline {1.1.3.2}Chromosphere}{13}{subsubsection.1.1.3.2}
 \contentsline {subsubsection}{\numberline {1.1.3.3}Transition Region}{14}{subsubsection.1.1.3.3}
 \contentsline {subsubsection}{\numberline {1.1.3.4}Corona}{14}{subsubsection.1.1.3.4}
-\contentsline {section}{\numberline {1.2}Coronal Mass Ejections}{18}{section.1.2}
+\contentsline {section}{\numberline {1.2}Coronal Mass Ejections}{19}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}A Brief History}{19}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Morphology and Kinematics}{21}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Masses and Dynamics}{26}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Masses and Dynamics}{27}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}Coronal Shocks}{36}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Type II Radio Bursts}{36}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Herringbones and Type IIIs}{43}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Coronal Bright Fronts}{45}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Coronal Bright Fronts}{46}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}White-light Shocks}{49}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}Thesis Outline}{51}{section.1.4}
-\contentsline {chapter}{\numberline {2}Coronal Mass Ejection and Plasma Shock Theory}{53}{chapter.2}
-\contentsline {section}{\numberline {2.1}Plasma Physics and \\ Magnetohydrodynamics}{54}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Maxwell's Equations}{54}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Plasma Kinetic Theory}{55}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Magnetohydrodynamics}{58}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Magnetic Reconnection}{61}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Coronal Mass Ejections}{65}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{66}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{69}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{71}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Coronal Shocks and Plasma Emission}{74}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Alfv\'{e}n Speed in the Corona}{74}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}MHD Shocks}{76}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Shock Drift Acceleration}{81}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Wave-Particle Interaction}{85}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Three-Wave Interaction and Plasma Emission}{89}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Frequency Drift of Radio Bursts}{94}{subsection.2.3.6}
-\contentsline {chapter}{\numberline {3}Observation and Instrumentation}{98}{chapter.3}
-\contentsline {section}{\numberline {3.1}White-Light Observations}{99}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Lyot Coronagraph}{101}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}SOHO LASCO}{102}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}STEREO COR1 and COR2}{106}{subsubsection.3.1.1.2}
+\contentsline {section}{\numberline {1.4}Thesis Outline}{52}{section.1.4}
+\contentsline {chapter}{\numberline {2}Coronal Mass Ejection and Plasma Shock Theory}{54}{chapter.2}
+\contentsline {section}{\numberline {2.1}Plasma Physics and \\ Magnetohydrodynamics}{55}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Maxwell's Equations}{55}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Plasma Kinetic Theory}{56}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Magnetohydrodynamics}{59}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Magnetic Reconnection}{62}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Coronal Mass Ejections}{66}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Catastrophe Model}{67}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Magnetic Breakout Model}{70}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Toroidal Instability}{72}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Coronal Shocks and Plasma Emission}{75}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Alfv\'{e}n Speed in the Corona}{76}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}MHD Shocks}{77}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Shock Drift Acceleration}{82}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Wave-Particle Interaction}{87}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Three-Wave Interaction and Plasma Emission}{90}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Frequency Drift of Radio Bursts}{95}{subsection.2.3.6}
+\contentsline {chapter}{\numberline {3}Observation and Instrumentation}{99}{chapter.3}
+\contentsline {section}{\numberline {3.1}White-Light Observations}{100}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Lyot Coronagraph}{102}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}SOHO LASCO}{103}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}STEREO COR1 and COR2}{107}{subsubsection.3.1.1.2}
 \contentsline {subsubsection}{\numberline {3.1.1.3}Whilte-light Image Data Reduction}{111}{subsubsection.3.1.1.3}
-\contentsline {section}{\numberline {3.2}Ultraviolet Observations}{114}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The Atmospheric Imaging Assembly}{114}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Radio Observations}{117}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Nan\c {c}ay Radioheliograph}{118}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Nan\c {c}ay Decametric Array}{124}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}STEREO WAVES}{126}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Rosse Solar Terrestrial Observatory}{128}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Antennas and Spectrometers}{128}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Nominal Operations}{132}{subsubsection.3.3.4.2}
-\contentsline {subsubsection}{\numberline {3.3.4.3}eCallisto Network}{132}{subsubsection.3.3.4.3}
-\contentsline {subsubsection}{\numberline {3.3.4.4}Dynamic spectra from RSTO}{134}{subsubsection.3.3.4.4}
-\contentsline {subsection}{\numberline {3.3.5}Dynamic Spectra Data Reduction}{135}{subsection.3.3.5}
-\contentsline {chapter}{\numberline {4}Coronal Mass Ejection Masses, Energetics, and Forces}{139}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{140}{section.4.1}
-\contentsline {section}{\numberline {4.2}Observations}{142}{section.4.2}
-\contentsline {section}{\numberline {4.3}Data Analysis}{146}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Thomson Scattering in the Corona}{146}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Mass Measurement and Geometrical Uncertainties}{152}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Evaluation of uncertainties}{157}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Results}{159}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Mass vs. Time and Height}{159}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Kinematics and Dynamics}{162}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Evaluation of the Drag and Lorentz Forces}{165}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Conclusion}{168}{section.4.5}
-\contentsline {chapter}{\numberline {5}Coronal Mass Ejection Shocks and Particle Acceleration}{170}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{171}{section.5.1}
-\contentsline {section}{\numberline {5.2}Coronal Bright Front and Radio Source}{173}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Observations}{173}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Radio Source Height and Speed}{175}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Radio Source Alfv\'{e}n Mach}{179}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}CBF Speeds}{182}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}CBF Thermal Properties}{183}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Radio Dynamic Spectra}{185}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Observations}{185}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Particle speeds and in-situ detection}{186}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}White-light CME and Shock}{191}{section.5.4}
-\contentsline {section}{\numberline {5.5}Discussion}{193}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{193}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{194}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{198}{chapter.6}
-\contentsline {section}{\numberline {6.1}CME Masses and Energies}{199}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Principle results}{199}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Future Work}{201}{subsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Forces Catalogue}{201}{subsubsection.6.1.2.1}
-\contentsline {subsubsection}{\numberline {6.1.2.2}Mass Estimates with AIA}{210}{subsubsection.6.1.2.2}
-\contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{215}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Principle results}{215}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Future Work}{217}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Hough Transform and Herringbone Statistics}{217}{subsubsection.6.2.2.1}
-\contentsline {chapter}{\numberline {A}Appendix}{228}{appendix.A}
-\contentsline {section}{\numberline {A.1}Radio Burst Emissivity}{228}{section.A.1}
-\contentsline {section}{\numberline {A.2}EUV and pB Density Measurements}{229}{section.A.2}
-\contentsline {section}{\numberline {A.3}June 7th 2011 Radio Burst from RSTO}{231}{section.A.3}
-\contentsline {chapter}{References}{233}{section*.114}
+\contentsline {section}{\numberline {3.2}Ultraviolet Observations}{115}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Atmospheric Imaging Assembly}{116}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Radio Observations}{118}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nan\c {c}ay Radioheliograph}{119}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Nan\c {c}ay Decametric Array}{126}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}STEREO WAVES}{127}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Rosse Solar Terrestrial Observatory}{129}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Antennas and Spectrometers}{129}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Nominal Operations}{133}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}eCallisto Network}{134}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Dynamic spectra from RSTO}{136}{subsubsection.3.3.4.4}
+\contentsline {subsection}{\numberline {3.3.5}Dynamic Spectra Data Reduction}{136}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {4}Coronal Mass Ejection Masses, Energetics, and Forces}{140}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{141}{section.4.1}
+\contentsline {section}{\numberline {4.2}Observations}{143}{section.4.2}
+\contentsline {section}{\numberline {4.3}Data Analysis}{147}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Thomson Scattering in the Corona}{147}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Mass Measurement and Geometrical Uncertainties}{153}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Evaluation of uncertainties}{158}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Results}{160}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Mass vs. Time and Height}{160}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Kinematics and Dynamics}{163}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Evaluation of the Drag and Lorentz Forces}{166}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Conclusion}{169}{section.4.5}
+\contentsline {chapter}{\numberline {5}Coronal Mass Ejection Shocks and Particle Acceleration}{171}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{172}{section.5.1}
+\contentsline {section}{\numberline {5.2}Coronal Bright Front and Radio Source}{174}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Observations}{174}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Radio Source Height and Speed}{176}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Radio Source Alfv\'{e}n Mach}{180}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}CBF Speeds}{183}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}CBF Thermal Properties}{184}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Radio Dynamic Spectra}{186}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Observations}{186}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Particle speeds and in-situ detection}{187}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}White-light CME and Shock}{192}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discussion}{194}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{194}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{195}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{199}{chapter.6}
+\contentsline {section}{\numberline {6.1}CME Masses and Energies}{200}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Principle results}{200}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Future Work}{202}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Forces Catalogue}{202}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Mass Estimates with AIA}{211}{subsubsection.6.1.2.2}
+\contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{216}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Principle results}{216}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Future Work}{218}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Hough Transform and Herringbone Statistics}{218}{subsubsection.6.2.2.1}
+\contentsline {chapter}{\numberline {A}Appendix}{229}{appendix.A}
+\contentsline {section}{\numberline {A.1}Radio Burst Emissivity}{229}{section.A.1}
+\contentsline {section}{\numberline {A.2}EUV and pB Density Measurements}{230}{section.A.2}
+\contentsline {section}{\numberline {A.3}June 7th 2011 Radio Burst from RSTO}{232}{section.A.3}
+\contentsline {chapter}{References}{234}{section*.114}

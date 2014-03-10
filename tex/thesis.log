@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  29 SEP 2013 18:11
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  10 MAR 2014 18:34
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -733,7 +733,20 @@ File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
 (/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
-))) (./Latex/StyleFiles/backrefx.sty
+)))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks35
+\SOUL@lasttoken=\toks36
+\SOUL@cmds=\toks37
+\SOUL@buffer=\toks38
+\SOUL@token=\toks39
+\SOUL@spaceskip=\skip68
+\SOUL@ttwidth=\dimen189
+\SOUL@uldp=\dimen190
+\SOUL@ulht=\dimen191
+)
+(./Latex/StyleFiles/backrefx.sty
 
 LaTeX Warning: You have requested package `Latex/StyleFiles/backrefx',
                but the package provides `backrefx'.
@@ -814,40 +827,40 @@ LaTeX Warning: Label `sec:31' multiply defined.
 ) (./6/conclusions.aux) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
 
 (/usr/local/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count150
-\scratchdimen=\dimen189
+\scratchdimen=\dimen192
 \scratchbox=\box70
 \nofMPsegments=\count151
 \nofMParguments=\count152
-\everyMPshowfont=\toks35
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count153
-\MPscratchDim=\dimen190
+\MPscratchDim=\dimen193
 \MPnumerator=\count154
-\everyMPtoPDFconversion=\toks36
+\everyMPtoPDFconversion=\toks41
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 139.
+Package hyperref Info: Link coloring OFF on input line 141.
  (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -856,21 +869,21 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 139.
-LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \ref on input line 141.
+LaTeX Info: Redefining \pageref on input line 141.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 139.
+Package backref Info: ** backref set up for natbib ** on input line 141.
 \AtBeginShipoutBox=\box71
 
 <images/tcd_crest.jpg, id=401, 949.5475pt x 1207.51125pt>
 File: images/tcd_crest.jpg Graphic file (type jpg)
 
 <use images/tcd_crest.jpg>
-Overfull \hbox (3.06711pt too wide) in paragraph at lines 191--192
+Overfull \hbox (3.06711pt too wide) in paragraph at lines 194--195
 [][] 
  []
 
@@ -950,7 +963,7 @@ tes Us-ing \OT1/cmr/m/it/12 STEREO\OT1/cmr/m/n/12 '',
 
 ]) [8]
 
-Package xcolor Warning: Incompatible color definition on input line 212.
+Package xcolor Warning: Incompatible color definition on input line 215.
 
 (./thesis.toc [9
 
@@ -961,7 +974,7 @@ Package xcolor Warning: Incompatible color definition on input line 212.
 
  [12]
 
-Package xcolor Warning: Incompatible color definition on input line 218.
+Package xcolor Warning: Incompatible color definition on input line 221.
 
 (./thesis.lof [13
 
@@ -1016,124 +1029,121 @@ Overfull \hbox (9.02084pt too wide) in paragraph at lines 100--101
 File: images/Babcock.jpg Graphic file (type jpg)
 
 <use images/Babcock.jpg> [9 <./images/Babcock.jpg>] [10] [11]
-<images/FAL-C.png, id=956, 1260.71pt x 842.14626pt>
+<images/FAL-C.png, id=955, 1260.71pt x 842.14626pt>
 File: images/FAL-C.png Graphic file (type png)
  <use images/FAL-C.png>
 [12] [13 <./images/FAL-C.png (PNG copy)>]
-<images/aia_multi_channel.pdf, id=1006, 794.97pt x 505.89pt>
+<images/aia_multi_channel.pdf, id=1004, 794.97pt x 505.89pt>
 File: images/aia_multi_channel.pdf Graphic file (type pdf)
 
 <use images/aia_multi_channel.pdf>
-Overfull \hbox (64.24309pt too wide) in paragraph at lines 218--219
+Overfull \hbox (64.24309pt too wide) in paragraph at lines 224--225
  [] 
  []
 
-[14] [15 <./images/aia_multi_channel.pdf>]
-<images/low_freq_obs.png, id=1054, 645.41125pt x 616.3025pt>
+[14] [15] <images/low_freq_obs.png, id=1019, 645.41125pt x 616.3025pt>
 File: images/low_freq_obs.png Graphic file (type png)
 
-<use images/low_freq_obs.png> [16] [17 <./images/low_freq_obs.png (PNG copy)>]
-[18] [19] <images/lasco_c3.png, id=1134, 513.92pt x 513.92pt>
+<use images/low_freq_obs.png> [16 <./images/aia_multi_channel.pdf>] [17 <./imag
+es/low_freq_obs.png (PNG copy)>] [18] [19] [20]
+<images/lasco_c3.png, id=1147, 513.92pt x 513.92pt>
 File: images/lasco_c3.png Graphic file (type png)
-
-<use images/lasco_c3.png> [20] [21 <./images/lasco_c3.png (PNG copy)>]
-<images/cme_speed_histo.png, id=1172, 791.95876pt x 796.9775pt>
+ <use images/lasco_c3.png>
+[21] [22 <./images/lasco_c3.png (PNG copy)>]
+<images/cme_speed_histo.png, id=1180, 791.95876pt x 796.9775pt>
 File: images/cme_speed_histo.png Graphic file (type png)
 
-<use images/cme_speed_histo.png> [22] [23 <./images/cme_speed_histo.png (PNG co
-py)>] <images/gall_kins2003.png, id=1215, 1224.575pt x 880.28876pt>
+<use images/cme_speed_histo.png> [23 <./images/cme_speed_histo.png (PNG copy)>]
+<images/gall_kins2003.png, id=1216, 1224.575pt x 880.28876pt>
 File: images/gall_kins2003.png Graphic file (type png)
 
-<use images/gall_kins2003.png>
-<images/accel_zhang2006.png, id=1226, 1069.9975pt x 902.37125pt>
+<use images/gall_kins2003.png> [24] [25 <./images/gall_kins2003.png (PNG copy)>
+] <images/accel_zhang2006.png, id=1242, 1069.9975pt x 902.37125pt>
 File: images/accel_zhang2006.png Graphic file (type png)
 
-<use images/accel_zhang2006.png> [24] [25 <./images/gall_kins2003.png (PNG copy
-)>] <images/zhang2001.png, id=1256, 754.82pt x 746.79pt>
+<use images/accel_zhang2006.png> [26 <./images/accel_zhang2006.png (PNG copy)>]
+<images/zhang2001.png, id=1264, 754.82pt x 746.79pt>
 File: images/zhang2001.png Graphic file (type png)
 
-<use images/zhang2001.png> [26 <./images/accel_zhang2006.png (PNG copy)>]
-[27 <./images/zhang2001.png (PNG copy)>] [28]
-<images/cme_energies2.pdf, id=1297, 794.97pt x 614.295pt>
+<use images/zhang2001.png> [27 <./images/zhang2001.png (PNG copy)>] [28]
+<images/cme_energies2.pdf, id=1298, 794.97pt x 614.295pt>
 File: images/cme_energies2.pdf Graphic file (type pdf)
 
 <use images/cme_energies2.pdf>
-Overfull \hbox (4.6695pt too wide) in paragraph at lines 366--370
+Overfull \hbox (4.6695pt too wide) in paragraph at lines 372--376
  [] 
  []
 
-[29 <./images/cme_energies2.pdf>]
-<images/energy_dist.png, id=1332, 1476.51625pt x 767.86874pt>
+[29] <images/energy_dist.png, id=1317, 1476.51625pt x 767.86874pt>
 File: images/energy_dist.png Graphic file (type png)
 
 <use images/energy_dist.png>
-Overfull \hbox (21.85745pt too wide) in paragraph at lines 385--387
+Overfull \hbox (21.85745pt too wide) in paragraph at lines 391--393
  [] 
  []
 
-[30] <images/vrsnak_lorentz.png, id=1359, 714.67pt x 854.19125pt>
+[30 <./images/cme_energies2.pdf>] [31 <./images/energy_dist.png (PNG copy)>]
+<images/vrsnak_lorentz.png, id=1366, 714.67pt x 854.19125pt>
 File: images/vrsnak_lorentz.png Graphic file (type png)
 
-<use images/vrsnak_lorentz.png> [31 <./images/energy_dist.png (PNG copy)>]
-<images/bastian_cme_radio.png, id=1371, 336.7782pt x 181.75905pt>
+<use images/vrsnak_lorentz.png> [32]
+<images/bastian_cme_radio.png, id=1384, 336.7782pt x 181.75905pt>
 File: images/bastian_cme_radio.png Graphic file (type png)
 
-<use images/bastian_cme_radio.png> [32] [33 <./images/vrsnak_lorentz.png (PNG c
-opy)>] <images/emslie_energy.png, id=1403, 366.4089pt x 208.8603pt>
+<use images/bastian_cme_radio.png> [33 <./images/vrsnak_lorentz.png (PNG copy)>
+] <images/emslie_energy.png, id=1404, 366.4089pt x 208.8603pt>
 File: images/emslie_energy.png Graphic file (type png)
 
 <use images/emslie_energy.png> [34 <./images/bastian_cme_radio.png (PNG copy)>]
-[35 <./images/emslie_energy.png (PNG copy)>]
-<images/typeII.png, id=1431, 1447.4075pt x 758.835pt>
+[35 <./images/emslie_energy.png (PNG copy)>] [36]
+<images/typeII.png, id=1440, 1447.4075pt x 758.835pt>
 File: images/typeII.png Graphic file (type png)
  <use images/typeII.png>
-[36] [37 <./images/typeII.png (PNG copy)>]
-<images/radio_shock.pdf, id=1471, 250.18388pt x 128.93349pt>
+[37 <./images/typeII.png (PNG copy)>]
+<images/radio_shock.pdf, id=1477, 250.18388pt x 128.93349pt>
 File: images/radio_shock.pdf Graphic file (type pdf)
 
-<use images/radio_shock.pdf>
-<images/cho_trim.png, id=1486, 1484.54625pt x 699.61375pt>
+<use images/radio_shock.pdf> [38]
+<images/cho_trim.png, id=1503, 1484.54625pt x 699.61375pt>
 File: images/cho_trim.png Graphic file (type png)
 
-<use images/cho_trim.png> [38 <./images/radio_shock.pdf>] [39]
-<images/reiner_mancuso.pdf, id=1542, 794.97pt x 614.295pt>
+<use images/cho_trim.png> [39 <./images/radio_shock.pdf>] [40 <./images/cho_tri
+m.png (PNG copy)>] <images/reiner_mancuso.pdf, id=1558, 794.97pt x 614.295pt>
 File: images/reiner_mancuso.pdf Graphic file (type pdf)
 
 <use images/reiner_mancuso.pdf>
-<images/mancuso_uvcs.pdf, id=1551, 794.97pt x 614.295pt>
+<images/mancuso_uvcs.pdf, id=1567, 794.97pt x 614.295pt>
 File: images/mancuso_uvcs.pdf Graphic file (type pdf)
 
 <use images/mancuso_uvcs.pdf>
-Overfull \hbox (87.63329pt too wide) in paragraph at lines 516--521
+Overfull \hbox (87.63329pt too wide) in paragraph at lines 523--528
  [] 
  []
 
-[40 <./images/cho_trim.png (PNG copy)>] [41 <./images/reiner_mancuso.pdf>]
-[42 <./images/mancuso_uvcs.pdf>]
-<images/miteva_herbones.pdf, id=1682, 240.9pt x 189.67873pt>
+[41 <./images/reiner_mancuso.pdf>] [42 <./images/mancuso_uvcs.pdf>]
+<images/miteva_herbones.pdf, id=1689, 240.9pt x 189.67873pt>
 File: images/miteva_herbones.pdf Graphic file (type pdf)
 
-<use images/miteva_herbones.pdf> [43]
-<images/eit_19970512_wave.jpg, id=1713, 803.0pt x 275.0275pt>
+<use images/miteva_herbones.pdf> [43] [44] [45 <./images/miteva_herbones.pdf>]
+<images/eit_19970512_wave.jpg, id=1760, 803.0pt x 275.0275pt>
 File: images/eit_19970512_wave.jpg Graphic file (type jpg)
 
-<use images/eit_19970512_wave.jpg> [44]
-<images/grechnev2011.png, id=1753, 746.79pt x 880.28876pt>
+<use images/eit_19970512_wave.jpg>
+<images/grechnev2011.png, id=1780, 746.79pt x 880.28876pt>
 File: images/grechnev2011.png Graphic file (type png)
 
-<use images/grechnev2011.png> [45 <./images/miteva_herbones.pdf>] [46 <./images
-/eit_19970512_wave.jpg>]
-<images/shock_sim.png, id=1808, 1477.52pt x 549.05125pt>
+<use images/grechnev2011.png> [46 <./images/eit_19970512_wave.jpg>] [47 <./imag
+es/grechnev2011.png (PNG copy)>]
+<images/shock_sim.png, id=1826, 1477.52pt x 549.05125pt>
 File: images/shock_sim.png Graphic file (type png)
 
-<use images/shock_sim.png> [47 <./images/grechnev2011.png (PNG copy)>] [48 <./i
-mages/shock_sim.png (PNG copy)>]
-<images/wl_shock.pdf, id=1842, 308.83379pt x 306.4248pt>
+<use images/shock_sim.png> [48 <./images/shock_sim.png (PNG copy)>]
+<images/wl_shock.pdf, id=1851, 308.83379pt x 306.4248pt>
 File: images/wl_shock.pdf Graphic file (type pdf)
 
-<use images/wl_shock.pdf> [49 <./images/wl_shock.pdf>] [50] [51
+<use images/wl_shock.pdf> [49] [50 <./images/wl_shock.pdf>] [51] [52
 
-]) [52]
+]) [53]
 \openout2 = `2/MHD.aux'.
 
 
@@ -1146,39 +1156,39 @@ Package xcolor Warning: Incompatible color definition on input line 4.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 10.
 
-[53
+[54
 
 
 
-] [54] [55] [56] [57] [58
+] [55] [56] [57] [58] [59
 
-] [59] [60] [61]
-<images/reconnection.pdf, id=1983, 582.175pt x 501.875pt>
+] [60] [61] [62]
+<images/reconnection.pdf, id=2002, 582.175pt x 501.875pt>
 File: images/reconnection.pdf Graphic file (type pdf)
 
-<use images/reconnection.pdf> [62] [63 <./images/reconnection.pdf>] [64]
-[65] <images/catastrophe.png, id=2068, 849.1725pt x 906.38625pt>
+<use images/reconnection.pdf> [63] [64 <./images/reconnection.pdf>] [65]
+[66] <images/catastrophe.png, id=2087, 849.1725pt x 906.38625pt>
 File: images/catastrophe.png Graphic file (type png)
 
-<use images/catastrophe.png> [66] [67 <./images/catastrophe.png (PNG copy)>]
-[68] <images/lynch_breakout.png, id=2122, 768.8725pt x 913.4125pt>
+<use images/catastrophe.png> [67] [68 <./images/catastrophe.png (PNG copy)>]
+[69] <images/lynch_breakout.png, id=2142, 768.8725pt x 913.4125pt>
 File: images/lynch_breakout.png Graphic file (type png)
 
-<use images/lynch_breakout.png> [69] [70 <./images/lynch_breakout.png (PNG copy
-)>] <images/chen_model.png, id=2156, 677.53125pt x 564.1075pt>
+<use images/lynch_breakout.png> [70] [71 <./images/lynch_breakout.png (PNG copy
+)>] <images/chen_model.png, id=2174, 677.53125pt x 564.1075pt>
 File: images/chen_model.png Graphic file (type png)
 
-<use images/chen_model.png> [71] [72 <./images/chen_model.png (PNG copy)>]
-<images/chen_forces.png, id=2177, 897.3525pt x 525.965pt>
+<use images/chen_model.png> [72] [73 <./images/chen_model.png (PNG copy)>]
+<images/chen_forces.png, id=2197, 897.3525pt x 525.965pt>
 File: images/chen_forces.png Graphic file (type png)
 
-<use images/chen_forces.png> [73]
-<images/alfven_speed.png, id=2189, 1207.51125pt x 846.16125pt>
+<use images/chen_forces.png> [74]
+<images/alfven_speed.png, id=2210, 1207.51125pt x 846.16125pt>
 File: images/alfven_speed.png Graphic file (type png)
 
-<use images/alfven_speed.png> [74 <./images/chen_forces.png (PNG copy)>]
-[75 <./images/alfven_speed.png (PNG copy)>]
-<images/nif.pdf, id=2211, 794.97pt x 614.295pt>
+<use images/alfven_speed.png> [75 <./images/chen_forces.png (PNG copy)>]
+[76 <./images/alfven_speed.png (PNG copy)>]
+<images/nif.pdf, id=2231, 794.97pt x 614.295pt>
 File: images/nif.pdf Graphic file (type pdf)
  <use images/nif.pdf>
 Overfull \hbox (132.36298pt too wide) in paragraph at lines 304--305
@@ -1188,7 +1198,7 @@ Overfull \hbox (132.36298pt too wide) in paragraph at lines 304--305
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[76] [77 <./images/nif.pdf>]
+[77] [78 <./images/nif.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 325.
 
 
@@ -1197,56 +1207,56 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 325.
- [78]pdfTeX warning (ext4): destination with the same identifier (name{equation
+ [79]pdfTeX warning (ext4): destination with the same identifier (name{equation
 .2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.341 \end{align}
+l.342 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.3.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.341 \end{align}
+l.342 \end{align}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.2.3.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.341 \end{align}
-                  [79] [80]
-<images/nif_dht_edit.pdf, id=2325, 794.97pt x 614.295pt>
+l.342 \end{align}
+                  [80] [81]
+<images/nif_dht_edit.pdf, id=2349, 794.97pt x 614.295pt>
 File: images/nif_dht_edit.pdf Graphic file (type pdf)
 
 <use images/nif_dht_edit.pdf>
-Overfull \hbox (38.81306pt too wide) in paragraph at lines 368--369
+Overfull \hbox (38.81306pt too wide) in paragraph at lines 369--370
  [] 
  []
 
-[81] <images/natphys_sda.pdf, id=2346, 794.97pt x 614.295pt>
+[82] [83 <./images/nif_dht_edit.pdf>]
+<images/natphys_sda.pdf, id=2435, 794.97pt x 614.295pt>
 File: images/natphys_sda.pdf Graphic file (type pdf)
 
-<use images/natphys_sda.pdf> [82 <./images/nif_dht_edit.pdf>] [83 <./images/nat
-phys_sda.pdf>] [84] [85] [86] [87]
-<images/bump_on_tail.png, id=2528, 1526.70375pt x 882.29625pt>
+<use images/natphys_sda.pdf> [84 <./images/natphys_sda.pdf>] [85] [86] [87]
+[88] [89] <images/bump_on_tail.png, id=2561, 1526.70375pt x 882.29625pt>
 File: images/bump_on_tail.png Graphic file (type png)
 
-<use images/bump_on_tail.png> [88] [89 <./images/bump_on_tail.png (PNG copy)>]
-[90] [91] <images/Cairns2003.pdf, id=2582, 358.70009pt x 148.3944pt>
+<use images/bump_on_tail.png> [90 <./images/bump_on_tail.png (PNG copy)>]
+[91] [92] <images/Cairns2003.pdf, id=2612, 358.70009pt x 148.3944pt>
 File: images/Cairns2003.pdf Graphic file (type pdf)
 
-<use images/Cairns2003.pdf> [92]
-<images/herbone_model.png, id=2616, 241.22227pt x 154.69164pt>
+<use images/Cairns2003.pdf> [93]
+<images/herbone_model.png, id=2648, 241.22227pt x 154.69164pt>
 File: images/herbone_model.png Graphic file (type png)
 
-<use images/herbone_model.png> [93 <./images/Cairns2003.pdf>]
-<images/radiobursts.png, id=2641, 1229.59375pt x 572.1375pt>
+<use images/herbone_model.png> [94 <./images/Cairns2003.pdf>]
+<images/radiobursts.png, id=2675, 1229.59375pt x 572.1375pt>
 File: images/radiobursts.png Graphic file (type png)
 
-<use images/radiobursts.png> [94 <./images/herbone_model.png (PNG copy)>]
-<images/density_plasma_models.pdf, id=2646, 794.97pt x 614.295pt>
+<use images/radiobursts.png> [95 <./images/herbone_model.png (PNG copy)>]
+<images/density_plasma_models.pdf, id=2680, 794.97pt x 614.295pt>
 File: images/density_plasma_models.pdf Graphic file (type pdf)
 
-<use images/density_plasma_models.pdf> [95 <./images/radiobursts.png (PNG copy)
->] [96 <./images/density_plasma_models.pdf>]) [97]
+<use images/density_plasma_models.pdf> [96 <./images/radiobursts.png (PNG copy)
+>] [97 <./images/density_plasma_models.pdf>]) [98]
 \openout2 = `3/Instrumentation.aux'.
 
  (./3/Instrumentation.tex
@@ -1254,15 +1264,15 @@ Chapter 3.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-[98
+[99
 
 
 
-] <images/solar_eclipse.jpg, id=2710, 903.375pt x 599.23875pt>
+] <images/solar_eclipse.jpg, id=2744, 903.375pt x 599.23875pt>
 File: images/solar_eclipse.jpg Graphic file (type jpg)
 
 <use images/solar_eclipse.jpg>
-<images/kandfcorona.pdf, id=2715, 794.97pt x 614.295pt>
+<images/kandfcorona.pdf, id=2749, 794.97pt x 614.295pt>
 File: images/kandfcorona.pdf Graphic file (type pdf)
 
 <use images/kandfcorona.pdf>
@@ -1270,26 +1280,26 @@ Overfull \hbox (84.15988pt too wide) in paragraph at lines 24--25
  [] 
  []
 
-[99
+[100
 
- <./images/solar_eclipse.jpg>] [100 <./images/kandfcorona.pdf>] [101]
-<images/lyot.png, id=2757, 1153.30875pt x 364.36125pt>
+ <./images/solar_eclipse.jpg>] [101 <./images/kandfcorona.pdf>] [102]
+<images/lyot.png, id=2791, 1153.30875pt x 364.36125pt>
 File: images/lyot.png Graphic file (type png)
  <use images/lyot.png>
-<images/c2_concept.png, id=2766, 979.66pt x 669.50125pt>
+<images/c2_concept.png, id=2801, 979.66pt x 669.50125pt>
 File: images/c2_concept.png Graphic file (type png)
 
-<use images/c2_concept.png> [102 <./images/lyot.png (PNG copy)>]
-<images/c2_detail.png, id=2778, 919.435pt x 691.58376pt>
+<use images/c2_concept.png> [103 <./images/lyot.png (PNG copy)>]
+<images/c2_detail.png, id=2814, 919.435pt x 691.58376pt>
 File: images/c2_detail.png Graphic file (type png)
 
-<use images/c2_detail.png> [103 <./images/c2_concept.png (PNG copy)>] [104 <./i
-mages/c2_detail.png (PNG copy)>]
-<images/lasco_c2_thesis.pdf, id=2799, 794.97pt x 614.295pt>
+<use images/c2_detail.png> [104 <./images/c2_concept.png (PNG copy)>] [105 <./i
+mages/c2_detail.png (PNG copy)>] [106]
+<images/lasco_c2_thesis.pdf, id=2838, 794.97pt x 614.295pt>
 File: images/lasco_c2_thesis.pdf Graphic file (type pdf)
 
-<use images/lasco_c2_thesis.pdf> [105]
-<images/where_stereo_thesis.pdf, id=2807, 794.97pt x 505.89pt>
+<use images/lasco_c2_thesis.pdf>
+<images/where_stereo_thesis.pdf, id=2842, 794.97pt x 505.89pt>
 File: images/where_stereo_thesis.pdf Graphic file (type pdf)
 
 <use images/where_stereo_thesis.pdf>
@@ -1297,11 +1307,11 @@ Overfull \hbox (34.25192pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-<images/COR1_design.png, id=2810, 1291.82625pt x 825.0825pt>
+<images/COR1_design.png, id=2849, 1291.82625pt x 825.0825pt>
 File: images/COR1_design.png Graphic file (type png)
 
 <use images/COR1_design.png>
-<images/cor2.png, id=2815, 616.704pt x 429.7656pt>
+<images/cor2.png, id=2854, 616.704pt x 429.7656pt>
 File: images/cor2.png Graphic file (type png)
  <use images/cor2.png>
 Overfull \hbox (1.89899pt too wide) in paragraph at lines 89--111
@@ -1310,18 +1320,18 @@ Overfull \hbox (1.89899pt too wide) in paragraph at lines 89--111
 /cmr/m/it/12 et al.[]\OT1/cmr/m/n/12 , []2008[]) Ahead
  []
 
-[106 <./images/lasco_c2_thesis.pdf>] [107 <./images/where_stereo_thesis.pdf>]
-<images/euvi_cor1_cor2.png, id=2901, 803.0pt x 803.0pt>
+[107 <./images/lasco_c2_thesis.pdf>]
+<images/euvi_cor1_cor2.png, id=2895, 803.0pt x 803.0pt>
 File: images/euvi_cor1_cor2.png Graphic file (type png)
 
-<use images/euvi_cor1_cor2.png> [108 <./images/COR1_design.png (PNG copy)>]
-[109 <./images/cor2.png (PNG copy)>] [110 <./images/euvi_cor1_cor2.png (PNG cop
-y)>] [111] [112] [113] [114]
-<images/aia_telescope.png, id=2951, 345.00754pt x 142.36101pt>
+<use images/euvi_cor1_cor2.png> [108] [109 <./images/where_stereo_thesis.pdf>]
+[110 <./images/COR1_design.png (PNG copy)>] [111 <./images/cor2.png (PNG copy)>
+] [112 <./images/euvi_cor1_cor2.png (PNG copy)>] [113] [114] [115]
+<images/aia_telescope.png, id=2991, 345.00754pt x 142.36101pt>
 File: images/aia_telescope.png Graphic file (type png)
 
-<use images/aia_telescope.png> [115 <./images/aia_telescope.png (PNG copy)>]
-<images/aia_4telescopes.png, id=2962, 344.64438pt x 188.48306pt>
+<use images/aia_telescope.png> [116 <./images/aia_telescope.png (PNG copy)>]
+<images/aia_4telescopes.png, id=3003, 344.64438pt x 188.48306pt>
 File: images/aia_4telescopes.png Graphic file (type png)
 
 <use images/aia_4telescopes.png>
@@ -1329,112 +1339,109 @@ Overfull \hbox (1.00623pt too wide) in paragraph at lines 189--190
  [] 
  []
 
-<images/aia_passbands.png, id=2967, 298.15915pt x 208.45718pt>
+<images/aia_passbands.png, id=3008, 298.15915pt x 208.45718pt>
 File: images/aia_passbands.png Graphic file (type png)
 
-<use images/aia_passbands.png> [116]
-<images/nrh_layout.png, id=2982, 987.69pt x 659.46375pt>
+<use images/aia_passbands.png> [117] [118 <./images/aia_4telescopes.png (PNG co
+py)>] <images/nrh_layout.png, id=3026, 987.69pt x 659.46375pt>
 File: images/nrh_layout.png Graphic file (type png)
 
-<use images/nrh_layout.png> [117 <./images/aia_4telescopes.png (PNG copy)>]
-[118 <./images/aia_passbands.png (PNG copy)>] [119 <./images/nrh_layout.png (PN
-G copy)>] [120]
-LaTeX Font Info:    Try loading font information for U+euf on input line 249.
- (/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/ueuf.fd
+<use images/nrh_layout.png> [119 <./images/aia_passbands.png (PNG copy)>]
+[120 <./images/nrh_layout.png (PNG copy)>] [121] [122]
+LaTeX Font Info:    Try loading font information for U+euf on input line 253.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2002/01/19 v2.2g AMS font definitions
-) [121] <images/image_ft_relation.png, id=3030, 768.8725pt x 513.92pt>
+)
+<images/image_ft_relation.png, id=3074, 768.8725pt x 513.92pt>
 File: images/image_ft_relation.png Graphic file (type png)
 
-<use images/image_ft_relation.png> [122]
-<images/aia_nrh_compare.pdf, id=3045, 794.97pt x 614.295pt>
+<use images/image_ft_relation.png> [123] [124 <./images/image_ft_relation.png (
+PNG copy)>] <images/aia_nrh_compare.pdf, id=3094, 794.97pt x 614.295pt>
 File: images/aia_nrh_compare.pdf Graphic file (type pdf)
 
 <use images/aia_nrh_compare.pdf>
-Overfull \hbox (7.25908pt too wide) in paragraph at lines 275--276
+Overfull \hbox (7.25908pt too wide) in paragraph at lines 279--280
  [] 
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 276--276
+Underfull \hbox (badness 1817) in paragraph at lines 280--280
 []\OT1/cmr/bx/n/10.95 Figure 3.16: |\OT1/cmr/m/n/10.95 Ob-ser-va-tions from NRH
  at 150MHz and 432,MHz, with
  []
 
-<images/S130705.png, id=3054, 682.55pt x 554.07pt>
+<images/S130705.png, id=3107, 682.55pt x 554.07pt>
 File: images/S130705.png Graphic file (type png)
  <use images/S130705.png>
-Underfull \hbox (badness 2556) in paragraph at lines 312--312
+Underfull \hbox (badness 2556) in paragraph at lines 316--316
 []\OT1/cmr/bx/n/10.95 Figure 3.17: |\OT1/cmr/m/n/10.95 Nan^^Xcay De-ca-met-ric 
 Ar-ray ob-ser-va-tions of an ac-tive pe-
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 312--312
+Underfull \hbox (badness 3838) in paragraph at lines 316--316
 \OT1/cmr/m/n/10.95 riod of type III ra-dio bursts on 07 May 2013. Im-age cour-t
-esy of the
+esy of
  []
 
-[123 <./images/image_ft_relation.png (PNG copy)>] [124 <./images/aia_nrh_compar
-e.pdf>] [125 <./images/S130705.png>]
-<images/stereo_antennas.pdf, id=3124, 762.85pt x 361.35pt>
+[125 <./images/aia_nrh_compare.pdf>] [126] [127 <./images/S130705.png>]
+<images/stereo_antennas.pdf, id=3181, 762.85pt x 361.35pt>
 File: images/stereo_antennas.pdf Graphic file (type pdf)
 
 <use images/stereo_antennas.pdf>
-Underfull \hbox (badness 1629) in paragraph at lines 328--328
+Underfull \hbox (badness 1629) in paragraph at lines 332--332
 \OT1/cmr/m/n/10.95 the Sun-Earth line, fac-ing the Earth. Each monopole is 6m l
 ong and
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 328--328
+Underfull \hbox (badness 1314) in paragraph at lines 332--332
 \OT1/cmr/m/n/10.95 feeds a num-ber of re-ceiv-ing in-stru-ments. \OT1/cmr/m/it/
 10.95 Im-age cour-tesy of B. Cec-coni,
  []
 
-[126] [127 <./images/stereo_antennas.pdf>]
-<images/swaves_summary_20110922.pdf, id=3147, 794.97pt x 614.295pt>
+[128 <./images/stereo_antennas.pdf>]
+<images/swaves_summary_20110922.pdf, id=3199, 794.97pt x 614.295pt>
 File: images/swaves_summary_20110922.pdf Graphic file (type pdf)
 
 <use images/swaves_summary_20110922.pdf>
-Overfull \hbox (5.97687pt too wide) in paragraph at lines 340--341
+Overfull \hbox (5.97687pt too wide) in paragraph at lines 344--345
  [][] 
  []
 
-<images/callisto_layout.pdf, id=3153, 794.97pt x 614.295pt>
+[129] [130 <./images/swaves_summary_20110922.pdf, page is rotated 270 degrees>]
+<images/callisto_layout.pdf, id=3222, 794.97pt x 614.295pt>
 File: images/callisto_layout.pdf Graphic file (type pdf)
 
-<use images/callisto_layout.pdf> [128] [129 <./images/swaves_summary_20110922.p
-df, page is rotated 270 degrees>] [130] [131 <./images/callisto_layout.pdf>]
-<images/callisto_worldwide.pdf, id=3203, 845.1575pt x 598.235pt>
+<use images/callisto_layout.pdf> [131] [132 <./images/callisto_layout.pdf>]
+[133] <images/callisto_worldwide.pdf, id=3258, 845.1575pt x 598.235pt>
 File: images/callisto_worldwide.pdf Graphic file (type pdf)
 
 <use images/callisto_worldwide.pdf>
-<images/rfi_survey.pdf, id=3213, 568.1225pt x 352.31625pt>
+<images/rfi_survey.pdf, id=3268, 568.1225pt x 352.31625pt>
 File: images/rfi_survey.pdf Graphic file (type pdf)
 
-<use images/rfi_survey.pdf> [132] [133 <./images/callisto_worldwide.pdf>]
-<images/20110922_typeII_hb.pdf, id=3237, 722.7pt x 578.16pt>
-File: images/20110922_typeII_hb.pdf Graphic file (type pdf)
+<use images/rfi_survey.pdf> [134 <./images/callisto_worldwide.pdf>] [135 <./ima
+ges/rfi_survey.pdf>]
+<images/20110922_typeII_hb_nda.pdf, id=3295, 614.295pt x 794.97pt>
+File: images/20110922_typeII_hb_nda.pdf Graphic file (type pdf)
 
-<use images/20110922_typeII_hb.pdf>
-Overfull \hbox (17.86389pt too wide) in paragraph at lines 394--395
+<use images/20110922_typeII_hb_nda.pdf>
+Overfull \hbox (7.48022pt too wide) in paragraph at lines 398--399
  [] 
  []
 
-<images/hbone_backsub.pdf, id=3242, 794.97pt x 614.295pt>
-File: images/hbone_backsub.pdf Graphic file (type pdf)
+<images/hbone_backsub_with_nda.pdf, id=3296, 614.295pt x 794.97pt>
+File: images/hbone_backsub_with_nda.pdf Graphic file (type pdf)
 
-<use images/hbone_backsub.pdf>
-Overfull \hbox (4.6695pt too wide) in paragraph at lines 402--403
- [] 
- []
-
-<images/callisto_instr_paper3.pdf, id=3245, 469.755pt x 578.16pt>
+<use images/hbone_backsub_with_nda.pdf>
+<images/callisto_instr_paper3.pdf, id=3299, 469.755pt x 578.16pt>
 File: images/callisto_instr_paper3.pdf Graphic file (type pdf)
 
-<use images/callisto_instr_paper3.pdf> [134 <./images/rfi_survey.pdf>] [135 <./
-images/20110922_typeII_hb.pdf>] [136 <./images/hbone_backsub.pdf>]) [137 <./ima
-ges/callisto_instr_paper3.pdf>] [138]
+<use images/callisto_instr_paper3.pdf> [136]) [137 <./images/20110922_typeII_hb
+_nda.pdf>] [138 <./images/hbone_backsub_with_nda.pdf>] [139 <./images/callisto_
+instr_paper3.pdf>]
 \openout2 = `4/masses.aux'.
 
  (./4/masses.tex
@@ -1442,16 +1449,16 @@ Chapter 4.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-[139
+[140
 
 
 
-] [140] [141] [142]
-<images/cor1ab_color.pdf, id=3404, 939.51pt x 578.16pt>
+] [141] [142] [143]
+<images/cor1ab_color.pdf, id=3486, 939.51pt x 578.16pt>
 File: images/cor1ab_color.pdf Graphic file (type pdf)
 
 <use images/cor1ab_color.pdf>
-<images/cor2ab_color_test.pdf, id=3409, 794.97pt x 614.295pt>
+<images/cor2ab_color_test.pdf, id=3491, 794.97pt x 614.295pt>
 File: images/cor2ab_color_test.pdf Graphic file (type pdf)
 
 <use images/cor2ab_color_test.pdf>
@@ -1459,24 +1466,24 @@ Overfull \hbox (5.97687pt too wide) in paragraph at lines 43--45
  [][] 
  []
 
-[143] [144 <./images/cor1ab_color.pdf>] [145 <./images/cor2ab_color_test.pdf>]
-[146] <images/t_scatter.png, id=3498, 1044.90375pt x 889.3225pt>
+[144] [145 <./images/cor1ab_color.pdf>] [146 <./images/cor2ab_color_test.pdf>]
+[147] <images/t_scatter.png, id=3580, 1044.90375pt x 889.3225pt>
 File: images/t_scatter.png Graphic file (type png)
 
-<use images/t_scatter.png> [147] [148 <./images/t_scatter.png (PNG copy)>]
-<images/omega_new.pdf, id=3530, 794.97pt x 614.295pt>
+<use images/t_scatter.png> [148] [149 <./images/t_scatter.png (PNG copy)>]
+<images/omega_new.pdf, id=3612, 794.97pt x 614.295pt>
 File: images/omega_new.pdf Graphic file (type pdf)
 
 <use images/omega_new.pdf>
-<images/LOS_POS_2.pdf, id=3544, 597.23125pt x 845.1575pt>
+<images/LOS_POS_2.pdf, id=3626, 597.23125pt x 845.1575pt>
 File: images/LOS_POS_2.pdf Graphic file (type pdf)
 
-<use images/LOS_POS_2.pdf> [149] [150 <./images/omega_new.pdf>] [151 <./images/
-LOS_POS_2.pdf>] <images/pos_angle.pdf, id=3616, 722.7pt x 578.16pt>
+<use images/LOS_POS_2.pdf> [150] [151 <./images/omega_new.pdf>] [152 <./images/
+LOS_POS_2.pdf>] <images/pos_angle.pdf, id=3699, 722.7pt x 578.16pt>
 File: images/pos_angle.pdf Graphic file (type pdf)
 
-<use images/pos_angle.pdf> [152]
-<images/e_scat_2d.pdf, id=3629, 794.97pt x 614.295pt>
+<use images/pos_angle.pdf> [153]
+<images/e_scat_2d.pdf, id=3711, 794.97pt x 614.295pt>
 File: images/e_scat_2d.pdf Graphic file (type pdf)
 
 <use images/e_scat_2d.pdf>
@@ -1484,23 +1491,23 @@ Overfull \hbox (9.02084pt too wide) in paragraph at lines 181--182
  [] 
  []
 
-<images/angular_width.pdf, id=3635, 794.97pt x 614.295pt>
+<images/angular_width.pdf, id=3717, 794.97pt x 614.295pt>
 File: images/angular_width.pdf Graphic file (type pdf)
 
-<use images/angular_width.pdf> [153 <./images/pos_angle.pdf>] [154 <./images/e_
-scat_2d.pdf>] <images/deprojected_pos.pdf, id=3723, 614.295pt x 794.97pt>
+<use images/angular_width.pdf> [154 <./images/pos_angle.pdf>] [155 <./images/e_
+scat_2d.pdf>] <images/deprojected_pos.pdf, id=3805, 614.295pt x 794.97pt>
 File: images/deprojected_pos.pdf Graphic file (type pdf)
 
-<use images/deprojected_pos.pdf> [155 <./images/angular_width.pdf>]
+<use images/deprojected_pos.pdf> [156 <./images/angular_width.pdf>]
 
-LaTeX Warning: Text page 156 contains only floats.
+LaTeX Warning: Text page 157 contains only floats.
 
 
 Overfull \vbox (5.18333pt too high) has occurred while \output is active []
 
 
-[156 <./images/deprojected_pos.pdf>] [157] [158]
-<images/20081212_mass_ht.pdf, id=3864, 469.755pt x 722.7pt>
+[157 <./images/deprojected_pos.pdf>] [158] [159]
+<images/20081212_mass_ht.pdf, id=3946, 469.755pt x 722.7pt>
 File: images/20081212_mass_ht.pdf Graphic file (type pdf)
 
 <use images/20081212_mass_ht.pdf>
@@ -1510,23 +1517,23 @@ LaTeX Warning: Command \textquoteleft invalid in math mode on input line 255.
 
 LaTeX Warning: Command \textquoteleft invalid in math mode on input line 255.
 
-[159]
+[160]
 
-LaTeX Warning: Text page 160 contains only floats.
+LaTeX Warning: Text page 161 contains only floats.
 
-[160 <./images/20081212_mass_ht.pdf>] [161]
-<images/20081212_force_v2.pdf, id=3898, 325.215pt x 722.7pt>
+[161 <./images/20081212_mass_ht.pdf>] [162]
+<images/20081212_force_v2.pdf, id=3980, 325.215pt x 722.7pt>
 File: images/20081212_force_v2.pdf Graphic file (type pdf)
 
-<use images/20081212_force_v2.pdf> [162]
+<use images/20081212_force_v2.pdf> [163]
 
-LaTeX Warning: Text page 163 contains only floats.
+LaTeX Warning: Text page 164 contains only floats.
 
 
 Overfull \vbox (2.1698pt too high) has occurred while \output is active []
 
 
-[163 <./images/20081212_force_v2.pdf>] [164] [165] [166] [167] [168]) [169]
+[164 <./images/20081212_force_v2.pdf>] [165] [166] [167] [168] [169]) [170]
 \openout2 = `5/shocks.aux'.
 
 
@@ -1535,21 +1542,21 @@ Chapter 5.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-[170
+[171
 
 
 
-] [171] [172]
-<images/gallagher_figure1_final.pdf, id=4090, 794.97pt x 614.295pt>
+] [172] [173]
+<images/gallagher_figure1_final.pdf, id=4171, 794.97pt x 614.295pt>
 File: images/gallagher_figure1_final.pdf Graphic file (type pdf)
 
-<use images/gallagher_figure1_final.pdf> [173] [174 <./images/gallagher_figure1
+<use images/gallagher_figure1_final.pdf> [174] [175 <./images/gallagher_figure1
 _final.pdf>]
-<images/gallagher_figure2_final.pdf, id=4156, 433.62pt x 505.89pt>
+<images/gallagher_figure2_final.pdf, id=4237, 433.62pt x 505.89pt>
 File: images/gallagher_figure2_final.pdf Graphic file (type pdf)
 
-<use images/gallagher_figure2_final.pdf> [175] [176 <./images/gallagher_figure2
-_final.pdf>] <images/pietro_density.pdf, id=4208, 794.97pt x 614.295pt>
+<use images/gallagher_figure2_final.pdf> [176] [177 <./images/gallagher_figure2
+_final.pdf>] <images/pietro_density.pdf, id=4289, 794.97pt x 614.295pt>
 File: images/pietro_density.pdf Graphic file (type pdf)
 
 <use images/pietro_density.pdf>
@@ -1557,12 +1564,12 @@ Overfull \hbox (132.36298pt too wide) in paragraph at lines 80--82
  [] 
  []
 
-[177]
+[178]
 
-LaTeX Warning: Text page 178 contains only floats.
+LaTeX Warning: Text page 179 contains only floats.
 
-[178 <./images/pietro_density.pdf>]
-<images/gallagher_supplem_fig2_final.pdf, id=4279, 794.97pt x 614.295pt>
+[179 <./images/pietro_density.pdf>]
+<images/gallagher_supplem_fig2_final.pdf, id=4360, 794.97pt x 614.295pt>
 File: images/gallagher_supplem_fig2_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_supplem_fig2_final.pdf>
@@ -1570,12 +1577,12 @@ Overfull \hbox (47.34895pt too wide) in paragraph at lines 100--101
  [] 
  []
 
-<images/thesis_alfven_map.pdf, id=4289, 722.7pt x 722.7pt>
+<images/thesis_alfven_map.pdf, id=4370, 722.7pt x 722.7pt>
 File: images/thesis_alfven_map.pdf Graphic file (type pdf)
 
-<use images/thesis_alfven_map.pdf> [179] [180 <./images/gallagher_supplem_fig2_
-final.pdf>] [181 <./images/thesis_alfven_map.pdf>] [182]
-<images/tri_colour_2.pdf, id=4358, 614.295pt x 794.97pt>
+<use images/thesis_alfven_map.pdf> [180] [181 <./images/gallagher_supplem_fig2_
+final.pdf>] [182 <./images/thesis_alfven_map.pdf>] [183]
+<images/tri_colour_2.pdf, id=4439, 614.295pt x 794.97pt>
 File: images/tri_colour_2.pdf Graphic file (type pdf)
 
 <use images/tri_colour_2.pdf>
@@ -1586,28 +1593,28 @@ Overfull \hbox (5.1501pt too wide) in paragraph at lines 132--133
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[183]
+[184]
 
-LaTeX Warning: Text page 184 contains only floats.
+LaTeX Warning: Text page 185 contains only floats.
 
 
 Overfull \vbox (1.55106pt too high) has occurred while \output is active []
 
 
-[184 <./images/tri_colour_2.pdf>] [185]
-<images/gallagher_figure3_final.pdf, id=4423, 794.97pt x 614.295pt>
+[185 <./images/tri_colour_2.pdf>] [186]
+<images/gallagher_figure3_final.pdf, id=4504, 794.97pt x 614.295pt>
 File: images/gallagher_figure3_final.pdf Graphic file (type pdf)
 
-<use images/gallagher_figure3_final.pdf> [186] [187 <./images/gallagher_figure3
+<use images/gallagher_figure3_final.pdf> [187] [188 <./images/gallagher_figure3
 _final.pdf>]
 Overfull \hbox (2.65723pt too wide) in paragraph at lines 170--171
 \OT1/cmr/m/n/12 bone emis-sion, ob-served us-ing the eCal-listo spec-trom-e-ter
 s at the RSTO (Fig. []5.7[]c).
  []
 
-[188
+[189
 
-] <images/typeIII_speeds.pdf, id=4515, 794.97pt x 614.295pt>
+] <images/typeIII_speeds.pdf, id=4596, 794.97pt x 614.295pt>
 File: images/typeIII_speeds.pdf Graphic file (type pdf)
 
 <use images/typeIII_speeds.pdf>
@@ -1615,16 +1622,16 @@ Overfull \hbox (35.39876pt too wide) in paragraph at lines 175--176
  [] 
  []
 
-<images/gallagher_supplem_fig1_final.pdf, id=4516, 722.7pt x 722.7pt>
+<images/gallagher_supplem_fig1_final.pdf, id=4597, 722.7pt x 722.7pt>
 File: images/gallagher_supplem_fig1_final.pdf Graphic file (type pdf)
 
-<use images/gallagher_supplem_fig1_final.pdf> [189 <./images/typeIII_speeds.pdf
+<use images/gallagher_supplem_fig1_final.pdf> [190 <./images/typeIII_speeds.pdf
 >]
 
-LaTeX Warning: Text page 190 contains only floats.
+LaTeX Warning: Text page 191 contains only floats.
 
-[190 <./images/gallagher_supplem_fig1_final.pdf>]
-<images/gallagher_figure4_final.pdf, id=4585, 794.97pt x 614.295pt>
+[191 <./images/gallagher_supplem_fig1_final.pdf>]
+<images/gallagher_figure4_final.pdf, id=4666, 794.97pt x 614.295pt>
 File: images/gallagher_figure4_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_figure4_final.pdf>
@@ -1632,16 +1639,16 @@ Overfull \hbox (21.74127pt too wide) in paragraph at lines 198--199
  [] 
  []
 
-[191]
+[192]
 
-LaTeX Warning: Text page 192 contains only floats.
+LaTeX Warning: Text page 193 contains only floats.
 
-[192 <./images/gallagher_figure4_final.pdf>] [193]
-<images/gallagher_schematic.png, id=4690, 282.30469pt x 329.73187pt>
+[193 <./images/gallagher_figure4_final.pdf>] [194]
+<images/gallagher_schematic.png, id=4772, 282.30469pt x 329.73187pt>
 File: images/gallagher_schematic.png Graphic file (type png)
 
-<use images/gallagher_schematic.png> [194] [195 <./images/gallagher_schematic.p
-ng (PNG copy)>] [196]) [197]
+<use images/gallagher_schematic.png> [195] [196 <./images/gallagher_schematic.p
+ng (PNG copy)>] [197]) [198]
 \openout2 = `6/conclusions.aux'.
 
  (./6/conclusions.tex
@@ -1649,26 +1656,26 @@ Chapter 6.
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
-[198
+[199
 
 
 
-] [199
+] [200
 
-] [200] <images/masks.pdf, id=4780, 722.7pt x 433.62pt>
+] [201] <images/masks.pdf, id=4861, 722.7pt x 433.62pt>
 File: images/masks.pdf Graphic file (type pdf)
 
-<use images/masks.pdf> [201]
-<images/CME_MASSES_lin_log.pdf, id=4795, 1445.4pt x 1445.4pt>
+<use images/masks.pdf> [202]
+<images/CME_MASSES_lin_log.pdf, id=4876, 1445.4pt x 1445.4pt>
 File: images/CME_MASSES_lin_log.pdf Graphic file (type pdf)
 
-<use images/CME_MASSES_lin_log.pdf> [202 <./images/masks.pdf>] [203 <./images/C
-ME_MASSES_lin_log.pdf>] [204]
-<images/inverse_masks.pdf, id=4835, 433.62pt x 433.62pt>
+<use images/CME_MASSES_lin_log.pdf> [203 <./images/masks.pdf>] [204 <./images/C
+ME_MASSES_lin_log.pdf>] [205]
+<images/inverse_masks.pdf, id=4916, 433.62pt x 433.62pt>
 File: images/inverse_masks.pdf Graphic file (type pdf)
 
 <use images/inverse_masks.pdf>
-<images/compare_masks_c2c3.pdf, id=4836, 1445.4pt x 1445.4pt>
+<images/compare_masks_c2c3.pdf, id=4917, 1445.4pt x 1445.4pt>
 File: images/compare_masks_c2c3.pdf Graphic file (type pdf)
 
 <use images/compare_masks_c2c3.pdf>
@@ -1676,8 +1683,8 @@ Overfull \hbox (12.5225pt too wide) in paragraph at lines 92--93
  [] 
  []
 
-[205 <./images/inverse_masks.pdf>] [206 <./images/compare_masks_c2c3.pdf>]
-<images/mask_nomask_invmask_c2c3.pdf, id=4869, 1445.4pt x 1445.4pt>
+[206 <./images/inverse_masks.pdf>] [207 <./images/compare_masks_c2c3.pdf>]
+<images/mask_nomask_invmask_c2c3.pdf, id=4950, 1445.4pt x 1445.4pt>
 File: images/mask_nomask_invmask_c2c3.pdf Graphic file (type pdf)
 
 <use images/mask_nomask_invmask_c2c3.pdf>
@@ -1685,8 +1692,8 @@ Overfull \hbox (12.5225pt too wide) in paragraph at lines 102--103
  [] 
  []
 
-[207] [208 <./images/mask_nomask_invmask_c2c3.pdf>] [209]
-<images/euv_dimming.png, id=4899, 1251.67625pt x 811.03pt>
+[208] [209 <./images/mask_nomask_invmask_c2c3.pdf>] [210]
+<images/euv_dimming.png, id=4980, 1251.67625pt x 811.03pt>
 File: images/euv_dimming.png Graphic file (type png)
 
 <use images/euv_dimming.png>
@@ -1694,8 +1701,8 @@ Overfull \hbox (15.56969pt too wide) in paragraph at lines 154--155
  [] 
  []
 
-[210 <./images/euv_dimming.png (PNG copy)>]
-<images/mass_temp_dist2.pdf, id=4912, 794.97pt x 614.295pt>
+[211 <./images/euv_dimming.png (PNG copy)>]
+<images/mass_temp_dist2.pdf, id=4993, 794.97pt x 614.295pt>
 File: images/mass_temp_dist2.pdf Graphic file (type pdf)
 
 <use images/mass_temp_dist2.pdf>
@@ -1703,37 +1710,37 @@ Overfull \hbox (16.6818pt too wide) in paragraph at lines 166--167
  [] 
  []
 
-[211 <./images/mass_temp_dist2.pdf>] [212]
-<images/mass_dim_t.png, id=4956, 574.145pt x 409.53pt>
+[212 <./images/mass_temp_dist2.pdf>] [213]
+<images/mass_dim_t.png, id=5037, 574.145pt x 409.53pt>
 File: images/mass_dim_t.png Graphic file (type png)
 
-<use images/mass_dim_t.png> [213 <./images/mass_dim_t.png (PNG copy)>] [214]
-[215] [216] <images/r_theta_line.pdf, id=4988, 794.97pt x 614.295pt>
+<use images/mass_dim_t.png> [214 <./images/mass_dim_t.png (PNG copy)>] [215]
+[216] [217] <images/r_theta_line.pdf, id=5069, 794.97pt x 614.295pt>
 File: images/r_theta_line.pdf Graphic file (type pdf)
 
-<use images/r_theta_line.pdf> [217] [218 <./images/r_theta_line.pdf>]
-<images/hough_example_simple.pdf, id=5046, 794.97pt x 614.295pt>
+<use images/r_theta_line.pdf> [218] [219 <./images/r_theta_line.pdf>]
+<images/hough_example_simple.pdf, id=5127, 794.97pt x 614.295pt>
 File: images/hough_example_simple.pdf Graphic file (type pdf)
 
 <use images/hough_example_simple.pdf>
-<images/hough_example.pdf, id=5048, 794.97pt x 614.295pt>
+<images/hough_example.pdf, id=5129, 794.97pt x 614.295pt>
 File: images/hough_example.pdf Graphic file (type pdf)
 
-<use images/hough_example.pdf> [219 <./images/hough_example_simple.pdf>]
-[220 <./images/hough_example.pdf>]
-<images/herringbones_only.pdf, id=5159, 794.97pt x 614.295pt>
+<use images/hough_example.pdf> [220 <./images/hough_example_simple.pdf>]
+[221 <./images/hough_example.pdf>]
+<images/herringbones_only.pdf, id=5240, 794.97pt x 614.295pt>
 File: images/herringbones_only.pdf Graphic file (type pdf)
 
 <use images/herringbones_only.pdf>
-<images/hough_herringbones.pdf, id=5165, 722.7pt x 578.16pt>
+<images/hough_herringbones.pdf, id=5246, 722.7pt x 578.16pt>
 File: images/hough_herringbones.pdf Graphic file (type pdf)
 
-<use images/hough_herringbones.pdf> [221 <./images/herringbones_only.pdf>]
-<images/hough_herringbones_only.pdf, id=5203, 794.97pt x 614.295pt>
+<use images/hough_herringbones.pdf> [222 <./images/herringbones_only.pdf>]
+<images/hough_herringbones_only.pdf, id=5284, 794.97pt x 614.295pt>
 File: images/hough_herringbones_only.pdf Graphic file (type pdf)
 
 <use images/hough_herringbones_only.pdf>
-<images/herringbone_stats.pdf, id=5204, 794.97pt x 614.295pt>
+<images/herringbone_stats.pdf, id=5285, 794.97pt x 614.295pt>
 File: images/herringbone_stats.pdf Graphic file (type pdf)
 
 <use images/herringbone_stats.pdf>
@@ -1741,8 +1748,8 @@ Overfull \hbox (74.20149pt too wide) in paragraph at lines 288--289
  [] 
  []
 
-[222 <./images/hough_herringbones.pdf>]
-<images/herringbone_stats2.pdf, id=5219, 794.97pt x 614.295pt>
+[223 <./images/hough_herringbones.pdf>]
+<images/herringbone_stats2.pdf, id=5300, 794.97pt x 614.295pt>
 File: images/herringbone_stats2.pdf Graphic file (type pdf)
 
 <use images/herringbone_stats2.pdf>
@@ -1750,12 +1757,12 @@ Overfull \hbox (74.20149pt too wide) in paragraph at lines 299--300
  [] 
  []
 
-<images/hough_maxi.pdf, id=5223, 505.89pt x 505.89pt>
+<images/hough_maxi.pdf, id=5304, 505.89pt x 505.89pt>
 File: images/hough_maxi.pdf Graphic file (type pdf)
 
-<use images/hough_maxi.pdf> [223 <./images/hough_herringbones_only.pdf>]
-[224 <./images/herringbone_stats.pdf>] [225 <./images/herringbone_stats2.pdf>]
-[226 <./images/hough_maxi.pdf>]) [227]
+<use images/hough_maxi.pdf> [224 <./images/hough_herringbones_only.pdf>]
+[225 <./images/herringbone_stats.pdf>] [226 <./images/herringbone_stats2.pdf>]
+[227 <./images/hough_maxi.pdf>]) [228]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
@@ -1763,13 +1770,13 @@ Appendix A.
 
 Package xcolor Warning: Incompatible color definition on input line 4.
 
-[228
+[229
 
 
 
 ]
 Missing character: There is no Õ in font cmr12!
- [229] <images/pietro_em_schem.pdf, id=5421, 845.1575pt x 597.23125pt>
+ [230] <images/pietro_em_schem.pdf, id=5503, 845.1575pt x 597.23125pt>
 File: images/pietro_em_schem.pdf Graphic file (type pdf)
 
 <use images/pietro_em_schem.pdf>
@@ -1783,11 +1790,11 @@ Overfull \hbox (2.3974pt too wide) in paragraph at lines 75--76
 ty di-ag-nos-tic is through
  []
 
-[230 <./images/pietro_em_schem.pdf>]
-<images/june7th_radio.pdf, id=5461, 794.97pt x 614.295pt>
+[231 <./images/pietro_em_schem.pdf>]
+<images/june7th_radio.pdf, id=5542, 794.97pt x 614.295pt>
 File: images/june7th_radio.pdf Graphic file (type pdf)
 
-<use images/june7th_radio.pdf>) [231] [232 <./images/june7th_radio.pdf>]
+<use images/june7th_radio.pdf>) [232] [233 <./images/june7th_radio.pdf>]
 (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
@@ -1796,12 +1803,12 @@ File: images/june7th_radio.pdf Graphic file (type pdf)
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-[233
+[234
 
 
-] [234] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244]
-[245] [246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256]
-[257] [258] [259] [260] [261] [262] [263]) [264] (./thesis.aux
+] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245]
+[246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256] [257]
+[258] [259] [260] [261] [262] [263] [264]) [265] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/MHD.aux) (./3/Instrumentation.aux) (./4/masses.aux) (./5/shocks.aux)
@@ -1811,15 +1818,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18311 strings out of 493876
- 294622 string characters out of 1150568
- 421599 words of memory out of 3000000
- 20099 multiletter control sequences out of 10000+50000
- 22732 words of font info for 79 fonts, out of 3000000 for 5000
+ 18537 strings out of 493876
+ 297630 string characters out of 1150568
+ 424924 words of memory out of 3000000
+ 20308 multiletter control sequences out of 10000+50000
+ 23045 words of font info for 80 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 47i,12n,50p,2427b,1471s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
-st, replaced by a fixed one
+ 47i,12n,50p,2427b,1511s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
 , replaced by a fixed one
@@ -1869,9 +1888,9 @@ ti12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/eufm10.pfb
 ></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb></usr/l
 ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msbm10.pfb></usr/local/tex
 live/2008/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (281 pages, 50434738 bytes).
+Output written on thesis.pdf (282 pages, 50879151 bytes).
 PDF statistics:
- 6406 PDF objects out of 7423 (max. 8388607)
- 900 named destinations out of 1000 (max. 131072)
+ 6500 PDF objects out of 7423 (max. 8388607)
+ 912 named destinations out of 1000 (max. 131072)
  1349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
