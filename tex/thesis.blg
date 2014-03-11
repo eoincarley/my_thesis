@@ -13,7 +13,7 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11739 items from 5000.
+Reallocated field_info (elt_size=4) to 11762 items from 5000.
 Database file #1: mybib.bib
 Repeated entry---line 922 of file mybib.bib
  : @article{carlsson1997
@@ -32,20 +32,20 @@ Repeated entry---line 1870 of file mybib.bib
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 3864 of file mybib.bib
-Repeated entry---line 4085 of file mybib.bib
+--line 3874 of file mybib.bib
+Repeated entry---line 4095 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4254 of file mybib.bib
+Repeated entry---line 4264 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4637 of file mybib.bib
+Repeated entry---line 4647 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5129 of file mybib.bib
+Repeated entry---line 5139 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
@@ -66,45 +66,45 @@ Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 293 entries,
+You've used 294 entries,
             3018 wiz_defined-function locations,
-            2118 strings with 59016 characters,
-and the built_in function-call counts, 210701 in all, are:
-= -- 16733
-> -- 12914
-< -- 156
-+ -- 4507
-- -- 4204
-* -- 18509
-:= -- 32206
-add.period$ -- 868
-call.type$ -- 293
-change.case$ -- 2865
-chr.to.int$ -- 283
-cite$ -- 308
-duplicate$ -- 13838
-empty$ -- 13448
-format.name$ -- 5114
-if$ -- 41621
+            2121 strings with 59125 characters,
+and the built_in function-call counts, 211145 in all, are:
+= -- 16772
+> -- 12924
+< -- 157
++ -- 4511
+- -- 4207
+* -- 18539
+:= -- 32279
+add.period$ -- 871
+call.type$ -- 294
+change.case$ -- 2871
+chr.to.int$ -- 284
+cite$ -- 309
+duplicate$ -- 13875
+empty$ -- 13486
+format.name$ -- 5118
+if$ -- 41710
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 3165
-newline$ -- 883
-num.names$ -- 1189
-pop$ -- 6581
+missing$ -- 3172
+newline$ -- 886
+num.names$ -- 1193
+pop$ -- 6591
 preamble$ -- 1
-purify$ -- 2568
+purify$ -- 2573
 quote$ -- 0
-skip$ -- 5018
+skip$ -- 5031
 stack$ -- 0
-substring$ -- 8280
-swap$ -- 8139
+substring$ -- 8300
+swap$ -- 8157
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2598
+type$ -- 2607
 warning$ -- 15
-while$ -- 1171
+while$ -- 1175
 width$ -- 0
-write$ -- 3208
+write$ -- 3219
 (There were 8 error messages)

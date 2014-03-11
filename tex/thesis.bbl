@@ -1,4 +1,4 @@
-\begin{thebibliography}{293}
+\begin{thebibliography}{294}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -593,6 +593,10 @@
 \bibitem[{{Hirayama}(1974)}]{hirayama1974}
 {\sc {Hirayama}, T.} (1974). {Theoretical Model of Flares and Prominences. I:
   Evaporating Flare Model}. {\em \solphys\/}, {\bf 34}, 323--338.
+
+\bibitem[{{H{\"o}gbom}(1974)}]{hogbom1974}
+{\sc {H{\"o}gbom}, J.A.} (1974). {Aperture Synthesis with a Non-Regular
+  Distribution of Interferometer Baselines}. {\em \aaps\/}, {\bf 15}, 417.
 
 \bibitem[{{Holman} \& {Pesses}(1983)}]{holman1983}
 {\sc {Holman}, G.D. \& {Pesses}, M.E.} (1983). {Solar type II radio emission
