@@ -1,4 +1,4 @@
-\begin{thebibliography}{294}
+\begin{thebibliography}{298}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -270,6 +270,13 @@
   Mass Ejection Mass, Energy, and Force Estimates Using STEREO}. {\em \apj\/},
   {\bf 752}, 36.
 
+\bibitem[{{Carley} {\em et~al.\/}(2013){Carley}, {Long}, {Byrne}, {Zucca},
+  {Bloomfield}, {McCauley} \& {Gallagher}}]{carley2013}
+{\sc {Carley}, E.P., {Long}, D.M., {Byrne}, J.P., {Zucca}, P., {Bloomfield},
+  D.S., {McCauley}, J. \& {Gallagher}, P.T.} (2013). {Quasiperiodic
+  acceleration of electrons by a plasmoid-driven shock in the solar
+  atmosphere}. {\em Nature Physics\/}, {\bf 9}, 811--816.
+
 \bibitem[{{Carlsson} \& {Stein}(1997)}]{carlsson1997}
 {\sc {Carlsson}, M. \& {Stein}, R.F.} (1997). {Formation of Solar Calcium H and
   K Bright Grains}. {\em \apj\/}, {\bf 481}, 500.
@@ -332,6 +339,10 @@
 \bibitem[{{Cla{\ss}en} \& {Aurass}(2002)}]{classen2002}
 {\sc {Cla{\ss}en}, H.T. \& {Aurass}, H.} (2002). {On the association between
   type II radio bursts and CMEs}. {\em \aap\/}, {\bf 384}, 1098--1106.
+
+\bibitem[{{Cliver}(2013)}]{cliver2013}
+{\sc {Cliver}, E.W.} (2013). {Solar physics: Making waves}. {\em Nature
+  Physics\/}, {\bf 9}, 758--759.
 
 \bibitem[{{Cohen} {\em et~al.\/}(2009){Cohen}, {Attrill}, {Manchester} \&
   {Wills-Davey}}]{cohen2009}
@@ -487,6 +498,27 @@
 {\sc {Gallagher}, P.T., {Lawrence}, G.R. \& {Dennis}, B.R.} (2003). {Rapid
   Acceleration of a Coronal Mass Ejection in the Low Corona and Implications
   for Propagation}. {\em \apjl\/}, {\bf 588}, L53--L56.
+
+\bibitem[{{Galvin} {\em et~al.\/}(2008){Galvin}, {Kistler}, {Popecki},
+  {Farrugia}, {Simunac}, {Ellis}, {M{\"o}bius}, {Lee}, {Boehm}, {Carroll},
+  {Crawshaw}, {Conti}, {Demaine}, {Ellis}, {Gaidos}, {Googins}, {Granoff},
+  {Gustafson}, {Heirtzler}, {King}, {Knauss}, {Levasseur}, {Longworth},
+  {Singer}, {Turco}, {Vachon}, {Vosbury}, {Widholm}, {Blush}, {Karrer},
+  {Bochsler}, {Daoudi}, {Etter}, {Fischer}, {Jost}, {Opitz}, {Sigrist}, {Wurz},
+  {Klecker}, {Ertl}, {Seidenschwang}, {Wimmer-Schweingruber}, {Koeten},
+  {Thompson} \& {Steinfeld}}]{galvin2008}
+{\sc {Galvin}, A.B., {Kistler}, L.M., {Popecki}, M.A., {Farrugia}, C.J.,
+  {Simunac}, K.D.C., {Ellis}, L., {M{\"o}bius}, E., {Lee}, M.A., {Boehm}, M.,
+  {Carroll}, J., {Crawshaw}, A., {Conti}, M., {Demaine}, P., {Ellis}, S.,
+  {Gaidos}, J.A., {Googins}, J., {Granoff}, M., {Gustafson}, A., {Heirtzler},
+  D., {King}, B., {Knauss}, U., {Levasseur}, J., {Longworth}, S., {Singer}, K.,
+  {Turco}, S., {Vachon}, P., {Vosbury}, M., {Widholm}, M., {Blush}, L.M.,
+  {Karrer}, R., {Bochsler}, P., {Daoudi}, H., {Etter}, A., {Fischer}, J.,
+  {Jost}, J., {Opitz}, A., {Sigrist}, M., {Wurz}, P., {Klecker}, B., {Ertl},
+  M., {Seidenschwang}, E., {Wimmer-Schweingruber}, R.F., {Koeten}, M.,
+  {Thompson}, B. \& {Steinfeld}, D.} (2008). {The Plasma and Suprathermal Ion
+  Composition (PLASTIC) Investigation on the STEREO Observatories}. {\em
+  \ssr\/}, {\bf 136}, 437--486.
 
 \bibitem[{{Ginzburg} \& {Zhelezniakov}(1958)}]{ginzburg1958}
 {\sc {Ginzburg}, V.L. \& {Zhelezniakov}, V.V.} (1958). {On the Possible
@@ -1213,6 +1245,12 @@
   {Kraemer}}]{sackmann1993}
 {\sc {Sackmann}, I.J., {Boothroyd}, A.I. \& {Kraemer}, K.E.} (1993). {Our Sun.
   III. Present and Future}. {\em \apj\/}, {\bf 418}, 457.
+
+\bibitem[{{Saint-Hilaire} {\em et~al.\/}(2013){Saint-Hilaire}, {Vilmer} \&
+  {Kerdraon}}]{Saint-Hilaire2013}
+{\sc {Saint-Hilaire}, P., {Vilmer}, N. \& {Kerdraon}, A.} (2013). {A Decade of
+  Solar Type III Radio Bursts Observed by the Nan{\c c}ay Radioheliograph
+  1998-2008}. {\em \apj\/}, {\bf 762}, 60.
 
 \bibitem[{{Saito} {\em et~al.\/}(1977){Saito}, {Poland} \& {Munro}}]{saito1977}
 {\sc {Saito}, K., {Poland}, A.I. \& {Munro}, R.H.} (1977). {A study of the

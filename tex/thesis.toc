@@ -78,18 +78,18 @@
 \contentsline {section}{\numberline {5.3}Radio Dynamic Spectra}{188}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Observations}{188}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Particle speeds and in-situ detection}{189}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}White-light CME and Shock}{194}{section.5.4}
-\contentsline {section}{\numberline {5.5}Discussion}{196}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{196}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{197}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.4}White-light CME and Shock}{195}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discussion}{197}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Relationship Between CME, CBF, and Radio bursts}{197}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Bursty Particle Acceleration}{198}{subsection.5.5.2}
 \contentsline {chapter}{\numberline {6}Conclusions and Future Work}{201}{chapter.6}
 \contentsline {section}{\numberline {6.1}CME Masses and Energies}{202}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Principle results}{202}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}Principal results}{202}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Future Work}{204}{subsection.6.1.2}
 \contentsline {subsubsection}{\numberline {6.1.2.1}CME Mass and Forces Catalogue}{204}{subsubsection.6.1.2.1}
 \contentsline {subsubsection}{\numberline {6.1.2.2}Mass Estimates with AIA}{213}{subsubsection.6.1.2.2}
 \contentsline {section}{\numberline {6.2}Coronal Shocks and Radio Bursts}{218}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Principle results}{218}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Principal results}{218}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Future Work}{220}{subsection.6.2.2}
 \contentsline {subsubsection}{\numberline {6.2.2.1}Hough Transform and Herringbone Statistics}{220}{subsubsection.6.2.2.1}
 \contentsline {chapter}{\numberline {A}Appendix}{231}{appendix.A}

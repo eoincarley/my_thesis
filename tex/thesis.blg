@@ -13,39 +13,39 @@ A level-1 auxiliary file: 5/shocks.aux
 A level-1 auxiliary file: 6/conclusions.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11762 items from 5000.
+Reallocated field_info (elt_size=4) to 11854 items from 5000.
 Database file #1: mybib.bib
-Repeated entry---line 922 of file mybib.bib
+Repeated entry---line 950 of file mybib.bib
  : @article{carlsson1997
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1507 of file mybib.bib
+Repeated entry---line 1535 of file mybib.bib
  : @article{forbes1991
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1521 of file mybib.bib
+Repeated entry---line 1549 of file mybib.bib
  : @article{forbes1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1870 of file mybib.bib
+Repeated entry---line 1921 of file mybib.bib
  : @article{guo2010
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--string name "a16" is undefined
---line 3874 of file mybib.bib
-Repeated entry---line 4095 of file mybib.bib
+--line 3944 of file mybib.bib
+Repeated entry---line 4165 of file mybib.bib
  : @article{spreiter1966
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4264 of file mybib.bib
+Repeated entry---line 4334 of file mybib.bib
  : @article{stewart1980
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4647 of file mybib.bib
+Repeated entry---line 4717 of file mybib.bib
  : @article{vandas2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5139 of file mybib.bib
+Repeated entry---line 5209 of file mybib.bib
  : @article{wild1950
  :                  ,
 I'm skipping whatever remains of this entry
@@ -66,45 +66,45 @@ Warning--missing publisher in priest2000
 Warning--missing publisher in schrijver2008b
 Warning--missing publisher in spitzer1962
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 294 entries,
+You've used 298 entries,
             3018 wiz_defined-function locations,
-            2121 strings with 59125 characters,
-and the built_in function-call counts, 211145 in all, are:
-= -- 16772
-> -- 12924
-< -- 157
-+ -- 4511
-- -- 4207
-* -- 18539
-:= -- 32279
-add.period$ -- 871
-call.type$ -- 294
-change.case$ -- 2871
-chr.to.int$ -- 284
-cite$ -- 309
-duplicate$ -- 13875
-empty$ -- 13486
-format.name$ -- 5118
-if$ -- 41710
+            2139 strings with 60563 characters,
+and the built_in function-call counts, 216193 in all, are:
+= -- 17110
+> -- 13432
+< -- 158
++ -- 4683
+- -- 4375
+* -- 19018
+:= -- 33050
+add.period$ -- 883
+call.type$ -- 298
+change.case$ -- 2947
+chr.to.int$ -- 288
+cite$ -- 313
+duplicate$ -- 14139
+empty$ -- 13707
+format.name$ -- 5296
+if$ -- 42681
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 3172
-newline$ -- 886
-num.names$ -- 1193
-pop$ -- 6591
+missing$ -- 3252
+newline$ -- 898
+num.names$ -- 1209
+pop$ -- 6790
 preamble$ -- 1
-purify$ -- 2573
+purify$ -- 2645
 quote$ -- 0
-skip$ -- 5031
+skip$ -- 5135
 stack$ -- 0
-substring$ -- 8300
-swap$ -- 8157
+substring$ -- 8413
+swap$ -- 8342
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2607
+type$ -- 2643
 warning$ -- 15
-while$ -- 1175
+while$ -- 1191
 width$ -- 0
-write$ -- 3219
+write$ -- 3263
 (There were 8 error messages)

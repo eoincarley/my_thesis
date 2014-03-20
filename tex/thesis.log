@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  19 MAR 2014 19:03
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.1.19)  20 MAR 2014 14:47
 entering extended mode
 \write18 enabled.
  file:line:error style messages enabled.
@@ -1543,17 +1543,15 @@ Package xcolor Warning: Incompatible color definition on input line 5.
 
 
 
-] [174] [175]
-<images/gallagher_figure1_final.pdf, id=4230, 794.97pt x 614.295pt>
-File: images/gallagher_figure1_final.pdf Graphic file (type pdf)
+] [174] [175] <images/nphys2767-f1.jpg, id=4231, 949.5475pt x 545.03625pt>
+File: images/nphys2767-f1.jpg Graphic file (type jpg)
 
-<use images/gallagher_figure1_final.pdf> [176] [177 <./images/gallagher_figure1
-_final.pdf>]
-<images/gallagher_figure2_final.pdf, id=4297, 433.62pt x 505.89pt>
-File: images/gallagher_figure2_final.pdf Graphic file (type pdf)
+<use images/nphys2767-f1.jpg> [176] [177 <./images/nphys2767-f1.jpg>]
+<images/nphys2767-f2.jpg, id=4251, 949.5475pt x 1135.24126pt>
+File: images/nphys2767-f2.jpg Graphic file (type jpg)
 
-<use images/gallagher_figure2_final.pdf> [178] [179 <./images/gallagher_figure2
-_final.pdf>] <images/pietro_density.pdf, id=4348, 794.97pt x 614.295pt>
+<use images/nphys2767-f2.jpg> [178] [179 <./images/nphys2767-f2.jpg>]
+<images/pietro_density.pdf, id=4284, 794.97pt x 614.295pt>
 File: images/pietro_density.pdf Graphic file (type pdf)
 
 <use images/pietro_density.pdf>
@@ -1566,7 +1564,7 @@ Overfull \hbox (132.36298pt too wide) in paragraph at lines 80--82
 LaTeX Warning: Text page 181 contains only floats.
 
 [181 <./images/pietro_density.pdf>]
-<images/gallagher_supplem_fig2_final.pdf, id=4419, 794.97pt x 614.295pt>
+<images/gallagher_supplem_fig2_final.pdf, id=4355, 794.97pt x 614.295pt>
 File: images/gallagher_supplem_fig2_final.pdf Graphic file (type pdf)
 
 <use images/gallagher_supplem_fig2_final.pdf>
@@ -1574,12 +1572,12 @@ Overfull \hbox (47.34895pt too wide) in paragraph at lines 100--101
  [] 
  []
 
-<images/thesis_alfven_map.pdf, id=4429, 722.7pt x 722.7pt>
+<images/thesis_alfven_map.pdf, id=4365, 722.7pt x 722.7pt>
 File: images/thesis_alfven_map.pdf Graphic file (type pdf)
 
 <use images/thesis_alfven_map.pdf> [182] [183 <./images/gallagher_supplem_fig2_
 final.pdf>] [184 <./images/thesis_alfven_map.pdf>] [185]
-<images/tri_colour_2.pdf, id=4498, 614.295pt x 794.97pt>
+<images/tri_colour_2.pdf, id=4434, 614.295pt x 794.97pt>
 File: images/tri_colour_2.pdf Graphic file (type pdf)
 
 <use images/tri_colour_2.pdf>
@@ -1598,54 +1596,42 @@ LaTeX Warning: Text page 187 contains only floats.
 Overfull \vbox (1.55106pt too high) has occurred while \output is active []
 
 
-[187 <./images/tri_colour_2.pdf>] [188]
-<images/gallagher_figure3_final.pdf, id=4564, 794.97pt x 614.295pt>
-File: images/gallagher_figure3_final.pdf Graphic file (type pdf)
+[187 <./images/tri_colour_2.pdf>] [188] [189]
+<images/nphys2767-f3.jpg, id=4514, 949.5475pt x 580.1675pt>
+File: images/nphys2767-f3.jpg Graphic file (type jpg)
 
-<use images/gallagher_figure3_final.pdf> [189] [190 <./images/gallagher_figure3
-_final.pdf>]
-Overfull \hbox (2.65723pt too wide) in paragraph at lines 170--171
-\OT1/cmr/m/n/12 bone emis-sion, ob-served us-ing the eCal-listo spec-trom-e-ter
-s at the RSTO (Fig. []5.7[]c).
- []
-
-[191
-
-] <images/typeIII_speeds.pdf, id=4655, 794.97pt x 614.295pt>
+<use images/nphys2767-f3.jpg> [190] [191 <./images/nphys2767-f3.jpg>]
+<images/typeIII_speeds.pdf, id=4537, 794.97pt x 614.295pt>
 File: images/typeIII_speeds.pdf Graphic file (type pdf)
 
 <use images/typeIII_speeds.pdf>
-Overfull \hbox (35.39876pt too wide) in paragraph at lines 175--176
+Overfull \hbox (35.39876pt too wide) in paragraph at lines 174--175
  [] 
  []
 
-<images/gallagher_supplem_fig1_final.pdf, id=4656, 722.7pt x 722.7pt>
+<images/gallagher_supplem_fig1_final.pdf, id=4538, 722.7pt x 722.7pt>
 File: images/gallagher_supplem_fig1_final.pdf Graphic file (type pdf)
 
-<use images/gallagher_supplem_fig1_final.pdf> [192 <./images/typeIII_speeds.pdf
->]
+<use images/gallagher_supplem_fig1_final.pdf> [192
+
+ <./images/typeIII_speeds.pdf>]
 
 LaTeX Warning: Text page 193 contains only floats.
 
 [193 <./images/gallagher_supplem_fig1_final.pdf>]
-<images/gallagher_figure4_final.pdf, id=4725, 794.97pt x 614.295pt>
-File: images/gallagher_figure4_final.pdf Graphic file (type pdf)
+<images/nphys2767-f4.jpg, id=4606, 949.5475pt x 870.25125pt>
+File: images/nphys2767-f4.jpg Graphic file (type jpg)
 
-<use images/gallagher_figure4_final.pdf>
-Overfull \hbox (21.74127pt too wide) in paragraph at lines 198--199
- [] 
- []
+<use images/nphys2767-f4.jpg> [194] [195]
 
-[194]
+LaTeX Warning: Text page 196 contains only floats.
 
-LaTeX Warning: Text page 195 contains only floats.
+[196 <./images/nphys2767-f4.jpg>]
+<images/nphys_shock.png, id=4669, 949.5475pt x 576.1525pt>
+File: images/nphys_shock.png Graphic file (type png)
 
-[195 <./images/gallagher_figure4_final.pdf>] [196]
-<images/gallagher_schematic.png, id=4831, 282.30469pt x 329.73187pt>
-File: images/gallagher_schematic.png Graphic file (type png)
-
-<use images/gallagher_schematic.png> [197] [198 <./images/gallagher_schematic.p
-ng (PNG copy)>] [199]) [200]
+<use images/nphys_shock.png> [197] [198 <./images/nphys_shock.png (PNG copy)>]
+[199]) [200]
 \openout2 = `6/conclusions.aux'.
 
  (./6/conclusions.tex
@@ -1659,20 +1645,20 @@ Package xcolor Warning: Incompatible color definition on input line 5.
 
 ] [202
 
-] [203] <images/masks.pdf, id=4920, 722.7pt x 433.62pt>
+] [203] <images/masks.pdf, id=4763, 722.7pt x 433.62pt>
 File: images/masks.pdf Graphic file (type pdf)
 
 <use images/masks.pdf> [204]
-<images/CME_MASSES_lin_log.pdf, id=4935, 1445.4pt x 1445.4pt>
+<images/CME_MASSES_lin_log.pdf, id=4778, 1445.4pt x 1445.4pt>
 File: images/CME_MASSES_lin_log.pdf Graphic file (type pdf)
 
 <use images/CME_MASSES_lin_log.pdf> [205 <./images/masks.pdf>] [206 <./images/C
 ME_MASSES_lin_log.pdf>] [207]
-<images/inverse_masks.pdf, id=4976, 433.62pt x 433.62pt>
+<images/inverse_masks.pdf, id=4819, 433.62pt x 433.62pt>
 File: images/inverse_masks.pdf Graphic file (type pdf)
 
 <use images/inverse_masks.pdf>
-<images/compare_masks_c2c3.pdf, id=4977, 1445.4pt x 1445.4pt>
+<images/compare_masks_c2c3.pdf, id=4820, 1445.4pt x 1445.4pt>
 File: images/compare_masks_c2c3.pdf Graphic file (type pdf)
 
 <use images/compare_masks_c2c3.pdf>
@@ -1681,7 +1667,7 @@ Overfull \hbox (12.5225pt too wide) in paragraph at lines 92--93
  []
 
 [208 <./images/inverse_masks.pdf>] [209 <./images/compare_masks_c2c3.pdf>]
-<images/mask_nomask_invmask_c2c3.pdf, id=5009, 1445.4pt x 1445.4pt>
+<images/mask_nomask_invmask_c2c3.pdf, id=4852, 1445.4pt x 1445.4pt>
 File: images/mask_nomask_invmask_c2c3.pdf Graphic file (type pdf)
 
 <use images/mask_nomask_invmask_c2c3.pdf>
@@ -1690,7 +1676,7 @@ Overfull \hbox (12.5225pt too wide) in paragraph at lines 102--103
  []
 
 [210] [211 <./images/mask_nomask_invmask_c2c3.pdf>] [212]
-<images/euv_dimming.png, id=5040, 1251.67625pt x 811.03pt>
+<images/euv_dimming.png, id=4883, 1251.67625pt x 811.03pt>
 File: images/euv_dimming.png Graphic file (type png)
 
 <use images/euv_dimming.png>
@@ -1699,7 +1685,7 @@ Overfull \hbox (15.56969pt too wide) in paragraph at lines 154--155
  []
 
 [213 <./images/euv_dimming.png (PNG copy)>]
-<images/mass_temp_dist2.pdf, id=5053, 794.97pt x 614.295pt>
+<images/mass_temp_dist2.pdf, id=4896, 794.97pt x 614.295pt>
 File: images/mass_temp_dist2.pdf Graphic file (type pdf)
 
 <use images/mass_temp_dist2.pdf>
@@ -1708,36 +1694,36 @@ Overfull \hbox (16.6818pt too wide) in paragraph at lines 166--167
  []
 
 [214 <./images/mass_temp_dist2.pdf>] [215]
-<images/mass_dim_t.png, id=5096, 574.145pt x 409.53pt>
+<images/mass_dim_t.png, id=4939, 574.145pt x 409.53pt>
 File: images/mass_dim_t.png Graphic file (type png)
 
 <use images/mass_dim_t.png> [216 <./images/mass_dim_t.png (PNG copy)>] [217]
-[218] [219] <images/r_theta_line.pdf, id=5129, 794.97pt x 614.295pt>
+[218] [219] <images/r_theta_line.pdf, id=4972, 794.97pt x 614.295pt>
 File: images/r_theta_line.pdf Graphic file (type pdf)
 
 <use images/r_theta_line.pdf> [220] [221 <./images/r_theta_line.pdf>]
-<images/hough_example_simple.pdf, id=5186, 794.97pt x 614.295pt>
+<images/hough_example_simple.pdf, id=5029, 794.97pt x 614.295pt>
 File: images/hough_example_simple.pdf Graphic file (type pdf)
 
 <use images/hough_example_simple.pdf>
-<images/hough_example.pdf, id=5188, 794.97pt x 614.295pt>
+<images/hough_example.pdf, id=5031, 794.97pt x 614.295pt>
 File: images/hough_example.pdf Graphic file (type pdf)
 
 <use images/hough_example.pdf> [222 <./images/hough_example_simple.pdf>]
 [223 <./images/hough_example.pdf>]
-<images/herringbones_only.pdf, id=5299, 794.97pt x 614.295pt>
+<images/herringbones_only.pdf, id=5142, 794.97pt x 614.295pt>
 File: images/herringbones_only.pdf Graphic file (type pdf)
 
 <use images/herringbones_only.pdf>
-<images/hough_herringbones.pdf, id=5305, 722.7pt x 578.16pt>
+<images/hough_herringbones.pdf, id=5148, 722.7pt x 578.16pt>
 File: images/hough_herringbones.pdf Graphic file (type pdf)
 
 <use images/hough_herringbones.pdf> [224 <./images/herringbones_only.pdf>]
-<images/hough_herringbones_only.pdf, id=5344, 794.97pt x 614.295pt>
-File: images/hough_herringbones_only.pdf Graphic file (type pdf)
+<images/hough_herringbones_only_edit.pdf, id=5187, 794.97pt x 614.295pt>
+File: images/hough_herringbones_only_edit.pdf Graphic file (type pdf)
 
-<use images/hough_herringbones_only.pdf>
-<images/herringbone_stats.pdf, id=5345, 794.97pt x 614.295pt>
+<use images/hough_herringbones_only_edit.pdf>
+<images/herringbone_stats.pdf, id=5188, 794.97pt x 614.295pt>
 File: images/herringbone_stats.pdf Graphic file (type pdf)
 
 <use images/herringbone_stats.pdf>
@@ -1746,7 +1732,7 @@ Overfull \hbox (74.20149pt too wide) in paragraph at lines 288--289
  []
 
 [225 <./images/hough_herringbones.pdf>]
-<images/herringbone_stats2.pdf, id=5360, 794.97pt x 614.295pt>
+<images/herringbone_stats2.pdf, id=5203, 794.97pt x 614.295pt>
 File: images/herringbone_stats2.pdf Graphic file (type pdf)
 
 <use images/herringbone_stats2.pdf>
@@ -1754,10 +1740,10 @@ Overfull \hbox (74.20149pt too wide) in paragraph at lines 299--300
  [] 
  []
 
-<images/hough_maxi.pdf, id=5364, 505.89pt x 505.89pt>
+<images/hough_maxi.pdf, id=5207, 505.89pt x 505.89pt>
 File: images/hough_maxi.pdf Graphic file (type pdf)
 
-<use images/hough_maxi.pdf> [226 <./images/hough_herringbones_only.pdf>]
+<use images/hough_maxi.pdf> [226 <./images/hough_herringbones_only_edit.pdf>]
 [227 <./images/herringbone_stats.pdf>] [228 <./images/herringbone_stats2.pdf>]
 [229 <./images/hough_maxi.pdf>]) [230]
 \openout2 = `appendix/app.aux'.
@@ -1773,7 +1759,7 @@ Package xcolor Warning: Incompatible color definition on input line 4.
 
 ]
 Missing character: There is no Õ in font cmr12!
- [232] <images/pietro_em_schem.pdf, id=5562, 845.1575pt x 597.23125pt>
+ [232] <images/pietro_em_schem.pdf, id=5410, 845.1575pt x 597.23125pt>
 File: images/pietro_em_schem.pdf Graphic file (type pdf)
 
 <use images/pietro_em_schem.pdf>
@@ -1788,7 +1774,7 @@ ty di-ag-nos-tic is through
  []
 
 [233 <./images/pietro_em_schem.pdf>]
-<images/june7th_radio.pdf, id=5601, 794.97pt x 614.295pt>
+<images/june7th_radio.pdf, id=5449, 794.97pt x 614.295pt>
 File: images/june7th_radio.pdf Graphic file (type pdf)
 
 <use images/june7th_radio.pdf>) [234] [235 <./images/june7th_radio.pdf>]
@@ -1805,7 +1791,7 @@ Package xcolor Warning: Incompatible color definition on input line 1.
 
 ] [237] [238] [239] [240] [241] [242] [243] [244] [245] [246] [247]
 [248] [249] [250] [251] [252] [253] [254] [255] [256] [257] [258] [259]
-[260] [261] [262] [263] [264] [265] [266]) [267] (./thesis.aux
+[260] [261] [262] [263] [264] [265] [266] [267]) [268] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/MHD.aux) (./3/Instrumentation.aux) (./4/masses.aux) (./5/shocks.aux)
@@ -1815,15 +1801,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18569 strings out of 493876
- 298223 string characters out of 1150568
- 426159 words of memory out of 3000000
- 20330 multiletter control sequences out of 10000+50000
+ 18600 strings out of 493876
+ 298462 string characters out of 1150568
+ 427398 words of memory out of 3000000
+ 20355 multiletter control sequences out of 10000+50000
  23045 words of font info for 80 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 47i,12n,50p,2427b,1516s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not ex
+ 47i,12n,50p,2427b,1536s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1891,9 +1880,9 @@ ti12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/eufm10.pfb
 ></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb></usr/l
 ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msbm10.pfb></usr/local/tex
 live/2008/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on thesis.pdf (284 pages, 51380272 bytes).
+Output written on thesis.pdf (285 pages, 48052510 bytes).
 PDF statistics:
- 6567 PDF objects out of 7423 (max. 8388607)
- 920 named destinations out of 1000 (max. 131072)
+ 6425 PDF objects out of 7423 (max. 8388607)
+ 926 named destinations out of 1000 (max. 131072)
  1359 words of extra memory for PDF output out of 10000 (max. 10000000)
 
