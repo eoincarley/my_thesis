@@ -81,37 +81,38 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Uncertainty due to CME angular width}}{157}{figure.caption.80}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Uncertainty due to unknown POS angle and angular width}}{158}{figure.caption.81}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces CME mass as a function of height and time}}{162}{figure.caption.82}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces CME kinematics and energetics as a function of height}}{165}{figure.caption.83}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces CME mass as a function of height and time, COR2 B data only}}{163}{figure.caption.83}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces CME kinematics and energetics as a function of height}}{166}{figure.caption.84}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Propagation of CBF and radio burst}}{176}{figure.caption.84}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Radio source and CBF position angle versus time}}{178}{figure.caption.85}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 2D density map of the corona}}{180}{figure.caption.86}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces A potential field source surface extrapolation of the corona magnetic field}}{182}{figure.caption.87}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Alfv\'{e}n speed map of the solar corona.}}{183}{figure.caption.88}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Tri-colour running ratio images of a CBF.}}{186}{figure.caption.89}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Radio dynamic spectra of 22-September-2011 event}}{189}{figure.caption.90}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Type III speeds}}{191}{figure.caption.91}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Herringbone wavelet analysis}}{192}{figure.caption.92}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 3D reconstruction of CME and white-light shock}}{194}{figure.caption.93}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces CBF and shock orientation}}{197}{figure.caption.94}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Propagation of CBF and radio burst}}{177}{figure.caption.86}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Radio source and CBF position angle versus time}}{179}{figure.caption.87}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 2D density map of the corona}}{181}{figure.caption.88}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces A potential field source surface extrapolation of the corona magnetic field}}{183}{figure.caption.89}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Alfv\'{e}n speed map of the solar corona.}}{184}{figure.caption.90}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Tri-colour running ratio images of a CBF.}}{187}{figure.caption.91}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Radio dynamic spectra of 22-September-2011 event}}{190}{figure.caption.92}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Type III speeds}}{192}{figure.caption.93}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Herringbone wavelet analysis}}{193}{figure.caption.94}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 3D reconstruction of CME and white-light shock}}{195}{figure.caption.95}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces CBF and shock orientation}}{198}{figure.caption.96}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces CORIMP masks}}{204}{figure.caption.95}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces CME Mass automatic detection}}{205}{figure.caption.96}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Inverse masks}}{207}{figure.caption.97}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Inverse mass time series}}{208}{figure.caption.98}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Mass time series error check}}{210}{figure.caption.99}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces EUVI dimming region}}{212}{figure.caption.100}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Mass-temperature distribution}}{213}{figure.caption.101}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Mass evacuation with time}}{215}{figure.caption.102}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Line in polar coordinates}}{220}{figure.caption.103}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Relationship between image space and Hough space}}{221}{figure.caption.104}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Example Hough Transform}}{222}{figure.caption.105}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Herringbone observations}}{223}{figure.caption.106}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Hough transform}}{224}{figure.caption.107}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Hough transform herringbones}}{225}{figure.caption.108}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Herringbone statistics 1}}{226}{figure.caption.109}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Herringbone statistics 2}}{227}{figure.caption.110}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Herringbone intensity vs drift}}{228}{figure.caption.111}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces CORIMP masks}}{205}{figure.caption.97}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces CME Mass automatic detection}}{206}{figure.caption.98}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Inverse masks}}{208}{figure.caption.99}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Inverse mass time series}}{209}{figure.caption.100}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Mass time series error check}}{211}{figure.caption.101}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces EUVI dimming region}}{213}{figure.caption.102}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Mass-temperature distribution}}{214}{figure.caption.103}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Mass evacuation with time}}{216}{figure.caption.104}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Line in polar coordinates}}{221}{figure.caption.105}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Relationship between image space and Hough space}}{222}{figure.caption.106}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Example Hough Transform}}{223}{figure.caption.107}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Herringbone observations}}{224}{figure.caption.108}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Hough transform}}{225}{figure.caption.109}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Hough transform herringbones}}{226}{figure.caption.110}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Herringbone statistics 1}}{227}{figure.caption.111}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Herringbone statistics 2}}{228}{figure.caption.112}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Herringbone intensity vs drift}}{229}{figure.caption.113}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The geometry for the emitting solar atmosphere}}{232}{figure.caption.112}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The June 7th 2011 radio burst}}{234}{figure.caption.113}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The geometry for the emitting solar atmosphere}}{233}{figure.caption.114}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The June 7th 2011 radio burst}}{235}{figure.caption.115}
