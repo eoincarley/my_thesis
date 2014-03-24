@@ -5,7 +5,7 @@
 \chapter{Observation and Instrumentation} 
 \label{chap:3}
 \doublespacing
-In this chapter the instruments used to make observations of coronal mass ejections and the signatures of their shocks are outlined. The primary technique for observing CMEs is via white-light observations of the corona. The general coronal observing techniques used by coronagraphs are firstly described, followed by specific details of coronagraphs used in this study. This is followed by a description of the instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory (RSTO), installed at Birr Castle, Co.\,Offaly, Ireland in September 2011. The RSTO work was published in Zucca \& Carley {\it et al.} {\it Solar Physics}, 2012.
+In this chapter the instruments used to make observations of coronal mass ejections and the signatures of their shocks are outlined. The primary technique for observing CMEs is via white-light observations of the corona. The general coronal observing techniques used by coronagraphs are firstly described, followed by specific details of coronagraphs used in this study. This is followed by a description of the instrument used to observe CMEs and shocks, including extreme ultraviolet (EUV) instrumentation, and radio imaging and spectroscopy instrumentation. Part of the radio spectroscopy work includes an overview of the Rosse Solar Terrestrial Observatory (RSTO), installed at Birr Castle, Co.\,Offaly, Ireland in September 2011. The RSTO work was published in Zucca \& Carley {\it et al.} {\it Solar Physics} (2012).
 \clearpage
 
 \section{White-Light Observations}\label{sec:1}
@@ -131,9 +131,9 @@ All coronagraph images, including those produced by COR1, COR2, and the LASCO co
 
 Calibration of the data into a scientifically usable format results in level-1 data. The steps to produce level-1 data are as follows:
 \begin{itemize}
-\item \emph{Bias image subtraction}. The CCD of a camera will carry some charge in its pixels due to noise in the camera electronics. These are usually exposed by taking an image with the shutter closed and for the shortest possible exposure times. The bias image is subtracted from the raw image.
+\item {\color{blue}\emph{Bias image subtraction}. The CCD of a camera will carry some charge in its pixels due to noise in the camera electronics. These are usually exposed by taking an image with the shutter closed and for the shortest possible exposure times. The bias image is subtracted from the raw image.}
 %
-\item \emph{Dark current image subtraction}. Each CCD will carry some level of residual charge even when the camera shutter is closed. This residual charge is due to thermal energy of the CCD electrons and builds up over a finite exposure time. The voltage (thermal energy) must be removed from the raw image since it is not due to light from an observed source. The `dark image' is taken with the camera shutter closed and an exposure performed as normal (exposure time the same as the raw image). The dark image is simply subtracted from the raw image. Note also that dark images will also contain a bias, so darks must be bias-subtracted before they are used on the raw image.
+\item {\color{blue} \emph{Dark current image subtraction}. Each CCD will carry some level of residual charge even when the camera shutter is closed. This residual charge is due to thermal energy of the CCD electrons and builds up over a finite exposure time. The voltage (thermal energy) must be removed from the raw image since it is not due to light from an observed source. The `dark image' is taken with the camera shutter closed and an exposure performed as normal (exposure time the same as the raw image). The dark image is simply subtracted from the raw image. Note also that dark images will also contain a bias, so darks must be bias-subtracted before they are used on the raw image.}
 %
 %
 \item \emph{Flat-field correction}. Every CCD will have a non-uniform response across its photon collecting area. One side of the CCD, or any arbitrary grouping of pixels, may naturally be more sensitive than the other pixels. As well as this, the optical system itself may produce some brightness variation across the focal plane. To account for this, the raw image must be divided by a `flat-field' in order to normalize the spatially non-uniform response detected by the CCD. The `flat-field' is an image taken of a uniformly illuminated surface. For space-based telescopes this uniformly illuminated image is usually taken by closing the telescope front aperture and lighting a lamp placed near the aperture cover, or the telescope front door may contain a `diffuser' that scatters sun light to provide uniform illumination. The LASCO system uses a quartz filter on the telescope cover that diffuses exterior light, allowing a uniform illumination of the CCD \citep{bru95}. It is important that the dark and bias images be subtracted from the flat-field before the raw images (which are also dark and bias image subtracted) is divided by the flat field.
@@ -233,7 +233,7 @@ As shown in Figure~\ref{fig:nrh_layout}, the array antennas are arranged in a pe
 \begin{figure}
 	\begin{center}
 		\includegraphics[scale=0.8]{nrh_uv_coverage.png}
-		\caption{(Left) Instantaneous $u-v$ coverage of NRH on 2004 June 27 at 11:55\,UT. (Right) Earth rotation synthesis $u-v$ 		  coverage between 08:30--15:10\,UT. Units are in $10^3$\,rad$^{-1}$ \citep{mercier2009}.}
+		\caption[NRH instantaneous and Earth rotation synthesis $u-v$ coverage]{{\color{blue}(Left) Instantaneous $u-v$ coverage of NRH on 2004 June 27 at 11:55\,UT. (Right) Earth rotation synthesis $u-v$ coverage between 08:30--15:10\,UT. Units are in $10^3$\,rad$^{-1}$ \citep{mercier2009}.}}
 	\label{fig:nrh_uv}
 	\end{center}
 \end{figure}
@@ -358,7 +358,7 @@ The time domain resolution for both the LFR and HFR is determined by the DPU. No
 \subsection{Rosse Solar Terrestrial Observatory}\label{sec:30}
 
 \subsubsection{Antennas and Spectrometers}
-The Rosse Solar Terrestrial Observatory was established in 2010 at Birr Castle, Co. Offaly, Ireland (53$^{\circ}$ 05' 38.9'' , 7$^{\circ}$ 55' 12.7'') \citep{zucca2012}. The primary objective of the observatory is to observe low frequency radio bursts occurring in the solar atmosphere and the ionospheric and geomagnetic response following this radio activity\footnote{{\color{blue}The ionospheric and geomagnetic observing instruments are not described here, see www.rosseobservatory.ie for details.}}. To date, three \textit{Compound Astronomical Low-cost Low-frequency Instrument for Spectroscopy and Transportable Observatory} \citep[CALLISTO;][]{Benz2005} spectrometers have been installed, with the capability of observing in the frequency range 10--870\,MHz. The receivers are fed simultaneously by biconical and log-periodic antennas. Nominally, frequency spectra in the range 10--400\,MHz are obtained with 4 sweeps per second over 600 channels. \st{The instrumental set-up is described here.}
+The Rosse Solar Terrestrial Observatory was established in 2010 at Birr Castle, Co. Offaly, Ireland \citep[53$^{\circ}$ 05$'$ 38.9$''$ , 7$^{\circ}$ 55$'$ 12.7$''$;][]{zucca2012}. The primary objective of the observatory is to observe low frequency radio bursts occurring in the solar atmosphere and the ionospheric and geomagnetic response following this radio activity\footnote{{\color{blue}The ionospheric and geomagnetic observing instruments are not described here, see www.rosseobservatory.ie for details.}}. To date, three \textit{Compound Astronomical Low-cost Low-frequency Instrument for Spectroscopy and Transportable Observatory} \citep[CALLISTO;][]{Benz2005} spectrometers have been installed, with the capability of observing in the frequency range 10--870\,MHz. The receivers are fed simultaneously by biconical and log-periodic antennas. Nominally, frequency spectra in the range 10--400\,MHz are obtained with 4 sweeps per second over 600 channels. \st{The instrumental set-up is described here.}
 
 RSTO employs three Callisto receivers that cover the ranges of 10--100, 100--200, 200--400\,MHz, respectively. The 10--100\,MHz receiver (Callisto-1), is fed (via frequency up-converter) by a biconical Schwarzbeck antenna, model number VHBD 9134. The antenna elements are 4\,m long allowing a nominal frequency bandwidth of 20--200\,MHz. Signal feed from the bicone to Callisto-1 is via $70\,\Omega$ coaxial cable, $\sim$20 meters in length (Figure~\ref{fig:rsto_layout}). The bicone is mounted on a Yaesu-1 motor that permits solar tracking in the azimuth direction only (the antenna beam is symmetric in elevation). 
 %The bicone motor control unit (MCU) is located in the control room and PC communicates with the motor is via RS232 ($\sim20$\,m).
@@ -412,14 +412,14 @@ Since the installation of RSTO in September 2010 there has been a number of radi
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.6, trim=1cm 2cm 2.5cm 1cm]{hbone_backsub_with_nda.pdf}
-\caption[Callisto observations type II and herringbones]{{\color{blue}(Top) A zoom of the herringbone structure shown in Figure~\ref{fig:typeII_hb}. The time sampling of the Callisto spectrometers (0.25\,s) is fast enough to catch such herringbone features. (Middle) Same spectrum but background subtracted, the herringbones have a much better contrast in this spectrum. (Bottom) The same herringbones observed by the NDA, which has a time sampling of 1 second (\emph{higher time resolution data is available by request to the NDA team - http://www.obs-nancay.fr/}).}}
+\caption[Callisto and NDA observations herringbones]{{\color{blue}(Top) A zoom of the herringbone structure shown in Figure~\ref{fig:typeII_hb}. The time sampling of the Callisto spectrometers (0.25\,s) is fast enough to catch such herringbone features. (Middle) Same spectrum but background subtracted, the herringbones have a much better contrast in this spectrum. (Bottom) The same herringbones observed by the NDA, which has a time sampling of 1 second (\emph{higher time resolution data is available by request to the NDA team - http://www.obs-nancay.fr/}).}}
 \label{fig:herringbones}
 \end{center}
 \end{figure}
 \begin{figure}[!t]
 \begin{center}
 \includegraphics[scale=0.7, trim=1cm 0cm 0cm 1cm]{callisto_instr_paper3}
-\caption[Callisto observations type II and herringbones]{Background subtracted dynamic spectra showing a type III and II radio burst observed on 21 September 2011. These spectra demonstrates the low levels of RFI at RSTO, especially in the 200--400\,MHz range where there is almost no RFI \citep{zucca2012}.}
+\caption[Callisto observations of type III and II radio burst]{Background subtracted dynamic spectra showing a type III and II radio burst observed on 21 September 2011. These spectra demonstrates the low levels of RFI at RSTO, especially in the 200--400\,MHz range where there is almost no RFI \citep{zucca2012}.}
 \label{fig:type_III}
 \end{center}
 \end{figure}

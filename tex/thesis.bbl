@@ -1,4 +1,4 @@
-\begin{thebibliography}{298}
+\begin{thebibliography}{300}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allen}(1947)}]{allen1947}
@@ -97,6 +97,10 @@
 {\sc {Ball}, L. \& {Melrose}, D.B.} (2001). {Shock Drift Acceleration of
   Electrons}. {\em Publications of the Astronomical Society of Australia\/},
   {\bf 18}, 361--373.
+
+\bibitem[{{Balogh} \& {Treumann}(2013)}]{balogh2013}
+{\sc {Balogh}, A. \& {Treumann}, R.A.} (2013). {\em {Physics of Collisionless
+  Shocks}\/}.
 
 \bibitem[{{Bastian} {\em et~al.\/}(2001){Bastian}, {Pick}, {Kerdraon}, {Maia}
   \& {Vourlidas}}]{bastian2001}
@@ -414,6 +418,11 @@
 {\sc Duda, R.O. \& Hart, P.E.} (1972). Use of the hough transformation to
   detect lines and curves in pictures. {\em Commun. ACM\/}, {\bf 15}, 11--15.
 
+\bibitem[{{Edmiston} \& {Kennel}(1984)}]{edmiston1984}
+{\sc {Edmiston}, J.P. \& {Kennel}, C.F.} (1984). {A parametric survey of the
+  first critical Mach number for a fast MHD shock.} {\em Journal of Plasma
+  Physics\/}, {\bf 32}, 429--441.
+
 \bibitem[{{Emslie} {\em et~al.\/}(2004){Emslie}, {Kucharek}, {Dennis},
   {Gopalswamy}, {Holman}, {Share}, {Vourlidas}, {Forbes}, {Gallagher}, {Mason},
   {Metcalf}, {Mewaldt}, {Murphy}, {Schwartz} \& {Zurbuchen}}]{emslie2004}
@@ -702,6 +711,10 @@
   {Guhathakurta}, M. \& {Christian}, E.} (2008). {The STEREO Mission: An
   Introduction}. {\em \ssr\/}, {\bf 136}, 5--16.
 
+\bibitem[{{Kennel}(1987)}]{edmiston1987}
+{\sc {Kennel}, C.F.} (1987). {Critical Mach numbers in classical
+  magnetohydrodynamics}. {\em \jgr\/}, {\bf 92}, 13427--13437.
+
 \bibitem[{{Kerdraon} \& {Delouis}(1997)}]{kerdraon1997}
 {\sc {Kerdraon}, A. \& {Delouis}, J.M.} (1997). {The Nan{\c c}ay
   Radioheliograph}. In G.~{Trottet}, ed., {\em Coronal Physics from Radio and
@@ -791,11 +804,6 @@
 {\sc {Krucker}, S., {Larson}, D.E., {Lin}, R.P. \& {Thompson}, B.J.} (1999).
   {On the Origin of Impulsive Electron Events Observed at 1 AU}. {\em \apj\/},
   {\bf 519}, 864--875.
-
-\bibitem[{{Lantos}(1999)}]{lantos1999}
-{\sc {Lantos}, P.} (1999). {Low Frequency Observations of the Quiet Sun: a
-  Review}. In T.S. {Bastian}, N.~{Gopalswamy} \& K.~{Shibasaki}, eds., {\em
-  Proceedings of the Nobeyama Symposium\/}, 11--24.
 
 \bibitem[{{Lecacheux}(2000)}]{lecacheux2000}
 {\sc {Lecacheux}, A.} (2000). {The Nan{\c c}ay Decameter Array: A Useful Step
