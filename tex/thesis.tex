@@ -1,7 +1,7 @@
 
-% ----------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 %                   Latex File for Eoin Carley's PhD (2013)
-% ----------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 
 %Latext thesis template from Harish Bhanderi's PhD/MPhil template, then Uni Cambridge
 % http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/ThesisStyle/
@@ -9,7 +9,7 @@
 %: Style file for Latex
 % Most style definitions are in the external file PhDthesisPSnPDF.
 % In this template package, it can be found in ./Latex/Classes/
-\documentclass[a4paper, oneside, 12pt]{Latex/Classes/PhDthesisPSnPDF}
+\documentclass[a4paper, twoside, 12pt]{Latex/Classes/PhDthesisPSnPDF}
 
 %Change "oneside" to "twoside" for final submission-grade thesis after viva/corrections
 
@@ -173,37 +173,50 @@
 
 \vspace*{4cm}
 \begin{flushright}
-A dissertation submitted to the University of Dublin \\
-for the degree of \emph{Philosophi\ae\,Doctor (PhD)} %Doctor of Philosophy
+	A dissertation submitted to the University of Dublin \\
+	for the degree of \emph{Philosophi\ae\,Doctor (PhD)} %Doctor of Philosophy
 \end{flushright}
 
 \vspace*{\fill}
 \begin{flushright}
-{\authorfont {Eoin P. Carley} \\[1mm]
-{\othertitlefont {Trinity College Dublin}, September 2013}\\[.5mm]
-\rule{0.9\textwidth}{0.5mm}\\[4mm]
+	{\authorfont {Eoin P. Carley} \\[1mm]
+	{\othertitlefont {Trinity College Dublin}, September 2013}\\[.5mm]
+	\rule{0.9\textwidth}{0.5mm}\\[4mm]
 
-\begin{minipage}[b][15mm][t]{12.5cm}
-\raggedleft \sc
-School of Physics\\
-University of Dublin\\
-Trinity College\\
-\end{minipage}
-\hspace*{1mm}
-\begin{minipage}[b][15mm][t]{1.15cm}
-\includegraphics[height=16mm]{tcd_crest.jpg}
-\end{minipage}}
+		\begin{minipage}[b][15mm][t]{12.5cm}
+			\raggedleft \sc
+			School of Physics\\
+			University of Dublin\\
+			Trinity College\\
+		\end{minipage}
+		
+	\hspace*{1mm}
+
+		\begin{minipage}[b][15mm][t]{1.15cm}
+			\includegraphics[height=16mm]{tcd_crest.jpg}
+		\end{minipage}}
 
  \end{flushright}
-
 %: ----------------------- tie in front matter ------------------------
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+
+% ----------------------------------------------------------------------
 
 \frontmatter
 
 \include{0/declaration}
 \include{0/abstract}
 \include{0/dedication}
+\newpage
+\thispagestyle{empty}
+\mbox{}
 \include{0/acknowledgement}
+\newpage
+\thispagestyle{empty}
+\mbox{}
 \include{0/publications}
 
 
@@ -228,11 +241,11 @@ Trinity College\\
 
 
 \mainmatter
-\topmargin = 3mm
-\marginparwidth = 35pt
-\textheight = 630pt
-\textwidth = 500pt
-\footskip = 10mm
+%\topmargin = 3mm
+%\marginparwidth = 35pt
+%\textheight = 630pt
+%\textwidth = 500pt
+%\footskip = 10mm
 
 
 \pagestyle{fancy}
